@@ -5,1334 +5,1194 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: IT_101, server: 84.17.58.205, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
-  - {name: NO_138, server: 45.12.223.195, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
-  - {name: ES_38, server: 194.150.167.36, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 US_154, server: 143.244.57.99, port: 44745, type: ss, cipher: aes-256-gcm, password: fyXdw87yCH9SAmFkPvsvLVqC}
-  - {name: 🇺🇸 US_140, server: 198.8.92.84, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
-  - {name: SI_179, server: 195.158.249.36, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: LT_112, server: 194.41.112.11, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: FR_64, server: 185.108.106.102, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 🇺🇸 US_233, server: 104.244.211.179, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 US_155, server: 198.147.22.87, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇺🇸 US_205, server: ss.us.sshmax.net, port: 57478, type: ss, cipher: chacha20-ietf-poly1305, password: syCiJl3nb8OD}
-  - {name: NO_139, server: 95.174.66.35, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 Pool_🇺🇸US_176, server: 198.147.22.87, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇩🇪 YouTube晓柒科技分享：德国, server: dg06.xqkj.cloud, port: 1716, type: vmess, uuid: 1ece649d-e9aa-4203-8e1b-00858774e59d, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: dg06.xqkj.cloud}}
-  - {name: 🇺🇸 US_160, server: 198.8.92.84, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
-  - {name: 🇺🇸 YouTube晓柒科技分享：美国, server: us30.xqkj.cloud, port: 1121, type: vmess, uuid: 1ece649d-e9aa-4203-8e1b-00858774e59d, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: us30.xqkj.cloud}}
-  - {name: 🇮🇳 YouTube晓柒科技分享：印度, server: ind06.xqkj.cloud, port: 1416, type: vmess, uuid: 1ece649d-e9aa-4203-8e1b-00858774e59d, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: ind06.xqkj.cloud}}
-  - {name: 🇺🇸 YouTube晓柒科技分享：美国 2, server: us21.xqkj.cloud, port: 1121, type: vmess, uuid: 1ece649d-e9aa-4203-8e1b-00858774e59d, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: us21.xqkj.cloud}}
-  - {name: HR_88, server: 85.10.50.164, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 🇺🇸 US_215, server: ss.us.sshmax.net, port: 1443, type: ss, cipher: chacha20-ietf-poly1305, password: T3j6elRwEuA4}
-  - {name: 🇩🇪 YouTube晓柒科技分享：德国 2, server: dg05.xqkj.cloud, port: 1715, type: vmess, uuid: 1ece649d-e9aa-4203-8e1b-00858774e59d, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: dg05.xqkj.cloud}}
-  - {name: 🇮🇳 YouTube晓柒科技分享：印度 2, server: ind09.xqkj.cloud, port: 1412, type: vmess, uuid: 1ece649d-e9aa-4203-8e1b-00858774e59d, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: ind09.xqkj.cloud}}
-  - {name: 🇺🇸 YouTube晓柒科技分享：美国 3, server: us24.xqkj.cloud, port: 1124, type: vmess, uuid: 1ece649d-e9aa-4203-8e1b-00858774e59d, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: us24.xqkj.cloud}}
-  - {name: SK_183, server: 37.120.221.5, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 🇺🇸 US_193, server: 23.82.11.49, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: RO_156, server: 193.29.106.61, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇮🇳 YouTube晓柒科技分享：印度 3, server: ind03.xqkj.cloud, port: 1413, type: vmess, uuid: 1ece649d-e9aa-4203-8e1b-00858774e59d, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: ind03.xqkj.cloud}}
-  - {name: 🇮🇳 YouTube晓柒科技分享：印度 4, server: ind07.xqkj.cloud, port: 1417, type: vmess, uuid: 1ece649d-e9aa-4203-8e1b-00858774e59d, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: ind07.xqkj.cloud}}
-  - {name: FR_52, server: ss.fr.sshmax.net, port: 1443, type: ss, cipher: chacha20-ietf-poly1305, password: 6nhHHuGHw2D5}
-  - {name: 🇩🇪 YouTube晓柒科技分享：德国 3, server: dg09.xqkj.cloud, port: 1715, type: vmess, uuid: 1ece649d-e9aa-4203-8e1b-00858774e59d, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: dg09.xqkj.cloud}}
-  - {name: CA_18, server: ss3.ssrsub.one, port: 9443, type: ss, cipher: aes-128-gcm, password: suo.yt/ssrsub}
-  - {name: 🇺🇸 YouTube晓柒科技分享：美国 4, server: us04.xqkj.cloud, port: 1114, type: vmess, uuid: 1ece649d-e9aa-4203-8e1b-00858774e59d, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: us04.xqkj.cloud}}
-  - {name: 🇺🇸 YouTube晓柒科技分享：美国 5, server: us03.xqkj.cloud, port: 1113, type: vmess, uuid: 1ece649d-e9aa-4203-8e1b-00858774e59d, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: us03.xqkj.cloud}}
-  - {name: ZZ_206, server: 138.199.16.137, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
-  - {name: AU_07, server: 45.248.76.171, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇮🇳 YouTube晓柒科技分享：印度 5, server: ind01.xqkj.cloud, port: 1411, type: vmess, uuid: 1ece649d-e9aa-4203-8e1b-00858774e59d, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: ind01.xqkj.cloud}}
-  - {name: 🇺🇸 US_234, server: 198.8.92.84, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
-  - {name: 🇺🇸 YouTube晓柒科技分享：美国 6, server: us07.xqkj.cloud, port: 1117, type: vmess, uuid: 1ece649d-e9aa-4203-8e1b-00858774e59d, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: us07.xqkj.cloud}}
-  - {name: 🇳🇱 YouTube晓柒科技分享：荷兰, server: hl04.xqkj.cloud, port: 1914, type: vmess, uuid: 1ece649d-e9aa-4203-8e1b-00858774e59d, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: hl04.xqkj.cloud}}
-  - {name: 🇳🇱 YouTube晓柒科技分享：荷兰 2, server: hl05.xqkj.cloud, port: 1915, type: vmess, uuid: 1ece649d-e9aa-4203-8e1b-00858774e59d, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: hl05.xqkj.cloud}}
-  - {name: RO_159, server: 91.250.240.140, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇬🇧 YouTube晓柒科技分享：伦敦, server: ld07.xqkj.cloud, port: 1517, type: vmess, uuid: 1ece649d-e9aa-4203-8e1b-00858774e59d, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: ld07.xqkj.cloud}}
-  - {name: 🇳🇱 YouTube晓柒科技分享：荷兰 3, server: hl07.xqkj.cloud, port: 1917, type: vmess, uuid: 1ece649d-e9aa-4203-8e1b-00858774e59d, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: hl07.xqkj.cloud}}
-  - {name: 🇬🇧 YouTube晓柒科技分享：伦敦 2, server: ld06.xqkj.cloud, port: 1516, type: vmess, uuid: 1ece649d-e9aa-4203-8e1b-00858774e59d, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: ld06.xqkj.cloud}}
-  - {name: 🇳🇱 YouTube晓柒科技分享：荷兰 4, server: hl06.xqkj.cloud, port: 1916, type: vmess, uuid: 1ece649d-e9aa-4203-8e1b-00858774e59d, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: hl06.xqkj.cloud}}
-  - {name: 🇳🇱 YouTube晓柒科技分享：荷兰 5, server: hl02.xqkj.cloud, port: 1912, type: vmess, uuid: 1ece649d-e9aa-4203-8e1b-00858774e59d, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: hl02.xqkj.cloud}}
-  - {name: 🇬🇧 YouTube晓柒科技分享：伦敦 3, server: ld02.xqkj.cloud, port: 1512, type: vmess, uuid: 1ece649d-e9aa-4203-8e1b-00858774e59d, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: ld02.xqkj.cloud}}
-  - {name: GB_57, server: 81.19.223.189, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: 🇬🇧 YouTube晓柒科技分享：伦敦 4, server: ld03.xqkj.cloud, port: 1513, type: vmess, uuid: 1ece649d-e9aa-4203-8e1b-00858774e59d, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: ld03.xqkj.cloud}}
-  - {name: 🇺🇸 US_206, server: 198.8.92.84, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
-  - {name: 🇳🇱 YouTube晓柒科技分享：荷兰 6, server: hl08.xqkj.cloud, port: 1918, type: vmess, uuid: 1ece649d-e9aa-4203-8e1b-00858774e59d, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: hl08.xqkj.cloud}}
-  - {name: 🇩🇪 YouTube晓柒科技分享：德国 4, server: dg08.xqkj.cloud, port: 1718, type: vmess, uuid: 1ece649d-e9aa-4203-8e1b-00858774e59d, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: dg08.xqkj.cloud}}
-  - {name: 🇬🇧 YouTube晓柒科技分享：伦敦 5, server: ld01.xqkj.cloud, port: 1511, type: vmess, uuid: 1ece649d-e9aa-4203-8e1b-00858774e59d, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: ld01.xqkj.cloud}}
-  - {name: 🇺🇸 YouTube晓柒科技分享：美国 7, server: us05.xqkj.cloud, port: 1115, type: vmess, uuid: 1ece649d-e9aa-4203-8e1b-00858774e59d, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: us05.xqkj.cloud}}
-  - {name: CY_26, server: 195.47.194.70, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇳🇱 YouTube晓柒科技分享：荷兰 7, server: hl01.xqkj.cloud, port: 1911, type: vmess, uuid: 1ece649d-e9aa-4203-8e1b-00858774e59d, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: hl01.xqkj.cloud}}
-  - {name: LU_113, server: 185.153.151.100, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: IN_91, server: 137.59.52.107, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: FR_56, server: ss.uk.sshmax.net, port: 57478, type: ss, cipher: chacha20-ietf-poly1305, password: HgVDIN05O6bH}
-  - {name: 🇮🇳 YouTube晓柒科技分享：印度 6, server: ind08.xqkj.cloud, port: 1418, type: vmess, uuid: 1ece649d-e9aa-4203-8e1b-00858774e59d, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: ind08.xqkj.cloud}}
-  - {name: 🇬🇧 YouTube晓柒科技分享：伦敦 6, server: ld04.xqkj.cloud, port: 1514, type: vmess, uuid: 1ece649d-e9aa-4203-8e1b-00858774e59d, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: ld04.xqkj.cloud}}
-  - {name: LU_117, server: 185.153.151.85, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 YouTube晓柒科技分享：美国 8, server: us26.xqkj.cloud, port: 1126, type: vmess, uuid: 1ece649d-e9aa-4203-8e1b-00858774e59d, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: us26.xqkj.cloud}}
-  - {name: 🇺🇸 YouTube晓柒科技分享：美国 9, server: us27.xqkj.cloud, port: 1127, type: vmess, uuid: 1ece649d-e9aa-4203-8e1b-00858774e59d, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: us27.xqkj.cloud}}
-  - {name: 🇺🇸 YouTube晓柒科技分享：美国 10, server: us29.xqkj.cloud, port: 1129, type: vmess, uuid: 1ece649d-e9aa-4203-8e1b-00858774e59d, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: us29.xqkj.cloud}}
-  - {name: 🇩🇪 YouTube晓柒科技分享：德国 5, server: dg07.xqkj.cloud, port: 1717, type: vmess, uuid: 1ece649d-e9aa-4203-8e1b-00858774e59d, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: dg07.xqkj.cloud}}
-  - {name: LU_116, server: 185.153.151.104, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: ZZ_258, server: 103.156.50.113, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 YouTube晓柒科技分享：美国 11, server: us06.xqkj.cloud, port: 1116, type: vmess, uuid: 1ece649d-e9aa-4203-8e1b-00858774e59d, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: us06.xqkj.cloud}}
-  - {name: 🇺🇸 YouTube晓柒科技分享：美国 12, server: us25.xqkj.cloud, port: 1125, type: vmess, uuid: 1ece649d-e9aa-4203-8e1b-00858774e59d, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: us25.xqkj.cloud}}
-  - {name: 🇳🇱 YouTube晓柒科技分享：荷兰 8, server: hl09.xqkj.cloud, port: 1919, type: vmess, uuid: 1ece649d-e9aa-4203-8e1b-00858774e59d, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: hl09.xqkj.cloud}}
-  - {name: 🇩🇪 YouTube晓柒科技分享：德国 6, server: dg03.xqkj.cloud, port: 1713, type: vmess, uuid: 1ece649d-e9aa-4203-8e1b-00858774e59d, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: dg03.xqkj.cloud}}
-  - {name: NG_123, server: 102.165.23.38, port: 36460, type: ss, cipher: aes-256-gcm, password: yUXad7DGF8L5cTShEpnp2N6z}
-  - {name: 🇺🇸 US_191, server: 23.82.11.49, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: MY_121, server: 42.0.30.164, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
-  - {name: LT_111, server: 194.41.112.11, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: NL_124, server: 91.206.168.24, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
-  - {name: AU_05, server: 45.248.79.67, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇷🇺 RU_122, server: 5.189.202.16, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: FR_66, server: 185.166.84.87, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 YouTube晓柒科技分享：美国 13, server: us02.xqkj.cloud, port: 1112, type: vmess, uuid: 1ece649d-e9aa-4203-8e1b-00858774e59d, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: us02.xqkj.cloud}}
-  - {name: 🇨🇦 YouTube晓柒科技分享：加拿大, server: jnd04.xqkj.cloud, port: 1611, type: vmess, uuid: 1ece649d-e9aa-4203-8e1b-00858774e59d, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: jnd04.xqkj.cloud}}
-  - {name: 🇨🇦 YouTube晓柒科技分享：加拿大 2, server: jnd09.xqkj.cloud, port: 1619, type: vmess, uuid: 1ece649d-e9aa-4203-8e1b-00858774e59d, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: jnd09.xqkj.cloud}}
-  - {name: 🇺🇸 YouTube晓柒科技分享：美国 14, server: us01.xqkj.cloud, port: 1111, type: vmess, uuid: 1ece649d-e9aa-4203-8e1b-00858774e59d, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: us01.xqkj.cloud}}
-  - {name: 🇨🇦 YouTube晓柒科技分享：加拿大 3, server: jnd01.xqkj.cloud, port: 1611, type: vmess, uuid: 1ece649d-e9aa-4203-8e1b-00858774e59d, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: jnd01.xqkj.cloud}}
-  - {name: 🇨🇦 YouTube晓柒科技分享：加拿大 4, server: jnd07.xqkj.cloud, port: 1611, type: vmess, uuid: 1ece649d-e9aa-4203-8e1b-00858774e59d, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: jnd07.xqkj.cloud}}
-  - {name: 🇨🇦 YouTube晓柒科技分享：加拿大 5, server: jnd06.xqkj.cloud, port: 1611, type: vmess, uuid: 1ece649d-e9aa-4203-8e1b-00858774e59d, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: jnd06.xqkj.cloud}}
-  - {name: 🇨🇦 YouTube晓柒科技分享：加拿大 6, server: jnd08.xqkj.cloud, port: 1611, type: vmess, uuid: 1ece649d-e9aa-4203-8e1b-00858774e59d, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: jnd08.xqkj.cloud}}
-  - {name: 🇺🇸 US_224, server: 198.8.92.84, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 🇺🇸 YouTube晓柒科技分享：美国 15, server: us09.xqkj.cloud, port: 1119, type: vmess, uuid: 1ece649d-e9aa-4203-8e1b-00858774e59d, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: us09.xqkj.cloud}}
-  - {name: 🇨🇦 YouTube晓柒科技分享：加拿大 7, server: jnd02.xqkj.cloud, port: 1611, type: vmess, uuid: 1ece649d-e9aa-4203-8e1b-00858774e59d, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: jnd02.xqkj.cloud}}
-  - {name: 🇺🇸 YouTube晓柒科技分享：美国 16, server: us08.xqkj.cloud, port: 1118, type: vmess, uuid: 1ece649d-e9aa-4203-8e1b-00858774e59d, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: us08.xqkj.cloud}}
-  - {name: 🇸🇬 SG_175, server: 89.187.163.210, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 🇬🇧 YouTube晓柒科技分享：伦敦 7, server: ld05.xqkj.cloud, port: 1515, type: vmess, uuid: 1ece649d-e9aa-4203-8e1b-00858774e59d, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: ld05.xqkj.cloud}}
-  - {name: 🇨🇦 YouTube晓柒科技分享：加拿大 8, server: jnd05.xqkj.cloud, port: 1611, type: vmess, uuid: 1ece649d-e9aa-4203-8e1b-00858774e59d, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: jnd05.xqkj.cloud}}
-  - {name: MY_120, server: 42.0.30.164, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
-  - {name: 🇸🇬 SG_174, server: 89.187.163.212, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: ZZ_259, server: 138.199.19.162, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇳🇱 YouTube晓柒科技分享：荷兰 9, server: hl03.xqkj.cloud, port: 1913, type: vmess, uuid: 1ece649d-e9aa-4203-8e1b-00858774e59d, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: hl03.xqkj.cloud}}
-  - {name: NZ_140, server: 180.149.231.11, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: ZZ_262, server: 138.199.19.186, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 US_204, server: 143.244.56.230, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
   - {name: ZZ_263, server: 138.199.19.182, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: IN_92, server: 137.59.52.107, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 US_203, server: 143.244.56.230, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇬🇧 YouTube晓柒科技分享：伦敦 8, server: ld08.xqkj.cloud, port: 1517, type: vmess, uuid: 1ece649d-e9aa-4203-8e1b-00858774e59d, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: ld08.xqkj.cloud}}
-  - {name: PL_142, server: 5.133.14.196, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: FR_49, server: ss.uk.sshmax.net, port: 1443, type: ss, cipher: chacha20-ietf-poly1305, password: JSvsHhHYIuVG}
-  - {name: 🇺🇸 US_192, server: 23.82.11.49, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: Pool_🇷🇴RO_4017, server: 91.90.123.115, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
-  - {name: Pool_🇷🇴RO_3680, server: 91.90.123.115, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
-  - {name: Pool_🇬🇧GB_2375, server: 185.44.76.188, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: GB_73, server: 185.44.76.188, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: LU_115, server: 185.153.151.118, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 91.90.123.115:41676, server: 91.90.123.115, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
-  - {name: Pool_🇷🇴RO_4368, server: 91.90.123.115, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 🇸🇬 SG_173, server: 89.187.163.205, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 91.90.123.115:48938, server: 91.90.123.115, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
-  - {name: FR_69, server: 51.195.149.30, port: 57478, type: ss, cipher: chacha20-ietf-poly1305, password: HgVDIN05O6bH}
-  - {name: CA_12, server: 139.99.103.108, port: 57478, type: ss, cipher: chacha20-ietf-poly1305, password: 743zEswAb7oU}
-  - {name: ZZ_200, server: 138.199.16.137, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇺🇸 YouTube晓柒科技分享：美国 17, server: us22.xqkj.cloud, port: 1122, type: vmess, uuid: 1ece649d-e9aa-4203-8e1b-00858774e59d, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: us22.xqkj.cloud}}
-  - {name: UA_188, server: 37.19.220.199, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
-  - {name: 🇺🇸 US_165, server: 212.102.44.83, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: CA_16, server: ss4.ssrsub.one, port: 2443, type: ss, cipher: aes-128-gcm, password: https://dlj.tf/ssrsub}
-  - {name: 🇺🇸 Pool_🇺🇸US_184, server: 143.244.60.167, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: HR_64, server: 85.10.50.164, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: RO_145, server: 91.90.123.115, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: RO_146, server: 91.90.123.115, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
-  - {name: 🇺🇸 YouTube晓柒科技分享：美国 18, server: us23.xqkj.cloud, port: 1123, type: vmess, uuid: 1ece649d-e9aa-4203-8e1b-00858774e59d, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: us23.xqkj.cloud}}
-  - {name: 🇺🇸 US_214, server: 207.244.67.149, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 🇺🇸 US_217, server: 143.244.60.162, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: ZZ_256, server: 138.199.16.137, port: 44539, type: ss, cipher: aes-256-gcm, password: r6hDrkP4Et6EENTS8Qy7Tcmg}
-  - {name: 🇨🇦 YouTube晓柒科技分享：加拿大 9, server: jnd03.xqkj.cloud, port: 1611, type: vmess, uuid: 1ece649d-e9aa-4203-8e1b-00858774e59d, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: jnd03.xqkj.cloud}}
-  - {name: 🇺🇸 US_202, server: 66.115.182.82, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 US_225, server: 212.102.44.83, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
-  - {name: 🇺🇸 US_156, server: 198.147.22.87, port: 35200, type: ss, cipher: aes-256-gcm, password: WBLAbN6AwtV5avBx73hFRLB3}
-  - {name: SI_181, server: 195.158.249.36, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: FR_54, server: ss.de.sshmax.net, port: 21474, type: ss, cipher: chacha20-ietf-poly1305, password: HgCMlgbtQMxl}
-  - {name: IN_94, server: 103.94.27.229, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: HR_89, server: 85.10.50.164, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: CA_15, server: ss2.ssrsub.one, port: 2443, type: ss, cipher: aes-128-gcm, password: https://dlj.tf/ssrsub}
-  - {name: CA_11, server: ss1.ssrsub.one, port: 9443, type: ss, cipher: aes-128-gcm, password: suo.yt/ssrsub}
-  - {name: RO_164, server: 91.90.123.115, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
-  - {name: FR_47, server: 185.108.106.152, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
-  - {name: FI_45, server: 196.244.191.45, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: IN_93, server: 137.59.52.107, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: FR_55, server: 185.108.106.152, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: FR_61, server: 185.166.84.63, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: FR_68, server: 51.195.62.223, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: FR_53, server: 185.108.106.74, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 US_157, server: 198.147.22.87, port: 32558, type: ss, cipher: aes-256-gcm, password: gJYzm3TLbdL495ryQptaJXQk}
-  - {name: 🇺🇸 US_242, server: 192.154.255.54, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: GB_184, server: 185.44.76.188, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇺🇸 US_236, server: 212.102.44.83, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇺🇸 US_227, server: 143.244.57.99, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: RO_148, server: 193.29.106.109, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: RO_150, server: 193.29.106.5, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: RO_149, server: 89.37.95.15, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
-  - {name: CA_09, server: 208.78.41.197, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: CH_22, server: 84.17.53.210, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: FR_57, server: ss.de.sshmax.net, port: 21474, type: ss, cipher: chacha20-ietf-poly1305, password: cWv8FcJk0VpS}
-  - {name: GB_77, server: 89.238.130.251, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: RO_147, server: 91.90.123.115, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
-  - {name: PT_144, server: 194.39.127.242, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇮🇳 YouTube晓柒科技分享：印度 7, server: ind04.xqkj.cloud, port: 1414, type: vmess, uuid: 1ece649d-e9aa-4203-8e1b-00858774e59d, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: ind04.xqkj.cloud}}
-  - {name: 🇷🇺 RU_170, server: 5.189.202.16, port: 44539, type: ss, cipher: aes-256-gcm, password: r6hDrkP4Et6EENTS8Qy7Tcmg}
-  - {name: 🇺🇸 Pool_🇺🇸US_4190, server: 198.8.92.84, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: 🇺🇸 Pool_🇺🇸US_5666, server: 198.8.92.84, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: CY_25, server: 195.47.194.40, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 US_222, server: 198.147.22.87, port: 31757, type: ss, cipher: aes-256-gcm, password: wj7nDCuNARchSeKNCN8VFK62}
-  - {name: 🇮🇳 YouTube晓柒科技分享：印度 8, server: ind05.xqkj.cloud, port: 1415, type: vmess, uuid: 1ece649d-e9aa-4203-8e1b-00858774e59d, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: ind05.xqkj.cloud}}
-  - {name: 🇷🇺 RU_171, server: 5.189.202.16, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: RO_162, server: 194.37.98.211, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: RO_163, server: 194.37.98.211, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇪🇺 欧洲(Youtube频道：工具大师！), server: 185.153.151.100, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 马其顿(Youtube频道：工具大师！), server: 185.225.28.101, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
   - {name: 🇷🇺 RU_119, server: 5.189.202.16, port: 44745, type: ss, cipher: aes-256-gcm, password: fyXdw87yCH9SAmFkPvsvLVqC}
-  - {name: 🇮🇳 YouTube晓柒科技分享：印度 9, server: ind02.xqkj.cloud, port: 1412, type: vmess, uuid: 1ece649d-e9aa-4203-8e1b-00858774e59d, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: ind02.xqkj.cloud}}
-  - {name: ES_42, server: 194.150.167.28, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇺🇸 US_236, server: 212.102.44.83, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇪🇺 欧洲(Youtube频道：工具大师！) 2, server: 185.153.151.83, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇪🇺 欧洲(Youtube频道：工具大师！) 3, server: 185.153.151.98, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: LU_113, server: 185.153.151.100, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: FR_55, server: 185.108.106.152, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 🇪🇺 欧洲(Youtube频道：工具大师！) 4, server: 185.153.151.118, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇺🇸 US_155, server: 198.147.22.87, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇺🇸 美国(Youtube频道：工具大师！), server: 104.244.211.179, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇪🇺 欧洲(Youtube频道：工具大师！) 5, server: 185.153.151.85, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇪🇺 欧洲(Youtube频道：工具大师！) 6, server: 217.138.219.229, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: IT_101, server: 84.17.58.205, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
+  - {name: 🇺🇸 US_225, server: 212.102.44.83, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
+  - {name: LU_115, server: 185.153.151.118, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇪🇺 欧洲(Youtube频道：工具大师！) 7, server: 46.182.107.44, port: 443, type: vmess, uuid: fe5f69e7-e183-439b-950b-9661ef0651f2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /footers, ws-headers: {Host: www.68737987.xyz}}
+  - {name: IN_91, server: 137.59.52.107, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇪🇺 欧洲(Youtube频道：工具大师！) 8, server: 5.189.202.16, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
+  - {name: 🇺🇸 US_191, server: 23.82.11.49, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 🇳🇱 荷兰(Youtube频道：工具大师！), server: 46.182.107.93, port: 443, type: vmess, uuid: 743bdc87-1dea-41bf-aa0b-51dfbbfec8aa, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /footers, ws-headers: {Host: www.54872833.xyz}}
+  - {name: FR_66, server: 185.166.84.87, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: NO_138, server: 45.12.223.195, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
+  - {name: SI_181, server: 195.158.249.36, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: FR_53, server: 185.108.106.74, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: HR_88, server: 85.10.50.164, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
   - {name: RO_157, server: 91.219.215.51, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
   - {name: PT_143, server: 5.154.174.213, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇩🇪 YouTube晓柒科技分享：德国 7, server: dg04.xqkj.cloud, port: 1714, type: vmess, uuid: 1ece649d-e9aa-4203-8e1b-00858774e59d, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: dg04.xqkj.cloud}}
-  - {name: 🇩🇪 YouTube晓柒科技分享：德国 8, server: dg02.xqkj.cloud, port: 1712, type: vmess, uuid: 1ece649d-e9aa-4203-8e1b-00858774e59d, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: dg02.xqkj.cloud}}
-  - {name: 🇩🇪 YouTube晓柒科技分享：德国 9, server: dg01.xqkj.cloud, port: 1711, type: vmess, uuid: 1ece649d-e9aa-4203-8e1b-00858774e59d, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: dg01.xqkj.cloud}}
-  - {name: 🇸🇬 SG_178, server: 188.166.217.16, port: 443, type: vmess, uuid: 7a3128da-6fe9-4cc6-cfb7-b97fe387b82f, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 188.166.217.16}}
-  - {name: BA_08, server: 185.99.3.7, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: RO_156, server: 193.29.106.61, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: FR_61, server: 185.166.84.63, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: Pool_🇷🇴RO_4368, server: 91.90.123.115, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: AU_07, server: 45.248.76.171, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇩🇪 德国(Youtube频道：工具大师！), server: 191.96.13.200, port: 36460, type: ss, cipher: aes-256-gcm, password: yUXad7DGF8L5cTShEpnp2N6z}
+  - {name: 🇺🇸 US_214, server: 207.244.67.149, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 🇪🇺 欧洲(Youtube频道：工具大师！) 9, server: 91.90.123.187, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: RO_163, server: 194.37.98.211, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇸 美国(Youtube频道：工具大师！) 2, server: 96.43.91.58, port: 443, type: vmess, uuid: 3bfb43e2-7dfe-4757-86ee-1ce9fb9fd13a, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.45218443.xyz}}
+  - {name: 🇪🇺 欧洲(Youtube频道：工具大师！) 10, server: 91.206.168.41, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: LT_112, server: 194.41.112.11, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: 🇪🇺 欧洲(Youtube频道：工具大师！) 11, server: 81.19.223.189, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: 🇪🇺 欧洲(Youtube频道：工具大师！) 12, server: 194.41.112.28, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇪🇺 欧洲(Youtube频道：工具大师！) 13, server: 185.153.151.118, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇷🇺 俄罗斯(Youtube频道：工具大师！), server: 5.189.202.16, port: 44745, type: ss, cipher: aes-256-gcm, password: fyXdw87yCH9SAmFkPvsvLVqC}
+  - {name: ZZ_259, server: 138.199.19.162, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇷🇺 俄罗斯(Youtube频道：工具大师！) 2, server: 5.189.202.16, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 🇪🇺 欧洲(Youtube频道：工具大师！) 14, server: 104.19.45.117, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇪🇺 欧洲(Youtube频道：工具大师！) 15, server: 46.182.107.146, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca4690dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /footers, ws-headers: {Host: www.44590130.xyz}}
+  - {name: 🇺🇸 Pool_🇺🇸US_5666, server: 198.8.92.84, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: RO_162, server: 194.37.98.211, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 🇺🇸 US_206, server: 198.8.92.84, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
+  - {name: 🇪🇺 欧洲(Youtube频道：工具大师！) 16, server: 195.158.249.40, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇺🇸 US_160, server: 198.8.92.84, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
+  - {name: 🇺🇸 美国(Youtube频道：工具大师！) 3, server: 45.129.32.8, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: 🇺🇸 美国(Youtube频道：工具大师！) 4, server: 198.8.92.84, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 91.90.123.115:41676, server: 91.90.123.115, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
+  - {name: IN_93, server: 137.59.52.107, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: ES_38, server: 194.150.167.36, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: ES_42, server: 194.150.167.28, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: MY_120, server: 42.0.30.164, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
+  - {name: NG_123, server: 102.165.23.38, port: 36460, type: ss, cipher: aes-256-gcm, password: yUXad7DGF8L5cTShEpnp2N6z}
+  - {name: LU_116, server: 185.153.151.104, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇪🇺 欧洲(Youtube频道：工具大师！) 17, server: 91.206.168.68, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇪🇺 欧洲(Youtube频道：工具大师！) 18, server: 42.0.30.164, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r}
+  - {name: 🇷🇺 RU_122, server: 5.189.202.16, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 🇺🇸 US_222, server: 198.147.22.87, port: 31757, type: ss, cipher: aes-256-gcm, password: wj7nDCuNARchSeKNCN8VFK62}
+  - {name: Pool_🇷🇴RO_3680, server: 91.90.123.115, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
+  - {name: RO_159, server: 91.250.240.140, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇪🇺 欧洲(Youtube频道：工具大师！) 19, server: 46.182.107.154, port: 443, type: vmess, uuid: 130c9f2e-42b1-4ebf-b345-e26456a061f9, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /footers, ws-headers: {Host: www.05222027.xyz}}
+  - {name: 🇭🇰 香港(Youtube频道：工具大师！), server: 148.66.56.98, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇪🇺 欧洲(Youtube频道：工具大师！) 20, server: 138.199.16.137, port: 50024, type: ss, cipher: aes-256-gcm, password: b2jDPHUQxCNa2KmGHZjy7C4B}
+  - {name: CA_16, server: ss4.ssrsub.one, port: 2443, type: ss, cipher: aes-128-gcm, password: https://dlj.tf/ssrsub}
+  - {name: 🇺🇸 US_193, server: 23.82.11.49, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇺🇸 US_217, server: 143.244.60.162, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇷🇺 RU_170, server: 5.189.202.16, port: 44539, type: ss, cipher: aes-256-gcm, password: r6hDrkP4Et6EENTS8Qy7Tcmg}
+  - {name: 🇪🇺 欧洲(Youtube频道：工具大师！) 21, server: 138.199.19.182, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: ZZ_200, server: 138.199.16.137, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: AU_05, server: 45.248.79.67, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇸🇬 新加坡(Youtube频道：工具大师！), server: 138.199.19.186, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇪🇺 欧洲(Youtube频道：工具大师！) 22, server: 46.182.107.157, port: 443, type: vmess, uuid: 20b30916-e203-412e-8ec0-900f3acd5128, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /footers, ws-headers: {Host: www.73345741.xyz}}
+  - {name: 🇺🇸 美国(Youtube频道：工具大师！) 5, server: icook.tw, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇪🇺 欧洲(Youtube频道：工具大师！) 23, server: 194.150.167.28, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇪🇺 欧洲(Youtube频道：工具大师！) 24, server: 5.133.14.196, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: 🇺🇸 US_203, server: 143.244.56.230, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: GB_57, server: 81.19.223.189, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: FI_45, server: 196.244.191.45, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇸 US_154, server: 143.244.57.99, port: 44745, type: ss, cipher: aes-256-gcm, password: fyXdw87yCH9SAmFkPvsvLVqC}
+  - {name: 🇪🇺 欧洲(Youtube频道：工具大师！) 25, server: 89.46.223.189, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: 🇪🇺 欧洲(Youtube频道：工具大师！) 26, server: 138.199.17.130, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: Pool_🇬🇧GB_2375, server: 185.44.76.188, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇪🇺 欧洲(Youtube频道：工具大师！) 27, server: 81.19.208.68, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: 🇺🇸 Pool_🇺🇸US_4190, server: 198.8.92.84, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: 🇸🇪 瑞典(Youtube频道：工具大师！), server: 45.83.91.133, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇸🇬 新加坡(Youtube频道：工具大师！) 2, server: 138.199.19.162, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: GB_184, server: 185.44.76.188, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇬🇧 英国(Youtube频道：工具大师！), server: 185.44.76.55, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇸🇬 SG_175, server: 89.187.163.210, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇺🇸 US_233, server: 104.244.211.179, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: ZZ_256, server: 138.199.16.137, port: 44539, type: ss, cipher: aes-256-gcm, password: r6hDrkP4Et6EENTS8Qy7Tcmg}
+  - {name: 🇺🇸 US_165, server: 212.102.44.83, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: CA_09, server: 208.78.41.197, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇪🇺 欧洲(Youtube频道：工具大师！) 28, server: 104.16.110.238, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇪🇺 欧洲(Youtube频道：工具大师！) 29, server: 104.16.207.196, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇩🇪 德国(Youtube频道：工具大师！) 2, server: 185.108.106.74, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: ZZ_262, server: 138.199.19.186, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇸 美国(Youtube频道：工具大师！) 6, server: 207.244.67.149, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: CA_11, server: ss1.ssrsub.one, port: 9443, type: ss, cipher: aes-128-gcm, password: suo.yt/ssrsub}
+  - {name: 🇺🇸 US_202, server: 66.115.182.82, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇸 US_224, server: 198.8.92.84, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇺🇸 美国(Youtube频道：工具大师！) 7, server: 23.82.11.49, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇪🇺 欧洲(Youtube频道：工具大师！) 30, server: 46.182.107.94, port: 443, type: vmess, uuid: 743bdc87-1dea-41bf-aa0b-51dfbbfec8aa, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /footers, ws-headers: {Host: www.54872833.xyz}}
+  - {name: HR_89, server: 85.10.50.164, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇸 美国(Youtube频道：工具大师！) 8, server: 104.19.23.24, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇩🇪 德国(Youtube频道：工具大师！) 3, server: 185.108.106.146, port: 45746, type: ss, cipher: aes-256-gcm, password: wEsFcHCvbL4eJkL4DZQa7RgR}
+  - {name: 🇺🇸 美国(Youtube频道：工具大师！) 9, server: 104.17.36.178, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: SI_179, server: 195.158.249.36, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇩🇪 德国(Youtube频道：工具大师！) 4, server: 185.108.106.102, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: CA_15, server: ss2.ssrsub.one, port: 2443, type: ss, cipher: aes-128-gcm, password: https://dlj.tf/ssrsub}
+  - {name: 🇩🇪 德国(Youtube频道：工具大师！) 5, server: 185.108.106.53, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: FR_64, server: 185.108.106.102, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 🇩🇪 德国(Youtube频道：工具大师！) 6, server: 185.108.106.180, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: ZZ_206, server: 138.199.16.137, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
+  - {name: 🇩🇪 德国(Youtube频道：工具大师！) 7, server: 185.108.106.152, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: 🇬🇧 英国(Youtube频道：工具大师！) 2, server: 217.146.82.83, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇪🇺 欧洲(Youtube频道：工具大师！) 31, server: 185.213.21.7, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇸 美国(Youtube频道：工具大师！) 10, server: 104.16.148.48, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: FR_47, server: 185.108.106.152, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
+  - {name: 🇩🇪 德国(Youtube频道：工具大师！) 8, server: 45.134.224.18, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇺🇸 US_234, server: 198.8.92.84, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
+  - {name: RO_149, server: 89.37.95.15, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
+  - {name: 🇬🇧 英国(Youtube频道：工具大师！) 3, server: 185.166.84.19, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: CA_18, server: ss3.ssrsub.one, port: 9443, type: ss, cipher: aes-128-gcm, password: suo.yt/ssrsub}
+  - {name: 🇪🇺 欧洲(Youtube频道：工具大师！) 32, server: 45.12.223.195, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
+  - {name: 🇪🇺 欧洲(Youtube频道：工具大师！) 33, server: 193.29.106.61, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇪🇺 欧洲(Youtube频道：工具大师！) 34, server: 91.219.215.69, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: RO_150, server: 193.29.106.5, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇪🇺 欧洲(Youtube频道：工具大师！) 35, server: 185.166.84.87, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇪🇺 欧洲(Youtube频道：工具大师！) 36, server: 91.219.215.21, port: 45746, type: ss, cipher: aes-256-gcm, password: wEsFcHCvbL4eJkL4DZQa7RgR}
+  - {name: 🇬🇧 英国(Youtube频道：工具大师！) 4, server: 89.35.29.71, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 🇩🇪 德国(Youtube频道：工具大师！) 9, server: 185.166.84.87, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 🇬🇧 英国(Youtube频道：工具大师！) 5, server: 37.10.114.70, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇪🇺 欧洲(Youtube频道：工具大师！) 37, server: 81.19.208.107, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇬🇧 英国(Youtube频道：工具大师！) 6, server: 185.44.76.188, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: Pool_🇷🇴RO_4017, server: 91.90.123.115, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
+  - {name: 🇸🇬 新加坡(Youtube频道：工具大师！) 3, server: 195.158.249.36, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇸 US_157, server: 198.147.22.87, port: 32558, type: ss, cipher: aes-256-gcm, password: gJYzm3TLbdL495ryQptaJXQk}
+  - {name: 🇪🇺 欧洲(Youtube频道：工具大师！) 38, server: 193.29.106.5, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇪🇺 欧洲(Youtube频道：工具大师！) 39, server: 45.12.223.197, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 🇷🇺 RU_171, server: 5.189.202.16, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇷🇺 俄罗斯(Youtube频道：工具大师！) 3, server: 5.189.202.16, port: 50695, type: ss, cipher: aes-256-gcm, password: gqtwGu9bVreJqL3FTHSVKGzy}
+  - {name: 🇪🇺 欧洲(Youtube频道：工具大师！) 40, server: 46.182.107.45, port: 443, type: vmess, uuid: fe5f69e7-e183-439b-950b-9661ef0651f2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /footers, ws-headers: {Host: www.68737987.xyz}}
+  - {name: 🇪🇺 欧洲(Youtube频道：工具大师！) 41, server: 185.174.159.136, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 🇺🇸 Pool_🇺🇸US_176, server: 198.147.22.87, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: PT_144, server: 194.39.127.242, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: GB_73, server: 185.44.76.188, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: 🇺🇸 US_192, server: 23.82.11.49, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇩🇪 德国(Youtube频道：工具大师！) 10, server: 194.150.167.36, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇪🇺 欧洲(Youtube频道：工具大师！) 42, server: www.92726054.xyz, port: 443, type: vmess, uuid: d3cbe556-8db3-47e0-8ef1-06b2cce00411, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.92726054.xyz}}
+  - {name: 🇺🇸 US_156, server: 198.147.22.87, port: 35200, type: ss, cipher: aes-256-gcm, password: WBLAbN6AwtV5avBx73hFRLB3}
+  - {name: PL_142, server: 5.133.14.196, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: 🇪🇺 欧洲(Youtube频道：工具大师！) 43, server: 194.37.98.211, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: CH_22, server: 84.17.53.210, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇪🇺 欧洲(Youtube频道：工具大师！) 44, server: 185.153.151.104, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: LU_117, server: 185.153.151.85, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇩🇪 德国(Youtube频道：工具大师！) 11, server: 194.150.167.28, port: 45746, type: ss, cipher: aes-256-gcm, password: wEsFcHCvbL4eJkL4DZQa7RgR}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - IT_101
-      - NO_138
-      - ES_38
-      - 🇺🇸 US_154
-      - 🇺🇸 US_140
-      - SI_179
-      - LT_112
-      - FR_64
-      - 🇺🇸 US_233
-      - 🇺🇸 US_155
-      - 🇺🇸 US_205
-      - NO_139
-      - 🇺🇸 Pool_🇺🇸US_176
-      - 🇩🇪 YouTube晓柒科技分享：德国
-      - 🇺🇸 US_160
-      - 🇺🇸 YouTube晓柒科技分享：美国
-      - 🇮🇳 YouTube晓柒科技分享：印度
-      - 🇺🇸 YouTube晓柒科技分享：美国 2
-      - HR_88
-      - 🇺🇸 US_215
-      - 🇩🇪 YouTube晓柒科技分享：德国 2
-      - 🇮🇳 YouTube晓柒科技分享：印度 2
-      - 🇺🇸 YouTube晓柒科技分享：美国 3
-      - SK_183
-      - 🇺🇸 US_193
-      - RO_156
-      - 🇮🇳 YouTube晓柒科技分享：印度 3
-      - 🇮🇳 YouTube晓柒科技分享：印度 4
-      - FR_52
-      - 🇩🇪 YouTube晓柒科技分享：德国 3
-      - CA_18
-      - 🇺🇸 YouTube晓柒科技分享：美国 4
-      - 🇺🇸 YouTube晓柒科技分享：美国 5
-      - ZZ_206
-      - AU_07
-      - 🇮🇳 YouTube晓柒科技分享：印度 5
-      - 🇺🇸 US_234
-      - 🇺🇸 YouTube晓柒科技分享：美国 6
-      - 🇳🇱 YouTube晓柒科技分享：荷兰
-      - 🇳🇱 YouTube晓柒科技分享：荷兰 2
-      - RO_159
-      - 🇬🇧 YouTube晓柒科技分享：伦敦
-      - 🇳🇱 YouTube晓柒科技分享：荷兰 3
-      - 🇬🇧 YouTube晓柒科技分享：伦敦 2
-      - 🇳🇱 YouTube晓柒科技分享：荷兰 4
-      - 🇳🇱 YouTube晓柒科技分享：荷兰 5
-      - 🇬🇧 YouTube晓柒科技分享：伦敦 3
-      - GB_57
-      - 🇬🇧 YouTube晓柒科技分享：伦敦 4
-      - 🇺🇸 US_206
-      - 🇳🇱 YouTube晓柒科技分享：荷兰 6
-      - 🇩🇪 YouTube晓柒科技分享：德国 4
-      - 🇬🇧 YouTube晓柒科技分享：伦敦 5
-      - 🇺🇸 YouTube晓柒科技分享：美国 7
-      - CY_26
-      - 🇳🇱 YouTube晓柒科技分享：荷兰 7
-      - LU_113
-      - IN_91
-      - FR_56
-      - 🇮🇳 YouTube晓柒科技分享：印度 6
-      - 🇬🇧 YouTube晓柒科技分享：伦敦 6
-      - LU_117
-      - 🇺🇸 YouTube晓柒科技分享：美国 8
-      - 🇺🇸 YouTube晓柒科技分享：美国 9
-      - 🇺🇸 YouTube晓柒科技分享：美国 10
-      - 🇩🇪 YouTube晓柒科技分享：德国 5
-      - LU_116
-      - ZZ_258
-      - 🇺🇸 YouTube晓柒科技分享：美国 11
-      - 🇺🇸 YouTube晓柒科技分享：美国 12
-      - 🇳🇱 YouTube晓柒科技分享：荷兰 8
-      - 🇩🇪 YouTube晓柒科技分享：德国 6
-      - NG_123
-      - 🇺🇸 US_191
-      - MY_121
-      - LT_111
-      - NL_124
-      - AU_05
-      - 🇷🇺 RU_122
-      - FR_66
-      - 🇺🇸 YouTube晓柒科技分享：美国 13
-      - 🇨🇦 YouTube晓柒科技分享：加拿大
-      - 🇨🇦 YouTube晓柒科技分享：加拿大 2
-      - 🇺🇸 YouTube晓柒科技分享：美国 14
-      - 🇨🇦 YouTube晓柒科技分享：加拿大 3
-      - 🇨🇦 YouTube晓柒科技分享：加拿大 4
-      - 🇨🇦 YouTube晓柒科技分享：加拿大 5
-      - 🇨🇦 YouTube晓柒科技分享：加拿大 6
-      - 🇺🇸 US_224
-      - 🇺🇸 YouTube晓柒科技分享：美国 15
-      - 🇨🇦 YouTube晓柒科技分享：加拿大 7
-      - 🇺🇸 YouTube晓柒科技分享：美国 16
-      - 🇸🇬 SG_175
-      - 🇬🇧 YouTube晓柒科技分享：伦敦 7
-      - 🇨🇦 YouTube晓柒科技分享：加拿大 8
-      - MY_120
-      - 🇸🇬 SG_174
-      - ZZ_259
-      - 🇳🇱 YouTube晓柒科技分享：荷兰 9
-      - NZ_140
-      - ZZ_262
-      - 🇺🇸 US_204
       - ZZ_263
-      - IN_92
-      - 🇺🇸 US_203
-      - 🇬🇧 YouTube晓柒科技分享：伦敦 8
-      - PL_142
-      - FR_49
-      - 🇺🇸 US_192
-      - Pool_🇷🇴RO_4017
-      - Pool_🇷🇴RO_3680
-      - Pool_🇬🇧GB_2375
-      - GB_73
-      - LU_115
-      - 91.90.123.115:41676
-      - Pool_🇷🇴RO_4368
-      - 🇸🇬 SG_173
-      - 91.90.123.115:48938
-      - FR_69
-      - CA_12
-      - ZZ_200
-      - 🇺🇸 YouTube晓柒科技分享：美国 17
-      - UA_188
-      - 🇺🇸 US_165
-      - CA_16
-      - 🇺🇸 Pool_🇺🇸US_184
-      - HR_64
-      - RO_145
-      - RO_146
-      - 🇺🇸 YouTube晓柒科技分享：美国 18
-      - 🇺🇸 US_214
-      - 🇺🇸 US_217
-      - ZZ_256
-      - 🇨🇦 YouTube晓柒科技分享：加拿大 9
-      - 🇺🇸 US_202
-      - 🇺🇸 US_225
-      - 🇺🇸 US_156
-      - SI_181
-      - FR_54
-      - IN_94
-      - HR_89
-      - CA_15
-      - CA_11
-      - RO_164
-      - FR_47
-      - FI_45
-      - IN_93
-      - FR_55
-      - FR_61
-      - FR_68
-      - FR_53
-      - 🇺🇸 US_157
-      - 🇺🇸 US_242
-      - GB_184
-      - 🇺🇸 US_236
-      - 🇺🇸 US_227
-      - RO_148
-      - RO_150
-      - RO_149
-      - CA_09
-      - CH_22
-      - FR_57
-      - GB_77
-      - RO_147
-      - PT_144
-      - 🇮🇳 YouTube晓柒科技分享：印度 7
-      - 🇷🇺 RU_170
-      - 🇺🇸 Pool_🇺🇸US_4190
-      - 🇺🇸 Pool_🇺🇸US_5666
-      - CY_25
-      - 🇺🇸 US_222
-      - 🇮🇳 YouTube晓柒科技分享：印度 8
-      - 🇷🇺 RU_171
-      - RO_162
-      - RO_163
+      - 🇪🇺 欧洲(Youtube频道：工具大师！)
+      - 马其顿(Youtube频道：工具大师！)
       - 🇷🇺 RU_119
-      - 🇮🇳 YouTube晓柒科技分享：印度 9
-      - ES_42
+      - 🇺🇸 US_236
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 2
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 3
+      - LU_113
+      - FR_55
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 4
+      - 🇺🇸 US_155
+      - 🇺🇸 美国(Youtube频道：工具大师！)
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 5
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 6
+      - IT_101
+      - 🇺🇸 US_225
+      - LU_115
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 7
+      - IN_91
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 8
+      - 🇺🇸 US_191
+      - 🇳🇱 荷兰(Youtube频道：工具大师！)
+      - FR_66
+      - NO_138
+      - SI_181
+      - FR_53
+      - HR_88
       - RO_157
       - PT_143
-      - 🇩🇪 YouTube晓柒科技分享：德国 7
-      - 🇩🇪 YouTube晓柒科技分享：德国 8
-      - 🇩🇪 YouTube晓柒科技分享：德国 9
-      - 🇸🇬 SG_178
-      - BA_08
+      - RO_156
+      - FR_61
+      - Pool_🇷🇴RO_4368
+      - AU_07
+      - 🇩🇪 德国(Youtube频道：工具大师！)
+      - 🇺🇸 US_214
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 9
+      - RO_163
+      - 🇺🇸 美国(Youtube频道：工具大师！) 2
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 10
+      - LT_112
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 11
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 12
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 13
+      - 🇷🇺 俄罗斯(Youtube频道：工具大师！)
+      - ZZ_259
+      - 🇷🇺 俄罗斯(Youtube频道：工具大师！) 2
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 14
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 15
+      - 🇺🇸 Pool_🇺🇸US_5666
+      - RO_162
+      - 🇺🇸 US_206
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 16
+      - 🇺🇸 US_160
+      - 🇺🇸 美国(Youtube频道：工具大师！) 3
+      - 🇺🇸 美国(Youtube频道：工具大师！) 4
+      - 91.90.123.115:41676
+      - IN_93
+      - ES_38
+      - ES_42
+      - MY_120
+      - NG_123
+      - LU_116
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 17
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 18
+      - 🇷🇺 RU_122
+      - 🇺🇸 US_222
+      - Pool_🇷🇴RO_3680
+      - RO_159
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 19
+      - 🇭🇰 香港(Youtube频道：工具大师！)
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 20
+      - CA_16
+      - 🇺🇸 US_193
+      - 🇺🇸 US_217
+      - 🇷🇺 RU_170
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 21
+      - ZZ_200
+      - AU_05
+      - 🇸🇬 新加坡(Youtube频道：工具大师！)
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 22
+      - 🇺🇸 美国(Youtube频道：工具大师！) 5
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 23
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 24
+      - 🇺🇸 US_203
+      - GB_57
+      - FI_45
+      - 🇺🇸 US_154
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 25
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 26
+      - Pool_🇬🇧GB_2375
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 27
+      - 🇺🇸 Pool_🇺🇸US_4190
+      - 🇸🇪 瑞典(Youtube频道：工具大师！)
+      - 🇸🇬 新加坡(Youtube频道：工具大师！) 2
+      - GB_184
+      - 🇬🇧 英国(Youtube频道：工具大师！)
+      - 🇸🇬 SG_175
+      - 🇺🇸 US_233
+      - ZZ_256
+      - 🇺🇸 US_165
+      - CA_09
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 28
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 29
+      - 🇩🇪 德国(Youtube频道：工具大师！) 2
+      - ZZ_262
+      - 🇺🇸 美国(Youtube频道：工具大师！) 6
+      - CA_11
+      - 🇺🇸 US_202
+      - 🇺🇸 US_224
+      - 🇺🇸 美国(Youtube频道：工具大师！) 7
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 30
+      - HR_89
+      - 🇺🇸 美国(Youtube频道：工具大师！) 8
+      - 🇩🇪 德国(Youtube频道：工具大师！) 3
+      - 🇺🇸 美国(Youtube频道：工具大师！) 9
+      - SI_179
+      - 🇩🇪 德国(Youtube频道：工具大师！) 4
+      - CA_15
+      - 🇩🇪 德国(Youtube频道：工具大师！) 5
+      - FR_64
+      - 🇩🇪 德国(Youtube频道：工具大师！) 6
+      - ZZ_206
+      - 🇩🇪 德国(Youtube频道：工具大师！) 7
+      - 🇬🇧 英国(Youtube频道：工具大师！) 2
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 31
+      - 🇺🇸 美国(Youtube频道：工具大师！) 10
+      - FR_47
+      - 🇩🇪 德国(Youtube频道：工具大师！) 8
+      - 🇺🇸 US_234
+      - RO_149
+      - 🇬🇧 英国(Youtube频道：工具大师！) 3
+      - CA_18
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 32
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 33
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 34
+      - RO_150
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 35
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 36
+      - 🇬🇧 英国(Youtube频道：工具大师！) 4
+      - 🇩🇪 德国(Youtube频道：工具大师！) 9
+      - 🇬🇧 英国(Youtube频道：工具大师！) 5
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 37
+      - 🇬🇧 英国(Youtube频道：工具大师！) 6
+      - Pool_🇷🇴RO_4017
+      - 🇸🇬 新加坡(Youtube频道：工具大师！) 3
+      - 🇺🇸 US_157
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 38
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 39
+      - 🇷🇺 RU_171
+      - 🇷🇺 俄罗斯(Youtube频道：工具大师！) 3
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 40
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 41
+      - 🇺🇸 Pool_🇺🇸US_176
+      - PT_144
+      - GB_73
+      - 🇺🇸 US_192
+      - 🇩🇪 德国(Youtube频道：工具大师！) 10
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 42
+      - 🇺🇸 US_156
+      - PL_142
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 43
+      - CH_22
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 44
+      - LU_117
+      - 🇩🇪 德国(Youtube频道：工具大师！) 11
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - IT_101
-      - NO_138
-      - ES_38
-      - 🇺🇸 US_154
-      - 🇺🇸 US_140
-      - SI_179
-      - LT_112
-      - FR_64
-      - 🇺🇸 US_233
-      - 🇺🇸 US_155
-      - 🇺🇸 US_205
-      - NO_139
-      - 🇺🇸 Pool_🇺🇸US_176
-      - 🇩🇪 YouTube晓柒科技分享：德国
-      - 🇺🇸 US_160
-      - 🇺🇸 YouTube晓柒科技分享：美国
-      - 🇮🇳 YouTube晓柒科技分享：印度
-      - 🇺🇸 YouTube晓柒科技分享：美国 2
-      - HR_88
-      - 🇺🇸 US_215
-      - 🇩🇪 YouTube晓柒科技分享：德国 2
-      - 🇮🇳 YouTube晓柒科技分享：印度 2
-      - 🇺🇸 YouTube晓柒科技分享：美国 3
-      - SK_183
-      - 🇺🇸 US_193
-      - RO_156
-      - 🇮🇳 YouTube晓柒科技分享：印度 3
-      - 🇮🇳 YouTube晓柒科技分享：印度 4
-      - FR_52
-      - 🇩🇪 YouTube晓柒科技分享：德国 3
-      - CA_18
-      - 🇺🇸 YouTube晓柒科技分享：美国 4
-      - 🇺🇸 YouTube晓柒科技分享：美国 5
-      - ZZ_206
-      - AU_07
-      - 🇮🇳 YouTube晓柒科技分享：印度 5
-      - 🇺🇸 US_234
-      - 🇺🇸 YouTube晓柒科技分享：美国 6
-      - 🇳🇱 YouTube晓柒科技分享：荷兰
-      - 🇳🇱 YouTube晓柒科技分享：荷兰 2
-      - RO_159
-      - 🇬🇧 YouTube晓柒科技分享：伦敦
-      - 🇳🇱 YouTube晓柒科技分享：荷兰 3
-      - 🇬🇧 YouTube晓柒科技分享：伦敦 2
-      - 🇳🇱 YouTube晓柒科技分享：荷兰 4
-      - 🇳🇱 YouTube晓柒科技分享：荷兰 5
-      - 🇬🇧 YouTube晓柒科技分享：伦敦 3
-      - GB_57
-      - 🇬🇧 YouTube晓柒科技分享：伦敦 4
-      - 🇺🇸 US_206
-      - 🇳🇱 YouTube晓柒科技分享：荷兰 6
-      - 🇩🇪 YouTube晓柒科技分享：德国 4
-      - 🇬🇧 YouTube晓柒科技分享：伦敦 5
-      - 🇺🇸 YouTube晓柒科技分享：美国 7
-      - CY_26
-      - 🇳🇱 YouTube晓柒科技分享：荷兰 7
-      - LU_113
-      - IN_91
-      - FR_56
-      - 🇮🇳 YouTube晓柒科技分享：印度 6
-      - 🇬🇧 YouTube晓柒科技分享：伦敦 6
-      - LU_117
-      - 🇺🇸 YouTube晓柒科技分享：美国 8
-      - 🇺🇸 YouTube晓柒科技分享：美国 9
-      - 🇺🇸 YouTube晓柒科技分享：美国 10
-      - 🇩🇪 YouTube晓柒科技分享：德国 5
-      - LU_116
-      - ZZ_258
-      - 🇺🇸 YouTube晓柒科技分享：美国 11
-      - 🇺🇸 YouTube晓柒科技分享：美国 12
-      - 🇳🇱 YouTube晓柒科技分享：荷兰 8
-      - 🇩🇪 YouTube晓柒科技分享：德国 6
-      - NG_123
-      - 🇺🇸 US_191
-      - MY_121
-      - LT_111
-      - NL_124
-      - AU_05
-      - 🇷🇺 RU_122
-      - FR_66
-      - 🇺🇸 YouTube晓柒科技分享：美国 13
-      - 🇨🇦 YouTube晓柒科技分享：加拿大
-      - 🇨🇦 YouTube晓柒科技分享：加拿大 2
-      - 🇺🇸 YouTube晓柒科技分享：美国 14
-      - 🇨🇦 YouTube晓柒科技分享：加拿大 3
-      - 🇨🇦 YouTube晓柒科技分享：加拿大 4
-      - 🇨🇦 YouTube晓柒科技分享：加拿大 5
-      - 🇨🇦 YouTube晓柒科技分享：加拿大 6
-      - 🇺🇸 US_224
-      - 🇺🇸 YouTube晓柒科技分享：美国 15
-      - 🇨🇦 YouTube晓柒科技分享：加拿大 7
-      - 🇺🇸 YouTube晓柒科技分享：美国 16
-      - 🇸🇬 SG_175
-      - 🇬🇧 YouTube晓柒科技分享：伦敦 7
-      - 🇨🇦 YouTube晓柒科技分享：加拿大 8
-      - MY_120
-      - 🇸🇬 SG_174
-      - ZZ_259
-      - 🇳🇱 YouTube晓柒科技分享：荷兰 9
-      - NZ_140
-      - ZZ_262
-      - 🇺🇸 US_204
       - ZZ_263
-      - IN_92
-      - 🇺🇸 US_203
-      - 🇬🇧 YouTube晓柒科技分享：伦敦 8
-      - PL_142
-      - FR_49
-      - 🇺🇸 US_192
-      - Pool_🇷🇴RO_4017
-      - Pool_🇷🇴RO_3680
-      - Pool_🇬🇧GB_2375
-      - GB_73
-      - LU_115
-      - 91.90.123.115:41676
-      - Pool_🇷🇴RO_4368
-      - 🇸🇬 SG_173
-      - 91.90.123.115:48938
-      - FR_69
-      - CA_12
-      - ZZ_200
-      - 🇺🇸 YouTube晓柒科技分享：美国 17
-      - UA_188
-      - 🇺🇸 US_165
-      - CA_16
-      - 🇺🇸 Pool_🇺🇸US_184
-      - HR_64
-      - RO_145
-      - RO_146
-      - 🇺🇸 YouTube晓柒科技分享：美国 18
-      - 🇺🇸 US_214
-      - 🇺🇸 US_217
-      - ZZ_256
-      - 🇨🇦 YouTube晓柒科技分享：加拿大 9
-      - 🇺🇸 US_202
-      - 🇺🇸 US_225
-      - 🇺🇸 US_156
-      - SI_181
-      - FR_54
-      - IN_94
-      - HR_89
-      - CA_15
-      - CA_11
-      - RO_164
-      - FR_47
-      - FI_45
-      - IN_93
-      - FR_55
-      - FR_61
-      - FR_68
-      - FR_53
-      - 🇺🇸 US_157
-      - 🇺🇸 US_242
-      - GB_184
-      - 🇺🇸 US_236
-      - 🇺🇸 US_227
-      - RO_148
-      - RO_150
-      - RO_149
-      - CA_09
-      - CH_22
-      - FR_57
-      - GB_77
-      - RO_147
-      - PT_144
-      - 🇮🇳 YouTube晓柒科技分享：印度 7
-      - 🇷🇺 RU_170
-      - 🇺🇸 Pool_🇺🇸US_4190
-      - 🇺🇸 Pool_🇺🇸US_5666
-      - CY_25
-      - 🇺🇸 US_222
-      - 🇮🇳 YouTube晓柒科技分享：印度 8
-      - 🇷🇺 RU_171
-      - RO_162
-      - RO_163
+      - 🇪🇺 欧洲(Youtube频道：工具大师！)
+      - 马其顿(Youtube频道：工具大师！)
       - 🇷🇺 RU_119
-      - 🇮🇳 YouTube晓柒科技分享：印度 9
-      - ES_42
+      - 🇺🇸 US_236
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 2
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 3
+      - LU_113
+      - FR_55
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 4
+      - 🇺🇸 US_155
+      - 🇺🇸 美国(Youtube频道：工具大师！)
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 5
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 6
+      - IT_101
+      - 🇺🇸 US_225
+      - LU_115
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 7
+      - IN_91
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 8
+      - 🇺🇸 US_191
+      - 🇳🇱 荷兰(Youtube频道：工具大师！)
+      - FR_66
+      - NO_138
+      - SI_181
+      - FR_53
+      - HR_88
       - RO_157
       - PT_143
-      - 🇩🇪 YouTube晓柒科技分享：德国 7
-      - 🇩🇪 YouTube晓柒科技分享：德国 8
-      - 🇩🇪 YouTube晓柒科技分享：德国 9
-      - 🇸🇬 SG_178
-      - BA_08
+      - RO_156
+      - FR_61
+      - Pool_🇷🇴RO_4368
+      - AU_07
+      - 🇩🇪 德国(Youtube频道：工具大师！)
+      - 🇺🇸 US_214
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 9
+      - RO_163
+      - 🇺🇸 美国(Youtube频道：工具大师！) 2
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 10
+      - LT_112
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 11
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 12
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 13
+      - 🇷🇺 俄罗斯(Youtube频道：工具大师！)
+      - ZZ_259
+      - 🇷🇺 俄罗斯(Youtube频道：工具大师！) 2
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 14
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 15
+      - 🇺🇸 Pool_🇺🇸US_5666
+      - RO_162
+      - 🇺🇸 US_206
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 16
+      - 🇺🇸 US_160
+      - 🇺🇸 美国(Youtube频道：工具大师！) 3
+      - 🇺🇸 美国(Youtube频道：工具大师！) 4
+      - 91.90.123.115:41676
+      - IN_93
+      - ES_38
+      - ES_42
+      - MY_120
+      - NG_123
+      - LU_116
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 17
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 18
+      - 🇷🇺 RU_122
+      - 🇺🇸 US_222
+      - Pool_🇷🇴RO_3680
+      - RO_159
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 19
+      - 🇭🇰 香港(Youtube频道：工具大师！)
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 20
+      - CA_16
+      - 🇺🇸 US_193
+      - 🇺🇸 US_217
+      - 🇷🇺 RU_170
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 21
+      - ZZ_200
+      - AU_05
+      - 🇸🇬 新加坡(Youtube频道：工具大师！)
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 22
+      - 🇺🇸 美国(Youtube频道：工具大师！) 5
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 23
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 24
+      - 🇺🇸 US_203
+      - GB_57
+      - FI_45
+      - 🇺🇸 US_154
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 25
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 26
+      - Pool_🇬🇧GB_2375
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 27
+      - 🇺🇸 Pool_🇺🇸US_4190
+      - 🇸🇪 瑞典(Youtube频道：工具大师！)
+      - 🇸🇬 新加坡(Youtube频道：工具大师！) 2
+      - GB_184
+      - 🇬🇧 英国(Youtube频道：工具大师！)
+      - 🇸🇬 SG_175
+      - 🇺🇸 US_233
+      - ZZ_256
+      - 🇺🇸 US_165
+      - CA_09
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 28
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 29
+      - 🇩🇪 德国(Youtube频道：工具大师！) 2
+      - ZZ_262
+      - 🇺🇸 美国(Youtube频道：工具大师！) 6
+      - CA_11
+      - 🇺🇸 US_202
+      - 🇺🇸 US_224
+      - 🇺🇸 美国(Youtube频道：工具大师！) 7
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 30
+      - HR_89
+      - 🇺🇸 美国(Youtube频道：工具大师！) 8
+      - 🇩🇪 德国(Youtube频道：工具大师！) 3
+      - 🇺🇸 美国(Youtube频道：工具大师！) 9
+      - SI_179
+      - 🇩🇪 德国(Youtube频道：工具大师！) 4
+      - CA_15
+      - 🇩🇪 德国(Youtube频道：工具大师！) 5
+      - FR_64
+      - 🇩🇪 德国(Youtube频道：工具大师！) 6
+      - ZZ_206
+      - 🇩🇪 德国(Youtube频道：工具大师！) 7
+      - 🇬🇧 英国(Youtube频道：工具大师！) 2
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 31
+      - 🇺🇸 美国(Youtube频道：工具大师！) 10
+      - FR_47
+      - 🇩🇪 德国(Youtube频道：工具大师！) 8
+      - 🇺🇸 US_234
+      - RO_149
+      - 🇬🇧 英国(Youtube频道：工具大师！) 3
+      - CA_18
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 32
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 33
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 34
+      - RO_150
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 35
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 36
+      - 🇬🇧 英国(Youtube频道：工具大师！) 4
+      - 🇩🇪 德国(Youtube频道：工具大师！) 9
+      - 🇬🇧 英国(Youtube频道：工具大师！) 5
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 37
+      - 🇬🇧 英国(Youtube频道：工具大师！) 6
+      - Pool_🇷🇴RO_4017
+      - 🇸🇬 新加坡(Youtube频道：工具大师！) 3
+      - 🇺🇸 US_157
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 38
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 39
+      - 🇷🇺 RU_171
+      - 🇷🇺 俄罗斯(Youtube频道：工具大师！) 3
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 40
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 41
+      - 🇺🇸 Pool_🇺🇸US_176
+      - PT_144
+      - GB_73
+      - 🇺🇸 US_192
+      - 🇩🇪 德国(Youtube频道：工具大师！) 10
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 42
+      - 🇺🇸 US_156
+      - PL_142
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 43
+      - CH_22
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 44
+      - LU_117
+      - 🇩🇪 德国(Youtube频道：工具大师！) 11
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - IT_101
-      - NO_138
-      - ES_38
-      - 🇺🇸 US_154
-      - 🇺🇸 US_140
-      - SI_179
-      - LT_112
-      - FR_64
-      - 🇺🇸 US_233
-      - 🇺🇸 US_155
-      - 🇺🇸 US_205
-      - NO_139
-      - 🇺🇸 Pool_🇺🇸US_176
-      - 🇩🇪 YouTube晓柒科技分享：德国
-      - 🇺🇸 US_160
-      - 🇺🇸 YouTube晓柒科技分享：美国
-      - 🇮🇳 YouTube晓柒科技分享：印度
-      - 🇺🇸 YouTube晓柒科技分享：美国 2
-      - HR_88
-      - 🇺🇸 US_215
-      - 🇩🇪 YouTube晓柒科技分享：德国 2
-      - 🇮🇳 YouTube晓柒科技分享：印度 2
-      - 🇺🇸 YouTube晓柒科技分享：美国 3
-      - SK_183
-      - 🇺🇸 US_193
-      - RO_156
-      - 🇮🇳 YouTube晓柒科技分享：印度 3
-      - 🇮🇳 YouTube晓柒科技分享：印度 4
-      - FR_52
-      - 🇩🇪 YouTube晓柒科技分享：德国 3
-      - CA_18
-      - 🇺🇸 YouTube晓柒科技分享：美国 4
-      - 🇺🇸 YouTube晓柒科技分享：美国 5
-      - ZZ_206
-      - AU_07
-      - 🇮🇳 YouTube晓柒科技分享：印度 5
-      - 🇺🇸 US_234
-      - 🇺🇸 YouTube晓柒科技分享：美国 6
-      - 🇳🇱 YouTube晓柒科技分享：荷兰
-      - 🇳🇱 YouTube晓柒科技分享：荷兰 2
-      - RO_159
-      - 🇬🇧 YouTube晓柒科技分享：伦敦
-      - 🇳🇱 YouTube晓柒科技分享：荷兰 3
-      - 🇬🇧 YouTube晓柒科技分享：伦敦 2
-      - 🇳🇱 YouTube晓柒科技分享：荷兰 4
-      - 🇳🇱 YouTube晓柒科技分享：荷兰 5
-      - 🇬🇧 YouTube晓柒科技分享：伦敦 3
-      - GB_57
-      - 🇬🇧 YouTube晓柒科技分享：伦敦 4
-      - 🇺🇸 US_206
-      - 🇳🇱 YouTube晓柒科技分享：荷兰 6
-      - 🇩🇪 YouTube晓柒科技分享：德国 4
-      - 🇬🇧 YouTube晓柒科技分享：伦敦 5
-      - 🇺🇸 YouTube晓柒科技分享：美国 7
-      - CY_26
-      - 🇳🇱 YouTube晓柒科技分享：荷兰 7
-      - LU_113
-      - IN_91
-      - FR_56
-      - 🇮🇳 YouTube晓柒科技分享：印度 6
-      - 🇬🇧 YouTube晓柒科技分享：伦敦 6
-      - LU_117
-      - 🇺🇸 YouTube晓柒科技分享：美国 8
-      - 🇺🇸 YouTube晓柒科技分享：美国 9
-      - 🇺🇸 YouTube晓柒科技分享：美国 10
-      - 🇩🇪 YouTube晓柒科技分享：德国 5
-      - LU_116
-      - ZZ_258
-      - 🇺🇸 YouTube晓柒科技分享：美国 11
-      - 🇺🇸 YouTube晓柒科技分享：美国 12
-      - 🇳🇱 YouTube晓柒科技分享：荷兰 8
-      - 🇩🇪 YouTube晓柒科技分享：德国 6
-      - NG_123
-      - 🇺🇸 US_191
-      - MY_121
-      - LT_111
-      - NL_124
-      - AU_05
-      - 🇷🇺 RU_122
-      - FR_66
-      - 🇺🇸 YouTube晓柒科技分享：美国 13
-      - 🇨🇦 YouTube晓柒科技分享：加拿大
-      - 🇨🇦 YouTube晓柒科技分享：加拿大 2
-      - 🇺🇸 YouTube晓柒科技分享：美国 14
-      - 🇨🇦 YouTube晓柒科技分享：加拿大 3
-      - 🇨🇦 YouTube晓柒科技分享：加拿大 4
-      - 🇨🇦 YouTube晓柒科技分享：加拿大 5
-      - 🇨🇦 YouTube晓柒科技分享：加拿大 6
-      - 🇺🇸 US_224
-      - 🇺🇸 YouTube晓柒科技分享：美国 15
-      - 🇨🇦 YouTube晓柒科技分享：加拿大 7
-      - 🇺🇸 YouTube晓柒科技分享：美国 16
-      - 🇸🇬 SG_175
-      - 🇬🇧 YouTube晓柒科技分享：伦敦 7
-      - 🇨🇦 YouTube晓柒科技分享：加拿大 8
-      - MY_120
-      - 🇸🇬 SG_174
-      - ZZ_259
-      - 🇳🇱 YouTube晓柒科技分享：荷兰 9
-      - NZ_140
-      - ZZ_262
-      - 🇺🇸 US_204
       - ZZ_263
-      - IN_92
-      - 🇺🇸 US_203
-      - 🇬🇧 YouTube晓柒科技分享：伦敦 8
-      - PL_142
-      - FR_49
-      - 🇺🇸 US_192
-      - Pool_🇷🇴RO_4017
-      - Pool_🇷🇴RO_3680
-      - Pool_🇬🇧GB_2375
-      - GB_73
-      - LU_115
-      - 91.90.123.115:41676
-      - Pool_🇷🇴RO_4368
-      - 🇸🇬 SG_173
-      - 91.90.123.115:48938
-      - FR_69
-      - CA_12
-      - ZZ_200
-      - 🇺🇸 YouTube晓柒科技分享：美国 17
-      - UA_188
-      - 🇺🇸 US_165
-      - CA_16
-      - 🇺🇸 Pool_🇺🇸US_184
-      - HR_64
-      - RO_145
-      - RO_146
-      - 🇺🇸 YouTube晓柒科技分享：美国 18
-      - 🇺🇸 US_214
-      - 🇺🇸 US_217
-      - ZZ_256
-      - 🇨🇦 YouTube晓柒科技分享：加拿大 9
-      - 🇺🇸 US_202
-      - 🇺🇸 US_225
-      - 🇺🇸 US_156
-      - SI_181
-      - FR_54
-      - IN_94
-      - HR_89
-      - CA_15
-      - CA_11
-      - RO_164
-      - FR_47
-      - FI_45
-      - IN_93
-      - FR_55
-      - FR_61
-      - FR_68
-      - FR_53
-      - 🇺🇸 US_157
-      - 🇺🇸 US_242
-      - GB_184
-      - 🇺🇸 US_236
-      - 🇺🇸 US_227
-      - RO_148
-      - RO_150
-      - RO_149
-      - CA_09
-      - CH_22
-      - FR_57
-      - GB_77
-      - RO_147
-      - PT_144
-      - 🇮🇳 YouTube晓柒科技分享：印度 7
-      - 🇷🇺 RU_170
-      - 🇺🇸 Pool_🇺🇸US_4190
-      - 🇺🇸 Pool_🇺🇸US_5666
-      - CY_25
-      - 🇺🇸 US_222
-      - 🇮🇳 YouTube晓柒科技分享：印度 8
-      - 🇷🇺 RU_171
-      - RO_162
-      - RO_163
+      - 🇪🇺 欧洲(Youtube频道：工具大师！)
+      - 马其顿(Youtube频道：工具大师！)
       - 🇷🇺 RU_119
-      - 🇮🇳 YouTube晓柒科技分享：印度 9
-      - ES_42
+      - 🇺🇸 US_236
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 2
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 3
+      - LU_113
+      - FR_55
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 4
+      - 🇺🇸 US_155
+      - 🇺🇸 美国(Youtube频道：工具大师！)
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 5
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 6
+      - IT_101
+      - 🇺🇸 US_225
+      - LU_115
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 7
+      - IN_91
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 8
+      - 🇺🇸 US_191
+      - 🇳🇱 荷兰(Youtube频道：工具大师！)
+      - FR_66
+      - NO_138
+      - SI_181
+      - FR_53
+      - HR_88
       - RO_157
       - PT_143
-      - 🇩🇪 YouTube晓柒科技分享：德国 7
-      - 🇩🇪 YouTube晓柒科技分享：德国 8
-      - 🇩🇪 YouTube晓柒科技分享：德国 9
-      - 🇸🇬 SG_178
-      - BA_08
+      - RO_156
+      - FR_61
+      - Pool_🇷🇴RO_4368
+      - AU_07
+      - 🇩🇪 德国(Youtube频道：工具大师！)
+      - 🇺🇸 US_214
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 9
+      - RO_163
+      - 🇺🇸 美国(Youtube频道：工具大师！) 2
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 10
+      - LT_112
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 11
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 12
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 13
+      - 🇷🇺 俄罗斯(Youtube频道：工具大师！)
+      - ZZ_259
+      - 🇷🇺 俄罗斯(Youtube频道：工具大师！) 2
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 14
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 15
+      - 🇺🇸 Pool_🇺🇸US_5666
+      - RO_162
+      - 🇺🇸 US_206
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 16
+      - 🇺🇸 US_160
+      - 🇺🇸 美国(Youtube频道：工具大师！) 3
+      - 🇺🇸 美国(Youtube频道：工具大师！) 4
+      - 91.90.123.115:41676
+      - IN_93
+      - ES_38
+      - ES_42
+      - MY_120
+      - NG_123
+      - LU_116
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 17
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 18
+      - 🇷🇺 RU_122
+      - 🇺🇸 US_222
+      - Pool_🇷🇴RO_3680
+      - RO_159
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 19
+      - 🇭🇰 香港(Youtube频道：工具大师！)
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 20
+      - CA_16
+      - 🇺🇸 US_193
+      - 🇺🇸 US_217
+      - 🇷🇺 RU_170
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 21
+      - ZZ_200
+      - AU_05
+      - 🇸🇬 新加坡(Youtube频道：工具大师！)
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 22
+      - 🇺🇸 美国(Youtube频道：工具大师！) 5
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 23
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 24
+      - 🇺🇸 US_203
+      - GB_57
+      - FI_45
+      - 🇺🇸 US_154
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 25
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 26
+      - Pool_🇬🇧GB_2375
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 27
+      - 🇺🇸 Pool_🇺🇸US_4190
+      - 🇸🇪 瑞典(Youtube频道：工具大师！)
+      - 🇸🇬 新加坡(Youtube频道：工具大师！) 2
+      - GB_184
+      - 🇬🇧 英国(Youtube频道：工具大师！)
+      - 🇸🇬 SG_175
+      - 🇺🇸 US_233
+      - ZZ_256
+      - 🇺🇸 US_165
+      - CA_09
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 28
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 29
+      - 🇩🇪 德国(Youtube频道：工具大师！) 2
+      - ZZ_262
+      - 🇺🇸 美国(Youtube频道：工具大师！) 6
+      - CA_11
+      - 🇺🇸 US_202
+      - 🇺🇸 US_224
+      - 🇺🇸 美国(Youtube频道：工具大师！) 7
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 30
+      - HR_89
+      - 🇺🇸 美国(Youtube频道：工具大师！) 8
+      - 🇩🇪 德国(Youtube频道：工具大师！) 3
+      - 🇺🇸 美国(Youtube频道：工具大师！) 9
+      - SI_179
+      - 🇩🇪 德国(Youtube频道：工具大师！) 4
+      - CA_15
+      - 🇩🇪 德国(Youtube频道：工具大师！) 5
+      - FR_64
+      - 🇩🇪 德国(Youtube频道：工具大师！) 6
+      - ZZ_206
+      - 🇩🇪 德国(Youtube频道：工具大师！) 7
+      - 🇬🇧 英国(Youtube频道：工具大师！) 2
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 31
+      - 🇺🇸 美国(Youtube频道：工具大师！) 10
+      - FR_47
+      - 🇩🇪 德国(Youtube频道：工具大师！) 8
+      - 🇺🇸 US_234
+      - RO_149
+      - 🇬🇧 英国(Youtube频道：工具大师！) 3
+      - CA_18
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 32
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 33
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 34
+      - RO_150
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 35
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 36
+      - 🇬🇧 英国(Youtube频道：工具大师！) 4
+      - 🇩🇪 德国(Youtube频道：工具大师！) 9
+      - 🇬🇧 英国(Youtube频道：工具大师！) 5
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 37
+      - 🇬🇧 英国(Youtube频道：工具大师！) 6
+      - Pool_🇷🇴RO_4017
+      - 🇸🇬 新加坡(Youtube频道：工具大师！) 3
+      - 🇺🇸 US_157
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 38
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 39
+      - 🇷🇺 RU_171
+      - 🇷🇺 俄罗斯(Youtube频道：工具大师！) 3
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 40
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 41
+      - 🇺🇸 Pool_🇺🇸US_176
+      - PT_144
+      - GB_73
+      - 🇺🇸 US_192
+      - 🇩🇪 德国(Youtube频道：工具大师！) 10
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 42
+      - 🇺🇸 US_156
+      - PL_142
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 43
+      - CH_22
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 44
+      - LU_117
+      - 🇩🇪 德国(Youtube频道：工具大师！) 11
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - IT_101
-      - NO_138
-      - ES_38
-      - 🇺🇸 US_154
-      - 🇺🇸 US_140
-      - SI_179
-      - LT_112
-      - FR_64
-      - 🇺🇸 US_233
-      - 🇺🇸 US_155
-      - 🇺🇸 US_205
-      - NO_139
-      - 🇺🇸 Pool_🇺🇸US_176
-      - 🇩🇪 YouTube晓柒科技分享：德国
-      - 🇺🇸 US_160
-      - 🇺🇸 YouTube晓柒科技分享：美国
-      - 🇮🇳 YouTube晓柒科技分享：印度
-      - 🇺🇸 YouTube晓柒科技分享：美国 2
-      - HR_88
-      - 🇺🇸 US_215
-      - 🇩🇪 YouTube晓柒科技分享：德国 2
-      - 🇮🇳 YouTube晓柒科技分享：印度 2
-      - 🇺🇸 YouTube晓柒科技分享：美国 3
-      - SK_183
-      - 🇺🇸 US_193
-      - RO_156
-      - 🇮🇳 YouTube晓柒科技分享：印度 3
-      - 🇮🇳 YouTube晓柒科技分享：印度 4
-      - FR_52
-      - 🇩🇪 YouTube晓柒科技分享：德国 3
-      - CA_18
-      - 🇺🇸 YouTube晓柒科技分享：美国 4
-      - 🇺🇸 YouTube晓柒科技分享：美国 5
-      - ZZ_206
-      - AU_07
-      - 🇮🇳 YouTube晓柒科技分享：印度 5
-      - 🇺🇸 US_234
-      - 🇺🇸 YouTube晓柒科技分享：美国 6
-      - 🇳🇱 YouTube晓柒科技分享：荷兰
-      - 🇳🇱 YouTube晓柒科技分享：荷兰 2
-      - RO_159
-      - 🇬🇧 YouTube晓柒科技分享：伦敦
-      - 🇳🇱 YouTube晓柒科技分享：荷兰 3
-      - 🇬🇧 YouTube晓柒科技分享：伦敦 2
-      - 🇳🇱 YouTube晓柒科技分享：荷兰 4
-      - 🇳🇱 YouTube晓柒科技分享：荷兰 5
-      - 🇬🇧 YouTube晓柒科技分享：伦敦 3
-      - GB_57
-      - 🇬🇧 YouTube晓柒科技分享：伦敦 4
-      - 🇺🇸 US_206
-      - 🇳🇱 YouTube晓柒科技分享：荷兰 6
-      - 🇩🇪 YouTube晓柒科技分享：德国 4
-      - 🇬🇧 YouTube晓柒科技分享：伦敦 5
-      - 🇺🇸 YouTube晓柒科技分享：美国 7
-      - CY_26
-      - 🇳🇱 YouTube晓柒科技分享：荷兰 7
-      - LU_113
-      - IN_91
-      - FR_56
-      - 🇮🇳 YouTube晓柒科技分享：印度 6
-      - 🇬🇧 YouTube晓柒科技分享：伦敦 6
-      - LU_117
-      - 🇺🇸 YouTube晓柒科技分享：美国 8
-      - 🇺🇸 YouTube晓柒科技分享：美国 9
-      - 🇺🇸 YouTube晓柒科技分享：美国 10
-      - 🇩🇪 YouTube晓柒科技分享：德国 5
-      - LU_116
-      - ZZ_258
-      - 🇺🇸 YouTube晓柒科技分享：美国 11
-      - 🇺🇸 YouTube晓柒科技分享：美国 12
-      - 🇳🇱 YouTube晓柒科技分享：荷兰 8
-      - 🇩🇪 YouTube晓柒科技分享：德国 6
-      - NG_123
-      - 🇺🇸 US_191
-      - MY_121
-      - LT_111
-      - NL_124
-      - AU_05
-      - 🇷🇺 RU_122
-      - FR_66
-      - 🇺🇸 YouTube晓柒科技分享：美国 13
-      - 🇨🇦 YouTube晓柒科技分享：加拿大
-      - 🇨🇦 YouTube晓柒科技分享：加拿大 2
-      - 🇺🇸 YouTube晓柒科技分享：美国 14
-      - 🇨🇦 YouTube晓柒科技分享：加拿大 3
-      - 🇨🇦 YouTube晓柒科技分享：加拿大 4
-      - 🇨🇦 YouTube晓柒科技分享：加拿大 5
-      - 🇨🇦 YouTube晓柒科技分享：加拿大 6
-      - 🇺🇸 US_224
-      - 🇺🇸 YouTube晓柒科技分享：美国 15
-      - 🇨🇦 YouTube晓柒科技分享：加拿大 7
-      - 🇺🇸 YouTube晓柒科技分享：美国 16
-      - 🇸🇬 SG_175
-      - 🇬🇧 YouTube晓柒科技分享：伦敦 7
-      - 🇨🇦 YouTube晓柒科技分享：加拿大 8
-      - MY_120
-      - 🇸🇬 SG_174
-      - ZZ_259
-      - 🇳🇱 YouTube晓柒科技分享：荷兰 9
-      - NZ_140
-      - ZZ_262
-      - 🇺🇸 US_204
       - ZZ_263
-      - IN_92
-      - 🇺🇸 US_203
-      - 🇬🇧 YouTube晓柒科技分享：伦敦 8
-      - PL_142
-      - FR_49
-      - 🇺🇸 US_192
-      - Pool_🇷🇴RO_4017
-      - Pool_🇷🇴RO_3680
-      - Pool_🇬🇧GB_2375
-      - GB_73
-      - LU_115
-      - 91.90.123.115:41676
-      - Pool_🇷🇴RO_4368
-      - 🇸🇬 SG_173
-      - 91.90.123.115:48938
-      - FR_69
-      - CA_12
-      - ZZ_200
-      - 🇺🇸 YouTube晓柒科技分享：美国 17
-      - UA_188
-      - 🇺🇸 US_165
-      - CA_16
-      - 🇺🇸 Pool_🇺🇸US_184
-      - HR_64
-      - RO_145
-      - RO_146
-      - 🇺🇸 YouTube晓柒科技分享：美国 18
-      - 🇺🇸 US_214
-      - 🇺🇸 US_217
-      - ZZ_256
-      - 🇨🇦 YouTube晓柒科技分享：加拿大 9
-      - 🇺🇸 US_202
-      - 🇺🇸 US_225
-      - 🇺🇸 US_156
-      - SI_181
-      - FR_54
-      - IN_94
-      - HR_89
-      - CA_15
-      - CA_11
-      - RO_164
-      - FR_47
-      - FI_45
-      - IN_93
-      - FR_55
-      - FR_61
-      - FR_68
-      - FR_53
-      - 🇺🇸 US_157
-      - 🇺🇸 US_242
-      - GB_184
-      - 🇺🇸 US_236
-      - 🇺🇸 US_227
-      - RO_148
-      - RO_150
-      - RO_149
-      - CA_09
-      - CH_22
-      - FR_57
-      - GB_77
-      - RO_147
-      - PT_144
-      - 🇮🇳 YouTube晓柒科技分享：印度 7
-      - 🇷🇺 RU_170
-      - 🇺🇸 Pool_🇺🇸US_4190
-      - 🇺🇸 Pool_🇺🇸US_5666
-      - CY_25
-      - 🇺🇸 US_222
-      - 🇮🇳 YouTube晓柒科技分享：印度 8
-      - 🇷🇺 RU_171
-      - RO_162
-      - RO_163
+      - 🇪🇺 欧洲(Youtube频道：工具大师！)
+      - 马其顿(Youtube频道：工具大师！)
       - 🇷🇺 RU_119
-      - 🇮🇳 YouTube晓柒科技分享：印度 9
-      - ES_42
+      - 🇺🇸 US_236
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 2
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 3
+      - LU_113
+      - FR_55
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 4
+      - 🇺🇸 US_155
+      - 🇺🇸 美国(Youtube频道：工具大师！)
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 5
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 6
+      - IT_101
+      - 🇺🇸 US_225
+      - LU_115
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 7
+      - IN_91
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 8
+      - 🇺🇸 US_191
+      - 🇳🇱 荷兰(Youtube频道：工具大师！)
+      - FR_66
+      - NO_138
+      - SI_181
+      - FR_53
+      - HR_88
       - RO_157
       - PT_143
-      - 🇩🇪 YouTube晓柒科技分享：德国 7
-      - 🇩🇪 YouTube晓柒科技分享：德国 8
-      - 🇩🇪 YouTube晓柒科技分享：德国 9
-      - 🇸🇬 SG_178
-      - BA_08
+      - RO_156
+      - FR_61
+      - Pool_🇷🇴RO_4368
+      - AU_07
+      - 🇩🇪 德国(Youtube频道：工具大师！)
+      - 🇺🇸 US_214
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 9
+      - RO_163
+      - 🇺🇸 美国(Youtube频道：工具大师！) 2
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 10
+      - LT_112
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 11
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 12
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 13
+      - 🇷🇺 俄罗斯(Youtube频道：工具大师！)
+      - ZZ_259
+      - 🇷🇺 俄罗斯(Youtube频道：工具大师！) 2
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 14
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 15
+      - 🇺🇸 Pool_🇺🇸US_5666
+      - RO_162
+      - 🇺🇸 US_206
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 16
+      - 🇺🇸 US_160
+      - 🇺🇸 美国(Youtube频道：工具大师！) 3
+      - 🇺🇸 美国(Youtube频道：工具大师！) 4
+      - 91.90.123.115:41676
+      - IN_93
+      - ES_38
+      - ES_42
+      - MY_120
+      - NG_123
+      - LU_116
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 17
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 18
+      - 🇷🇺 RU_122
+      - 🇺🇸 US_222
+      - Pool_🇷🇴RO_3680
+      - RO_159
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 19
+      - 🇭🇰 香港(Youtube频道：工具大师！)
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 20
+      - CA_16
+      - 🇺🇸 US_193
+      - 🇺🇸 US_217
+      - 🇷🇺 RU_170
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 21
+      - ZZ_200
+      - AU_05
+      - 🇸🇬 新加坡(Youtube频道：工具大师！)
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 22
+      - 🇺🇸 美国(Youtube频道：工具大师！) 5
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 23
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 24
+      - 🇺🇸 US_203
+      - GB_57
+      - FI_45
+      - 🇺🇸 US_154
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 25
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 26
+      - Pool_🇬🇧GB_2375
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 27
+      - 🇺🇸 Pool_🇺🇸US_4190
+      - 🇸🇪 瑞典(Youtube频道：工具大师！)
+      - 🇸🇬 新加坡(Youtube频道：工具大师！) 2
+      - GB_184
+      - 🇬🇧 英国(Youtube频道：工具大师！)
+      - 🇸🇬 SG_175
+      - 🇺🇸 US_233
+      - ZZ_256
+      - 🇺🇸 US_165
+      - CA_09
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 28
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 29
+      - 🇩🇪 德国(Youtube频道：工具大师！) 2
+      - ZZ_262
+      - 🇺🇸 美国(Youtube频道：工具大师！) 6
+      - CA_11
+      - 🇺🇸 US_202
+      - 🇺🇸 US_224
+      - 🇺🇸 美国(Youtube频道：工具大师！) 7
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 30
+      - HR_89
+      - 🇺🇸 美国(Youtube频道：工具大师！) 8
+      - 🇩🇪 德国(Youtube频道：工具大师！) 3
+      - 🇺🇸 美国(Youtube频道：工具大师！) 9
+      - SI_179
+      - 🇩🇪 德国(Youtube频道：工具大师！) 4
+      - CA_15
+      - 🇩🇪 德国(Youtube频道：工具大师！) 5
+      - FR_64
+      - 🇩🇪 德国(Youtube频道：工具大师！) 6
+      - ZZ_206
+      - 🇩🇪 德国(Youtube频道：工具大师！) 7
+      - 🇬🇧 英国(Youtube频道：工具大师！) 2
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 31
+      - 🇺🇸 美国(Youtube频道：工具大师！) 10
+      - FR_47
+      - 🇩🇪 德国(Youtube频道：工具大师！) 8
+      - 🇺🇸 US_234
+      - RO_149
+      - 🇬🇧 英国(Youtube频道：工具大师！) 3
+      - CA_18
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 32
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 33
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 34
+      - RO_150
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 35
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 36
+      - 🇬🇧 英国(Youtube频道：工具大师！) 4
+      - 🇩🇪 德国(Youtube频道：工具大师！) 9
+      - 🇬🇧 英国(Youtube频道：工具大师！) 5
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 37
+      - 🇬🇧 英国(Youtube频道：工具大师！) 6
+      - Pool_🇷🇴RO_4017
+      - 🇸🇬 新加坡(Youtube频道：工具大师！) 3
+      - 🇺🇸 US_157
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 38
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 39
+      - 🇷🇺 RU_171
+      - 🇷🇺 俄罗斯(Youtube频道：工具大师！) 3
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 40
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 41
+      - 🇺🇸 Pool_🇺🇸US_176
+      - PT_144
+      - GB_73
+      - 🇺🇸 US_192
+      - 🇩🇪 德国(Youtube频道：工具大师！) 10
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 42
+      - 🇺🇸 US_156
+      - PL_142
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 43
+      - CH_22
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 44
+      - LU_117
+      - 🇩🇪 德国(Youtube频道：工具大师！) 11
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - IT_101
-      - NO_138
-      - ES_38
-      - 🇺🇸 US_154
-      - 🇺🇸 US_140
-      - SI_179
-      - LT_112
-      - FR_64
-      - 🇺🇸 US_233
-      - 🇺🇸 US_155
-      - 🇺🇸 US_205
-      - NO_139
-      - 🇺🇸 Pool_🇺🇸US_176
-      - 🇩🇪 YouTube晓柒科技分享：德国
-      - 🇺🇸 US_160
-      - 🇺🇸 YouTube晓柒科技分享：美国
-      - 🇮🇳 YouTube晓柒科技分享：印度
-      - 🇺🇸 YouTube晓柒科技分享：美国 2
-      - HR_88
-      - 🇺🇸 US_215
-      - 🇩🇪 YouTube晓柒科技分享：德国 2
-      - 🇮🇳 YouTube晓柒科技分享：印度 2
-      - 🇺🇸 YouTube晓柒科技分享：美国 3
-      - SK_183
-      - 🇺🇸 US_193
-      - RO_156
-      - 🇮🇳 YouTube晓柒科技分享：印度 3
-      - 🇮🇳 YouTube晓柒科技分享：印度 4
-      - FR_52
-      - 🇩🇪 YouTube晓柒科技分享：德国 3
-      - CA_18
-      - 🇺🇸 YouTube晓柒科技分享：美国 4
-      - 🇺🇸 YouTube晓柒科技分享：美国 5
-      - ZZ_206
-      - AU_07
-      - 🇮🇳 YouTube晓柒科技分享：印度 5
-      - 🇺🇸 US_234
-      - 🇺🇸 YouTube晓柒科技分享：美国 6
-      - 🇳🇱 YouTube晓柒科技分享：荷兰
-      - 🇳🇱 YouTube晓柒科技分享：荷兰 2
-      - RO_159
-      - 🇬🇧 YouTube晓柒科技分享：伦敦
-      - 🇳🇱 YouTube晓柒科技分享：荷兰 3
-      - 🇬🇧 YouTube晓柒科技分享：伦敦 2
-      - 🇳🇱 YouTube晓柒科技分享：荷兰 4
-      - 🇳🇱 YouTube晓柒科技分享：荷兰 5
-      - 🇬🇧 YouTube晓柒科技分享：伦敦 3
-      - GB_57
-      - 🇬🇧 YouTube晓柒科技分享：伦敦 4
-      - 🇺🇸 US_206
-      - 🇳🇱 YouTube晓柒科技分享：荷兰 6
-      - 🇩🇪 YouTube晓柒科技分享：德国 4
-      - 🇬🇧 YouTube晓柒科技分享：伦敦 5
-      - 🇺🇸 YouTube晓柒科技分享：美国 7
-      - CY_26
-      - 🇳🇱 YouTube晓柒科技分享：荷兰 7
-      - LU_113
-      - IN_91
-      - FR_56
-      - 🇮🇳 YouTube晓柒科技分享：印度 6
-      - 🇬🇧 YouTube晓柒科技分享：伦敦 6
-      - LU_117
-      - 🇺🇸 YouTube晓柒科技分享：美国 8
-      - 🇺🇸 YouTube晓柒科技分享：美国 9
-      - 🇺🇸 YouTube晓柒科技分享：美国 10
-      - 🇩🇪 YouTube晓柒科技分享：德国 5
-      - LU_116
-      - ZZ_258
-      - 🇺🇸 YouTube晓柒科技分享：美国 11
-      - 🇺🇸 YouTube晓柒科技分享：美国 12
-      - 🇳🇱 YouTube晓柒科技分享：荷兰 8
-      - 🇩🇪 YouTube晓柒科技分享：德国 6
-      - NG_123
-      - 🇺🇸 US_191
-      - MY_121
-      - LT_111
-      - NL_124
-      - AU_05
-      - 🇷🇺 RU_122
-      - FR_66
-      - 🇺🇸 YouTube晓柒科技分享：美国 13
-      - 🇨🇦 YouTube晓柒科技分享：加拿大
-      - 🇨🇦 YouTube晓柒科技分享：加拿大 2
-      - 🇺🇸 YouTube晓柒科技分享：美国 14
-      - 🇨🇦 YouTube晓柒科技分享：加拿大 3
-      - 🇨🇦 YouTube晓柒科技分享：加拿大 4
-      - 🇨🇦 YouTube晓柒科技分享：加拿大 5
-      - 🇨🇦 YouTube晓柒科技分享：加拿大 6
-      - 🇺🇸 US_224
-      - 🇺🇸 YouTube晓柒科技分享：美国 15
-      - 🇨🇦 YouTube晓柒科技分享：加拿大 7
-      - 🇺🇸 YouTube晓柒科技分享：美国 16
-      - 🇸🇬 SG_175
-      - 🇬🇧 YouTube晓柒科技分享：伦敦 7
-      - 🇨🇦 YouTube晓柒科技分享：加拿大 8
-      - MY_120
-      - 🇸🇬 SG_174
-      - ZZ_259
-      - 🇳🇱 YouTube晓柒科技分享：荷兰 9
-      - NZ_140
-      - ZZ_262
-      - 🇺🇸 US_204
       - ZZ_263
-      - IN_92
-      - 🇺🇸 US_203
-      - 🇬🇧 YouTube晓柒科技分享：伦敦 8
-      - PL_142
-      - FR_49
-      - 🇺🇸 US_192
-      - Pool_🇷🇴RO_4017
-      - Pool_🇷🇴RO_3680
-      - Pool_🇬🇧GB_2375
-      - GB_73
-      - LU_115
-      - 91.90.123.115:41676
-      - Pool_🇷🇴RO_4368
-      - 🇸🇬 SG_173
-      - 91.90.123.115:48938
-      - FR_69
-      - CA_12
-      - ZZ_200
-      - 🇺🇸 YouTube晓柒科技分享：美国 17
-      - UA_188
-      - 🇺🇸 US_165
-      - CA_16
-      - 🇺🇸 Pool_🇺🇸US_184
-      - HR_64
-      - RO_145
-      - RO_146
-      - 🇺🇸 YouTube晓柒科技分享：美国 18
-      - 🇺🇸 US_214
-      - 🇺🇸 US_217
-      - ZZ_256
-      - 🇨🇦 YouTube晓柒科技分享：加拿大 9
-      - 🇺🇸 US_202
-      - 🇺🇸 US_225
-      - 🇺🇸 US_156
-      - SI_181
-      - FR_54
-      - IN_94
-      - HR_89
-      - CA_15
-      - CA_11
-      - RO_164
-      - FR_47
-      - FI_45
-      - IN_93
-      - FR_55
-      - FR_61
-      - FR_68
-      - FR_53
-      - 🇺🇸 US_157
-      - 🇺🇸 US_242
-      - GB_184
-      - 🇺🇸 US_236
-      - 🇺🇸 US_227
-      - RO_148
-      - RO_150
-      - RO_149
-      - CA_09
-      - CH_22
-      - FR_57
-      - GB_77
-      - RO_147
-      - PT_144
-      - 🇮🇳 YouTube晓柒科技分享：印度 7
-      - 🇷🇺 RU_170
-      - 🇺🇸 Pool_🇺🇸US_4190
-      - 🇺🇸 Pool_🇺🇸US_5666
-      - CY_25
-      - 🇺🇸 US_222
-      - 🇮🇳 YouTube晓柒科技分享：印度 8
-      - 🇷🇺 RU_171
-      - RO_162
-      - RO_163
+      - 🇪🇺 欧洲(Youtube频道：工具大师！)
+      - 马其顿(Youtube频道：工具大师！)
       - 🇷🇺 RU_119
-      - 🇮🇳 YouTube晓柒科技分享：印度 9
-      - ES_42
+      - 🇺🇸 US_236
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 2
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 3
+      - LU_113
+      - FR_55
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 4
+      - 🇺🇸 US_155
+      - 🇺🇸 美国(Youtube频道：工具大师！)
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 5
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 6
+      - IT_101
+      - 🇺🇸 US_225
+      - LU_115
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 7
+      - IN_91
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 8
+      - 🇺🇸 US_191
+      - 🇳🇱 荷兰(Youtube频道：工具大师！)
+      - FR_66
+      - NO_138
+      - SI_181
+      - FR_53
+      - HR_88
       - RO_157
       - PT_143
-      - 🇩🇪 YouTube晓柒科技分享：德国 7
-      - 🇩🇪 YouTube晓柒科技分享：德国 8
-      - 🇩🇪 YouTube晓柒科技分享：德国 9
-      - 🇸🇬 SG_178
-      - BA_08
+      - RO_156
+      - FR_61
+      - Pool_🇷🇴RO_4368
+      - AU_07
+      - 🇩🇪 德国(Youtube频道：工具大师！)
+      - 🇺🇸 US_214
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 9
+      - RO_163
+      - 🇺🇸 美国(Youtube频道：工具大师！) 2
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 10
+      - LT_112
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 11
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 12
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 13
+      - 🇷🇺 俄罗斯(Youtube频道：工具大师！)
+      - ZZ_259
+      - 🇷🇺 俄罗斯(Youtube频道：工具大师！) 2
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 14
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 15
+      - 🇺🇸 Pool_🇺🇸US_5666
+      - RO_162
+      - 🇺🇸 US_206
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 16
+      - 🇺🇸 US_160
+      - 🇺🇸 美国(Youtube频道：工具大师！) 3
+      - 🇺🇸 美国(Youtube频道：工具大师！) 4
+      - 91.90.123.115:41676
+      - IN_93
+      - ES_38
+      - ES_42
+      - MY_120
+      - NG_123
+      - LU_116
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 17
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 18
+      - 🇷🇺 RU_122
+      - 🇺🇸 US_222
+      - Pool_🇷🇴RO_3680
+      - RO_159
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 19
+      - 🇭🇰 香港(Youtube频道：工具大师！)
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 20
+      - CA_16
+      - 🇺🇸 US_193
+      - 🇺🇸 US_217
+      - 🇷🇺 RU_170
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 21
+      - ZZ_200
+      - AU_05
+      - 🇸🇬 新加坡(Youtube频道：工具大师！)
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 22
+      - 🇺🇸 美国(Youtube频道：工具大师！) 5
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 23
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 24
+      - 🇺🇸 US_203
+      - GB_57
+      - FI_45
+      - 🇺🇸 US_154
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 25
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 26
+      - Pool_🇬🇧GB_2375
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 27
+      - 🇺🇸 Pool_🇺🇸US_4190
+      - 🇸🇪 瑞典(Youtube频道：工具大师！)
+      - 🇸🇬 新加坡(Youtube频道：工具大师！) 2
+      - GB_184
+      - 🇬🇧 英国(Youtube频道：工具大师！)
+      - 🇸🇬 SG_175
+      - 🇺🇸 US_233
+      - ZZ_256
+      - 🇺🇸 US_165
+      - CA_09
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 28
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 29
+      - 🇩🇪 德国(Youtube频道：工具大师！) 2
+      - ZZ_262
+      - 🇺🇸 美国(Youtube频道：工具大师！) 6
+      - CA_11
+      - 🇺🇸 US_202
+      - 🇺🇸 US_224
+      - 🇺🇸 美国(Youtube频道：工具大师！) 7
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 30
+      - HR_89
+      - 🇺🇸 美国(Youtube频道：工具大师！) 8
+      - 🇩🇪 德国(Youtube频道：工具大师！) 3
+      - 🇺🇸 美国(Youtube频道：工具大师！) 9
+      - SI_179
+      - 🇩🇪 德国(Youtube频道：工具大师！) 4
+      - CA_15
+      - 🇩🇪 德国(Youtube频道：工具大师！) 5
+      - FR_64
+      - 🇩🇪 德国(Youtube频道：工具大师！) 6
+      - ZZ_206
+      - 🇩🇪 德国(Youtube频道：工具大师！) 7
+      - 🇬🇧 英国(Youtube频道：工具大师！) 2
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 31
+      - 🇺🇸 美国(Youtube频道：工具大师！) 10
+      - FR_47
+      - 🇩🇪 德国(Youtube频道：工具大师！) 8
+      - 🇺🇸 US_234
+      - RO_149
+      - 🇬🇧 英国(Youtube频道：工具大师！) 3
+      - CA_18
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 32
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 33
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 34
+      - RO_150
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 35
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 36
+      - 🇬🇧 英国(Youtube频道：工具大师！) 4
+      - 🇩🇪 德国(Youtube频道：工具大师！) 9
+      - 🇬🇧 英国(Youtube频道：工具大师！) 5
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 37
+      - 🇬🇧 英国(Youtube频道：工具大师！) 6
+      - Pool_🇷🇴RO_4017
+      - 🇸🇬 新加坡(Youtube频道：工具大师！) 3
+      - 🇺🇸 US_157
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 38
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 39
+      - 🇷🇺 RU_171
+      - 🇷🇺 俄罗斯(Youtube频道：工具大师！) 3
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 40
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 41
+      - 🇺🇸 Pool_🇺🇸US_176
+      - PT_144
+      - GB_73
+      - 🇺🇸 US_192
+      - 🇩🇪 德国(Youtube频道：工具大师！) 10
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 42
+      - 🇺🇸 US_156
+      - PL_142
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 43
+      - CH_22
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 44
+      - LU_117
+      - 🇩🇪 德国(Youtube频道：工具大师！) 11
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - IT_101
-      - NO_138
-      - ES_38
-      - 🇺🇸 US_154
-      - 🇺🇸 US_140
-      - SI_179
-      - LT_112
-      - FR_64
-      - 🇺🇸 US_233
-      - 🇺🇸 US_155
-      - 🇺🇸 US_205
-      - NO_139
-      - 🇺🇸 Pool_🇺🇸US_176
-      - 🇩🇪 YouTube晓柒科技分享：德国
-      - 🇺🇸 US_160
-      - 🇺🇸 YouTube晓柒科技分享：美国
-      - 🇮🇳 YouTube晓柒科技分享：印度
-      - 🇺🇸 YouTube晓柒科技分享：美国 2
-      - HR_88
-      - 🇺🇸 US_215
-      - 🇩🇪 YouTube晓柒科技分享：德国 2
-      - 🇮🇳 YouTube晓柒科技分享：印度 2
-      - 🇺🇸 YouTube晓柒科技分享：美国 3
-      - SK_183
-      - 🇺🇸 US_193
-      - RO_156
-      - 🇮🇳 YouTube晓柒科技分享：印度 3
-      - 🇮🇳 YouTube晓柒科技分享：印度 4
-      - FR_52
-      - 🇩🇪 YouTube晓柒科技分享：德国 3
-      - CA_18
-      - 🇺🇸 YouTube晓柒科技分享：美国 4
-      - 🇺🇸 YouTube晓柒科技分享：美国 5
-      - ZZ_206
-      - AU_07
-      - 🇮🇳 YouTube晓柒科技分享：印度 5
-      - 🇺🇸 US_234
-      - 🇺🇸 YouTube晓柒科技分享：美国 6
-      - 🇳🇱 YouTube晓柒科技分享：荷兰
-      - 🇳🇱 YouTube晓柒科技分享：荷兰 2
-      - RO_159
-      - 🇬🇧 YouTube晓柒科技分享：伦敦
-      - 🇳🇱 YouTube晓柒科技分享：荷兰 3
-      - 🇬🇧 YouTube晓柒科技分享：伦敦 2
-      - 🇳🇱 YouTube晓柒科技分享：荷兰 4
-      - 🇳🇱 YouTube晓柒科技分享：荷兰 5
-      - 🇬🇧 YouTube晓柒科技分享：伦敦 3
-      - GB_57
-      - 🇬🇧 YouTube晓柒科技分享：伦敦 4
-      - 🇺🇸 US_206
-      - 🇳🇱 YouTube晓柒科技分享：荷兰 6
-      - 🇩🇪 YouTube晓柒科技分享：德国 4
-      - 🇬🇧 YouTube晓柒科技分享：伦敦 5
-      - 🇺🇸 YouTube晓柒科技分享：美国 7
-      - CY_26
-      - 🇳🇱 YouTube晓柒科技分享：荷兰 7
-      - LU_113
-      - IN_91
-      - FR_56
-      - 🇮🇳 YouTube晓柒科技分享：印度 6
-      - 🇬🇧 YouTube晓柒科技分享：伦敦 6
-      - LU_117
-      - 🇺🇸 YouTube晓柒科技分享：美国 8
-      - 🇺🇸 YouTube晓柒科技分享：美国 9
-      - 🇺🇸 YouTube晓柒科技分享：美国 10
-      - 🇩🇪 YouTube晓柒科技分享：德国 5
-      - LU_116
-      - ZZ_258
-      - 🇺🇸 YouTube晓柒科技分享：美国 11
-      - 🇺🇸 YouTube晓柒科技分享：美国 12
-      - 🇳🇱 YouTube晓柒科技分享：荷兰 8
-      - 🇩🇪 YouTube晓柒科技分享：德国 6
-      - NG_123
-      - 🇺🇸 US_191
-      - MY_121
-      - LT_111
-      - NL_124
-      - AU_05
-      - 🇷🇺 RU_122
-      - FR_66
-      - 🇺🇸 YouTube晓柒科技分享：美国 13
-      - 🇨🇦 YouTube晓柒科技分享：加拿大
-      - 🇨🇦 YouTube晓柒科技分享：加拿大 2
-      - 🇺🇸 YouTube晓柒科技分享：美国 14
-      - 🇨🇦 YouTube晓柒科技分享：加拿大 3
-      - 🇨🇦 YouTube晓柒科技分享：加拿大 4
-      - 🇨🇦 YouTube晓柒科技分享：加拿大 5
-      - 🇨🇦 YouTube晓柒科技分享：加拿大 6
-      - 🇺🇸 US_224
-      - 🇺🇸 YouTube晓柒科技分享：美国 15
-      - 🇨🇦 YouTube晓柒科技分享：加拿大 7
-      - 🇺🇸 YouTube晓柒科技分享：美国 16
-      - 🇸🇬 SG_175
-      - 🇬🇧 YouTube晓柒科技分享：伦敦 7
-      - 🇨🇦 YouTube晓柒科技分享：加拿大 8
-      - MY_120
-      - 🇸🇬 SG_174
-      - ZZ_259
-      - 🇳🇱 YouTube晓柒科技分享：荷兰 9
-      - NZ_140
-      - ZZ_262
-      - 🇺🇸 US_204
       - ZZ_263
-      - IN_92
-      - 🇺🇸 US_203
-      - 🇬🇧 YouTube晓柒科技分享：伦敦 8
-      - PL_142
-      - FR_49
-      - 🇺🇸 US_192
-      - Pool_🇷🇴RO_4017
-      - Pool_🇷🇴RO_3680
-      - Pool_🇬🇧GB_2375
-      - GB_73
-      - LU_115
-      - 91.90.123.115:41676
-      - Pool_🇷🇴RO_4368
-      - 🇸🇬 SG_173
-      - 91.90.123.115:48938
-      - FR_69
-      - CA_12
-      - ZZ_200
-      - 🇺🇸 YouTube晓柒科技分享：美国 17
-      - UA_188
-      - 🇺🇸 US_165
-      - CA_16
-      - 🇺🇸 Pool_🇺🇸US_184
-      - HR_64
-      - RO_145
-      - RO_146
-      - 🇺🇸 YouTube晓柒科技分享：美国 18
-      - 🇺🇸 US_214
-      - 🇺🇸 US_217
-      - ZZ_256
-      - 🇨🇦 YouTube晓柒科技分享：加拿大 9
-      - 🇺🇸 US_202
-      - 🇺🇸 US_225
-      - 🇺🇸 US_156
-      - SI_181
-      - FR_54
-      - IN_94
-      - HR_89
-      - CA_15
-      - CA_11
-      - RO_164
-      - FR_47
-      - FI_45
-      - IN_93
-      - FR_55
-      - FR_61
-      - FR_68
-      - FR_53
-      - 🇺🇸 US_157
-      - 🇺🇸 US_242
-      - GB_184
-      - 🇺🇸 US_236
-      - 🇺🇸 US_227
-      - RO_148
-      - RO_150
-      - RO_149
-      - CA_09
-      - CH_22
-      - FR_57
-      - GB_77
-      - RO_147
-      - PT_144
-      - 🇮🇳 YouTube晓柒科技分享：印度 7
-      - 🇷🇺 RU_170
-      - 🇺🇸 Pool_🇺🇸US_4190
-      - 🇺🇸 Pool_🇺🇸US_5666
-      - CY_25
-      - 🇺🇸 US_222
-      - 🇮🇳 YouTube晓柒科技分享：印度 8
-      - 🇷🇺 RU_171
-      - RO_162
-      - RO_163
+      - 🇪🇺 欧洲(Youtube频道：工具大师！)
+      - 马其顿(Youtube频道：工具大师！)
       - 🇷🇺 RU_119
-      - 🇮🇳 YouTube晓柒科技分享：印度 9
-      - ES_42
+      - 🇺🇸 US_236
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 2
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 3
+      - LU_113
+      - FR_55
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 4
+      - 🇺🇸 US_155
+      - 🇺🇸 美国(Youtube频道：工具大师！)
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 5
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 6
+      - IT_101
+      - 🇺🇸 US_225
+      - LU_115
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 7
+      - IN_91
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 8
+      - 🇺🇸 US_191
+      - 🇳🇱 荷兰(Youtube频道：工具大师！)
+      - FR_66
+      - NO_138
+      - SI_181
+      - FR_53
+      - HR_88
       - RO_157
       - PT_143
-      - 🇩🇪 YouTube晓柒科技分享：德国 7
-      - 🇩🇪 YouTube晓柒科技分享：德国 8
-      - 🇩🇪 YouTube晓柒科技分享：德国 9
-      - 🇸🇬 SG_178
-      - BA_08
+      - RO_156
+      - FR_61
+      - Pool_🇷🇴RO_4368
+      - AU_07
+      - 🇩🇪 德国(Youtube频道：工具大师！)
+      - 🇺🇸 US_214
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 9
+      - RO_163
+      - 🇺🇸 美国(Youtube频道：工具大师！) 2
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 10
+      - LT_112
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 11
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 12
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 13
+      - 🇷🇺 俄罗斯(Youtube频道：工具大师！)
+      - ZZ_259
+      - 🇷🇺 俄罗斯(Youtube频道：工具大师！) 2
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 14
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 15
+      - 🇺🇸 Pool_🇺🇸US_5666
+      - RO_162
+      - 🇺🇸 US_206
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 16
+      - 🇺🇸 US_160
+      - 🇺🇸 美国(Youtube频道：工具大师！) 3
+      - 🇺🇸 美国(Youtube频道：工具大师！) 4
+      - 91.90.123.115:41676
+      - IN_93
+      - ES_38
+      - ES_42
+      - MY_120
+      - NG_123
+      - LU_116
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 17
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 18
+      - 🇷🇺 RU_122
+      - 🇺🇸 US_222
+      - Pool_🇷🇴RO_3680
+      - RO_159
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 19
+      - 🇭🇰 香港(Youtube频道：工具大师！)
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 20
+      - CA_16
+      - 🇺🇸 US_193
+      - 🇺🇸 US_217
+      - 🇷🇺 RU_170
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 21
+      - ZZ_200
+      - AU_05
+      - 🇸🇬 新加坡(Youtube频道：工具大师！)
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 22
+      - 🇺🇸 美国(Youtube频道：工具大师！) 5
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 23
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 24
+      - 🇺🇸 US_203
+      - GB_57
+      - FI_45
+      - 🇺🇸 US_154
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 25
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 26
+      - Pool_🇬🇧GB_2375
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 27
+      - 🇺🇸 Pool_🇺🇸US_4190
+      - 🇸🇪 瑞典(Youtube频道：工具大师！)
+      - 🇸🇬 新加坡(Youtube频道：工具大师！) 2
+      - GB_184
+      - 🇬🇧 英国(Youtube频道：工具大师！)
+      - 🇸🇬 SG_175
+      - 🇺🇸 US_233
+      - ZZ_256
+      - 🇺🇸 US_165
+      - CA_09
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 28
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 29
+      - 🇩🇪 德国(Youtube频道：工具大师！) 2
+      - ZZ_262
+      - 🇺🇸 美国(Youtube频道：工具大师！) 6
+      - CA_11
+      - 🇺🇸 US_202
+      - 🇺🇸 US_224
+      - 🇺🇸 美国(Youtube频道：工具大师！) 7
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 30
+      - HR_89
+      - 🇺🇸 美国(Youtube频道：工具大师！) 8
+      - 🇩🇪 德国(Youtube频道：工具大师！) 3
+      - 🇺🇸 美国(Youtube频道：工具大师！) 9
+      - SI_179
+      - 🇩🇪 德国(Youtube频道：工具大师！) 4
+      - CA_15
+      - 🇩🇪 德国(Youtube频道：工具大师！) 5
+      - FR_64
+      - 🇩🇪 德国(Youtube频道：工具大师！) 6
+      - ZZ_206
+      - 🇩🇪 德国(Youtube频道：工具大师！) 7
+      - 🇬🇧 英国(Youtube频道：工具大师！) 2
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 31
+      - 🇺🇸 美国(Youtube频道：工具大师！) 10
+      - FR_47
+      - 🇩🇪 德国(Youtube频道：工具大师！) 8
+      - 🇺🇸 US_234
+      - RO_149
+      - 🇬🇧 英国(Youtube频道：工具大师！) 3
+      - CA_18
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 32
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 33
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 34
+      - RO_150
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 35
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 36
+      - 🇬🇧 英国(Youtube频道：工具大师！) 4
+      - 🇩🇪 德国(Youtube频道：工具大师！) 9
+      - 🇬🇧 英国(Youtube频道：工具大师！) 5
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 37
+      - 🇬🇧 英国(Youtube频道：工具大师！) 6
+      - Pool_🇷🇴RO_4017
+      - 🇸🇬 新加坡(Youtube频道：工具大师！) 3
+      - 🇺🇸 US_157
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 38
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 39
+      - 🇷🇺 RU_171
+      - 🇷🇺 俄罗斯(Youtube频道：工具大师！) 3
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 40
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 41
+      - 🇺🇸 Pool_🇺🇸US_176
+      - PT_144
+      - GB_73
+      - 🇺🇸 US_192
+      - 🇩🇪 德国(Youtube频道：工具大师！) 10
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 42
+      - 🇺🇸 US_156
+      - PL_142
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 43
+      - CH_22
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 44
+      - LU_117
+      - 🇩🇪 德国(Youtube频道：工具大师！) 11
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1355,191 +1215,171 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - IT_101
-      - NO_138
-      - ES_38
-      - 🇺🇸 US_154
-      - 🇺🇸 US_140
-      - SI_179
-      - LT_112
-      - FR_64
-      - 🇺🇸 US_233
-      - 🇺🇸 US_155
-      - 🇺🇸 US_205
-      - NO_139
-      - 🇺🇸 Pool_🇺🇸US_176
-      - 🇩🇪 YouTube晓柒科技分享：德国
-      - 🇺🇸 US_160
-      - 🇺🇸 YouTube晓柒科技分享：美国
-      - 🇮🇳 YouTube晓柒科技分享：印度
-      - 🇺🇸 YouTube晓柒科技分享：美国 2
-      - HR_88
-      - 🇺🇸 US_215
-      - 🇩🇪 YouTube晓柒科技分享：德国 2
-      - 🇮🇳 YouTube晓柒科技分享：印度 2
-      - 🇺🇸 YouTube晓柒科技分享：美国 3
-      - SK_183
-      - 🇺🇸 US_193
-      - RO_156
-      - 🇮🇳 YouTube晓柒科技分享：印度 3
-      - 🇮🇳 YouTube晓柒科技分享：印度 4
-      - FR_52
-      - 🇩🇪 YouTube晓柒科技分享：德国 3
-      - CA_18
-      - 🇺🇸 YouTube晓柒科技分享：美国 4
-      - 🇺🇸 YouTube晓柒科技分享：美国 5
-      - ZZ_206
-      - AU_07
-      - 🇮🇳 YouTube晓柒科技分享：印度 5
-      - 🇺🇸 US_234
-      - 🇺🇸 YouTube晓柒科技分享：美国 6
-      - 🇳🇱 YouTube晓柒科技分享：荷兰
-      - 🇳🇱 YouTube晓柒科技分享：荷兰 2
-      - RO_159
-      - 🇬🇧 YouTube晓柒科技分享：伦敦
-      - 🇳🇱 YouTube晓柒科技分享：荷兰 3
-      - 🇬🇧 YouTube晓柒科技分享：伦敦 2
-      - 🇳🇱 YouTube晓柒科技分享：荷兰 4
-      - 🇳🇱 YouTube晓柒科技分享：荷兰 5
-      - 🇬🇧 YouTube晓柒科技分享：伦敦 3
-      - GB_57
-      - 🇬🇧 YouTube晓柒科技分享：伦敦 4
-      - 🇺🇸 US_206
-      - 🇳🇱 YouTube晓柒科技分享：荷兰 6
-      - 🇩🇪 YouTube晓柒科技分享：德国 4
-      - 🇬🇧 YouTube晓柒科技分享：伦敦 5
-      - 🇺🇸 YouTube晓柒科技分享：美国 7
-      - CY_26
-      - 🇳🇱 YouTube晓柒科技分享：荷兰 7
-      - LU_113
-      - IN_91
-      - FR_56
-      - 🇮🇳 YouTube晓柒科技分享：印度 6
-      - 🇬🇧 YouTube晓柒科技分享：伦敦 6
-      - LU_117
-      - 🇺🇸 YouTube晓柒科技分享：美国 8
-      - 🇺🇸 YouTube晓柒科技分享：美国 9
-      - 🇺🇸 YouTube晓柒科技分享：美国 10
-      - 🇩🇪 YouTube晓柒科技分享：德国 5
-      - LU_116
-      - ZZ_258
-      - 🇺🇸 YouTube晓柒科技分享：美国 11
-      - 🇺🇸 YouTube晓柒科技分享：美国 12
-      - 🇳🇱 YouTube晓柒科技分享：荷兰 8
-      - 🇩🇪 YouTube晓柒科技分享：德国 6
-      - NG_123
-      - 🇺🇸 US_191
-      - MY_121
-      - LT_111
-      - NL_124
-      - AU_05
-      - 🇷🇺 RU_122
-      - FR_66
-      - 🇺🇸 YouTube晓柒科技分享：美国 13
-      - 🇨🇦 YouTube晓柒科技分享：加拿大
-      - 🇨🇦 YouTube晓柒科技分享：加拿大 2
-      - 🇺🇸 YouTube晓柒科技分享：美国 14
-      - 🇨🇦 YouTube晓柒科技分享：加拿大 3
-      - 🇨🇦 YouTube晓柒科技分享：加拿大 4
-      - 🇨🇦 YouTube晓柒科技分享：加拿大 5
-      - 🇨🇦 YouTube晓柒科技分享：加拿大 6
-      - 🇺🇸 US_224
-      - 🇺🇸 YouTube晓柒科技分享：美国 15
-      - 🇨🇦 YouTube晓柒科技分享：加拿大 7
-      - 🇺🇸 YouTube晓柒科技分享：美国 16
-      - 🇸🇬 SG_175
-      - 🇬🇧 YouTube晓柒科技分享：伦敦 7
-      - 🇨🇦 YouTube晓柒科技分享：加拿大 8
-      - MY_120
-      - 🇸🇬 SG_174
-      - ZZ_259
-      - 🇳🇱 YouTube晓柒科技分享：荷兰 9
-      - NZ_140
-      - ZZ_262
-      - 🇺🇸 US_204
       - ZZ_263
-      - IN_92
-      - 🇺🇸 US_203
-      - 🇬🇧 YouTube晓柒科技分享：伦敦 8
-      - PL_142
-      - FR_49
-      - 🇺🇸 US_192
-      - Pool_🇷🇴RO_4017
-      - Pool_🇷🇴RO_3680
-      - Pool_🇬🇧GB_2375
-      - GB_73
-      - LU_115
-      - 91.90.123.115:41676
-      - Pool_🇷🇴RO_4368
-      - 🇸🇬 SG_173
-      - 91.90.123.115:48938
-      - FR_69
-      - CA_12
-      - ZZ_200
-      - 🇺🇸 YouTube晓柒科技分享：美国 17
-      - UA_188
-      - 🇺🇸 US_165
-      - CA_16
-      - 🇺🇸 Pool_🇺🇸US_184
-      - HR_64
-      - RO_145
-      - RO_146
-      - 🇺🇸 YouTube晓柒科技分享：美国 18
-      - 🇺🇸 US_214
-      - 🇺🇸 US_217
-      - ZZ_256
-      - 🇨🇦 YouTube晓柒科技分享：加拿大 9
-      - 🇺🇸 US_202
-      - 🇺🇸 US_225
-      - 🇺🇸 US_156
-      - SI_181
-      - FR_54
-      - IN_94
-      - HR_89
-      - CA_15
-      - CA_11
-      - RO_164
-      - FR_47
-      - FI_45
-      - IN_93
-      - FR_55
-      - FR_61
-      - FR_68
-      - FR_53
-      - 🇺🇸 US_157
-      - 🇺🇸 US_242
-      - GB_184
-      - 🇺🇸 US_236
-      - 🇺🇸 US_227
-      - RO_148
-      - RO_150
-      - RO_149
-      - CA_09
-      - CH_22
-      - FR_57
-      - GB_77
-      - RO_147
-      - PT_144
-      - 🇮🇳 YouTube晓柒科技分享：印度 7
-      - 🇷🇺 RU_170
-      - 🇺🇸 Pool_🇺🇸US_4190
-      - 🇺🇸 Pool_🇺🇸US_5666
-      - CY_25
-      - 🇺🇸 US_222
-      - 🇮🇳 YouTube晓柒科技分享：印度 8
-      - 🇷🇺 RU_171
-      - RO_162
-      - RO_163
+      - 🇪🇺 欧洲(Youtube频道：工具大师！)
+      - 马其顿(Youtube频道：工具大师！)
       - 🇷🇺 RU_119
-      - 🇮🇳 YouTube晓柒科技分享：印度 9
-      - ES_42
+      - 🇺🇸 US_236
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 2
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 3
+      - LU_113
+      - FR_55
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 4
+      - 🇺🇸 US_155
+      - 🇺🇸 美国(Youtube频道：工具大师！)
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 5
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 6
+      - IT_101
+      - 🇺🇸 US_225
+      - LU_115
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 7
+      - IN_91
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 8
+      - 🇺🇸 US_191
+      - 🇳🇱 荷兰(Youtube频道：工具大师！)
+      - FR_66
+      - NO_138
+      - SI_181
+      - FR_53
+      - HR_88
       - RO_157
       - PT_143
-      - 🇩🇪 YouTube晓柒科技分享：德国 7
-      - 🇩🇪 YouTube晓柒科技分享：德国 8
-      - 🇩🇪 YouTube晓柒科技分享：德国 9
-      - 🇸🇬 SG_178
-      - BA_08
+      - RO_156
+      - FR_61
+      - Pool_🇷🇴RO_4368
+      - AU_07
+      - 🇩🇪 德国(Youtube频道：工具大师！)
+      - 🇺🇸 US_214
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 9
+      - RO_163
+      - 🇺🇸 美国(Youtube频道：工具大师！) 2
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 10
+      - LT_112
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 11
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 12
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 13
+      - 🇷🇺 俄罗斯(Youtube频道：工具大师！)
+      - ZZ_259
+      - 🇷🇺 俄罗斯(Youtube频道：工具大师！) 2
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 14
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 15
+      - 🇺🇸 Pool_🇺🇸US_5666
+      - RO_162
+      - 🇺🇸 US_206
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 16
+      - 🇺🇸 US_160
+      - 🇺🇸 美国(Youtube频道：工具大师！) 3
+      - 🇺🇸 美国(Youtube频道：工具大师！) 4
+      - 91.90.123.115:41676
+      - IN_93
+      - ES_38
+      - ES_42
+      - MY_120
+      - NG_123
+      - LU_116
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 17
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 18
+      - 🇷🇺 RU_122
+      - 🇺🇸 US_222
+      - Pool_🇷🇴RO_3680
+      - RO_159
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 19
+      - 🇭🇰 香港(Youtube频道：工具大师！)
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 20
+      - CA_16
+      - 🇺🇸 US_193
+      - 🇺🇸 US_217
+      - 🇷🇺 RU_170
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 21
+      - ZZ_200
+      - AU_05
+      - 🇸🇬 新加坡(Youtube频道：工具大师！)
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 22
+      - 🇺🇸 美国(Youtube频道：工具大师！) 5
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 23
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 24
+      - 🇺🇸 US_203
+      - GB_57
+      - FI_45
+      - 🇺🇸 US_154
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 25
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 26
+      - Pool_🇬🇧GB_2375
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 27
+      - 🇺🇸 Pool_🇺🇸US_4190
+      - 🇸🇪 瑞典(Youtube频道：工具大师！)
+      - 🇸🇬 新加坡(Youtube频道：工具大师！) 2
+      - GB_184
+      - 🇬🇧 英国(Youtube频道：工具大师！)
+      - 🇸🇬 SG_175
+      - 🇺🇸 US_233
+      - ZZ_256
+      - 🇺🇸 US_165
+      - CA_09
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 28
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 29
+      - 🇩🇪 德国(Youtube频道：工具大师！) 2
+      - ZZ_262
+      - 🇺🇸 美国(Youtube频道：工具大师！) 6
+      - CA_11
+      - 🇺🇸 US_202
+      - 🇺🇸 US_224
+      - 🇺🇸 美国(Youtube频道：工具大师！) 7
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 30
+      - HR_89
+      - 🇺🇸 美国(Youtube频道：工具大师！) 8
+      - 🇩🇪 德国(Youtube频道：工具大师！) 3
+      - 🇺🇸 美国(Youtube频道：工具大师！) 9
+      - SI_179
+      - 🇩🇪 德国(Youtube频道：工具大师！) 4
+      - CA_15
+      - 🇩🇪 德国(Youtube频道：工具大师！) 5
+      - FR_64
+      - 🇩🇪 德国(Youtube频道：工具大师！) 6
+      - ZZ_206
+      - 🇩🇪 德国(Youtube频道：工具大师！) 7
+      - 🇬🇧 英国(Youtube频道：工具大师！) 2
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 31
+      - 🇺🇸 美国(Youtube频道：工具大师！) 10
+      - FR_47
+      - 🇩🇪 德国(Youtube频道：工具大师！) 8
+      - 🇺🇸 US_234
+      - RO_149
+      - 🇬🇧 英国(Youtube频道：工具大师！) 3
+      - CA_18
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 32
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 33
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 34
+      - RO_150
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 35
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 36
+      - 🇬🇧 英国(Youtube频道：工具大师！) 4
+      - 🇩🇪 德国(Youtube频道：工具大师！) 9
+      - 🇬🇧 英国(Youtube频道：工具大师！) 5
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 37
+      - 🇬🇧 英国(Youtube频道：工具大师！) 6
+      - Pool_🇷🇴RO_4017
+      - 🇸🇬 新加坡(Youtube频道：工具大师！) 3
+      - 🇺🇸 US_157
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 38
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 39
+      - 🇷🇺 RU_171
+      - 🇷🇺 俄罗斯(Youtube频道：工具大师！) 3
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 40
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 41
+      - 🇺🇸 Pool_🇺🇸US_176
+      - PT_144
+      - GB_73
+      - 🇺🇸 US_192
+      - 🇩🇪 德国(Youtube频道：工具大师！) 10
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 42
+      - 🇺🇸 US_156
+      - PL_142
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 43
+      - CH_22
+      - 🇪🇺 欧洲(Youtube频道：工具大师！) 44
+      - LU_117
+      - 🇩🇪 德国(Youtube频道：工具大师！) 11
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
