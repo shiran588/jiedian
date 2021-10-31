@@ -5,2874 +5,1131 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: AZ_1679, server: 62.212.239.53, port: 45746, type: ss, cipher: aes-256-gcm, password: wEsFcHCvbL4eJkL4DZQa7RgR}
-  - {name: AZ_1727 | 4.41Mb, server: 62.212.239.51, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
-  - {name: 137.59.52.107:50168, server: 137.59.52.107, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 66.115.177.156:43893, server: 66.115.177.156, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: 167.88.63.99:8091, server: 167.88.63.99, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: AZ_1819 |11.19Mb, server: 62.212.239.53, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
-  - {name: TH_12316 | 2.68Mb, server: 27.131.164.94, port: 41372, type: ss, cipher: aes-256-gcm, password: 5kGAhC3AmVC35GbruHjSrZf2}
-  - {name: 192.169.112.166:8091, server: 192.169.112.166, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: TH_12313 | 2.64Mb, server: 27.131.164.94, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 91.90.123.115:38620, server: 91.90.123.115, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
-  - {name: m8.mogu66.com:206, server: m8.mogu66.com, port: 206, type: ss, cipher: aes-128-gcm, password: BpD5FyN7}
-  - {name: 192.169.112.168:8091, server: 192.169.112.168, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 91.90.123.115:41676, server: 91.90.123.115, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
-  - {name: 🇺🇸 US_16779 | 1.98Mb, server: 66.115.169.35, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: 🇺🇸 US_14032 |13.03Mb, server: 66.115.177.141, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
-  - {name: 198.147.22.87:35200, server: 198.147.22.87, port: 35200, type: ss, cipher: aes-256-gcm, password: WBLAbN6AwtV5avBx73hFRLB3}
-  - {name: 🇺🇸 US_18799, server: 66.115.177.156, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
-  - {name: 191.96.13.200:36460, server: 191.96.13.200, port: 36460, type: ss, cipher: aes-256-gcm, password: yUXad7DGF8L5cTShEpnp2N6z}
-  - {name: 91.90.123.115:34815, server: 91.90.123.115, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: IT_7603 |10.38Mb, server: 82.102.26.93, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
-  - {name: 66.115.177.141:42185, server: 66.115.177.141, port: 42185, type: ss, cipher: aes-256-gcm, password: FaTG4zALZru72gxjgSHQ7Jdh}
-  - {name: BR_2276, server: 128.14.222.201, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: TH_12284, server: 27.131.164.94, port: 45948, type: ss, cipher: aes-256-gcm, password: j76EXqJcQhuQTr3EvUf7xaK9}
-  - {name: 🇺🇸 US_15759, server: 66.115.177.143, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 167.88.63.108:8091, server: 167.88.63.108, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: AZ_1720, server: 62.212.239.53, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: 128.14.222.218:8090, server: 128.14.222.218, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 91.219.215.19:31944, server: 91.219.215.19, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 🇰🇷 KR_8070 | 2.67Mb, server: 61.14.210.237, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
-  - {name: 🇺🇸 US_15364, server: 66.115.177.143, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
-  - {name: 🇺🇸 US_13442, server: 66.115.177.156, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 🇺🇸 US_15528, server: 66.115.177.141, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: m3.mogu66.com:215, server: m3.mogu66.com, port: 215, type: ss, cipher: aes-128-gcm, password: gXeeBeMf}
-  - {name: 🇰🇷 KR_8107 | 0.26Mb, server: 61.14.210.237, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 🇰🇷 KR_8136 | 2.87Mb, server: 61.14.210.237, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: TH_12344 | 2.67Mb, server: 27.131.164.94, port: 35200, type: ss, cipher: aes-256-gcm, password: WBLAbN6AwtV5avBx73hFRLB3}
-  - {name: 🇺🇸 US_15487, server: 63.141.236.245, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇺🇸 US_13867 |15.89Mb, server: 66.115.154.131, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
-  - {name: 🇺🇸 US_14955, server: 66.115.154.131, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 66.115.177.143:38620, server: 66.115.177.143, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
-  - {name: 🇰🇷 KR_8108 | 4.99Mb, server: 61.14.210.237, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
-  - {name: 38.107.226.146:8090, server: 38.107.226.146, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇸 US_18457, server: 64.44.42.60, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 🇺🇸 美国(欢迎订阅Youtube破解资源君), server: 96.43.91.58, port: 443, type: vmess, uuid: 3bfb43e2-7dfe-4757-86ee-1ce9fb9fd13a, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.45218443.xyz}}
-  - {name: 86.106.137.147:39772, server: 86.106.137.147, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 US_15360, server: 66.115.177.143, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
-  - {name: 81.19.223.189:31764, server: 81.19.223.189, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: 🇺🇸 US_14217, server: 64.44.42.60, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: TH_12278, server: 27.131.164.94, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: 🇺🇸 US_14683, server: 66.115.177.156, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
-  - {name: 🇺🇸 US_15980, server: 45.129.32.8, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 134.195.196.163:8090, server: 134.195.196.163, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: IT_7802 | 9.36Mb, server: 82.102.26.93, port: 42185, type: ss, cipher: aes-256-gcm, password: FaTG4zALZru72gxjgSHQ7Jdh}
-  - {name: 185.166.84.81:41676, server: 185.166.84.81, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
-  - {name: TH_12426 | 2.63Mb, server: 27.131.164.94, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 🇺🇸 US_18794, server: 63.141.236.245, port: 42185, type: ss, cipher: aes-256-gcm, password: FaTG4zALZru72gxjgSHQ7Jdh}
-  - {name: 🇺🇸 US_19484 |33.24Mb, server: 64.44.42.60, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r}
-  - {name: 🇺🇸 US_14215, server: 64.44.42.60, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: 82.102.26.93:38742, server: 82.102.26.93, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: 🇺🇸 US_18819, server: 66.115.177.156, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: IT_7343 |10.50Mb, server: 82.102.26.93, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: 🇺🇸 US_17286, server: 63.141.236.245, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: 128.14.222.215:8090, server: 128.14.222.215, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: IT_7881 | 8.91Mb, server: 82.102.26.93, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: IT_7599 | 7.22Mb, server: 82.102.26.93, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
-  - {name: AZ_1772, server: 62.212.239.51, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
-  - {name: 🇺🇸 US_14391, server: 64.44.42.60, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
-  - {name: IT_7207 |13.94Mb, server: 82.102.26.93, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇺🇸 US_14682, server: 66.115.177.156, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
-  - {name: 🇺🇸 US_18228, server: 63.141.236.245, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: TH_12420 | 2.53Mb, server: 27.131.164.94, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: IT_7264 | 6.57Mb, server: 82.102.26.93, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
-  - {name: IT_7206 |16.02Mb, server: 82.102.26.93, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: 66.115.177.136:48938, server: 66.115.177.136, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
-  - {name: 🇺🇸 US_18194, server: 64.44.42.60, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
-  - {name: IT_7346 | 9.33Mb, server: 82.102.26.93, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
-  - {name: TH_12506 | 2.64Mb, server: 27.131.164.100, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
-  - {name: IT_7268 | 6.17Mb, server: 82.102.26.93, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: IT_7597 | 8.83Mb, server: 82.102.26.93, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj}
-  - {name: IT_7669 | 8.86Mb, server: 82.102.26.93, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
-  - {name: IT_7352 |10.88Mb, server: 82.102.26.93, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
-  - {name: RO_11035, server: 79.110.54.117, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2, server: 67.21.72.44, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.17080100.xyz}}
-  - {name: m8.mogu66.com:234, server: m8.mogu66.com, port: 234, type: ss, cipher: aes-128-gcm, password: 7vaTvbYz}
-  - {name: IT_7265 | 6.23Mb, server: 82.102.26.93, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
-  - {name: IT_7311 | 7.32Mb, server: 82.102.26.93, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: TH_12508 | 2.68Mb, server: 27.131.164.100, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
-  - {name: 🇺🇸 US_18398, server: 63.141.236.245, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
-  - {name: IT_7854 |13.30Mb, server: 82.102.26.93, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: IT_7648 |11.56Mb, server: 82.102.26.93, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
-  - {name: TH_12295, server: 27.131.164.94, port: 50768, type: ss, cipher: aes-256-gcm, password: MgWc3J8tAHsZrVqg4BaBHmGs}
-  - {name: 🇺🇸 US_18459, server: 64.44.42.60, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: 🇺🇸 US_15882, server: 66.115.177.143, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: IT_7667 |13.80Mb, server: 82.102.26.93, port: 50024, type: ss, cipher: aes-256-gcm, password: b2jDPHUQxCNa2KmGHZjy7C4B}
-  - {name: 🇺🇸 US_16328 | 2.04Mb, server: 63.141.236.245, port: 50695, type: ss, cipher: aes-256-gcm, password: gqtwGu9bVreJqL3FTHSVKGzy}
-  - {name: TH_12398 | 2.85Mb, server: 27.131.164.94, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: TH_12467 | 2.66Mb, server: 27.131.164.94, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
-  - {name: TH_12499 | 3.26Mb, server: 27.131.164.94, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
-  - {name: TH_12511 | 2.66Mb, server: 27.131.164.94, port: 50225, type: ss, cipher: aes-256-gcm, password: J2M953QbkCvvzx3vYWdyBQ4K}
-  - {name: TH_12330 | 2.69Mb, server: 27.131.164.94, port: 41992, type: ss, cipher: aes-256-gcm, password: XmQSxDCn5ehpcq6DBYms8FJf}
-  - {name: IT_7425 |10.93Mb, server: 82.102.26.93, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: TH_12532, server: 27.131.164.94, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
-  - {name: 🇺🇸 US_16154, server: 63.141.236.245, port: 42816, type: ss, cipher: aes-256-gcm, password: tBKBf4pVzNCFKdbPgvwrNXq3}
-  - {name: TH_12286, server: 27.131.164.94, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
-  - {name: TH_12492 | 2.67Mb, server: 27.131.164.94, port: 49468, type: ss, cipher: aes-256-gcm, password: LsYSQDxmPj9AcWpSX5HrYfu6}
-  - {name: IT_7654 |10.03Mb, server: 82.102.26.93, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 87.239.255.114:38747, server: 87.239.255.114, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj}
-  - {name: TH_12332 | 2.66Mb, server: 27.131.164.94, port: 44742, type: ss, cipher: aes-256-gcm, password: QCStKzZ56SHBc4tL7stCEqqd}
-  - {name: TH_12275, server: 27.131.164.94, port: 35371, type: ss, cipher: aes-256-gcm, password: pjeDhAJGuML8xKUxcjRqq6a9}
-  - {name: TH_12509 | 3.08Mb, server: 27.131.164.94, port: 50024, type: ss, cipher: aes-256-gcm, password: b2jDPHUQxCNa2KmGHZjy7C4B}
-  - {name: 27.131.164.94:46726, server: 27.131.164.94, port: 46726, type: ss, cipher: aes-256-gcm, password: 2fqKbFPGHpcmMTJzGsUbsfYf}
-  - {name: TH_12309 | 2.67Mb, server: 27.131.164.94, port: 39556, type: ss, cipher: aes-256-gcm, password: g4AfpNELpdYEeLYhM8XCX9se}
-  - {name: 180.149.231.67:37588, server: 180.149.231.67, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: TH_12287, server: 27.131.164.94, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
-  - {name: TH_12501 | 2.58Mb, server: 27.131.164.100, port: 45746, type: ss, cipher: aes-256-gcm, password: wEsFcHCvbL4eJkL4DZQa7RgR}
-  - {name: 185.153.151.60:47861, server: 185.153.151.60, port: 47861, type: ss, cipher: aes-256-gcm, password: LJcChRsGQRhywrtXUU55TLTu}
-  - {name: TH_12575 | 2.64Mb, server: 27.131.164.100, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: TH_12430 | 2.67Mb, server: 27.131.164.94, port: 47553, type: ss, cipher: aes-256-gcm, password: t2JnnFqjDMmzWurseJPgBsYY}
-  - {name: TH_12496 | 2.67Mb, server: 27.131.164.94, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
-  - {name: TH_12442 | 2.67Mb, server: 27.131.164.94, port: 42185, type: ss, cipher: aes-256-gcm, password: FaTG4zALZru72gxjgSHQ7Jdh}
-  - {name: TH_12593 | 2.67Mb, server: 27.131.164.100, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
-  - {name: 🇺🇸 US_15353, server: 66.115.177.141, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: AZ_1763, server: 62.212.239.53, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: TH_12419 | 2.39Mb, server: 27.131.164.94, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 61.14.210.242:32558, server: 61.14.210.242, port: 32558, type: ss, cipher: aes-256-gcm, password: gJYzm3TLbdL495ryQptaJXQk}
-  - {name: NZ_9124 | 3.60Mb, server: 180.149.231.69, port: 36460, type: ss, cipher: aes-256-gcm, password: yUXad7DGF8L5cTShEpnp2N6z}
-  - {name: TH_12294, server: 27.131.164.94, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
-  - {name: 🇺🇸 US_14964, server: 63.141.236.245, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r}
-  - {name: 🇺🇸 US_14447, server: 198.8.92.84, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: TH_12289, server: 27.131.164.94, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: TH_12281, server: 27.131.164.94, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: TH_12428 | 2.69Mb, server: 27.131.164.94, port: 31757, type: ss, cipher: aes-256-gcm, password: wj7nDCuNARchSeKNCN8VFK62}
-  - {name: TH_12543, server: 27.131.164.100, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
-  - {name: 🇺🇸 US_18843, server: 63.141.248.181, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
-  - {name: GB_5353 |13.40Mb, server: 89.238.130.227, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
-  - {name: 🇺🇸 US_15350, server: 66.115.154.131, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: TH_12436 | 2.66Mb, server: 27.131.164.100, port: 50024, type: ss, cipher: aes-256-gcm, password: b2jDPHUQxCNa2KmGHZjy7C4B}
-  - {name: TH_12427 | 2.70Mb, server: 27.131.164.94, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
-  - {name: TH_12361 | 2.65Mb, server: 27.131.164.94, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
-  - {name: TH_12285, server: 27.131.164.94, port: 45746, type: ss, cipher: aes-256-gcm, password: wEsFcHCvbL4eJkL4DZQa7RgR}
-  - {name: IT_7232 | 8.15Mb, server: 82.102.26.93, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
-  - {name: TH_12584 | 3.56Mb, server: 27.131.164.100, port: 39556, type: ss, cipher: aes-256-gcm, password: g4AfpNELpdYEeLYhM8XCX9se}
-  - {name: TH_12433 | 2.67Mb, server: 27.131.164.100, port: 50232, type: ss, cipher: aes-256-gcm, password: CjchzpwdSjRtDjezYMwx9BKM}
-  - {name: TH_12594 | 2.68Mb, server: 27.131.164.100, port: 37559, type: ss, cipher: aes-256-gcm, password: Qbt22F6JsxzFGqcsK5SaR8q3}
-  - {name: 🇺🇸 US_16724, server: 66.115.154.131, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: TH_12505 | 2.64Mb, server: 27.131.164.100, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
-  - {name: TH_12392 | 2.67Mb, server: 27.131.164.94, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
-  - {name: 79.110.54.133:49202, server: 79.110.54.133, port: 49202, type: ss, cipher: aes-256-gcm, password: btzEYXKZxnR7g6H2vFTQK5TD}
-  - {name: 51.159.30.61:805, server: 51.159.30.61, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: AZ_1678, server: 62.212.239.53, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
-  - {name: 27.131.164.100:48089, server: 27.131.164.100, port: 48089, type: ss, cipher: aes-256-gcm, password: apqQgXJyVDsdJMAYV4xspRFK}
-  - {name: TH_12307 | 2.67Mb, server: 27.131.164.94, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: TH_12372 | 3.23Mb, server: 27.131.164.94, port: 44539, type: ss, cipher: aes-256-gcm, password: r6hDrkP4Et6EENTS8Qy7Tcmg}
-  - {name: TH_12497 | 2.37Mb, server: 27.131.164.100, port: 46354, type: ss, cipher: aes-256-gcm, password: MYPKdC7n6qjL6xmJBBcrzzqS}
-  - {name: TH_12595 | 2.67Mb, server: 27.131.164.100, port: 36460, type: ss, cipher: aes-256-gcm, password: yUXad7DGF8L5cTShEpnp2N6z}
-  - {name: 🇺🇸 US_14450, server: 198.8.92.84, port: 40282, type: ss, cipher: aes-256-gcm, password: Pvvaw486867D2w4yctL2ULTQ}
-  - {name: TH_12314 | 2.66Mb, server: 27.131.164.94, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
-  - {name: 🇰🇷 KR_8086 | 2.66Mb, server: 61.14.210.237, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
-  - {name: 🇺🇸 US_16152, server: 63.141.236.245, port: 49468, type: ss, cipher: aes-256-gcm, password: LsYSQDxmPj9AcWpSX5HrYfu6}
-  - {name: TH_12560, server: 27.131.164.94, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r}
-  - {name: TH_12540, server: 27.131.164.100, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d}
-  - {name: TH_12512 | 2.53Mb, server: 27.131.164.100, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: TH_12431 | 2.26Mb, server: 27.131.164.100, port: 50695, type: ss, cipher: aes-256-gcm, password: gqtwGu9bVreJqL3FTHSVKGzy}
-  - {name: TH_12587 | 2.67Mb, server: 27.131.164.100, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj}
-  - {name: 🇺🇸 US_14943, server: 66.115.177.141, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: TH_12435 | 2.63Mb, server: 27.131.164.94, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
-  - {name: RO_10907 |15.84Mb, server: 79.110.54.117, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
-  - {name: TH_12429 | 2.68Mb, server: 27.131.164.94, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇺🇸 US_15841, server: 63.141.236.245, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
-  - {name: TH_12438 | 2.64Mb, server: 27.131.164.94, port: 48089, type: ss, cipher: aes-256-gcm, password: apqQgXJyVDsdJMAYV4xspRFK}
-  - {name: TH_12073, server: 27.131.164.100, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
-  - {name: TH_12478 | 3.00Mb, server: 27.131.164.100, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
-  - {name: 🇺🇸 美国(欢迎订阅Youtube破解资源君) 3, server: 107.148.198.53, port: 443, type: vmess, uuid: 4c7923df-700f-4bf2-918e-08c6e141037c, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.78577665.xyz}}
-  - {name: TH_12437 | 6.01Mb, server: 27.131.164.94, port: 47861, type: ss, cipher: aes-256-gcm, password: LJcChRsGQRhywrtXUU55TLTu}
-  - {name: TH_12393 | 2.54Mb, server: 27.131.164.100, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: AZ_1676, server: 62.212.239.53, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
-  - {name: 🇺🇸 US_18242, server: 63.141.236.245, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: 🇺🇸 US_17175, server: 63.141.236.245, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: TH_12276, server: 27.131.164.100, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: IT_7649 | 5.57Mb, server: 82.102.26.93, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
-  - {name: TH_12600 | 2.29Mb, server: 27.131.164.94, port: 50695, type: ss, cipher: aes-256-gcm, password: gqtwGu9bVreJqL3FTHSVKGzy}
-  - {name: 🇺🇸 US_15499, server: 63.141.236.245, port: 50024, type: ss, cipher: aes-256-gcm, password: b2jDPHUQxCNa2KmGHZjy7C4B}
-  - {name: TH_12510 | 2.80Mb, server: 27.131.164.100, port: 44628, type: ss, cipher: aes-256-gcm, password: VASQbVcukHfdBGmeS9L7Z8TT}
-  - {name: 172.105.42.160:8090, server: 172.105.42.160, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇸 US_19530, server: 198.8.92.84, port: 35200, type: ss, cipher: aes-256-gcm, password: WBLAbN6AwtV5avBx73hFRLB3}
-  - {name: 45.79.126.80:8090, server: 45.79.126.80, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 172.105.38.55:8090, server: 172.105.38.55, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: TH_12292, server: 27.131.164.94, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
-  - {name: TH_12596 | 2.68Mb, server: 27.131.164.100, port: 35371, type: ss, cipher: aes-256-gcm, password: pjeDhAJGuML8xKUxcjRqq6a9}
-  - {name: 🇺🇸 US_17180, server: 63.141.236.245, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 45.79.121.236:8091, server: 45.79.121.236, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: TH_12288, server: 27.131.164.94, port: 37559, type: ss, cipher: aes-256-gcm, password: Qbt22F6JsxzFGqcsK5SaR8q3}
-  - {name: TH_12422 | 2.68Mb, server: 27.131.164.94, port: 32843, type: ss, cipher: aes-256-gcm, password: G35YSR2LFNEM9bq2dkjmKQRr}
-  - {name: 🇺🇸 US_17064, server: 63.141.236.245, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: TH_12582 | 2.31Mb, server: 27.131.164.100, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
-  - {name: 🇺🇸 US_14909, server: 63.141.236.245, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
-  - {name: TH_12417 | 2.67Mb, server: 27.131.164.100, port: 44539, type: ss, cipher: aes-256-gcm, password: r6hDrkP4Et6EENTS8Qy7Tcmg}
-  - {name: IN_6983 | 4.74Mb, server: 172.105.55.72, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: TH_12408 | 2.62Mb, server: 27.131.164.100, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
-  - {name: 84.17.53.219:33992, server: 84.17.53.219, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: TH_12371 | 2.69Mb, server: 27.131.164.100, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: 143.244.57.118:44236, server: 143.244.57.118, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
-  - {name: 🇺🇸 US_14433, server: 198.8.92.84, port: 49719, type: ss, cipher: aes-256-gcm, password: 42SjT9vBF6ma9eFF3URaJpQ4}
-  - {name: 192.46.211.249:8091, server: 192.46.211.249, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 172.105.63.34:8091, server: 172.105.63.34, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇸 US_14443, server: 198.8.92.84, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
-  - {name: RO_10243 | 5.63Mb, server: 91.90.123.163, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: 89.249.73.197:33992, server: 89.249.73.197, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 51.89.99.52:805, server: 51.89.99.52, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 193.29.107.123:39772, server: 193.29.107.123, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 61.14.210.237:33148, server: 61.14.210.237, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: GB_5338 |10.08Mb, server: 193.118.60.171, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇸 US_17174, server: 63.141.236.245, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: RO_10171 | 8.11Mb, server: 91.90.123.163, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
-  - {name: 185.166.84.51:44745, server: 185.166.84.51, port: 44745, type: ss, cipher: aes-256-gcm, password: fyXdw87yCH9SAmFkPvsvLVqC}
-  - {name: TH_12586 | 2.69Mb, server: 27.131.164.94, port: 50232, type: ss, cipher: aes-256-gcm, password: CjchzpwdSjRtDjezYMwx9BKM}
-  - {name: 145.239.1.175:8090, server: 145.239.1.175, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: IT_7335 |12.24Mb, server: 82.102.26.94, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: 91.90.123.155:31572, server: 91.90.123.155, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 62.112.9.220:2375, server: 62.112.9.220, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 91.90.123.150:50232, server: 91.90.123.150, port: 50232, type: ss, cipher: aes-256-gcm, password: CjchzpwdSjRtDjezYMwx9BKM}
-  - {name: 89.249.73.195:43893, server: 89.249.73.195, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: 45.79.127.97:8090, server: 45.79.127.97, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 193.118.60.167:8091, server: 193.118.60.167, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: TH_12451 | 2.69Mb, server: 27.131.164.94, port: 49202, type: ss, cipher: aes-256-gcm, password: btzEYXKZxnR7g6H2vFTQK5TD}
-  - {name: 45.79.122.28:8091, server: 45.79.122.28, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇸 US_14439, server: 198.8.92.84, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
-  - {name: 172.104.206.241:8091, server: 172.104.206.241, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: FR_4953 |11.33Mb, server: 5.39.70.138, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: RO_10591 |12.06Mb, server: 193.29.107.123, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 172.105.59.32:8090, server: 172.105.59.32, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 185.99.3.102:48938, server: 185.99.3.102, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
-  - {name: 103.192.80.133:49339, server: 103.192.80.133, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
-  - {name: m8.mogu66.com:215, server: m8.mogu66.com, port: 215, type: ss, cipher: aes-128-gcm, password: gXeeBeMf}
-  - {name: 🇺🇸 美国(欢迎订阅Youtube破解资源君) 4, server: v1.ssrsub.com, port: 156, type: vmess, uuid: 2faeb94c-1be6-4e31-a30c-c0cbf5f4a1d5, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v1.ssrsub.com}}
-  - {name: 🇺🇸 美国(欢迎订阅Youtube破解资源君) 5, server: v2.ssrsub.com, port: 153, type: vmess, uuid: 2faeb94c-1be6-4e31-a30c-c0cbf5f4a1d5, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v2.ssrsub.com}}
-  - {name: 🇺🇸 US_14438, server: 198.8.92.84, port: 46726, type: ss, cipher: aes-256-gcm, password: 2fqKbFPGHpcmMTJzGsUbsfYf}
-  - {name: 89.45.7.51:49396, server: 89.45.7.51, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
-  - {name: 46.29.218.6:8091, server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇸 US_18655, server: 66.115.177.156, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
-  - {name: 🇺🇸 US_18936, server: 66.115.177.156, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
-  - {name: 198.8.92.84:38620, server: 198.8.92.84, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
-  - {name: 185.212.111.59:49339, server: 185.212.111.59, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
-  - {name: 🇺🇸 US_14960, server: 66.115.177.141, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
-  - {name: CA_2296, server: 72.140.224.195, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 51.77.53.200:8091, server: 51.77.53.200, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: CA_2304 |21.02Mb, server: 72.140.224.195, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: AZ_1724, server: 62.212.239.53, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
-  - {name: 🇺🇸 US_18635, server: 66.115.177.156, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 172.99.190.35:8090, server: 172.99.190.35, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇸 US_18656, server: 66.115.177.156, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: 🇺🇸 US_18667, server: 66.115.177.156, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 🇺🇸 US_18890, server: 66.115.177.156, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
-  - {name: 51.77.52.206:8091, server: 51.77.52.206, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇸 US_18666, server: 66.115.177.156, port: 50024, type: ss, cipher: aes-256-gcm, password: b2jDPHUQxCNa2KmGHZjy7C4B}
-  - {name: 🇺🇸 US_18670, server: 66.115.177.156, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r}
-  - {name: 72.140.224.197:802, server: 72.140.224.197, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 167.88.63.82:8091, server: 167.88.63.82, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: m3.mogu66.com:207, server: m3.mogu66.com, port: 207, type: ss, cipher: aes-128-gcm, password: DINGGEyI}
-  - {name: 🇺🇸 US |15.93Mb, server: 66.115.177.141, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇺🇸 US_19587, server: 66.115.177.141, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: 188.95.55.120:35294, server: 188.95.55.120, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 🇺🇸 US_18812, server: 66.115.177.156, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 US_18809, server: 66.115.177.156, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
-  - {name: m3.mogu66.com:217, server: m3.mogu66.com, port: 217, type: ss, cipher: aes-128-gcm, password: hVParClF}
-  - {name: 79.110.54.117:31572, server: 79.110.54.117, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇺🇸 US_14684, server: 66.115.177.156, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
-  - {name: 139.99.122.148:8090, server: 139.99.122.148, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇸 US |12.87Mb, server: 66.115.177.141, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
-  - {name: RO_11397, server: 91.90.123.115, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: 🇺🇸 US_14040 | 7.78Mb, server: 66.115.177.141, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇺🇸 US_18674, server: 66.115.177.156, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
-  - {name: 🇺🇸 US_15386, server: 66.115.177.143, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
-  - {name: 🇺🇸 US_18804, server: 66.115.177.156, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/New York, server: 84.17.35.83, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: 🇺🇸 US_14630, server: 66.115.177.141, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r}
-  - {name: 🇺🇸 US_18720, server: 63.141.248.181, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r}
-  - {name: 91.90.123.115:35294, server: 91.90.123.115, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 🇺🇸 US_16298, server: 66.115.177.143, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 🇺🇸 US_15369, server: 66.115.177.143, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: CA_2343 |15.77Mb, server: 72.140.224.195, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 91.90.123.115:49126, server: 91.90.123.115, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
-  - {name: TH_12439 | 4.54Mb, server: 27.131.164.100, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
-  - {name: 🇺🇸 US_15761, server: 66.115.177.143, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
-  - {name: 🇺🇸 US_15757, server: 66.115.177.143, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r}
-  - {name: 66.115.177.156:31572, server: 66.115.177.156, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_1120, server: www.17080100.xyz, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.17080100.xyz}}
-  - {name: 🇺🇸 US_14030 |10.24Mb, server: 66.115.177.141, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
-  - {name: IE_6416 | 9.44Mb, server: se.free-v2ray.tk, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇺🇸 US_16402, server: 66.115.177.156, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
-  - {name: 134.195.196.154:8090, server: 134.195.196.154, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇸 US_18792, server: 66.115.177.143, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 🇺🇸 US_18818, server: 66.115.177.156, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: 91.90.123.115:37588, server: 91.90.123.115, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 🇺🇸 US_14037 |16.03Mb, server: 66.115.177.141, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 198.57.27.238:8090, server: 198.57.27.238, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: RO_10945, server: 79.110.54.117, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 🇺🇸 US_16590, server: 66.115.154.131, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
-  - {name: 🇺🇸 US_18918, server: 66.115.177.156, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
-  - {name: 134.195.196.97:8090, server: 134.195.196.97, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇸 US_14221, server: 66.115.177.141, port: 50024, type: ss, cipher: aes-256-gcm, password: b2jDPHUQxCNa2KmGHZjy7C4B}
-  - {name: 🇺🇸 US_14688, server: 66.115.177.136, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
-  - {name: 🇺🇸 US_15366, server: 66.115.177.143, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
-  - {name: TH_12352 | 2.66Mb, server: 27.131.164.94, port: 42816, type: ss, cipher: aes-256-gcm, password: tBKBf4pVzNCFKdbPgvwrNXq3}
-  - {name: 188.95.55.114:34815, server: 188.95.55.114, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: 🇺🇸 US_15780, server: 66.115.177.143, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 193.118.60.165:8091, server: 193.118.60.165, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: AZ_1675 |11.25Mb, server: 62.212.239.53, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
-  - {name: 🇺🇸 US_18251, server: 66.115.177.156, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
-  - {name: 🇺🇸 US_13439, server: 66.115.154.131, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
-  - {name: 🇺🇸 US_18668, server: 66.115.177.156, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇺🇸 US_18821, server: 66.115.177.156, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: 🇺🇸 US_14556, server: 64.44.42.60, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: 🇺🇸 US_15387, server: 66.115.177.143, port: 50024, type: ss, cipher: aes-256-gcm, password: b2jDPHUQxCNa2KmGHZjy7C4B}
-  - {name: 193.108.118.34:8090, server: 193.108.118.34, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 66.115.177.156:46726, server: 66.115.177.156, port: 46726, type: ss, cipher: aes-256-gcm, password: 2fqKbFPGHpcmMTJzGsUbsfYf}
-  - {name: 🇺🇸 US_18570, server: 64.44.42.60, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
-  - {name: 🇺🇸 US_14397, server: 64.44.42.60, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 🇺🇸 US_19552 |15.37Mb, server: 66.115.154.131, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 🇺🇸 US_14561 |52.79Mb, server: 64.44.42.60, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
-  - {name: 🇺🇸 US_14036 |10.66Mb, server: 66.115.177.141, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: 🇺🇸 US_15361, server: 66.115.177.143, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
-  - {name: 🇺🇸 US_16203, server: 66.115.154.131, port: 50695, type: ss, cipher: aes-256-gcm, password: gqtwGu9bVreJqL3FTHSVKGzy}
-  - {name: 🇺🇸 US_16424, server: 66.115.177.156, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
-  - {name: 146.70.27.12:40093, server: 146.70.27.12, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: AZ_1798, server: 62.212.239.53, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
-  - {name: 🇺🇸 US_19496 |10.85Mb, server: 64.44.42.60, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
-  - {name: 🇺🇸 US_17978, server: 66.115.177.156, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
-  - {name: 🇺🇸 US_13864 |16.42Mb, server: 66.115.154.131, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: 134.195.198.95:8091, server: 134.195.198.95, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 45.248.79.67:49339, server: 45.248.79.67, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
-  - {name: 🇺🇸 US_18611, server: 66.115.177.156, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 🇺🇸 US_18540, server: 66.115.154.131, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
-  - {name: 🇫🇷 法国(欢迎订阅Youtube破解资源君), server: 164.132.56.90, port: 80, type: vmess, uuid: bd157194-66cb-4a17-9909-0acdecb469c5, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /sshstores, ws-headers: {Host: 164.132.56.90}}
-  - {name: 66.115.147.89:34815, server: 66.115.147.89, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: 62.212.239.53:49126, server: 62.212.239.53, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
-  - {name: 🇺🇸 US_16605 | 6.72Mb, server: 38.39.192.74, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: AU_1575, server: 172.105.174.182, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇸 US_14034 |10.56Mb, server: 66.115.177.141, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 134.195.196.79:8090, server: 134.195.196.79, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇸 US_13553, server: 66.115.154.131, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 US_19487 |22.11Mb, server: 64.44.42.60, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇺🇸 US_18235, server: 66.115.154.131, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: 84.39.114.86:49396, server: 84.39.114.86, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
-  - {name: 🇺🇸 US_15883, server: 66.115.177.143, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: 🇺🇸 US_14546, server: 66.115.154.131, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
-  - {name: 185.108.105.82:49396, server: 185.108.105.82, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
-  - {name: 🇺🇸 US_18544, server: 66.115.154.131, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
-  - {name: 193.118.60.166:8091, server: 193.118.60.166, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 45.248.79.67:43893, server: 45.248.79.67, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: 185.108.105.82:31764, server: 185.108.105.82, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: 🇰🇷 KR_8065 | 5.11Mb, server: 61.14.210.237, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 🇺🇸 US_14607, server: 13.213.251.185, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: GB_5474 |23.29Mb, server: 86.106.136.93, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 US_15763, server: 66.115.177.143, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: 🇺🇸 US_15343, server: 66.115.154.131, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 US_16345 |20.42Mb, server: 66.115.154.131, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇺🇸 US_13669, server: 66.115.154.131, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
-  - {name: 🇺🇸 US_19206 |15.18Mb, server: 198.147.22.87, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇺🇸 US_14430, server: 198.8.92.84, port: 50695, type: ss, cipher: aes-256-gcm, password: gqtwGu9bVreJqL3FTHSVKGzy}
-  - {name: 172.105.172.37:8090, server: 172.105.172.37, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: AZ_1721, server: 62.212.239.51, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
-  - {name: 🇺🇸 US_16880, server: 66.115.154.131, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: RO_11033, server: 79.110.54.117, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
-  - {name: 🇺🇸 US_14749, server: 66.115.177.141, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
-  - {name: 🇺🇸 US_14499, server: 64.44.42.60, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: 172.107.233.234:8090, server: 172.107.233.234, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇸 US_18568, server: 66.115.154.131, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: AZ_1744, server: 62.212.239.53, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
-  - {name: 🇺🇸 US_16604 | 7.74Mb, server: 172.107.233.234, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇸 US_18506, server: 64.44.42.60, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇺🇸 US_14012 |16.01Mb, server: 66.115.154.131, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
-  - {name: AZ_1740, server: 62.212.239.53, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
-  - {name: AZ_1781, server: 62.212.239.53, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: IT_7267 | 7.52Mb, server: 82.102.26.93, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
-  - {name: 🇺🇸 US_15362, server: 66.115.177.143, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
-  - {name: 🇺🇸 US_14583, server: 66.115.154.131, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
   - {name: 🇨🇦 https://www.mattkaydiary.com|加拿大(CA)Canada/Vancouver, server: 198.8.92.84, port: 44539, type: ss, cipher: aes-256-gcm, password: r6hDrkP4Et6EENTS8Qy7Tcmg}
+  - {name: 🇺🇸 美国(Youtube频道：工具大师！), server: 167.88.63.11, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇺🇸 US_14450, server: 198.8.92.84, port: 40282, type: ss, cipher: aes-256-gcm, password: Pvvaw486867D2w4yctL2ULTQ}
   - {name: 🇺🇸 US_16311, server: 66.115.154.131, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
-  - {name: 66.115.154.131:48938, server: 66.115.154.131, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
-  - {name: 5.253.207.51:33992, server: 5.253.207.51, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 US_14302, server: 64.44.42.60, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
-  - {name: 5.253.207.53:31944, server: 5.253.207.53, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: TH_12317 | 3.55Mb, server: 27.131.164.94, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: FR_4639 |14.24Mb, server: 51.159.30.61, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: FR_5084 |16.00Mb, server: 51.159.30.61, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 🇺🇸 US_14448, server: 198.8.92.84, port: 42816, type: ss, cipher: aes-256-gcm, password: tBKBf4pVzNCFKdbPgvwrNXq3}
-  - {name: FR_4491 |13.21Mb, server: 51.159.30.61, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 🇺🇸 US_15764, server: 66.115.177.143, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
-  - {name: AZ_1816 |11.53Mb, server: 62.212.239.51, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 198.147.22.87:33998, server: 198.147.22.87, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 104.244.208.211:48938, server: 104.244.208.211, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
-  - {name: 62.212.239.51:33992, server: 62.212.239.51, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: m8.mogu66.com:226, server: m8.mogu66.com, port: 226, type: ss, cipher: aes-128-gcm, password: EkZk5PG1}
-  - {name: AZ_1737, server: 62.212.239.53, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
-  - {name: FR_4582 |16.89Mb, server: 62.210.38.178, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 72.140.224.195:802, server: 72.140.224.195, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: AZ_1738, server: 62.212.239.53, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: AU_1574, server: 172.105.167.214, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: AZ_1791, server: 62.212.239.51, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: 185.153.151.86:31572, server: 185.153.151.86, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: AZ_1735, server: 62.212.239.51, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
-  - {name: 🇸🇬 SG_12091, server: 54.251.230.216, port: 18332, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: 🇺🇸 US_14685, server: 66.115.177.153, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
-  - {name: TH_12360 | 2.64Mb, server: 27.131.164.94, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 172.99.190.35:8090, server: 172.99.190.35, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇺🇸 Relay_🇺🇸US |12.15Mb, server: az.iganfan.store, port: 12306, type: trojan, password: ganfanbaipiao, sni: az.iganfan.store}
+  - {name: AU_1067 | 6.10Mb, server: 172.105.172.41, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: GB_4541 | 6.01Mb, server: 146.70.27.12, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: ZZ | 9.74Mb, server: 134.195.196.193, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: AU_1063 | 9.41Mb, server: 172.105.172.41, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇸 US | 8.15Mb, server: 172.99.190.35, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: ZZ | 8.79Mb, server: 134.195.196.231, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: ZZ | 9.55Mb, server: 134.195.196.179, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇺🇸 US | 8.58Mb, server: 38.107.226.49, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇺🇸 US_12280 | 4.97Mb, server: 172.99.190.158, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: ZZ |10.15Mb, server: 134.195.196.193, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: ZZ | 8.48Mb, server: 134.195.196.199, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: ZZ |10.05Mb, server: 134.195.196.179, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: ZZ_16142 | 6.70Mb, server: 134.195.196.193, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: ZZ | 8.98Mb, server: 134.195.196.231, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: ZZ |10.95Mb, server: 134.195.196.202, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: ZZ | 9.71Mb, server: 134.195.196.193, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: AU_1061 | 8.07Mb, server: 172.105.172.41, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇺🇸 US | 9.07Mb, server: 38.107.226.49, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇺🇸 US | 9.26Mb, server: 38.107.226.49, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: ZZ | 8.75Mb, server: 134.195.196.179, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: ZZ |10.23Mb, server: 134.195.196.231, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: ZZ_16102 | 6.08Mb, server: 134.195.196.179, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: ZZ | 8.72Mb, server: 134.195.196.199, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: ZZ_16112 | 6.00Mb, server: 134.195.196.60, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: ZZ |10.55Mb, server: 134.195.196.179, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: ZZ |10.02Mb, server: 134.195.196.50, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: ZZ_16181 | 7.28Mb, server: 134.195.196.179, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: ZZ | 9.58Mb, server: 134.195.196.50, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: ZZ | 9.62Mb, server: 134.195.196.202, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇸 US | 9.91Mb, server: 38.107.226.49, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇸 US | 8.76Mb, server: 38.107.226.49, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇸 US | 8.32Mb, server: 38.107.226.49, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇸 US_10808 | 5.78Mb, server: 38.107.226.49, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇸 US | 8.99Mb, server: 172.99.190.35, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: ZZ | 9.90Mb, server: 134.195.196.202, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: ZZ_16137 | 7.30Mb, server: 134.195.196.60, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: ZZ | 9.80Mb, server: 134.195.196.179, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: ZZ | 9.30Mb, server: 134.195.196.179, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: ZZ | 8.91Mb, server: 134.195.196.202, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: ZZ | 9.59Mb, server: 134.195.196.202, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: AU_1065 |10.12Mb, server: 172.105.172.41, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: CA_2003 | 3.44Mb, server: 198.57.27.225, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇸 US_10687 | 5.00Mb, server: 38.107.226.146, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇺🇸 US |10.19Mb, server: 38.107.226.49, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇺🇸 US_12286 | 4.39Mb, server: 38.107.226.146, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: ZZ |10.87Mb, server: 134.195.196.50, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: ZZ |10.59Mb, server: 134.195.196.60, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: ZZ | 9.68Mb, server: 134.195.196.193, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: ZZ_16127 | 5.78Mb, server: 134.195.196.60, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: ZZ_16128 | 7.93Mb, server: 134.195.196.50, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: ZZ | 8.47Mb, server: 134.195.196.193, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: ZZ_16145 | 7.01Mb, server: 134.195.196.199, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: ZZ_16158 | 3.34Mb, server: 134.195.196.231, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: ZZ |10.41Mb, server: 134.195.196.202, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇸 US_11987 | 3.97Mb, server: 172.99.190.149, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇺🇸 US_12293 | 7.89Mb, server: 172.99.190.139, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇺🇸 US_12419 | 0.49Mb, server: 167.88.63.82, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: ZZ | 9.13Mb, server: 134.195.196.193, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: ZZ | 9.33Mb, server: 134.195.196.199, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: ZZ_16202 | 5.30Mb, server: 134.195.196.50, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: CA_2096 | 2.16Mb, server: 198.57.27.225, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇸 US_12269 | 4.60Mb, server: 167.88.63.82, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇸 US_12304 | 2.99Mb, server: 167.88.63.11, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇸 US_12305 | 7.48Mb, server: 167.88.63.11, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇸 US_12322 | 6.59Mb, server: 38.107.226.146, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: ZZ | 8.81Mb, server: 134.195.196.60, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: ZZ |10.42Mb, server: 134.195.196.202, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: ZZ | 8.38Mb, server: 134.195.196.231, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: ZZ | 9.15Mb, server: 134.195.196.60, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇺🇸 US_12363 | 5.56Mb, server: 172.99.190.149, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: ZZ_16146 | 6.21Mb, server: 134.195.196.231, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: ZZ | 8.88Mb, server: 134.195.196.50, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: CA_2098 | 2.95Mb, server: 198.57.27.218, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇸 US_12284 | 7.79Mb, server: 172.99.190.153, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇸 US_12324 | 7.58Mb, server: 167.88.63.11, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇸 US_12382 | 4.83Mb, server: 172.99.190.35, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: ZZ_15795 | 7.22Mb, server: 134.195.196.50, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: ZZ |10.21Mb, server: 134.195.196.193, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: CA_2002 | 1.64Mb, server: 198.57.27.218, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇸 US_12295 | 5.99Mb, server: 172.99.190.158, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇸 US_13444 | 7.85Mb, server: 167.88.63.99, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇺🇸 US_13588 | 5.02Mb, server: 38.107.226.146, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: CA_1974 | 2.80Mb, server: 198.57.27.218, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: CA_1996 | 0.17Mb, server: 198.57.27.218, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: NO_6984 | 4.14Mb, server: 46.29.218.6, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇸 US_12013 | 7.11Mb, server: 167.88.63.119, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: Relay_🇫🇷FR-🇫🇷FR_3954 | 6.90Mb, server: 145.239.1.137, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: NO_6985 | 4.61Mb, server: 46.29.218.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇷🇺 RU_8971 | 6.92Mb, server: 45.144.179.215, port: 200, type: vmess, uuid: 522a7b98-1c6a-11ec-9d56-6e0116768709, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 Relay_🇺🇸 US |13.01Mb, server: agals02.subyyds.xyz, port: 992, type: trojan, password: f45d308f-d9bc-3954-982f-40883392fb8e, sni: agals02.subyyds.xyz}
+  - {name: 🇺🇸 US |12.23Mb, server: 167.88.63.99, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇸 US_12416 | 7.77Mb, server: 172.99.190.153, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: ZZ | 8.99Mb, server: 134.195.196.199, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: Pool__665 | 6.40Mb, server: 198.147.22.87, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇨🇳 Relay_🇨🇳CN | 2.28Mb, server: cn2.relay.starlink.st, port: 65011, type: vmess, uuid: 6c810d84-b725-4a7a-8c9a-10d99a14cfcb, alterId: 0, cipher: auto, tls: false}
+  - {name: Relay_🇫🇷FR-🇫🇷FR_3958 | 6.14Mb, server: 145.239.1.137, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇺🇸 Pool_🇺🇸US_11051 | 3.65Mb, server: 198.147.22.87, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 🇺🇸 US_12261 | 3.31Mb, server: 172.99.190.139, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇸 US |11.53Mb, server: 167.88.63.82, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇸 US_12312 | 5.97Mb, server: 167.88.63.119, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇸 US_13667 | 0.74Mb, server: 167.88.63.82, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: AU_1068 | 9.47Mb, server: 172.105.167.214, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: AU_1070 | 9.45Mb, server: 172.105.167.214, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: CA_2097 | 0.23Mb, server: 198.57.27.218, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇸 Relay_🇺🇸 US |19.64Mb, server: agals02.subyyds.xyz, port: 992, type: trojan, password: 5d2f53fb-cc28-3f91-9844-02a4ccedfd4a, sni: agals02.subyyds.xyz}
+  - {name: 🇺🇸 US_10814 | 2.14Mb, server: 38.107.226.146, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇸 US_12263 | 6.70Mb, server: 167.88.63.119, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇸 US_12281 | 2.63Mb, server: 167.88.63.82, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇸 US |10.06Mb, server: 167.88.63.99, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇸 US_12355 | 7.43Mb, server: 167.88.63.119, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: ZZ_16076 | 7.54Mb, server: 134.195.196.50, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: AU_1176 | 9.27Mb, server: 172.105.167.214, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇰🇷 KR_6429 | 6.96Mb, server: 14.36.250.126, port: 10100, type: ss, cipher: aes-256-gcm, password: a78172b3}
+  - {name: 🇰🇷 Relay_🇰🇷KR-🇰🇷KR_6450 | 7.96Mb, server: 5.fbplay.net, port: 10100, type: ss, cipher: aes-256-gcm, password: a78172b3}
+  - {name: NO_6965 | 3.82Mb, server: 46.29.218.6, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: NO_6983 | 1.56Mb, server: 46.29.218.6, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇺🇸 Pool_🇺🇸 US_10313 | 2.08Mb, server: 45.89.173.205, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇸 Pool_🇺🇸 US_10646 | 1.96Mb, server: 45.89.173.205, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇺🇸 US_10767 | 3.09Mb, server: 38.107.226.146, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 Pool_🇺🇸US_11500 | 1.81Mb, server: 45.89.173.205, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
+  - {name: 🇺🇸 US_12348 | 5.95Mb, server: 172.99.190.139, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇸 Pool_🇺🇸US_12838 | 2.19Mb, server: 198.8.92.84, port: 37559, type: ss, cipher: aes-256-gcm, password: Qbt22F6JsxzFGqcsK5SaR8q3}
+  - {name: 🇺🇸 Pool_🇺🇸US_14036 | 1.84Mb, server: 45.89.173.205, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: 🇺🇸 Pool_🇺🇸US_14037 | 1.79Mb, server: 45.89.173.205, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
+  - {name: 🇺🇸 Pool_🇺🇸US_14246 | 1.86Mb, server: 45.89.173.205, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
+  - {name: 🇺🇸 Pool_🇺🇸US_14521 | 1.65Mb, server: 45.89.173.205, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r}
+  - {name: ZZ | 9.96Mb, server: 134.195.196.231, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇷🇺 Relay_-🇷🇺RU_697 | 0.00Mb, server: t7.ssrsub.com, port: 844, type: trojan, password: 52f31fcb-f948-4f71-bca8-795fdcf7b754, sni: t7.ssrsub.com}
+  - {name: 🇷🇺 Relay_-🇷🇺RU_702 | 0.16Mb, server: t5.ssrsub.com, port: 844, type: trojan, password: 52f31fcb-f948-4f71-bca8-795fdcf7b754, sni: t5.ssrsub.com}
+  - {name: 🇨🇳 CN_2472 | 1.50Mb, server: 122.192.189.8, port: 19612, type: vmess, uuid: c0f4d26f-b870-3b0d-a77e-1786fcf52e50, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /download, ws-headers: {Host: t.me/vpnhat}}
+  - {name: 🇨🇳 CN_2473 | 1.58Mb, server: 116.163.10.104, port: 19612, type: vmess, uuid: c0f4d26f-b870-3b0d-a77e-1786fcf52e50, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /download, ws-headers: {Host: t.me/vpnhat}}
+  - {name: 🇺🇸 Relay_🇨🇳CN-🇺🇸US_2477 | 1.71Mb, server: 122.192.189.8, port: 19600, type: vmess, uuid: c0f4d26f-b870-3b0d-a77e-1786fcf52e50, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /download, ws-headers: {Host: t.me/vpnhat}}
+  - {name: 🇨🇳 CN_2479 | 1.95Mb, server: 122.192.189.8, port: 19707, type: vmess, uuid: c0f4d26f-b870-3b0d-a77e-1786fcf52e50, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /download, ws-headers: {Host: t.me/vpnhat}}
+  - {name: 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_2486 | 1.71Mb, server: 122.192.189.8, port: 19711, type: vmess, uuid: c0f4d26f-b870-3b0d-a77e-1786fcf52e50, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /download, ws-headers: {Host: t.me/vpnhat}}
+  - {name: GB | 8.03Mb, server: 46.101.28.98, port: 12222, type: vmess, uuid: 6ae2e994-2018-4f9f-a5bb-4639c14ba05f, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: t.me/vpnhat}}
+  - {name: Relay_🇮🇳IN |22.28Mb, server: in1-1.noojat.com, port: 1443, type: trojan, password: 7x42LetRa0, sni: in1-1.noojat.com}
+  - {name: IT | 8.92Mb, server: 82.102.26.94, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: 🇰🇷 Relay_🇰🇷KR-🇰🇷KR_6470 | 8.16Mb, server: 1.fbplay.net, port: 10100, type: ss, cipher: aes-256-gcm, password: a78172b3}
+  - {name: NO_6961 | 5.49Mb, server: 46.29.218.6, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: NO_6977 | 7.49Mb, server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇺🇸 Pool_🇺🇸US_10815 | 2.40Mb, server: 198.8.92.84, port: 42816, type: ss, cipher: aes-256-gcm, password: tBKBf4pVzNCFKdbPgvwrNXq3}
+  - {name: 🇺🇸 Pool_🇺🇸US_11526 | 1.76Mb, server: 45.89.173.205, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: 🇺🇸 Pool_🇺🇸US_11667 | 1.70Mb, server: 45.89.173.205, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
+  - {name: 🇺🇸 US_12278 | 7.31Mb, server: 167.88.63.99, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇸 Pool_🇺🇸US_12698 | 1.77Mb, server: 45.89.173.205, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: ZZ | 9.19Mb, server: 134.195.196.199, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: ZZ_16073 | 7.25Mb, server: 134.195.196.199, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: ZZ | 9.45Mb, server: 134.195.196.60, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: ZZ |10.60Mb, server: 134.195.196.199, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: ZZ |10.80Mb, server: 134.195.196.193, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - AZ_1679
-      - AZ_1727 | 4.41Mb
-      - 137.59.52.107:50168
-      - 66.115.177.156:43893
-      - 167.88.63.99:8091
-      - AZ_1819 |11.19Mb
-      - TH_12316 | 2.68Mb
-      - 192.169.112.166:8091
-      - TH_12313 | 2.64Mb
-      - 91.90.123.115:38620
-      - m8.mogu66.com:206
-      - 192.169.112.168:8091
-      - 91.90.123.115:41676
-      - 🇺🇸 US_16779 | 1.98Mb
-      - 🇺🇸 US_14032 |13.03Mb
-      - 198.147.22.87:35200
-      - 🇺🇸 US_18799
-      - 191.96.13.200:36460
-      - 91.90.123.115:34815
-      - IT_7603 |10.38Mb
-      - 66.115.177.141:42185
-      - BR_2276
-      - TH_12284
-      - 🇺🇸 US_15759
-      - 167.88.63.108:8091
-      - AZ_1720
-      - 128.14.222.218:8090
-      - 91.219.215.19:31944
-      - 🇰🇷 KR_8070 | 2.67Mb
-      - 🇺🇸 US_15364
-      - 🇺🇸 US_13442
-      - 🇺🇸 US_15528
-      - m3.mogu66.com:215
-      - 🇰🇷 KR_8107 | 0.26Mb
-      - 🇰🇷 KR_8136 | 2.87Mb
-      - TH_12344 | 2.67Mb
-      - 🇺🇸 US_15487
-      - 🇺🇸 US_13867 |15.89Mb
-      - 🇺🇸 US_14955
-      - 66.115.177.143:38620
-      - 🇰🇷 KR_8108 | 4.99Mb
-      - 38.107.226.146:8090
-      - 🇺🇸 US_18457
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
-      - 86.106.137.147:39772
-      - 🇺🇸 US_15360
-      - 81.19.223.189:31764
-      - 🇺🇸 US_14217
-      - TH_12278
-      - 🇺🇸 US_14683
-      - 🇺🇸 US_15980
-      - 134.195.196.163:8090
-      - IT_7802 | 9.36Mb
-      - 185.166.84.81:41676
-      - TH_12426 | 2.63Mb
-      - 🇺🇸 US_18794
-      - 🇺🇸 US_19484 |33.24Mb
-      - 🇺🇸 US_14215
-      - 82.102.26.93:38742
-      - 🇺🇸 US_18819
-      - IT_7343 |10.50Mb
-      - 🇺🇸 US_17286
-      - 128.14.222.215:8090
-      - IT_7881 | 8.91Mb
-      - IT_7599 | 7.22Mb
-      - AZ_1772
-      - 🇺🇸 US_14391
-      - IT_7207 |13.94Mb
-      - 🇺🇸 US_14682
-      - 🇺🇸 US_18228
-      - TH_12420 | 2.53Mb
-      - IT_7264 | 6.57Mb
-      - IT_7206 |16.02Mb
-      - 66.115.177.136:48938
-      - 🇺🇸 US_18194
-      - IT_7346 | 9.33Mb
-      - TH_12506 | 2.64Mb
-      - IT_7268 | 6.17Mb
-      - IT_7597 | 8.83Mb
-      - IT_7669 | 8.86Mb
-      - IT_7352 |10.88Mb
-      - RO_11035
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2
-      - m8.mogu66.com:234
-      - IT_7265 | 6.23Mb
-      - IT_7311 | 7.32Mb
-      - TH_12508 | 2.68Mb
-      - 🇺🇸 US_18398
-      - IT_7854 |13.30Mb
-      - IT_7648 |11.56Mb
-      - TH_12295
-      - 🇺🇸 US_18459
-      - 🇺🇸 US_15882
-      - IT_7667 |13.80Mb
-      - 🇺🇸 US_16328 | 2.04Mb
-      - TH_12398 | 2.85Mb
-      - TH_12467 | 2.66Mb
-      - TH_12499 | 3.26Mb
-      - TH_12511 | 2.66Mb
-      - TH_12330 | 2.69Mb
-      - IT_7425 |10.93Mb
-      - TH_12532
-      - 🇺🇸 US_16154
-      - TH_12286
-      - TH_12492 | 2.67Mb
-      - IT_7654 |10.03Mb
-      - 87.239.255.114:38747
-      - TH_12332 | 2.66Mb
-      - TH_12275
-      - TH_12509 | 3.08Mb
-      - 27.131.164.94:46726
-      - TH_12309 | 2.67Mb
-      - 180.149.231.67:37588
-      - TH_12287
-      - TH_12501 | 2.58Mb
-      - 185.153.151.60:47861
-      - TH_12575 | 2.64Mb
-      - TH_12430 | 2.67Mb
-      - TH_12496 | 2.67Mb
-      - TH_12442 | 2.67Mb
-      - TH_12593 | 2.67Mb
-      - 🇺🇸 US_15353
-      - AZ_1763
-      - TH_12419 | 2.39Mb
-      - 61.14.210.242:32558
-      - NZ_9124 | 3.60Mb
-      - TH_12294
-      - 🇺🇸 US_14964
-      - 🇺🇸 US_14447
-      - TH_12289
-      - TH_12281
-      - TH_12428 | 2.69Mb
-      - TH_12543
-      - 🇺🇸 US_18843
-      - GB_5353 |13.40Mb
-      - 🇺🇸 US_15350
-      - TH_12436 | 2.66Mb
-      - TH_12427 | 2.70Mb
-      - TH_12361 | 2.65Mb
-      - TH_12285
-      - IT_7232 | 8.15Mb
-      - TH_12584 | 3.56Mb
-      - TH_12433 | 2.67Mb
-      - TH_12594 | 2.68Mb
-      - 🇺🇸 US_16724
-      - TH_12505 | 2.64Mb
-      - TH_12392 | 2.67Mb
-      - 79.110.54.133:49202
-      - 51.159.30.61:805
-      - AZ_1678
-      - 27.131.164.100:48089
-      - TH_12307 | 2.67Mb
-      - TH_12372 | 3.23Mb
-      - TH_12497 | 2.37Mb
-      - TH_12595 | 2.67Mb
-      - 🇺🇸 US_14450
-      - TH_12314 | 2.66Mb
-      - 🇰🇷 KR_8086 | 2.66Mb
-      - 🇺🇸 US_16152
-      - TH_12560
-      - TH_12540
-      - TH_12512 | 2.53Mb
-      - TH_12431 | 2.26Mb
-      - TH_12587 | 2.67Mb
-      - 🇺🇸 US_14943
-      - TH_12435 | 2.63Mb
-      - RO_10907 |15.84Mb
-      - TH_12429 | 2.68Mb
-      - 🇺🇸 US_15841
-      - TH_12438 | 2.64Mb
-      - TH_12073
-      - TH_12478 | 3.00Mb
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 3
-      - TH_12437 | 6.01Mb
-      - TH_12393 | 2.54Mb
-      - AZ_1676
-      - 🇺🇸 US_18242
-      - 🇺🇸 US_17175
-      - TH_12276
-      - IT_7649 | 5.57Mb
-      - TH_12600 | 2.29Mb
-      - 🇺🇸 US_15499
-      - TH_12510 | 2.80Mb
-      - 172.105.42.160:8090
-      - 🇺🇸 US_19530
-      - 45.79.126.80:8090
-      - 172.105.38.55:8090
-      - TH_12292
-      - TH_12596 | 2.68Mb
-      - 🇺🇸 US_17180
-      - 45.79.121.236:8091
-      - TH_12288
-      - TH_12422 | 2.68Mb
-      - 🇺🇸 US_17064
-      - TH_12582 | 2.31Mb
-      - 🇺🇸 US_14909
-      - TH_12417 | 2.67Mb
-      - IN_6983 | 4.74Mb
-      - TH_12408 | 2.62Mb
-      - 84.17.53.219:33992
-      - TH_12371 | 2.69Mb
-      - 143.244.57.118:44236
-      - 🇺🇸 US_14433
-      - 192.46.211.249:8091
-      - 172.105.63.34:8091
-      - 🇺🇸 US_14443
-      - RO_10243 | 5.63Mb
-      - 89.249.73.197:33992
-      - 51.89.99.52:805
-      - 193.29.107.123:39772
-      - 61.14.210.237:33148
-      - GB_5338 |10.08Mb
-      - 🇺🇸 US_17174
-      - RO_10171 | 8.11Mb
-      - 185.166.84.51:44745
-      - TH_12586 | 2.69Mb
-      - 145.239.1.175:8090
-      - IT_7335 |12.24Mb
-      - 91.90.123.155:31572
-      - 62.112.9.220:2375
-      - 91.90.123.150:50232
-      - 89.249.73.195:43893
-      - 45.79.127.97:8090
-      - 193.118.60.167:8091
-      - TH_12451 | 2.69Mb
-      - 45.79.122.28:8091
-      - 🇺🇸 US_14439
-      - 172.104.206.241:8091
-      - FR_4953 |11.33Mb
-      - RO_10591 |12.06Mb
-      - 172.105.59.32:8090
-      - 185.99.3.102:48938
-      - 103.192.80.133:49339
-      - m8.mogu66.com:215
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 4
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 5
-      - 🇺🇸 US_14438
-      - 89.45.7.51:49396
-      - 46.29.218.6:8091
-      - 🇺🇸 US_18655
-      - 🇺🇸 US_18936
-      - 198.8.92.84:38620
-      - 185.212.111.59:49339
-      - 🇺🇸 US_14960
-      - CA_2296
-      - 51.77.53.200:8091
-      - CA_2304 |21.02Mb
-      - AZ_1724
-      - 🇺🇸 US_18635
-      - 172.99.190.35:8090
-      - 🇺🇸 US_18656
-      - 🇺🇸 US_18667
-      - 🇺🇸 US_18890
-      - 51.77.52.206:8091
-      - 🇺🇸 US_18666
-      - 🇺🇸 US_18670
-      - 72.140.224.197:802
-      - 167.88.63.82:8091
-      - m3.mogu66.com:207
-      - 🇺🇸 US |15.93Mb
-      - 🇺🇸 US_19587
-      - 188.95.55.120:35294
-      - 🇺🇸 US_18812
-      - 🇺🇸 US_18809
-      - m3.mogu66.com:217
-      - 79.110.54.117:31572
-      - 🇺🇸 US_14684
-      - 139.99.122.148:8090
-      - 🇺🇸 US |12.87Mb
-      - RO_11397
-      - 🇺🇸 US_14040 | 7.78Mb
-      - 🇺🇸 US_18674
-      - 🇺🇸 US_15386
-      - 🇺🇸 US_18804
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/New York
-      - 🇺🇸 US_14630
-      - 🇺🇸 US_18720
-      - 91.90.123.115:35294
-      - 🇺🇸 US_16298
-      - 🇺🇸 US_15369
-      - CA_2343 |15.77Mb
-      - 91.90.123.115:49126
-      - TH_12439 | 4.54Mb
-      - 🇺🇸 US_15761
-      - 🇺🇸 US_15757
-      - 66.115.177.156:31572
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1120
-      - 🇺🇸 US_14030 |10.24Mb
-      - IE_6416 | 9.44Mb
-      - 🇺🇸 US_16402
-      - 134.195.196.154:8090
-      - 🇺🇸 US_18792
-      - 🇺🇸 US_18818
-      - 91.90.123.115:37588
-      - 🇺🇸 US_14037 |16.03Mb
-      - 198.57.27.238:8090
-      - RO_10945
-      - 🇺🇸 US_16590
-      - 🇺🇸 US_18918
-      - 134.195.196.97:8090
-      - 🇺🇸 US_14221
-      - 🇺🇸 US_14688
-      - 🇺🇸 US_15366
-      - TH_12352 | 2.66Mb
-      - 188.95.55.114:34815
-      - 🇺🇸 US_15780
-      - 193.118.60.165:8091
-      - AZ_1675 |11.25Mb
-      - 🇺🇸 US_18251
-      - 🇺🇸 US_13439
-      - 🇺🇸 US_18668
-      - 🇺🇸 US_18821
-      - 🇺🇸 US_14556
-      - 🇺🇸 US_15387
-      - 193.108.118.34:8090
-      - 66.115.177.156:46726
-      - 🇺🇸 US_18570
-      - 🇺🇸 US_14397
-      - 🇺🇸 US_19552 |15.37Mb
-      - 🇺🇸 US_14561 |52.79Mb
-      - 🇺🇸 US_14036 |10.66Mb
-      - 🇺🇸 US_15361
-      - 🇺🇸 US_16203
-      - 🇺🇸 US_16424
-      - 146.70.27.12:40093
-      - AZ_1798
-      - 🇺🇸 US_19496 |10.85Mb
-      - 🇺🇸 US_17978
-      - 🇺🇸 US_13864 |16.42Mb
-      - 134.195.198.95:8091
-      - 45.248.79.67:49339
-      - 🇺🇸 US_18611
-      - 🇺🇸 US_18540
-      - 🇫🇷 法国(欢迎订阅Youtube破解资源君)
-      - 66.115.147.89:34815
-      - 62.212.239.53:49126
-      - 🇺🇸 US_16605 | 6.72Mb
-      - AU_1575
-      - 🇺🇸 US_14034 |10.56Mb
-      - 134.195.196.79:8090
-      - 🇺🇸 US_13553
-      - 🇺🇸 US_19487 |22.11Mb
-      - 🇺🇸 US_18235
-      - 84.39.114.86:49396
-      - 🇺🇸 US_15883
-      - 🇺🇸 US_14546
-      - 185.108.105.82:49396
-      - 🇺🇸 US_18544
-      - 193.118.60.166:8091
-      - 45.248.79.67:43893
-      - 185.108.105.82:31764
-      - 🇰🇷 KR_8065 | 5.11Mb
-      - 🇺🇸 US_14607
-      - GB_5474 |23.29Mb
-      - 🇺🇸 US_15763
-      - 🇺🇸 US_15343
-      - 🇺🇸 US_16345 |20.42Mb
-      - 🇺🇸 US_13669
-      - 🇺🇸 US_19206 |15.18Mb
-      - 🇺🇸 US_14430
-      - 172.105.172.37:8090
-      - AZ_1721
-      - 🇺🇸 US_16880
-      - RO_11033
-      - 🇺🇸 US_14749
-      - 🇺🇸 US_14499
-      - 172.107.233.234:8090
-      - 🇺🇸 US_18568
-      - AZ_1744
-      - 🇺🇸 US_16604 | 7.74Mb
-      - 🇺🇸 US_18506
-      - 🇺🇸 US_14012 |16.01Mb
-      - AZ_1740
-      - AZ_1781
-      - IT_7267 | 7.52Mb
-      - 🇺🇸 US_15362
-      - 🇺🇸 US_14583
       - 🇨🇦 https://www.mattkaydiary.com|加拿大(CA)Canada/Vancouver
+      - 🇺🇸 美国(Youtube频道：工具大师！)
+      - 🇺🇸 US_14450
       - 🇺🇸 US_16311
-      - 66.115.154.131:48938
-      - 5.253.207.51:33992
-      - 🇺🇸 US_14302
-      - 5.253.207.53:31944
-      - TH_12317 | 3.55Mb
-      - FR_4639 |14.24Mb
-      - FR_5084 |16.00Mb
-      - 🇺🇸 US_14448
-      - FR_4491 |13.21Mb
-      - 🇺🇸 US_15764
-      - AZ_1816 |11.53Mb
-      - 198.147.22.87:33998
-      - 104.244.208.211:48938
-      - 62.212.239.51:33992
-      - m8.mogu66.com:226
-      - AZ_1737
-      - FR_4582 |16.89Mb
-      - 72.140.224.195:802
-      - AZ_1738
-      - AU_1574
-      - AZ_1791
-      - 185.153.151.86:31572
-      - AZ_1735
-      - 🇸🇬 SG_12091
-      - 🇺🇸 US_14685
-      - TH_12360 | 2.64Mb
+      - 172.99.190.35:8090
+      - 🇺🇸 Relay_🇺🇸US |12.15Mb
+      - AU_1067 | 6.10Mb
+      - GB_4541 | 6.01Mb
+      - ZZ | 9.74Mb
+      - AU_1063 | 9.41Mb
+      - 🇺🇸 US | 8.15Mb
+      - ZZ | 8.79Mb
+      - ZZ | 9.55Mb
+      - 🇺🇸 US | 8.58Mb
+      - 🇺🇸 US_12280 | 4.97Mb
+      - ZZ |10.15Mb
+      - ZZ | 8.48Mb
+      - ZZ |10.05Mb
+      - ZZ_16142 | 6.70Mb
+      - ZZ | 8.98Mb
+      - ZZ |10.95Mb
+      - ZZ | 9.71Mb
+      - AU_1061 | 8.07Mb
+      - 🇺🇸 US | 9.07Mb
+      - 🇺🇸 US | 9.26Mb
+      - ZZ | 8.75Mb
+      - ZZ |10.23Mb
+      - ZZ_16102 | 6.08Mb
+      - ZZ | 8.72Mb
+      - ZZ_16112 | 6.00Mb
+      - ZZ |10.55Mb
+      - ZZ |10.02Mb
+      - ZZ_16181 | 7.28Mb
+      - ZZ | 9.58Mb
+      - ZZ | 9.62Mb
+      - 🇺🇸 US | 9.91Mb
+      - 🇺🇸 US | 8.76Mb
+      - 🇺🇸 US | 8.32Mb
+      - 🇺🇸 US_10808 | 5.78Mb
+      - 🇺🇸 US | 8.99Mb
+      - ZZ | 9.90Mb
+      - ZZ_16137 | 7.30Mb
+      - ZZ | 9.80Mb
+      - ZZ | 9.30Mb
+      - ZZ | 8.91Mb
+      - ZZ | 9.59Mb
+      - AU_1065 |10.12Mb
+      - CA_2003 | 3.44Mb
+      - 🇺🇸 US_10687 | 5.00Mb
+      - 🇺🇸 US |10.19Mb
+      - 🇺🇸 US_12286 | 4.39Mb
+      - ZZ |10.87Mb
+      - ZZ |10.59Mb
+      - ZZ | 9.68Mb
+      - ZZ_16127 | 5.78Mb
+      - ZZ_16128 | 7.93Mb
+      - ZZ | 8.47Mb
+      - ZZ_16145 | 7.01Mb
+      - ZZ_16158 | 3.34Mb
+      - ZZ |10.41Mb
+      - 🇺🇸 US_11987 | 3.97Mb
+      - 🇺🇸 US_12293 | 7.89Mb
+      - 🇺🇸 US_12419 | 0.49Mb
+      - ZZ | 9.13Mb
+      - ZZ | 9.33Mb
+      - ZZ_16202 | 5.30Mb
+      - CA_2096 | 2.16Mb
+      - 🇺🇸 US_12269 | 4.60Mb
+      - 🇺🇸 US_12304 | 2.99Mb
+      - 🇺🇸 US_12305 | 7.48Mb
+      - 🇺🇸 US_12322 | 6.59Mb
+      - ZZ | 8.81Mb
+      - ZZ |10.42Mb
+      - ZZ | 8.38Mb
+      - ZZ | 9.15Mb
+      - 🇺🇸 US_12363 | 5.56Mb
+      - ZZ_16146 | 6.21Mb
+      - ZZ | 8.88Mb
+      - CA_2098 | 2.95Mb
+      - 🇺🇸 US_12284 | 7.79Mb
+      - 🇺🇸 US_12324 | 7.58Mb
+      - 🇺🇸 US_12382 | 4.83Mb
+      - ZZ_15795 | 7.22Mb
+      - ZZ |10.21Mb
+      - CA_2002 | 1.64Mb
+      - 🇺🇸 US_12295 | 5.99Mb
+      - 🇺🇸 US_13444 | 7.85Mb
+      - 🇺🇸 US_13588 | 5.02Mb
+      - CA_1974 | 2.80Mb
+      - CA_1996 | 0.17Mb
+      - NO_6984 | 4.14Mb
+      - 🇺🇸 US_12013 | 7.11Mb
+      - Relay_🇫🇷FR-🇫🇷FR_3954 | 6.90Mb
+      - NO_6985 | 4.61Mb
+      - 🇷🇺 RU_8971 | 6.92Mb
+      - 🇺🇸 Relay_🇺🇸 US |13.01Mb
+      - 🇺🇸 US |12.23Mb
+      - 🇺🇸 US_12416 | 7.77Mb
+      - ZZ | 8.99Mb
+      - Pool__665 | 6.40Mb
+      - 🇨🇳 Relay_🇨🇳CN | 2.28Mb
+      - Relay_🇫🇷FR-🇫🇷FR_3958 | 6.14Mb
+      - 🇺🇸 Pool_🇺🇸US_11051 | 3.65Mb
+      - 🇺🇸 US_12261 | 3.31Mb
+      - 🇺🇸 US |11.53Mb
+      - 🇺🇸 US_12312 | 5.97Mb
+      - 🇺🇸 US_13667 | 0.74Mb
+      - AU_1068 | 9.47Mb
+      - AU_1070 | 9.45Mb
+      - CA_2097 | 0.23Mb
+      - 🇺🇸 Relay_🇺🇸 US |19.64Mb
+      - 🇺🇸 US_10814 | 2.14Mb
+      - 🇺🇸 US_12263 | 6.70Mb
+      - 🇺🇸 US_12281 | 2.63Mb
+      - 🇺🇸 US |10.06Mb
+      - 🇺🇸 US_12355 | 7.43Mb
+      - ZZ_16076 | 7.54Mb
+      - AU_1176 | 9.27Mb
+      - 🇰🇷 KR_6429 | 6.96Mb
+      - 🇰🇷 Relay_🇰🇷KR-🇰🇷KR_6450 | 7.96Mb
+      - NO_6965 | 3.82Mb
+      - NO_6983 | 1.56Mb
+      - 🇺🇸 Pool_🇺🇸 US_10313 | 2.08Mb
+      - 🇺🇸 Pool_🇺🇸 US_10646 | 1.96Mb
+      - 🇺🇸 US_10767 | 3.09Mb
+      - 🇺🇸 Pool_🇺🇸US_11500 | 1.81Mb
+      - 🇺🇸 US_12348 | 5.95Mb
+      - 🇺🇸 Pool_🇺🇸US_12838 | 2.19Mb
+      - 🇺🇸 Pool_🇺🇸US_14036 | 1.84Mb
+      - 🇺🇸 Pool_🇺🇸US_14037 | 1.79Mb
+      - 🇺🇸 Pool_🇺🇸US_14246 | 1.86Mb
+      - 🇺🇸 Pool_🇺🇸US_14521 | 1.65Mb
+      - ZZ | 9.96Mb
+      - 🇷🇺 Relay_-🇷🇺RU_697 | 0.00Mb
+      - 🇷🇺 Relay_-🇷🇺RU_702 | 0.16Mb
+      - 🇨🇳 CN_2472 | 1.50Mb
+      - 🇨🇳 CN_2473 | 1.58Mb
+      - 🇺🇸 Relay_🇨🇳CN-🇺🇸US_2477 | 1.71Mb
+      - 🇨🇳 CN_2479 | 1.95Mb
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_2486 | 1.71Mb
+      - GB | 8.03Mb
+      - Relay_🇮🇳IN |22.28Mb
+      - IT | 8.92Mb
+      - 🇰🇷 Relay_🇰🇷KR-🇰🇷KR_6470 | 8.16Mb
+      - NO_6961 | 5.49Mb
+      - NO_6977 | 7.49Mb
+      - 🇺🇸 Pool_🇺🇸US_10815 | 2.40Mb
+      - 🇺🇸 Pool_🇺🇸US_11526 | 1.76Mb
+      - 🇺🇸 Pool_🇺🇸US_11667 | 1.70Mb
+      - 🇺🇸 US_12278 | 7.31Mb
+      - 🇺🇸 Pool_🇺🇸US_12698 | 1.77Mb
+      - ZZ | 9.19Mb
+      - ZZ_16073 | 7.25Mb
+      - ZZ | 9.45Mb
+      - ZZ |10.60Mb
+      - ZZ |10.80Mb
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - AZ_1679
-      - AZ_1727 | 4.41Mb
-      - 137.59.52.107:50168
-      - 66.115.177.156:43893
-      - 167.88.63.99:8091
-      - AZ_1819 |11.19Mb
-      - TH_12316 | 2.68Mb
-      - 192.169.112.166:8091
-      - TH_12313 | 2.64Mb
-      - 91.90.123.115:38620
-      - m8.mogu66.com:206
-      - 192.169.112.168:8091
-      - 91.90.123.115:41676
-      - 🇺🇸 US_16779 | 1.98Mb
-      - 🇺🇸 US_14032 |13.03Mb
-      - 198.147.22.87:35200
-      - 🇺🇸 US_18799
-      - 191.96.13.200:36460
-      - 91.90.123.115:34815
-      - IT_7603 |10.38Mb
-      - 66.115.177.141:42185
-      - BR_2276
-      - TH_12284
-      - 🇺🇸 US_15759
-      - 167.88.63.108:8091
-      - AZ_1720
-      - 128.14.222.218:8090
-      - 91.219.215.19:31944
-      - 🇰🇷 KR_8070 | 2.67Mb
-      - 🇺🇸 US_15364
-      - 🇺🇸 US_13442
-      - 🇺🇸 US_15528
-      - m3.mogu66.com:215
-      - 🇰🇷 KR_8107 | 0.26Mb
-      - 🇰🇷 KR_8136 | 2.87Mb
-      - TH_12344 | 2.67Mb
-      - 🇺🇸 US_15487
-      - 🇺🇸 US_13867 |15.89Mb
-      - 🇺🇸 US_14955
-      - 66.115.177.143:38620
-      - 🇰🇷 KR_8108 | 4.99Mb
-      - 38.107.226.146:8090
-      - 🇺🇸 US_18457
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
-      - 86.106.137.147:39772
-      - 🇺🇸 US_15360
-      - 81.19.223.189:31764
-      - 🇺🇸 US_14217
-      - TH_12278
-      - 🇺🇸 US_14683
-      - 🇺🇸 US_15980
-      - 134.195.196.163:8090
-      - IT_7802 | 9.36Mb
-      - 185.166.84.81:41676
-      - TH_12426 | 2.63Mb
-      - 🇺🇸 US_18794
-      - 🇺🇸 US_19484 |33.24Mb
-      - 🇺🇸 US_14215
-      - 82.102.26.93:38742
-      - 🇺🇸 US_18819
-      - IT_7343 |10.50Mb
-      - 🇺🇸 US_17286
-      - 128.14.222.215:8090
-      - IT_7881 | 8.91Mb
-      - IT_7599 | 7.22Mb
-      - AZ_1772
-      - 🇺🇸 US_14391
-      - IT_7207 |13.94Mb
-      - 🇺🇸 US_14682
-      - 🇺🇸 US_18228
-      - TH_12420 | 2.53Mb
-      - IT_7264 | 6.57Mb
-      - IT_7206 |16.02Mb
-      - 66.115.177.136:48938
-      - 🇺🇸 US_18194
-      - IT_7346 | 9.33Mb
-      - TH_12506 | 2.64Mb
-      - IT_7268 | 6.17Mb
-      - IT_7597 | 8.83Mb
-      - IT_7669 | 8.86Mb
-      - IT_7352 |10.88Mb
-      - RO_11035
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2
-      - m8.mogu66.com:234
-      - IT_7265 | 6.23Mb
-      - IT_7311 | 7.32Mb
-      - TH_12508 | 2.68Mb
-      - 🇺🇸 US_18398
-      - IT_7854 |13.30Mb
-      - IT_7648 |11.56Mb
-      - TH_12295
-      - 🇺🇸 US_18459
-      - 🇺🇸 US_15882
-      - IT_7667 |13.80Mb
-      - 🇺🇸 US_16328 | 2.04Mb
-      - TH_12398 | 2.85Mb
-      - TH_12467 | 2.66Mb
-      - TH_12499 | 3.26Mb
-      - TH_12511 | 2.66Mb
-      - TH_12330 | 2.69Mb
-      - IT_7425 |10.93Mb
-      - TH_12532
-      - 🇺🇸 US_16154
-      - TH_12286
-      - TH_12492 | 2.67Mb
-      - IT_7654 |10.03Mb
-      - 87.239.255.114:38747
-      - TH_12332 | 2.66Mb
-      - TH_12275
-      - TH_12509 | 3.08Mb
-      - 27.131.164.94:46726
-      - TH_12309 | 2.67Mb
-      - 180.149.231.67:37588
-      - TH_12287
-      - TH_12501 | 2.58Mb
-      - 185.153.151.60:47861
-      - TH_12575 | 2.64Mb
-      - TH_12430 | 2.67Mb
-      - TH_12496 | 2.67Mb
-      - TH_12442 | 2.67Mb
-      - TH_12593 | 2.67Mb
-      - 🇺🇸 US_15353
-      - AZ_1763
-      - TH_12419 | 2.39Mb
-      - 61.14.210.242:32558
-      - NZ_9124 | 3.60Mb
-      - TH_12294
-      - 🇺🇸 US_14964
-      - 🇺🇸 US_14447
-      - TH_12289
-      - TH_12281
-      - TH_12428 | 2.69Mb
-      - TH_12543
-      - 🇺🇸 US_18843
-      - GB_5353 |13.40Mb
-      - 🇺🇸 US_15350
-      - TH_12436 | 2.66Mb
-      - TH_12427 | 2.70Mb
-      - TH_12361 | 2.65Mb
-      - TH_12285
-      - IT_7232 | 8.15Mb
-      - TH_12584 | 3.56Mb
-      - TH_12433 | 2.67Mb
-      - TH_12594 | 2.68Mb
-      - 🇺🇸 US_16724
-      - TH_12505 | 2.64Mb
-      - TH_12392 | 2.67Mb
-      - 79.110.54.133:49202
-      - 51.159.30.61:805
-      - AZ_1678
-      - 27.131.164.100:48089
-      - TH_12307 | 2.67Mb
-      - TH_12372 | 3.23Mb
-      - TH_12497 | 2.37Mb
-      - TH_12595 | 2.67Mb
-      - 🇺🇸 US_14450
-      - TH_12314 | 2.66Mb
-      - 🇰🇷 KR_8086 | 2.66Mb
-      - 🇺🇸 US_16152
-      - TH_12560
-      - TH_12540
-      - TH_12512 | 2.53Mb
-      - TH_12431 | 2.26Mb
-      - TH_12587 | 2.67Mb
-      - 🇺🇸 US_14943
-      - TH_12435 | 2.63Mb
-      - RO_10907 |15.84Mb
-      - TH_12429 | 2.68Mb
-      - 🇺🇸 US_15841
-      - TH_12438 | 2.64Mb
-      - TH_12073
-      - TH_12478 | 3.00Mb
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 3
-      - TH_12437 | 6.01Mb
-      - TH_12393 | 2.54Mb
-      - AZ_1676
-      - 🇺🇸 US_18242
-      - 🇺🇸 US_17175
-      - TH_12276
-      - IT_7649 | 5.57Mb
-      - TH_12600 | 2.29Mb
-      - 🇺🇸 US_15499
-      - TH_12510 | 2.80Mb
-      - 172.105.42.160:8090
-      - 🇺🇸 US_19530
-      - 45.79.126.80:8090
-      - 172.105.38.55:8090
-      - TH_12292
-      - TH_12596 | 2.68Mb
-      - 🇺🇸 US_17180
-      - 45.79.121.236:8091
-      - TH_12288
-      - TH_12422 | 2.68Mb
-      - 🇺🇸 US_17064
-      - TH_12582 | 2.31Mb
-      - 🇺🇸 US_14909
-      - TH_12417 | 2.67Mb
-      - IN_6983 | 4.74Mb
-      - TH_12408 | 2.62Mb
-      - 84.17.53.219:33992
-      - TH_12371 | 2.69Mb
-      - 143.244.57.118:44236
-      - 🇺🇸 US_14433
-      - 192.46.211.249:8091
-      - 172.105.63.34:8091
-      - 🇺🇸 US_14443
-      - RO_10243 | 5.63Mb
-      - 89.249.73.197:33992
-      - 51.89.99.52:805
-      - 193.29.107.123:39772
-      - 61.14.210.237:33148
-      - GB_5338 |10.08Mb
-      - 🇺🇸 US_17174
-      - RO_10171 | 8.11Mb
-      - 185.166.84.51:44745
-      - TH_12586 | 2.69Mb
-      - 145.239.1.175:8090
-      - IT_7335 |12.24Mb
-      - 91.90.123.155:31572
-      - 62.112.9.220:2375
-      - 91.90.123.150:50232
-      - 89.249.73.195:43893
-      - 45.79.127.97:8090
-      - 193.118.60.167:8091
-      - TH_12451 | 2.69Mb
-      - 45.79.122.28:8091
-      - 🇺🇸 US_14439
-      - 172.104.206.241:8091
-      - FR_4953 |11.33Mb
-      - RO_10591 |12.06Mb
-      - 172.105.59.32:8090
-      - 185.99.3.102:48938
-      - 103.192.80.133:49339
-      - m8.mogu66.com:215
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 4
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 5
-      - 🇺🇸 US_14438
-      - 89.45.7.51:49396
-      - 46.29.218.6:8091
-      - 🇺🇸 US_18655
-      - 🇺🇸 US_18936
-      - 198.8.92.84:38620
-      - 185.212.111.59:49339
-      - 🇺🇸 US_14960
-      - CA_2296
-      - 51.77.53.200:8091
-      - CA_2304 |21.02Mb
-      - AZ_1724
-      - 🇺🇸 US_18635
-      - 172.99.190.35:8090
-      - 🇺🇸 US_18656
-      - 🇺🇸 US_18667
-      - 🇺🇸 US_18890
-      - 51.77.52.206:8091
-      - 🇺🇸 US_18666
-      - 🇺🇸 US_18670
-      - 72.140.224.197:802
-      - 167.88.63.82:8091
-      - m3.mogu66.com:207
-      - 🇺🇸 US |15.93Mb
-      - 🇺🇸 US_19587
-      - 188.95.55.120:35294
-      - 🇺🇸 US_18812
-      - 🇺🇸 US_18809
-      - m3.mogu66.com:217
-      - 79.110.54.117:31572
-      - 🇺🇸 US_14684
-      - 139.99.122.148:8090
-      - 🇺🇸 US |12.87Mb
-      - RO_11397
-      - 🇺🇸 US_14040 | 7.78Mb
-      - 🇺🇸 US_18674
-      - 🇺🇸 US_15386
-      - 🇺🇸 US_18804
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/New York
-      - 🇺🇸 US_14630
-      - 🇺🇸 US_18720
-      - 91.90.123.115:35294
-      - 🇺🇸 US_16298
-      - 🇺🇸 US_15369
-      - CA_2343 |15.77Mb
-      - 91.90.123.115:49126
-      - TH_12439 | 4.54Mb
-      - 🇺🇸 US_15761
-      - 🇺🇸 US_15757
-      - 66.115.177.156:31572
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1120
-      - 🇺🇸 US_14030 |10.24Mb
-      - IE_6416 | 9.44Mb
-      - 🇺🇸 US_16402
-      - 134.195.196.154:8090
-      - 🇺🇸 US_18792
-      - 🇺🇸 US_18818
-      - 91.90.123.115:37588
-      - 🇺🇸 US_14037 |16.03Mb
-      - 198.57.27.238:8090
-      - RO_10945
-      - 🇺🇸 US_16590
-      - 🇺🇸 US_18918
-      - 134.195.196.97:8090
-      - 🇺🇸 US_14221
-      - 🇺🇸 US_14688
-      - 🇺🇸 US_15366
-      - TH_12352 | 2.66Mb
-      - 188.95.55.114:34815
-      - 🇺🇸 US_15780
-      - 193.118.60.165:8091
-      - AZ_1675 |11.25Mb
-      - 🇺🇸 US_18251
-      - 🇺🇸 US_13439
-      - 🇺🇸 US_18668
-      - 🇺🇸 US_18821
-      - 🇺🇸 US_14556
-      - 🇺🇸 US_15387
-      - 193.108.118.34:8090
-      - 66.115.177.156:46726
-      - 🇺🇸 US_18570
-      - 🇺🇸 US_14397
-      - 🇺🇸 US_19552 |15.37Mb
-      - 🇺🇸 US_14561 |52.79Mb
-      - 🇺🇸 US_14036 |10.66Mb
-      - 🇺🇸 US_15361
-      - 🇺🇸 US_16203
-      - 🇺🇸 US_16424
-      - 146.70.27.12:40093
-      - AZ_1798
-      - 🇺🇸 US_19496 |10.85Mb
-      - 🇺🇸 US_17978
-      - 🇺🇸 US_13864 |16.42Mb
-      - 134.195.198.95:8091
-      - 45.248.79.67:49339
-      - 🇺🇸 US_18611
-      - 🇺🇸 US_18540
-      - 🇫🇷 法国(欢迎订阅Youtube破解资源君)
-      - 66.115.147.89:34815
-      - 62.212.239.53:49126
-      - 🇺🇸 US_16605 | 6.72Mb
-      - AU_1575
-      - 🇺🇸 US_14034 |10.56Mb
-      - 134.195.196.79:8090
-      - 🇺🇸 US_13553
-      - 🇺🇸 US_19487 |22.11Mb
-      - 🇺🇸 US_18235
-      - 84.39.114.86:49396
-      - 🇺🇸 US_15883
-      - 🇺🇸 US_14546
-      - 185.108.105.82:49396
-      - 🇺🇸 US_18544
-      - 193.118.60.166:8091
-      - 45.248.79.67:43893
-      - 185.108.105.82:31764
-      - 🇰🇷 KR_8065 | 5.11Mb
-      - 🇺🇸 US_14607
-      - GB_5474 |23.29Mb
-      - 🇺🇸 US_15763
-      - 🇺🇸 US_15343
-      - 🇺🇸 US_16345 |20.42Mb
-      - 🇺🇸 US_13669
-      - 🇺🇸 US_19206 |15.18Mb
-      - 🇺🇸 US_14430
-      - 172.105.172.37:8090
-      - AZ_1721
-      - 🇺🇸 US_16880
-      - RO_11033
-      - 🇺🇸 US_14749
-      - 🇺🇸 US_14499
-      - 172.107.233.234:8090
-      - 🇺🇸 US_18568
-      - AZ_1744
-      - 🇺🇸 US_16604 | 7.74Mb
-      - 🇺🇸 US_18506
-      - 🇺🇸 US_14012 |16.01Mb
-      - AZ_1740
-      - AZ_1781
-      - IT_7267 | 7.52Mb
-      - 🇺🇸 US_15362
-      - 🇺🇸 US_14583
       - 🇨🇦 https://www.mattkaydiary.com|加拿大(CA)Canada/Vancouver
+      - 🇺🇸 美国(Youtube频道：工具大师！)
+      - 🇺🇸 US_14450
       - 🇺🇸 US_16311
-      - 66.115.154.131:48938
-      - 5.253.207.51:33992
-      - 🇺🇸 US_14302
-      - 5.253.207.53:31944
-      - TH_12317 | 3.55Mb
-      - FR_4639 |14.24Mb
-      - FR_5084 |16.00Mb
-      - 🇺🇸 US_14448
-      - FR_4491 |13.21Mb
-      - 🇺🇸 US_15764
-      - AZ_1816 |11.53Mb
-      - 198.147.22.87:33998
-      - 104.244.208.211:48938
-      - 62.212.239.51:33992
-      - m8.mogu66.com:226
-      - AZ_1737
-      - FR_4582 |16.89Mb
-      - 72.140.224.195:802
-      - AZ_1738
-      - AU_1574
-      - AZ_1791
-      - 185.153.151.86:31572
-      - AZ_1735
-      - 🇸🇬 SG_12091
-      - 🇺🇸 US_14685
-      - TH_12360 | 2.64Mb
+      - 172.99.190.35:8090
+      - 🇺🇸 Relay_🇺🇸US |12.15Mb
+      - AU_1067 | 6.10Mb
+      - GB_4541 | 6.01Mb
+      - ZZ | 9.74Mb
+      - AU_1063 | 9.41Mb
+      - 🇺🇸 US | 8.15Mb
+      - ZZ | 8.79Mb
+      - ZZ | 9.55Mb
+      - 🇺🇸 US | 8.58Mb
+      - 🇺🇸 US_12280 | 4.97Mb
+      - ZZ |10.15Mb
+      - ZZ | 8.48Mb
+      - ZZ |10.05Mb
+      - ZZ_16142 | 6.70Mb
+      - ZZ | 8.98Mb
+      - ZZ |10.95Mb
+      - ZZ | 9.71Mb
+      - AU_1061 | 8.07Mb
+      - 🇺🇸 US | 9.07Mb
+      - 🇺🇸 US | 9.26Mb
+      - ZZ | 8.75Mb
+      - ZZ |10.23Mb
+      - ZZ_16102 | 6.08Mb
+      - ZZ | 8.72Mb
+      - ZZ_16112 | 6.00Mb
+      - ZZ |10.55Mb
+      - ZZ |10.02Mb
+      - ZZ_16181 | 7.28Mb
+      - ZZ | 9.58Mb
+      - ZZ | 9.62Mb
+      - 🇺🇸 US | 9.91Mb
+      - 🇺🇸 US | 8.76Mb
+      - 🇺🇸 US | 8.32Mb
+      - 🇺🇸 US_10808 | 5.78Mb
+      - 🇺🇸 US | 8.99Mb
+      - ZZ | 9.90Mb
+      - ZZ_16137 | 7.30Mb
+      - ZZ | 9.80Mb
+      - ZZ | 9.30Mb
+      - ZZ | 8.91Mb
+      - ZZ | 9.59Mb
+      - AU_1065 |10.12Mb
+      - CA_2003 | 3.44Mb
+      - 🇺🇸 US_10687 | 5.00Mb
+      - 🇺🇸 US |10.19Mb
+      - 🇺🇸 US_12286 | 4.39Mb
+      - ZZ |10.87Mb
+      - ZZ |10.59Mb
+      - ZZ | 9.68Mb
+      - ZZ_16127 | 5.78Mb
+      - ZZ_16128 | 7.93Mb
+      - ZZ | 8.47Mb
+      - ZZ_16145 | 7.01Mb
+      - ZZ_16158 | 3.34Mb
+      - ZZ |10.41Mb
+      - 🇺🇸 US_11987 | 3.97Mb
+      - 🇺🇸 US_12293 | 7.89Mb
+      - 🇺🇸 US_12419 | 0.49Mb
+      - ZZ | 9.13Mb
+      - ZZ | 9.33Mb
+      - ZZ_16202 | 5.30Mb
+      - CA_2096 | 2.16Mb
+      - 🇺🇸 US_12269 | 4.60Mb
+      - 🇺🇸 US_12304 | 2.99Mb
+      - 🇺🇸 US_12305 | 7.48Mb
+      - 🇺🇸 US_12322 | 6.59Mb
+      - ZZ | 8.81Mb
+      - ZZ |10.42Mb
+      - ZZ | 8.38Mb
+      - ZZ | 9.15Mb
+      - 🇺🇸 US_12363 | 5.56Mb
+      - ZZ_16146 | 6.21Mb
+      - ZZ | 8.88Mb
+      - CA_2098 | 2.95Mb
+      - 🇺🇸 US_12284 | 7.79Mb
+      - 🇺🇸 US_12324 | 7.58Mb
+      - 🇺🇸 US_12382 | 4.83Mb
+      - ZZ_15795 | 7.22Mb
+      - ZZ |10.21Mb
+      - CA_2002 | 1.64Mb
+      - 🇺🇸 US_12295 | 5.99Mb
+      - 🇺🇸 US_13444 | 7.85Mb
+      - 🇺🇸 US_13588 | 5.02Mb
+      - CA_1974 | 2.80Mb
+      - CA_1996 | 0.17Mb
+      - NO_6984 | 4.14Mb
+      - 🇺🇸 US_12013 | 7.11Mb
+      - Relay_🇫🇷FR-🇫🇷FR_3954 | 6.90Mb
+      - NO_6985 | 4.61Mb
+      - 🇷🇺 RU_8971 | 6.92Mb
+      - 🇺🇸 Relay_🇺🇸 US |13.01Mb
+      - 🇺🇸 US |12.23Mb
+      - 🇺🇸 US_12416 | 7.77Mb
+      - ZZ | 8.99Mb
+      - Pool__665 | 6.40Mb
+      - 🇨🇳 Relay_🇨🇳CN | 2.28Mb
+      - Relay_🇫🇷FR-🇫🇷FR_3958 | 6.14Mb
+      - 🇺🇸 Pool_🇺🇸US_11051 | 3.65Mb
+      - 🇺🇸 US_12261 | 3.31Mb
+      - 🇺🇸 US |11.53Mb
+      - 🇺🇸 US_12312 | 5.97Mb
+      - 🇺🇸 US_13667 | 0.74Mb
+      - AU_1068 | 9.47Mb
+      - AU_1070 | 9.45Mb
+      - CA_2097 | 0.23Mb
+      - 🇺🇸 Relay_🇺🇸 US |19.64Mb
+      - 🇺🇸 US_10814 | 2.14Mb
+      - 🇺🇸 US_12263 | 6.70Mb
+      - 🇺🇸 US_12281 | 2.63Mb
+      - 🇺🇸 US |10.06Mb
+      - 🇺🇸 US_12355 | 7.43Mb
+      - ZZ_16076 | 7.54Mb
+      - AU_1176 | 9.27Mb
+      - 🇰🇷 KR_6429 | 6.96Mb
+      - 🇰🇷 Relay_🇰🇷KR-🇰🇷KR_6450 | 7.96Mb
+      - NO_6965 | 3.82Mb
+      - NO_6983 | 1.56Mb
+      - 🇺🇸 Pool_🇺🇸 US_10313 | 2.08Mb
+      - 🇺🇸 Pool_🇺🇸 US_10646 | 1.96Mb
+      - 🇺🇸 US_10767 | 3.09Mb
+      - 🇺🇸 Pool_🇺🇸US_11500 | 1.81Mb
+      - 🇺🇸 US_12348 | 5.95Mb
+      - 🇺🇸 Pool_🇺🇸US_12838 | 2.19Mb
+      - 🇺🇸 Pool_🇺🇸US_14036 | 1.84Mb
+      - 🇺🇸 Pool_🇺🇸US_14037 | 1.79Mb
+      - 🇺🇸 Pool_🇺🇸US_14246 | 1.86Mb
+      - 🇺🇸 Pool_🇺🇸US_14521 | 1.65Mb
+      - ZZ | 9.96Mb
+      - 🇷🇺 Relay_-🇷🇺RU_697 | 0.00Mb
+      - 🇷🇺 Relay_-🇷🇺RU_702 | 0.16Mb
+      - 🇨🇳 CN_2472 | 1.50Mb
+      - 🇨🇳 CN_2473 | 1.58Mb
+      - 🇺🇸 Relay_🇨🇳CN-🇺🇸US_2477 | 1.71Mb
+      - 🇨🇳 CN_2479 | 1.95Mb
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_2486 | 1.71Mb
+      - GB | 8.03Mb
+      - Relay_🇮🇳IN |22.28Mb
+      - IT | 8.92Mb
+      - 🇰🇷 Relay_🇰🇷KR-🇰🇷KR_6470 | 8.16Mb
+      - NO_6961 | 5.49Mb
+      - NO_6977 | 7.49Mb
+      - 🇺🇸 Pool_🇺🇸US_10815 | 2.40Mb
+      - 🇺🇸 Pool_🇺🇸US_11526 | 1.76Mb
+      - 🇺🇸 Pool_🇺🇸US_11667 | 1.70Mb
+      - 🇺🇸 US_12278 | 7.31Mb
+      - 🇺🇸 Pool_🇺🇸US_12698 | 1.77Mb
+      - ZZ | 9.19Mb
+      - ZZ_16073 | 7.25Mb
+      - ZZ | 9.45Mb
+      - ZZ |10.60Mb
+      - ZZ |10.80Mb
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - AZ_1679
-      - AZ_1727 | 4.41Mb
-      - 137.59.52.107:50168
-      - 66.115.177.156:43893
-      - 167.88.63.99:8091
-      - AZ_1819 |11.19Mb
-      - TH_12316 | 2.68Mb
-      - 192.169.112.166:8091
-      - TH_12313 | 2.64Mb
-      - 91.90.123.115:38620
-      - m8.mogu66.com:206
-      - 192.169.112.168:8091
-      - 91.90.123.115:41676
-      - 🇺🇸 US_16779 | 1.98Mb
-      - 🇺🇸 US_14032 |13.03Mb
-      - 198.147.22.87:35200
-      - 🇺🇸 US_18799
-      - 191.96.13.200:36460
-      - 91.90.123.115:34815
-      - IT_7603 |10.38Mb
-      - 66.115.177.141:42185
-      - BR_2276
-      - TH_12284
-      - 🇺🇸 US_15759
-      - 167.88.63.108:8091
-      - AZ_1720
-      - 128.14.222.218:8090
-      - 91.219.215.19:31944
-      - 🇰🇷 KR_8070 | 2.67Mb
-      - 🇺🇸 US_15364
-      - 🇺🇸 US_13442
-      - 🇺🇸 US_15528
-      - m3.mogu66.com:215
-      - 🇰🇷 KR_8107 | 0.26Mb
-      - 🇰🇷 KR_8136 | 2.87Mb
-      - TH_12344 | 2.67Mb
-      - 🇺🇸 US_15487
-      - 🇺🇸 US_13867 |15.89Mb
-      - 🇺🇸 US_14955
-      - 66.115.177.143:38620
-      - 🇰🇷 KR_8108 | 4.99Mb
-      - 38.107.226.146:8090
-      - 🇺🇸 US_18457
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
-      - 86.106.137.147:39772
-      - 🇺🇸 US_15360
-      - 81.19.223.189:31764
-      - 🇺🇸 US_14217
-      - TH_12278
-      - 🇺🇸 US_14683
-      - 🇺🇸 US_15980
-      - 134.195.196.163:8090
-      - IT_7802 | 9.36Mb
-      - 185.166.84.81:41676
-      - TH_12426 | 2.63Mb
-      - 🇺🇸 US_18794
-      - 🇺🇸 US_19484 |33.24Mb
-      - 🇺🇸 US_14215
-      - 82.102.26.93:38742
-      - 🇺🇸 US_18819
-      - IT_7343 |10.50Mb
-      - 🇺🇸 US_17286
-      - 128.14.222.215:8090
-      - IT_7881 | 8.91Mb
-      - IT_7599 | 7.22Mb
-      - AZ_1772
-      - 🇺🇸 US_14391
-      - IT_7207 |13.94Mb
-      - 🇺🇸 US_14682
-      - 🇺🇸 US_18228
-      - TH_12420 | 2.53Mb
-      - IT_7264 | 6.57Mb
-      - IT_7206 |16.02Mb
-      - 66.115.177.136:48938
-      - 🇺🇸 US_18194
-      - IT_7346 | 9.33Mb
-      - TH_12506 | 2.64Mb
-      - IT_7268 | 6.17Mb
-      - IT_7597 | 8.83Mb
-      - IT_7669 | 8.86Mb
-      - IT_7352 |10.88Mb
-      - RO_11035
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2
-      - m8.mogu66.com:234
-      - IT_7265 | 6.23Mb
-      - IT_7311 | 7.32Mb
-      - TH_12508 | 2.68Mb
-      - 🇺🇸 US_18398
-      - IT_7854 |13.30Mb
-      - IT_7648 |11.56Mb
-      - TH_12295
-      - 🇺🇸 US_18459
-      - 🇺🇸 US_15882
-      - IT_7667 |13.80Mb
-      - 🇺🇸 US_16328 | 2.04Mb
-      - TH_12398 | 2.85Mb
-      - TH_12467 | 2.66Mb
-      - TH_12499 | 3.26Mb
-      - TH_12511 | 2.66Mb
-      - TH_12330 | 2.69Mb
-      - IT_7425 |10.93Mb
-      - TH_12532
-      - 🇺🇸 US_16154
-      - TH_12286
-      - TH_12492 | 2.67Mb
-      - IT_7654 |10.03Mb
-      - 87.239.255.114:38747
-      - TH_12332 | 2.66Mb
-      - TH_12275
-      - TH_12509 | 3.08Mb
-      - 27.131.164.94:46726
-      - TH_12309 | 2.67Mb
-      - 180.149.231.67:37588
-      - TH_12287
-      - TH_12501 | 2.58Mb
-      - 185.153.151.60:47861
-      - TH_12575 | 2.64Mb
-      - TH_12430 | 2.67Mb
-      - TH_12496 | 2.67Mb
-      - TH_12442 | 2.67Mb
-      - TH_12593 | 2.67Mb
-      - 🇺🇸 US_15353
-      - AZ_1763
-      - TH_12419 | 2.39Mb
-      - 61.14.210.242:32558
-      - NZ_9124 | 3.60Mb
-      - TH_12294
-      - 🇺🇸 US_14964
-      - 🇺🇸 US_14447
-      - TH_12289
-      - TH_12281
-      - TH_12428 | 2.69Mb
-      - TH_12543
-      - 🇺🇸 US_18843
-      - GB_5353 |13.40Mb
-      - 🇺🇸 US_15350
-      - TH_12436 | 2.66Mb
-      - TH_12427 | 2.70Mb
-      - TH_12361 | 2.65Mb
-      - TH_12285
-      - IT_7232 | 8.15Mb
-      - TH_12584 | 3.56Mb
-      - TH_12433 | 2.67Mb
-      - TH_12594 | 2.68Mb
-      - 🇺🇸 US_16724
-      - TH_12505 | 2.64Mb
-      - TH_12392 | 2.67Mb
-      - 79.110.54.133:49202
-      - 51.159.30.61:805
-      - AZ_1678
-      - 27.131.164.100:48089
-      - TH_12307 | 2.67Mb
-      - TH_12372 | 3.23Mb
-      - TH_12497 | 2.37Mb
-      - TH_12595 | 2.67Mb
-      - 🇺🇸 US_14450
-      - TH_12314 | 2.66Mb
-      - 🇰🇷 KR_8086 | 2.66Mb
-      - 🇺🇸 US_16152
-      - TH_12560
-      - TH_12540
-      - TH_12512 | 2.53Mb
-      - TH_12431 | 2.26Mb
-      - TH_12587 | 2.67Mb
-      - 🇺🇸 US_14943
-      - TH_12435 | 2.63Mb
-      - RO_10907 |15.84Mb
-      - TH_12429 | 2.68Mb
-      - 🇺🇸 US_15841
-      - TH_12438 | 2.64Mb
-      - TH_12073
-      - TH_12478 | 3.00Mb
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 3
-      - TH_12437 | 6.01Mb
-      - TH_12393 | 2.54Mb
-      - AZ_1676
-      - 🇺🇸 US_18242
-      - 🇺🇸 US_17175
-      - TH_12276
-      - IT_7649 | 5.57Mb
-      - TH_12600 | 2.29Mb
-      - 🇺🇸 US_15499
-      - TH_12510 | 2.80Mb
-      - 172.105.42.160:8090
-      - 🇺🇸 US_19530
-      - 45.79.126.80:8090
-      - 172.105.38.55:8090
-      - TH_12292
-      - TH_12596 | 2.68Mb
-      - 🇺🇸 US_17180
-      - 45.79.121.236:8091
-      - TH_12288
-      - TH_12422 | 2.68Mb
-      - 🇺🇸 US_17064
-      - TH_12582 | 2.31Mb
-      - 🇺🇸 US_14909
-      - TH_12417 | 2.67Mb
-      - IN_6983 | 4.74Mb
-      - TH_12408 | 2.62Mb
-      - 84.17.53.219:33992
-      - TH_12371 | 2.69Mb
-      - 143.244.57.118:44236
-      - 🇺🇸 US_14433
-      - 192.46.211.249:8091
-      - 172.105.63.34:8091
-      - 🇺🇸 US_14443
-      - RO_10243 | 5.63Mb
-      - 89.249.73.197:33992
-      - 51.89.99.52:805
-      - 193.29.107.123:39772
-      - 61.14.210.237:33148
-      - GB_5338 |10.08Mb
-      - 🇺🇸 US_17174
-      - RO_10171 | 8.11Mb
-      - 185.166.84.51:44745
-      - TH_12586 | 2.69Mb
-      - 145.239.1.175:8090
-      - IT_7335 |12.24Mb
-      - 91.90.123.155:31572
-      - 62.112.9.220:2375
-      - 91.90.123.150:50232
-      - 89.249.73.195:43893
-      - 45.79.127.97:8090
-      - 193.118.60.167:8091
-      - TH_12451 | 2.69Mb
-      - 45.79.122.28:8091
-      - 🇺🇸 US_14439
-      - 172.104.206.241:8091
-      - FR_4953 |11.33Mb
-      - RO_10591 |12.06Mb
-      - 172.105.59.32:8090
-      - 185.99.3.102:48938
-      - 103.192.80.133:49339
-      - m8.mogu66.com:215
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 4
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 5
-      - 🇺🇸 US_14438
-      - 89.45.7.51:49396
-      - 46.29.218.6:8091
-      - 🇺🇸 US_18655
-      - 🇺🇸 US_18936
-      - 198.8.92.84:38620
-      - 185.212.111.59:49339
-      - 🇺🇸 US_14960
-      - CA_2296
-      - 51.77.53.200:8091
-      - CA_2304 |21.02Mb
-      - AZ_1724
-      - 🇺🇸 US_18635
-      - 172.99.190.35:8090
-      - 🇺🇸 US_18656
-      - 🇺🇸 US_18667
-      - 🇺🇸 US_18890
-      - 51.77.52.206:8091
-      - 🇺🇸 US_18666
-      - 🇺🇸 US_18670
-      - 72.140.224.197:802
-      - 167.88.63.82:8091
-      - m3.mogu66.com:207
-      - 🇺🇸 US |15.93Mb
-      - 🇺🇸 US_19587
-      - 188.95.55.120:35294
-      - 🇺🇸 US_18812
-      - 🇺🇸 US_18809
-      - m3.mogu66.com:217
-      - 79.110.54.117:31572
-      - 🇺🇸 US_14684
-      - 139.99.122.148:8090
-      - 🇺🇸 US |12.87Mb
-      - RO_11397
-      - 🇺🇸 US_14040 | 7.78Mb
-      - 🇺🇸 US_18674
-      - 🇺🇸 US_15386
-      - 🇺🇸 US_18804
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/New York
-      - 🇺🇸 US_14630
-      - 🇺🇸 US_18720
-      - 91.90.123.115:35294
-      - 🇺🇸 US_16298
-      - 🇺🇸 US_15369
-      - CA_2343 |15.77Mb
-      - 91.90.123.115:49126
-      - TH_12439 | 4.54Mb
-      - 🇺🇸 US_15761
-      - 🇺🇸 US_15757
-      - 66.115.177.156:31572
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1120
-      - 🇺🇸 US_14030 |10.24Mb
-      - IE_6416 | 9.44Mb
-      - 🇺🇸 US_16402
-      - 134.195.196.154:8090
-      - 🇺🇸 US_18792
-      - 🇺🇸 US_18818
-      - 91.90.123.115:37588
-      - 🇺🇸 US_14037 |16.03Mb
-      - 198.57.27.238:8090
-      - RO_10945
-      - 🇺🇸 US_16590
-      - 🇺🇸 US_18918
-      - 134.195.196.97:8090
-      - 🇺🇸 US_14221
-      - 🇺🇸 US_14688
-      - 🇺🇸 US_15366
-      - TH_12352 | 2.66Mb
-      - 188.95.55.114:34815
-      - 🇺🇸 US_15780
-      - 193.118.60.165:8091
-      - AZ_1675 |11.25Mb
-      - 🇺🇸 US_18251
-      - 🇺🇸 US_13439
-      - 🇺🇸 US_18668
-      - 🇺🇸 US_18821
-      - 🇺🇸 US_14556
-      - 🇺🇸 US_15387
-      - 193.108.118.34:8090
-      - 66.115.177.156:46726
-      - 🇺🇸 US_18570
-      - 🇺🇸 US_14397
-      - 🇺🇸 US_19552 |15.37Mb
-      - 🇺🇸 US_14561 |52.79Mb
-      - 🇺🇸 US_14036 |10.66Mb
-      - 🇺🇸 US_15361
-      - 🇺🇸 US_16203
-      - 🇺🇸 US_16424
-      - 146.70.27.12:40093
-      - AZ_1798
-      - 🇺🇸 US_19496 |10.85Mb
-      - 🇺🇸 US_17978
-      - 🇺🇸 US_13864 |16.42Mb
-      - 134.195.198.95:8091
-      - 45.248.79.67:49339
-      - 🇺🇸 US_18611
-      - 🇺🇸 US_18540
-      - 🇫🇷 法国(欢迎订阅Youtube破解资源君)
-      - 66.115.147.89:34815
-      - 62.212.239.53:49126
-      - 🇺🇸 US_16605 | 6.72Mb
-      - AU_1575
-      - 🇺🇸 US_14034 |10.56Mb
-      - 134.195.196.79:8090
-      - 🇺🇸 US_13553
-      - 🇺🇸 US_19487 |22.11Mb
-      - 🇺🇸 US_18235
-      - 84.39.114.86:49396
-      - 🇺🇸 US_15883
-      - 🇺🇸 US_14546
-      - 185.108.105.82:49396
-      - 🇺🇸 US_18544
-      - 193.118.60.166:8091
-      - 45.248.79.67:43893
-      - 185.108.105.82:31764
-      - 🇰🇷 KR_8065 | 5.11Mb
-      - 🇺🇸 US_14607
-      - GB_5474 |23.29Mb
-      - 🇺🇸 US_15763
-      - 🇺🇸 US_15343
-      - 🇺🇸 US_16345 |20.42Mb
-      - 🇺🇸 US_13669
-      - 🇺🇸 US_19206 |15.18Mb
-      - 🇺🇸 US_14430
-      - 172.105.172.37:8090
-      - AZ_1721
-      - 🇺🇸 US_16880
-      - RO_11033
-      - 🇺🇸 US_14749
-      - 🇺🇸 US_14499
-      - 172.107.233.234:8090
-      - 🇺🇸 US_18568
-      - AZ_1744
-      - 🇺🇸 US_16604 | 7.74Mb
-      - 🇺🇸 US_18506
-      - 🇺🇸 US_14012 |16.01Mb
-      - AZ_1740
-      - AZ_1781
-      - IT_7267 | 7.52Mb
-      - 🇺🇸 US_15362
-      - 🇺🇸 US_14583
       - 🇨🇦 https://www.mattkaydiary.com|加拿大(CA)Canada/Vancouver
+      - 🇺🇸 美国(Youtube频道：工具大师！)
+      - 🇺🇸 US_14450
       - 🇺🇸 US_16311
-      - 66.115.154.131:48938
-      - 5.253.207.51:33992
-      - 🇺🇸 US_14302
-      - 5.253.207.53:31944
-      - TH_12317 | 3.55Mb
-      - FR_4639 |14.24Mb
-      - FR_5084 |16.00Mb
-      - 🇺🇸 US_14448
-      - FR_4491 |13.21Mb
-      - 🇺🇸 US_15764
-      - AZ_1816 |11.53Mb
-      - 198.147.22.87:33998
-      - 104.244.208.211:48938
-      - 62.212.239.51:33992
-      - m8.mogu66.com:226
-      - AZ_1737
-      - FR_4582 |16.89Mb
-      - 72.140.224.195:802
-      - AZ_1738
-      - AU_1574
-      - AZ_1791
-      - 185.153.151.86:31572
-      - AZ_1735
-      - 🇸🇬 SG_12091
-      - 🇺🇸 US_14685
-      - TH_12360 | 2.64Mb
+      - 172.99.190.35:8090
+      - 🇺🇸 Relay_🇺🇸US |12.15Mb
+      - AU_1067 | 6.10Mb
+      - GB_4541 | 6.01Mb
+      - ZZ | 9.74Mb
+      - AU_1063 | 9.41Mb
+      - 🇺🇸 US | 8.15Mb
+      - ZZ | 8.79Mb
+      - ZZ | 9.55Mb
+      - 🇺🇸 US | 8.58Mb
+      - 🇺🇸 US_12280 | 4.97Mb
+      - ZZ |10.15Mb
+      - ZZ | 8.48Mb
+      - ZZ |10.05Mb
+      - ZZ_16142 | 6.70Mb
+      - ZZ | 8.98Mb
+      - ZZ |10.95Mb
+      - ZZ | 9.71Mb
+      - AU_1061 | 8.07Mb
+      - 🇺🇸 US | 9.07Mb
+      - 🇺🇸 US | 9.26Mb
+      - ZZ | 8.75Mb
+      - ZZ |10.23Mb
+      - ZZ_16102 | 6.08Mb
+      - ZZ | 8.72Mb
+      - ZZ_16112 | 6.00Mb
+      - ZZ |10.55Mb
+      - ZZ |10.02Mb
+      - ZZ_16181 | 7.28Mb
+      - ZZ | 9.58Mb
+      - ZZ | 9.62Mb
+      - 🇺🇸 US | 9.91Mb
+      - 🇺🇸 US | 8.76Mb
+      - 🇺🇸 US | 8.32Mb
+      - 🇺🇸 US_10808 | 5.78Mb
+      - 🇺🇸 US | 8.99Mb
+      - ZZ | 9.90Mb
+      - ZZ_16137 | 7.30Mb
+      - ZZ | 9.80Mb
+      - ZZ | 9.30Mb
+      - ZZ | 8.91Mb
+      - ZZ | 9.59Mb
+      - AU_1065 |10.12Mb
+      - CA_2003 | 3.44Mb
+      - 🇺🇸 US_10687 | 5.00Mb
+      - 🇺🇸 US |10.19Mb
+      - 🇺🇸 US_12286 | 4.39Mb
+      - ZZ |10.87Mb
+      - ZZ |10.59Mb
+      - ZZ | 9.68Mb
+      - ZZ_16127 | 5.78Mb
+      - ZZ_16128 | 7.93Mb
+      - ZZ | 8.47Mb
+      - ZZ_16145 | 7.01Mb
+      - ZZ_16158 | 3.34Mb
+      - ZZ |10.41Mb
+      - 🇺🇸 US_11987 | 3.97Mb
+      - 🇺🇸 US_12293 | 7.89Mb
+      - 🇺🇸 US_12419 | 0.49Mb
+      - ZZ | 9.13Mb
+      - ZZ | 9.33Mb
+      - ZZ_16202 | 5.30Mb
+      - CA_2096 | 2.16Mb
+      - 🇺🇸 US_12269 | 4.60Mb
+      - 🇺🇸 US_12304 | 2.99Mb
+      - 🇺🇸 US_12305 | 7.48Mb
+      - 🇺🇸 US_12322 | 6.59Mb
+      - ZZ | 8.81Mb
+      - ZZ |10.42Mb
+      - ZZ | 8.38Mb
+      - ZZ | 9.15Mb
+      - 🇺🇸 US_12363 | 5.56Mb
+      - ZZ_16146 | 6.21Mb
+      - ZZ | 8.88Mb
+      - CA_2098 | 2.95Mb
+      - 🇺🇸 US_12284 | 7.79Mb
+      - 🇺🇸 US_12324 | 7.58Mb
+      - 🇺🇸 US_12382 | 4.83Mb
+      - ZZ_15795 | 7.22Mb
+      - ZZ |10.21Mb
+      - CA_2002 | 1.64Mb
+      - 🇺🇸 US_12295 | 5.99Mb
+      - 🇺🇸 US_13444 | 7.85Mb
+      - 🇺🇸 US_13588 | 5.02Mb
+      - CA_1974 | 2.80Mb
+      - CA_1996 | 0.17Mb
+      - NO_6984 | 4.14Mb
+      - 🇺🇸 US_12013 | 7.11Mb
+      - Relay_🇫🇷FR-🇫🇷FR_3954 | 6.90Mb
+      - NO_6985 | 4.61Mb
+      - 🇷🇺 RU_8971 | 6.92Mb
+      - 🇺🇸 Relay_🇺🇸 US |13.01Mb
+      - 🇺🇸 US |12.23Mb
+      - 🇺🇸 US_12416 | 7.77Mb
+      - ZZ | 8.99Mb
+      - Pool__665 | 6.40Mb
+      - 🇨🇳 Relay_🇨🇳CN | 2.28Mb
+      - Relay_🇫🇷FR-🇫🇷FR_3958 | 6.14Mb
+      - 🇺🇸 Pool_🇺🇸US_11051 | 3.65Mb
+      - 🇺🇸 US_12261 | 3.31Mb
+      - 🇺🇸 US |11.53Mb
+      - 🇺🇸 US_12312 | 5.97Mb
+      - 🇺🇸 US_13667 | 0.74Mb
+      - AU_1068 | 9.47Mb
+      - AU_1070 | 9.45Mb
+      - CA_2097 | 0.23Mb
+      - 🇺🇸 Relay_🇺🇸 US |19.64Mb
+      - 🇺🇸 US_10814 | 2.14Mb
+      - 🇺🇸 US_12263 | 6.70Mb
+      - 🇺🇸 US_12281 | 2.63Mb
+      - 🇺🇸 US |10.06Mb
+      - 🇺🇸 US_12355 | 7.43Mb
+      - ZZ_16076 | 7.54Mb
+      - AU_1176 | 9.27Mb
+      - 🇰🇷 KR_6429 | 6.96Mb
+      - 🇰🇷 Relay_🇰🇷KR-🇰🇷KR_6450 | 7.96Mb
+      - NO_6965 | 3.82Mb
+      - NO_6983 | 1.56Mb
+      - 🇺🇸 Pool_🇺🇸 US_10313 | 2.08Mb
+      - 🇺🇸 Pool_🇺🇸 US_10646 | 1.96Mb
+      - 🇺🇸 US_10767 | 3.09Mb
+      - 🇺🇸 Pool_🇺🇸US_11500 | 1.81Mb
+      - 🇺🇸 US_12348 | 5.95Mb
+      - 🇺🇸 Pool_🇺🇸US_12838 | 2.19Mb
+      - 🇺🇸 Pool_🇺🇸US_14036 | 1.84Mb
+      - 🇺🇸 Pool_🇺🇸US_14037 | 1.79Mb
+      - 🇺🇸 Pool_🇺🇸US_14246 | 1.86Mb
+      - 🇺🇸 Pool_🇺🇸US_14521 | 1.65Mb
+      - ZZ | 9.96Mb
+      - 🇷🇺 Relay_-🇷🇺RU_697 | 0.00Mb
+      - 🇷🇺 Relay_-🇷🇺RU_702 | 0.16Mb
+      - 🇨🇳 CN_2472 | 1.50Mb
+      - 🇨🇳 CN_2473 | 1.58Mb
+      - 🇺🇸 Relay_🇨🇳CN-🇺🇸US_2477 | 1.71Mb
+      - 🇨🇳 CN_2479 | 1.95Mb
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_2486 | 1.71Mb
+      - GB | 8.03Mb
+      - Relay_🇮🇳IN |22.28Mb
+      - IT | 8.92Mb
+      - 🇰🇷 Relay_🇰🇷KR-🇰🇷KR_6470 | 8.16Mb
+      - NO_6961 | 5.49Mb
+      - NO_6977 | 7.49Mb
+      - 🇺🇸 Pool_🇺🇸US_10815 | 2.40Mb
+      - 🇺🇸 Pool_🇺🇸US_11526 | 1.76Mb
+      - 🇺🇸 Pool_🇺🇸US_11667 | 1.70Mb
+      - 🇺🇸 US_12278 | 7.31Mb
+      - 🇺🇸 Pool_🇺🇸US_12698 | 1.77Mb
+      - ZZ | 9.19Mb
+      - ZZ_16073 | 7.25Mb
+      - ZZ | 9.45Mb
+      - ZZ |10.60Mb
+      - ZZ |10.80Mb
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - AZ_1679
-      - AZ_1727 | 4.41Mb
-      - 137.59.52.107:50168
-      - 66.115.177.156:43893
-      - 167.88.63.99:8091
-      - AZ_1819 |11.19Mb
-      - TH_12316 | 2.68Mb
-      - 192.169.112.166:8091
-      - TH_12313 | 2.64Mb
-      - 91.90.123.115:38620
-      - m8.mogu66.com:206
-      - 192.169.112.168:8091
-      - 91.90.123.115:41676
-      - 🇺🇸 US_16779 | 1.98Mb
-      - 🇺🇸 US_14032 |13.03Mb
-      - 198.147.22.87:35200
-      - 🇺🇸 US_18799
-      - 191.96.13.200:36460
-      - 91.90.123.115:34815
-      - IT_7603 |10.38Mb
-      - 66.115.177.141:42185
-      - BR_2276
-      - TH_12284
-      - 🇺🇸 US_15759
-      - 167.88.63.108:8091
-      - AZ_1720
-      - 128.14.222.218:8090
-      - 91.219.215.19:31944
-      - 🇰🇷 KR_8070 | 2.67Mb
-      - 🇺🇸 US_15364
-      - 🇺🇸 US_13442
-      - 🇺🇸 US_15528
-      - m3.mogu66.com:215
-      - 🇰🇷 KR_8107 | 0.26Mb
-      - 🇰🇷 KR_8136 | 2.87Mb
-      - TH_12344 | 2.67Mb
-      - 🇺🇸 US_15487
-      - 🇺🇸 US_13867 |15.89Mb
-      - 🇺🇸 US_14955
-      - 66.115.177.143:38620
-      - 🇰🇷 KR_8108 | 4.99Mb
-      - 38.107.226.146:8090
-      - 🇺🇸 US_18457
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
-      - 86.106.137.147:39772
-      - 🇺🇸 US_15360
-      - 81.19.223.189:31764
-      - 🇺🇸 US_14217
-      - TH_12278
-      - 🇺🇸 US_14683
-      - 🇺🇸 US_15980
-      - 134.195.196.163:8090
-      - IT_7802 | 9.36Mb
-      - 185.166.84.81:41676
-      - TH_12426 | 2.63Mb
-      - 🇺🇸 US_18794
-      - 🇺🇸 US_19484 |33.24Mb
-      - 🇺🇸 US_14215
-      - 82.102.26.93:38742
-      - 🇺🇸 US_18819
-      - IT_7343 |10.50Mb
-      - 🇺🇸 US_17286
-      - 128.14.222.215:8090
-      - IT_7881 | 8.91Mb
-      - IT_7599 | 7.22Mb
-      - AZ_1772
-      - 🇺🇸 US_14391
-      - IT_7207 |13.94Mb
-      - 🇺🇸 US_14682
-      - 🇺🇸 US_18228
-      - TH_12420 | 2.53Mb
-      - IT_7264 | 6.57Mb
-      - IT_7206 |16.02Mb
-      - 66.115.177.136:48938
-      - 🇺🇸 US_18194
-      - IT_7346 | 9.33Mb
-      - TH_12506 | 2.64Mb
-      - IT_7268 | 6.17Mb
-      - IT_7597 | 8.83Mb
-      - IT_7669 | 8.86Mb
-      - IT_7352 |10.88Mb
-      - RO_11035
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2
-      - m8.mogu66.com:234
-      - IT_7265 | 6.23Mb
-      - IT_7311 | 7.32Mb
-      - TH_12508 | 2.68Mb
-      - 🇺🇸 US_18398
-      - IT_7854 |13.30Mb
-      - IT_7648 |11.56Mb
-      - TH_12295
-      - 🇺🇸 US_18459
-      - 🇺🇸 US_15882
-      - IT_7667 |13.80Mb
-      - 🇺🇸 US_16328 | 2.04Mb
-      - TH_12398 | 2.85Mb
-      - TH_12467 | 2.66Mb
-      - TH_12499 | 3.26Mb
-      - TH_12511 | 2.66Mb
-      - TH_12330 | 2.69Mb
-      - IT_7425 |10.93Mb
-      - TH_12532
-      - 🇺🇸 US_16154
-      - TH_12286
-      - TH_12492 | 2.67Mb
-      - IT_7654 |10.03Mb
-      - 87.239.255.114:38747
-      - TH_12332 | 2.66Mb
-      - TH_12275
-      - TH_12509 | 3.08Mb
-      - 27.131.164.94:46726
-      - TH_12309 | 2.67Mb
-      - 180.149.231.67:37588
-      - TH_12287
-      - TH_12501 | 2.58Mb
-      - 185.153.151.60:47861
-      - TH_12575 | 2.64Mb
-      - TH_12430 | 2.67Mb
-      - TH_12496 | 2.67Mb
-      - TH_12442 | 2.67Mb
-      - TH_12593 | 2.67Mb
-      - 🇺🇸 US_15353
-      - AZ_1763
-      - TH_12419 | 2.39Mb
-      - 61.14.210.242:32558
-      - NZ_9124 | 3.60Mb
-      - TH_12294
-      - 🇺🇸 US_14964
-      - 🇺🇸 US_14447
-      - TH_12289
-      - TH_12281
-      - TH_12428 | 2.69Mb
-      - TH_12543
-      - 🇺🇸 US_18843
-      - GB_5353 |13.40Mb
-      - 🇺🇸 US_15350
-      - TH_12436 | 2.66Mb
-      - TH_12427 | 2.70Mb
-      - TH_12361 | 2.65Mb
-      - TH_12285
-      - IT_7232 | 8.15Mb
-      - TH_12584 | 3.56Mb
-      - TH_12433 | 2.67Mb
-      - TH_12594 | 2.68Mb
-      - 🇺🇸 US_16724
-      - TH_12505 | 2.64Mb
-      - TH_12392 | 2.67Mb
-      - 79.110.54.133:49202
-      - 51.159.30.61:805
-      - AZ_1678
-      - 27.131.164.100:48089
-      - TH_12307 | 2.67Mb
-      - TH_12372 | 3.23Mb
-      - TH_12497 | 2.37Mb
-      - TH_12595 | 2.67Mb
-      - 🇺🇸 US_14450
-      - TH_12314 | 2.66Mb
-      - 🇰🇷 KR_8086 | 2.66Mb
-      - 🇺🇸 US_16152
-      - TH_12560
-      - TH_12540
-      - TH_12512 | 2.53Mb
-      - TH_12431 | 2.26Mb
-      - TH_12587 | 2.67Mb
-      - 🇺🇸 US_14943
-      - TH_12435 | 2.63Mb
-      - RO_10907 |15.84Mb
-      - TH_12429 | 2.68Mb
-      - 🇺🇸 US_15841
-      - TH_12438 | 2.64Mb
-      - TH_12073
-      - TH_12478 | 3.00Mb
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 3
-      - TH_12437 | 6.01Mb
-      - TH_12393 | 2.54Mb
-      - AZ_1676
-      - 🇺🇸 US_18242
-      - 🇺🇸 US_17175
-      - TH_12276
-      - IT_7649 | 5.57Mb
-      - TH_12600 | 2.29Mb
-      - 🇺🇸 US_15499
-      - TH_12510 | 2.80Mb
-      - 172.105.42.160:8090
-      - 🇺🇸 US_19530
-      - 45.79.126.80:8090
-      - 172.105.38.55:8090
-      - TH_12292
-      - TH_12596 | 2.68Mb
-      - 🇺🇸 US_17180
-      - 45.79.121.236:8091
-      - TH_12288
-      - TH_12422 | 2.68Mb
-      - 🇺🇸 US_17064
-      - TH_12582 | 2.31Mb
-      - 🇺🇸 US_14909
-      - TH_12417 | 2.67Mb
-      - IN_6983 | 4.74Mb
-      - TH_12408 | 2.62Mb
-      - 84.17.53.219:33992
-      - TH_12371 | 2.69Mb
-      - 143.244.57.118:44236
-      - 🇺🇸 US_14433
-      - 192.46.211.249:8091
-      - 172.105.63.34:8091
-      - 🇺🇸 US_14443
-      - RO_10243 | 5.63Mb
-      - 89.249.73.197:33992
-      - 51.89.99.52:805
-      - 193.29.107.123:39772
-      - 61.14.210.237:33148
-      - GB_5338 |10.08Mb
-      - 🇺🇸 US_17174
-      - RO_10171 | 8.11Mb
-      - 185.166.84.51:44745
-      - TH_12586 | 2.69Mb
-      - 145.239.1.175:8090
-      - IT_7335 |12.24Mb
-      - 91.90.123.155:31572
-      - 62.112.9.220:2375
-      - 91.90.123.150:50232
-      - 89.249.73.195:43893
-      - 45.79.127.97:8090
-      - 193.118.60.167:8091
-      - TH_12451 | 2.69Mb
-      - 45.79.122.28:8091
-      - 🇺🇸 US_14439
-      - 172.104.206.241:8091
-      - FR_4953 |11.33Mb
-      - RO_10591 |12.06Mb
-      - 172.105.59.32:8090
-      - 185.99.3.102:48938
-      - 103.192.80.133:49339
-      - m8.mogu66.com:215
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 4
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 5
-      - 🇺🇸 US_14438
-      - 89.45.7.51:49396
-      - 46.29.218.6:8091
-      - 🇺🇸 US_18655
-      - 🇺🇸 US_18936
-      - 198.8.92.84:38620
-      - 185.212.111.59:49339
-      - 🇺🇸 US_14960
-      - CA_2296
-      - 51.77.53.200:8091
-      - CA_2304 |21.02Mb
-      - AZ_1724
-      - 🇺🇸 US_18635
-      - 172.99.190.35:8090
-      - 🇺🇸 US_18656
-      - 🇺🇸 US_18667
-      - 🇺🇸 US_18890
-      - 51.77.52.206:8091
-      - 🇺🇸 US_18666
-      - 🇺🇸 US_18670
-      - 72.140.224.197:802
-      - 167.88.63.82:8091
-      - m3.mogu66.com:207
-      - 🇺🇸 US |15.93Mb
-      - 🇺🇸 US_19587
-      - 188.95.55.120:35294
-      - 🇺🇸 US_18812
-      - 🇺🇸 US_18809
-      - m3.mogu66.com:217
-      - 79.110.54.117:31572
-      - 🇺🇸 US_14684
-      - 139.99.122.148:8090
-      - 🇺🇸 US |12.87Mb
-      - RO_11397
-      - 🇺🇸 US_14040 | 7.78Mb
-      - 🇺🇸 US_18674
-      - 🇺🇸 US_15386
-      - 🇺🇸 US_18804
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/New York
-      - 🇺🇸 US_14630
-      - 🇺🇸 US_18720
-      - 91.90.123.115:35294
-      - 🇺🇸 US_16298
-      - 🇺🇸 US_15369
-      - CA_2343 |15.77Mb
-      - 91.90.123.115:49126
-      - TH_12439 | 4.54Mb
-      - 🇺🇸 US_15761
-      - 🇺🇸 US_15757
-      - 66.115.177.156:31572
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1120
-      - 🇺🇸 US_14030 |10.24Mb
-      - IE_6416 | 9.44Mb
-      - 🇺🇸 US_16402
-      - 134.195.196.154:8090
-      - 🇺🇸 US_18792
-      - 🇺🇸 US_18818
-      - 91.90.123.115:37588
-      - 🇺🇸 US_14037 |16.03Mb
-      - 198.57.27.238:8090
-      - RO_10945
-      - 🇺🇸 US_16590
-      - 🇺🇸 US_18918
-      - 134.195.196.97:8090
-      - 🇺🇸 US_14221
-      - 🇺🇸 US_14688
-      - 🇺🇸 US_15366
-      - TH_12352 | 2.66Mb
-      - 188.95.55.114:34815
-      - 🇺🇸 US_15780
-      - 193.118.60.165:8091
-      - AZ_1675 |11.25Mb
-      - 🇺🇸 US_18251
-      - 🇺🇸 US_13439
-      - 🇺🇸 US_18668
-      - 🇺🇸 US_18821
-      - 🇺🇸 US_14556
-      - 🇺🇸 US_15387
-      - 193.108.118.34:8090
-      - 66.115.177.156:46726
-      - 🇺🇸 US_18570
-      - 🇺🇸 US_14397
-      - 🇺🇸 US_19552 |15.37Mb
-      - 🇺🇸 US_14561 |52.79Mb
-      - 🇺🇸 US_14036 |10.66Mb
-      - 🇺🇸 US_15361
-      - 🇺🇸 US_16203
-      - 🇺🇸 US_16424
-      - 146.70.27.12:40093
-      - AZ_1798
-      - 🇺🇸 US_19496 |10.85Mb
-      - 🇺🇸 US_17978
-      - 🇺🇸 US_13864 |16.42Mb
-      - 134.195.198.95:8091
-      - 45.248.79.67:49339
-      - 🇺🇸 US_18611
-      - 🇺🇸 US_18540
-      - 🇫🇷 法国(欢迎订阅Youtube破解资源君)
-      - 66.115.147.89:34815
-      - 62.212.239.53:49126
-      - 🇺🇸 US_16605 | 6.72Mb
-      - AU_1575
-      - 🇺🇸 US_14034 |10.56Mb
-      - 134.195.196.79:8090
-      - 🇺🇸 US_13553
-      - 🇺🇸 US_19487 |22.11Mb
-      - 🇺🇸 US_18235
-      - 84.39.114.86:49396
-      - 🇺🇸 US_15883
-      - 🇺🇸 US_14546
-      - 185.108.105.82:49396
-      - 🇺🇸 US_18544
-      - 193.118.60.166:8091
-      - 45.248.79.67:43893
-      - 185.108.105.82:31764
-      - 🇰🇷 KR_8065 | 5.11Mb
-      - 🇺🇸 US_14607
-      - GB_5474 |23.29Mb
-      - 🇺🇸 US_15763
-      - 🇺🇸 US_15343
-      - 🇺🇸 US_16345 |20.42Mb
-      - 🇺🇸 US_13669
-      - 🇺🇸 US_19206 |15.18Mb
-      - 🇺🇸 US_14430
-      - 172.105.172.37:8090
-      - AZ_1721
-      - 🇺🇸 US_16880
-      - RO_11033
-      - 🇺🇸 US_14749
-      - 🇺🇸 US_14499
-      - 172.107.233.234:8090
-      - 🇺🇸 US_18568
-      - AZ_1744
-      - 🇺🇸 US_16604 | 7.74Mb
-      - 🇺🇸 US_18506
-      - 🇺🇸 US_14012 |16.01Mb
-      - AZ_1740
-      - AZ_1781
-      - IT_7267 | 7.52Mb
-      - 🇺🇸 US_15362
-      - 🇺🇸 US_14583
       - 🇨🇦 https://www.mattkaydiary.com|加拿大(CA)Canada/Vancouver
+      - 🇺🇸 美国(Youtube频道：工具大师！)
+      - 🇺🇸 US_14450
       - 🇺🇸 US_16311
-      - 66.115.154.131:48938
-      - 5.253.207.51:33992
-      - 🇺🇸 US_14302
-      - 5.253.207.53:31944
-      - TH_12317 | 3.55Mb
-      - FR_4639 |14.24Mb
-      - FR_5084 |16.00Mb
-      - 🇺🇸 US_14448
-      - FR_4491 |13.21Mb
-      - 🇺🇸 US_15764
-      - AZ_1816 |11.53Mb
-      - 198.147.22.87:33998
-      - 104.244.208.211:48938
-      - 62.212.239.51:33992
-      - m8.mogu66.com:226
-      - AZ_1737
-      - FR_4582 |16.89Mb
-      - 72.140.224.195:802
-      - AZ_1738
-      - AU_1574
-      - AZ_1791
-      - 185.153.151.86:31572
-      - AZ_1735
-      - 🇸🇬 SG_12091
-      - 🇺🇸 US_14685
-      - TH_12360 | 2.64Mb
+      - 172.99.190.35:8090
+      - 🇺🇸 Relay_🇺🇸US |12.15Mb
+      - AU_1067 | 6.10Mb
+      - GB_4541 | 6.01Mb
+      - ZZ | 9.74Mb
+      - AU_1063 | 9.41Mb
+      - 🇺🇸 US | 8.15Mb
+      - ZZ | 8.79Mb
+      - ZZ | 9.55Mb
+      - 🇺🇸 US | 8.58Mb
+      - 🇺🇸 US_12280 | 4.97Mb
+      - ZZ |10.15Mb
+      - ZZ | 8.48Mb
+      - ZZ |10.05Mb
+      - ZZ_16142 | 6.70Mb
+      - ZZ | 8.98Mb
+      - ZZ |10.95Mb
+      - ZZ | 9.71Mb
+      - AU_1061 | 8.07Mb
+      - 🇺🇸 US | 9.07Mb
+      - 🇺🇸 US | 9.26Mb
+      - ZZ | 8.75Mb
+      - ZZ |10.23Mb
+      - ZZ_16102 | 6.08Mb
+      - ZZ | 8.72Mb
+      - ZZ_16112 | 6.00Mb
+      - ZZ |10.55Mb
+      - ZZ |10.02Mb
+      - ZZ_16181 | 7.28Mb
+      - ZZ | 9.58Mb
+      - ZZ | 9.62Mb
+      - 🇺🇸 US | 9.91Mb
+      - 🇺🇸 US | 8.76Mb
+      - 🇺🇸 US | 8.32Mb
+      - 🇺🇸 US_10808 | 5.78Mb
+      - 🇺🇸 US | 8.99Mb
+      - ZZ | 9.90Mb
+      - ZZ_16137 | 7.30Mb
+      - ZZ | 9.80Mb
+      - ZZ | 9.30Mb
+      - ZZ | 8.91Mb
+      - ZZ | 9.59Mb
+      - AU_1065 |10.12Mb
+      - CA_2003 | 3.44Mb
+      - 🇺🇸 US_10687 | 5.00Mb
+      - 🇺🇸 US |10.19Mb
+      - 🇺🇸 US_12286 | 4.39Mb
+      - ZZ |10.87Mb
+      - ZZ |10.59Mb
+      - ZZ | 9.68Mb
+      - ZZ_16127 | 5.78Mb
+      - ZZ_16128 | 7.93Mb
+      - ZZ | 8.47Mb
+      - ZZ_16145 | 7.01Mb
+      - ZZ_16158 | 3.34Mb
+      - ZZ |10.41Mb
+      - 🇺🇸 US_11987 | 3.97Mb
+      - 🇺🇸 US_12293 | 7.89Mb
+      - 🇺🇸 US_12419 | 0.49Mb
+      - ZZ | 9.13Mb
+      - ZZ | 9.33Mb
+      - ZZ_16202 | 5.30Mb
+      - CA_2096 | 2.16Mb
+      - 🇺🇸 US_12269 | 4.60Mb
+      - 🇺🇸 US_12304 | 2.99Mb
+      - 🇺🇸 US_12305 | 7.48Mb
+      - 🇺🇸 US_12322 | 6.59Mb
+      - ZZ | 8.81Mb
+      - ZZ |10.42Mb
+      - ZZ | 8.38Mb
+      - ZZ | 9.15Mb
+      - 🇺🇸 US_12363 | 5.56Mb
+      - ZZ_16146 | 6.21Mb
+      - ZZ | 8.88Mb
+      - CA_2098 | 2.95Mb
+      - 🇺🇸 US_12284 | 7.79Mb
+      - 🇺🇸 US_12324 | 7.58Mb
+      - 🇺🇸 US_12382 | 4.83Mb
+      - ZZ_15795 | 7.22Mb
+      - ZZ |10.21Mb
+      - CA_2002 | 1.64Mb
+      - 🇺🇸 US_12295 | 5.99Mb
+      - 🇺🇸 US_13444 | 7.85Mb
+      - 🇺🇸 US_13588 | 5.02Mb
+      - CA_1974 | 2.80Mb
+      - CA_1996 | 0.17Mb
+      - NO_6984 | 4.14Mb
+      - 🇺🇸 US_12013 | 7.11Mb
+      - Relay_🇫🇷FR-🇫🇷FR_3954 | 6.90Mb
+      - NO_6985 | 4.61Mb
+      - 🇷🇺 RU_8971 | 6.92Mb
+      - 🇺🇸 Relay_🇺🇸 US |13.01Mb
+      - 🇺🇸 US |12.23Mb
+      - 🇺🇸 US_12416 | 7.77Mb
+      - ZZ | 8.99Mb
+      - Pool__665 | 6.40Mb
+      - 🇨🇳 Relay_🇨🇳CN | 2.28Mb
+      - Relay_🇫🇷FR-🇫🇷FR_3958 | 6.14Mb
+      - 🇺🇸 Pool_🇺🇸US_11051 | 3.65Mb
+      - 🇺🇸 US_12261 | 3.31Mb
+      - 🇺🇸 US |11.53Mb
+      - 🇺🇸 US_12312 | 5.97Mb
+      - 🇺🇸 US_13667 | 0.74Mb
+      - AU_1068 | 9.47Mb
+      - AU_1070 | 9.45Mb
+      - CA_2097 | 0.23Mb
+      - 🇺🇸 Relay_🇺🇸 US |19.64Mb
+      - 🇺🇸 US_10814 | 2.14Mb
+      - 🇺🇸 US_12263 | 6.70Mb
+      - 🇺🇸 US_12281 | 2.63Mb
+      - 🇺🇸 US |10.06Mb
+      - 🇺🇸 US_12355 | 7.43Mb
+      - ZZ_16076 | 7.54Mb
+      - AU_1176 | 9.27Mb
+      - 🇰🇷 KR_6429 | 6.96Mb
+      - 🇰🇷 Relay_🇰🇷KR-🇰🇷KR_6450 | 7.96Mb
+      - NO_6965 | 3.82Mb
+      - NO_6983 | 1.56Mb
+      - 🇺🇸 Pool_🇺🇸 US_10313 | 2.08Mb
+      - 🇺🇸 Pool_🇺🇸 US_10646 | 1.96Mb
+      - 🇺🇸 US_10767 | 3.09Mb
+      - 🇺🇸 Pool_🇺🇸US_11500 | 1.81Mb
+      - 🇺🇸 US_12348 | 5.95Mb
+      - 🇺🇸 Pool_🇺🇸US_12838 | 2.19Mb
+      - 🇺🇸 Pool_🇺🇸US_14036 | 1.84Mb
+      - 🇺🇸 Pool_🇺🇸US_14037 | 1.79Mb
+      - 🇺🇸 Pool_🇺🇸US_14246 | 1.86Mb
+      - 🇺🇸 Pool_🇺🇸US_14521 | 1.65Mb
+      - ZZ | 9.96Mb
+      - 🇷🇺 Relay_-🇷🇺RU_697 | 0.00Mb
+      - 🇷🇺 Relay_-🇷🇺RU_702 | 0.16Mb
+      - 🇨🇳 CN_2472 | 1.50Mb
+      - 🇨🇳 CN_2473 | 1.58Mb
+      - 🇺🇸 Relay_🇨🇳CN-🇺🇸US_2477 | 1.71Mb
+      - 🇨🇳 CN_2479 | 1.95Mb
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_2486 | 1.71Mb
+      - GB | 8.03Mb
+      - Relay_🇮🇳IN |22.28Mb
+      - IT | 8.92Mb
+      - 🇰🇷 Relay_🇰🇷KR-🇰🇷KR_6470 | 8.16Mb
+      - NO_6961 | 5.49Mb
+      - NO_6977 | 7.49Mb
+      - 🇺🇸 Pool_🇺🇸US_10815 | 2.40Mb
+      - 🇺🇸 Pool_🇺🇸US_11526 | 1.76Mb
+      - 🇺🇸 Pool_🇺🇸US_11667 | 1.70Mb
+      - 🇺🇸 US_12278 | 7.31Mb
+      - 🇺🇸 Pool_🇺🇸US_12698 | 1.77Mb
+      - ZZ | 9.19Mb
+      - ZZ_16073 | 7.25Mb
+      - ZZ | 9.45Mb
+      - ZZ |10.60Mb
+      - ZZ |10.80Mb
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - AZ_1679
-      - AZ_1727 | 4.41Mb
-      - 137.59.52.107:50168
-      - 66.115.177.156:43893
-      - 167.88.63.99:8091
-      - AZ_1819 |11.19Mb
-      - TH_12316 | 2.68Mb
-      - 192.169.112.166:8091
-      - TH_12313 | 2.64Mb
-      - 91.90.123.115:38620
-      - m8.mogu66.com:206
-      - 192.169.112.168:8091
-      - 91.90.123.115:41676
-      - 🇺🇸 US_16779 | 1.98Mb
-      - 🇺🇸 US_14032 |13.03Mb
-      - 198.147.22.87:35200
-      - 🇺🇸 US_18799
-      - 191.96.13.200:36460
-      - 91.90.123.115:34815
-      - IT_7603 |10.38Mb
-      - 66.115.177.141:42185
-      - BR_2276
-      - TH_12284
-      - 🇺🇸 US_15759
-      - 167.88.63.108:8091
-      - AZ_1720
-      - 128.14.222.218:8090
-      - 91.219.215.19:31944
-      - 🇰🇷 KR_8070 | 2.67Mb
-      - 🇺🇸 US_15364
-      - 🇺🇸 US_13442
-      - 🇺🇸 US_15528
-      - m3.mogu66.com:215
-      - 🇰🇷 KR_8107 | 0.26Mb
-      - 🇰🇷 KR_8136 | 2.87Mb
-      - TH_12344 | 2.67Mb
-      - 🇺🇸 US_15487
-      - 🇺🇸 US_13867 |15.89Mb
-      - 🇺🇸 US_14955
-      - 66.115.177.143:38620
-      - 🇰🇷 KR_8108 | 4.99Mb
-      - 38.107.226.146:8090
-      - 🇺🇸 US_18457
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
-      - 86.106.137.147:39772
-      - 🇺🇸 US_15360
-      - 81.19.223.189:31764
-      - 🇺🇸 US_14217
-      - TH_12278
-      - 🇺🇸 US_14683
-      - 🇺🇸 US_15980
-      - 134.195.196.163:8090
-      - IT_7802 | 9.36Mb
-      - 185.166.84.81:41676
-      - TH_12426 | 2.63Mb
-      - 🇺🇸 US_18794
-      - 🇺🇸 US_19484 |33.24Mb
-      - 🇺🇸 US_14215
-      - 82.102.26.93:38742
-      - 🇺🇸 US_18819
-      - IT_7343 |10.50Mb
-      - 🇺🇸 US_17286
-      - 128.14.222.215:8090
-      - IT_7881 | 8.91Mb
-      - IT_7599 | 7.22Mb
-      - AZ_1772
-      - 🇺🇸 US_14391
-      - IT_7207 |13.94Mb
-      - 🇺🇸 US_14682
-      - 🇺🇸 US_18228
-      - TH_12420 | 2.53Mb
-      - IT_7264 | 6.57Mb
-      - IT_7206 |16.02Mb
-      - 66.115.177.136:48938
-      - 🇺🇸 US_18194
-      - IT_7346 | 9.33Mb
-      - TH_12506 | 2.64Mb
-      - IT_7268 | 6.17Mb
-      - IT_7597 | 8.83Mb
-      - IT_7669 | 8.86Mb
-      - IT_7352 |10.88Mb
-      - RO_11035
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2
-      - m8.mogu66.com:234
-      - IT_7265 | 6.23Mb
-      - IT_7311 | 7.32Mb
-      - TH_12508 | 2.68Mb
-      - 🇺🇸 US_18398
-      - IT_7854 |13.30Mb
-      - IT_7648 |11.56Mb
-      - TH_12295
-      - 🇺🇸 US_18459
-      - 🇺🇸 US_15882
-      - IT_7667 |13.80Mb
-      - 🇺🇸 US_16328 | 2.04Mb
-      - TH_12398 | 2.85Mb
-      - TH_12467 | 2.66Mb
-      - TH_12499 | 3.26Mb
-      - TH_12511 | 2.66Mb
-      - TH_12330 | 2.69Mb
-      - IT_7425 |10.93Mb
-      - TH_12532
-      - 🇺🇸 US_16154
-      - TH_12286
-      - TH_12492 | 2.67Mb
-      - IT_7654 |10.03Mb
-      - 87.239.255.114:38747
-      - TH_12332 | 2.66Mb
-      - TH_12275
-      - TH_12509 | 3.08Mb
-      - 27.131.164.94:46726
-      - TH_12309 | 2.67Mb
-      - 180.149.231.67:37588
-      - TH_12287
-      - TH_12501 | 2.58Mb
-      - 185.153.151.60:47861
-      - TH_12575 | 2.64Mb
-      - TH_12430 | 2.67Mb
-      - TH_12496 | 2.67Mb
-      - TH_12442 | 2.67Mb
-      - TH_12593 | 2.67Mb
-      - 🇺🇸 US_15353
-      - AZ_1763
-      - TH_12419 | 2.39Mb
-      - 61.14.210.242:32558
-      - NZ_9124 | 3.60Mb
-      - TH_12294
-      - 🇺🇸 US_14964
-      - 🇺🇸 US_14447
-      - TH_12289
-      - TH_12281
-      - TH_12428 | 2.69Mb
-      - TH_12543
-      - 🇺🇸 US_18843
-      - GB_5353 |13.40Mb
-      - 🇺🇸 US_15350
-      - TH_12436 | 2.66Mb
-      - TH_12427 | 2.70Mb
-      - TH_12361 | 2.65Mb
-      - TH_12285
-      - IT_7232 | 8.15Mb
-      - TH_12584 | 3.56Mb
-      - TH_12433 | 2.67Mb
-      - TH_12594 | 2.68Mb
-      - 🇺🇸 US_16724
-      - TH_12505 | 2.64Mb
-      - TH_12392 | 2.67Mb
-      - 79.110.54.133:49202
-      - 51.159.30.61:805
-      - AZ_1678
-      - 27.131.164.100:48089
-      - TH_12307 | 2.67Mb
-      - TH_12372 | 3.23Mb
-      - TH_12497 | 2.37Mb
-      - TH_12595 | 2.67Mb
-      - 🇺🇸 US_14450
-      - TH_12314 | 2.66Mb
-      - 🇰🇷 KR_8086 | 2.66Mb
-      - 🇺🇸 US_16152
-      - TH_12560
-      - TH_12540
-      - TH_12512 | 2.53Mb
-      - TH_12431 | 2.26Mb
-      - TH_12587 | 2.67Mb
-      - 🇺🇸 US_14943
-      - TH_12435 | 2.63Mb
-      - RO_10907 |15.84Mb
-      - TH_12429 | 2.68Mb
-      - 🇺🇸 US_15841
-      - TH_12438 | 2.64Mb
-      - TH_12073
-      - TH_12478 | 3.00Mb
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 3
-      - TH_12437 | 6.01Mb
-      - TH_12393 | 2.54Mb
-      - AZ_1676
-      - 🇺🇸 US_18242
-      - 🇺🇸 US_17175
-      - TH_12276
-      - IT_7649 | 5.57Mb
-      - TH_12600 | 2.29Mb
-      - 🇺🇸 US_15499
-      - TH_12510 | 2.80Mb
-      - 172.105.42.160:8090
-      - 🇺🇸 US_19530
-      - 45.79.126.80:8090
-      - 172.105.38.55:8090
-      - TH_12292
-      - TH_12596 | 2.68Mb
-      - 🇺🇸 US_17180
-      - 45.79.121.236:8091
-      - TH_12288
-      - TH_12422 | 2.68Mb
-      - 🇺🇸 US_17064
-      - TH_12582 | 2.31Mb
-      - 🇺🇸 US_14909
-      - TH_12417 | 2.67Mb
-      - IN_6983 | 4.74Mb
-      - TH_12408 | 2.62Mb
-      - 84.17.53.219:33992
-      - TH_12371 | 2.69Mb
-      - 143.244.57.118:44236
-      - 🇺🇸 US_14433
-      - 192.46.211.249:8091
-      - 172.105.63.34:8091
-      - 🇺🇸 US_14443
-      - RO_10243 | 5.63Mb
-      - 89.249.73.197:33992
-      - 51.89.99.52:805
-      - 193.29.107.123:39772
-      - 61.14.210.237:33148
-      - GB_5338 |10.08Mb
-      - 🇺🇸 US_17174
-      - RO_10171 | 8.11Mb
-      - 185.166.84.51:44745
-      - TH_12586 | 2.69Mb
-      - 145.239.1.175:8090
-      - IT_7335 |12.24Mb
-      - 91.90.123.155:31572
-      - 62.112.9.220:2375
-      - 91.90.123.150:50232
-      - 89.249.73.195:43893
-      - 45.79.127.97:8090
-      - 193.118.60.167:8091
-      - TH_12451 | 2.69Mb
-      - 45.79.122.28:8091
-      - 🇺🇸 US_14439
-      - 172.104.206.241:8091
-      - FR_4953 |11.33Mb
-      - RO_10591 |12.06Mb
-      - 172.105.59.32:8090
-      - 185.99.3.102:48938
-      - 103.192.80.133:49339
-      - m8.mogu66.com:215
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 4
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 5
-      - 🇺🇸 US_14438
-      - 89.45.7.51:49396
-      - 46.29.218.6:8091
-      - 🇺🇸 US_18655
-      - 🇺🇸 US_18936
-      - 198.8.92.84:38620
-      - 185.212.111.59:49339
-      - 🇺🇸 US_14960
-      - CA_2296
-      - 51.77.53.200:8091
-      - CA_2304 |21.02Mb
-      - AZ_1724
-      - 🇺🇸 US_18635
-      - 172.99.190.35:8090
-      - 🇺🇸 US_18656
-      - 🇺🇸 US_18667
-      - 🇺🇸 US_18890
-      - 51.77.52.206:8091
-      - 🇺🇸 US_18666
-      - 🇺🇸 US_18670
-      - 72.140.224.197:802
-      - 167.88.63.82:8091
-      - m3.mogu66.com:207
-      - 🇺🇸 US |15.93Mb
-      - 🇺🇸 US_19587
-      - 188.95.55.120:35294
-      - 🇺🇸 US_18812
-      - 🇺🇸 US_18809
-      - m3.mogu66.com:217
-      - 79.110.54.117:31572
-      - 🇺🇸 US_14684
-      - 139.99.122.148:8090
-      - 🇺🇸 US |12.87Mb
-      - RO_11397
-      - 🇺🇸 US_14040 | 7.78Mb
-      - 🇺🇸 US_18674
-      - 🇺🇸 US_15386
-      - 🇺🇸 US_18804
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/New York
-      - 🇺🇸 US_14630
-      - 🇺🇸 US_18720
-      - 91.90.123.115:35294
-      - 🇺🇸 US_16298
-      - 🇺🇸 US_15369
-      - CA_2343 |15.77Mb
-      - 91.90.123.115:49126
-      - TH_12439 | 4.54Mb
-      - 🇺🇸 US_15761
-      - 🇺🇸 US_15757
-      - 66.115.177.156:31572
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1120
-      - 🇺🇸 US_14030 |10.24Mb
-      - IE_6416 | 9.44Mb
-      - 🇺🇸 US_16402
-      - 134.195.196.154:8090
-      - 🇺🇸 US_18792
-      - 🇺🇸 US_18818
-      - 91.90.123.115:37588
-      - 🇺🇸 US_14037 |16.03Mb
-      - 198.57.27.238:8090
-      - RO_10945
-      - 🇺🇸 US_16590
-      - 🇺🇸 US_18918
-      - 134.195.196.97:8090
-      - 🇺🇸 US_14221
-      - 🇺🇸 US_14688
-      - 🇺🇸 US_15366
-      - TH_12352 | 2.66Mb
-      - 188.95.55.114:34815
-      - 🇺🇸 US_15780
-      - 193.118.60.165:8091
-      - AZ_1675 |11.25Mb
-      - 🇺🇸 US_18251
-      - 🇺🇸 US_13439
-      - 🇺🇸 US_18668
-      - 🇺🇸 US_18821
-      - 🇺🇸 US_14556
-      - 🇺🇸 US_15387
-      - 193.108.118.34:8090
-      - 66.115.177.156:46726
-      - 🇺🇸 US_18570
-      - 🇺🇸 US_14397
-      - 🇺🇸 US_19552 |15.37Mb
-      - 🇺🇸 US_14561 |52.79Mb
-      - 🇺🇸 US_14036 |10.66Mb
-      - 🇺🇸 US_15361
-      - 🇺🇸 US_16203
-      - 🇺🇸 US_16424
-      - 146.70.27.12:40093
-      - AZ_1798
-      - 🇺🇸 US_19496 |10.85Mb
-      - 🇺🇸 US_17978
-      - 🇺🇸 US_13864 |16.42Mb
-      - 134.195.198.95:8091
-      - 45.248.79.67:49339
-      - 🇺🇸 US_18611
-      - 🇺🇸 US_18540
-      - 🇫🇷 法国(欢迎订阅Youtube破解资源君)
-      - 66.115.147.89:34815
-      - 62.212.239.53:49126
-      - 🇺🇸 US_16605 | 6.72Mb
-      - AU_1575
-      - 🇺🇸 US_14034 |10.56Mb
-      - 134.195.196.79:8090
-      - 🇺🇸 US_13553
-      - 🇺🇸 US_19487 |22.11Mb
-      - 🇺🇸 US_18235
-      - 84.39.114.86:49396
-      - 🇺🇸 US_15883
-      - 🇺🇸 US_14546
-      - 185.108.105.82:49396
-      - 🇺🇸 US_18544
-      - 193.118.60.166:8091
-      - 45.248.79.67:43893
-      - 185.108.105.82:31764
-      - 🇰🇷 KR_8065 | 5.11Mb
-      - 🇺🇸 US_14607
-      - GB_5474 |23.29Mb
-      - 🇺🇸 US_15763
-      - 🇺🇸 US_15343
-      - 🇺🇸 US_16345 |20.42Mb
-      - 🇺🇸 US_13669
-      - 🇺🇸 US_19206 |15.18Mb
-      - 🇺🇸 US_14430
-      - 172.105.172.37:8090
-      - AZ_1721
-      - 🇺🇸 US_16880
-      - RO_11033
-      - 🇺🇸 US_14749
-      - 🇺🇸 US_14499
-      - 172.107.233.234:8090
-      - 🇺🇸 US_18568
-      - AZ_1744
-      - 🇺🇸 US_16604 | 7.74Mb
-      - 🇺🇸 US_18506
-      - 🇺🇸 US_14012 |16.01Mb
-      - AZ_1740
-      - AZ_1781
-      - IT_7267 | 7.52Mb
-      - 🇺🇸 US_15362
-      - 🇺🇸 US_14583
       - 🇨🇦 https://www.mattkaydiary.com|加拿大(CA)Canada/Vancouver
+      - 🇺🇸 美国(Youtube频道：工具大师！)
+      - 🇺🇸 US_14450
       - 🇺🇸 US_16311
-      - 66.115.154.131:48938
-      - 5.253.207.51:33992
-      - 🇺🇸 US_14302
-      - 5.253.207.53:31944
-      - TH_12317 | 3.55Mb
-      - FR_4639 |14.24Mb
-      - FR_5084 |16.00Mb
-      - 🇺🇸 US_14448
-      - FR_4491 |13.21Mb
-      - 🇺🇸 US_15764
-      - AZ_1816 |11.53Mb
-      - 198.147.22.87:33998
-      - 104.244.208.211:48938
-      - 62.212.239.51:33992
-      - m8.mogu66.com:226
-      - AZ_1737
-      - FR_4582 |16.89Mb
-      - 72.140.224.195:802
-      - AZ_1738
-      - AU_1574
-      - AZ_1791
-      - 185.153.151.86:31572
-      - AZ_1735
-      - 🇸🇬 SG_12091
-      - 🇺🇸 US_14685
-      - TH_12360 | 2.64Mb
+      - 172.99.190.35:8090
+      - 🇺🇸 Relay_🇺🇸US |12.15Mb
+      - AU_1067 | 6.10Mb
+      - GB_4541 | 6.01Mb
+      - ZZ | 9.74Mb
+      - AU_1063 | 9.41Mb
+      - 🇺🇸 US | 8.15Mb
+      - ZZ | 8.79Mb
+      - ZZ | 9.55Mb
+      - 🇺🇸 US | 8.58Mb
+      - 🇺🇸 US_12280 | 4.97Mb
+      - ZZ |10.15Mb
+      - ZZ | 8.48Mb
+      - ZZ |10.05Mb
+      - ZZ_16142 | 6.70Mb
+      - ZZ | 8.98Mb
+      - ZZ |10.95Mb
+      - ZZ | 9.71Mb
+      - AU_1061 | 8.07Mb
+      - 🇺🇸 US | 9.07Mb
+      - 🇺🇸 US | 9.26Mb
+      - ZZ | 8.75Mb
+      - ZZ |10.23Mb
+      - ZZ_16102 | 6.08Mb
+      - ZZ | 8.72Mb
+      - ZZ_16112 | 6.00Mb
+      - ZZ |10.55Mb
+      - ZZ |10.02Mb
+      - ZZ_16181 | 7.28Mb
+      - ZZ | 9.58Mb
+      - ZZ | 9.62Mb
+      - 🇺🇸 US | 9.91Mb
+      - 🇺🇸 US | 8.76Mb
+      - 🇺🇸 US | 8.32Mb
+      - 🇺🇸 US_10808 | 5.78Mb
+      - 🇺🇸 US | 8.99Mb
+      - ZZ | 9.90Mb
+      - ZZ_16137 | 7.30Mb
+      - ZZ | 9.80Mb
+      - ZZ | 9.30Mb
+      - ZZ | 8.91Mb
+      - ZZ | 9.59Mb
+      - AU_1065 |10.12Mb
+      - CA_2003 | 3.44Mb
+      - 🇺🇸 US_10687 | 5.00Mb
+      - 🇺🇸 US |10.19Mb
+      - 🇺🇸 US_12286 | 4.39Mb
+      - ZZ |10.87Mb
+      - ZZ |10.59Mb
+      - ZZ | 9.68Mb
+      - ZZ_16127 | 5.78Mb
+      - ZZ_16128 | 7.93Mb
+      - ZZ | 8.47Mb
+      - ZZ_16145 | 7.01Mb
+      - ZZ_16158 | 3.34Mb
+      - ZZ |10.41Mb
+      - 🇺🇸 US_11987 | 3.97Mb
+      - 🇺🇸 US_12293 | 7.89Mb
+      - 🇺🇸 US_12419 | 0.49Mb
+      - ZZ | 9.13Mb
+      - ZZ | 9.33Mb
+      - ZZ_16202 | 5.30Mb
+      - CA_2096 | 2.16Mb
+      - 🇺🇸 US_12269 | 4.60Mb
+      - 🇺🇸 US_12304 | 2.99Mb
+      - 🇺🇸 US_12305 | 7.48Mb
+      - 🇺🇸 US_12322 | 6.59Mb
+      - ZZ | 8.81Mb
+      - ZZ |10.42Mb
+      - ZZ | 8.38Mb
+      - ZZ | 9.15Mb
+      - 🇺🇸 US_12363 | 5.56Mb
+      - ZZ_16146 | 6.21Mb
+      - ZZ | 8.88Mb
+      - CA_2098 | 2.95Mb
+      - 🇺🇸 US_12284 | 7.79Mb
+      - 🇺🇸 US_12324 | 7.58Mb
+      - 🇺🇸 US_12382 | 4.83Mb
+      - ZZ_15795 | 7.22Mb
+      - ZZ |10.21Mb
+      - CA_2002 | 1.64Mb
+      - 🇺🇸 US_12295 | 5.99Mb
+      - 🇺🇸 US_13444 | 7.85Mb
+      - 🇺🇸 US_13588 | 5.02Mb
+      - CA_1974 | 2.80Mb
+      - CA_1996 | 0.17Mb
+      - NO_6984 | 4.14Mb
+      - 🇺🇸 US_12013 | 7.11Mb
+      - Relay_🇫🇷FR-🇫🇷FR_3954 | 6.90Mb
+      - NO_6985 | 4.61Mb
+      - 🇷🇺 RU_8971 | 6.92Mb
+      - 🇺🇸 Relay_🇺🇸 US |13.01Mb
+      - 🇺🇸 US |12.23Mb
+      - 🇺🇸 US_12416 | 7.77Mb
+      - ZZ | 8.99Mb
+      - Pool__665 | 6.40Mb
+      - 🇨🇳 Relay_🇨🇳CN | 2.28Mb
+      - Relay_🇫🇷FR-🇫🇷FR_3958 | 6.14Mb
+      - 🇺🇸 Pool_🇺🇸US_11051 | 3.65Mb
+      - 🇺🇸 US_12261 | 3.31Mb
+      - 🇺🇸 US |11.53Mb
+      - 🇺🇸 US_12312 | 5.97Mb
+      - 🇺🇸 US_13667 | 0.74Mb
+      - AU_1068 | 9.47Mb
+      - AU_1070 | 9.45Mb
+      - CA_2097 | 0.23Mb
+      - 🇺🇸 Relay_🇺🇸 US |19.64Mb
+      - 🇺🇸 US_10814 | 2.14Mb
+      - 🇺🇸 US_12263 | 6.70Mb
+      - 🇺🇸 US_12281 | 2.63Mb
+      - 🇺🇸 US |10.06Mb
+      - 🇺🇸 US_12355 | 7.43Mb
+      - ZZ_16076 | 7.54Mb
+      - AU_1176 | 9.27Mb
+      - 🇰🇷 KR_6429 | 6.96Mb
+      - 🇰🇷 Relay_🇰🇷KR-🇰🇷KR_6450 | 7.96Mb
+      - NO_6965 | 3.82Mb
+      - NO_6983 | 1.56Mb
+      - 🇺🇸 Pool_🇺🇸 US_10313 | 2.08Mb
+      - 🇺🇸 Pool_🇺🇸 US_10646 | 1.96Mb
+      - 🇺🇸 US_10767 | 3.09Mb
+      - 🇺🇸 Pool_🇺🇸US_11500 | 1.81Mb
+      - 🇺🇸 US_12348 | 5.95Mb
+      - 🇺🇸 Pool_🇺🇸US_12838 | 2.19Mb
+      - 🇺🇸 Pool_🇺🇸US_14036 | 1.84Mb
+      - 🇺🇸 Pool_🇺🇸US_14037 | 1.79Mb
+      - 🇺🇸 Pool_🇺🇸US_14246 | 1.86Mb
+      - 🇺🇸 Pool_🇺🇸US_14521 | 1.65Mb
+      - ZZ | 9.96Mb
+      - 🇷🇺 Relay_-🇷🇺RU_697 | 0.00Mb
+      - 🇷🇺 Relay_-🇷🇺RU_702 | 0.16Mb
+      - 🇨🇳 CN_2472 | 1.50Mb
+      - 🇨🇳 CN_2473 | 1.58Mb
+      - 🇺🇸 Relay_🇨🇳CN-🇺🇸US_2477 | 1.71Mb
+      - 🇨🇳 CN_2479 | 1.95Mb
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_2486 | 1.71Mb
+      - GB | 8.03Mb
+      - Relay_🇮🇳IN |22.28Mb
+      - IT | 8.92Mb
+      - 🇰🇷 Relay_🇰🇷KR-🇰🇷KR_6470 | 8.16Mb
+      - NO_6961 | 5.49Mb
+      - NO_6977 | 7.49Mb
+      - 🇺🇸 Pool_🇺🇸US_10815 | 2.40Mb
+      - 🇺🇸 Pool_🇺🇸US_11526 | 1.76Mb
+      - 🇺🇸 Pool_🇺🇸US_11667 | 1.70Mb
+      - 🇺🇸 US_12278 | 7.31Mb
+      - 🇺🇸 Pool_🇺🇸US_12698 | 1.77Mb
+      - ZZ | 9.19Mb
+      - ZZ_16073 | 7.25Mb
+      - ZZ | 9.45Mb
+      - ZZ |10.60Mb
+      - ZZ |10.80Mb
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - AZ_1679
-      - AZ_1727 | 4.41Mb
-      - 137.59.52.107:50168
-      - 66.115.177.156:43893
-      - 167.88.63.99:8091
-      - AZ_1819 |11.19Mb
-      - TH_12316 | 2.68Mb
-      - 192.169.112.166:8091
-      - TH_12313 | 2.64Mb
-      - 91.90.123.115:38620
-      - m8.mogu66.com:206
-      - 192.169.112.168:8091
-      - 91.90.123.115:41676
-      - 🇺🇸 US_16779 | 1.98Mb
-      - 🇺🇸 US_14032 |13.03Mb
-      - 198.147.22.87:35200
-      - 🇺🇸 US_18799
-      - 191.96.13.200:36460
-      - 91.90.123.115:34815
-      - IT_7603 |10.38Mb
-      - 66.115.177.141:42185
-      - BR_2276
-      - TH_12284
-      - 🇺🇸 US_15759
-      - 167.88.63.108:8091
-      - AZ_1720
-      - 128.14.222.218:8090
-      - 91.219.215.19:31944
-      - 🇰🇷 KR_8070 | 2.67Mb
-      - 🇺🇸 US_15364
-      - 🇺🇸 US_13442
-      - 🇺🇸 US_15528
-      - m3.mogu66.com:215
-      - 🇰🇷 KR_8107 | 0.26Mb
-      - 🇰🇷 KR_8136 | 2.87Mb
-      - TH_12344 | 2.67Mb
-      - 🇺🇸 US_15487
-      - 🇺🇸 US_13867 |15.89Mb
-      - 🇺🇸 US_14955
-      - 66.115.177.143:38620
-      - 🇰🇷 KR_8108 | 4.99Mb
-      - 38.107.226.146:8090
-      - 🇺🇸 US_18457
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
-      - 86.106.137.147:39772
-      - 🇺🇸 US_15360
-      - 81.19.223.189:31764
-      - 🇺🇸 US_14217
-      - TH_12278
-      - 🇺🇸 US_14683
-      - 🇺🇸 US_15980
-      - 134.195.196.163:8090
-      - IT_7802 | 9.36Mb
-      - 185.166.84.81:41676
-      - TH_12426 | 2.63Mb
-      - 🇺🇸 US_18794
-      - 🇺🇸 US_19484 |33.24Mb
-      - 🇺🇸 US_14215
-      - 82.102.26.93:38742
-      - 🇺🇸 US_18819
-      - IT_7343 |10.50Mb
-      - 🇺🇸 US_17286
-      - 128.14.222.215:8090
-      - IT_7881 | 8.91Mb
-      - IT_7599 | 7.22Mb
-      - AZ_1772
-      - 🇺🇸 US_14391
-      - IT_7207 |13.94Mb
-      - 🇺🇸 US_14682
-      - 🇺🇸 US_18228
-      - TH_12420 | 2.53Mb
-      - IT_7264 | 6.57Mb
-      - IT_7206 |16.02Mb
-      - 66.115.177.136:48938
-      - 🇺🇸 US_18194
-      - IT_7346 | 9.33Mb
-      - TH_12506 | 2.64Mb
-      - IT_7268 | 6.17Mb
-      - IT_7597 | 8.83Mb
-      - IT_7669 | 8.86Mb
-      - IT_7352 |10.88Mb
-      - RO_11035
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2
-      - m8.mogu66.com:234
-      - IT_7265 | 6.23Mb
-      - IT_7311 | 7.32Mb
-      - TH_12508 | 2.68Mb
-      - 🇺🇸 US_18398
-      - IT_7854 |13.30Mb
-      - IT_7648 |11.56Mb
-      - TH_12295
-      - 🇺🇸 US_18459
-      - 🇺🇸 US_15882
-      - IT_7667 |13.80Mb
-      - 🇺🇸 US_16328 | 2.04Mb
-      - TH_12398 | 2.85Mb
-      - TH_12467 | 2.66Mb
-      - TH_12499 | 3.26Mb
-      - TH_12511 | 2.66Mb
-      - TH_12330 | 2.69Mb
-      - IT_7425 |10.93Mb
-      - TH_12532
-      - 🇺🇸 US_16154
-      - TH_12286
-      - TH_12492 | 2.67Mb
-      - IT_7654 |10.03Mb
-      - 87.239.255.114:38747
-      - TH_12332 | 2.66Mb
-      - TH_12275
-      - TH_12509 | 3.08Mb
-      - 27.131.164.94:46726
-      - TH_12309 | 2.67Mb
-      - 180.149.231.67:37588
-      - TH_12287
-      - TH_12501 | 2.58Mb
-      - 185.153.151.60:47861
-      - TH_12575 | 2.64Mb
-      - TH_12430 | 2.67Mb
-      - TH_12496 | 2.67Mb
-      - TH_12442 | 2.67Mb
-      - TH_12593 | 2.67Mb
-      - 🇺🇸 US_15353
-      - AZ_1763
-      - TH_12419 | 2.39Mb
-      - 61.14.210.242:32558
-      - NZ_9124 | 3.60Mb
-      - TH_12294
-      - 🇺🇸 US_14964
-      - 🇺🇸 US_14447
-      - TH_12289
-      - TH_12281
-      - TH_12428 | 2.69Mb
-      - TH_12543
-      - 🇺🇸 US_18843
-      - GB_5353 |13.40Mb
-      - 🇺🇸 US_15350
-      - TH_12436 | 2.66Mb
-      - TH_12427 | 2.70Mb
-      - TH_12361 | 2.65Mb
-      - TH_12285
-      - IT_7232 | 8.15Mb
-      - TH_12584 | 3.56Mb
-      - TH_12433 | 2.67Mb
-      - TH_12594 | 2.68Mb
-      - 🇺🇸 US_16724
-      - TH_12505 | 2.64Mb
-      - TH_12392 | 2.67Mb
-      - 79.110.54.133:49202
-      - 51.159.30.61:805
-      - AZ_1678
-      - 27.131.164.100:48089
-      - TH_12307 | 2.67Mb
-      - TH_12372 | 3.23Mb
-      - TH_12497 | 2.37Mb
-      - TH_12595 | 2.67Mb
-      - 🇺🇸 US_14450
-      - TH_12314 | 2.66Mb
-      - 🇰🇷 KR_8086 | 2.66Mb
-      - 🇺🇸 US_16152
-      - TH_12560
-      - TH_12540
-      - TH_12512 | 2.53Mb
-      - TH_12431 | 2.26Mb
-      - TH_12587 | 2.67Mb
-      - 🇺🇸 US_14943
-      - TH_12435 | 2.63Mb
-      - RO_10907 |15.84Mb
-      - TH_12429 | 2.68Mb
-      - 🇺🇸 US_15841
-      - TH_12438 | 2.64Mb
-      - TH_12073
-      - TH_12478 | 3.00Mb
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 3
-      - TH_12437 | 6.01Mb
-      - TH_12393 | 2.54Mb
-      - AZ_1676
-      - 🇺🇸 US_18242
-      - 🇺🇸 US_17175
-      - TH_12276
-      - IT_7649 | 5.57Mb
-      - TH_12600 | 2.29Mb
-      - 🇺🇸 US_15499
-      - TH_12510 | 2.80Mb
-      - 172.105.42.160:8090
-      - 🇺🇸 US_19530
-      - 45.79.126.80:8090
-      - 172.105.38.55:8090
-      - TH_12292
-      - TH_12596 | 2.68Mb
-      - 🇺🇸 US_17180
-      - 45.79.121.236:8091
-      - TH_12288
-      - TH_12422 | 2.68Mb
-      - 🇺🇸 US_17064
-      - TH_12582 | 2.31Mb
-      - 🇺🇸 US_14909
-      - TH_12417 | 2.67Mb
-      - IN_6983 | 4.74Mb
-      - TH_12408 | 2.62Mb
-      - 84.17.53.219:33992
-      - TH_12371 | 2.69Mb
-      - 143.244.57.118:44236
-      - 🇺🇸 US_14433
-      - 192.46.211.249:8091
-      - 172.105.63.34:8091
-      - 🇺🇸 US_14443
-      - RO_10243 | 5.63Mb
-      - 89.249.73.197:33992
-      - 51.89.99.52:805
-      - 193.29.107.123:39772
-      - 61.14.210.237:33148
-      - GB_5338 |10.08Mb
-      - 🇺🇸 US_17174
-      - RO_10171 | 8.11Mb
-      - 185.166.84.51:44745
-      - TH_12586 | 2.69Mb
-      - 145.239.1.175:8090
-      - IT_7335 |12.24Mb
-      - 91.90.123.155:31572
-      - 62.112.9.220:2375
-      - 91.90.123.150:50232
-      - 89.249.73.195:43893
-      - 45.79.127.97:8090
-      - 193.118.60.167:8091
-      - TH_12451 | 2.69Mb
-      - 45.79.122.28:8091
-      - 🇺🇸 US_14439
-      - 172.104.206.241:8091
-      - FR_4953 |11.33Mb
-      - RO_10591 |12.06Mb
-      - 172.105.59.32:8090
-      - 185.99.3.102:48938
-      - 103.192.80.133:49339
-      - m8.mogu66.com:215
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 4
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 5
-      - 🇺🇸 US_14438
-      - 89.45.7.51:49396
-      - 46.29.218.6:8091
-      - 🇺🇸 US_18655
-      - 🇺🇸 US_18936
-      - 198.8.92.84:38620
-      - 185.212.111.59:49339
-      - 🇺🇸 US_14960
-      - CA_2296
-      - 51.77.53.200:8091
-      - CA_2304 |21.02Mb
-      - AZ_1724
-      - 🇺🇸 US_18635
-      - 172.99.190.35:8090
-      - 🇺🇸 US_18656
-      - 🇺🇸 US_18667
-      - 🇺🇸 US_18890
-      - 51.77.52.206:8091
-      - 🇺🇸 US_18666
-      - 🇺🇸 US_18670
-      - 72.140.224.197:802
-      - 167.88.63.82:8091
-      - m3.mogu66.com:207
-      - 🇺🇸 US |15.93Mb
-      - 🇺🇸 US_19587
-      - 188.95.55.120:35294
-      - 🇺🇸 US_18812
-      - 🇺🇸 US_18809
-      - m3.mogu66.com:217
-      - 79.110.54.117:31572
-      - 🇺🇸 US_14684
-      - 139.99.122.148:8090
-      - 🇺🇸 US |12.87Mb
-      - RO_11397
-      - 🇺🇸 US_14040 | 7.78Mb
-      - 🇺🇸 US_18674
-      - 🇺🇸 US_15386
-      - 🇺🇸 US_18804
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/New York
-      - 🇺🇸 US_14630
-      - 🇺🇸 US_18720
-      - 91.90.123.115:35294
-      - 🇺🇸 US_16298
-      - 🇺🇸 US_15369
-      - CA_2343 |15.77Mb
-      - 91.90.123.115:49126
-      - TH_12439 | 4.54Mb
-      - 🇺🇸 US_15761
-      - 🇺🇸 US_15757
-      - 66.115.177.156:31572
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1120
-      - 🇺🇸 US_14030 |10.24Mb
-      - IE_6416 | 9.44Mb
-      - 🇺🇸 US_16402
-      - 134.195.196.154:8090
-      - 🇺🇸 US_18792
-      - 🇺🇸 US_18818
-      - 91.90.123.115:37588
-      - 🇺🇸 US_14037 |16.03Mb
-      - 198.57.27.238:8090
-      - RO_10945
-      - 🇺🇸 US_16590
-      - 🇺🇸 US_18918
-      - 134.195.196.97:8090
-      - 🇺🇸 US_14221
-      - 🇺🇸 US_14688
-      - 🇺🇸 US_15366
-      - TH_12352 | 2.66Mb
-      - 188.95.55.114:34815
-      - 🇺🇸 US_15780
-      - 193.118.60.165:8091
-      - AZ_1675 |11.25Mb
-      - 🇺🇸 US_18251
-      - 🇺🇸 US_13439
-      - 🇺🇸 US_18668
-      - 🇺🇸 US_18821
-      - 🇺🇸 US_14556
-      - 🇺🇸 US_15387
-      - 193.108.118.34:8090
-      - 66.115.177.156:46726
-      - 🇺🇸 US_18570
-      - 🇺🇸 US_14397
-      - 🇺🇸 US_19552 |15.37Mb
-      - 🇺🇸 US_14561 |52.79Mb
-      - 🇺🇸 US_14036 |10.66Mb
-      - 🇺🇸 US_15361
-      - 🇺🇸 US_16203
-      - 🇺🇸 US_16424
-      - 146.70.27.12:40093
-      - AZ_1798
-      - 🇺🇸 US_19496 |10.85Mb
-      - 🇺🇸 US_17978
-      - 🇺🇸 US_13864 |16.42Mb
-      - 134.195.198.95:8091
-      - 45.248.79.67:49339
-      - 🇺🇸 US_18611
-      - 🇺🇸 US_18540
-      - 🇫🇷 法国(欢迎订阅Youtube破解资源君)
-      - 66.115.147.89:34815
-      - 62.212.239.53:49126
-      - 🇺🇸 US_16605 | 6.72Mb
-      - AU_1575
-      - 🇺🇸 US_14034 |10.56Mb
-      - 134.195.196.79:8090
-      - 🇺🇸 US_13553
-      - 🇺🇸 US_19487 |22.11Mb
-      - 🇺🇸 US_18235
-      - 84.39.114.86:49396
-      - 🇺🇸 US_15883
-      - 🇺🇸 US_14546
-      - 185.108.105.82:49396
-      - 🇺🇸 US_18544
-      - 193.118.60.166:8091
-      - 45.248.79.67:43893
-      - 185.108.105.82:31764
-      - 🇰🇷 KR_8065 | 5.11Mb
-      - 🇺🇸 US_14607
-      - GB_5474 |23.29Mb
-      - 🇺🇸 US_15763
-      - 🇺🇸 US_15343
-      - 🇺🇸 US_16345 |20.42Mb
-      - 🇺🇸 US_13669
-      - 🇺🇸 US_19206 |15.18Mb
-      - 🇺🇸 US_14430
-      - 172.105.172.37:8090
-      - AZ_1721
-      - 🇺🇸 US_16880
-      - RO_11033
-      - 🇺🇸 US_14749
-      - 🇺🇸 US_14499
-      - 172.107.233.234:8090
-      - 🇺🇸 US_18568
-      - AZ_1744
-      - 🇺🇸 US_16604 | 7.74Mb
-      - 🇺🇸 US_18506
-      - 🇺🇸 US_14012 |16.01Mb
-      - AZ_1740
-      - AZ_1781
-      - IT_7267 | 7.52Mb
-      - 🇺🇸 US_15362
-      - 🇺🇸 US_14583
       - 🇨🇦 https://www.mattkaydiary.com|加拿大(CA)Canada/Vancouver
+      - 🇺🇸 美国(Youtube频道：工具大师！)
+      - 🇺🇸 US_14450
       - 🇺🇸 US_16311
-      - 66.115.154.131:48938
-      - 5.253.207.51:33992
-      - 🇺🇸 US_14302
-      - 5.253.207.53:31944
-      - TH_12317 | 3.55Mb
-      - FR_4639 |14.24Mb
-      - FR_5084 |16.00Mb
-      - 🇺🇸 US_14448
-      - FR_4491 |13.21Mb
-      - 🇺🇸 US_15764
-      - AZ_1816 |11.53Mb
-      - 198.147.22.87:33998
-      - 104.244.208.211:48938
-      - 62.212.239.51:33992
-      - m8.mogu66.com:226
-      - AZ_1737
-      - FR_4582 |16.89Mb
-      - 72.140.224.195:802
-      - AZ_1738
-      - AU_1574
-      - AZ_1791
-      - 185.153.151.86:31572
-      - AZ_1735
-      - 🇸🇬 SG_12091
-      - 🇺🇸 US_14685
-      - TH_12360 | 2.64Mb
+      - 172.99.190.35:8090
+      - 🇺🇸 Relay_🇺🇸US |12.15Mb
+      - AU_1067 | 6.10Mb
+      - GB_4541 | 6.01Mb
+      - ZZ | 9.74Mb
+      - AU_1063 | 9.41Mb
+      - 🇺🇸 US | 8.15Mb
+      - ZZ | 8.79Mb
+      - ZZ | 9.55Mb
+      - 🇺🇸 US | 8.58Mb
+      - 🇺🇸 US_12280 | 4.97Mb
+      - ZZ |10.15Mb
+      - ZZ | 8.48Mb
+      - ZZ |10.05Mb
+      - ZZ_16142 | 6.70Mb
+      - ZZ | 8.98Mb
+      - ZZ |10.95Mb
+      - ZZ | 9.71Mb
+      - AU_1061 | 8.07Mb
+      - 🇺🇸 US | 9.07Mb
+      - 🇺🇸 US | 9.26Mb
+      - ZZ | 8.75Mb
+      - ZZ |10.23Mb
+      - ZZ_16102 | 6.08Mb
+      - ZZ | 8.72Mb
+      - ZZ_16112 | 6.00Mb
+      - ZZ |10.55Mb
+      - ZZ |10.02Mb
+      - ZZ_16181 | 7.28Mb
+      - ZZ | 9.58Mb
+      - ZZ | 9.62Mb
+      - 🇺🇸 US | 9.91Mb
+      - 🇺🇸 US | 8.76Mb
+      - 🇺🇸 US | 8.32Mb
+      - 🇺🇸 US_10808 | 5.78Mb
+      - 🇺🇸 US | 8.99Mb
+      - ZZ | 9.90Mb
+      - ZZ_16137 | 7.30Mb
+      - ZZ | 9.80Mb
+      - ZZ | 9.30Mb
+      - ZZ | 8.91Mb
+      - ZZ | 9.59Mb
+      - AU_1065 |10.12Mb
+      - CA_2003 | 3.44Mb
+      - 🇺🇸 US_10687 | 5.00Mb
+      - 🇺🇸 US |10.19Mb
+      - 🇺🇸 US_12286 | 4.39Mb
+      - ZZ |10.87Mb
+      - ZZ |10.59Mb
+      - ZZ | 9.68Mb
+      - ZZ_16127 | 5.78Mb
+      - ZZ_16128 | 7.93Mb
+      - ZZ | 8.47Mb
+      - ZZ_16145 | 7.01Mb
+      - ZZ_16158 | 3.34Mb
+      - ZZ |10.41Mb
+      - 🇺🇸 US_11987 | 3.97Mb
+      - 🇺🇸 US_12293 | 7.89Mb
+      - 🇺🇸 US_12419 | 0.49Mb
+      - ZZ | 9.13Mb
+      - ZZ | 9.33Mb
+      - ZZ_16202 | 5.30Mb
+      - CA_2096 | 2.16Mb
+      - 🇺🇸 US_12269 | 4.60Mb
+      - 🇺🇸 US_12304 | 2.99Mb
+      - 🇺🇸 US_12305 | 7.48Mb
+      - 🇺🇸 US_12322 | 6.59Mb
+      - ZZ | 8.81Mb
+      - ZZ |10.42Mb
+      - ZZ | 8.38Mb
+      - ZZ | 9.15Mb
+      - 🇺🇸 US_12363 | 5.56Mb
+      - ZZ_16146 | 6.21Mb
+      - ZZ | 8.88Mb
+      - CA_2098 | 2.95Mb
+      - 🇺🇸 US_12284 | 7.79Mb
+      - 🇺🇸 US_12324 | 7.58Mb
+      - 🇺🇸 US_12382 | 4.83Mb
+      - ZZ_15795 | 7.22Mb
+      - ZZ |10.21Mb
+      - CA_2002 | 1.64Mb
+      - 🇺🇸 US_12295 | 5.99Mb
+      - 🇺🇸 US_13444 | 7.85Mb
+      - 🇺🇸 US_13588 | 5.02Mb
+      - CA_1974 | 2.80Mb
+      - CA_1996 | 0.17Mb
+      - NO_6984 | 4.14Mb
+      - 🇺🇸 US_12013 | 7.11Mb
+      - Relay_🇫🇷FR-🇫🇷FR_3954 | 6.90Mb
+      - NO_6985 | 4.61Mb
+      - 🇷🇺 RU_8971 | 6.92Mb
+      - 🇺🇸 Relay_🇺🇸 US |13.01Mb
+      - 🇺🇸 US |12.23Mb
+      - 🇺🇸 US_12416 | 7.77Mb
+      - ZZ | 8.99Mb
+      - Pool__665 | 6.40Mb
+      - 🇨🇳 Relay_🇨🇳CN | 2.28Mb
+      - Relay_🇫🇷FR-🇫🇷FR_3958 | 6.14Mb
+      - 🇺🇸 Pool_🇺🇸US_11051 | 3.65Mb
+      - 🇺🇸 US_12261 | 3.31Mb
+      - 🇺🇸 US |11.53Mb
+      - 🇺🇸 US_12312 | 5.97Mb
+      - 🇺🇸 US_13667 | 0.74Mb
+      - AU_1068 | 9.47Mb
+      - AU_1070 | 9.45Mb
+      - CA_2097 | 0.23Mb
+      - 🇺🇸 Relay_🇺🇸 US |19.64Mb
+      - 🇺🇸 US_10814 | 2.14Mb
+      - 🇺🇸 US_12263 | 6.70Mb
+      - 🇺🇸 US_12281 | 2.63Mb
+      - 🇺🇸 US |10.06Mb
+      - 🇺🇸 US_12355 | 7.43Mb
+      - ZZ_16076 | 7.54Mb
+      - AU_1176 | 9.27Mb
+      - 🇰🇷 KR_6429 | 6.96Mb
+      - 🇰🇷 Relay_🇰🇷KR-🇰🇷KR_6450 | 7.96Mb
+      - NO_6965 | 3.82Mb
+      - NO_6983 | 1.56Mb
+      - 🇺🇸 Pool_🇺🇸 US_10313 | 2.08Mb
+      - 🇺🇸 Pool_🇺🇸 US_10646 | 1.96Mb
+      - 🇺🇸 US_10767 | 3.09Mb
+      - 🇺🇸 Pool_🇺🇸US_11500 | 1.81Mb
+      - 🇺🇸 US_12348 | 5.95Mb
+      - 🇺🇸 Pool_🇺🇸US_12838 | 2.19Mb
+      - 🇺🇸 Pool_🇺🇸US_14036 | 1.84Mb
+      - 🇺🇸 Pool_🇺🇸US_14037 | 1.79Mb
+      - 🇺🇸 Pool_🇺🇸US_14246 | 1.86Mb
+      - 🇺🇸 Pool_🇺🇸US_14521 | 1.65Mb
+      - ZZ | 9.96Mb
+      - 🇷🇺 Relay_-🇷🇺RU_697 | 0.00Mb
+      - 🇷🇺 Relay_-🇷🇺RU_702 | 0.16Mb
+      - 🇨🇳 CN_2472 | 1.50Mb
+      - 🇨🇳 CN_2473 | 1.58Mb
+      - 🇺🇸 Relay_🇨🇳CN-🇺🇸US_2477 | 1.71Mb
+      - 🇨🇳 CN_2479 | 1.95Mb
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_2486 | 1.71Mb
+      - GB | 8.03Mb
+      - Relay_🇮🇳IN |22.28Mb
+      - IT | 8.92Mb
+      - 🇰🇷 Relay_🇰🇷KR-🇰🇷KR_6470 | 8.16Mb
+      - NO_6961 | 5.49Mb
+      - NO_6977 | 7.49Mb
+      - 🇺🇸 Pool_🇺🇸US_10815 | 2.40Mb
+      - 🇺🇸 Pool_🇺🇸US_11526 | 1.76Mb
+      - 🇺🇸 Pool_🇺🇸US_11667 | 1.70Mb
+      - 🇺🇸 US_12278 | 7.31Mb
+      - 🇺🇸 Pool_🇺🇸US_12698 | 1.77Mb
+      - ZZ | 9.19Mb
+      - ZZ_16073 | 7.25Mb
+      - ZZ | 9.45Mb
+      - ZZ |10.60Mb
+      - ZZ |10.80Mb
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -2895,411 +1152,162 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - AZ_1679
-      - AZ_1727 | 4.41Mb
-      - 137.59.52.107:50168
-      - 66.115.177.156:43893
-      - 167.88.63.99:8091
-      - AZ_1819 |11.19Mb
-      - TH_12316 | 2.68Mb
-      - 192.169.112.166:8091
-      - TH_12313 | 2.64Mb
-      - 91.90.123.115:38620
-      - m8.mogu66.com:206
-      - 192.169.112.168:8091
-      - 91.90.123.115:41676
-      - 🇺🇸 US_16779 | 1.98Mb
-      - 🇺🇸 US_14032 |13.03Mb
-      - 198.147.22.87:35200
-      - 🇺🇸 US_18799
-      - 191.96.13.200:36460
-      - 91.90.123.115:34815
-      - IT_7603 |10.38Mb
-      - 66.115.177.141:42185
-      - BR_2276
-      - TH_12284
-      - 🇺🇸 US_15759
-      - 167.88.63.108:8091
-      - AZ_1720
-      - 128.14.222.218:8090
-      - 91.219.215.19:31944
-      - 🇰🇷 KR_8070 | 2.67Mb
-      - 🇺🇸 US_15364
-      - 🇺🇸 US_13442
-      - 🇺🇸 US_15528
-      - m3.mogu66.com:215
-      - 🇰🇷 KR_8107 | 0.26Mb
-      - 🇰🇷 KR_8136 | 2.87Mb
-      - TH_12344 | 2.67Mb
-      - 🇺🇸 US_15487
-      - 🇺🇸 US_13867 |15.89Mb
-      - 🇺🇸 US_14955
-      - 66.115.177.143:38620
-      - 🇰🇷 KR_8108 | 4.99Mb
-      - 38.107.226.146:8090
-      - 🇺🇸 US_18457
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
-      - 86.106.137.147:39772
-      - 🇺🇸 US_15360
-      - 81.19.223.189:31764
-      - 🇺🇸 US_14217
-      - TH_12278
-      - 🇺🇸 US_14683
-      - 🇺🇸 US_15980
-      - 134.195.196.163:8090
-      - IT_7802 | 9.36Mb
-      - 185.166.84.81:41676
-      - TH_12426 | 2.63Mb
-      - 🇺🇸 US_18794
-      - 🇺🇸 US_19484 |33.24Mb
-      - 🇺🇸 US_14215
-      - 82.102.26.93:38742
-      - 🇺🇸 US_18819
-      - IT_7343 |10.50Mb
-      - 🇺🇸 US_17286
-      - 128.14.222.215:8090
-      - IT_7881 | 8.91Mb
-      - IT_7599 | 7.22Mb
-      - AZ_1772
-      - 🇺🇸 US_14391
-      - IT_7207 |13.94Mb
-      - 🇺🇸 US_14682
-      - 🇺🇸 US_18228
-      - TH_12420 | 2.53Mb
-      - IT_7264 | 6.57Mb
-      - IT_7206 |16.02Mb
-      - 66.115.177.136:48938
-      - 🇺🇸 US_18194
-      - IT_7346 | 9.33Mb
-      - TH_12506 | 2.64Mb
-      - IT_7268 | 6.17Mb
-      - IT_7597 | 8.83Mb
-      - IT_7669 | 8.86Mb
-      - IT_7352 |10.88Mb
-      - RO_11035
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2
-      - m8.mogu66.com:234
-      - IT_7265 | 6.23Mb
-      - IT_7311 | 7.32Mb
-      - TH_12508 | 2.68Mb
-      - 🇺🇸 US_18398
-      - IT_7854 |13.30Mb
-      - IT_7648 |11.56Mb
-      - TH_12295
-      - 🇺🇸 US_18459
-      - 🇺🇸 US_15882
-      - IT_7667 |13.80Mb
-      - 🇺🇸 US_16328 | 2.04Mb
-      - TH_12398 | 2.85Mb
-      - TH_12467 | 2.66Mb
-      - TH_12499 | 3.26Mb
-      - TH_12511 | 2.66Mb
-      - TH_12330 | 2.69Mb
-      - IT_7425 |10.93Mb
-      - TH_12532
-      - 🇺🇸 US_16154
-      - TH_12286
-      - TH_12492 | 2.67Mb
-      - IT_7654 |10.03Mb
-      - 87.239.255.114:38747
-      - TH_12332 | 2.66Mb
-      - TH_12275
-      - TH_12509 | 3.08Mb
-      - 27.131.164.94:46726
-      - TH_12309 | 2.67Mb
-      - 180.149.231.67:37588
-      - TH_12287
-      - TH_12501 | 2.58Mb
-      - 185.153.151.60:47861
-      - TH_12575 | 2.64Mb
-      - TH_12430 | 2.67Mb
-      - TH_12496 | 2.67Mb
-      - TH_12442 | 2.67Mb
-      - TH_12593 | 2.67Mb
-      - 🇺🇸 US_15353
-      - AZ_1763
-      - TH_12419 | 2.39Mb
-      - 61.14.210.242:32558
-      - NZ_9124 | 3.60Mb
-      - TH_12294
-      - 🇺🇸 US_14964
-      - 🇺🇸 US_14447
-      - TH_12289
-      - TH_12281
-      - TH_12428 | 2.69Mb
-      - TH_12543
-      - 🇺🇸 US_18843
-      - GB_5353 |13.40Mb
-      - 🇺🇸 US_15350
-      - TH_12436 | 2.66Mb
-      - TH_12427 | 2.70Mb
-      - TH_12361 | 2.65Mb
-      - TH_12285
-      - IT_7232 | 8.15Mb
-      - TH_12584 | 3.56Mb
-      - TH_12433 | 2.67Mb
-      - TH_12594 | 2.68Mb
-      - 🇺🇸 US_16724
-      - TH_12505 | 2.64Mb
-      - TH_12392 | 2.67Mb
-      - 79.110.54.133:49202
-      - 51.159.30.61:805
-      - AZ_1678
-      - 27.131.164.100:48089
-      - TH_12307 | 2.67Mb
-      - TH_12372 | 3.23Mb
-      - TH_12497 | 2.37Mb
-      - TH_12595 | 2.67Mb
-      - 🇺🇸 US_14450
-      - TH_12314 | 2.66Mb
-      - 🇰🇷 KR_8086 | 2.66Mb
-      - 🇺🇸 US_16152
-      - TH_12560
-      - TH_12540
-      - TH_12512 | 2.53Mb
-      - TH_12431 | 2.26Mb
-      - TH_12587 | 2.67Mb
-      - 🇺🇸 US_14943
-      - TH_12435 | 2.63Mb
-      - RO_10907 |15.84Mb
-      - TH_12429 | 2.68Mb
-      - 🇺🇸 US_15841
-      - TH_12438 | 2.64Mb
-      - TH_12073
-      - TH_12478 | 3.00Mb
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 3
-      - TH_12437 | 6.01Mb
-      - TH_12393 | 2.54Mb
-      - AZ_1676
-      - 🇺🇸 US_18242
-      - 🇺🇸 US_17175
-      - TH_12276
-      - IT_7649 | 5.57Mb
-      - TH_12600 | 2.29Mb
-      - 🇺🇸 US_15499
-      - TH_12510 | 2.80Mb
-      - 172.105.42.160:8090
-      - 🇺🇸 US_19530
-      - 45.79.126.80:8090
-      - 172.105.38.55:8090
-      - TH_12292
-      - TH_12596 | 2.68Mb
-      - 🇺🇸 US_17180
-      - 45.79.121.236:8091
-      - TH_12288
-      - TH_12422 | 2.68Mb
-      - 🇺🇸 US_17064
-      - TH_12582 | 2.31Mb
-      - 🇺🇸 US_14909
-      - TH_12417 | 2.67Mb
-      - IN_6983 | 4.74Mb
-      - TH_12408 | 2.62Mb
-      - 84.17.53.219:33992
-      - TH_12371 | 2.69Mb
-      - 143.244.57.118:44236
-      - 🇺🇸 US_14433
-      - 192.46.211.249:8091
-      - 172.105.63.34:8091
-      - 🇺🇸 US_14443
-      - RO_10243 | 5.63Mb
-      - 89.249.73.197:33992
-      - 51.89.99.52:805
-      - 193.29.107.123:39772
-      - 61.14.210.237:33148
-      - GB_5338 |10.08Mb
-      - 🇺🇸 US_17174
-      - RO_10171 | 8.11Mb
-      - 185.166.84.51:44745
-      - TH_12586 | 2.69Mb
-      - 145.239.1.175:8090
-      - IT_7335 |12.24Mb
-      - 91.90.123.155:31572
-      - 62.112.9.220:2375
-      - 91.90.123.150:50232
-      - 89.249.73.195:43893
-      - 45.79.127.97:8090
-      - 193.118.60.167:8091
-      - TH_12451 | 2.69Mb
-      - 45.79.122.28:8091
-      - 🇺🇸 US_14439
-      - 172.104.206.241:8091
-      - FR_4953 |11.33Mb
-      - RO_10591 |12.06Mb
-      - 172.105.59.32:8090
-      - 185.99.3.102:48938
-      - 103.192.80.133:49339
-      - m8.mogu66.com:215
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 4
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 5
-      - 🇺🇸 US_14438
-      - 89.45.7.51:49396
-      - 46.29.218.6:8091
-      - 🇺🇸 US_18655
-      - 🇺🇸 US_18936
-      - 198.8.92.84:38620
-      - 185.212.111.59:49339
-      - 🇺🇸 US_14960
-      - CA_2296
-      - 51.77.53.200:8091
-      - CA_2304 |21.02Mb
-      - AZ_1724
-      - 🇺🇸 US_18635
-      - 172.99.190.35:8090
-      - 🇺🇸 US_18656
-      - 🇺🇸 US_18667
-      - 🇺🇸 US_18890
-      - 51.77.52.206:8091
-      - 🇺🇸 US_18666
-      - 🇺🇸 US_18670
-      - 72.140.224.197:802
-      - 167.88.63.82:8091
-      - m3.mogu66.com:207
-      - 🇺🇸 US |15.93Mb
-      - 🇺🇸 US_19587
-      - 188.95.55.120:35294
-      - 🇺🇸 US_18812
-      - 🇺🇸 US_18809
-      - m3.mogu66.com:217
-      - 79.110.54.117:31572
-      - 🇺🇸 US_14684
-      - 139.99.122.148:8090
-      - 🇺🇸 US |12.87Mb
-      - RO_11397
-      - 🇺🇸 US_14040 | 7.78Mb
-      - 🇺🇸 US_18674
-      - 🇺🇸 US_15386
-      - 🇺🇸 US_18804
-      - 🇺🇸 https://www.mattkaydiary.com|美国(US)USA/New York
-      - 🇺🇸 US_14630
-      - 🇺🇸 US_18720
-      - 91.90.123.115:35294
-      - 🇺🇸 US_16298
-      - 🇺🇸 US_15369
-      - CA_2343 |15.77Mb
-      - 91.90.123.115:49126
-      - TH_12439 | 4.54Mb
-      - 🇺🇸 US_15761
-      - 🇺🇸 US_15757
-      - 66.115.177.156:31572
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_1120
-      - 🇺🇸 US_14030 |10.24Mb
-      - IE_6416 | 9.44Mb
-      - 🇺🇸 US_16402
-      - 134.195.196.154:8090
-      - 🇺🇸 US_18792
-      - 🇺🇸 US_18818
-      - 91.90.123.115:37588
-      - 🇺🇸 US_14037 |16.03Mb
-      - 198.57.27.238:8090
-      - RO_10945
-      - 🇺🇸 US_16590
-      - 🇺🇸 US_18918
-      - 134.195.196.97:8090
-      - 🇺🇸 US_14221
-      - 🇺🇸 US_14688
-      - 🇺🇸 US_15366
-      - TH_12352 | 2.66Mb
-      - 188.95.55.114:34815
-      - 🇺🇸 US_15780
-      - 193.118.60.165:8091
-      - AZ_1675 |11.25Mb
-      - 🇺🇸 US_18251
-      - 🇺🇸 US_13439
-      - 🇺🇸 US_18668
-      - 🇺🇸 US_18821
-      - 🇺🇸 US_14556
-      - 🇺🇸 US_15387
-      - 193.108.118.34:8090
-      - 66.115.177.156:46726
-      - 🇺🇸 US_18570
-      - 🇺🇸 US_14397
-      - 🇺🇸 US_19552 |15.37Mb
-      - 🇺🇸 US_14561 |52.79Mb
-      - 🇺🇸 US_14036 |10.66Mb
-      - 🇺🇸 US_15361
-      - 🇺🇸 US_16203
-      - 🇺🇸 US_16424
-      - 146.70.27.12:40093
-      - AZ_1798
-      - 🇺🇸 US_19496 |10.85Mb
-      - 🇺🇸 US_17978
-      - 🇺🇸 US_13864 |16.42Mb
-      - 134.195.198.95:8091
-      - 45.248.79.67:49339
-      - 🇺🇸 US_18611
-      - 🇺🇸 US_18540
-      - 🇫🇷 法国(欢迎订阅Youtube破解资源君)
-      - 66.115.147.89:34815
-      - 62.212.239.53:49126
-      - 🇺🇸 US_16605 | 6.72Mb
-      - AU_1575
-      - 🇺🇸 US_14034 |10.56Mb
-      - 134.195.196.79:8090
-      - 🇺🇸 US_13553
-      - 🇺🇸 US_19487 |22.11Mb
-      - 🇺🇸 US_18235
-      - 84.39.114.86:49396
-      - 🇺🇸 US_15883
-      - 🇺🇸 US_14546
-      - 185.108.105.82:49396
-      - 🇺🇸 US_18544
-      - 193.118.60.166:8091
-      - 45.248.79.67:43893
-      - 185.108.105.82:31764
-      - 🇰🇷 KR_8065 | 5.11Mb
-      - 🇺🇸 US_14607
-      - GB_5474 |23.29Mb
-      - 🇺🇸 US_15763
-      - 🇺🇸 US_15343
-      - 🇺🇸 US_16345 |20.42Mb
-      - 🇺🇸 US_13669
-      - 🇺🇸 US_19206 |15.18Mb
-      - 🇺🇸 US_14430
-      - 172.105.172.37:8090
-      - AZ_1721
-      - 🇺🇸 US_16880
-      - RO_11033
-      - 🇺🇸 US_14749
-      - 🇺🇸 US_14499
-      - 172.107.233.234:8090
-      - 🇺🇸 US_18568
-      - AZ_1744
-      - 🇺🇸 US_16604 | 7.74Mb
-      - 🇺🇸 US_18506
-      - 🇺🇸 US_14012 |16.01Mb
-      - AZ_1740
-      - AZ_1781
-      - IT_7267 | 7.52Mb
-      - 🇺🇸 US_15362
-      - 🇺🇸 US_14583
       - 🇨🇦 https://www.mattkaydiary.com|加拿大(CA)Canada/Vancouver
+      - 🇺🇸 美国(Youtube频道：工具大师！)
+      - 🇺🇸 US_14450
       - 🇺🇸 US_16311
-      - 66.115.154.131:48938
-      - 5.253.207.51:33992
-      - 🇺🇸 US_14302
-      - 5.253.207.53:31944
-      - TH_12317 | 3.55Mb
-      - FR_4639 |14.24Mb
-      - FR_5084 |16.00Mb
-      - 🇺🇸 US_14448
-      - FR_4491 |13.21Mb
-      - 🇺🇸 US_15764
-      - AZ_1816 |11.53Mb
-      - 198.147.22.87:33998
-      - 104.244.208.211:48938
-      - 62.212.239.51:33992
-      - m8.mogu66.com:226
-      - AZ_1737
-      - FR_4582 |16.89Mb
-      - 72.140.224.195:802
-      - AZ_1738
-      - AU_1574
-      - AZ_1791
-      - 185.153.151.86:31572
-      - AZ_1735
-      - 🇸🇬 SG_12091
-      - 🇺🇸 US_14685
-      - TH_12360 | 2.64Mb
+      - 172.99.190.35:8090
+      - 🇺🇸 Relay_🇺🇸US |12.15Mb
+      - AU_1067 | 6.10Mb
+      - GB_4541 | 6.01Mb
+      - ZZ | 9.74Mb
+      - AU_1063 | 9.41Mb
+      - 🇺🇸 US | 8.15Mb
+      - ZZ | 8.79Mb
+      - ZZ | 9.55Mb
+      - 🇺🇸 US | 8.58Mb
+      - 🇺🇸 US_12280 | 4.97Mb
+      - ZZ |10.15Mb
+      - ZZ | 8.48Mb
+      - ZZ |10.05Mb
+      - ZZ_16142 | 6.70Mb
+      - ZZ | 8.98Mb
+      - ZZ |10.95Mb
+      - ZZ | 9.71Mb
+      - AU_1061 | 8.07Mb
+      - 🇺🇸 US | 9.07Mb
+      - 🇺🇸 US | 9.26Mb
+      - ZZ | 8.75Mb
+      - ZZ |10.23Mb
+      - ZZ_16102 | 6.08Mb
+      - ZZ | 8.72Mb
+      - ZZ_16112 | 6.00Mb
+      - ZZ |10.55Mb
+      - ZZ |10.02Mb
+      - ZZ_16181 | 7.28Mb
+      - ZZ | 9.58Mb
+      - ZZ | 9.62Mb
+      - 🇺🇸 US | 9.91Mb
+      - 🇺🇸 US | 8.76Mb
+      - 🇺🇸 US | 8.32Mb
+      - 🇺🇸 US_10808 | 5.78Mb
+      - 🇺🇸 US | 8.99Mb
+      - ZZ | 9.90Mb
+      - ZZ_16137 | 7.30Mb
+      - ZZ | 9.80Mb
+      - ZZ | 9.30Mb
+      - ZZ | 8.91Mb
+      - ZZ | 9.59Mb
+      - AU_1065 |10.12Mb
+      - CA_2003 | 3.44Mb
+      - 🇺🇸 US_10687 | 5.00Mb
+      - 🇺🇸 US |10.19Mb
+      - 🇺🇸 US_12286 | 4.39Mb
+      - ZZ |10.87Mb
+      - ZZ |10.59Mb
+      - ZZ | 9.68Mb
+      - ZZ_16127 | 5.78Mb
+      - ZZ_16128 | 7.93Mb
+      - ZZ | 8.47Mb
+      - ZZ_16145 | 7.01Mb
+      - ZZ_16158 | 3.34Mb
+      - ZZ |10.41Mb
+      - 🇺🇸 US_11987 | 3.97Mb
+      - 🇺🇸 US_12293 | 7.89Mb
+      - 🇺🇸 US_12419 | 0.49Mb
+      - ZZ | 9.13Mb
+      - ZZ | 9.33Mb
+      - ZZ_16202 | 5.30Mb
+      - CA_2096 | 2.16Mb
+      - 🇺🇸 US_12269 | 4.60Mb
+      - 🇺🇸 US_12304 | 2.99Mb
+      - 🇺🇸 US_12305 | 7.48Mb
+      - 🇺🇸 US_12322 | 6.59Mb
+      - ZZ | 8.81Mb
+      - ZZ |10.42Mb
+      - ZZ | 8.38Mb
+      - ZZ | 9.15Mb
+      - 🇺🇸 US_12363 | 5.56Mb
+      - ZZ_16146 | 6.21Mb
+      - ZZ | 8.88Mb
+      - CA_2098 | 2.95Mb
+      - 🇺🇸 US_12284 | 7.79Mb
+      - 🇺🇸 US_12324 | 7.58Mb
+      - 🇺🇸 US_12382 | 4.83Mb
+      - ZZ_15795 | 7.22Mb
+      - ZZ |10.21Mb
+      - CA_2002 | 1.64Mb
+      - 🇺🇸 US_12295 | 5.99Mb
+      - 🇺🇸 US_13444 | 7.85Mb
+      - 🇺🇸 US_13588 | 5.02Mb
+      - CA_1974 | 2.80Mb
+      - CA_1996 | 0.17Mb
+      - NO_6984 | 4.14Mb
+      - 🇺🇸 US_12013 | 7.11Mb
+      - Relay_🇫🇷FR-🇫🇷FR_3954 | 6.90Mb
+      - NO_6985 | 4.61Mb
+      - 🇷🇺 RU_8971 | 6.92Mb
+      - 🇺🇸 Relay_🇺🇸 US |13.01Mb
+      - 🇺🇸 US |12.23Mb
+      - 🇺🇸 US_12416 | 7.77Mb
+      - ZZ | 8.99Mb
+      - Pool__665 | 6.40Mb
+      - 🇨🇳 Relay_🇨🇳CN | 2.28Mb
+      - Relay_🇫🇷FR-🇫🇷FR_3958 | 6.14Mb
+      - 🇺🇸 Pool_🇺🇸US_11051 | 3.65Mb
+      - 🇺🇸 US_12261 | 3.31Mb
+      - 🇺🇸 US |11.53Mb
+      - 🇺🇸 US_12312 | 5.97Mb
+      - 🇺🇸 US_13667 | 0.74Mb
+      - AU_1068 | 9.47Mb
+      - AU_1070 | 9.45Mb
+      - CA_2097 | 0.23Mb
+      - 🇺🇸 Relay_🇺🇸 US |19.64Mb
+      - 🇺🇸 US_10814 | 2.14Mb
+      - 🇺🇸 US_12263 | 6.70Mb
+      - 🇺🇸 US_12281 | 2.63Mb
+      - 🇺🇸 US |10.06Mb
+      - 🇺🇸 US_12355 | 7.43Mb
+      - ZZ_16076 | 7.54Mb
+      - AU_1176 | 9.27Mb
+      - 🇰🇷 KR_6429 | 6.96Mb
+      - 🇰🇷 Relay_🇰🇷KR-🇰🇷KR_6450 | 7.96Mb
+      - NO_6965 | 3.82Mb
+      - NO_6983 | 1.56Mb
+      - 🇺🇸 Pool_🇺🇸 US_10313 | 2.08Mb
+      - 🇺🇸 Pool_🇺🇸 US_10646 | 1.96Mb
+      - 🇺🇸 US_10767 | 3.09Mb
+      - 🇺🇸 Pool_🇺🇸US_11500 | 1.81Mb
+      - 🇺🇸 US_12348 | 5.95Mb
+      - 🇺🇸 Pool_🇺🇸US_12838 | 2.19Mb
+      - 🇺🇸 Pool_🇺🇸US_14036 | 1.84Mb
+      - 🇺🇸 Pool_🇺🇸US_14037 | 1.79Mb
+      - 🇺🇸 Pool_🇺🇸US_14246 | 1.86Mb
+      - 🇺🇸 Pool_🇺🇸US_14521 | 1.65Mb
+      - ZZ | 9.96Mb
+      - 🇷🇺 Relay_-🇷🇺RU_697 | 0.00Mb
+      - 🇷🇺 Relay_-🇷🇺RU_702 | 0.16Mb
+      - 🇨🇳 CN_2472 | 1.50Mb
+      - 🇨🇳 CN_2473 | 1.58Mb
+      - 🇺🇸 Relay_🇨🇳CN-🇺🇸US_2477 | 1.71Mb
+      - 🇨🇳 CN_2479 | 1.95Mb
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_2486 | 1.71Mb
+      - GB | 8.03Mb
+      - Relay_🇮🇳IN |22.28Mb
+      - IT | 8.92Mb
+      - 🇰🇷 Relay_🇰🇷KR-🇰🇷KR_6470 | 8.16Mb
+      - NO_6961 | 5.49Mb
+      - NO_6977 | 7.49Mb
+      - 🇺🇸 Pool_🇺🇸US_10815 | 2.40Mb
+      - 🇺🇸 Pool_🇺🇸US_11526 | 1.76Mb
+      - 🇺🇸 Pool_🇺🇸US_11667 | 1.70Mb
+      - 🇺🇸 US_12278 | 7.31Mb
+      - 🇺🇸 Pool_🇺🇸US_12698 | 1.77Mb
+      - ZZ | 9.19Mb
+      - ZZ_16073 | 7.25Mb
+      - ZZ | 9.45Mb
+      - ZZ |10.60Mb
+      - ZZ |10.80Mb
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
