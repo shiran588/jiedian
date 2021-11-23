@@ -5,130 +5,690 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: "🇫🇷 法国[感谢订阅——科技网络]", server: 145.239.1.137, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: "🇪🇺 欧洲[感谢订阅——科技网络]", server: 46.29.218.6, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: "🇫🇷 法国[感谢订阅——科技网络] 2", server: 198.57.27.218, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: "🇺🇸 美国[感谢订阅——科技网络]", server: 23.106.33.152, port: 18332, type: ss, cipher: chacha20-ietf-poly1305, password: S3YqACC58uajapxRy7S3D63xcXOeFnl2w9NZezAKDgSYD0RZBFTy3pI8ElCaO4}
-  - {name: "🇧🇪 比利时[感谢订阅——科技网络]", server: 31.22.110.231, port: 18332, type: ss, cipher: chacha20-ietf-poly1305, password: D3YK0wxpIA5lgS326ej3qaDDaFSFROz8AZOYByXaE3Zn4u98pyCcRTelSxNCC7}
-  - {name: "🇺🇸 美国[感谢订阅——科技网络] 2", server: 46.29.218.6, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: "🇧🇪 比利时[感谢订阅——科技网络] 2", server: 31.22.110.232, port: 18332, type: ss, cipher: chacha20-ietf-poly1305, password: D8YSqCZ5FIpRy9a3Oen24jASaXaSeYCR36x0DxNgZK3By8OFECADzplTu3c7wl}
-  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君), server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇺🇸 US_976 |60.00Mb, server: 172.99.190.186, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: ZZ_312, server: 134.195.196.51, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: ZZ_1213 |85.22Mb, server: 134.195.196.51, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_97, server: 185.172.113.85, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_148, server: t3.ssrsub.com, port: 11033, type: trojan, password: a0daa9d9-6257-4ae9-9959-ccfb993f122c, sni: t3.ssrsub.com}
+  - {name: 🇸🇬 Pool_🇸🇬SG_589, server: 194.124.35.41, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇸🇬 Pool_🇸🇬SG_149, server: 217.197.161.166, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: ZZ_1195 |167.22Mb, server: 134.195.198.95, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_147, server: t3.ssrsub.com, port: 11033, type: trojan, password: 0d0a53dd-6a0f-47ac-8d0c-6eca674926b2, sni: t3.ssrsub.com}
+  - {name: 🇸🇬 Pool_🇸🇬SG_604, server: 194.124.35.40, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: NO_126, server: 46.29.218.6, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇸🇬 Pool_🇸🇬SG_592, server: 194.124.35.41, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇸🇬 SG_599 | 2.46Mb, server: 217.197.161.166, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇸🇬 SG_634 | 2.02Mb, server: 217.197.161.166, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: Relay_🇨🇦CA-🇨🇦CA_25, server: t7.ssrsub.com, port: 11033, type: trojan, password: 0d0a53dd-6a0f-47ac-8d0c-6eca674926b2, sni: t7.ssrsub.com}
+  - {name: 🇯🇵 JP_418 | 2.05Mb, server: 185.172.113.85, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: "🇯🇵 日本[感谢订阅——科技网络]", server: 185.172.113.85, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: "CA(技术分享室整理,欢迎订阅)", server: 198.57.27.218, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: "🇮🇳 印度[感谢订阅——科技网络]", server: 46.29.218.6, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: "🇫🇷 法国[感谢订阅——科技网络] 3", server: 145.239.1.137, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: "NO(技术分享室整理,欢迎订阅)", server: 46.29.218.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_33, server: 122.192.189.8, port: 19710, type: vmess, uuid: c0f4d26f-b870-3b0d-a77e-1786fcf52e50, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /download, ws-headers: {Host: t.me/vpnhat}}
+  - {name: Relay_🇨🇦CA-🇨🇦CA_22, server: t7.ssrsub.com, port: 11033, type: trojan, password: a0daa9d9-6257-4ae9-9959-ccfb993f122c, sni: t7.ssrsub.com}
+  - {name: 🇸🇬 SG_594 | 3.06Mb, server: 217.197.161.166, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇺🇸 US_990 |49.49Mb, server: 172.99.190.186, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: ZZ_1179 |23.37Mb, server: 134.195.196.51, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: ZZ_1162 |104.40Mb, server: 134.195.196.81, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇯🇵 JP_445 | 2.46Mb, server: 185.172.113.85, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: ZZ_320, server: 134.195.196.110, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇷🇺 Relay_🇨🇳CN-🇷🇺RU_261, server: global-transit-01-hn.pucdn.me, port: 50002, type: vmess, uuid: 0e4a0f2f-9cc9-3b11-9e6a-4392c4fcfc6c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l2-ru-02.pucdn.me}}
+  - {name: ZZ_299, server: 134.195.198.95, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇸🇬 Pool_🇸🇬SG_616, server: 217.197.161.166, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: ZZ_300, server: 134.195.198.95, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: Relay_🇫🇷FR-🇫🇷FR_55, server: 145.239.1.137, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇸🇬 Pool_🇸🇬SG_578, server: 194.124.35.40, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇸🇬 SG_659 | 2.06Mb, server: 217.197.161.166, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇸🇬 Pool_🇸🇬SG_579, server: 194.124.35.42, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "🇧🇪 比利时[感谢订阅——科技网络]", server: 31.22.110.232, port: 18332, type: ss, cipher: chacha20-ietf-poly1305, password: D8YSqCZ5FIpRy9a3Oen24jASaXaSeYCR36x0DxNgZK3By8OFECADzplTu3c7wl}
+  - {name: 🇺🇸 US_200, server: 23.106.33.152, port: 18332, type: ss, cipher: chacha20-ietf-poly1305, password: S3YqACC58uajapxRy7S3D63xcXOeFnl2w9NZezAKDgSYD0RZBFTy3pI8ElCaO4}
+  - {name: 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_85, server: 185.172.113.85, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇭🇰 Pool_🇭🇰HK_66, server: 118.107.244.112, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇺🇸 US_944 |68.68Mb, server: 172.99.190.149, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_40, server: 122.192.189.8, port: 19700, type: vmess, uuid: c0f4d26f-b870-3b0d-a77e-1786fcf52e50, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /download, ws-headers: {Host: t.me/vpnhat}}
+  - {name: 🇸🇬 Pool_🇸🇬SG_151, server: 217.197.161.166, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: NO_486, server: 46.29.218.6, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇺🇸 US_757 |21.36Mb, server: 172.99.190.186, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇺🇸 US_755 |24.63Mb, server: 172.99.190.186, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: ZZ_1226 |19.87Mb, server: 134.195.196.214, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: _93 | 6.31Mb, server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
+  - {name: 🇺🇸 US_229, server: 167.88.63.61, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇺🇸 US_208, server: 172.99.190.186, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇸 US_756 |36.11Mb, server: 172.99.190.186, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: ZZ_1327 |89.16Mb, server: 134.195.196.51, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: ZZ_1214 |88.05Mb, server: 134.195.196.51, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: ZZ_321, server: 134.195.196.51, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: ZZ_338, server: 134.195.196.51, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: ZZ_1215 |89.93Mb, server: 134.195.196.51, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇸🇬 Pool_🇸🇬SG_593, server: 194.124.35.41, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇨🇳 Relay_🇨🇳CN-🇮🇳IN_249, server: global-transit-01-hn.pucdn.me, port: 60001, type: vmess, uuid: 0e4a0f2f-9cc9-3b11-9e6a-4392c4fcfc6c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l2-in-01.pucdn.me}}
+  - {name: NO_125, server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: ZZ_271, server: 134.195.196.110, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: ZZ_1258 |86.08Mb, server: 134.195.196.214, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: ZZ_1271 |88.32Mb, server: 134.195.196.214, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: ZZ_1247 |94.36Mb, server: 134.195.196.214, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: ZZ_1325 |93.03Mb, server: 134.195.196.81, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: ZZ_1337 |70.30Mb, server: 134.195.196.214, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: NO_481, server: 46.29.218.6, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_146, server: t1.ssrsub.com, port: 11033, type: trojan, password: a0daa9d9-6257-4ae9-9959-ccfb993f122c, sni: t1.ssrsub.com}
+  - {name: ZZ_1269 |66.09Mb, server: 134.195.196.214, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: ZZ_1272 |47.61Mb, server: 134.195.196.214, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: ZZ_343, server: 134.195.196.110, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: ZZ_1270 |56.81Mb, server: 134.195.196.214, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇸 US_945 |68.86Mb, server: 172.99.190.149, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: ZZ_1296 |254.15Mb, server: 134.195.198.95, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇸 US_168, server: 172.107.233.230, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: DE_199 |50.53Mb, server: 193.108.118.2, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: DE_196 |56.55Mb, server: 193.108.118.2, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇸 US_832 |48.37Mb, server: 172.107.233.230, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: DE_198 |55.15Mb, server: 193.108.118.2, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: NO_124, server: 46.29.218.6, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: "🇧🇪 比利时[感谢订阅——科技网络] 2", server: 31.22.110.231, port: 18332, type: ss, cipher: chacha20-ietf-poly1305, password: D3YK0wxpIA5lgS326ej3qaDDaFSFROz8AZOYByXaE3Zn4u98pyCcRTelSxNCC7}
+  - {name: 🇯🇵 JP_415 | 4.61Mb, server: 185.172.113.156, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: ZZ_289, server: 134.195.198.178, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇸🇬 Pool_🇸🇬SG_605, server: 194.124.35.40, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: ZZ_1310 |164.46Mb, server: 134.195.198.178, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_262, server: t8.ssrsub.com, port: 11033, type: trojan, password: 0d0a53dd-6a0f-47ac-8d0c-6eca674926b2, sni: t8.ssrsub.com}
+  - {name: 🇺🇸 US_194, server: 38.39.192.74, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: CA_08, server: 198.57.27.218, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: ZZ_1322 |245.63Mb, server: 134.195.198.178, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: ZZ_330, server: 134.195.198.178, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇸 US_174, server: 38.39.192.74, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇸 US_188, server: 38.39.192.74, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_91, server: 185.172.113.85, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇺🇸 US_187, server: 38.39.192.74, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇸🇬 Pool_🇸🇬SG_618, server: 194.124.35.40, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "🇫🇷 法国[感谢订阅——科技网络]", server: 145.239.1.137, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇸🇬 Pool_🇸🇬SG_623, server: 194.124.35.42, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇫🇷 法国[感谢订阅——科技网络]
-      - 🇪🇺 欧洲[感谢订阅——科技网络]
-      - 🇫🇷 法国[感谢订阅——科技网络] 2
-      - 🇺🇸 美国[感谢订阅——科技网络]
-      - 🇧🇪 比利时[感谢订阅——科技网络]
-      - 🇺🇸 美国[感谢订阅——科技网络] 2
-      - 🇧🇪 比利时[感谢订阅——科技网络] 2
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)
+      - 🇺🇸 US_976 |60.00Mb
+      - ZZ_312
+      - ZZ_1213 |85.22Mb
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_97
+      - 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_148
+      - 🇸🇬 Pool_🇸🇬SG_589
+      - 🇸🇬 Pool_🇸🇬SG_149
+      - ZZ_1195 |167.22Mb
+      - 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_147
+      - 🇸🇬 Pool_🇸🇬SG_604
+      - NO_126
+      - 🇸🇬 Pool_🇸🇬SG_592
+      - 🇸🇬 SG_599 | 2.46Mb
+      - 🇸🇬 SG_634 | 2.02Mb
+      - Relay_🇨🇦CA-🇨🇦CA_25
+      - 🇯🇵 JP_418 | 2.05Mb
       - 🇯🇵 日本[感谢订阅——科技网络]
-      - CA(技术分享室整理,欢迎订阅)
-      - 🇮🇳 印度[感谢订阅——科技网络]
-      - 🇫🇷 法国[感谢订阅——科技网络] 3
-      - NO(技术分享室整理,欢迎订阅)
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_33
+      - Relay_🇨🇦CA-🇨🇦CA_22
+      - 🇸🇬 SG_594 | 3.06Mb
+      - 🇺🇸 US_990 |49.49Mb
+      - ZZ_1179 |23.37Mb
+      - ZZ_1162 |104.40Mb
+      - 🇯🇵 JP_445 | 2.46Mb
+      - ZZ_320
+      - 🇷🇺 Relay_🇨🇳CN-🇷🇺RU_261
+      - ZZ_299
+      - 🇸🇬 Pool_🇸🇬SG_616
+      - ZZ_300
+      - Relay_🇫🇷FR-🇫🇷FR_55
+      - 🇸🇬 Pool_🇸🇬SG_578
+      - 🇸🇬 SG_659 | 2.06Mb
+      - 🇸🇬 Pool_🇸🇬SG_579
+      - 🇧🇪 比利时[感谢订阅——科技网络]
+      - 🇺🇸 US_200
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_85
+      - 🇭🇰 Pool_🇭🇰HK_66
+      - 🇺🇸 US_944 |68.68Mb
+      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_40
+      - 🇸🇬 Pool_🇸🇬SG_151
+      - NO_486
+      - 🇺🇸 US_757 |21.36Mb
+      - 🇺🇸 US_755 |24.63Mb
+      - ZZ_1226 |19.87Mb
+      - _93 | 6.31Mb
+      - 🇺🇸 US_229
+      - 🇺🇸 US_208
+      - 🇺🇸 US_756 |36.11Mb
+      - ZZ_1327 |89.16Mb
+      - ZZ_1214 |88.05Mb
+      - ZZ_321
+      - ZZ_338
+      - ZZ_1215 |89.93Mb
+      - 🇸🇬 Pool_🇸🇬SG_593
+      - 🇨🇳 Relay_🇨🇳CN-🇮🇳IN_249
+      - NO_125
+      - ZZ_271
+      - ZZ_1258 |86.08Mb
+      - ZZ_1271 |88.32Mb
+      - ZZ_1247 |94.36Mb
+      - ZZ_1325 |93.03Mb
+      - ZZ_1337 |70.30Mb
+      - NO_481
+      - 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_146
+      - ZZ_1269 |66.09Mb
+      - ZZ_1272 |47.61Mb
+      - ZZ_343
+      - ZZ_1270 |56.81Mb
+      - 🇺🇸 US_945 |68.86Mb
+      - ZZ_1296 |254.15Mb
+      - 🇺🇸 US_168
+      - DE_199 |50.53Mb
+      - DE_196 |56.55Mb
+      - 🇺🇸 US_832 |48.37Mb
+      - DE_198 |55.15Mb
+      - NO_124
+      - 🇧🇪 比利时[感谢订阅——科技网络] 2
+      - 🇯🇵 JP_415 | 4.61Mb
+      - ZZ_289
+      - 🇸🇬 Pool_🇸🇬SG_605
+      - ZZ_1310 |164.46Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_262
+      - 🇺🇸 US_194
+      - CA_08
+      - ZZ_1322 |245.63Mb
+      - ZZ_330
+      - 🇺🇸 US_174
+      - 🇺🇸 US_188
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_91
+      - 🇺🇸 US_187
+      - 🇸🇬 Pool_🇸🇬SG_618
+      - 🇫🇷 法国[感谢订阅——科技网络]
+      - 🇸🇬 Pool_🇸🇬SG_623
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇫🇷 法国[感谢订阅——科技网络]
-      - 🇪🇺 欧洲[感谢订阅——科技网络]
-      - 🇫🇷 法国[感谢订阅——科技网络] 2
-      - 🇺🇸 美国[感谢订阅——科技网络]
-      - 🇧🇪 比利时[感谢订阅——科技网络]
-      - 🇺🇸 美国[感谢订阅——科技网络] 2
-      - 🇧🇪 比利时[感谢订阅——科技网络] 2
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)
+      - 🇺🇸 US_976 |60.00Mb
+      - ZZ_312
+      - ZZ_1213 |85.22Mb
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_97
+      - 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_148
+      - 🇸🇬 Pool_🇸🇬SG_589
+      - 🇸🇬 Pool_🇸🇬SG_149
+      - ZZ_1195 |167.22Mb
+      - 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_147
+      - 🇸🇬 Pool_🇸🇬SG_604
+      - NO_126
+      - 🇸🇬 Pool_🇸🇬SG_592
+      - 🇸🇬 SG_599 | 2.46Mb
+      - 🇸🇬 SG_634 | 2.02Mb
+      - Relay_🇨🇦CA-🇨🇦CA_25
+      - 🇯🇵 JP_418 | 2.05Mb
       - 🇯🇵 日本[感谢订阅——科技网络]
-      - CA(技术分享室整理,欢迎订阅)
-      - 🇮🇳 印度[感谢订阅——科技网络]
-      - 🇫🇷 法国[感谢订阅——科技网络] 3
-      - NO(技术分享室整理,欢迎订阅)
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_33
+      - Relay_🇨🇦CA-🇨🇦CA_22
+      - 🇸🇬 SG_594 | 3.06Mb
+      - 🇺🇸 US_990 |49.49Mb
+      - ZZ_1179 |23.37Mb
+      - ZZ_1162 |104.40Mb
+      - 🇯🇵 JP_445 | 2.46Mb
+      - ZZ_320
+      - 🇷🇺 Relay_🇨🇳CN-🇷🇺RU_261
+      - ZZ_299
+      - 🇸🇬 Pool_🇸🇬SG_616
+      - ZZ_300
+      - Relay_🇫🇷FR-🇫🇷FR_55
+      - 🇸🇬 Pool_🇸🇬SG_578
+      - 🇸🇬 SG_659 | 2.06Mb
+      - 🇸🇬 Pool_🇸🇬SG_579
+      - 🇧🇪 比利时[感谢订阅——科技网络]
+      - 🇺🇸 US_200
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_85
+      - 🇭🇰 Pool_🇭🇰HK_66
+      - 🇺🇸 US_944 |68.68Mb
+      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_40
+      - 🇸🇬 Pool_🇸🇬SG_151
+      - NO_486
+      - 🇺🇸 US_757 |21.36Mb
+      - 🇺🇸 US_755 |24.63Mb
+      - ZZ_1226 |19.87Mb
+      - _93 | 6.31Mb
+      - 🇺🇸 US_229
+      - 🇺🇸 US_208
+      - 🇺🇸 US_756 |36.11Mb
+      - ZZ_1327 |89.16Mb
+      - ZZ_1214 |88.05Mb
+      - ZZ_321
+      - ZZ_338
+      - ZZ_1215 |89.93Mb
+      - 🇸🇬 Pool_🇸🇬SG_593
+      - 🇨🇳 Relay_🇨🇳CN-🇮🇳IN_249
+      - NO_125
+      - ZZ_271
+      - ZZ_1258 |86.08Mb
+      - ZZ_1271 |88.32Mb
+      - ZZ_1247 |94.36Mb
+      - ZZ_1325 |93.03Mb
+      - ZZ_1337 |70.30Mb
+      - NO_481
+      - 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_146
+      - ZZ_1269 |66.09Mb
+      - ZZ_1272 |47.61Mb
+      - ZZ_343
+      - ZZ_1270 |56.81Mb
+      - 🇺🇸 US_945 |68.86Mb
+      - ZZ_1296 |254.15Mb
+      - 🇺🇸 US_168
+      - DE_199 |50.53Mb
+      - DE_196 |56.55Mb
+      - 🇺🇸 US_832 |48.37Mb
+      - DE_198 |55.15Mb
+      - NO_124
+      - 🇧🇪 比利时[感谢订阅——科技网络] 2
+      - 🇯🇵 JP_415 | 4.61Mb
+      - ZZ_289
+      - 🇸🇬 Pool_🇸🇬SG_605
+      - ZZ_1310 |164.46Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_262
+      - 🇺🇸 US_194
+      - CA_08
+      - ZZ_1322 |245.63Mb
+      - ZZ_330
+      - 🇺🇸 US_174
+      - 🇺🇸 US_188
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_91
+      - 🇺🇸 US_187
+      - 🇸🇬 Pool_🇸🇬SG_618
+      - 🇫🇷 法国[感谢订阅——科技网络]
+      - 🇸🇬 Pool_🇸🇬SG_623
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇫🇷 法国[感谢订阅——科技网络]
-      - 🇪🇺 欧洲[感谢订阅——科技网络]
-      - 🇫🇷 法国[感谢订阅——科技网络] 2
-      - 🇺🇸 美国[感谢订阅——科技网络]
-      - 🇧🇪 比利时[感谢订阅——科技网络]
-      - 🇺🇸 美国[感谢订阅——科技网络] 2
-      - 🇧🇪 比利时[感谢订阅——科技网络] 2
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)
+      - 🇺🇸 US_976 |60.00Mb
+      - ZZ_312
+      - ZZ_1213 |85.22Mb
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_97
+      - 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_148
+      - 🇸🇬 Pool_🇸🇬SG_589
+      - 🇸🇬 Pool_🇸🇬SG_149
+      - ZZ_1195 |167.22Mb
+      - 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_147
+      - 🇸🇬 Pool_🇸🇬SG_604
+      - NO_126
+      - 🇸🇬 Pool_🇸🇬SG_592
+      - 🇸🇬 SG_599 | 2.46Mb
+      - 🇸🇬 SG_634 | 2.02Mb
+      - Relay_🇨🇦CA-🇨🇦CA_25
+      - 🇯🇵 JP_418 | 2.05Mb
       - 🇯🇵 日本[感谢订阅——科技网络]
-      - CA(技术分享室整理,欢迎订阅)
-      - 🇮🇳 印度[感谢订阅——科技网络]
-      - 🇫🇷 法国[感谢订阅——科技网络] 3
-      - NO(技术分享室整理,欢迎订阅)
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_33
+      - Relay_🇨🇦CA-🇨🇦CA_22
+      - 🇸🇬 SG_594 | 3.06Mb
+      - 🇺🇸 US_990 |49.49Mb
+      - ZZ_1179 |23.37Mb
+      - ZZ_1162 |104.40Mb
+      - 🇯🇵 JP_445 | 2.46Mb
+      - ZZ_320
+      - 🇷🇺 Relay_🇨🇳CN-🇷🇺RU_261
+      - ZZ_299
+      - 🇸🇬 Pool_🇸🇬SG_616
+      - ZZ_300
+      - Relay_🇫🇷FR-🇫🇷FR_55
+      - 🇸🇬 Pool_🇸🇬SG_578
+      - 🇸🇬 SG_659 | 2.06Mb
+      - 🇸🇬 Pool_🇸🇬SG_579
+      - 🇧🇪 比利时[感谢订阅——科技网络]
+      - 🇺🇸 US_200
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_85
+      - 🇭🇰 Pool_🇭🇰HK_66
+      - 🇺🇸 US_944 |68.68Mb
+      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_40
+      - 🇸🇬 Pool_🇸🇬SG_151
+      - NO_486
+      - 🇺🇸 US_757 |21.36Mb
+      - 🇺🇸 US_755 |24.63Mb
+      - ZZ_1226 |19.87Mb
+      - _93 | 6.31Mb
+      - 🇺🇸 US_229
+      - 🇺🇸 US_208
+      - 🇺🇸 US_756 |36.11Mb
+      - ZZ_1327 |89.16Mb
+      - ZZ_1214 |88.05Mb
+      - ZZ_321
+      - ZZ_338
+      - ZZ_1215 |89.93Mb
+      - 🇸🇬 Pool_🇸🇬SG_593
+      - 🇨🇳 Relay_🇨🇳CN-🇮🇳IN_249
+      - NO_125
+      - ZZ_271
+      - ZZ_1258 |86.08Mb
+      - ZZ_1271 |88.32Mb
+      - ZZ_1247 |94.36Mb
+      - ZZ_1325 |93.03Mb
+      - ZZ_1337 |70.30Mb
+      - NO_481
+      - 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_146
+      - ZZ_1269 |66.09Mb
+      - ZZ_1272 |47.61Mb
+      - ZZ_343
+      - ZZ_1270 |56.81Mb
+      - 🇺🇸 US_945 |68.86Mb
+      - ZZ_1296 |254.15Mb
+      - 🇺🇸 US_168
+      - DE_199 |50.53Mb
+      - DE_196 |56.55Mb
+      - 🇺🇸 US_832 |48.37Mb
+      - DE_198 |55.15Mb
+      - NO_124
+      - 🇧🇪 比利时[感谢订阅——科技网络] 2
+      - 🇯🇵 JP_415 | 4.61Mb
+      - ZZ_289
+      - 🇸🇬 Pool_🇸🇬SG_605
+      - ZZ_1310 |164.46Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_262
+      - 🇺🇸 US_194
+      - CA_08
+      - ZZ_1322 |245.63Mb
+      - ZZ_330
+      - 🇺🇸 US_174
+      - 🇺🇸 US_188
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_91
+      - 🇺🇸 US_187
+      - 🇸🇬 Pool_🇸🇬SG_618
+      - 🇫🇷 法国[感谢订阅——科技网络]
+      - 🇸🇬 Pool_🇸🇬SG_623
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇫🇷 法国[感谢订阅——科技网络]
-      - 🇪🇺 欧洲[感谢订阅——科技网络]
-      - 🇫🇷 法国[感谢订阅——科技网络] 2
-      - 🇺🇸 美国[感谢订阅——科技网络]
-      - 🇧🇪 比利时[感谢订阅——科技网络]
-      - 🇺🇸 美国[感谢订阅——科技网络] 2
-      - 🇧🇪 比利时[感谢订阅——科技网络] 2
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)
+      - 🇺🇸 US_976 |60.00Mb
+      - ZZ_312
+      - ZZ_1213 |85.22Mb
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_97
+      - 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_148
+      - 🇸🇬 Pool_🇸🇬SG_589
+      - 🇸🇬 Pool_🇸🇬SG_149
+      - ZZ_1195 |167.22Mb
+      - 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_147
+      - 🇸🇬 Pool_🇸🇬SG_604
+      - NO_126
+      - 🇸🇬 Pool_🇸🇬SG_592
+      - 🇸🇬 SG_599 | 2.46Mb
+      - 🇸🇬 SG_634 | 2.02Mb
+      - Relay_🇨🇦CA-🇨🇦CA_25
+      - 🇯🇵 JP_418 | 2.05Mb
       - 🇯🇵 日本[感谢订阅——科技网络]
-      - CA(技术分享室整理,欢迎订阅)
-      - 🇮🇳 印度[感谢订阅——科技网络]
-      - 🇫🇷 法国[感谢订阅——科技网络] 3
-      - NO(技术分享室整理,欢迎订阅)
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_33
+      - Relay_🇨🇦CA-🇨🇦CA_22
+      - 🇸🇬 SG_594 | 3.06Mb
+      - 🇺🇸 US_990 |49.49Mb
+      - ZZ_1179 |23.37Mb
+      - ZZ_1162 |104.40Mb
+      - 🇯🇵 JP_445 | 2.46Mb
+      - ZZ_320
+      - 🇷🇺 Relay_🇨🇳CN-🇷🇺RU_261
+      - ZZ_299
+      - 🇸🇬 Pool_🇸🇬SG_616
+      - ZZ_300
+      - Relay_🇫🇷FR-🇫🇷FR_55
+      - 🇸🇬 Pool_🇸🇬SG_578
+      - 🇸🇬 SG_659 | 2.06Mb
+      - 🇸🇬 Pool_🇸🇬SG_579
+      - 🇧🇪 比利时[感谢订阅——科技网络]
+      - 🇺🇸 US_200
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_85
+      - 🇭🇰 Pool_🇭🇰HK_66
+      - 🇺🇸 US_944 |68.68Mb
+      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_40
+      - 🇸🇬 Pool_🇸🇬SG_151
+      - NO_486
+      - 🇺🇸 US_757 |21.36Mb
+      - 🇺🇸 US_755 |24.63Mb
+      - ZZ_1226 |19.87Mb
+      - _93 | 6.31Mb
+      - 🇺🇸 US_229
+      - 🇺🇸 US_208
+      - 🇺🇸 US_756 |36.11Mb
+      - ZZ_1327 |89.16Mb
+      - ZZ_1214 |88.05Mb
+      - ZZ_321
+      - ZZ_338
+      - ZZ_1215 |89.93Mb
+      - 🇸🇬 Pool_🇸🇬SG_593
+      - 🇨🇳 Relay_🇨🇳CN-🇮🇳IN_249
+      - NO_125
+      - ZZ_271
+      - ZZ_1258 |86.08Mb
+      - ZZ_1271 |88.32Mb
+      - ZZ_1247 |94.36Mb
+      - ZZ_1325 |93.03Mb
+      - ZZ_1337 |70.30Mb
+      - NO_481
+      - 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_146
+      - ZZ_1269 |66.09Mb
+      - ZZ_1272 |47.61Mb
+      - ZZ_343
+      - ZZ_1270 |56.81Mb
+      - 🇺🇸 US_945 |68.86Mb
+      - ZZ_1296 |254.15Mb
+      - 🇺🇸 US_168
+      - DE_199 |50.53Mb
+      - DE_196 |56.55Mb
+      - 🇺🇸 US_832 |48.37Mb
+      - DE_198 |55.15Mb
+      - NO_124
+      - 🇧🇪 比利时[感谢订阅——科技网络] 2
+      - 🇯🇵 JP_415 | 4.61Mb
+      - ZZ_289
+      - 🇸🇬 Pool_🇸🇬SG_605
+      - ZZ_1310 |164.46Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_262
+      - 🇺🇸 US_194
+      - CA_08
+      - ZZ_1322 |245.63Mb
+      - ZZ_330
+      - 🇺🇸 US_174
+      - 🇺🇸 US_188
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_91
+      - 🇺🇸 US_187
+      - 🇸🇬 Pool_🇸🇬SG_618
+      - 🇫🇷 法国[感谢订阅——科技网络]
+      - 🇸🇬 Pool_🇸🇬SG_623
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇫🇷 法国[感谢订阅——科技网络]
-      - 🇪🇺 欧洲[感谢订阅——科技网络]
-      - 🇫🇷 法国[感谢订阅——科技网络] 2
-      - 🇺🇸 美国[感谢订阅——科技网络]
-      - 🇧🇪 比利时[感谢订阅——科技网络]
-      - 🇺🇸 美国[感谢订阅——科技网络] 2
-      - 🇧🇪 比利时[感谢订阅——科技网络] 2
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)
+      - 🇺🇸 US_976 |60.00Mb
+      - ZZ_312
+      - ZZ_1213 |85.22Mb
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_97
+      - 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_148
+      - 🇸🇬 Pool_🇸🇬SG_589
+      - 🇸🇬 Pool_🇸🇬SG_149
+      - ZZ_1195 |167.22Mb
+      - 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_147
+      - 🇸🇬 Pool_🇸🇬SG_604
+      - NO_126
+      - 🇸🇬 Pool_🇸🇬SG_592
+      - 🇸🇬 SG_599 | 2.46Mb
+      - 🇸🇬 SG_634 | 2.02Mb
+      - Relay_🇨🇦CA-🇨🇦CA_25
+      - 🇯🇵 JP_418 | 2.05Mb
       - 🇯🇵 日本[感谢订阅——科技网络]
-      - CA(技术分享室整理,欢迎订阅)
-      - 🇮🇳 印度[感谢订阅——科技网络]
-      - 🇫🇷 法国[感谢订阅——科技网络] 3
-      - NO(技术分享室整理,欢迎订阅)
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_33
+      - Relay_🇨🇦CA-🇨🇦CA_22
+      - 🇸🇬 SG_594 | 3.06Mb
+      - 🇺🇸 US_990 |49.49Mb
+      - ZZ_1179 |23.37Mb
+      - ZZ_1162 |104.40Mb
+      - 🇯🇵 JP_445 | 2.46Mb
+      - ZZ_320
+      - 🇷🇺 Relay_🇨🇳CN-🇷🇺RU_261
+      - ZZ_299
+      - 🇸🇬 Pool_🇸🇬SG_616
+      - ZZ_300
+      - Relay_🇫🇷FR-🇫🇷FR_55
+      - 🇸🇬 Pool_🇸🇬SG_578
+      - 🇸🇬 SG_659 | 2.06Mb
+      - 🇸🇬 Pool_🇸🇬SG_579
+      - 🇧🇪 比利时[感谢订阅——科技网络]
+      - 🇺🇸 US_200
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_85
+      - 🇭🇰 Pool_🇭🇰HK_66
+      - 🇺🇸 US_944 |68.68Mb
+      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_40
+      - 🇸🇬 Pool_🇸🇬SG_151
+      - NO_486
+      - 🇺🇸 US_757 |21.36Mb
+      - 🇺🇸 US_755 |24.63Mb
+      - ZZ_1226 |19.87Mb
+      - _93 | 6.31Mb
+      - 🇺🇸 US_229
+      - 🇺🇸 US_208
+      - 🇺🇸 US_756 |36.11Mb
+      - ZZ_1327 |89.16Mb
+      - ZZ_1214 |88.05Mb
+      - ZZ_321
+      - ZZ_338
+      - ZZ_1215 |89.93Mb
+      - 🇸🇬 Pool_🇸🇬SG_593
+      - 🇨🇳 Relay_🇨🇳CN-🇮🇳IN_249
+      - NO_125
+      - ZZ_271
+      - ZZ_1258 |86.08Mb
+      - ZZ_1271 |88.32Mb
+      - ZZ_1247 |94.36Mb
+      - ZZ_1325 |93.03Mb
+      - ZZ_1337 |70.30Mb
+      - NO_481
+      - 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_146
+      - ZZ_1269 |66.09Mb
+      - ZZ_1272 |47.61Mb
+      - ZZ_343
+      - ZZ_1270 |56.81Mb
+      - 🇺🇸 US_945 |68.86Mb
+      - ZZ_1296 |254.15Mb
+      - 🇺🇸 US_168
+      - DE_199 |50.53Mb
+      - DE_196 |56.55Mb
+      - 🇺🇸 US_832 |48.37Mb
+      - DE_198 |55.15Mb
+      - NO_124
+      - 🇧🇪 比利时[感谢订阅——科技网络] 2
+      - 🇯🇵 JP_415 | 4.61Mb
+      - ZZ_289
+      - 🇸🇬 Pool_🇸🇬SG_605
+      - ZZ_1310 |164.46Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_262
+      - 🇺🇸 US_194
+      - CA_08
+      - ZZ_1322 |245.63Mb
+      - ZZ_330
+      - 🇺🇸 US_174
+      - 🇺🇸 US_188
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_91
+      - 🇺🇸 US_187
+      - 🇸🇬 Pool_🇸🇬SG_618
+      - 🇫🇷 法国[感谢订阅——科技网络]
+      - 🇸🇬 Pool_🇸🇬SG_623
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇫🇷 法国[感谢订阅——科技网络]
-      - 🇪🇺 欧洲[感谢订阅——科技网络]
-      - 🇫🇷 法国[感谢订阅——科技网络] 2
-      - 🇺🇸 美国[感谢订阅——科技网络]
-      - 🇧🇪 比利时[感谢订阅——科技网络]
-      - 🇺🇸 美国[感谢订阅——科技网络] 2
-      - 🇧🇪 比利时[感谢订阅——科技网络] 2
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)
+      - 🇺🇸 US_976 |60.00Mb
+      - ZZ_312
+      - ZZ_1213 |85.22Mb
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_97
+      - 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_148
+      - 🇸🇬 Pool_🇸🇬SG_589
+      - 🇸🇬 Pool_🇸🇬SG_149
+      - ZZ_1195 |167.22Mb
+      - 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_147
+      - 🇸🇬 Pool_🇸🇬SG_604
+      - NO_126
+      - 🇸🇬 Pool_🇸🇬SG_592
+      - 🇸🇬 SG_599 | 2.46Mb
+      - 🇸🇬 SG_634 | 2.02Mb
+      - Relay_🇨🇦CA-🇨🇦CA_25
+      - 🇯🇵 JP_418 | 2.05Mb
       - 🇯🇵 日本[感谢订阅——科技网络]
-      - CA(技术分享室整理,欢迎订阅)
-      - 🇮🇳 印度[感谢订阅——科技网络]
-      - 🇫🇷 法国[感谢订阅——科技网络] 3
-      - NO(技术分享室整理,欢迎订阅)
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_33
+      - Relay_🇨🇦CA-🇨🇦CA_22
+      - 🇸🇬 SG_594 | 3.06Mb
+      - 🇺🇸 US_990 |49.49Mb
+      - ZZ_1179 |23.37Mb
+      - ZZ_1162 |104.40Mb
+      - 🇯🇵 JP_445 | 2.46Mb
+      - ZZ_320
+      - 🇷🇺 Relay_🇨🇳CN-🇷🇺RU_261
+      - ZZ_299
+      - 🇸🇬 Pool_🇸🇬SG_616
+      - ZZ_300
+      - Relay_🇫🇷FR-🇫🇷FR_55
+      - 🇸🇬 Pool_🇸🇬SG_578
+      - 🇸🇬 SG_659 | 2.06Mb
+      - 🇸🇬 Pool_🇸🇬SG_579
+      - 🇧🇪 比利时[感谢订阅——科技网络]
+      - 🇺🇸 US_200
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_85
+      - 🇭🇰 Pool_🇭🇰HK_66
+      - 🇺🇸 US_944 |68.68Mb
+      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_40
+      - 🇸🇬 Pool_🇸🇬SG_151
+      - NO_486
+      - 🇺🇸 US_757 |21.36Mb
+      - 🇺🇸 US_755 |24.63Mb
+      - ZZ_1226 |19.87Mb
+      - _93 | 6.31Mb
+      - 🇺🇸 US_229
+      - 🇺🇸 US_208
+      - 🇺🇸 US_756 |36.11Mb
+      - ZZ_1327 |89.16Mb
+      - ZZ_1214 |88.05Mb
+      - ZZ_321
+      - ZZ_338
+      - ZZ_1215 |89.93Mb
+      - 🇸🇬 Pool_🇸🇬SG_593
+      - 🇨🇳 Relay_🇨🇳CN-🇮🇳IN_249
+      - NO_125
+      - ZZ_271
+      - ZZ_1258 |86.08Mb
+      - ZZ_1271 |88.32Mb
+      - ZZ_1247 |94.36Mb
+      - ZZ_1325 |93.03Mb
+      - ZZ_1337 |70.30Mb
+      - NO_481
+      - 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_146
+      - ZZ_1269 |66.09Mb
+      - ZZ_1272 |47.61Mb
+      - ZZ_343
+      - ZZ_1270 |56.81Mb
+      - 🇺🇸 US_945 |68.86Mb
+      - ZZ_1296 |254.15Mb
+      - 🇺🇸 US_168
+      - DE_199 |50.53Mb
+      - DE_196 |56.55Mb
+      - 🇺🇸 US_832 |48.37Mb
+      - DE_198 |55.15Mb
+      - NO_124
+      - 🇧🇪 比利时[感谢订阅——科技网络] 2
+      - 🇯🇵 JP_415 | 4.61Mb
+      - ZZ_289
+      - 🇸🇬 Pool_🇸🇬SG_605
+      - ZZ_1310 |164.46Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_262
+      - 🇺🇸 US_194
+      - CA_08
+      - ZZ_1322 |245.63Mb
+      - ZZ_330
+      - 🇺🇸 US_174
+      - 🇺🇸 US_188
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_91
+      - 🇺🇸 US_187
+      - 🇸🇬 Pool_🇸🇬SG_618
+      - 🇫🇷 法国[感谢订阅——科技网络]
+      - 🇸🇬 Pool_🇸🇬SG_623
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -151,19 +711,99 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇫🇷 法国[感谢订阅——科技网络]
-      - 🇪🇺 欧洲[感谢订阅——科技网络]
-      - 🇫🇷 法国[感谢订阅——科技网络] 2
-      - 🇺🇸 美国[感谢订阅——科技网络]
-      - 🇧🇪 比利时[感谢订阅——科技网络]
-      - 🇺🇸 美国[感谢订阅——科技网络] 2
-      - 🇧🇪 比利时[感谢订阅——科技网络] 2
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)
+      - 🇺🇸 US_976 |60.00Mb
+      - ZZ_312
+      - ZZ_1213 |85.22Mb
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_97
+      - 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_148
+      - 🇸🇬 Pool_🇸🇬SG_589
+      - 🇸🇬 Pool_🇸🇬SG_149
+      - ZZ_1195 |167.22Mb
+      - 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_147
+      - 🇸🇬 Pool_🇸🇬SG_604
+      - NO_126
+      - 🇸🇬 Pool_🇸🇬SG_592
+      - 🇸🇬 SG_599 | 2.46Mb
+      - 🇸🇬 SG_634 | 2.02Mb
+      - Relay_🇨🇦CA-🇨🇦CA_25
+      - 🇯🇵 JP_418 | 2.05Mb
       - 🇯🇵 日本[感谢订阅——科技网络]
-      - CA(技术分享室整理,欢迎订阅)
-      - 🇮🇳 印度[感谢订阅——科技网络]
-      - 🇫🇷 法国[感谢订阅——科技网络] 3
-      - NO(技术分享室整理,欢迎订阅)
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_33
+      - Relay_🇨🇦CA-🇨🇦CA_22
+      - 🇸🇬 SG_594 | 3.06Mb
+      - 🇺🇸 US_990 |49.49Mb
+      - ZZ_1179 |23.37Mb
+      - ZZ_1162 |104.40Mb
+      - 🇯🇵 JP_445 | 2.46Mb
+      - ZZ_320
+      - 🇷🇺 Relay_🇨🇳CN-🇷🇺RU_261
+      - ZZ_299
+      - 🇸🇬 Pool_🇸🇬SG_616
+      - ZZ_300
+      - Relay_🇫🇷FR-🇫🇷FR_55
+      - 🇸🇬 Pool_🇸🇬SG_578
+      - 🇸🇬 SG_659 | 2.06Mb
+      - 🇸🇬 Pool_🇸🇬SG_579
+      - 🇧🇪 比利时[感谢订阅——科技网络]
+      - 🇺🇸 US_200
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_85
+      - 🇭🇰 Pool_🇭🇰HK_66
+      - 🇺🇸 US_944 |68.68Mb
+      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_40
+      - 🇸🇬 Pool_🇸🇬SG_151
+      - NO_486
+      - 🇺🇸 US_757 |21.36Mb
+      - 🇺🇸 US_755 |24.63Mb
+      - ZZ_1226 |19.87Mb
+      - _93 | 6.31Mb
+      - 🇺🇸 US_229
+      - 🇺🇸 US_208
+      - 🇺🇸 US_756 |36.11Mb
+      - ZZ_1327 |89.16Mb
+      - ZZ_1214 |88.05Mb
+      - ZZ_321
+      - ZZ_338
+      - ZZ_1215 |89.93Mb
+      - 🇸🇬 Pool_🇸🇬SG_593
+      - 🇨🇳 Relay_🇨🇳CN-🇮🇳IN_249
+      - NO_125
+      - ZZ_271
+      - ZZ_1258 |86.08Mb
+      - ZZ_1271 |88.32Mb
+      - ZZ_1247 |94.36Mb
+      - ZZ_1325 |93.03Mb
+      - ZZ_1337 |70.30Mb
+      - NO_481
+      - 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_146
+      - ZZ_1269 |66.09Mb
+      - ZZ_1272 |47.61Mb
+      - ZZ_343
+      - ZZ_1270 |56.81Mb
+      - 🇺🇸 US_945 |68.86Mb
+      - ZZ_1296 |254.15Mb
+      - 🇺🇸 US_168
+      - DE_199 |50.53Mb
+      - DE_196 |56.55Mb
+      - 🇺🇸 US_832 |48.37Mb
+      - DE_198 |55.15Mb
+      - NO_124
+      - 🇧🇪 比利时[感谢订阅——科技网络] 2
+      - 🇯🇵 JP_415 | 4.61Mb
+      - ZZ_289
+      - 🇸🇬 Pool_🇸🇬SG_605
+      - ZZ_1310 |164.46Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_262
+      - 🇺🇸 US_194
+      - CA_08
+      - ZZ_1322 |245.63Mb
+      - ZZ_330
+      - 🇺🇸 US_174
+      - 🇺🇸 US_188
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_91
+      - 🇺🇸 US_187
+      - 🇸🇬 Pool_🇸🇬SG_618
+      - 🇫🇷 法国[感谢订阅——科技网络]
+      - 🇸🇬 Pool_🇸🇬SG_623
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
