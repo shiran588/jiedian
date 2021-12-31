@@ -5,578 +5,746 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇨🇦 加拿大🇨🇦(Youtube频道：工具大师！), server: 198.57.27.218, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: CYL-科技（2021.12.11） 87, server: 172.105.251.193, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: CYL-科技（2021.12.11） 57, server: 172.105.251.193, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: CYL-科技（2021.12.11） 84, server: t7.ssrsub.com, port: 8443, type: trojan, password: e795f820-9391-4a9d-bfaf-b5329386f82f, sni: t7.ssrsub.com}
-  - {name: CYL-科技（2021.12.11） 184, server: 1116yn.fans8.xyz, port: 80, type: vmess, uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}}
-  - {name: CYL-科技（2021.12.11） 192, server: 142.4.123.249, port: 500, type: vmess, uuid: 0dcea9f2-10ac-11ec-a0bc-00163cf00cd9, alterId: 0, cipher: auto, tls: false}
-  - {name: CYL-科技（2021.12.11） 183, server: 185.90.57.152, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: qSnstpCypymLvPeyLRqf}
-  - {name: CYL-科技（2021.12.11） 83, server: t4.ssrsub.com, port: 8443, type: trojan, password: e795f820-9391-4a9d-bfaf-b5329386f82f, sni: t4.ssrsub.com}
-  - {name: CYL-科技（2021.12.11） 175, server: 134.195.196.107, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: "🇸🇬 新加坡[感谢订阅——科技网络]", server: jp-tokyo-node2.ycgyg.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: jp-tokyo-node2.ycgyg.com}}
-  - {name: 挪威(Youtube频道：工具大师！), server: 46.29.218.6, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: "🇪🇺 欧洲[感谢订阅——科技网络]", server: 192.186.129.66, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}}
-  - {name: CYL-科技（2021.12.11） 193, server: 139.162.116.154, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: CYL-科技（2021.12.11） 189, server: 45.133.181.58, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qzj5NqakK4YvYYU87eFF}
-  - {name: CYL-科技（2021.12.11） 166, server: 62.210.209.50, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: CYL-科技（2021.12.11） 136, server: 103.108.94.226, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: bFfLrvbG3GjjNSxKBWt5}
-  - {name: CYL-科技（2021.12.11） 74, server: shcn2-06b.iplc188.com, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false}
-  - {name: CYL-科技（2021.12.11） 150, server: 107.161.50.42, port: 22401, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 107.161.50.42}}
-  - {name: CYL-科技（2021.12.11） 32, server: zhuzhu12.com, port: 46101, type: vmess, uuid: f48e28a2-6187-3ff5-a900-084fa313de08, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: zhuzhu12.com}}
-  - {name: CYL-科技（2021.12.11） 144, server: 212.199.61.55, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: scDj68fv6xkMg2np9RgW}
-  - {name: CYL-科技（2021.12.11） 41, server: 194.135.32.208, port: 32551, type: vmess, uuid: 9d40aefc-54d9-11ec-af2d-f2c157360b1e, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /W9s28k1i/, ws-headers: {Host: 194.135.32.208}}
-  - {name: CYL-科技（2021.12.11） 185, server: 1116yn.fans8.xyz, port: 80, type: vmess, uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 1116yn.fans8.xyz}}
-  - {name: CYL-科技（2021.12.11） 113, server: 1116hk.fans8.xyz, port: 80, type: vmess, uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}}
-  - {name: CYL-科技（2021.12.11） 165, server: 107.148.200.229, port: 10022, type: vmess, uuid: 6e6ce89a-42d5-11ec-ac9d-00163c0ad178, alterId: 0, cipher: auto, tls: false}
-  - {name: CYL-科技（2021.12.11） 119, server: t4.ssrsub.com, port: 8443, type: trojan, password: 13b36e17-e869-4b77-bf33-e5a431eac496, sni: t4.ssrsub.com}
-  - {name: CYL-科技（2021.12.11） 7, server: 118.107.244.112, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: CYL-科技（2021.12.11） 4, server: 172.105.113.182, port: 59633, type: vmess, uuid: f0dad28b-c9d3-44e7-9447-6a99fe35abb6, alterId: 0, cipher: auto, tls: false}
-  - {name: CYL-科技（2021.12.11） 21, server: 118.107.244.112, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: CYL-科技（2021.12.11） 158, server: 139.162.80.175, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: "🇪🇺 欧洲[感谢订阅——科技网络] 2", server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
-  - {name: "🇺🇸 美国[感谢订阅——科技网络]", server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
-  - {name: "🇩🇪 德国[感谢订阅——科技网络]", server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
-  - {name: CYL-科技（2021.12.11） 20, server: 192.46.209.215, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: NO(Youtube频道：工具大师！), server: 46.29.218.6, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: CYL-科技（2021.12.11） 10, server: 172.105.35.61, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: CYL-科技（2021.12.11） 125, server: 107.148.200.123, port: 30033, type: vmess, uuid: e85a81e0-12a0-11ec-bc90-00163c1b189e, alterId: 0, cipher: auto, tls: false}
-  - {name: CYL-科技（2021.12.11） 131, server: 1031kr.fans8.xyz, port: 80, type: vmess, uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}}
-  - {name: CYL-科技（2021.12.11） 76, server: 103.164.81.114, port: 80, type: vmess, uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}}
-  - {name: CYL-科技（2021.12.11） 13, server: 172.105.35.61, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: "🇪🇺 欧洲[感谢订阅——科技网络] 3", server: 1116hk.fans8.xyz, port: 80, type: vmess, uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 1116hk.fans8.xyz}}
-  - {name: CYL-科技（2021.12.11） 171, server: shcn2-06b.iplc188.com, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false}
-  - {name: CYL-科技（2021.12.11） 135, server: 172.105.41.63, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: CYL-科技（2021.12.11） 9, server: 139.162.56.155, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: CYL-科技（2021.12.11） 161, server: 139.99.62.207, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: NO(Youtube频道：工具大师！) 2, server: 46.29.218.6, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: CYL-科技（2021.12.11） 167, server: inapus.mooncloud.bike, port: 10099, type: vmess, uuid: c6aa6b6f-66b2-4755-a12e-48c8836fa0ec, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: inapus.mooncloud.bike}}
-  - {name: 挪威 🇳🇴(Youtube频道：工具大师！), server: 46.29.218.6, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: CYL-科技（2021.12.11） 55, server: 223.25.246.4, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: w4GUD28Bw9uCMdbc2pqA}
-  - {name: CYL-科技（2021.12.11） 170, server: 139.99.62.207, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: CYL-科技（2021.12.11） 159, server: 134.195.196.107, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: CYL-科技（2021.12.11） 145, server: 1211tw.fans8.xyz, port: 80, type: vmess, uuid: 0bfa3ac3-3276-3020-a1d3-247703ef53f7, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: shoutingtoutiao3.10010.com}}
-  - {name: "🇺🇸 美国[感谢订阅——科技网络] 2", server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}}
-  - {name: 🇺🇸 US(Youtube频道：工具大师！), server: 5.183.177.111, port: 443, type: trojan, password: a3fa58b581353bb375d2ddad0f327938}
-  - {name: CYL-科技（2021.12.11） 18, server: 139.227.161.129, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false}
-  - {name: CYL-科技（2021.12.11） 140, server: 915ru1.fans8.xyz, port: 80, type: vmess, uuid: 0bfa3ac3-3276-3020-a1d3-247703ef53f7, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: shoutingtoutiao3.10010.com}}
-  - {name: CYL-科技（2021.12.11） 160, server: 146.0.36.23, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: CYL-科技（2021.12.11） 179, server: 1116hk.fans8.xyz, port: 80, type: vmess, uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 1116hk.fans8.xyz}}
-  - {name: CYL-科技（2021.12.11） 148, server: 172.105.251.193, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: CYL-科技（2021.12.11） 81, server: 172.99.190.87, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: CYL-科技（2021.12.11） 88, server: 134.195.196.184, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: CYL-科技（2021.12.11） 80, server: 172.99.190.87, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: CYL-科技（2021.12.11） 89, server: 134.195.196.184, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: CYL-科技（2021.12.11） 182, server: 184.75.208.234, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 47GH3wQRw7V4Zhd35bFs}
-  - {name: CYL-科技（2021.12.11） 90, server: 134.195.196.184, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: CYL-科技（2021.12.11） 79, server: 134.195.196.184, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: CYL-科技（2021.12.11） 82, server: 134.195.196.184, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: NO(Youtube频道：工具大师！) 3, server: 46.29.218.6, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: CYL-科技（2021.12.11） 162, server: 184.75.208.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 47GH3wQRw7V4Zhd35bFs}
-  - {name: CYL-科技（2021.12.11） 174, server: 51.79.178.17, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 挪威 🇳🇴(Youtube频道：工具大师！) 2, server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: CA(Youtube频道：工具大师！), server: 198.57.27.218, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇭🇰 HK(Youtube频道：工具大师！), server: 118.107.244.110, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: "🇪🇺 欧洲[感谢订阅——科技网络] 4", server: jp-tokyo-node2.ycgyg.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: jp-tokyo-node2.ycgyg.com}}
-  - {name: CYL-科技（2021.12.11） 154, server: 1031kr.fans8.xyz, port: 80, type: vmess, uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 1031kr.fans8.xyz}}
-  - {name: CYL-科技（2021.12.11） 121, server: 1031kr.fans8.xyz, port: 80, type: vmess, uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: youtube-awekji}}
-  - {name: CYL-科技（2021.12.11） 127, server: t7.ssrsub.com, port: 8443, type: trojan, password: 13b36e17-e869-4b77-bf33-e5a431eac496, sni: t7.ssrsub.com}
-  - {name: CYL-科技（2021.12.11） 188, server: 172.105.251.193, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: CYL-科技（2021.12.28）, server: 116.206.230.130, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: zaNeDgu9mZKpEMTHQJy8}
+  - {name: 🇺🇸 美国, server: 70.39.71.2, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: XkH8z99cQguQ8ywK5jhV}
+  - {name: "挪威[感谢订阅——科技网络]", server: 46.29.218.6, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: "🇺🇸 美国[感谢订阅——科技网络]", server: v8.ssrsub.com, port: 443, type: vmess, uuid: 8cf83f44-79ff-4e50-be1a-585c82338912, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v8.ssrsub.com}}
+  - {name: "🇭🇰 香港[感谢订阅——科技网络]", server: 118.107.244.110, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君), server: 37.120.136.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Xd2xnHT8tYkVt5BDk92b}
+  - {name: "🇺🇸 美国[感谢订阅——科技网络] 2", server: t4.ssrsub.com, port: 156, type: trojan, password: 1de99090-4bd5-4670-9cec-05f55b4c6917, sni: t4.ssrsub.com}
+  - {name: CYL-科技（2021.12.28） 2, server: 217.138.221.42, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: r4MP5DzDNmAqbBHzbSXw}
+  - {name: "🇪🇺 欧洲[感谢订阅——科技网络]", server: 185.51.134.210, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: mTrN2fMYeWJwrkWpTnL2}
+  - {name: "🇺🇸 美国[感谢订阅——科技网络] 3", server: v3.ssrsub.com, port: 443, type: vmess, uuid: 8cf83f44-79ff-4e50-be1a-585c82338912, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v3.ssrsub.com}}
+  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 2, server: 211.99.96.40, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY}
+  - {name: "🇺🇸 美国[感谢订阅——科技网络] 4", server: 43.154.157.216, port: 60151, type: ss, cipher: chacha20-ietf-poly1305, password: dunkpzGG9FM9}
+  - {name: "挪威[感谢订阅——科技网络] 2", server: 46.29.218.6, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: "🇮🇹 意大利[感谢订阅——科技网络]", server: 198.57.27.218, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: "🇭🇰 香港[感谢订阅——科技网络] 2", server: 118.107.244.110, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: CYL-科技（2021.12.28） 3, server: 178.62.224.119, port: 8888, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 178.62.224.119}}
+  - {name: "🇮🇹 意大利[感谢订阅——科技网络] 2", server: 198.57.27.218, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: "🇮🇹 意大利[感谢订阅——科技网络] 3", server: 198.57.27.218, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: "🇺🇸 美国[感谢订阅——科技网络] 5", server: t3.ssrsub.com, port: 156, type: trojan, password: 8cf83f44-79ff-4e50-be1a-585c82338912, sni: t3.ssrsub.com}
+  - {name: CYL-科技（2021.12.28） 4, server: 188.214.125.106, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: Zq4srheW4eeqMfGeWMTG}
+  - {name: "🇭🇰 香港[感谢订阅——科技网络] 3", server: 112.33.32.136, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false}
+  - {name: 🇪🇺 欧洲, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
+  - {name: 🇪🇺 欧洲 2, server: 62.210.209.50, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: "🇮🇹 意大利[感谢订阅——科技网络] 4", server: 198.57.27.218, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: CYL-科技（2021.12.28） 5, server: 45.133.181.58, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: qzj5NqakK4YvYYU87eFF}
+  - {name: "🇨🇳 台湾[感谢订阅——科技网络]", server: 188.214.106.98, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: cNbqVVyUfbJFZ6S8EgRH}
+  - {name: "🇺🇸 美国[感谢订阅——科技网络] 6", server: v6.ssrsub.com, port: 8443, type: vmess, uuid: 8cf83f44-79ff-4e50-be1a-585c82338912, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v6.ssrsub.com}}
+  - {name: "🇺🇸 美国[感谢订阅——科技网络] 7", server: t3.ssrsub.com, port: 156, type: trojan, password: 1de99090-4bd5-4670-9cec-05f55b4c6917, sni: t3.ssrsub.com}
+  - {name: "🇪🇺 欧洲[感谢订阅——科技网络] 2", server: 188.214.152.194, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: t8BFcaM3GSCw5FHbph27}
+  - {name: "🇪🇺 欧洲[感谢订阅——科技网络] 3", server: 172.104.98.216, port: 80, type: vmess, uuid: e5af0cad-295c-37b2-b601-f35d13f6b1bb, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: www.gov.hk}}
+  - {name: "🇺🇸 美国[感谢订阅——科技网络] 8", server: 38.75.136.93, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: "🇺🇸 美国[感谢订阅——科技网络] 9", server: v3.ssrsub.com, port: 443, type: vmess, uuid: 8cf83f44-79ff-4e50-be1a-585c82338912, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v3.ssrsub.com}}
+  - {name: "🇺🇸 美国[感谢订阅——科技网络] 10", server: v8.ssrsub.com, port: 443, type: vmess, uuid: 8cf83f44-79ff-4e50-be1a-585c82338912, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v8.ssrsub.com}}
+  - {name: "🇺🇸 美国[感谢订阅——科技网络] 11", server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
+  - {name: "挪威[感谢订阅——科技网络] 3", server: 46.29.218.6, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: "🇪🇺 欧洲[感谢订阅——科技网络] 4", server: 23.82.136.151, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-miami.lvuft.com}}
+  - {name: 🇪🇺 欧洲 3, server: 84.17.37.55, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: tjwRqQvteAjt3xFmbZTA}
+  - {name: "挪威[感谢订阅——科技网络] 4", server: 46.29.218.6, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: "🇺🇸 美国[感谢订阅——科技网络] 12", server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}}
+  - {name: "挪威[感谢订阅——科技网络] 5", server: 46.29.218.6, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: "🇯🇵 日本[感谢订阅——科技网络]", server: 172.104.98.216, port: 80, type: vmess, uuid: e5af0cad-295c-37b2-b601-f35d13f6b1bb, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 172.104.98.216}}
+  - {name: "🇭🇰 香港[感谢订阅——科技网络] 4", server: v3.ssrsub.com, port: 443, type: vmess, uuid: 1de99090-4bd5-4670-9cec-05f55b4c6917, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v3.ssrsub.com}}
+  - {name: "🇯🇵 日本[感谢订阅——科技网络] 2", server: 172.105.35.61, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: "🇮🇹 意大利[感谢订阅——科技网络] 5", server: 139.99.62.207, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: "🇺🇸 美国[感谢订阅——科技网络] 13", server: v1.ssrsub.com, port: 8443, type: vmess, uuid: 1de99090-4bd5-4670-9cec-05f55b4c6917, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v1.ssrsub.com}}
+  - {name: "挪威[感谢订阅——科技网络] 6", server: 46.29.218.6, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: "🇺🇸 美国[感谢订阅——科技网络] 14", server: 18.218.198.254, port: 9999, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 18.218.198.254}}
+  - {name: "🇺🇸 美国[感谢订阅——科技网络] 15", server: v5.ssrsub.com, port: 8443, type: vmess, uuid: 8cf83f44-79ff-4e50-be1a-585c82338912, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v5.ssrsub.com}}
+  - {name: "🇺🇸 美国[感谢订阅——科技网络] 16", server: v9.ssrsub.com, port: 8443, type: vmess, uuid: 8cf83f44-79ff-4e50-be1a-585c82338912, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v9.ssrsub.com}}
+  - {name: "🇺🇸 美国[感谢订阅——科技网络] 17", server: 77.243.191.178, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 47GH3wQRw7V4Zhd35bFs}
+  - {name: "🇭🇰 香港[感谢订阅——科技网络] 5", server: 118.107.244.110, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: "🇪🇺 欧洲[感谢订阅——科技网络] 5", server: 66.55.92.101, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: NK4wZejCzDfPdWXTK4FW}
+  - {name: "🇭🇰 香港[感谢订阅——科技网络] 6", server: 118.107.244.110, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: "🇺🇸 美国[感谢订阅——科技网络] 18", server: v8.ssrsub.com, port: 443, type: vmess, uuid: 1de99090-4bd5-4670-9cec-05f55b4c6917, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v8.ssrsub.com}}
+  - {name: CYL-科技（2021.12.28） 6, server: 223.25.246.4, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: w4GUD28Bw9uCMdbc2pqA}
+  - {name: "挪威[感谢订阅——科技网络] 7", server: 46.29.218.6, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: "🇺🇸 美国[感谢订阅——科技网络] 19", server: v8.ssrsub.com, port: 443, type: vmess, uuid: 1de99090-4bd5-4670-9cec-05f55b4c6917, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v8.ssrsub.com}}
+  - {name: "🇺🇸 美国[感谢订阅——科技网络] 20", server: v6.ssrsub.com, port: 8443, type: vmess, uuid: 1de99090-4bd5-4670-9cec-05f55b4c6917, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v6.ssrsub.com}}
+  - {name: "挪威[感谢订阅——科技网络] 8", server: 46.29.218.6, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: "🇺🇸 美国[感谢订阅——科技网络] 21", server: v9.ssrsub.com, port: 8443, type: vmess, uuid: 1de99090-4bd5-4670-9cec-05f55b4c6917, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v9.ssrsub.com}}
+  - {name: "🇺🇸 美国[感谢订阅——科技网络] 22", server: 38.91.102.86, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: "🇺🇸 美国[感谢订阅——科技网络] 23", server: 145.239.1.137, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: "🇺🇸 美国[感谢订阅——科技网络] 24", server: 138.3.210.217, port: 60935, type: vmess, uuid: 1b693eb3-3241-362a-9001-5b503789cfbe, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 138.3.210.217}}
+  - {name: "🇺🇸 美国[感谢订阅——科技网络] 25", server: 145.239.1.137, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: "挪威[感谢订阅——科技网络] 9", server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: "🇫🇷 法国[感谢订阅——科技网络]", server: 145.239.1.137, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: "🇺🇸 美国[感谢订阅——科技网络] 26", server: 38.91.102.96, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: "🇺🇸 美国[感谢订阅——科技网络] 27", server: 38.91.102.96, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: "🇺🇸 美国[感谢订阅——科技网络] 28", server: 5.255.101.95, port: 60202, type: vmess, uuid: 1b693eb3-3241-362a-9001-5b503789cfbe, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 5.255.101.95}}
+  - {name: "🇺🇸 美国[感谢订阅——科技网络] 29", server: 46.29.218.6, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: "🇺🇸 美国[感谢订阅——科技网络] 30", server: 167.88.61.60, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: "🇮🇹 意大利[感谢订阅——科技网络] 6", server: 139.99.62.207, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: "🇺🇸 美国[感谢订阅——科技网络] 31", server: 139.99.62.207, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: "🇺🇸 美国[感谢订阅——科技网络] 32", server: 38.75.136.93, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: "🇺🇸 美国[感谢订阅——科技网络] 33", server: 172.99.190.87, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: "挪威[感谢订阅——科技网络] 10", server: 46.29.218.6, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 美国(欢迎订阅Youtube破解资源君), server: 172.99.190.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: "🇺🇸 美国[感谢订阅——科技网络] 34", server: 38.75.136.93, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: "🇪🇺 欧洲[感谢订阅——科技网络] 6", server: 217.138.200.242, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: EGTHtnGhcnggx5yBYSqS}
+  - {name: "🇺🇸 美国[感谢订阅——科技网络] 35", server: t1.ssrsub.com, port: 8443, type: trojan, password: 8cf83f44-79ff-4e50-be1a-585c82338912, sni: t1.ssrsub.com}
+  - {name: "🇺🇸 美国[感谢订阅——科技网络] 36", server: 82.202.220.242, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: Kw6hMXQ2Z7ey7mf2Uqyr}
+  - {name: "🇺🇸 美国[感谢订阅——科技网络] 37", server: 23.226.131.146, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: ckX2YfENbjCtVzVJphFP}
+  - {name: "🇺🇸 美国[感谢订阅——科技网络] 38", server: 169.197.141.24, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 美国 2, server: 70.32.0.208, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: q4apPAjyY9knqKS4e9xZ}
+  - {name: "🇺🇸 美国[感谢订阅——科技网络] 39", server: 169.197.141.24, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: "🇺🇸 美国[感谢订阅——科技网络] 40", server: 172.99.190.87, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: "🇺🇸 美国[感谢订阅——科技网络] 41", server: 145.239.1.137, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: "🇺🇸 美国[感谢订阅——科技网络] 42", server: 169.197.141.24, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: "🇩🇪 德国[感谢订阅——科技网络]", server: 145.239.1.137, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: "🇺🇸 美国[感谢订阅——科技网络] 43", server: 145.239.1.137, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: "🇺🇸 美国[感谢订阅——科技网络] 44", server: 38.75.136.93, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: "🇺🇸 美国[感谢订阅——科技网络] 45", server: 172.99.190.87, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: "🇺🇸 美国[感谢订阅——科技网络] 46", server: 145.239.1.137, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: "🇭🇰 香港[感谢订阅——科技网络] 7", server: 46.102.153.106, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: dsHq7JmRFhSkvxzCuMFy}
+  - {name: "🇮🇹 意大利[感谢订阅——科技网络] 7", server: 198.57.27.218, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: "🇺🇸 美国[感谢订阅——科技网络] 47", server: t1.ssrsub.com, port: 8443, type: trojan, password: 1de99090-4bd5-4670-9cec-05f55b4c6917, sni: t1.ssrsub.com}
+  - {name: "🇺🇸 美国[感谢订阅——科技网络] 48", server: 5.253.204.194, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qLzS7DF9qRYxJTHfckhC}
+  - {name: "🇺🇸 美国[感谢订阅——科技网络] 49", server: 172.99.190.87, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: CYL-科技（2021.12.15）, server: iesei1ei.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: iesei1ei.com}}
+  - {name: "挪威[感谢订阅——科技网络] 11", server: 46.29.218.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: "🇯🇵 日本[感谢订阅——科技网络] 3", server: 62.210.209.50, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇨🇦 加拿大🇨🇦(Youtube频道：工具大师！)
-      - CYL-科技（2021.12.11） 87
-      - CYL-科技（2021.12.11） 57
-      - CYL-科技（2021.12.11） 84
-      - CYL-科技（2021.12.11） 184
-      - CYL-科技（2021.12.11） 192
-      - CYL-科技（2021.12.11） 183
-      - CYL-科技（2021.12.11） 83
-      - CYL-科技（2021.12.11） 175
-      - 🇸🇬 新加坡[感谢订阅——科技网络]
-      - 挪威(Youtube频道：工具大师！)
-      - 🇪🇺 欧洲[感谢订阅——科技网络]
-      - CYL-科技（2021.12.11） 193
-      - CYL-科技（2021.12.11） 189
-      - CYL-科技（2021.12.11） 166
-      - CYL-科技（2021.12.11） 136
-      - CYL-科技（2021.12.11） 74
-      - CYL-科技（2021.12.11） 150
-      - CYL-科技（2021.12.11） 32
-      - CYL-科技（2021.12.11） 144
-      - CYL-科技（2021.12.11） 41
-      - CYL-科技（2021.12.11） 185
-      - CYL-科技（2021.12.11） 113
-      - CYL-科技（2021.12.11） 165
-      - CYL-科技（2021.12.11） 119
-      - CYL-科技（2021.12.11） 7
-      - CYL-科技（2021.12.11） 4
-      - CYL-科技（2021.12.11） 21
-      - CYL-科技（2021.12.11） 158
-      - 🇪🇺 欧洲[感谢订阅——科技网络] 2
+      - CYL-科技（2021.12.28）
+      - 🇺🇸 美国
+      - 挪威[感谢订阅——科技网络]
       - 🇺🇸 美国[感谢订阅——科技网络]
-      - 🇩🇪 德国[感谢订阅——科技网络]
-      - CYL-科技（2021.12.11） 20
-      - NO(Youtube频道：工具大师！)
-      - CYL-科技（2021.12.11） 10
-      - CYL-科技（2021.12.11） 125
-      - CYL-科技（2021.12.11） 131
-      - CYL-科技（2021.12.11） 76
-      - CYL-科技（2021.12.11） 13
-      - 🇪🇺 欧洲[感谢订阅——科技网络] 3
-      - CYL-科技（2021.12.11） 171
-      - CYL-科技（2021.12.11） 135
-      - CYL-科技（2021.12.11） 9
-      - CYL-科技（2021.12.11） 161
-      - NO(Youtube频道：工具大师！) 2
-      - CYL-科技（2021.12.11） 167
-      - 挪威 🇳🇴(Youtube频道：工具大师！)
-      - CYL-科技（2021.12.11） 55
-      - CYL-科技（2021.12.11） 170
-      - CYL-科技（2021.12.11） 159
-      - CYL-科技（2021.12.11） 145
+      - 🇭🇰 香港[感谢订阅——科技网络]
+      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)
       - 🇺🇸 美国[感谢订阅——科技网络] 2
-      - 🇺🇸 US(Youtube频道：工具大师！)
-      - CYL-科技（2021.12.11） 18
-      - CYL-科技（2021.12.11） 140
-      - CYL-科技（2021.12.11） 160
-      - CYL-科技（2021.12.11） 179
-      - CYL-科技（2021.12.11） 148
-      - CYL-科技（2021.12.11） 81
-      - CYL-科技（2021.12.11） 88
-      - CYL-科技（2021.12.11） 80
-      - CYL-科技（2021.12.11） 89
-      - CYL-科技（2021.12.11） 182
-      - CYL-科技（2021.12.11） 90
-      - CYL-科技（2021.12.11） 79
-      - CYL-科技（2021.12.11） 82
-      - NO(Youtube频道：工具大师！) 3
-      - CYL-科技（2021.12.11） 162
-      - CYL-科技（2021.12.11） 174
-      - 挪威 🇳🇴(Youtube频道：工具大师！) 2
-      - CA(Youtube频道：工具大师！)
-      - 🇭🇰 HK(Youtube频道：工具大师！)
+      - CYL-科技（2021.12.28） 2
+      - 🇪🇺 欧洲[感谢订阅——科技网络]
+      - 🇺🇸 美国[感谢订阅——科技网络] 3
+      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 🇺🇸 美国[感谢订阅——科技网络] 4
+      - 挪威[感谢订阅——科技网络] 2
+      - 🇮🇹 意大利[感谢订阅——科技网络]
+      - 🇭🇰 香港[感谢订阅——科技网络] 2
+      - CYL-科技（2021.12.28） 3
+      - 🇮🇹 意大利[感谢订阅——科技网络] 2
+      - 🇮🇹 意大利[感谢订阅——科技网络] 3
+      - 🇺🇸 美国[感谢订阅——科技网络] 5
+      - CYL-科技（2021.12.28） 4
+      - 🇭🇰 香港[感谢订阅——科技网络] 3
+      - 🇪🇺 欧洲
+      - 🇪🇺 欧洲 2
+      - 🇮🇹 意大利[感谢订阅——科技网络] 4
+      - CYL-科技（2021.12.28） 5
+      - 🇨🇳 台湾[感谢订阅——科技网络]
+      - 🇺🇸 美国[感谢订阅——科技网络] 6
+      - 🇺🇸 美国[感谢订阅——科技网络] 7
+      - 🇪🇺 欧洲[感谢订阅——科技网络] 2
+      - 🇪🇺 欧洲[感谢订阅——科技网络] 3
+      - 🇺🇸 美国[感谢订阅——科技网络] 8
+      - 🇺🇸 美国[感谢订阅——科技网络] 9
+      - 🇺🇸 美国[感谢订阅——科技网络] 10
+      - 🇺🇸 美国[感谢订阅——科技网络] 11
+      - 挪威[感谢订阅——科技网络] 3
       - 🇪🇺 欧洲[感谢订阅——科技网络] 4
-      - CYL-科技（2021.12.11） 154
-      - CYL-科技（2021.12.11） 121
-      - CYL-科技（2021.12.11） 127
-      - CYL-科技（2021.12.11） 188
+      - 🇪🇺 欧洲 3
+      - 挪威[感谢订阅——科技网络] 4
+      - 🇺🇸 美国[感谢订阅——科技网络] 12
+      - 挪威[感谢订阅——科技网络] 5
+      - 🇯🇵 日本[感谢订阅——科技网络]
+      - 🇭🇰 香港[感谢订阅——科技网络] 4
+      - 🇯🇵 日本[感谢订阅——科技网络] 2
+      - 🇮🇹 意大利[感谢订阅——科技网络] 5
+      - 🇺🇸 美国[感谢订阅——科技网络] 13
+      - 挪威[感谢订阅——科技网络] 6
+      - 🇺🇸 美国[感谢订阅——科技网络] 14
+      - 🇺🇸 美国[感谢订阅——科技网络] 15
+      - 🇺🇸 美国[感谢订阅——科技网络] 16
+      - 🇺🇸 美国[感谢订阅——科技网络] 17
+      - 🇭🇰 香港[感谢订阅——科技网络] 5
+      - 🇪🇺 欧洲[感谢订阅——科技网络] 5
+      - 🇭🇰 香港[感谢订阅——科技网络] 6
+      - 🇺🇸 美国[感谢订阅——科技网络] 18
+      - CYL-科技（2021.12.28） 6
+      - 挪威[感谢订阅——科技网络] 7
+      - 🇺🇸 美国[感谢订阅——科技网络] 19
+      - 🇺🇸 美国[感谢订阅——科技网络] 20
+      - 挪威[感谢订阅——科技网络] 8
+      - 🇺🇸 美国[感谢订阅——科技网络] 21
+      - 🇺🇸 美国[感谢订阅——科技网络] 22
+      - 🇺🇸 美国[感谢订阅——科技网络] 23
+      - 🇺🇸 美国[感谢订阅——科技网络] 24
+      - 🇺🇸 美国[感谢订阅——科技网络] 25
+      - 挪威[感谢订阅——科技网络] 9
+      - 🇫🇷 法国[感谢订阅——科技网络]
+      - 🇺🇸 美国[感谢订阅——科技网络] 26
+      - 🇺🇸 美国[感谢订阅——科技网络] 27
+      - 🇺🇸 美国[感谢订阅——科技网络] 28
+      - 🇺🇸 美国[感谢订阅——科技网络] 29
+      - 🇺🇸 美国[感谢订阅——科技网络] 30
+      - 🇮🇹 意大利[感谢订阅——科技网络] 6
+      - 🇺🇸 美国[感谢订阅——科技网络] 31
+      - 🇺🇸 美国[感谢订阅——科技网络] 32
+      - 🇺🇸 美国[感谢订阅——科技网络] 33
+      - 挪威[感谢订阅——科技网络] 10
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
+      - 🇺🇸 美国[感谢订阅——科技网络] 34
+      - 🇪🇺 欧洲[感谢订阅——科技网络] 6
+      - 🇺🇸 美国[感谢订阅——科技网络] 35
+      - 🇺🇸 美国[感谢订阅——科技网络] 36
+      - 🇺🇸 美国[感谢订阅——科技网络] 37
+      - 🇺🇸 美国[感谢订阅——科技网络] 38
+      - 🇺🇸 美国 2
+      - 🇺🇸 美国[感谢订阅——科技网络] 39
+      - 🇺🇸 美国[感谢订阅——科技网络] 40
+      - 🇺🇸 美国[感谢订阅——科技网络] 41
+      - 🇺🇸 美国[感谢订阅——科技网络] 42
+      - 🇩🇪 德国[感谢订阅——科技网络]
+      - 🇺🇸 美国[感谢订阅——科技网络] 43
+      - 🇺🇸 美国[感谢订阅——科技网络] 44
+      - 🇺🇸 美国[感谢订阅——科技网络] 45
+      - 🇺🇸 美国[感谢订阅——科技网络] 46
+      - 🇭🇰 香港[感谢订阅——科技网络] 7
+      - 🇮🇹 意大利[感谢订阅——科技网络] 7
+      - 🇺🇸 美国[感谢订阅——科技网络] 47
+      - 🇺🇸 美国[感谢订阅——科技网络] 48
+      - 🇺🇸 美国[感谢订阅——科技网络] 49
+      - CYL-科技（2021.12.15）
+      - 挪威[感谢订阅——科技网络] 11
+      - 🇯🇵 日本[感谢订阅——科技网络] 3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇦 加拿大🇨🇦(Youtube频道：工具大师！)
-      - CYL-科技（2021.12.11） 87
-      - CYL-科技（2021.12.11） 57
-      - CYL-科技（2021.12.11） 84
-      - CYL-科技（2021.12.11） 184
-      - CYL-科技（2021.12.11） 192
-      - CYL-科技（2021.12.11） 183
-      - CYL-科技（2021.12.11） 83
-      - CYL-科技（2021.12.11） 175
-      - 🇸🇬 新加坡[感谢订阅——科技网络]
-      - 挪威(Youtube频道：工具大师！)
-      - 🇪🇺 欧洲[感谢订阅——科技网络]
-      - CYL-科技（2021.12.11） 193
-      - CYL-科技（2021.12.11） 189
-      - CYL-科技（2021.12.11） 166
-      - CYL-科技（2021.12.11） 136
-      - CYL-科技（2021.12.11） 74
-      - CYL-科技（2021.12.11） 150
-      - CYL-科技（2021.12.11） 32
-      - CYL-科技（2021.12.11） 144
-      - CYL-科技（2021.12.11） 41
-      - CYL-科技（2021.12.11） 185
-      - CYL-科技（2021.12.11） 113
-      - CYL-科技（2021.12.11） 165
-      - CYL-科技（2021.12.11） 119
-      - CYL-科技（2021.12.11） 7
-      - CYL-科技（2021.12.11） 4
-      - CYL-科技（2021.12.11） 21
-      - CYL-科技（2021.12.11） 158
-      - 🇪🇺 欧洲[感谢订阅——科技网络] 2
+      - CYL-科技（2021.12.28）
+      - 🇺🇸 美国
+      - 挪威[感谢订阅——科技网络]
       - 🇺🇸 美国[感谢订阅——科技网络]
-      - 🇩🇪 德国[感谢订阅——科技网络]
-      - CYL-科技（2021.12.11） 20
-      - NO(Youtube频道：工具大师！)
-      - CYL-科技（2021.12.11） 10
-      - CYL-科技（2021.12.11） 125
-      - CYL-科技（2021.12.11） 131
-      - CYL-科技（2021.12.11） 76
-      - CYL-科技（2021.12.11） 13
-      - 🇪🇺 欧洲[感谢订阅——科技网络] 3
-      - CYL-科技（2021.12.11） 171
-      - CYL-科技（2021.12.11） 135
-      - CYL-科技（2021.12.11） 9
-      - CYL-科技（2021.12.11） 161
-      - NO(Youtube频道：工具大师！) 2
-      - CYL-科技（2021.12.11） 167
-      - 挪威 🇳🇴(Youtube频道：工具大师！)
-      - CYL-科技（2021.12.11） 55
-      - CYL-科技（2021.12.11） 170
-      - CYL-科技（2021.12.11） 159
-      - CYL-科技（2021.12.11） 145
+      - 🇭🇰 香港[感谢订阅——科技网络]
+      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)
       - 🇺🇸 美国[感谢订阅——科技网络] 2
-      - 🇺🇸 US(Youtube频道：工具大师！)
-      - CYL-科技（2021.12.11） 18
-      - CYL-科技（2021.12.11） 140
-      - CYL-科技（2021.12.11） 160
-      - CYL-科技（2021.12.11） 179
-      - CYL-科技（2021.12.11） 148
-      - CYL-科技（2021.12.11） 81
-      - CYL-科技（2021.12.11） 88
-      - CYL-科技（2021.12.11） 80
-      - CYL-科技（2021.12.11） 89
-      - CYL-科技（2021.12.11） 182
-      - CYL-科技（2021.12.11） 90
-      - CYL-科技（2021.12.11） 79
-      - CYL-科技（2021.12.11） 82
-      - NO(Youtube频道：工具大师！) 3
-      - CYL-科技（2021.12.11） 162
-      - CYL-科技（2021.12.11） 174
-      - 挪威 🇳🇴(Youtube频道：工具大师！) 2
-      - CA(Youtube频道：工具大师！)
-      - 🇭🇰 HK(Youtube频道：工具大师！)
+      - CYL-科技（2021.12.28） 2
+      - 🇪🇺 欧洲[感谢订阅——科技网络]
+      - 🇺🇸 美国[感谢订阅——科技网络] 3
+      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 🇺🇸 美国[感谢订阅——科技网络] 4
+      - 挪威[感谢订阅——科技网络] 2
+      - 🇮🇹 意大利[感谢订阅——科技网络]
+      - 🇭🇰 香港[感谢订阅——科技网络] 2
+      - CYL-科技（2021.12.28） 3
+      - 🇮🇹 意大利[感谢订阅——科技网络] 2
+      - 🇮🇹 意大利[感谢订阅——科技网络] 3
+      - 🇺🇸 美国[感谢订阅——科技网络] 5
+      - CYL-科技（2021.12.28） 4
+      - 🇭🇰 香港[感谢订阅——科技网络] 3
+      - 🇪🇺 欧洲
+      - 🇪🇺 欧洲 2
+      - 🇮🇹 意大利[感谢订阅——科技网络] 4
+      - CYL-科技（2021.12.28） 5
+      - 🇨🇳 台湾[感谢订阅——科技网络]
+      - 🇺🇸 美国[感谢订阅——科技网络] 6
+      - 🇺🇸 美国[感谢订阅——科技网络] 7
+      - 🇪🇺 欧洲[感谢订阅——科技网络] 2
+      - 🇪🇺 欧洲[感谢订阅——科技网络] 3
+      - 🇺🇸 美国[感谢订阅——科技网络] 8
+      - 🇺🇸 美国[感谢订阅——科技网络] 9
+      - 🇺🇸 美国[感谢订阅——科技网络] 10
+      - 🇺🇸 美国[感谢订阅——科技网络] 11
+      - 挪威[感谢订阅——科技网络] 3
       - 🇪🇺 欧洲[感谢订阅——科技网络] 4
-      - CYL-科技（2021.12.11） 154
-      - CYL-科技（2021.12.11） 121
-      - CYL-科技（2021.12.11） 127
-      - CYL-科技（2021.12.11） 188
+      - 🇪🇺 欧洲 3
+      - 挪威[感谢订阅——科技网络] 4
+      - 🇺🇸 美国[感谢订阅——科技网络] 12
+      - 挪威[感谢订阅——科技网络] 5
+      - 🇯🇵 日本[感谢订阅——科技网络]
+      - 🇭🇰 香港[感谢订阅——科技网络] 4
+      - 🇯🇵 日本[感谢订阅——科技网络] 2
+      - 🇮🇹 意大利[感谢订阅——科技网络] 5
+      - 🇺🇸 美国[感谢订阅——科技网络] 13
+      - 挪威[感谢订阅——科技网络] 6
+      - 🇺🇸 美国[感谢订阅——科技网络] 14
+      - 🇺🇸 美国[感谢订阅——科技网络] 15
+      - 🇺🇸 美国[感谢订阅——科技网络] 16
+      - 🇺🇸 美国[感谢订阅——科技网络] 17
+      - 🇭🇰 香港[感谢订阅——科技网络] 5
+      - 🇪🇺 欧洲[感谢订阅——科技网络] 5
+      - 🇭🇰 香港[感谢订阅——科技网络] 6
+      - 🇺🇸 美国[感谢订阅——科技网络] 18
+      - CYL-科技（2021.12.28） 6
+      - 挪威[感谢订阅——科技网络] 7
+      - 🇺🇸 美国[感谢订阅——科技网络] 19
+      - 🇺🇸 美国[感谢订阅——科技网络] 20
+      - 挪威[感谢订阅——科技网络] 8
+      - 🇺🇸 美国[感谢订阅——科技网络] 21
+      - 🇺🇸 美国[感谢订阅——科技网络] 22
+      - 🇺🇸 美国[感谢订阅——科技网络] 23
+      - 🇺🇸 美国[感谢订阅——科技网络] 24
+      - 🇺🇸 美国[感谢订阅——科技网络] 25
+      - 挪威[感谢订阅——科技网络] 9
+      - 🇫🇷 法国[感谢订阅——科技网络]
+      - 🇺🇸 美国[感谢订阅——科技网络] 26
+      - 🇺🇸 美国[感谢订阅——科技网络] 27
+      - 🇺🇸 美国[感谢订阅——科技网络] 28
+      - 🇺🇸 美国[感谢订阅——科技网络] 29
+      - 🇺🇸 美国[感谢订阅——科技网络] 30
+      - 🇮🇹 意大利[感谢订阅——科技网络] 6
+      - 🇺🇸 美国[感谢订阅——科技网络] 31
+      - 🇺🇸 美国[感谢订阅——科技网络] 32
+      - 🇺🇸 美国[感谢订阅——科技网络] 33
+      - 挪威[感谢订阅——科技网络] 10
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
+      - 🇺🇸 美国[感谢订阅——科技网络] 34
+      - 🇪🇺 欧洲[感谢订阅——科技网络] 6
+      - 🇺🇸 美国[感谢订阅——科技网络] 35
+      - 🇺🇸 美国[感谢订阅——科技网络] 36
+      - 🇺🇸 美国[感谢订阅——科技网络] 37
+      - 🇺🇸 美国[感谢订阅——科技网络] 38
+      - 🇺🇸 美国 2
+      - 🇺🇸 美国[感谢订阅——科技网络] 39
+      - 🇺🇸 美国[感谢订阅——科技网络] 40
+      - 🇺🇸 美国[感谢订阅——科技网络] 41
+      - 🇺🇸 美国[感谢订阅——科技网络] 42
+      - 🇩🇪 德国[感谢订阅——科技网络]
+      - 🇺🇸 美国[感谢订阅——科技网络] 43
+      - 🇺🇸 美国[感谢订阅——科技网络] 44
+      - 🇺🇸 美国[感谢订阅——科技网络] 45
+      - 🇺🇸 美国[感谢订阅——科技网络] 46
+      - 🇭🇰 香港[感谢订阅——科技网络] 7
+      - 🇮🇹 意大利[感谢订阅——科技网络] 7
+      - 🇺🇸 美国[感谢订阅——科技网络] 47
+      - 🇺🇸 美国[感谢订阅——科技网络] 48
+      - 🇺🇸 美国[感谢订阅——科技网络] 49
+      - CYL-科技（2021.12.15）
+      - 挪威[感谢订阅——科技网络] 11
+      - 🇯🇵 日本[感谢订阅——科技网络] 3
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇦 加拿大🇨🇦(Youtube频道：工具大师！)
-      - CYL-科技（2021.12.11） 87
-      - CYL-科技（2021.12.11） 57
-      - CYL-科技（2021.12.11） 84
-      - CYL-科技（2021.12.11） 184
-      - CYL-科技（2021.12.11） 192
-      - CYL-科技（2021.12.11） 183
-      - CYL-科技（2021.12.11） 83
-      - CYL-科技（2021.12.11） 175
-      - 🇸🇬 新加坡[感谢订阅——科技网络]
-      - 挪威(Youtube频道：工具大师！)
-      - 🇪🇺 欧洲[感谢订阅——科技网络]
-      - CYL-科技（2021.12.11） 193
-      - CYL-科技（2021.12.11） 189
-      - CYL-科技（2021.12.11） 166
-      - CYL-科技（2021.12.11） 136
-      - CYL-科技（2021.12.11） 74
-      - CYL-科技（2021.12.11） 150
-      - CYL-科技（2021.12.11） 32
-      - CYL-科技（2021.12.11） 144
-      - CYL-科技（2021.12.11） 41
-      - CYL-科技（2021.12.11） 185
-      - CYL-科技（2021.12.11） 113
-      - CYL-科技（2021.12.11） 165
-      - CYL-科技（2021.12.11） 119
-      - CYL-科技（2021.12.11） 7
-      - CYL-科技（2021.12.11） 4
-      - CYL-科技（2021.12.11） 21
-      - CYL-科技（2021.12.11） 158
-      - 🇪🇺 欧洲[感谢订阅——科技网络] 2
+      - CYL-科技（2021.12.28）
+      - 🇺🇸 美国
+      - 挪威[感谢订阅——科技网络]
       - 🇺🇸 美国[感谢订阅——科技网络]
-      - 🇩🇪 德国[感谢订阅——科技网络]
-      - CYL-科技（2021.12.11） 20
-      - NO(Youtube频道：工具大师！)
-      - CYL-科技（2021.12.11） 10
-      - CYL-科技（2021.12.11） 125
-      - CYL-科技（2021.12.11） 131
-      - CYL-科技（2021.12.11） 76
-      - CYL-科技（2021.12.11） 13
-      - 🇪🇺 欧洲[感谢订阅——科技网络] 3
-      - CYL-科技（2021.12.11） 171
-      - CYL-科技（2021.12.11） 135
-      - CYL-科技（2021.12.11） 9
-      - CYL-科技（2021.12.11） 161
-      - NO(Youtube频道：工具大师！) 2
-      - CYL-科技（2021.12.11） 167
-      - 挪威 🇳🇴(Youtube频道：工具大师！)
-      - CYL-科技（2021.12.11） 55
-      - CYL-科技（2021.12.11） 170
-      - CYL-科技（2021.12.11） 159
-      - CYL-科技（2021.12.11） 145
+      - 🇭🇰 香港[感谢订阅——科技网络]
+      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)
       - 🇺🇸 美国[感谢订阅——科技网络] 2
-      - 🇺🇸 US(Youtube频道：工具大师！)
-      - CYL-科技（2021.12.11） 18
-      - CYL-科技（2021.12.11） 140
-      - CYL-科技（2021.12.11） 160
-      - CYL-科技（2021.12.11） 179
-      - CYL-科技（2021.12.11） 148
-      - CYL-科技（2021.12.11） 81
-      - CYL-科技（2021.12.11） 88
-      - CYL-科技（2021.12.11） 80
-      - CYL-科技（2021.12.11） 89
-      - CYL-科技（2021.12.11） 182
-      - CYL-科技（2021.12.11） 90
-      - CYL-科技（2021.12.11） 79
-      - CYL-科技（2021.12.11） 82
-      - NO(Youtube频道：工具大师！) 3
-      - CYL-科技（2021.12.11） 162
-      - CYL-科技（2021.12.11） 174
-      - 挪威 🇳🇴(Youtube频道：工具大师！) 2
-      - CA(Youtube频道：工具大师！)
-      - 🇭🇰 HK(Youtube频道：工具大师！)
+      - CYL-科技（2021.12.28） 2
+      - 🇪🇺 欧洲[感谢订阅——科技网络]
+      - 🇺🇸 美国[感谢订阅——科技网络] 3
+      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 🇺🇸 美国[感谢订阅——科技网络] 4
+      - 挪威[感谢订阅——科技网络] 2
+      - 🇮🇹 意大利[感谢订阅——科技网络]
+      - 🇭🇰 香港[感谢订阅——科技网络] 2
+      - CYL-科技（2021.12.28） 3
+      - 🇮🇹 意大利[感谢订阅——科技网络] 2
+      - 🇮🇹 意大利[感谢订阅——科技网络] 3
+      - 🇺🇸 美国[感谢订阅——科技网络] 5
+      - CYL-科技（2021.12.28） 4
+      - 🇭🇰 香港[感谢订阅——科技网络] 3
+      - 🇪🇺 欧洲
+      - 🇪🇺 欧洲 2
+      - 🇮🇹 意大利[感谢订阅——科技网络] 4
+      - CYL-科技（2021.12.28） 5
+      - 🇨🇳 台湾[感谢订阅——科技网络]
+      - 🇺🇸 美国[感谢订阅——科技网络] 6
+      - 🇺🇸 美国[感谢订阅——科技网络] 7
+      - 🇪🇺 欧洲[感谢订阅——科技网络] 2
+      - 🇪🇺 欧洲[感谢订阅——科技网络] 3
+      - 🇺🇸 美国[感谢订阅——科技网络] 8
+      - 🇺🇸 美国[感谢订阅——科技网络] 9
+      - 🇺🇸 美国[感谢订阅——科技网络] 10
+      - 🇺🇸 美国[感谢订阅——科技网络] 11
+      - 挪威[感谢订阅——科技网络] 3
       - 🇪🇺 欧洲[感谢订阅——科技网络] 4
-      - CYL-科技（2021.12.11） 154
-      - CYL-科技（2021.12.11） 121
-      - CYL-科技（2021.12.11） 127
-      - CYL-科技（2021.12.11） 188
+      - 🇪🇺 欧洲 3
+      - 挪威[感谢订阅——科技网络] 4
+      - 🇺🇸 美国[感谢订阅——科技网络] 12
+      - 挪威[感谢订阅——科技网络] 5
+      - 🇯🇵 日本[感谢订阅——科技网络]
+      - 🇭🇰 香港[感谢订阅——科技网络] 4
+      - 🇯🇵 日本[感谢订阅——科技网络] 2
+      - 🇮🇹 意大利[感谢订阅——科技网络] 5
+      - 🇺🇸 美国[感谢订阅——科技网络] 13
+      - 挪威[感谢订阅——科技网络] 6
+      - 🇺🇸 美国[感谢订阅——科技网络] 14
+      - 🇺🇸 美国[感谢订阅——科技网络] 15
+      - 🇺🇸 美国[感谢订阅——科技网络] 16
+      - 🇺🇸 美国[感谢订阅——科技网络] 17
+      - 🇭🇰 香港[感谢订阅——科技网络] 5
+      - 🇪🇺 欧洲[感谢订阅——科技网络] 5
+      - 🇭🇰 香港[感谢订阅——科技网络] 6
+      - 🇺🇸 美国[感谢订阅——科技网络] 18
+      - CYL-科技（2021.12.28） 6
+      - 挪威[感谢订阅——科技网络] 7
+      - 🇺🇸 美国[感谢订阅——科技网络] 19
+      - 🇺🇸 美国[感谢订阅——科技网络] 20
+      - 挪威[感谢订阅——科技网络] 8
+      - 🇺🇸 美国[感谢订阅——科技网络] 21
+      - 🇺🇸 美国[感谢订阅——科技网络] 22
+      - 🇺🇸 美国[感谢订阅——科技网络] 23
+      - 🇺🇸 美国[感谢订阅——科技网络] 24
+      - 🇺🇸 美国[感谢订阅——科技网络] 25
+      - 挪威[感谢订阅——科技网络] 9
+      - 🇫🇷 法国[感谢订阅——科技网络]
+      - 🇺🇸 美国[感谢订阅——科技网络] 26
+      - 🇺🇸 美国[感谢订阅——科技网络] 27
+      - 🇺🇸 美国[感谢订阅——科技网络] 28
+      - 🇺🇸 美国[感谢订阅——科技网络] 29
+      - 🇺🇸 美国[感谢订阅——科技网络] 30
+      - 🇮🇹 意大利[感谢订阅——科技网络] 6
+      - 🇺🇸 美国[感谢订阅——科技网络] 31
+      - 🇺🇸 美国[感谢订阅——科技网络] 32
+      - 🇺🇸 美国[感谢订阅——科技网络] 33
+      - 挪威[感谢订阅——科技网络] 10
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
+      - 🇺🇸 美国[感谢订阅——科技网络] 34
+      - 🇪🇺 欧洲[感谢订阅——科技网络] 6
+      - 🇺🇸 美国[感谢订阅——科技网络] 35
+      - 🇺🇸 美国[感谢订阅——科技网络] 36
+      - 🇺🇸 美国[感谢订阅——科技网络] 37
+      - 🇺🇸 美国[感谢订阅——科技网络] 38
+      - 🇺🇸 美国 2
+      - 🇺🇸 美国[感谢订阅——科技网络] 39
+      - 🇺🇸 美国[感谢订阅——科技网络] 40
+      - 🇺🇸 美国[感谢订阅——科技网络] 41
+      - 🇺🇸 美国[感谢订阅——科技网络] 42
+      - 🇩🇪 德国[感谢订阅——科技网络]
+      - 🇺🇸 美国[感谢订阅——科技网络] 43
+      - 🇺🇸 美国[感谢订阅——科技网络] 44
+      - 🇺🇸 美国[感谢订阅——科技网络] 45
+      - 🇺🇸 美国[感谢订阅——科技网络] 46
+      - 🇭🇰 香港[感谢订阅——科技网络] 7
+      - 🇮🇹 意大利[感谢订阅——科技网络] 7
+      - 🇺🇸 美国[感谢订阅——科技网络] 47
+      - 🇺🇸 美国[感谢订阅——科技网络] 48
+      - 🇺🇸 美国[感谢订阅——科技网络] 49
+      - CYL-科技（2021.12.15）
+      - 挪威[感谢订阅——科技网络] 11
+      - 🇯🇵 日本[感谢订阅——科技网络] 3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇦 加拿大🇨🇦(Youtube频道：工具大师！)
-      - CYL-科技（2021.12.11） 87
-      - CYL-科技（2021.12.11） 57
-      - CYL-科技（2021.12.11） 84
-      - CYL-科技（2021.12.11） 184
-      - CYL-科技（2021.12.11） 192
-      - CYL-科技（2021.12.11） 183
-      - CYL-科技（2021.12.11） 83
-      - CYL-科技（2021.12.11） 175
-      - 🇸🇬 新加坡[感谢订阅——科技网络]
-      - 挪威(Youtube频道：工具大师！)
-      - 🇪🇺 欧洲[感谢订阅——科技网络]
-      - CYL-科技（2021.12.11） 193
-      - CYL-科技（2021.12.11） 189
-      - CYL-科技（2021.12.11） 166
-      - CYL-科技（2021.12.11） 136
-      - CYL-科技（2021.12.11） 74
-      - CYL-科技（2021.12.11） 150
-      - CYL-科技（2021.12.11） 32
-      - CYL-科技（2021.12.11） 144
-      - CYL-科技（2021.12.11） 41
-      - CYL-科技（2021.12.11） 185
-      - CYL-科技（2021.12.11） 113
-      - CYL-科技（2021.12.11） 165
-      - CYL-科技（2021.12.11） 119
-      - CYL-科技（2021.12.11） 7
-      - CYL-科技（2021.12.11） 4
-      - CYL-科技（2021.12.11） 21
-      - CYL-科技（2021.12.11） 158
-      - 🇪🇺 欧洲[感谢订阅——科技网络] 2
+      - CYL-科技（2021.12.28）
+      - 🇺🇸 美国
+      - 挪威[感谢订阅——科技网络]
       - 🇺🇸 美国[感谢订阅——科技网络]
-      - 🇩🇪 德国[感谢订阅——科技网络]
-      - CYL-科技（2021.12.11） 20
-      - NO(Youtube频道：工具大师！)
-      - CYL-科技（2021.12.11） 10
-      - CYL-科技（2021.12.11） 125
-      - CYL-科技（2021.12.11） 131
-      - CYL-科技（2021.12.11） 76
-      - CYL-科技（2021.12.11） 13
-      - 🇪🇺 欧洲[感谢订阅——科技网络] 3
-      - CYL-科技（2021.12.11） 171
-      - CYL-科技（2021.12.11） 135
-      - CYL-科技（2021.12.11） 9
-      - CYL-科技（2021.12.11） 161
-      - NO(Youtube频道：工具大师！) 2
-      - CYL-科技（2021.12.11） 167
-      - 挪威 🇳🇴(Youtube频道：工具大师！)
-      - CYL-科技（2021.12.11） 55
-      - CYL-科技（2021.12.11） 170
-      - CYL-科技（2021.12.11） 159
-      - CYL-科技（2021.12.11） 145
+      - 🇭🇰 香港[感谢订阅——科技网络]
+      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)
       - 🇺🇸 美国[感谢订阅——科技网络] 2
-      - 🇺🇸 US(Youtube频道：工具大师！)
-      - CYL-科技（2021.12.11） 18
-      - CYL-科技（2021.12.11） 140
-      - CYL-科技（2021.12.11） 160
-      - CYL-科技（2021.12.11） 179
-      - CYL-科技（2021.12.11） 148
-      - CYL-科技（2021.12.11） 81
-      - CYL-科技（2021.12.11） 88
-      - CYL-科技（2021.12.11） 80
-      - CYL-科技（2021.12.11） 89
-      - CYL-科技（2021.12.11） 182
-      - CYL-科技（2021.12.11） 90
-      - CYL-科技（2021.12.11） 79
-      - CYL-科技（2021.12.11） 82
-      - NO(Youtube频道：工具大师！) 3
-      - CYL-科技（2021.12.11） 162
-      - CYL-科技（2021.12.11） 174
-      - 挪威 🇳🇴(Youtube频道：工具大师！) 2
-      - CA(Youtube频道：工具大师！)
-      - 🇭🇰 HK(Youtube频道：工具大师！)
+      - CYL-科技（2021.12.28） 2
+      - 🇪🇺 欧洲[感谢订阅——科技网络]
+      - 🇺🇸 美国[感谢订阅——科技网络] 3
+      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 🇺🇸 美国[感谢订阅——科技网络] 4
+      - 挪威[感谢订阅——科技网络] 2
+      - 🇮🇹 意大利[感谢订阅——科技网络]
+      - 🇭🇰 香港[感谢订阅——科技网络] 2
+      - CYL-科技（2021.12.28） 3
+      - 🇮🇹 意大利[感谢订阅——科技网络] 2
+      - 🇮🇹 意大利[感谢订阅——科技网络] 3
+      - 🇺🇸 美国[感谢订阅——科技网络] 5
+      - CYL-科技（2021.12.28） 4
+      - 🇭🇰 香港[感谢订阅——科技网络] 3
+      - 🇪🇺 欧洲
+      - 🇪🇺 欧洲 2
+      - 🇮🇹 意大利[感谢订阅——科技网络] 4
+      - CYL-科技（2021.12.28） 5
+      - 🇨🇳 台湾[感谢订阅——科技网络]
+      - 🇺🇸 美国[感谢订阅——科技网络] 6
+      - 🇺🇸 美国[感谢订阅——科技网络] 7
+      - 🇪🇺 欧洲[感谢订阅——科技网络] 2
+      - 🇪🇺 欧洲[感谢订阅——科技网络] 3
+      - 🇺🇸 美国[感谢订阅——科技网络] 8
+      - 🇺🇸 美国[感谢订阅——科技网络] 9
+      - 🇺🇸 美国[感谢订阅——科技网络] 10
+      - 🇺🇸 美国[感谢订阅——科技网络] 11
+      - 挪威[感谢订阅——科技网络] 3
       - 🇪🇺 欧洲[感谢订阅——科技网络] 4
-      - CYL-科技（2021.12.11） 154
-      - CYL-科技（2021.12.11） 121
-      - CYL-科技（2021.12.11） 127
-      - CYL-科技（2021.12.11） 188
+      - 🇪🇺 欧洲 3
+      - 挪威[感谢订阅——科技网络] 4
+      - 🇺🇸 美国[感谢订阅——科技网络] 12
+      - 挪威[感谢订阅——科技网络] 5
+      - 🇯🇵 日本[感谢订阅——科技网络]
+      - 🇭🇰 香港[感谢订阅——科技网络] 4
+      - 🇯🇵 日本[感谢订阅——科技网络] 2
+      - 🇮🇹 意大利[感谢订阅——科技网络] 5
+      - 🇺🇸 美国[感谢订阅——科技网络] 13
+      - 挪威[感谢订阅——科技网络] 6
+      - 🇺🇸 美国[感谢订阅——科技网络] 14
+      - 🇺🇸 美国[感谢订阅——科技网络] 15
+      - 🇺🇸 美国[感谢订阅——科技网络] 16
+      - 🇺🇸 美国[感谢订阅——科技网络] 17
+      - 🇭🇰 香港[感谢订阅——科技网络] 5
+      - 🇪🇺 欧洲[感谢订阅——科技网络] 5
+      - 🇭🇰 香港[感谢订阅——科技网络] 6
+      - 🇺🇸 美国[感谢订阅——科技网络] 18
+      - CYL-科技（2021.12.28） 6
+      - 挪威[感谢订阅——科技网络] 7
+      - 🇺🇸 美国[感谢订阅——科技网络] 19
+      - 🇺🇸 美国[感谢订阅——科技网络] 20
+      - 挪威[感谢订阅——科技网络] 8
+      - 🇺🇸 美国[感谢订阅——科技网络] 21
+      - 🇺🇸 美国[感谢订阅——科技网络] 22
+      - 🇺🇸 美国[感谢订阅——科技网络] 23
+      - 🇺🇸 美国[感谢订阅——科技网络] 24
+      - 🇺🇸 美国[感谢订阅——科技网络] 25
+      - 挪威[感谢订阅——科技网络] 9
+      - 🇫🇷 法国[感谢订阅——科技网络]
+      - 🇺🇸 美国[感谢订阅——科技网络] 26
+      - 🇺🇸 美国[感谢订阅——科技网络] 27
+      - 🇺🇸 美国[感谢订阅——科技网络] 28
+      - 🇺🇸 美国[感谢订阅——科技网络] 29
+      - 🇺🇸 美国[感谢订阅——科技网络] 30
+      - 🇮🇹 意大利[感谢订阅——科技网络] 6
+      - 🇺🇸 美国[感谢订阅——科技网络] 31
+      - 🇺🇸 美国[感谢订阅——科技网络] 32
+      - 🇺🇸 美国[感谢订阅——科技网络] 33
+      - 挪威[感谢订阅——科技网络] 10
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
+      - 🇺🇸 美国[感谢订阅——科技网络] 34
+      - 🇪🇺 欧洲[感谢订阅——科技网络] 6
+      - 🇺🇸 美国[感谢订阅——科技网络] 35
+      - 🇺🇸 美国[感谢订阅——科技网络] 36
+      - 🇺🇸 美国[感谢订阅——科技网络] 37
+      - 🇺🇸 美国[感谢订阅——科技网络] 38
+      - 🇺🇸 美国 2
+      - 🇺🇸 美国[感谢订阅——科技网络] 39
+      - 🇺🇸 美国[感谢订阅——科技网络] 40
+      - 🇺🇸 美国[感谢订阅——科技网络] 41
+      - 🇺🇸 美国[感谢订阅——科技网络] 42
+      - 🇩🇪 德国[感谢订阅——科技网络]
+      - 🇺🇸 美国[感谢订阅——科技网络] 43
+      - 🇺🇸 美国[感谢订阅——科技网络] 44
+      - 🇺🇸 美国[感谢订阅——科技网络] 45
+      - 🇺🇸 美国[感谢订阅——科技网络] 46
+      - 🇭🇰 香港[感谢订阅——科技网络] 7
+      - 🇮🇹 意大利[感谢订阅——科技网络] 7
+      - 🇺🇸 美国[感谢订阅——科技网络] 47
+      - 🇺🇸 美国[感谢订阅——科技网络] 48
+      - 🇺🇸 美国[感谢订阅——科技网络] 49
+      - CYL-科技（2021.12.15）
+      - 挪威[感谢订阅——科技网络] 11
+      - 🇯🇵 日本[感谢订阅——科技网络] 3
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇨🇦 加拿大🇨🇦(Youtube频道：工具大师！)
-      - CYL-科技（2021.12.11） 87
-      - CYL-科技（2021.12.11） 57
-      - CYL-科技（2021.12.11） 84
-      - CYL-科技（2021.12.11） 184
-      - CYL-科技（2021.12.11） 192
-      - CYL-科技（2021.12.11） 183
-      - CYL-科技（2021.12.11） 83
-      - CYL-科技（2021.12.11） 175
-      - 🇸🇬 新加坡[感谢订阅——科技网络]
-      - 挪威(Youtube频道：工具大师！)
-      - 🇪🇺 欧洲[感谢订阅——科技网络]
-      - CYL-科技（2021.12.11） 193
-      - CYL-科技（2021.12.11） 189
-      - CYL-科技（2021.12.11） 166
-      - CYL-科技（2021.12.11） 136
-      - CYL-科技（2021.12.11） 74
-      - CYL-科技（2021.12.11） 150
-      - CYL-科技（2021.12.11） 32
-      - CYL-科技（2021.12.11） 144
-      - CYL-科技（2021.12.11） 41
-      - CYL-科技（2021.12.11） 185
-      - CYL-科技（2021.12.11） 113
-      - CYL-科技（2021.12.11） 165
-      - CYL-科技（2021.12.11） 119
-      - CYL-科技（2021.12.11） 7
-      - CYL-科技（2021.12.11） 4
-      - CYL-科技（2021.12.11） 21
-      - CYL-科技（2021.12.11） 158
-      - 🇪🇺 欧洲[感谢订阅——科技网络] 2
+      - CYL-科技（2021.12.28）
+      - 🇺🇸 美国
+      - 挪威[感谢订阅——科技网络]
       - 🇺🇸 美国[感谢订阅——科技网络]
-      - 🇩🇪 德国[感谢订阅——科技网络]
-      - CYL-科技（2021.12.11） 20
-      - NO(Youtube频道：工具大师！)
-      - CYL-科技（2021.12.11） 10
-      - CYL-科技（2021.12.11） 125
-      - CYL-科技（2021.12.11） 131
-      - CYL-科技（2021.12.11） 76
-      - CYL-科技（2021.12.11） 13
-      - 🇪🇺 欧洲[感谢订阅——科技网络] 3
-      - CYL-科技（2021.12.11） 171
-      - CYL-科技（2021.12.11） 135
-      - CYL-科技（2021.12.11） 9
-      - CYL-科技（2021.12.11） 161
-      - NO(Youtube频道：工具大师！) 2
-      - CYL-科技（2021.12.11） 167
-      - 挪威 🇳🇴(Youtube频道：工具大师！)
-      - CYL-科技（2021.12.11） 55
-      - CYL-科技（2021.12.11） 170
-      - CYL-科技（2021.12.11） 159
-      - CYL-科技（2021.12.11） 145
+      - 🇭🇰 香港[感谢订阅——科技网络]
+      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)
       - 🇺🇸 美国[感谢订阅——科技网络] 2
-      - 🇺🇸 US(Youtube频道：工具大师！)
-      - CYL-科技（2021.12.11） 18
-      - CYL-科技（2021.12.11） 140
-      - CYL-科技（2021.12.11） 160
-      - CYL-科技（2021.12.11） 179
-      - CYL-科技（2021.12.11） 148
-      - CYL-科技（2021.12.11） 81
-      - CYL-科技（2021.12.11） 88
-      - CYL-科技（2021.12.11） 80
-      - CYL-科技（2021.12.11） 89
-      - CYL-科技（2021.12.11） 182
-      - CYL-科技（2021.12.11） 90
-      - CYL-科技（2021.12.11） 79
-      - CYL-科技（2021.12.11） 82
-      - NO(Youtube频道：工具大师！) 3
-      - CYL-科技（2021.12.11） 162
-      - CYL-科技（2021.12.11） 174
-      - 挪威 🇳🇴(Youtube频道：工具大师！) 2
-      - CA(Youtube频道：工具大师！)
-      - 🇭🇰 HK(Youtube频道：工具大师！)
+      - CYL-科技（2021.12.28） 2
+      - 🇪🇺 欧洲[感谢订阅——科技网络]
+      - 🇺🇸 美国[感谢订阅——科技网络] 3
+      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 🇺🇸 美国[感谢订阅——科技网络] 4
+      - 挪威[感谢订阅——科技网络] 2
+      - 🇮🇹 意大利[感谢订阅——科技网络]
+      - 🇭🇰 香港[感谢订阅——科技网络] 2
+      - CYL-科技（2021.12.28） 3
+      - 🇮🇹 意大利[感谢订阅——科技网络] 2
+      - 🇮🇹 意大利[感谢订阅——科技网络] 3
+      - 🇺🇸 美国[感谢订阅——科技网络] 5
+      - CYL-科技（2021.12.28） 4
+      - 🇭🇰 香港[感谢订阅——科技网络] 3
+      - 🇪🇺 欧洲
+      - 🇪🇺 欧洲 2
+      - 🇮🇹 意大利[感谢订阅——科技网络] 4
+      - CYL-科技（2021.12.28） 5
+      - 🇨🇳 台湾[感谢订阅——科技网络]
+      - 🇺🇸 美国[感谢订阅——科技网络] 6
+      - 🇺🇸 美国[感谢订阅——科技网络] 7
+      - 🇪🇺 欧洲[感谢订阅——科技网络] 2
+      - 🇪🇺 欧洲[感谢订阅——科技网络] 3
+      - 🇺🇸 美国[感谢订阅——科技网络] 8
+      - 🇺🇸 美国[感谢订阅——科技网络] 9
+      - 🇺🇸 美国[感谢订阅——科技网络] 10
+      - 🇺🇸 美国[感谢订阅——科技网络] 11
+      - 挪威[感谢订阅——科技网络] 3
       - 🇪🇺 欧洲[感谢订阅——科技网络] 4
-      - CYL-科技（2021.12.11） 154
-      - CYL-科技（2021.12.11） 121
-      - CYL-科技（2021.12.11） 127
-      - CYL-科技（2021.12.11） 188
+      - 🇪🇺 欧洲 3
+      - 挪威[感谢订阅——科技网络] 4
+      - 🇺🇸 美国[感谢订阅——科技网络] 12
+      - 挪威[感谢订阅——科技网络] 5
+      - 🇯🇵 日本[感谢订阅——科技网络]
+      - 🇭🇰 香港[感谢订阅——科技网络] 4
+      - 🇯🇵 日本[感谢订阅——科技网络] 2
+      - 🇮🇹 意大利[感谢订阅——科技网络] 5
+      - 🇺🇸 美国[感谢订阅——科技网络] 13
+      - 挪威[感谢订阅——科技网络] 6
+      - 🇺🇸 美国[感谢订阅——科技网络] 14
+      - 🇺🇸 美国[感谢订阅——科技网络] 15
+      - 🇺🇸 美国[感谢订阅——科技网络] 16
+      - 🇺🇸 美国[感谢订阅——科技网络] 17
+      - 🇭🇰 香港[感谢订阅——科技网络] 5
+      - 🇪🇺 欧洲[感谢订阅——科技网络] 5
+      - 🇭🇰 香港[感谢订阅——科技网络] 6
+      - 🇺🇸 美国[感谢订阅——科技网络] 18
+      - CYL-科技（2021.12.28） 6
+      - 挪威[感谢订阅——科技网络] 7
+      - 🇺🇸 美国[感谢订阅——科技网络] 19
+      - 🇺🇸 美国[感谢订阅——科技网络] 20
+      - 挪威[感谢订阅——科技网络] 8
+      - 🇺🇸 美国[感谢订阅——科技网络] 21
+      - 🇺🇸 美国[感谢订阅——科技网络] 22
+      - 🇺🇸 美国[感谢订阅——科技网络] 23
+      - 🇺🇸 美国[感谢订阅——科技网络] 24
+      - 🇺🇸 美国[感谢订阅——科技网络] 25
+      - 挪威[感谢订阅——科技网络] 9
+      - 🇫🇷 法国[感谢订阅——科技网络]
+      - 🇺🇸 美国[感谢订阅——科技网络] 26
+      - 🇺🇸 美国[感谢订阅——科技网络] 27
+      - 🇺🇸 美国[感谢订阅——科技网络] 28
+      - 🇺🇸 美国[感谢订阅——科技网络] 29
+      - 🇺🇸 美国[感谢订阅——科技网络] 30
+      - 🇮🇹 意大利[感谢订阅——科技网络] 6
+      - 🇺🇸 美国[感谢订阅——科技网络] 31
+      - 🇺🇸 美国[感谢订阅——科技网络] 32
+      - 🇺🇸 美国[感谢订阅——科技网络] 33
+      - 挪威[感谢订阅——科技网络] 10
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
+      - 🇺🇸 美国[感谢订阅——科技网络] 34
+      - 🇪🇺 欧洲[感谢订阅——科技网络] 6
+      - 🇺🇸 美国[感谢订阅——科技网络] 35
+      - 🇺🇸 美国[感谢订阅——科技网络] 36
+      - 🇺🇸 美国[感谢订阅——科技网络] 37
+      - 🇺🇸 美国[感谢订阅——科技网络] 38
+      - 🇺🇸 美国 2
+      - 🇺🇸 美国[感谢订阅——科技网络] 39
+      - 🇺🇸 美国[感谢订阅——科技网络] 40
+      - 🇺🇸 美国[感谢订阅——科技网络] 41
+      - 🇺🇸 美国[感谢订阅——科技网络] 42
+      - 🇩🇪 德国[感谢订阅——科技网络]
+      - 🇺🇸 美国[感谢订阅——科技网络] 43
+      - 🇺🇸 美国[感谢订阅——科技网络] 44
+      - 🇺🇸 美国[感谢订阅——科技网络] 45
+      - 🇺🇸 美国[感谢订阅——科技网络] 46
+      - 🇭🇰 香港[感谢订阅——科技网络] 7
+      - 🇮🇹 意大利[感谢订阅——科技网络] 7
+      - 🇺🇸 美国[感谢订阅——科技网络] 47
+      - 🇺🇸 美国[感谢订阅——科技网络] 48
+      - 🇺🇸 美国[感谢订阅——科技网络] 49
+      - CYL-科技（2021.12.15）
+      - 挪威[感谢订阅——科技网络] 11
+      - 🇯🇵 日本[感谢订阅——科技网络] 3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇦 加拿大🇨🇦(Youtube频道：工具大师！)
-      - CYL-科技（2021.12.11） 87
-      - CYL-科技（2021.12.11） 57
-      - CYL-科技（2021.12.11） 84
-      - CYL-科技（2021.12.11） 184
-      - CYL-科技（2021.12.11） 192
-      - CYL-科技（2021.12.11） 183
-      - CYL-科技（2021.12.11） 83
-      - CYL-科技（2021.12.11） 175
-      - 🇸🇬 新加坡[感谢订阅——科技网络]
-      - 挪威(Youtube频道：工具大师！)
-      - 🇪🇺 欧洲[感谢订阅——科技网络]
-      - CYL-科技（2021.12.11） 193
-      - CYL-科技（2021.12.11） 189
-      - CYL-科技（2021.12.11） 166
-      - CYL-科技（2021.12.11） 136
-      - CYL-科技（2021.12.11） 74
-      - CYL-科技（2021.12.11） 150
-      - CYL-科技（2021.12.11） 32
-      - CYL-科技（2021.12.11） 144
-      - CYL-科技（2021.12.11） 41
-      - CYL-科技（2021.12.11） 185
-      - CYL-科技（2021.12.11） 113
-      - CYL-科技（2021.12.11） 165
-      - CYL-科技（2021.12.11） 119
-      - CYL-科技（2021.12.11） 7
-      - CYL-科技（2021.12.11） 4
-      - CYL-科技（2021.12.11） 21
-      - CYL-科技（2021.12.11） 158
-      - 🇪🇺 欧洲[感谢订阅——科技网络] 2
+      - CYL-科技（2021.12.28）
+      - 🇺🇸 美国
+      - 挪威[感谢订阅——科技网络]
       - 🇺🇸 美国[感谢订阅——科技网络]
-      - 🇩🇪 德国[感谢订阅——科技网络]
-      - CYL-科技（2021.12.11） 20
-      - NO(Youtube频道：工具大师！)
-      - CYL-科技（2021.12.11） 10
-      - CYL-科技（2021.12.11） 125
-      - CYL-科技（2021.12.11） 131
-      - CYL-科技（2021.12.11） 76
-      - CYL-科技（2021.12.11） 13
-      - 🇪🇺 欧洲[感谢订阅——科技网络] 3
-      - CYL-科技（2021.12.11） 171
-      - CYL-科技（2021.12.11） 135
-      - CYL-科技（2021.12.11） 9
-      - CYL-科技（2021.12.11） 161
-      - NO(Youtube频道：工具大师！) 2
-      - CYL-科技（2021.12.11） 167
-      - 挪威 🇳🇴(Youtube频道：工具大师！)
-      - CYL-科技（2021.12.11） 55
-      - CYL-科技（2021.12.11） 170
-      - CYL-科技（2021.12.11） 159
-      - CYL-科技（2021.12.11） 145
+      - 🇭🇰 香港[感谢订阅——科技网络]
+      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)
       - 🇺🇸 美国[感谢订阅——科技网络] 2
-      - 🇺🇸 US(Youtube频道：工具大师！)
-      - CYL-科技（2021.12.11） 18
-      - CYL-科技（2021.12.11） 140
-      - CYL-科技（2021.12.11） 160
-      - CYL-科技（2021.12.11） 179
-      - CYL-科技（2021.12.11） 148
-      - CYL-科技（2021.12.11） 81
-      - CYL-科技（2021.12.11） 88
-      - CYL-科技（2021.12.11） 80
-      - CYL-科技（2021.12.11） 89
-      - CYL-科技（2021.12.11） 182
-      - CYL-科技（2021.12.11） 90
-      - CYL-科技（2021.12.11） 79
-      - CYL-科技（2021.12.11） 82
-      - NO(Youtube频道：工具大师！) 3
-      - CYL-科技（2021.12.11） 162
-      - CYL-科技（2021.12.11） 174
-      - 挪威 🇳🇴(Youtube频道：工具大师！) 2
-      - CA(Youtube频道：工具大师！)
-      - 🇭🇰 HK(Youtube频道：工具大师！)
+      - CYL-科技（2021.12.28） 2
+      - 🇪🇺 欧洲[感谢订阅——科技网络]
+      - 🇺🇸 美国[感谢订阅——科技网络] 3
+      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 🇺🇸 美国[感谢订阅——科技网络] 4
+      - 挪威[感谢订阅——科技网络] 2
+      - 🇮🇹 意大利[感谢订阅——科技网络]
+      - 🇭🇰 香港[感谢订阅——科技网络] 2
+      - CYL-科技（2021.12.28） 3
+      - 🇮🇹 意大利[感谢订阅——科技网络] 2
+      - 🇮🇹 意大利[感谢订阅——科技网络] 3
+      - 🇺🇸 美国[感谢订阅——科技网络] 5
+      - CYL-科技（2021.12.28） 4
+      - 🇭🇰 香港[感谢订阅——科技网络] 3
+      - 🇪🇺 欧洲
+      - 🇪🇺 欧洲 2
+      - 🇮🇹 意大利[感谢订阅——科技网络] 4
+      - CYL-科技（2021.12.28） 5
+      - 🇨🇳 台湾[感谢订阅——科技网络]
+      - 🇺🇸 美国[感谢订阅——科技网络] 6
+      - 🇺🇸 美国[感谢订阅——科技网络] 7
+      - 🇪🇺 欧洲[感谢订阅——科技网络] 2
+      - 🇪🇺 欧洲[感谢订阅——科技网络] 3
+      - 🇺🇸 美国[感谢订阅——科技网络] 8
+      - 🇺🇸 美国[感谢订阅——科技网络] 9
+      - 🇺🇸 美国[感谢订阅——科技网络] 10
+      - 🇺🇸 美国[感谢订阅——科技网络] 11
+      - 挪威[感谢订阅——科技网络] 3
       - 🇪🇺 欧洲[感谢订阅——科技网络] 4
-      - CYL-科技（2021.12.11） 154
-      - CYL-科技（2021.12.11） 121
-      - CYL-科技（2021.12.11） 127
-      - CYL-科技（2021.12.11） 188
+      - 🇪🇺 欧洲 3
+      - 挪威[感谢订阅——科技网络] 4
+      - 🇺🇸 美国[感谢订阅——科技网络] 12
+      - 挪威[感谢订阅——科技网络] 5
+      - 🇯🇵 日本[感谢订阅——科技网络]
+      - 🇭🇰 香港[感谢订阅——科技网络] 4
+      - 🇯🇵 日本[感谢订阅——科技网络] 2
+      - 🇮🇹 意大利[感谢订阅——科技网络] 5
+      - 🇺🇸 美国[感谢订阅——科技网络] 13
+      - 挪威[感谢订阅——科技网络] 6
+      - 🇺🇸 美国[感谢订阅——科技网络] 14
+      - 🇺🇸 美国[感谢订阅——科技网络] 15
+      - 🇺🇸 美国[感谢订阅——科技网络] 16
+      - 🇺🇸 美国[感谢订阅——科技网络] 17
+      - 🇭🇰 香港[感谢订阅——科技网络] 5
+      - 🇪🇺 欧洲[感谢订阅——科技网络] 5
+      - 🇭🇰 香港[感谢订阅——科技网络] 6
+      - 🇺🇸 美国[感谢订阅——科技网络] 18
+      - CYL-科技（2021.12.28） 6
+      - 挪威[感谢订阅——科技网络] 7
+      - 🇺🇸 美国[感谢订阅——科技网络] 19
+      - 🇺🇸 美国[感谢订阅——科技网络] 20
+      - 挪威[感谢订阅——科技网络] 8
+      - 🇺🇸 美国[感谢订阅——科技网络] 21
+      - 🇺🇸 美国[感谢订阅——科技网络] 22
+      - 🇺🇸 美国[感谢订阅——科技网络] 23
+      - 🇺🇸 美国[感谢订阅——科技网络] 24
+      - 🇺🇸 美国[感谢订阅——科技网络] 25
+      - 挪威[感谢订阅——科技网络] 9
+      - 🇫🇷 法国[感谢订阅——科技网络]
+      - 🇺🇸 美国[感谢订阅——科技网络] 26
+      - 🇺🇸 美国[感谢订阅——科技网络] 27
+      - 🇺🇸 美国[感谢订阅——科技网络] 28
+      - 🇺🇸 美国[感谢订阅——科技网络] 29
+      - 🇺🇸 美国[感谢订阅——科技网络] 30
+      - 🇮🇹 意大利[感谢订阅——科技网络] 6
+      - 🇺🇸 美国[感谢订阅——科技网络] 31
+      - 🇺🇸 美国[感谢订阅——科技网络] 32
+      - 🇺🇸 美国[感谢订阅——科技网络] 33
+      - 挪威[感谢订阅——科技网络] 10
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
+      - 🇺🇸 美国[感谢订阅——科技网络] 34
+      - 🇪🇺 欧洲[感谢订阅——科技网络] 6
+      - 🇺🇸 美国[感谢订阅——科技网络] 35
+      - 🇺🇸 美国[感谢订阅——科技网络] 36
+      - 🇺🇸 美国[感谢订阅——科技网络] 37
+      - 🇺🇸 美国[感谢订阅——科技网络] 38
+      - 🇺🇸 美国 2
+      - 🇺🇸 美国[感谢订阅——科技网络] 39
+      - 🇺🇸 美国[感谢订阅——科技网络] 40
+      - 🇺🇸 美国[感谢订阅——科技网络] 41
+      - 🇺🇸 美国[感谢订阅——科技网络] 42
+      - 🇩🇪 德国[感谢订阅——科技网络]
+      - 🇺🇸 美国[感谢订阅——科技网络] 43
+      - 🇺🇸 美国[感谢订阅——科技网络] 44
+      - 🇺🇸 美国[感谢订阅——科技网络] 45
+      - 🇺🇸 美国[感谢订阅——科技网络] 46
+      - 🇭🇰 香港[感谢订阅——科技网络] 7
+      - 🇮🇹 意大利[感谢订阅——科技网络] 7
+      - 🇺🇸 美国[感谢订阅——科技网络] 47
+      - 🇺🇸 美国[感谢订阅——科技网络] 48
+      - 🇺🇸 美国[感谢订阅——科技网络] 49
+      - CYL-科技（2021.12.15）
+      - 挪威[感谢订阅——科技网络] 11
+      - 🇯🇵 日本[感谢订阅——科技网络] 3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -599,83 +767,107 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇦 加拿大🇨🇦(Youtube频道：工具大师！)
-      - CYL-科技（2021.12.11） 87
-      - CYL-科技（2021.12.11） 57
-      - CYL-科技（2021.12.11） 84
-      - CYL-科技（2021.12.11） 184
-      - CYL-科技（2021.12.11） 192
-      - CYL-科技（2021.12.11） 183
-      - CYL-科技（2021.12.11） 83
-      - CYL-科技（2021.12.11） 175
-      - 🇸🇬 新加坡[感谢订阅——科技网络]
-      - 挪威(Youtube频道：工具大师！)
-      - 🇪🇺 欧洲[感谢订阅——科技网络]
-      - CYL-科技（2021.12.11） 193
-      - CYL-科技（2021.12.11） 189
-      - CYL-科技（2021.12.11） 166
-      - CYL-科技（2021.12.11） 136
-      - CYL-科技（2021.12.11） 74
-      - CYL-科技（2021.12.11） 150
-      - CYL-科技（2021.12.11） 32
-      - CYL-科技（2021.12.11） 144
-      - CYL-科技（2021.12.11） 41
-      - CYL-科技（2021.12.11） 185
-      - CYL-科技（2021.12.11） 113
-      - CYL-科技（2021.12.11） 165
-      - CYL-科技（2021.12.11） 119
-      - CYL-科技（2021.12.11） 7
-      - CYL-科技（2021.12.11） 4
-      - CYL-科技（2021.12.11） 21
-      - CYL-科技（2021.12.11） 158
-      - 🇪🇺 欧洲[感谢订阅——科技网络] 2
+      - CYL-科技（2021.12.28）
+      - 🇺🇸 美国
+      - 挪威[感谢订阅——科技网络]
       - 🇺🇸 美国[感谢订阅——科技网络]
-      - 🇩🇪 德国[感谢订阅——科技网络]
-      - CYL-科技（2021.12.11） 20
-      - NO(Youtube频道：工具大师！)
-      - CYL-科技（2021.12.11） 10
-      - CYL-科技（2021.12.11） 125
-      - CYL-科技（2021.12.11） 131
-      - CYL-科技（2021.12.11） 76
-      - CYL-科技（2021.12.11） 13
-      - 🇪🇺 欧洲[感谢订阅——科技网络] 3
-      - CYL-科技（2021.12.11） 171
-      - CYL-科技（2021.12.11） 135
-      - CYL-科技（2021.12.11） 9
-      - CYL-科技（2021.12.11） 161
-      - NO(Youtube频道：工具大师！) 2
-      - CYL-科技（2021.12.11） 167
-      - 挪威 🇳🇴(Youtube频道：工具大师！)
-      - CYL-科技（2021.12.11） 55
-      - CYL-科技（2021.12.11） 170
-      - CYL-科技（2021.12.11） 159
-      - CYL-科技（2021.12.11） 145
+      - 🇭🇰 香港[感谢订阅——科技网络]
+      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)
       - 🇺🇸 美国[感谢订阅——科技网络] 2
-      - 🇺🇸 US(Youtube频道：工具大师！)
-      - CYL-科技（2021.12.11） 18
-      - CYL-科技（2021.12.11） 140
-      - CYL-科技（2021.12.11） 160
-      - CYL-科技（2021.12.11） 179
-      - CYL-科技（2021.12.11） 148
-      - CYL-科技（2021.12.11） 81
-      - CYL-科技（2021.12.11） 88
-      - CYL-科技（2021.12.11） 80
-      - CYL-科技（2021.12.11） 89
-      - CYL-科技（2021.12.11） 182
-      - CYL-科技（2021.12.11） 90
-      - CYL-科技（2021.12.11） 79
-      - CYL-科技（2021.12.11） 82
-      - NO(Youtube频道：工具大师！) 3
-      - CYL-科技（2021.12.11） 162
-      - CYL-科技（2021.12.11） 174
-      - 挪威 🇳🇴(Youtube频道：工具大师！) 2
-      - CA(Youtube频道：工具大师！)
-      - 🇭🇰 HK(Youtube频道：工具大师！)
+      - CYL-科技（2021.12.28） 2
+      - 🇪🇺 欧洲[感谢订阅——科技网络]
+      - 🇺🇸 美国[感谢订阅——科技网络] 3
+      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 🇺🇸 美国[感谢订阅——科技网络] 4
+      - 挪威[感谢订阅——科技网络] 2
+      - 🇮🇹 意大利[感谢订阅——科技网络]
+      - 🇭🇰 香港[感谢订阅——科技网络] 2
+      - CYL-科技（2021.12.28） 3
+      - 🇮🇹 意大利[感谢订阅——科技网络] 2
+      - 🇮🇹 意大利[感谢订阅——科技网络] 3
+      - 🇺🇸 美国[感谢订阅——科技网络] 5
+      - CYL-科技（2021.12.28） 4
+      - 🇭🇰 香港[感谢订阅——科技网络] 3
+      - 🇪🇺 欧洲
+      - 🇪🇺 欧洲 2
+      - 🇮🇹 意大利[感谢订阅——科技网络] 4
+      - CYL-科技（2021.12.28） 5
+      - 🇨🇳 台湾[感谢订阅——科技网络]
+      - 🇺🇸 美国[感谢订阅——科技网络] 6
+      - 🇺🇸 美国[感谢订阅——科技网络] 7
+      - 🇪🇺 欧洲[感谢订阅——科技网络] 2
+      - 🇪🇺 欧洲[感谢订阅——科技网络] 3
+      - 🇺🇸 美国[感谢订阅——科技网络] 8
+      - 🇺🇸 美国[感谢订阅——科技网络] 9
+      - 🇺🇸 美国[感谢订阅——科技网络] 10
+      - 🇺🇸 美国[感谢订阅——科技网络] 11
+      - 挪威[感谢订阅——科技网络] 3
       - 🇪🇺 欧洲[感谢订阅——科技网络] 4
-      - CYL-科技（2021.12.11） 154
-      - CYL-科技（2021.12.11） 121
-      - CYL-科技（2021.12.11） 127
-      - CYL-科技（2021.12.11） 188
+      - 🇪🇺 欧洲 3
+      - 挪威[感谢订阅——科技网络] 4
+      - 🇺🇸 美国[感谢订阅——科技网络] 12
+      - 挪威[感谢订阅——科技网络] 5
+      - 🇯🇵 日本[感谢订阅——科技网络]
+      - 🇭🇰 香港[感谢订阅——科技网络] 4
+      - 🇯🇵 日本[感谢订阅——科技网络] 2
+      - 🇮🇹 意大利[感谢订阅——科技网络] 5
+      - 🇺🇸 美国[感谢订阅——科技网络] 13
+      - 挪威[感谢订阅——科技网络] 6
+      - 🇺🇸 美国[感谢订阅——科技网络] 14
+      - 🇺🇸 美国[感谢订阅——科技网络] 15
+      - 🇺🇸 美国[感谢订阅——科技网络] 16
+      - 🇺🇸 美国[感谢订阅——科技网络] 17
+      - 🇭🇰 香港[感谢订阅——科技网络] 5
+      - 🇪🇺 欧洲[感谢订阅——科技网络] 5
+      - 🇭🇰 香港[感谢订阅——科技网络] 6
+      - 🇺🇸 美国[感谢订阅——科技网络] 18
+      - CYL-科技（2021.12.28） 6
+      - 挪威[感谢订阅——科技网络] 7
+      - 🇺🇸 美国[感谢订阅——科技网络] 19
+      - 🇺🇸 美国[感谢订阅——科技网络] 20
+      - 挪威[感谢订阅——科技网络] 8
+      - 🇺🇸 美国[感谢订阅——科技网络] 21
+      - 🇺🇸 美国[感谢订阅——科技网络] 22
+      - 🇺🇸 美国[感谢订阅——科技网络] 23
+      - 🇺🇸 美国[感谢订阅——科技网络] 24
+      - 🇺🇸 美国[感谢订阅——科技网络] 25
+      - 挪威[感谢订阅——科技网络] 9
+      - 🇫🇷 法国[感谢订阅——科技网络]
+      - 🇺🇸 美国[感谢订阅——科技网络] 26
+      - 🇺🇸 美国[感谢订阅——科技网络] 27
+      - 🇺🇸 美国[感谢订阅——科技网络] 28
+      - 🇺🇸 美国[感谢订阅——科技网络] 29
+      - 🇺🇸 美国[感谢订阅——科技网络] 30
+      - 🇮🇹 意大利[感谢订阅——科技网络] 6
+      - 🇺🇸 美国[感谢订阅——科技网络] 31
+      - 🇺🇸 美国[感谢订阅——科技网络] 32
+      - 🇺🇸 美国[感谢订阅——科技网络] 33
+      - 挪威[感谢订阅——科技网络] 10
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
+      - 🇺🇸 美国[感谢订阅——科技网络] 34
+      - 🇪🇺 欧洲[感谢订阅——科技网络] 6
+      - 🇺🇸 美国[感谢订阅——科技网络] 35
+      - 🇺🇸 美国[感谢订阅——科技网络] 36
+      - 🇺🇸 美国[感谢订阅——科技网络] 37
+      - 🇺🇸 美国[感谢订阅——科技网络] 38
+      - 🇺🇸 美国 2
+      - 🇺🇸 美国[感谢订阅——科技网络] 39
+      - 🇺🇸 美国[感谢订阅——科技网络] 40
+      - 🇺🇸 美国[感谢订阅——科技网络] 41
+      - 🇺🇸 美国[感谢订阅——科技网络] 42
+      - 🇩🇪 德国[感谢订阅——科技网络]
+      - 🇺🇸 美国[感谢订阅——科技网络] 43
+      - 🇺🇸 美国[感谢订阅——科技网络] 44
+      - 🇺🇸 美国[感谢订阅——科技网络] 45
+      - 🇺🇸 美国[感谢订阅——科技网络] 46
+      - 🇭🇰 香港[感谢订阅——科技网络] 7
+      - 🇮🇹 意大利[感谢订阅——科技网络] 7
+      - 🇺🇸 美国[感谢订阅——科技网络] 47
+      - 🇺🇸 美国[感谢订阅——科技网络] 48
+      - 🇺🇸 美国[感谢订阅——科技网络] 49
+      - CYL-科技（2021.12.15）
+      - 挪威[感谢订阅——科技网络] 11
+      - 🇯🇵 日本[感谢订阅——科技网络] 3
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
