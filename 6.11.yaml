@@ -5,174 +5,115 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: CYL-科技（2022.01.15）, server: 149.202.82.172, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: CYL-科技（2022.01.15） 2, server: 86.106.136.98, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: h6WG7sxsLTBGn7uyvMG8}
-  - {name: CYL-科技（2022.01.15） 3, server: 172.99.190.39, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: CYL-科技（2022.01.15） 4, server: 172.99.190.87, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: CYL-科技（2022.01.15） 5, server: 185.128.26.130, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: GU3kqh2ZSkzFkRBp4hxy}
-  - {name: "🇺🇸 美国[感谢订阅——科技网络]", server: 38.75.136.93, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: CYL-科技（2022.01.15） 6, server: 172.99.190.87, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: "🇦🇺 澳大利亚[感谢订阅——科技网络]", server: 172.105.180.227, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: CYL-科技（2022.01.15） 7, server: 167.88.61.60, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: "🇦🇺 澳大利亚[感谢订阅——科技网络] 2", server: 172.105.180.227, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: CYL-科技（2022.01.15） 8, server: 167.88.61.60, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: CYL-科技（2021.01.02）, server: 145.239.1.137, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: CYL-科技（2022.01.15） 9, server: 145.239.1.100, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: CYL-科技（2022.01.15） 10, server: 172.99.190.87, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: CYL-科技（2022.01.15） 11, server: 172.99.190.87, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: CYL-科技（2022.01.15） 12, server: 172.99.190.87, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: CYL-科技（2021.01.02） 2, server: 62.210.209.50, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: CYL-科技（2022.01.15）, server: 62.210.209.50, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: CYL-科技（2021.01.02）, server: 62.210.209.50, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: CYL-科技（2021.01.02） 2, server: 62.210.209.50, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
   - {name: CYL-科技（2021.01.02） 3, server: 62.210.209.50, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: CYL-科技（2021.01.02） 4, server: 62.210.209.50, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: CYL-科技（2022.01.15） 13, server: 172.99.190.39, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: CYL-科技（2022.01.15） 14, server: 172.99.190.87, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: CYL-科技（2022.01.15） 15, server: 62.210.209.50, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: CYL-科技（2022.01.06）, server: 212.199.61.55, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: scDj68fv6xkMg2np9RgW}
-  - {name: CYL-科技（2022.01.15） 16, server: 145.239.1.137, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: CYL-科技（2022.01.15） 17, server: 172.105.230.112, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: CYL-科技（2021.01.02） 5, server: 62.210.209.50, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: "🇺🇸 美国[感谢订阅——科技网络] 2", server: 38.75.136.93, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: CYL-科技（2021.01.02） 4, server: 62.210.209.50, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: CYL-科技（2021.01.02） 5, server: 62.210.209.50, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
   - {name: CYL-科技（2021.01.02） 6, server: 62.210.209.50, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: CYL-科技（2021.01.02） 7, server: 62.210.209.50, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: CYL-科技（2022.01.15） 18, server: 62.210.209.50, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: CYL-科技（2022.01.15） 19, server: 62.210.209.50, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: CYL-科技（2022.01.15） 20, server: 217.79.181.49, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: CYL-科技（2022.01.15） 21, server: 45.133.181.58, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: qzj5NqakK4YvYYU87eFF}
-  - {name: CYL-科技（2022.01.15） 22, server: 172.99.190.87, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: CYL-科技（2022.01.15） 23, server: 194.15.196.106, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: CYL-科技（2022.01.15） 24, server: 194.15.196.106, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: CYL-科技（2022.01.15） 25, server: 149.202.82.172, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: CYL-科技（2022.01.15） 26, server: 149.202.82.172, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: CYL-科技（2022.01.15） 27, server: 149.202.82.172, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: CYL-科技（2022.01.15） 28, server: 149.202.82.172, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: CYL-科技（2022.01.15） 29, server: 149.202.82.172, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: CYL-科技（2022.01.15） 30, server: 149.202.82.172, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: CYL-科技（2022.01.15） 31, server: 149.202.82.172, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: CYL-科技（2022.01.15） 32, server: 149.202.82.172, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: CYL-科技（2022.01.15） 33, server: 149.202.82.172, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: CYL-科技（2022.01.15） 34, server: 149.202.82.172, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: CYL-科技（2022.01.15） 35, server: 149.202.82.172, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: CYL-科技（2022.01.15） 36, server: 149.202.82.172, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: CYL-科技（2021.01.02） 8, server: 66.55.92.101, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: NK4wZejCzDfPdWXTK4FW}
-  - {name: CYL-科技（2022.01.15） 37, server: 172.99.190.87, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: CYL-科技（2022.01.15） 2, server: 62.210.209.50, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: CYL-科技（2021.01.02） 7, server: 62.210.209.50, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: CYL-科技（2022.01.15） 3, server: 172.99.190.87, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: CYL-科技（2022.01.15） 4, server: 172.99.190.87, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: CYL-科技（2022.01.15） 5, server: 172.99.190.87, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: CYL-科技（2022.01.15） 6, server: 38.68.134.191, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: "🇺🇸 美国[感谢订阅——科技网络]", server: 38.75.136.93, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: CYL-科技（2022.01.15） 7, server: 145.239.1.100, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: CYL-科技（2022.01.15） 8, server: 149.202.82.172, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: CYL-科技（2022.01.15） 9, server: 172.99.190.39, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: CYL-科技（2022.01.15） 10, server: 172.105.230.112, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: CYL-科技（2022.01.15） 11, server: 38.68.134.191, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: CYL-科技（2022.01.15） 12, server: 37.120.136.234, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: Xd2xnHT8tYkVt5BDk92b}
+  - {name: CYL-科技（2022.01.15） 13, server: 172.99.190.87, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: CYL-科技（2022.01.15） 14, server: 172.99.190.87, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: CYL-科技（2022.01.15） 15, server: 194.15.196.106, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: CYL-科技（2022.01.15） 16, server: 145.239.1.137, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: CYL-科技（2022.01.15） 17, server: 194.15.196.106, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: CYL-科技（2022.01.15） 18, server: 172.99.190.87, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: CYL-科技（2022.01.15） 19, server: 217.79.181.49, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: CYL-科技（2022.01.15） 20, server: 149.202.82.172, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: CYL-科技（2022.01.15） 21, server: 149.202.82.172, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: CYL-科技（2022.01.15） 22, server: 149.202.82.172, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: CYL-科技（2022.01.15） 23, server: 149.202.82.172, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: CYL-科技（2022.01.15） 24, server: 149.202.82.172, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: CYL-科技（2022.01.15） 25, server: 149.202.82.172, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: CYL-科技（2022.01.15） 26, server: 217.79.181.49, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: CYL-科技（2022.01.15） 27, server: 149.202.82.172, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: CYL-科技（2022.01.15） 28, server: 172.99.190.39, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: CYL-科技（2022.01.15） 29, server: 172.99.190.39, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: CYL-科技（2022.01.15） 30, server: 149.202.82.172, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: CYL-科技（2022.01.15） 31, server: 217.79.181.49, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: CYL-科技（2022.01.15） 32, server: 172.99.190.39, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: CYL-科技（2022.01.15） 33, server: 217.79.181.49, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: CYL-科技（2022.01.15） 34, server: 217.79.181.49, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: CYL-科技（2022.01.15） 35, server: 217.79.181.49, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: CYL-科技（2022.01.15） 36, server: 149.202.82.172, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: CYL-科技（2022.01.15） 37, server: 172.99.190.39, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: CYL-科技（2022.01.15） 38, server: 172.99.190.39, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: CYL-科技（2022.01.15） 39, server: 38.68.134.191, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: CYL-科技（2022.01.15） 40, server: 149.202.82.172, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: CYL-科技（2022.01.15） 41, server: 38.68.134.191, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: CYL-科技（2022.01.15） 42, server: 217.79.181.49, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: CYL-科技（2022.01.15） 43, server: 172.99.190.87, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: CYL-科技（2022.01.15） 44, server: 149.202.82.172, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: CYL-科技（2022.01.15） 45, server: 149.202.82.172, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: CYL-科技（2022.01.15） 46, server: 172.99.190.39, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: CYL-科技（2022.01.15） 47, server: 172.99.190.39, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: CYL-科技（2022.01.15） 48, server: 217.79.181.49, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: CYL-科技（2022.01.15） 49, server: 149.202.82.172, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: CYL-科技（2022.01.15） 50, server: 172.99.190.87, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: CYL-科技（2022.01.15） 51, server: 149.202.82.172, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: CYL-科技（2022.01.15） 52, server: 38.68.134.191, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: CYL-科技（2022.01.15） 53, server: 172.99.190.39, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: CYL-科技（2022.01.15） 54, server: 38.68.134.191, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: CYL-科技（2022.01.15） 55, server: 149.202.82.172, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: CYL-科技（2022.01.15） 56, server: 172.99.190.39, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: CYL-科技（2022.01.15） 57, server: 38.68.134.191, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: CYL-科技（2022.01.15） 58, server: 38.68.134.191, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: CYL-科技（2022.01.15） 59, server: 149.202.82.172, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: CYL-科技（2022.01.15） 60, server: 149.202.82.172, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: CYL-科技（2022.01.15） 61, server: 149.202.82.172, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: CYL-科技（2022.01.15） 62, server: 172.99.190.39, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: CYL-科技（2022.01.15） 63, server: 149.202.82.172, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: CYL-科技（2022.01.15） 64, server: 172.99.190.87, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: CYL-科技（2022.01.15） 65, server: 149.202.82.172, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: CYL-科技（2022.01.15） 66, server: 169.197.141.244, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: CYL-科技（2022.01.15） 67, server: 169.197.141.244, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: CYL-科技（2022.01.15） 68, server: 169.197.141.244, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: CYL-科技（2022.01.15） 69, server: 149.202.82.172, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: CYL-科技（2022.01.15） 70, server: 169.197.141.244, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: CYL-科技（2022.01.15） 71, server: 172.99.190.87, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: CYL-科技（2022.01.15） 72, server: 149.202.82.172, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: CYL-科技（2022.01.15） 73, server: 169.197.141.244, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: CYL-科技（2022.01.15） 74, server: 145.239.1.100, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: CYL-科技（2022.01.15） 75, server: 145.239.1.100, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: CYL-科技（2022.01.15） 76, server: 172.99.190.39, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: "🇺🇸 美国[感谢订阅——科技网络] 2", server: 38.75.136.93, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: CYL-科技（2022.01.15） 77, server: 172.99.190.39, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: CYL-科技（2022.01.15） 78, server: 172.99.190.39, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: CYL-科技（2022.01.15） 79, server: 145.239.1.100, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: CYL-科技（2022.01.15） 80, server: 145.239.1.100, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: CYL-科技（2022.01.15） 81, server: 145.239.1.100, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: CYL-科技（2022.01.15） 82, server: 169.197.141.244, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
   - {name: "🇺🇸 美国[感谢订阅——科技网络] 3", server: 38.75.136.93, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: CYL-科技（2022.01.15） 38, server: 149.202.82.172, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: CYL-科技（2022.01.15） 39, server: 149.202.82.172, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: CYL-科技（2022.01.15） 40, server: 149.202.82.172, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: CYL-科技（2022.01.15） 41, server: 149.202.82.172, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: CYL-科技（2022.01.15） 42, server: 149.202.82.172, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: CYL-科技（2022.01.15） 43, server: 149.202.82.172, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: CYL-科技（2022.01.15） 44, server: 167.88.61.60, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: CYL-科技（2022.01.15） 45, server: 167.88.61.60, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: CYL-科技（2022.01.06） 2, server: 107.182.234.233, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: XkH8z99cQguQ8ywK5jhV}
-  - {name: CYL-科技（2022.01.15） 46, server: 172.99.190.87, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: CYL-科技（2022.01.15） 47, server: 217.79.181.49, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: CYL-科技（2022.01.15） 48, server: 82.202.220.242, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: Kw6hMXQ2Z7ey7mf2Uqyr}
-  - {name: CYL-科技（2022.01.15） 49, server: 149.202.82.172, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: CYL-科技（2022.01.15） 50, server: 172.99.190.87, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: CYL-科技（2022.01.15） 51, server: 172.99.190.39, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: CYL-科技（2022.01.15） 52, server: 172.99.190.39, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: CYL-科技（2022.01.15） 53, server: 172.99.190.87, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: CYL-科技（2022.01.15） 54, server: 217.79.181.49, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: CYL-科技（2022.01.15） 55, server: 172.99.190.39, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: CYL-科技（2022.01.15） 56, server: 172.99.190.39, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: CYL-科技（2022.01.15） 57, server: 172.99.190.39, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: CYL-科技（2022.01.15） 58, server: 172.99.190.39, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: CYL-科技（2022.01.15） 59, server: 172.99.190.39, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: CYL-科技（2022.01.15） 60, server: 172.99.190.87, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: CYL-科技（2022.01.15） 61, server: 172.99.190.39, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: CYL-科技（2022.01.15） 62, server: 172.99.190.39, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: CYL-科技（2022.01.15） 63, server: 38.68.134.191, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: CYL-科技（2022.01.15） 64, server: 172.99.190.39, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: CYL-科技（2022.01.15） 65, server: 217.79.181.49, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: CYL-科技（2022.01.15） 66, server: 217.79.181.49, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: CYL-科技（2021.01.02） 9, server: 62.210.209.50, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: CYL-科技（2022.01.15） 67, server: 172.99.190.39, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: CYL-科技（2022.01.15） 68, server: 172.99.190.39, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: CYL-科技（2022.01.15） 69, server: 172.99.190.39, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: CYL-科技（2022.01.15） 70, server: 169.197.141.244, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: CYL-科技（2022.01.15） 71, server: 172.99.190.39, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: CYL-科技（2022.01.15） 72, server: 172.99.190.39, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: "🇺🇸 美国[感谢订阅——科技网络] 4", server: 38.75.136.93, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: CYL-科技（2022.01.15） 73, server: 38.68.134.191, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: CYL-科技（2022.01.15） 74, server: 217.79.181.49, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: CYL-科技（2022.01.15） 75, server: 169.197.141.244, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: CYL-科技（2022.01.15） 76, server: 169.197.141.244, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: CYL-科技（2022.01.15） 77, server: 169.197.141.244, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: CYL-科技（2022.01.15） 78, server: 217.79.181.49, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: CYL-科技（2022.01.15） 79, server: 172.99.190.39, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: CYL-科技（2022.01.15） 80, server: 169.197.141.244, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: CYL-科技（2022.01.15） 81, server: 169.197.141.244, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: CYL-科技（2022.01.15） 82, server: 169.197.141.244, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: CYL-科技（2022.01.15） 83, server: 38.68.134.191, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: CYL-科技（2022.01.15） 84, server: 172.99.190.39, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: CYL-科技（2022.01.15） 85, server: 169.197.141.244, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: CYL-科技（2022.01.06） 3, server: 70.39.71.2, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: XkH8z99cQguQ8ywK5jhV}
-  - {name: CYL-科技（2022.01.15） 86, server: 172.99.190.39, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: CYL-科技（2022.01.15） 87, server: 172.99.190.39, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: CYL-科技（2022.01.15） 88, server: 172.99.190.39, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: CYL-科技（2022.01.15） 89, server: 169.197.141.244, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: CYL-科技（2022.01.15） 90, server: 38.68.134.191, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: CYL-科技（2022.01.15） 91, server: 38.68.134.191, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: CYL-科技（2022.01.15） 92, server: 169.197.141.244, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: CYL-科技（2022.01.15） 93, server: 38.68.134.191, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: CYL-科技（2022.01.15） 94, server: 38.68.134.191, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: CYL-科技（2022.01.15） 95, server: 169.197.141.244, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: CYL-科技（2022.01.06） 4, server: 62.210.209.50, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: "🇺🇸 美国[感谢订阅——科技网络] 5", server: 38.75.136.93, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: CYL-科技（2022.01.15） 96, server: 38.68.134.191, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: CYL-科技（2022.01.15） 97, server: 217.138.200.242, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: EGTHtnGhcnggx5yBYSqS}
-  - {name: CYL-科技（2022.01.15） 98, server: 169.57.35.97, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 3Q5yYEGGMu8jU2p25aWL}
-  - {name: CYL-科技（2022.01.15） 99, server: 62.210.209.50, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: "🇺🇸 美国[感谢订阅——科技网络] 6", server: 38.75.136.93, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: CYL-科技（2022.01.15） 100, server: 217.79.181.49, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: CYL-科技（2022.01.15） 101, server: 145.239.1.100, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: CYL-科技（2022.01.15） 102, server: 145.239.1.100, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: CYL-科技（2022.01.15） 103, server: 145.239.1.100, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: CYL-科技（2022.01.15） 104, server: 145.239.1.100, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: CYL-科技（2022.01.15） 105, server: 145.239.1.100, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: CYL-科技（2022.01.15） 106, server: 145.239.1.100, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: CYL-科技（2022.01.15） 107, server: 145.239.1.100, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: CYL-科技（2022.01.15） 108, server: 217.79.181.49, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: CYL-科技（2022.01.15） 109, server: 145.239.1.100, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: CYL-科技（2022.01.15） 110, server: 145.239.1.100, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: CYL-科技（2022.01.15） 111, server: 149.202.82.172, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: CYL-科技（2022.01.15） 112, server: 145.239.1.100, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: CYL-科技（2022.01.15） 113, server: 145.239.1.100, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: CYL-科技（2022.01.15） 114, server: 145.239.1.100, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: CYL-科技（2022.01.15） 115, server: 145.239.1.100, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: CYL-科技（2022.01.15） 116, server: 149.202.82.172, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: CYL-科技（2022.01.15） 117, server: 145.239.1.100, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: CYL-科技（2022.01.15） 118, server: 145.239.1.100, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: CYL-科技（2022.01.15） 119, server: 145.239.1.100, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: CYL-科技（2022.01.15） 120, server: 149.202.82.172, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: CYL-科技（2022.01.15） 121, server: 145.239.1.100, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: CYL-科技（2022.01.15） 122, server: 145.239.1.100, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: CYL-科技（2022.01.15） 123, server: 145.239.1.100, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: CYL-科技（2022.01.15） 124, server: 77.243.191.178, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 47GH3wQRw7V4Zhd35bFs}
-  - {name: CYL-科技（2022.01.15） 125, server: 145.239.1.100, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: CYL-科技（2022.01.15） 126, server: 149.202.82.172, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: CYL-科技（2022.01.15） 127, server: 37.120.137.82, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: EGTHtnGhcnggx5yBYSqS}
-  - {name: "🇺🇸 美国[感谢订阅——科技网络] 7", server: 38.75.136.93, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: CYL-科技（2022.01.15） 128, server: 167.88.61.60, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: CYL-科技（2021.01.02） 10, server: 62.210.209.50, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: "🇦🇺 澳大利亚[感谢订阅——科技网络] 3", server: 172.105.180.227, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: CYL-科技（2022.01.15） 129, server: 172.99.190.87, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: CYL-科技（2022.01.06） 5, server: 172.105.180.227, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: CYL-科技（2022.01.06） 6, server: 172.105.180.227, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: CYL-科技（2022.01.15） 130, server: 37.120.136.234, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: Xd2xnHT8tYkVt5BDk92b}
-  - {name: CYL-科技（2022.01.15） 131, server: 172.105.180.227, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: CYL-科技（2022.01.06） 7, server: 172.105.180.227, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: "🇦🇺 澳大利亚[感谢订阅——科技网络] 4", server: 172.105.180.227, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: "🇦🇺 澳大利亚[感谢订阅——科技网络] 5", server: 172.105.180.227, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: "🇦🇺 澳大利亚[感谢订阅——科技网络] 6", server: 172.105.180.227, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: "🇦🇺 澳大利亚[感谢订阅——科技网络] 7", server: 172.105.180.227, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: CYL-科技（2022.01.15） 132, server: 217.79.181.49, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: "🇦🇺 澳大利亚[感谢订阅——科技网络] 8", server: 172.105.180.227, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: "🇦🇺 澳大利亚[感谢订阅——科技网络] 9", server: 172.105.180.227, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: CYL-科技（2022.01.06） 8, server: 172.105.180.227, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: CYL-科技（2022.01.15） 133, server: 172.99.190.87, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: "🇦🇺 澳大利亚[感谢订阅——科技网络] 10", server: 172.105.180.227, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: CYL-科技（2022.01.15） 83, server: 169.197.141.244, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: "🇺🇸 美国[感谢订阅——科技网络] 4", server: 38.75.136.93, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: CYL-科技（2022.01.15） 84, server: 172.99.190.39, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: CYL-科技（2022.01.15） 85, server: 169.197.141.244, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: CYL-科技（2022.01.15） 86, server: 145.239.1.100, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: CYL-科技（2022.01.15） 87, server: 145.239.1.100, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: CYL-科技（2022.01.15） 88, server: 145.239.1.100, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: CYL-科技（2022.01.15） 89, server: 149.202.82.172, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: CYL-科技（2022.01.15） 90, server: 145.239.1.100, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: CYL-科技（2022.01.15） 91, server: 145.239.1.100, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: CYL-科技（2022.01.15） 92, server: 172.99.190.39, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: CYL-科技（2022.01.15） 93, server: 172.99.190.39, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: CYL-科技（2022.01.15） 94, server: 145.239.1.100, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: CYL-科技（2022.01.15） 95, server: 145.239.1.100, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: CYL-科技（2022.01.15） 96, server: 145.239.1.100, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: CYL-科技（2022.01.15） 97, server: 169.197.141.244, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: CYL-科技（2022.01.15） 98, server: 169.197.141.244, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -180,34 +121,30 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - CYL-科技（2022.01.15）
+      - CYL-科技（2021.01.02）
+      - CYL-科技（2021.01.02） 2
+      - CYL-科技（2021.01.02） 3
+      - CYL-科技（2021.01.02） 4
+      - CYL-科技（2021.01.02） 5
+      - CYL-科技（2021.01.02） 6
       - CYL-科技（2022.01.15） 2
+      - CYL-科技（2021.01.02） 7
       - CYL-科技（2022.01.15） 3
       - CYL-科技（2022.01.15） 4
       - CYL-科技（2022.01.15） 5
-      - 🇺🇸 美国[感谢订阅——科技网络]
       - CYL-科技（2022.01.15） 6
-      - 🇦🇺 澳大利亚[感谢订阅——科技网络]
+      - 🇺🇸 美国[感谢订阅——科技网络]
       - CYL-科技（2022.01.15） 7
-      - 🇦🇺 澳大利亚[感谢订阅——科技网络] 2
       - CYL-科技（2022.01.15） 8
-      - CYL-科技（2021.01.02）
       - CYL-科技（2022.01.15） 9
       - CYL-科技（2022.01.15） 10
       - CYL-科技（2022.01.15） 11
       - CYL-科技（2022.01.15） 12
-      - CYL-科技（2021.01.02） 2
-      - CYL-科技（2021.01.02） 3
-      - CYL-科技（2021.01.02） 4
       - CYL-科技（2022.01.15） 13
       - CYL-科技（2022.01.15） 14
       - CYL-科技（2022.01.15） 15
-      - CYL-科技（2022.01.06）
       - CYL-科技（2022.01.15） 16
       - CYL-科技（2022.01.15） 17
-      - CYL-科技（2021.01.02） 5
-      - 🇺🇸 美国[感谢订阅——科技网络] 2
-      - CYL-科技（2021.01.02） 6
-      - CYL-科技（2021.01.02） 7
       - CYL-科技（2022.01.15） 18
       - CYL-科技（2022.01.15） 19
       - CYL-科技（2022.01.15） 20
@@ -227,9 +164,7 @@ proxy-groups:
       - CYL-科技（2022.01.15） 34
       - CYL-科技（2022.01.15） 35
       - CYL-科技（2022.01.15） 36
-      - CYL-科技（2021.01.02） 8
       - CYL-科技（2022.01.15） 37
-      - 🇺🇸 美国[感谢订阅——科技网络] 3
       - CYL-科技（2022.01.15） 38
       - CYL-科技（2022.01.15） 39
       - CYL-科技（2022.01.15） 40
@@ -238,7 +173,6 @@ proxy-groups:
       - CYL-科技（2022.01.15） 43
       - CYL-科技（2022.01.15） 44
       - CYL-科技（2022.01.15） 45
-      - CYL-科技（2022.01.06） 2
       - CYL-科技（2022.01.15） 46
       - CYL-科技（2022.01.15） 47
       - CYL-科技（2022.01.15） 48
@@ -260,28 +194,28 @@ proxy-groups:
       - CYL-科技（2022.01.15） 64
       - CYL-科技（2022.01.15） 65
       - CYL-科技（2022.01.15） 66
-      - CYL-科技（2021.01.02） 9
       - CYL-科技（2022.01.15） 67
       - CYL-科技（2022.01.15） 68
       - CYL-科技（2022.01.15） 69
       - CYL-科技（2022.01.15） 70
       - CYL-科技（2022.01.15） 71
       - CYL-科技（2022.01.15） 72
-      - 🇺🇸 美国[感谢订阅——科技网络] 4
       - CYL-科技（2022.01.15） 73
       - CYL-科技（2022.01.15） 74
       - CYL-科技（2022.01.15） 75
       - CYL-科技（2022.01.15） 76
+      - 🇺🇸 美国[感谢订阅——科技网络] 2
       - CYL-科技（2022.01.15） 77
       - CYL-科技（2022.01.15） 78
       - CYL-科技（2022.01.15） 79
       - CYL-科技（2022.01.15） 80
       - CYL-科技（2022.01.15） 81
       - CYL-科技（2022.01.15） 82
+      - 🇺🇸 美国[感谢订阅——科技网络] 3
       - CYL-科技（2022.01.15） 83
+      - 🇺🇸 美国[感谢订阅——科技网络] 4
       - CYL-科技（2022.01.15） 84
       - CYL-科技（2022.01.15） 85
-      - CYL-科技（2022.01.06） 3
       - CYL-科技（2022.01.15） 86
       - CYL-科技（2022.01.15） 87
       - CYL-科技（2022.01.15） 88
@@ -292,61 +226,9 @@ proxy-groups:
       - CYL-科技（2022.01.15） 93
       - CYL-科技（2022.01.15） 94
       - CYL-科技（2022.01.15） 95
-      - CYL-科技（2022.01.06） 4
-      - 🇺🇸 美国[感谢订阅——科技网络] 5
       - CYL-科技（2022.01.15） 96
       - CYL-科技（2022.01.15） 97
       - CYL-科技（2022.01.15） 98
-      - CYL-科技（2022.01.15） 99
-      - 🇺🇸 美国[感谢订阅——科技网络] 6
-      - CYL-科技（2022.01.15） 100
-      - CYL-科技（2022.01.15） 101
-      - CYL-科技（2022.01.15） 102
-      - CYL-科技（2022.01.15） 103
-      - CYL-科技（2022.01.15） 104
-      - CYL-科技（2022.01.15） 105
-      - CYL-科技（2022.01.15） 106
-      - CYL-科技（2022.01.15） 107
-      - CYL-科技（2022.01.15） 108
-      - CYL-科技（2022.01.15） 109
-      - CYL-科技（2022.01.15） 110
-      - CYL-科技（2022.01.15） 111
-      - CYL-科技（2022.01.15） 112
-      - CYL-科技（2022.01.15） 113
-      - CYL-科技（2022.01.15） 114
-      - CYL-科技（2022.01.15） 115
-      - CYL-科技（2022.01.15） 116
-      - CYL-科技（2022.01.15） 117
-      - CYL-科技（2022.01.15） 118
-      - CYL-科技（2022.01.15） 119
-      - CYL-科技（2022.01.15） 120
-      - CYL-科技（2022.01.15） 121
-      - CYL-科技（2022.01.15） 122
-      - CYL-科技（2022.01.15） 123
-      - CYL-科技（2022.01.15） 124
-      - CYL-科技（2022.01.15） 125
-      - CYL-科技（2022.01.15） 126
-      - CYL-科技（2022.01.15） 127
-      - 🇺🇸 美国[感谢订阅——科技网络] 7
-      - CYL-科技（2022.01.15） 128
-      - CYL-科技（2021.01.02） 10
-      - 🇦🇺 澳大利亚[感谢订阅——科技网络] 3
-      - CYL-科技（2022.01.15） 129
-      - CYL-科技（2022.01.06） 5
-      - CYL-科技（2022.01.06） 6
-      - CYL-科技（2022.01.15） 130
-      - CYL-科技（2022.01.15） 131
-      - CYL-科技（2022.01.06） 7
-      - 🇦🇺 澳大利亚[感谢订阅——科技网络] 4
-      - 🇦🇺 澳大利亚[感谢订阅——科技网络] 5
-      - 🇦🇺 澳大利亚[感谢订阅——科技网络] 6
-      - 🇦🇺 澳大利亚[感谢订阅——科技网络] 7
-      - CYL-科技（2022.01.15） 132
-      - 🇦🇺 澳大利亚[感谢订阅——科技网络] 8
-      - 🇦🇺 澳大利亚[感谢订阅——科技网络] 9
-      - CYL-科技（2022.01.06） 8
-      - CYL-科技（2022.01.15） 133
-      - 🇦🇺 澳大利亚[感谢订阅——科技网络] 10
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -354,34 +236,30 @@ proxy-groups:
     tolerance: 50
     proxies:
       - CYL-科技（2022.01.15）
+      - CYL-科技（2021.01.02）
+      - CYL-科技（2021.01.02） 2
+      - CYL-科技（2021.01.02） 3
+      - CYL-科技（2021.01.02） 4
+      - CYL-科技（2021.01.02） 5
+      - CYL-科技（2021.01.02） 6
       - CYL-科技（2022.01.15） 2
+      - CYL-科技（2021.01.02） 7
       - CYL-科技（2022.01.15） 3
       - CYL-科技（2022.01.15） 4
       - CYL-科技（2022.01.15） 5
-      - 🇺🇸 美国[感谢订阅——科技网络]
       - CYL-科技（2022.01.15） 6
-      - 🇦🇺 澳大利亚[感谢订阅——科技网络]
+      - 🇺🇸 美国[感谢订阅——科技网络]
       - CYL-科技（2022.01.15） 7
-      - 🇦🇺 澳大利亚[感谢订阅——科技网络] 2
       - CYL-科技（2022.01.15） 8
-      - CYL-科技（2021.01.02）
       - CYL-科技（2022.01.15） 9
       - CYL-科技（2022.01.15） 10
       - CYL-科技（2022.01.15） 11
       - CYL-科技（2022.01.15） 12
-      - CYL-科技（2021.01.02） 2
-      - CYL-科技（2021.01.02） 3
-      - CYL-科技（2021.01.02） 4
       - CYL-科技（2022.01.15） 13
       - CYL-科技（2022.01.15） 14
       - CYL-科技（2022.01.15） 15
-      - CYL-科技（2022.01.06）
       - CYL-科技（2022.01.15） 16
       - CYL-科技（2022.01.15） 17
-      - CYL-科技（2021.01.02） 5
-      - 🇺🇸 美国[感谢订阅——科技网络] 2
-      - CYL-科技（2021.01.02） 6
-      - CYL-科技（2021.01.02） 7
       - CYL-科技（2022.01.15） 18
       - CYL-科技（2022.01.15） 19
       - CYL-科技（2022.01.15） 20
@@ -401,9 +279,7 @@ proxy-groups:
       - CYL-科技（2022.01.15） 34
       - CYL-科技（2022.01.15） 35
       - CYL-科技（2022.01.15） 36
-      - CYL-科技（2021.01.02） 8
       - CYL-科技（2022.01.15） 37
-      - 🇺🇸 美国[感谢订阅——科技网络] 3
       - CYL-科技（2022.01.15） 38
       - CYL-科技（2022.01.15） 39
       - CYL-科技（2022.01.15） 40
@@ -412,7 +288,6 @@ proxy-groups:
       - CYL-科技（2022.01.15） 43
       - CYL-科技（2022.01.15） 44
       - CYL-科技（2022.01.15） 45
-      - CYL-科技（2022.01.06） 2
       - CYL-科技（2022.01.15） 46
       - CYL-科技（2022.01.15） 47
       - CYL-科技（2022.01.15） 48
@@ -434,28 +309,28 @@ proxy-groups:
       - CYL-科技（2022.01.15） 64
       - CYL-科技（2022.01.15） 65
       - CYL-科技（2022.01.15） 66
-      - CYL-科技（2021.01.02） 9
       - CYL-科技（2022.01.15） 67
       - CYL-科技（2022.01.15） 68
       - CYL-科技（2022.01.15） 69
       - CYL-科技（2022.01.15） 70
       - CYL-科技（2022.01.15） 71
       - CYL-科技（2022.01.15） 72
-      - 🇺🇸 美国[感谢订阅——科技网络] 4
       - CYL-科技（2022.01.15） 73
       - CYL-科技（2022.01.15） 74
       - CYL-科技（2022.01.15） 75
       - CYL-科技（2022.01.15） 76
+      - 🇺🇸 美国[感谢订阅——科技网络] 2
       - CYL-科技（2022.01.15） 77
       - CYL-科技（2022.01.15） 78
       - CYL-科技（2022.01.15） 79
       - CYL-科技（2022.01.15） 80
       - CYL-科技（2022.01.15） 81
       - CYL-科技（2022.01.15） 82
+      - 🇺🇸 美国[感谢订阅——科技网络] 3
       - CYL-科技（2022.01.15） 83
+      - 🇺🇸 美国[感谢订阅——科技网络] 4
       - CYL-科技（2022.01.15） 84
       - CYL-科技（2022.01.15） 85
-      - CYL-科技（2022.01.06） 3
       - CYL-科技（2022.01.15） 86
       - CYL-科技（2022.01.15） 87
       - CYL-科技（2022.01.15） 88
@@ -466,61 +341,9 @@ proxy-groups:
       - CYL-科技（2022.01.15） 93
       - CYL-科技（2022.01.15） 94
       - CYL-科技（2022.01.15） 95
-      - CYL-科技（2022.01.06） 4
-      - 🇺🇸 美国[感谢订阅——科技网络] 5
       - CYL-科技（2022.01.15） 96
       - CYL-科技（2022.01.15） 97
       - CYL-科技（2022.01.15） 98
-      - CYL-科技（2022.01.15） 99
-      - 🇺🇸 美国[感谢订阅——科技网络] 6
-      - CYL-科技（2022.01.15） 100
-      - CYL-科技（2022.01.15） 101
-      - CYL-科技（2022.01.15） 102
-      - CYL-科技（2022.01.15） 103
-      - CYL-科技（2022.01.15） 104
-      - CYL-科技（2022.01.15） 105
-      - CYL-科技（2022.01.15） 106
-      - CYL-科技（2022.01.15） 107
-      - CYL-科技（2022.01.15） 108
-      - CYL-科技（2022.01.15） 109
-      - CYL-科技（2022.01.15） 110
-      - CYL-科技（2022.01.15） 111
-      - CYL-科技（2022.01.15） 112
-      - CYL-科技（2022.01.15） 113
-      - CYL-科技（2022.01.15） 114
-      - CYL-科技（2022.01.15） 115
-      - CYL-科技（2022.01.15） 116
-      - CYL-科技（2022.01.15） 117
-      - CYL-科技（2022.01.15） 118
-      - CYL-科技（2022.01.15） 119
-      - CYL-科技（2022.01.15） 120
-      - CYL-科技（2022.01.15） 121
-      - CYL-科技（2022.01.15） 122
-      - CYL-科技（2022.01.15） 123
-      - CYL-科技（2022.01.15） 124
-      - CYL-科技（2022.01.15） 125
-      - CYL-科技（2022.01.15） 126
-      - CYL-科技（2022.01.15） 127
-      - 🇺🇸 美国[感谢订阅——科技网络] 7
-      - CYL-科技（2022.01.15） 128
-      - CYL-科技（2021.01.02） 10
-      - 🇦🇺 澳大利亚[感谢订阅——科技网络] 3
-      - CYL-科技（2022.01.15） 129
-      - CYL-科技（2022.01.06） 5
-      - CYL-科技（2022.01.06） 6
-      - CYL-科技（2022.01.15） 130
-      - CYL-科技（2022.01.15） 131
-      - CYL-科技（2022.01.06） 7
-      - 🇦🇺 澳大利亚[感谢订阅——科技网络] 4
-      - 🇦🇺 澳大利亚[感谢订阅——科技网络] 5
-      - 🇦🇺 澳大利亚[感谢订阅——科技网络] 6
-      - 🇦🇺 澳大利亚[感谢订阅——科技网络] 7
-      - CYL-科技（2022.01.15） 132
-      - 🇦🇺 澳大利亚[感谢订阅——科技网络] 8
-      - 🇦🇺 澳大利亚[感谢订阅——科技网络] 9
-      - CYL-科技（2022.01.06） 8
-      - CYL-科技（2022.01.15） 133
-      - 🇦🇺 澳大利亚[感谢订阅——科技网络] 10
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -528,34 +351,30 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - CYL-科技（2022.01.15）
+      - CYL-科技（2021.01.02）
+      - CYL-科技（2021.01.02） 2
+      - CYL-科技（2021.01.02） 3
+      - CYL-科技（2021.01.02） 4
+      - CYL-科技（2021.01.02） 5
+      - CYL-科技（2021.01.02） 6
       - CYL-科技（2022.01.15） 2
+      - CYL-科技（2021.01.02） 7
       - CYL-科技（2022.01.15） 3
       - CYL-科技（2022.01.15） 4
       - CYL-科技（2022.01.15） 5
-      - 🇺🇸 美国[感谢订阅——科技网络]
       - CYL-科技（2022.01.15） 6
-      - 🇦🇺 澳大利亚[感谢订阅——科技网络]
+      - 🇺🇸 美国[感谢订阅——科技网络]
       - CYL-科技（2022.01.15） 7
-      - 🇦🇺 澳大利亚[感谢订阅——科技网络] 2
       - CYL-科技（2022.01.15） 8
-      - CYL-科技（2021.01.02）
       - CYL-科技（2022.01.15） 9
       - CYL-科技（2022.01.15） 10
       - CYL-科技（2022.01.15） 11
       - CYL-科技（2022.01.15） 12
-      - CYL-科技（2021.01.02） 2
-      - CYL-科技（2021.01.02） 3
-      - CYL-科技（2021.01.02） 4
       - CYL-科技（2022.01.15） 13
       - CYL-科技（2022.01.15） 14
       - CYL-科技（2022.01.15） 15
-      - CYL-科技（2022.01.06）
       - CYL-科技（2022.01.15） 16
       - CYL-科技（2022.01.15） 17
-      - CYL-科技（2021.01.02） 5
-      - 🇺🇸 美国[感谢订阅——科技网络] 2
-      - CYL-科技（2021.01.02） 6
-      - CYL-科技（2021.01.02） 7
       - CYL-科技（2022.01.15） 18
       - CYL-科技（2022.01.15） 19
       - CYL-科技（2022.01.15） 20
@@ -575,9 +394,7 @@ proxy-groups:
       - CYL-科技（2022.01.15） 34
       - CYL-科技（2022.01.15） 35
       - CYL-科技（2022.01.15） 36
-      - CYL-科技（2021.01.02） 8
       - CYL-科技（2022.01.15） 37
-      - 🇺🇸 美国[感谢订阅——科技网络] 3
       - CYL-科技（2022.01.15） 38
       - CYL-科技（2022.01.15） 39
       - CYL-科技（2022.01.15） 40
@@ -586,7 +403,6 @@ proxy-groups:
       - CYL-科技（2022.01.15） 43
       - CYL-科技（2022.01.15） 44
       - CYL-科技（2022.01.15） 45
-      - CYL-科技（2022.01.06） 2
       - CYL-科技（2022.01.15） 46
       - CYL-科技（2022.01.15） 47
       - CYL-科技（2022.01.15） 48
@@ -608,28 +424,28 @@ proxy-groups:
       - CYL-科技（2022.01.15） 64
       - CYL-科技（2022.01.15） 65
       - CYL-科技（2022.01.15） 66
-      - CYL-科技（2021.01.02） 9
       - CYL-科技（2022.01.15） 67
       - CYL-科技（2022.01.15） 68
       - CYL-科技（2022.01.15） 69
       - CYL-科技（2022.01.15） 70
       - CYL-科技（2022.01.15） 71
       - CYL-科技（2022.01.15） 72
-      - 🇺🇸 美国[感谢订阅——科技网络] 4
       - CYL-科技（2022.01.15） 73
       - CYL-科技（2022.01.15） 74
       - CYL-科技（2022.01.15） 75
       - CYL-科技（2022.01.15） 76
+      - 🇺🇸 美国[感谢订阅——科技网络] 2
       - CYL-科技（2022.01.15） 77
       - CYL-科技（2022.01.15） 78
       - CYL-科技（2022.01.15） 79
       - CYL-科技（2022.01.15） 80
       - CYL-科技（2022.01.15） 81
       - CYL-科技（2022.01.15） 82
+      - 🇺🇸 美国[感谢订阅——科技网络] 3
       - CYL-科技（2022.01.15） 83
+      - 🇺🇸 美国[感谢订阅——科技网络] 4
       - CYL-科技（2022.01.15） 84
       - CYL-科技（2022.01.15） 85
-      - CYL-科技（2022.01.06） 3
       - CYL-科技（2022.01.15） 86
       - CYL-科技（2022.01.15） 87
       - CYL-科技（2022.01.15） 88
@@ -640,95 +456,39 @@ proxy-groups:
       - CYL-科技（2022.01.15） 93
       - CYL-科技（2022.01.15） 94
       - CYL-科技（2022.01.15） 95
-      - CYL-科技（2022.01.06） 4
-      - 🇺🇸 美国[感谢订阅——科技网络] 5
       - CYL-科技（2022.01.15） 96
       - CYL-科技（2022.01.15） 97
       - CYL-科技（2022.01.15） 98
-      - CYL-科技（2022.01.15） 99
-      - 🇺🇸 美国[感谢订阅——科技网络] 6
-      - CYL-科技（2022.01.15） 100
-      - CYL-科技（2022.01.15） 101
-      - CYL-科技（2022.01.15） 102
-      - CYL-科技（2022.01.15） 103
-      - CYL-科技（2022.01.15） 104
-      - CYL-科技（2022.01.15） 105
-      - CYL-科技（2022.01.15） 106
-      - CYL-科技（2022.01.15） 107
-      - CYL-科技（2022.01.15） 108
-      - CYL-科技（2022.01.15） 109
-      - CYL-科技（2022.01.15） 110
-      - CYL-科技（2022.01.15） 111
-      - CYL-科技（2022.01.15） 112
-      - CYL-科技（2022.01.15） 113
-      - CYL-科技（2022.01.15） 114
-      - CYL-科技（2022.01.15） 115
-      - CYL-科技（2022.01.15） 116
-      - CYL-科技（2022.01.15） 117
-      - CYL-科技（2022.01.15） 118
-      - CYL-科技（2022.01.15） 119
-      - CYL-科技（2022.01.15） 120
-      - CYL-科技（2022.01.15） 121
-      - CYL-科技（2022.01.15） 122
-      - CYL-科技（2022.01.15） 123
-      - CYL-科技（2022.01.15） 124
-      - CYL-科技（2022.01.15） 125
-      - CYL-科技（2022.01.15） 126
-      - CYL-科技（2022.01.15） 127
-      - 🇺🇸 美国[感谢订阅——科技网络] 7
-      - CYL-科技（2022.01.15） 128
-      - CYL-科技（2021.01.02） 10
-      - 🇦🇺 澳大利亚[感谢订阅——科技网络] 3
-      - CYL-科技（2022.01.15） 129
-      - CYL-科技（2022.01.06） 5
-      - CYL-科技（2022.01.06） 6
-      - CYL-科技（2022.01.15） 130
-      - CYL-科技（2022.01.15） 131
-      - CYL-科技（2022.01.06） 7
-      - 🇦🇺 澳大利亚[感谢订阅——科技网络] 4
-      - 🇦🇺 澳大利亚[感谢订阅——科技网络] 5
-      - 🇦🇺 澳大利亚[感谢订阅——科技网络] 6
-      - 🇦🇺 澳大利亚[感谢订阅——科技网络] 7
-      - CYL-科技（2022.01.15） 132
-      - 🇦🇺 澳大利亚[感谢订阅——科技网络] 8
-      - 🇦🇺 澳大利亚[感谢订阅——科技网络] 9
-      - CYL-科技（2022.01.06） 8
-      - CYL-科技（2022.01.15） 133
-      - 🇦🇺 澳大利亚[感谢订阅——科技网络] 10
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - CYL-科技（2022.01.15）
+      - CYL-科技（2021.01.02）
+      - CYL-科技（2021.01.02） 2
+      - CYL-科技（2021.01.02） 3
+      - CYL-科技（2021.01.02） 4
+      - CYL-科技（2021.01.02） 5
+      - CYL-科技（2021.01.02） 6
       - CYL-科技（2022.01.15） 2
+      - CYL-科技（2021.01.02） 7
       - CYL-科技（2022.01.15） 3
       - CYL-科技（2022.01.15） 4
       - CYL-科技（2022.01.15） 5
-      - 🇺🇸 美国[感谢订阅——科技网络]
       - CYL-科技（2022.01.15） 6
-      - 🇦🇺 澳大利亚[感谢订阅——科技网络]
+      - 🇺🇸 美国[感谢订阅——科技网络]
       - CYL-科技（2022.01.15） 7
-      - 🇦🇺 澳大利亚[感谢订阅——科技网络] 2
       - CYL-科技（2022.01.15） 8
-      - CYL-科技（2021.01.02）
       - CYL-科技（2022.01.15） 9
       - CYL-科技（2022.01.15） 10
       - CYL-科技（2022.01.15） 11
       - CYL-科技（2022.01.15） 12
-      - CYL-科技（2021.01.02） 2
-      - CYL-科技（2021.01.02） 3
-      - CYL-科技（2021.01.02） 4
       - CYL-科技（2022.01.15） 13
       - CYL-科技（2022.01.15） 14
       - CYL-科技（2022.01.15） 15
-      - CYL-科技（2022.01.06）
       - CYL-科技（2022.01.15） 16
       - CYL-科技（2022.01.15） 17
-      - CYL-科技（2021.01.02） 5
-      - 🇺🇸 美国[感谢订阅——科技网络] 2
-      - CYL-科技（2021.01.02） 6
-      - CYL-科技（2021.01.02） 7
       - CYL-科技（2022.01.15） 18
       - CYL-科技（2022.01.15） 19
       - CYL-科技（2022.01.15） 20
@@ -748,9 +508,7 @@ proxy-groups:
       - CYL-科技（2022.01.15） 34
       - CYL-科技（2022.01.15） 35
       - CYL-科技（2022.01.15） 36
-      - CYL-科技（2021.01.02） 8
       - CYL-科技（2022.01.15） 37
-      - 🇺🇸 美国[感谢订阅——科技网络] 3
       - CYL-科技（2022.01.15） 38
       - CYL-科技（2022.01.15） 39
       - CYL-科技（2022.01.15） 40
@@ -759,7 +517,6 @@ proxy-groups:
       - CYL-科技（2022.01.15） 43
       - CYL-科技（2022.01.15） 44
       - CYL-科技（2022.01.15） 45
-      - CYL-科技（2022.01.06） 2
       - CYL-科技（2022.01.15） 46
       - CYL-科技（2022.01.15） 47
       - CYL-科技（2022.01.15） 48
@@ -781,28 +538,28 @@ proxy-groups:
       - CYL-科技（2022.01.15） 64
       - CYL-科技（2022.01.15） 65
       - CYL-科技（2022.01.15） 66
-      - CYL-科技（2021.01.02） 9
       - CYL-科技（2022.01.15） 67
       - CYL-科技（2022.01.15） 68
       - CYL-科技（2022.01.15） 69
       - CYL-科技（2022.01.15） 70
       - CYL-科技（2022.01.15） 71
       - CYL-科技（2022.01.15） 72
-      - 🇺🇸 美国[感谢订阅——科技网络] 4
       - CYL-科技（2022.01.15） 73
       - CYL-科技（2022.01.15） 74
       - CYL-科技（2022.01.15） 75
       - CYL-科技（2022.01.15） 76
+      - 🇺🇸 美国[感谢订阅——科技网络] 2
       - CYL-科技（2022.01.15） 77
       - CYL-科技（2022.01.15） 78
       - CYL-科技（2022.01.15） 79
       - CYL-科技（2022.01.15） 80
       - CYL-科技（2022.01.15） 81
       - CYL-科技（2022.01.15） 82
+      - 🇺🇸 美国[感谢订阅——科技网络] 3
       - CYL-科技（2022.01.15） 83
+      - 🇺🇸 美国[感谢订阅——科技网络] 4
       - CYL-科技（2022.01.15） 84
       - CYL-科技（2022.01.15） 85
-      - CYL-科技（2022.01.06） 3
       - CYL-科技（2022.01.15） 86
       - CYL-科技（2022.01.15） 87
       - CYL-科技（2022.01.15） 88
@@ -813,95 +570,39 @@ proxy-groups:
       - CYL-科技（2022.01.15） 93
       - CYL-科技（2022.01.15） 94
       - CYL-科技（2022.01.15） 95
-      - CYL-科技（2022.01.06） 4
-      - 🇺🇸 美国[感谢订阅——科技网络] 5
       - CYL-科技（2022.01.15） 96
       - CYL-科技（2022.01.15） 97
       - CYL-科技（2022.01.15） 98
-      - CYL-科技（2022.01.15） 99
-      - 🇺🇸 美国[感谢订阅——科技网络] 6
-      - CYL-科技（2022.01.15） 100
-      - CYL-科技（2022.01.15） 101
-      - CYL-科技（2022.01.15） 102
-      - CYL-科技（2022.01.15） 103
-      - CYL-科技（2022.01.15） 104
-      - CYL-科技（2022.01.15） 105
-      - CYL-科技（2022.01.15） 106
-      - CYL-科技（2022.01.15） 107
-      - CYL-科技（2022.01.15） 108
-      - CYL-科技（2022.01.15） 109
-      - CYL-科技（2022.01.15） 110
-      - CYL-科技（2022.01.15） 111
-      - CYL-科技（2022.01.15） 112
-      - CYL-科技（2022.01.15） 113
-      - CYL-科技（2022.01.15） 114
-      - CYL-科技（2022.01.15） 115
-      - CYL-科技（2022.01.15） 116
-      - CYL-科技（2022.01.15） 117
-      - CYL-科技（2022.01.15） 118
-      - CYL-科技（2022.01.15） 119
-      - CYL-科技（2022.01.15） 120
-      - CYL-科技（2022.01.15） 121
-      - CYL-科技（2022.01.15） 122
-      - CYL-科技（2022.01.15） 123
-      - CYL-科技（2022.01.15） 124
-      - CYL-科技（2022.01.15） 125
-      - CYL-科技（2022.01.15） 126
-      - CYL-科技（2022.01.15） 127
-      - 🇺🇸 美国[感谢订阅——科技网络] 7
-      - CYL-科技（2022.01.15） 128
-      - CYL-科技（2021.01.02） 10
-      - 🇦🇺 澳大利亚[感谢订阅——科技网络] 3
-      - CYL-科技（2022.01.15） 129
-      - CYL-科技（2022.01.06） 5
-      - CYL-科技（2022.01.06） 6
-      - CYL-科技（2022.01.15） 130
-      - CYL-科技（2022.01.15） 131
-      - CYL-科技（2022.01.06） 7
-      - 🇦🇺 澳大利亚[感谢订阅——科技网络] 4
-      - 🇦🇺 澳大利亚[感谢订阅——科技网络] 5
-      - 🇦🇺 澳大利亚[感谢订阅——科技网络] 6
-      - 🇦🇺 澳大利亚[感谢订阅——科技网络] 7
-      - CYL-科技（2022.01.15） 132
-      - 🇦🇺 澳大利亚[感谢订阅——科技网络] 8
-      - 🇦🇺 澳大利亚[感谢订阅——科技网络] 9
-      - CYL-科技（2022.01.06） 8
-      - CYL-科技（2022.01.15） 133
-      - 🇦🇺 澳大利亚[感谢订阅——科技网络] 10
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - CYL-科技（2022.01.15）
+      - CYL-科技（2021.01.02）
+      - CYL-科技（2021.01.02） 2
+      - CYL-科技（2021.01.02） 3
+      - CYL-科技（2021.01.02） 4
+      - CYL-科技（2021.01.02） 5
+      - CYL-科技（2021.01.02） 6
       - CYL-科技（2022.01.15） 2
+      - CYL-科技（2021.01.02） 7
       - CYL-科技（2022.01.15） 3
       - CYL-科技（2022.01.15） 4
       - CYL-科技（2022.01.15） 5
-      - 🇺🇸 美国[感谢订阅——科技网络]
       - CYL-科技（2022.01.15） 6
-      - 🇦🇺 澳大利亚[感谢订阅——科技网络]
+      - 🇺🇸 美国[感谢订阅——科技网络]
       - CYL-科技（2022.01.15） 7
-      - 🇦🇺 澳大利亚[感谢订阅——科技网络] 2
       - CYL-科技（2022.01.15） 8
-      - CYL-科技（2021.01.02）
       - CYL-科技（2022.01.15） 9
       - CYL-科技（2022.01.15） 10
       - CYL-科技（2022.01.15） 11
       - CYL-科技（2022.01.15） 12
-      - CYL-科技（2021.01.02） 2
-      - CYL-科技（2021.01.02） 3
-      - CYL-科技（2021.01.02） 4
       - CYL-科技（2022.01.15） 13
       - CYL-科技（2022.01.15） 14
       - CYL-科技（2022.01.15） 15
-      - CYL-科技（2022.01.06）
       - CYL-科技（2022.01.15） 16
       - CYL-科技（2022.01.15） 17
-      - CYL-科技（2021.01.02） 5
-      - 🇺🇸 美国[感谢订阅——科技网络] 2
-      - CYL-科技（2021.01.02） 6
-      - CYL-科技（2021.01.02） 7
       - CYL-科技（2022.01.15） 18
       - CYL-科技（2022.01.15） 19
       - CYL-科技（2022.01.15） 20
@@ -921,9 +622,7 @@ proxy-groups:
       - CYL-科技（2022.01.15） 34
       - CYL-科技（2022.01.15） 35
       - CYL-科技（2022.01.15） 36
-      - CYL-科技（2021.01.02） 8
       - CYL-科技（2022.01.15） 37
-      - 🇺🇸 美国[感谢订阅——科技网络] 3
       - CYL-科技（2022.01.15） 38
       - CYL-科技（2022.01.15） 39
       - CYL-科技（2022.01.15） 40
@@ -932,7 +631,6 @@ proxy-groups:
       - CYL-科技（2022.01.15） 43
       - CYL-科技（2022.01.15） 44
       - CYL-科技（2022.01.15） 45
-      - CYL-科技（2022.01.06） 2
       - CYL-科技（2022.01.15） 46
       - CYL-科技（2022.01.15） 47
       - CYL-科技（2022.01.15） 48
@@ -954,28 +652,28 @@ proxy-groups:
       - CYL-科技（2022.01.15） 64
       - CYL-科技（2022.01.15） 65
       - CYL-科技（2022.01.15） 66
-      - CYL-科技（2021.01.02） 9
       - CYL-科技（2022.01.15） 67
       - CYL-科技（2022.01.15） 68
       - CYL-科技（2022.01.15） 69
       - CYL-科技（2022.01.15） 70
       - CYL-科技（2022.01.15） 71
       - CYL-科技（2022.01.15） 72
-      - 🇺🇸 美国[感谢订阅——科技网络] 4
       - CYL-科技（2022.01.15） 73
       - CYL-科技（2022.01.15） 74
       - CYL-科技（2022.01.15） 75
       - CYL-科技（2022.01.15） 76
+      - 🇺🇸 美国[感谢订阅——科技网络] 2
       - CYL-科技（2022.01.15） 77
       - CYL-科技（2022.01.15） 78
       - CYL-科技（2022.01.15） 79
       - CYL-科技（2022.01.15） 80
       - CYL-科技（2022.01.15） 81
       - CYL-科技（2022.01.15） 82
+      - 🇺🇸 美国[感谢订阅——科技网络] 3
       - CYL-科技（2022.01.15） 83
+      - 🇺🇸 美国[感谢订阅——科技网络] 4
       - CYL-科技（2022.01.15） 84
       - CYL-科技（2022.01.15） 85
-      - CYL-科技（2022.01.06） 3
       - CYL-科技（2022.01.15） 86
       - CYL-科技（2022.01.15） 87
       - CYL-科技（2022.01.15） 88
@@ -986,95 +684,39 @@ proxy-groups:
       - CYL-科技（2022.01.15） 93
       - CYL-科技（2022.01.15） 94
       - CYL-科技（2022.01.15） 95
-      - CYL-科技（2022.01.06） 4
-      - 🇺🇸 美国[感谢订阅——科技网络] 5
       - CYL-科技（2022.01.15） 96
       - CYL-科技（2022.01.15） 97
       - CYL-科技（2022.01.15） 98
-      - CYL-科技（2022.01.15） 99
-      - 🇺🇸 美国[感谢订阅——科技网络] 6
-      - CYL-科技（2022.01.15） 100
-      - CYL-科技（2022.01.15） 101
-      - CYL-科技（2022.01.15） 102
-      - CYL-科技（2022.01.15） 103
-      - CYL-科技（2022.01.15） 104
-      - CYL-科技（2022.01.15） 105
-      - CYL-科技（2022.01.15） 106
-      - CYL-科技（2022.01.15） 107
-      - CYL-科技（2022.01.15） 108
-      - CYL-科技（2022.01.15） 109
-      - CYL-科技（2022.01.15） 110
-      - CYL-科技（2022.01.15） 111
-      - CYL-科技（2022.01.15） 112
-      - CYL-科技（2022.01.15） 113
-      - CYL-科技（2022.01.15） 114
-      - CYL-科技（2022.01.15） 115
-      - CYL-科技（2022.01.15） 116
-      - CYL-科技（2022.01.15） 117
-      - CYL-科技（2022.01.15） 118
-      - CYL-科技（2022.01.15） 119
-      - CYL-科技（2022.01.15） 120
-      - CYL-科技（2022.01.15） 121
-      - CYL-科技（2022.01.15） 122
-      - CYL-科技（2022.01.15） 123
-      - CYL-科技（2022.01.15） 124
-      - CYL-科技（2022.01.15） 125
-      - CYL-科技（2022.01.15） 126
-      - CYL-科技（2022.01.15） 127
-      - 🇺🇸 美国[感谢订阅——科技网络] 7
-      - CYL-科技（2022.01.15） 128
-      - CYL-科技（2021.01.02） 10
-      - 🇦🇺 澳大利亚[感谢订阅——科技网络] 3
-      - CYL-科技（2022.01.15） 129
-      - CYL-科技（2022.01.06） 5
-      - CYL-科技（2022.01.06） 6
-      - CYL-科技（2022.01.15） 130
-      - CYL-科技（2022.01.15） 131
-      - CYL-科技（2022.01.06） 7
-      - 🇦🇺 澳大利亚[感谢订阅——科技网络] 4
-      - 🇦🇺 澳大利亚[感谢订阅——科技网络] 5
-      - 🇦🇺 澳大利亚[感谢订阅——科技网络] 6
-      - 🇦🇺 澳大利亚[感谢订阅——科技网络] 7
-      - CYL-科技（2022.01.15） 132
-      - 🇦🇺 澳大利亚[感谢订阅——科技网络] 8
-      - 🇦🇺 澳大利亚[感谢订阅——科技网络] 9
-      - CYL-科技（2022.01.06） 8
-      - CYL-科技（2022.01.15） 133
-      - 🇦🇺 澳大利亚[感谢订阅——科技网络] 10
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - CYL-科技（2022.01.15）
+      - CYL-科技（2021.01.02）
+      - CYL-科技（2021.01.02） 2
+      - CYL-科技（2021.01.02） 3
+      - CYL-科技（2021.01.02） 4
+      - CYL-科技（2021.01.02） 5
+      - CYL-科技（2021.01.02） 6
       - CYL-科技（2022.01.15） 2
+      - CYL-科技（2021.01.02） 7
       - CYL-科技（2022.01.15） 3
       - CYL-科技（2022.01.15） 4
       - CYL-科技（2022.01.15） 5
-      - 🇺🇸 美国[感谢订阅——科技网络]
       - CYL-科技（2022.01.15） 6
-      - 🇦🇺 澳大利亚[感谢订阅——科技网络]
+      - 🇺🇸 美国[感谢订阅——科技网络]
       - CYL-科技（2022.01.15） 7
-      - 🇦🇺 澳大利亚[感谢订阅——科技网络] 2
       - CYL-科技（2022.01.15） 8
-      - CYL-科技（2021.01.02）
       - CYL-科技（2022.01.15） 9
       - CYL-科技（2022.01.15） 10
       - CYL-科技（2022.01.15） 11
       - CYL-科技（2022.01.15） 12
-      - CYL-科技（2021.01.02） 2
-      - CYL-科技（2021.01.02） 3
-      - CYL-科技（2021.01.02） 4
       - CYL-科技（2022.01.15） 13
       - CYL-科技（2022.01.15） 14
       - CYL-科技（2022.01.15） 15
-      - CYL-科技（2022.01.06）
       - CYL-科技（2022.01.15） 16
       - CYL-科技（2022.01.15） 17
-      - CYL-科技（2021.01.02） 5
-      - 🇺🇸 美国[感谢订阅——科技网络] 2
-      - CYL-科技（2021.01.02） 6
-      - CYL-科技（2021.01.02） 7
       - CYL-科技（2022.01.15） 18
       - CYL-科技（2022.01.15） 19
       - CYL-科技（2022.01.15） 20
@@ -1094,9 +736,7 @@ proxy-groups:
       - CYL-科技（2022.01.15） 34
       - CYL-科技（2022.01.15） 35
       - CYL-科技（2022.01.15） 36
-      - CYL-科技（2021.01.02） 8
       - CYL-科技（2022.01.15） 37
-      - 🇺🇸 美国[感谢订阅——科技网络] 3
       - CYL-科技（2022.01.15） 38
       - CYL-科技（2022.01.15） 39
       - CYL-科技（2022.01.15） 40
@@ -1105,7 +745,6 @@ proxy-groups:
       - CYL-科技（2022.01.15） 43
       - CYL-科技（2022.01.15） 44
       - CYL-科技（2022.01.15） 45
-      - CYL-科技（2022.01.06） 2
       - CYL-科技（2022.01.15） 46
       - CYL-科技（2022.01.15） 47
       - CYL-科技（2022.01.15） 48
@@ -1127,28 +766,28 @@ proxy-groups:
       - CYL-科技（2022.01.15） 64
       - CYL-科技（2022.01.15） 65
       - CYL-科技（2022.01.15） 66
-      - CYL-科技（2021.01.02） 9
       - CYL-科技（2022.01.15） 67
       - CYL-科技（2022.01.15） 68
       - CYL-科技（2022.01.15） 69
       - CYL-科技（2022.01.15） 70
       - CYL-科技（2022.01.15） 71
       - CYL-科技（2022.01.15） 72
-      - 🇺🇸 美国[感谢订阅——科技网络] 4
       - CYL-科技（2022.01.15） 73
       - CYL-科技（2022.01.15） 74
       - CYL-科技（2022.01.15） 75
       - CYL-科技（2022.01.15） 76
+      - 🇺🇸 美国[感谢订阅——科技网络] 2
       - CYL-科技（2022.01.15） 77
       - CYL-科技（2022.01.15） 78
       - CYL-科技（2022.01.15） 79
       - CYL-科技（2022.01.15） 80
       - CYL-科技（2022.01.15） 81
       - CYL-科技（2022.01.15） 82
+      - 🇺🇸 美国[感谢订阅——科技网络] 3
       - CYL-科技（2022.01.15） 83
+      - 🇺🇸 美国[感谢订阅——科技网络] 4
       - CYL-科技（2022.01.15） 84
       - CYL-科技（2022.01.15） 85
-      - CYL-科技（2022.01.06） 3
       - CYL-科技（2022.01.15） 86
       - CYL-科技（2022.01.15） 87
       - CYL-科技（2022.01.15） 88
@@ -1159,61 +798,9 @@ proxy-groups:
       - CYL-科技（2022.01.15） 93
       - CYL-科技（2022.01.15） 94
       - CYL-科技（2022.01.15） 95
-      - CYL-科技（2022.01.06） 4
-      - 🇺🇸 美国[感谢订阅——科技网络] 5
       - CYL-科技（2022.01.15） 96
       - CYL-科技（2022.01.15） 97
       - CYL-科技（2022.01.15） 98
-      - CYL-科技（2022.01.15） 99
-      - 🇺🇸 美国[感谢订阅——科技网络] 6
-      - CYL-科技（2022.01.15） 100
-      - CYL-科技（2022.01.15） 101
-      - CYL-科技（2022.01.15） 102
-      - CYL-科技（2022.01.15） 103
-      - CYL-科技（2022.01.15） 104
-      - CYL-科技（2022.01.15） 105
-      - CYL-科技（2022.01.15） 106
-      - CYL-科技（2022.01.15） 107
-      - CYL-科技（2022.01.15） 108
-      - CYL-科技（2022.01.15） 109
-      - CYL-科技（2022.01.15） 110
-      - CYL-科技（2022.01.15） 111
-      - CYL-科技（2022.01.15） 112
-      - CYL-科技（2022.01.15） 113
-      - CYL-科技（2022.01.15） 114
-      - CYL-科技（2022.01.15） 115
-      - CYL-科技（2022.01.15） 116
-      - CYL-科技（2022.01.15） 117
-      - CYL-科技（2022.01.15） 118
-      - CYL-科技（2022.01.15） 119
-      - CYL-科技（2022.01.15） 120
-      - CYL-科技（2022.01.15） 121
-      - CYL-科技（2022.01.15） 122
-      - CYL-科技（2022.01.15） 123
-      - CYL-科技（2022.01.15） 124
-      - CYL-科技（2022.01.15） 125
-      - CYL-科技（2022.01.15） 126
-      - CYL-科技（2022.01.15） 127
-      - 🇺🇸 美国[感谢订阅——科技网络] 7
-      - CYL-科技（2022.01.15） 128
-      - CYL-科技（2021.01.02） 10
-      - 🇦🇺 澳大利亚[感谢订阅——科技网络] 3
-      - CYL-科技（2022.01.15） 129
-      - CYL-科技（2022.01.06） 5
-      - CYL-科技（2022.01.06） 6
-      - CYL-科技（2022.01.15） 130
-      - CYL-科技（2022.01.15） 131
-      - CYL-科技（2022.01.06） 7
-      - 🇦🇺 澳大利亚[感谢订阅——科技网络] 4
-      - 🇦🇺 澳大利亚[感谢订阅——科技网络] 5
-      - 🇦🇺 澳大利亚[感谢订阅——科技网络] 6
-      - 🇦🇺 澳大利亚[感谢订阅——科技网络] 7
-      - CYL-科技（2022.01.15） 132
-      - 🇦🇺 澳大利亚[感谢订阅——科技网络] 8
-      - 🇦🇺 澳大利亚[感谢订阅——科技网络] 9
-      - CYL-科技（2022.01.06） 8
-      - CYL-科技（2022.01.15） 133
-      - 🇦🇺 澳大利亚[感谢订阅——科技网络] 10
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1237,34 +824,30 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - CYL-科技（2022.01.15）
+      - CYL-科技（2021.01.02）
+      - CYL-科技（2021.01.02） 2
+      - CYL-科技（2021.01.02） 3
+      - CYL-科技（2021.01.02） 4
+      - CYL-科技（2021.01.02） 5
+      - CYL-科技（2021.01.02） 6
       - CYL-科技（2022.01.15） 2
+      - CYL-科技（2021.01.02） 7
       - CYL-科技（2022.01.15） 3
       - CYL-科技（2022.01.15） 4
       - CYL-科技（2022.01.15） 5
-      - 🇺🇸 美国[感谢订阅——科技网络]
       - CYL-科技（2022.01.15） 6
-      - 🇦🇺 澳大利亚[感谢订阅——科技网络]
+      - 🇺🇸 美国[感谢订阅——科技网络]
       - CYL-科技（2022.01.15） 7
-      - 🇦🇺 澳大利亚[感谢订阅——科技网络] 2
       - CYL-科技（2022.01.15） 8
-      - CYL-科技（2021.01.02）
       - CYL-科技（2022.01.15） 9
       - CYL-科技（2022.01.15） 10
       - CYL-科技（2022.01.15） 11
       - CYL-科技（2022.01.15） 12
-      - CYL-科技（2021.01.02） 2
-      - CYL-科技（2021.01.02） 3
-      - CYL-科技（2021.01.02） 4
       - CYL-科技（2022.01.15） 13
       - CYL-科技（2022.01.15） 14
       - CYL-科技（2022.01.15） 15
-      - CYL-科技（2022.01.06）
       - CYL-科技（2022.01.15） 16
       - CYL-科技（2022.01.15） 17
-      - CYL-科技（2021.01.02） 5
-      - 🇺🇸 美国[感谢订阅——科技网络] 2
-      - CYL-科技（2021.01.02） 6
-      - CYL-科技（2021.01.02） 7
       - CYL-科技（2022.01.15） 18
       - CYL-科技（2022.01.15） 19
       - CYL-科技（2022.01.15） 20
@@ -1284,9 +867,7 @@ proxy-groups:
       - CYL-科技（2022.01.15） 34
       - CYL-科技（2022.01.15） 35
       - CYL-科技（2022.01.15） 36
-      - CYL-科技（2021.01.02） 8
       - CYL-科技（2022.01.15） 37
-      - 🇺🇸 美国[感谢订阅——科技网络] 3
       - CYL-科技（2022.01.15） 38
       - CYL-科技（2022.01.15） 39
       - CYL-科技（2022.01.15） 40
@@ -1295,7 +876,6 @@ proxy-groups:
       - CYL-科技（2022.01.15） 43
       - CYL-科技（2022.01.15） 44
       - CYL-科技（2022.01.15） 45
-      - CYL-科技（2022.01.06） 2
       - CYL-科技（2022.01.15） 46
       - CYL-科技（2022.01.15） 47
       - CYL-科技（2022.01.15） 48
@@ -1317,28 +897,28 @@ proxy-groups:
       - CYL-科技（2022.01.15） 64
       - CYL-科技（2022.01.15） 65
       - CYL-科技（2022.01.15） 66
-      - CYL-科技（2021.01.02） 9
       - CYL-科技（2022.01.15） 67
       - CYL-科技（2022.01.15） 68
       - CYL-科技（2022.01.15） 69
       - CYL-科技（2022.01.15） 70
       - CYL-科技（2022.01.15） 71
       - CYL-科技（2022.01.15） 72
-      - 🇺🇸 美国[感谢订阅——科技网络] 4
       - CYL-科技（2022.01.15） 73
       - CYL-科技（2022.01.15） 74
       - CYL-科技（2022.01.15） 75
       - CYL-科技（2022.01.15） 76
+      - 🇺🇸 美国[感谢订阅——科技网络] 2
       - CYL-科技（2022.01.15） 77
       - CYL-科技（2022.01.15） 78
       - CYL-科技（2022.01.15） 79
       - CYL-科技（2022.01.15） 80
       - CYL-科技（2022.01.15） 81
       - CYL-科技（2022.01.15） 82
+      - 🇺🇸 美国[感谢订阅——科技网络] 3
       - CYL-科技（2022.01.15） 83
+      - 🇺🇸 美国[感谢订阅——科技网络] 4
       - CYL-科技（2022.01.15） 84
       - CYL-科技（2022.01.15） 85
-      - CYL-科技（2022.01.06） 3
       - CYL-科技（2022.01.15） 86
       - CYL-科技（2022.01.15） 87
       - CYL-科技（2022.01.15） 88
@@ -1349,61 +929,9 @@ proxy-groups:
       - CYL-科技（2022.01.15） 93
       - CYL-科技（2022.01.15） 94
       - CYL-科技（2022.01.15） 95
-      - CYL-科技（2022.01.06） 4
-      - 🇺🇸 美国[感谢订阅——科技网络] 5
       - CYL-科技（2022.01.15） 96
       - CYL-科技（2022.01.15） 97
       - CYL-科技（2022.01.15） 98
-      - CYL-科技（2022.01.15） 99
-      - 🇺🇸 美国[感谢订阅——科技网络] 6
-      - CYL-科技（2022.01.15） 100
-      - CYL-科技（2022.01.15） 101
-      - CYL-科技（2022.01.15） 102
-      - CYL-科技（2022.01.15） 103
-      - CYL-科技（2022.01.15） 104
-      - CYL-科技（2022.01.15） 105
-      - CYL-科技（2022.01.15） 106
-      - CYL-科技（2022.01.15） 107
-      - CYL-科技（2022.01.15） 108
-      - CYL-科技（2022.01.15） 109
-      - CYL-科技（2022.01.15） 110
-      - CYL-科技（2022.01.15） 111
-      - CYL-科技（2022.01.15） 112
-      - CYL-科技（2022.01.15） 113
-      - CYL-科技（2022.01.15） 114
-      - CYL-科技（2022.01.15） 115
-      - CYL-科技（2022.01.15） 116
-      - CYL-科技（2022.01.15） 117
-      - CYL-科技（2022.01.15） 118
-      - CYL-科技（2022.01.15） 119
-      - CYL-科技（2022.01.15） 120
-      - CYL-科技（2022.01.15） 121
-      - CYL-科技（2022.01.15） 122
-      - CYL-科技（2022.01.15） 123
-      - CYL-科技（2022.01.15） 124
-      - CYL-科技（2022.01.15） 125
-      - CYL-科技（2022.01.15） 126
-      - CYL-科技（2022.01.15） 127
-      - 🇺🇸 美国[感谢订阅——科技网络] 7
-      - CYL-科技（2022.01.15） 128
-      - CYL-科技（2021.01.02） 10
-      - 🇦🇺 澳大利亚[感谢订阅——科技网络] 3
-      - CYL-科技（2022.01.15） 129
-      - CYL-科技（2022.01.06） 5
-      - CYL-科技（2022.01.06） 6
-      - CYL-科技（2022.01.15） 130
-      - CYL-科技（2022.01.15） 131
-      - CYL-科技（2022.01.06） 7
-      - 🇦🇺 澳大利亚[感谢订阅——科技网络] 4
-      - 🇦🇺 澳大利亚[感谢订阅——科技网络] 5
-      - 🇦🇺 澳大利亚[感谢订阅——科技网络] 6
-      - 🇦🇺 澳大利亚[感谢订阅——科技网络] 7
-      - CYL-科技（2022.01.15） 132
-      - 🇦🇺 澳大利亚[感谢订阅——科技网络] 8
-      - 🇦🇺 澳大利亚[感谢订阅——科技网络] 9
-      - CYL-科技（2022.01.06） 8
-      - CYL-科技（2022.01.15） 133
-      - 🇦🇺 澳大利亚[感谢订阅——科技网络] 10
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
