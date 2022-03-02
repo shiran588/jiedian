@@ -5,627 +5,1180 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: CYL-科技（2022.02.24）, server: 149.202.82.172, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: CYL-科技（2022.02.08）, server: 149.202.82.172, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: CYL-科技（2022.02.24） 2, server: ce.xjp.tgproxy.wtf, port: 21888, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: ce.xjp.tgproxy.wtf}}
-  - {name: CYL-科技（2022.02.08） 2, server: 134.195.196.193, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: CYL-科技（2022.02.08） 3, server: 149.202.82.172, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: CYL-科技（2022.02.08） 4, server: 134.195.196.147, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: CYL-科技（2022.02.08） 5, server: 149.202.82.172, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: CYL-科技（2021.01.02）, server: 62.210.209.50, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: CYL-科技（2022.02.24） 3, server: 51.255.66.185, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: CYL-科技（2022.02.24） 4, server: 198.41.221.169, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /sakura/, ws-headers: {Host: zero1.a-yu.xyz}}
-  - {name: CYL-科技（2022.02.08） 6, server: 149.202.82.172, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: CYL-科技（2022.02.08） 7, server: 149.202.82.172, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: CYL-科技（2022.02.08） 8, server: 172.99.190.205, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: CYL-科技（2022.02.24） 5, server: 20.earths.team, port: 443, type: trojan, password: 03f9d1c7-40f9-475c-bf46-e3883ee7da5f, sni: 20.earths.team}
-  - {name: CYL-科技（2022.02.24） 6, server: 169.197.141.91, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: CYL-科技（2022.02.24） 7, server: c4jrauwu5v.eastasia.cloudapp.azure.com, port: 54975, type: vmess, uuid: 3b07447e-94cf-4d72-96c6-d0a539098049, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: c4jrauwu5v.eastasia.cloudapp.azure.com}}
-  - {name: CYL-科技（2022.02.23）, server: 198.41.212.107, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /sakura/, ws-headers: {Host: 2022-world-1.a-yu.xyz}}
-  - {name: CYL-科技（2022.02.24） 8, server: 169.197.141.91, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: CYL-科技（2022.02.24） 9, server: 149.202.82.172, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: CYL-科技（2022.02.08） 9, server: 169.197.141.91, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: CYL-科技（2022.02.23） 2, server: 128tw02.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 128tw02.fans8.xyz}}
-  - {name: CYL-科技（2022.02.24） 10, server: 149.202.82.172, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: CYL-科技（2022.02.23） 3, server: 0218tw02.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 0218tw02.fans8.xyz}}
-  - {name: CYL-科技（2022.02.24） 11, server: 20.earths.team, port: 443, type: trojan, password: 73fddb66-9a3a-4a51-a043-7127ba32d1da, sni: 20.earths.team}
-  - {name: CYL-科技（2022.02.23） 4, server: 172.105.222.98, port: 80, type: vmess, uuid: 4e1d0b12-25f0-363f-8659-9c6a3ca1fcda, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 172.105.222.98}}
-  - {name: CYL-科技（2022.02.08） 10, server: 134.195.196.193, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: CYL-科技（2022.02.24） 12, server: 1031kr.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 1031kr.fans8.xyz}}
-  - {name: CYL-科技（2022.02.24） 13, server: 20.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, sni: 20.earths.team}
-  - {name: CYL-科技（2022.02.23） 5, server: 100.wowogg.cyou, port: 11220, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
-  - {name: CYL-科技（2022.02.24） 14, server: 7.earths.team, port: 443, type: trojan, password: 03f9d1c7-40f9-475c-bf46-e3883ee7da5f, sni: 7.earths.team}
-  - {name: CYL-科技（2022.02.24） 15, server: 7.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, sni: 7.earths.team}
-  - {name: CA-134.195.196.193-460, server: 134.195.196.193, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: CYL-科技（2022.02.08） 11, server: 172.99.190.205, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: CYL-科技（2022.02.23） 6, server: 172.99.190.205, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: CYL-科技（2022.02.24） 16, server: 104.16.160.114, port: 443, type: vmess, uuid: 4daecd66-d4e2-4577-bf79-47c90daa716d, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /jackson2025_vws, ws-headers: {Host: jackson2025.cf}}
-  - {name: 科技网络, server: 134.195.196.193, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: CYL-科技（2022.02.23） 7, server: 0222tw.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 0222tw.fans8.xyz}}
-  - {name: CYL-科技（2022.02.08） 12, server: 149.202.82.172, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: CYL-科技（2022.02.24） 17, server: 1031kr.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 1031kr.fans8.xyz}}
-  - {name: CYL-科技（2022.02.23） 8, server: 154.84.1.58, port: 443, type: vmess, uuid: 6fa560d4-35c5-4968-adfc-812c52878b84, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/120306182525, ws-headers: {Host: www.85174207.xyz}}
-  - {name: CYL-科技（2022.02.23） 9, server: 51.255.66.185, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: CYL-科技（2022.02.23） 10, server: 0218kr02.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 0218kr02.fans8.xyz}}
-  - {name: CYL-科技（2022.02.24） 18, server: 14.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, sni: 14.earths.team}
-  - {name: CYL-科技（2022.02.23） 11, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
-  - {name: CYL-科技（2022.02.24） 19, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
-  - {name: CYL-科技（2022.02.23） 12, server: 51.255.66.185, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: CYL-科技（2022.02.23） 13, server: 165.154.233.7, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}}
-  - {name: CYL-科技（2022.02.23） 14, server: 165.154.230.176, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}}
-  - {name: CYL-科技（2022.02.23） 15, server: 51.255.66.185, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: CYL-科技（2022.02.24） 20, server: 51.255.66.185, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: CYL-科技（2022.02.24） 21, server: 51.255.66.185, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: CYL-科技（2022.02.24） 22, server: ocph.vproxy.us, port: 34567, type: trojan, password: fd54b442-3a4c-4580-bd9a-70e1b249eceb, sni: ocph.vproxy.us}
-  - {name: CYL-科技（2022.02.24） 23, server: 51.255.66.185, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: CYL-科技（2022.02.23） 16, server: chuna1.515223.xyz, port: 24793, type: vmess, uuid: 58975106-dc46-4942-b79e-336da67f1bbd, alterId: 0, cipher: auto, tls: false}
-  - {name: CYL-科技（2021.01.02） 2, server: 62.210.209.50, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: CYL-科技（2022.02.24） 24, server: 104.16.181.103, port: 443, type: vmess, uuid: 7be43971-52f1-48af-9036-454a94b4723a, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/ws/?ed=2048", ws-headers: {Host: download.china666.ml}}
-  - {name: CYL-科技（2022.02.08） 13, server: 149.202.82.172, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: CYL-科技（2022.01.15）, server: 62.210.209.50, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: CYL-科技（2022.02.24） 25, server: 14.earths.team, port: 443, type: trojan, password: 03f9d1c7-40f9-475c-bf46-e3883ee7da5f, sni: 14.earths.team}
-  - {name: CYL-科技（2021.01.02） 3, server: 62.210.209.50, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: CYL-科技（2022.02.24） 26, server: 149.202.82.172, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: CYL-科技（2022.02.08） 14, server: 149.202.82.172, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: CYL-科技（2021.01.02） 4, server: 62.210.209.50, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 科技网络 2, server: 172.99.190.188, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: CYL-科技（2021.01.02） 5, server: 62.210.209.50, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: CYL-科技（2021.01.02） 6, server: 62.210.209.50, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: CYL-科技（2022.02.24） 27, server: 149.202.82.172, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: CYL-科技（2022.02.23） 17, server: 51.255.66.185, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: CYL-科技（2021.01.02） 7, server: 62.210.209.50, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: CYL-科技（2022.02.08） 15, server: 172.99.190.205, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: CYL-科技（2022.02.23） 18, server: 2.ezydfdd.com, port: 443, type: vmess, uuid: 8ce46aae-dae5-4d50-ebcd-f9514e4c048a, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /qwe, ws-headers: {Host: 2.ezydfdd.com}}
-  - {name: CYL-科技（2021.01.02） 8, server: 62.210.209.50, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: CYL-科技（2022.02.08） 16, server: 149.202.82.172, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: CYL-科技（2022.02.24） 28, server: 149.202.82.172, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: CYL-科技（2022.02.08） 17, server: 149.202.82.172, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: CYL-科技（2022.02.24） 29, server: ocld.vproxy.us, port: 34567, type: trojan, password: fd54b442-3a4c-4580-bd9a-70e1b249eceb, sni: ocld.vproxy.us}
-  - {name: CYL-科技（2022.01.15） 2, server: 62.210.209.50, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: CYL-科技（2022.02.08） 18, server: 172.99.190.205, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇫🇷 法国阿伟科技@TG/油管, server: 149.202.82.172, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: CYL-科技（2022.02.08） 19, server: 172.99.190.205, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: CYL-科技（2022.02.24） 30, server: 0122us.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 0122us.fans8.xyz}}
-  - {name: 科技网络 3, server: 134.195.196.193, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: CYL-科技（2022.02.24） 31, server: 172.99.190.188, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: CYL-科技（2022.02.08） 20, server: 149.202.82.172, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇯🇵 日本(yudou66.com 玉豆分享), server: 133.wowogg.cyou, port: 52333, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本(yudou66.com 玉豆分享) 2, server: 118.wowogg.cyou, port: 52218, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇺🇸 _US_美国, server: 169.197.142.187, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 科技网络, server: 133.wowogg.cyou, port: 52333, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: 科技网络 2, server: 91.wowogg.cyou, port: 52291, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇫🇷 法国(yudou66.com 玉豆分享), server: 51.255.66.185, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: YouTube*阿阳AYANG*科技大师, server: 134.195.196.187, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇺🇸 美国(欢迎订阅Youtube破解资源君), server: 20.24.100.226, port: 52215, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: YouTube*阿阳AYANG*科技大师 2, server: 169.197.142.187, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: YouTube*阿阳AYANG*科技大师 3, server: 198.57.27.172, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇭🇰 香港(欢迎订阅Youtube破解资源君), server: 115.wowogg.cyou, port: 52215, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2, server: 120.wowogg.cyou, port: 52220, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇺🇸 _US_美国 2, server: 167.88.61.60, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: YouTube*阿阳AYANG*科技大师 4, server: cloudflare.xrenblog.com, port: 443, type: vmess, uuid: 6c175d1a-a57f-4881-a471-173eb139694b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /xrenblog/, ws-headers: {Host: ipv6.xrenblog.com}}
+  - {name: CYL-科技（2022.02.23）, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
+  - {name: 🇺🇸 _US_美国 3, server: 38.75.136.93, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: YouTube*阿阳AYANG*科技大师 5, server: 169.197.142.187, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇺🇸 _US_美国 4, server: 38.75.136.93, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: YouTube*阿阳AYANG*科技大师 6, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
+  - {name: 🇯🇵 日本(yudou66.com 玉豆分享) 3, server: 114.wowogg.cyou, port: 52214, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: YouTube*阿阳AYANG*科技大师 7, server: 169.197.142.187, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 科技网络 3, server: 38.91.102.86, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: YouTube*阿阳AYANG*科技大师 8, server: 38.143.66.71, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: YouTube*阿阳AYANG*科技大师 9, server: 169.197.142.187, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇪🇺 欧洲(yudou66.com 玉豆分享), server: 172.99.190.92, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: CYL-科技（2022.02.23） 2, server: 0218tw02.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 0218tw02.fans8.xyz}}
+  - {name: YouTube*阿阳AYANG*科技大师 10, server: 169.197.142.187, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 _US_美国 5, server: 169.197.142.187, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 科技网络 4, server: 120.wowogg.cyou, port: 52220, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君), server: 104.16.162.16, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /eisasqa, ws-headers: {Host: foxus.fovi.tk}}
+  - {name: 科技网络 5, server: 117.wowogg.cyou, port: 52217, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: 科技网络 6, server: 167.88.61.60, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: CYL-科技（2022.02.23） 3, server: 172.105.222.98, port: 80, type: vmess, uuid: 4e1d0b12-25f0-363f-8659-9c6a3ca1fcda, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 172.105.222.98}}
+  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 2, server: 118.wowogg.cyou, port: 52218, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: 科技网络 7, server: 117.wowogg.cyou, port: 52217, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本(yudou66.com 玉豆分享) 4, server: 104.wowogg.cyou, port: 11222, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: 科技网络 8, server: 105.wowogg.cyou, port: 52205, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 3, server: 119.wowogg.cyou, port: 52219, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: 科技网络 9, server: 107.wowogg.cyou, port: 52207, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: YouTube*阿阳AYANG*科技大师 11, server: 172.99.190.92, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: YouTube*阿阳AYANG*科技大师 12, server: 134.195.196.227, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 科技网络 10, server: 107.wowogg.cyou, port: 52207, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: 科技网络 11, server: 127.wowogg.cyou, port: 52227, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: CYL-科技（2022.02.23） 4, server: 0218kr02.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 0218kr02.fans8.xyz}}
+  - {name: 科技网络 12, server: 172.104.168.83, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇨🇦 _CA_加拿大, server: 134.195.196.12, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 4, server: 92.wowogg.cyou, port: 52292, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: YouTube*阿阳AYANG*科技大师 13, server: 167.88.61.175, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 科技网络 13, server: 172.104.168.83, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 科技网络 14, server: 192.46.209.227, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 科技网络 15, server: 192.46.209.227, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 科技网络 16, server: 192.46.209.227, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 科技网络 17, server: 192.46.209.227, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 科技网络 18, server: 192.46.209.227, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 科技网络 19, server: 192.46.209.227, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 科技网络 20, server: 192.46.209.227, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 科技网络 21, server: 192.46.209.227, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇯🇵 日本(yudou66.com 玉豆分享) 5, server: 127.wowogg.cyou, port: 52227, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: 科技网络 22, server: 192.46.209.227, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 科技网络 23, server: 192.46.209.227, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 科技网络 24, server: 134.195.196.12, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇺🇸 美国(欢迎订阅Youtube破解资源君) 3, server: 192.46.209.227, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: CYL-科技（2022.02.23） 5, server: 165.154.230.176, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}}
+  - {name: 科技网络 25, server: 192.46.209.227, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 科技网络 26, server: 192.46.209.227, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 科技网络 27, server: 192.46.209.227, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 科技网络 28, server: 192.46.209.227, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: YouTube*阿阳AYANG*科技大师 14, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
+  - {name: 科技网络 29, server: 192.46.209.227, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 科技网络 30, server: 192.46.209.227, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: YouTube*阿阳AYANG*科技大师 15, server: 169.197.142.187, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 科技网络 31, server: 192.46.209.227, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 科技网络 32, server: 192.46.209.227, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 科技网络 33, server: 92.wowogg.cyou, port: 52292, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: 科技网络 34, server: 192.46.209.227, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 科技网络 35, server: 192.46.209.227, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 科技网络 36, server: 38.91.102.86, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 科技网络 37, server: 38.91.102.86, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇪🇺 欧洲(yudou66.com 玉豆分享) 2, server: 145.239.7.164, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 科技网络 38, server: 38.91.102.86, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 科技网络 39, server: 38.91.102.86, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 科技网络 40, server: 167.88.61.60, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 科技网络 41, server: 38.91.102.86, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 科技网络 42, server: 38.91.102.86, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 科技网络 43, server: 38.91.102.86, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 🇺🇸 _US_美国 6, server: 38.75.136.93, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 科技网络 44, server: 38.91.102.86, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 科技网络 45, server: 167.88.61.60, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 科技网络 46, server: 38.91.102.86, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 科技网络 47, server: 38.91.102.86, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 科技网络 48, server: 38.91.102.86, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 美国(yudou66.com 玉豆分享), server: 167.88.61.60, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇪🇺 欧洲(yudou66.com 玉豆分享) 3, server: 145.239.7.164, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 科技网络 49, server: 14.earths.team, port: 443, type: trojan, password: 6593b778-e45e-4f94-b5ae-641d4b7b02ae, sni: 14.earths.team}
+  - {name: YouTube*阿阳AYANG*科技大师 16, server: 38.143.66.71, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 🇺🇸 美国(欢迎订阅Youtube破解资源君) 4, server: 38.143.66.71, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 科技网络 50, server: 38.143.66.71, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: CYL-科技（2022.02.24）, server: 14.earths.team, port: 443, type: trojan, password: 03f9d1c7-40f9-475c-bf46-e3883ee7da5f, sni: 14.earths.team}
+  - {name: YouTube*阿阳AYANG*科技大师 17, server: 167.88.61.175, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: YouTube*阿阳AYANG*科技大师 18, server: targoo1.mirror.cn.com, port: 443, type: vmess, uuid: 351b9b77-a6f0-4772-a845-04bed6814563, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: targoo1.mirror.cn.com}}
+  - {name: YouTube*阿阳AYANG*科技大师 19, server: 169.197.142.187, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 🇺🇸 _US_美国(yudou66.com 玉豆分享), server: 167.88.61.60, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: YouTube*阿阳AYANG*科技大师 20, server: 169.197.142.187, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇺🇸 _US_美国(yudou66.com 玉豆分享) 2, server: 167.88.61.60, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: YouTube*阿阳AYANG*科技大师 21, server: 169.197.142.187, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 科技网络 51, server: 167.88.63.79, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇬🇧 _GB_英国(yudou66.com 玉豆分享), server: 145.239.7.164, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 科技网络 52, server: 145.239.7.164, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 科技网络 53, server: 14.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, sni: 14.earths.team}
+  - {name: YouTube*阿阳AYANG*科技大师 22, server: 142.202.48.52, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 科技网络 54, server: 38.91.100.102, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: YouTube*阿阳AYANG*科技大师 23, server: 0208us.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 0208us.fans8.xyz}}
+  - {name: YouTube*阿阳AYANG*科技大师 24, server: 134.195.196.187, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: YouTube*阿阳AYANG*科技大师 25, server: 142.202.48.52, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇺🇸 _US_美国(yudou66.com 玉豆分享) 3, server: 167.88.63.89, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: YouTube*阿阳AYANG*科技大师 26, server: 169.197.142.187, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: YouTube*阿阳AYANG*科技大师 27, server: 134.195.196.187, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 科技网络 55, server: 142.202.48.52, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 科技网络 56, server: 38.91.100.102, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 科技网络 57, server: 38.75.136.93, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 科技网络 58, server: 134.195.196.3, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 科技网络 59, server: 198.57.27.172, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 科技网络 60, server: 38.75.136.93, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇺🇸 _US_美国(yudou66.com 玉豆分享) 4, server: 38.75.136.93, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: YouTube*阿阳AYANG*科技大师 28, server: 134.195.196.187, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇺🇸 _US_美国 7, server: 38.75.136.93, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 5, server: 134.195.196.227, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 科技网络 61, server: 134.195.196.68, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: YouTube*阿阳AYANG*科技大师 29, server: 134.195.196.227, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 科技网络 62, server: 142.202.48.52, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 科技网络 63, server: 134.195.196.68, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: YouTube*阿阳AYANG*科技大师 30, server: 134.195.196.187, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: YouTube*阿阳AYANG*科技大师 31, server: 142.202.48.52, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: YouTube*阿阳AYANG*科技大师 32, server: 134.195.196.227, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 科技网络 64, server: 142.202.48.83, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: YouTube*阿阳AYANG*科技大师 33, server: 134.195.196.227, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: YouTube*阿阳AYANG*科技大师 34, server: 38.91.100.102, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 科技网络 65, server: 89.wowogg.cyou, port: 52289, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: YouTube*阿阳AYANG*科技大师 35, server: 134.195.196.68, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: YouTube*阿阳AYANG*科技大师 36, server: 134.195.196.68, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 科技网络 66, server: 134.195.196.12, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 科技网络 67, server: 134.195.196.12, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 科技网络 68, server: 38.91.102.86, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 科技网络 69, server: 38.143.66.71, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: YouTube*阿阳AYANG*科技大师 37, server: 134.195.196.68, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 🇨🇦 _CA_加拿大 2, server: 134.195.196.12, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: YouTube*阿阳AYANG*科技大师 38, server: 134.195.196.68, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 科技网络 70, server: 38.143.66.71, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: YouTube*阿阳AYANG*科技大师 39, server: 134.195.196.68, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 科技网络 71, server: 38.143.66.71, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 科技网络 72, server: 134.195.196.12, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 科技网络 73, server: 38.143.66.71, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: YouTube*阿阳AYANG*科技大师 40, server: 134.195.196.68, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 🇺🇸 _US_美国 8, server: 167.88.61.60, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: YouTube*阿阳AYANG*科技大师 41, server: 38.86.135.36, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇯🇵 日本(yudou66.com 玉豆分享) 6, server: 91.wowogg.cyou, port: 52291, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: 科技网络 74, server: 134.195.196.12, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇺🇸 美国(yudou66.com 玉豆分享) 2, server: 38.86.135.36, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: YouTube*阿阳AYANG*科技大师 42, server: 38.86.135.36, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 🇺🇸 _US_美国 9, server: 185.161.70.153, port: 15005, type: ss, cipher: chacha20-ietf-poly1305, password: c753e8a8-e180-4e76-a486-c917273d718b}
+  - {name: YouTube*阿阳AYANG*科技大师 43, server: 38.86.135.36, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: YouTube*阿阳AYANG*科技大师 44, server: 169.197.142.187, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: YouTube*阿阳AYANG*科技大师 45, server: 38.86.135.36, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - CYL-科技（2022.02.24）
-      - CYL-科技（2022.02.08）
-      - CYL-科技（2022.02.24） 2
-      - CYL-科技（2022.02.08） 2
-      - CYL-科技（2022.02.08） 3
-      - CYL-科技（2022.02.08） 4
-      - CYL-科技（2022.02.08） 5
-      - CYL-科技（2021.01.02）
-      - CYL-科技（2022.02.24） 3
-      - CYL-科技（2022.02.24） 4
-      - CYL-科技（2022.02.08） 6
-      - CYL-科技（2022.02.08） 7
-      - CYL-科技（2022.02.08） 8
-      - CYL-科技（2022.02.24） 5
-      - CYL-科技（2022.02.24） 6
-      - CYL-科技（2022.02.24） 7
-      - CYL-科技（2022.02.23）
-      - CYL-科技（2022.02.24） 8
-      - CYL-科技（2022.02.24） 9
-      - CYL-科技（2022.02.08） 9
-      - CYL-科技（2022.02.23） 2
-      - CYL-科技（2022.02.24） 10
-      - CYL-科技（2022.02.23） 3
-      - CYL-科技（2022.02.24） 11
-      - CYL-科技（2022.02.23） 4
-      - CYL-科技（2022.02.08） 10
-      - CYL-科技（2022.02.24） 12
-      - CYL-科技（2022.02.24） 13
-      - CYL-科技（2022.02.23） 5
-      - CYL-科技（2022.02.24） 14
-      - CYL-科技（2022.02.24） 15
-      - CA-134.195.196.193-460
-      - CYL-科技（2022.02.08） 11
-      - CYL-科技（2022.02.23） 6
-      - CYL-科技（2022.02.24） 16
+      - 🇯🇵 日本(yudou66.com 玉豆分享)
+      - 🇯🇵 日本(yudou66.com 玉豆分享) 2
+      - 🇺🇸 _US_美国
       - 科技网络
-      - CYL-科技（2022.02.23） 7
-      - CYL-科技（2022.02.08） 12
-      - CYL-科技（2022.02.24） 17
-      - CYL-科技（2022.02.23） 8
-      - CYL-科技（2022.02.23） 9
-      - CYL-科技（2022.02.23） 10
-      - CYL-科技（2022.02.24） 18
-      - CYL-科技（2022.02.23） 11
-      - CYL-科技（2022.02.24） 19
-      - CYL-科技（2022.02.23） 12
-      - CYL-科技（2022.02.23） 13
-      - CYL-科技（2022.02.23） 14
-      - CYL-科技（2022.02.23） 15
-      - CYL-科技（2022.02.24） 20
-      - CYL-科技（2022.02.24） 21
-      - CYL-科技（2022.02.24） 22
-      - CYL-科技（2022.02.24） 23
-      - CYL-科技（2022.02.23） 16
-      - CYL-科技（2021.01.02） 2
-      - CYL-科技（2022.02.24） 24
-      - CYL-科技（2022.02.08） 13
-      - CYL-科技（2022.01.15）
-      - CYL-科技（2022.02.24） 25
-      - CYL-科技（2021.01.02） 3
-      - CYL-科技（2022.02.24） 26
-      - CYL-科技（2022.02.08） 14
-      - CYL-科技（2021.01.02） 4
       - 科技网络 2
-      - CYL-科技（2021.01.02） 5
-      - CYL-科技（2021.01.02） 6
-      - CYL-科技（2022.02.24） 27
-      - CYL-科技（2022.02.23） 17
-      - CYL-科技（2021.01.02） 7
-      - CYL-科技（2022.02.08） 15
-      - CYL-科技（2022.02.23） 18
-      - CYL-科技（2021.01.02） 8
-      - CYL-科技（2022.02.08） 16
-      - CYL-科技（2022.02.24） 28
-      - CYL-科技（2022.02.08） 17
-      - CYL-科技（2022.02.24） 29
-      - CYL-科技（2022.01.15） 2
-      - CYL-科技（2022.02.08） 18
-      - 🇫🇷 法国阿伟科技@TG/油管
-      - CYL-科技（2022.02.08） 19
-      - CYL-科技（2022.02.24） 30
+      - 🇫🇷 法国(yudou66.com 玉豆分享)
+      - YouTube*阿阳AYANG*科技大师
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
+      - YouTube*阿阳AYANG*科技大师 2
+      - YouTube*阿阳AYANG*科技大师 3
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君)
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2
+      - 🇺🇸 _US_美国 2
+      - YouTube*阿阳AYANG*科技大师 4
+      - CYL-科技（2022.02.23）
+      - 🇺🇸 _US_美国 3
+      - YouTube*阿阳AYANG*科技大师 5
+      - 🇺🇸 _US_美国 4
+      - YouTube*阿阳AYANG*科技大师 6
+      - 🇯🇵 日本(yudou66.com 玉豆分享) 3
+      - YouTube*阿阳AYANG*科技大师 7
       - 科技网络 3
-      - CYL-科技（2022.02.24） 31
-      - CYL-科技（2022.02.08） 20
+      - YouTube*阿阳AYANG*科技大师 8
+      - YouTube*阿阳AYANG*科技大师 9
+      - 🇪🇺 欧洲(yudou66.com 玉豆分享)
+      - CYL-科技（2022.02.23） 2
+      - YouTube*阿阳AYANG*科技大师 10
+      - 🇺🇸 _US_美国 5
+      - 科技网络 4
+      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)
+      - 科技网络 5
+      - 科技网络 6
+      - CYL-科技（2022.02.23） 3
+      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 科技网络 7
+      - 🇯🇵 日本(yudou66.com 玉豆分享) 4
+      - 科技网络 8
+      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 3
+      - 科技网络 9
+      - YouTube*阿阳AYANG*科技大师 11
+      - YouTube*阿阳AYANG*科技大师 12
+      - 科技网络 10
+      - 科技网络 11
+      - CYL-科技（2022.02.23） 4
+      - 科技网络 12
+      - 🇨🇦 _CA_加拿大
+      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 4
+      - YouTube*阿阳AYANG*科技大师 13
+      - 科技网络 13
+      - 科技网络 14
+      - 科技网络 15
+      - 科技网络 16
+      - 科技网络 17
+      - 科技网络 18
+      - 科技网络 19
+      - 科技网络 20
+      - 科技网络 21
+      - 🇯🇵 日本(yudou66.com 玉豆分享) 5
+      - 科技网络 22
+      - 科技网络 23
+      - 科技网络 24
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 3
+      - CYL-科技（2022.02.23） 5
+      - 科技网络 25
+      - 科技网络 26
+      - 科技网络 27
+      - 科技网络 28
+      - YouTube*阿阳AYANG*科技大师 14
+      - 科技网络 29
+      - 科技网络 30
+      - YouTube*阿阳AYANG*科技大师 15
+      - 科技网络 31
+      - 科技网络 32
+      - 科技网络 33
+      - 科技网络 34
+      - 科技网络 35
+      - 科技网络 36
+      - 科技网络 37
+      - 🇪🇺 欧洲(yudou66.com 玉豆分享) 2
+      - 科技网络 38
+      - 科技网络 39
+      - 科技网络 40
+      - 科技网络 41
+      - 科技网络 42
+      - 科技网络 43
+      - 🇺🇸 _US_美国 6
+      - 科技网络 44
+      - 科技网络 45
+      - 科技网络 46
+      - 科技网络 47
+      - 科技网络 48
+      - 🇺🇸 美国(yudou66.com 玉豆分享)
+      - 🇪🇺 欧洲(yudou66.com 玉豆分享) 3
+      - 科技网络 49
+      - YouTube*阿阳AYANG*科技大师 16
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 4
+      - 科技网络 50
+      - CYL-科技（2022.02.24）
+      - YouTube*阿阳AYANG*科技大师 17
+      - YouTube*阿阳AYANG*科技大师 18
+      - YouTube*阿阳AYANG*科技大师 19
+      - 🇺🇸 _US_美国(yudou66.com 玉豆分享)
+      - YouTube*阿阳AYANG*科技大师 20
+      - 🇺🇸 _US_美国(yudou66.com 玉豆分享) 2
+      - YouTube*阿阳AYANG*科技大师 21
+      - 科技网络 51
+      - 🇬🇧 _GB_英国(yudou66.com 玉豆分享)
+      - 科技网络 52
+      - 科技网络 53
+      - YouTube*阿阳AYANG*科技大师 22
+      - 科技网络 54
+      - YouTube*阿阳AYANG*科技大师 23
+      - YouTube*阿阳AYANG*科技大师 24
+      - YouTube*阿阳AYANG*科技大师 25
+      - 🇺🇸 _US_美国(yudou66.com 玉豆分享) 3
+      - YouTube*阿阳AYANG*科技大师 26
+      - YouTube*阿阳AYANG*科技大师 27
+      - 科技网络 55
+      - 科技网络 56
+      - 科技网络 57
+      - 科技网络 58
+      - 科技网络 59
+      - 科技网络 60
+      - 🇺🇸 _US_美国(yudou66.com 玉豆分享) 4
+      - YouTube*阿阳AYANG*科技大师 28
+      - 🇺🇸 _US_美国 7
+      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 5
+      - 科技网络 61
+      - YouTube*阿阳AYANG*科技大师 29
+      - 科技网络 62
+      - 科技网络 63
+      - YouTube*阿阳AYANG*科技大师 30
+      - YouTube*阿阳AYANG*科技大师 31
+      - YouTube*阿阳AYANG*科技大师 32
+      - 科技网络 64
+      - YouTube*阿阳AYANG*科技大师 33
+      - YouTube*阿阳AYANG*科技大师 34
+      - 科技网络 65
+      - YouTube*阿阳AYANG*科技大师 35
+      - YouTube*阿阳AYANG*科技大师 36
+      - 科技网络 66
+      - 科技网络 67
+      - 科技网络 68
+      - 科技网络 69
+      - YouTube*阿阳AYANG*科技大师 37
+      - 🇨🇦 _CA_加拿大 2
+      - YouTube*阿阳AYANG*科技大师 38
+      - 科技网络 70
+      - YouTube*阿阳AYANG*科技大师 39
+      - 科技网络 71
+      - 科技网络 72
+      - 科技网络 73
+      - YouTube*阿阳AYANG*科技大师 40
+      - 🇺🇸 _US_美国 8
+      - YouTube*阿阳AYANG*科技大师 41
+      - 🇯🇵 日本(yudou66.com 玉豆分享) 6
+      - 科技网络 74
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 2
+      - YouTube*阿阳AYANG*科技大师 42
+      - 🇺🇸 _US_美国 9
+      - YouTube*阿阳AYANG*科技大师 43
+      - YouTube*阿阳AYANG*科技大师 44
+      - YouTube*阿阳AYANG*科技大师 45
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - CYL-科技（2022.02.24）
-      - CYL-科技（2022.02.08）
-      - CYL-科技（2022.02.24） 2
-      - CYL-科技（2022.02.08） 2
-      - CYL-科技（2022.02.08） 3
-      - CYL-科技（2022.02.08） 4
-      - CYL-科技（2022.02.08） 5
-      - CYL-科技（2021.01.02）
-      - CYL-科技（2022.02.24） 3
-      - CYL-科技（2022.02.24） 4
-      - CYL-科技（2022.02.08） 6
-      - CYL-科技（2022.02.08） 7
-      - CYL-科技（2022.02.08） 8
-      - CYL-科技（2022.02.24） 5
-      - CYL-科技（2022.02.24） 6
-      - CYL-科技（2022.02.24） 7
-      - CYL-科技（2022.02.23）
-      - CYL-科技（2022.02.24） 8
-      - CYL-科技（2022.02.24） 9
-      - CYL-科技（2022.02.08） 9
-      - CYL-科技（2022.02.23） 2
-      - CYL-科技（2022.02.24） 10
-      - CYL-科技（2022.02.23） 3
-      - CYL-科技（2022.02.24） 11
-      - CYL-科技（2022.02.23） 4
-      - CYL-科技（2022.02.08） 10
-      - CYL-科技（2022.02.24） 12
-      - CYL-科技（2022.02.24） 13
-      - CYL-科技（2022.02.23） 5
-      - CYL-科技（2022.02.24） 14
-      - CYL-科技（2022.02.24） 15
-      - CA-134.195.196.193-460
-      - CYL-科技（2022.02.08） 11
-      - CYL-科技（2022.02.23） 6
-      - CYL-科技（2022.02.24） 16
+      - 🇯🇵 日本(yudou66.com 玉豆分享)
+      - 🇯🇵 日本(yudou66.com 玉豆分享) 2
+      - 🇺🇸 _US_美国
       - 科技网络
-      - CYL-科技（2022.02.23） 7
-      - CYL-科技（2022.02.08） 12
-      - CYL-科技（2022.02.24） 17
-      - CYL-科技（2022.02.23） 8
-      - CYL-科技（2022.02.23） 9
-      - CYL-科技（2022.02.23） 10
-      - CYL-科技（2022.02.24） 18
-      - CYL-科技（2022.02.23） 11
-      - CYL-科技（2022.02.24） 19
-      - CYL-科技（2022.02.23） 12
-      - CYL-科技（2022.02.23） 13
-      - CYL-科技（2022.02.23） 14
-      - CYL-科技（2022.02.23） 15
-      - CYL-科技（2022.02.24） 20
-      - CYL-科技（2022.02.24） 21
-      - CYL-科技（2022.02.24） 22
-      - CYL-科技（2022.02.24） 23
-      - CYL-科技（2022.02.23） 16
-      - CYL-科技（2021.01.02） 2
-      - CYL-科技（2022.02.24） 24
-      - CYL-科技（2022.02.08） 13
-      - CYL-科技（2022.01.15）
-      - CYL-科技（2022.02.24） 25
-      - CYL-科技（2021.01.02） 3
-      - CYL-科技（2022.02.24） 26
-      - CYL-科技（2022.02.08） 14
-      - CYL-科技（2021.01.02） 4
       - 科技网络 2
-      - CYL-科技（2021.01.02） 5
-      - CYL-科技（2021.01.02） 6
-      - CYL-科技（2022.02.24） 27
-      - CYL-科技（2022.02.23） 17
-      - CYL-科技（2021.01.02） 7
-      - CYL-科技（2022.02.08） 15
-      - CYL-科技（2022.02.23） 18
-      - CYL-科技（2021.01.02） 8
-      - CYL-科技（2022.02.08） 16
-      - CYL-科技（2022.02.24） 28
-      - CYL-科技（2022.02.08） 17
-      - CYL-科技（2022.02.24） 29
-      - CYL-科技（2022.01.15） 2
-      - CYL-科技（2022.02.08） 18
-      - 🇫🇷 法国阿伟科技@TG/油管
-      - CYL-科技（2022.02.08） 19
-      - CYL-科技（2022.02.24） 30
+      - 🇫🇷 法国(yudou66.com 玉豆分享)
+      - YouTube*阿阳AYANG*科技大师
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
+      - YouTube*阿阳AYANG*科技大师 2
+      - YouTube*阿阳AYANG*科技大师 3
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君)
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2
+      - 🇺🇸 _US_美国 2
+      - YouTube*阿阳AYANG*科技大师 4
+      - CYL-科技（2022.02.23）
+      - 🇺🇸 _US_美国 3
+      - YouTube*阿阳AYANG*科技大师 5
+      - 🇺🇸 _US_美国 4
+      - YouTube*阿阳AYANG*科技大师 6
+      - 🇯🇵 日本(yudou66.com 玉豆分享) 3
+      - YouTube*阿阳AYANG*科技大师 7
       - 科技网络 3
-      - CYL-科技（2022.02.24） 31
-      - CYL-科技（2022.02.08） 20
+      - YouTube*阿阳AYANG*科技大师 8
+      - YouTube*阿阳AYANG*科技大师 9
+      - 🇪🇺 欧洲(yudou66.com 玉豆分享)
+      - CYL-科技（2022.02.23） 2
+      - YouTube*阿阳AYANG*科技大师 10
+      - 🇺🇸 _US_美国 5
+      - 科技网络 4
+      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)
+      - 科技网络 5
+      - 科技网络 6
+      - CYL-科技（2022.02.23） 3
+      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 科技网络 7
+      - 🇯🇵 日本(yudou66.com 玉豆分享) 4
+      - 科技网络 8
+      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 3
+      - 科技网络 9
+      - YouTube*阿阳AYANG*科技大师 11
+      - YouTube*阿阳AYANG*科技大师 12
+      - 科技网络 10
+      - 科技网络 11
+      - CYL-科技（2022.02.23） 4
+      - 科技网络 12
+      - 🇨🇦 _CA_加拿大
+      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 4
+      - YouTube*阿阳AYANG*科技大师 13
+      - 科技网络 13
+      - 科技网络 14
+      - 科技网络 15
+      - 科技网络 16
+      - 科技网络 17
+      - 科技网络 18
+      - 科技网络 19
+      - 科技网络 20
+      - 科技网络 21
+      - 🇯🇵 日本(yudou66.com 玉豆分享) 5
+      - 科技网络 22
+      - 科技网络 23
+      - 科技网络 24
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 3
+      - CYL-科技（2022.02.23） 5
+      - 科技网络 25
+      - 科技网络 26
+      - 科技网络 27
+      - 科技网络 28
+      - YouTube*阿阳AYANG*科技大师 14
+      - 科技网络 29
+      - 科技网络 30
+      - YouTube*阿阳AYANG*科技大师 15
+      - 科技网络 31
+      - 科技网络 32
+      - 科技网络 33
+      - 科技网络 34
+      - 科技网络 35
+      - 科技网络 36
+      - 科技网络 37
+      - 🇪🇺 欧洲(yudou66.com 玉豆分享) 2
+      - 科技网络 38
+      - 科技网络 39
+      - 科技网络 40
+      - 科技网络 41
+      - 科技网络 42
+      - 科技网络 43
+      - 🇺🇸 _US_美国 6
+      - 科技网络 44
+      - 科技网络 45
+      - 科技网络 46
+      - 科技网络 47
+      - 科技网络 48
+      - 🇺🇸 美国(yudou66.com 玉豆分享)
+      - 🇪🇺 欧洲(yudou66.com 玉豆分享) 3
+      - 科技网络 49
+      - YouTube*阿阳AYANG*科技大师 16
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 4
+      - 科技网络 50
+      - CYL-科技（2022.02.24）
+      - YouTube*阿阳AYANG*科技大师 17
+      - YouTube*阿阳AYANG*科技大师 18
+      - YouTube*阿阳AYANG*科技大师 19
+      - 🇺🇸 _US_美国(yudou66.com 玉豆分享)
+      - YouTube*阿阳AYANG*科技大师 20
+      - 🇺🇸 _US_美国(yudou66.com 玉豆分享) 2
+      - YouTube*阿阳AYANG*科技大师 21
+      - 科技网络 51
+      - 🇬🇧 _GB_英国(yudou66.com 玉豆分享)
+      - 科技网络 52
+      - 科技网络 53
+      - YouTube*阿阳AYANG*科技大师 22
+      - 科技网络 54
+      - YouTube*阿阳AYANG*科技大师 23
+      - YouTube*阿阳AYANG*科技大师 24
+      - YouTube*阿阳AYANG*科技大师 25
+      - 🇺🇸 _US_美国(yudou66.com 玉豆分享) 3
+      - YouTube*阿阳AYANG*科技大师 26
+      - YouTube*阿阳AYANG*科技大师 27
+      - 科技网络 55
+      - 科技网络 56
+      - 科技网络 57
+      - 科技网络 58
+      - 科技网络 59
+      - 科技网络 60
+      - 🇺🇸 _US_美国(yudou66.com 玉豆分享) 4
+      - YouTube*阿阳AYANG*科技大师 28
+      - 🇺🇸 _US_美国 7
+      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 5
+      - 科技网络 61
+      - YouTube*阿阳AYANG*科技大师 29
+      - 科技网络 62
+      - 科技网络 63
+      - YouTube*阿阳AYANG*科技大师 30
+      - YouTube*阿阳AYANG*科技大师 31
+      - YouTube*阿阳AYANG*科技大师 32
+      - 科技网络 64
+      - YouTube*阿阳AYANG*科技大师 33
+      - YouTube*阿阳AYANG*科技大师 34
+      - 科技网络 65
+      - YouTube*阿阳AYANG*科技大师 35
+      - YouTube*阿阳AYANG*科技大师 36
+      - 科技网络 66
+      - 科技网络 67
+      - 科技网络 68
+      - 科技网络 69
+      - YouTube*阿阳AYANG*科技大师 37
+      - 🇨🇦 _CA_加拿大 2
+      - YouTube*阿阳AYANG*科技大师 38
+      - 科技网络 70
+      - YouTube*阿阳AYANG*科技大师 39
+      - 科技网络 71
+      - 科技网络 72
+      - 科技网络 73
+      - YouTube*阿阳AYANG*科技大师 40
+      - 🇺🇸 _US_美国 8
+      - YouTube*阿阳AYANG*科技大师 41
+      - 🇯🇵 日本(yudou66.com 玉豆分享) 6
+      - 科技网络 74
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 2
+      - YouTube*阿阳AYANG*科技大师 42
+      - 🇺🇸 _US_美国 9
+      - YouTube*阿阳AYANG*科技大师 43
+      - YouTube*阿阳AYANG*科技大师 44
+      - YouTube*阿阳AYANG*科技大师 45
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CYL-科技（2022.02.24）
-      - CYL-科技（2022.02.08）
-      - CYL-科技（2022.02.24） 2
-      - CYL-科技（2022.02.08） 2
-      - CYL-科技（2022.02.08） 3
-      - CYL-科技（2022.02.08） 4
-      - CYL-科技（2022.02.08） 5
-      - CYL-科技（2021.01.02）
-      - CYL-科技（2022.02.24） 3
-      - CYL-科技（2022.02.24） 4
-      - CYL-科技（2022.02.08） 6
-      - CYL-科技（2022.02.08） 7
-      - CYL-科技（2022.02.08） 8
-      - CYL-科技（2022.02.24） 5
-      - CYL-科技（2022.02.24） 6
-      - CYL-科技（2022.02.24） 7
-      - CYL-科技（2022.02.23）
-      - CYL-科技（2022.02.24） 8
-      - CYL-科技（2022.02.24） 9
-      - CYL-科技（2022.02.08） 9
-      - CYL-科技（2022.02.23） 2
-      - CYL-科技（2022.02.24） 10
-      - CYL-科技（2022.02.23） 3
-      - CYL-科技（2022.02.24） 11
-      - CYL-科技（2022.02.23） 4
-      - CYL-科技（2022.02.08） 10
-      - CYL-科技（2022.02.24） 12
-      - CYL-科技（2022.02.24） 13
-      - CYL-科技（2022.02.23） 5
-      - CYL-科技（2022.02.24） 14
-      - CYL-科技（2022.02.24） 15
-      - CA-134.195.196.193-460
-      - CYL-科技（2022.02.08） 11
-      - CYL-科技（2022.02.23） 6
-      - CYL-科技（2022.02.24） 16
+      - 🇯🇵 日本(yudou66.com 玉豆分享)
+      - 🇯🇵 日本(yudou66.com 玉豆分享) 2
+      - 🇺🇸 _US_美国
       - 科技网络
-      - CYL-科技（2022.02.23） 7
-      - CYL-科技（2022.02.08） 12
-      - CYL-科技（2022.02.24） 17
-      - CYL-科技（2022.02.23） 8
-      - CYL-科技（2022.02.23） 9
-      - CYL-科技（2022.02.23） 10
-      - CYL-科技（2022.02.24） 18
-      - CYL-科技（2022.02.23） 11
-      - CYL-科技（2022.02.24） 19
-      - CYL-科技（2022.02.23） 12
-      - CYL-科技（2022.02.23） 13
-      - CYL-科技（2022.02.23） 14
-      - CYL-科技（2022.02.23） 15
-      - CYL-科技（2022.02.24） 20
-      - CYL-科技（2022.02.24） 21
-      - CYL-科技（2022.02.24） 22
-      - CYL-科技（2022.02.24） 23
-      - CYL-科技（2022.02.23） 16
-      - CYL-科技（2021.01.02） 2
-      - CYL-科技（2022.02.24） 24
-      - CYL-科技（2022.02.08） 13
-      - CYL-科技（2022.01.15）
-      - CYL-科技（2022.02.24） 25
-      - CYL-科技（2021.01.02） 3
-      - CYL-科技（2022.02.24） 26
-      - CYL-科技（2022.02.08） 14
-      - CYL-科技（2021.01.02） 4
       - 科技网络 2
-      - CYL-科技（2021.01.02） 5
-      - CYL-科技（2021.01.02） 6
-      - CYL-科技（2022.02.24） 27
-      - CYL-科技（2022.02.23） 17
-      - CYL-科技（2021.01.02） 7
-      - CYL-科技（2022.02.08） 15
-      - CYL-科技（2022.02.23） 18
-      - CYL-科技（2021.01.02） 8
-      - CYL-科技（2022.02.08） 16
-      - CYL-科技（2022.02.24） 28
-      - CYL-科技（2022.02.08） 17
-      - CYL-科技（2022.02.24） 29
-      - CYL-科技（2022.01.15） 2
-      - CYL-科技（2022.02.08） 18
-      - 🇫🇷 法国阿伟科技@TG/油管
-      - CYL-科技（2022.02.08） 19
-      - CYL-科技（2022.02.24） 30
+      - 🇫🇷 法国(yudou66.com 玉豆分享)
+      - YouTube*阿阳AYANG*科技大师
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
+      - YouTube*阿阳AYANG*科技大师 2
+      - YouTube*阿阳AYANG*科技大师 3
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君)
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2
+      - 🇺🇸 _US_美国 2
+      - YouTube*阿阳AYANG*科技大师 4
+      - CYL-科技（2022.02.23）
+      - 🇺🇸 _US_美国 3
+      - YouTube*阿阳AYANG*科技大师 5
+      - 🇺🇸 _US_美国 4
+      - YouTube*阿阳AYANG*科技大师 6
+      - 🇯🇵 日本(yudou66.com 玉豆分享) 3
+      - YouTube*阿阳AYANG*科技大师 7
       - 科技网络 3
-      - CYL-科技（2022.02.24） 31
-      - CYL-科技（2022.02.08） 20
+      - YouTube*阿阳AYANG*科技大师 8
+      - YouTube*阿阳AYANG*科技大师 9
+      - 🇪🇺 欧洲(yudou66.com 玉豆分享)
+      - CYL-科技（2022.02.23） 2
+      - YouTube*阿阳AYANG*科技大师 10
+      - 🇺🇸 _US_美国 5
+      - 科技网络 4
+      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)
+      - 科技网络 5
+      - 科技网络 6
+      - CYL-科技（2022.02.23） 3
+      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 科技网络 7
+      - 🇯🇵 日本(yudou66.com 玉豆分享) 4
+      - 科技网络 8
+      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 3
+      - 科技网络 9
+      - YouTube*阿阳AYANG*科技大师 11
+      - YouTube*阿阳AYANG*科技大师 12
+      - 科技网络 10
+      - 科技网络 11
+      - CYL-科技（2022.02.23） 4
+      - 科技网络 12
+      - 🇨🇦 _CA_加拿大
+      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 4
+      - YouTube*阿阳AYANG*科技大师 13
+      - 科技网络 13
+      - 科技网络 14
+      - 科技网络 15
+      - 科技网络 16
+      - 科技网络 17
+      - 科技网络 18
+      - 科技网络 19
+      - 科技网络 20
+      - 科技网络 21
+      - 🇯🇵 日本(yudou66.com 玉豆分享) 5
+      - 科技网络 22
+      - 科技网络 23
+      - 科技网络 24
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 3
+      - CYL-科技（2022.02.23） 5
+      - 科技网络 25
+      - 科技网络 26
+      - 科技网络 27
+      - 科技网络 28
+      - YouTube*阿阳AYANG*科技大师 14
+      - 科技网络 29
+      - 科技网络 30
+      - YouTube*阿阳AYANG*科技大师 15
+      - 科技网络 31
+      - 科技网络 32
+      - 科技网络 33
+      - 科技网络 34
+      - 科技网络 35
+      - 科技网络 36
+      - 科技网络 37
+      - 🇪🇺 欧洲(yudou66.com 玉豆分享) 2
+      - 科技网络 38
+      - 科技网络 39
+      - 科技网络 40
+      - 科技网络 41
+      - 科技网络 42
+      - 科技网络 43
+      - 🇺🇸 _US_美国 6
+      - 科技网络 44
+      - 科技网络 45
+      - 科技网络 46
+      - 科技网络 47
+      - 科技网络 48
+      - 🇺🇸 美国(yudou66.com 玉豆分享)
+      - 🇪🇺 欧洲(yudou66.com 玉豆分享) 3
+      - 科技网络 49
+      - YouTube*阿阳AYANG*科技大师 16
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 4
+      - 科技网络 50
+      - CYL-科技（2022.02.24）
+      - YouTube*阿阳AYANG*科技大师 17
+      - YouTube*阿阳AYANG*科技大师 18
+      - YouTube*阿阳AYANG*科技大师 19
+      - 🇺🇸 _US_美国(yudou66.com 玉豆分享)
+      - YouTube*阿阳AYANG*科技大师 20
+      - 🇺🇸 _US_美国(yudou66.com 玉豆分享) 2
+      - YouTube*阿阳AYANG*科技大师 21
+      - 科技网络 51
+      - 🇬🇧 _GB_英国(yudou66.com 玉豆分享)
+      - 科技网络 52
+      - 科技网络 53
+      - YouTube*阿阳AYANG*科技大师 22
+      - 科技网络 54
+      - YouTube*阿阳AYANG*科技大师 23
+      - YouTube*阿阳AYANG*科技大师 24
+      - YouTube*阿阳AYANG*科技大师 25
+      - 🇺🇸 _US_美国(yudou66.com 玉豆分享) 3
+      - YouTube*阿阳AYANG*科技大师 26
+      - YouTube*阿阳AYANG*科技大师 27
+      - 科技网络 55
+      - 科技网络 56
+      - 科技网络 57
+      - 科技网络 58
+      - 科技网络 59
+      - 科技网络 60
+      - 🇺🇸 _US_美国(yudou66.com 玉豆分享) 4
+      - YouTube*阿阳AYANG*科技大师 28
+      - 🇺🇸 _US_美国 7
+      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 5
+      - 科技网络 61
+      - YouTube*阿阳AYANG*科技大师 29
+      - 科技网络 62
+      - 科技网络 63
+      - YouTube*阿阳AYANG*科技大师 30
+      - YouTube*阿阳AYANG*科技大师 31
+      - YouTube*阿阳AYANG*科技大师 32
+      - 科技网络 64
+      - YouTube*阿阳AYANG*科技大师 33
+      - YouTube*阿阳AYANG*科技大师 34
+      - 科技网络 65
+      - YouTube*阿阳AYANG*科技大师 35
+      - YouTube*阿阳AYANG*科技大师 36
+      - 科技网络 66
+      - 科技网络 67
+      - 科技网络 68
+      - 科技网络 69
+      - YouTube*阿阳AYANG*科技大师 37
+      - 🇨🇦 _CA_加拿大 2
+      - YouTube*阿阳AYANG*科技大师 38
+      - 科技网络 70
+      - YouTube*阿阳AYANG*科技大师 39
+      - 科技网络 71
+      - 科技网络 72
+      - 科技网络 73
+      - YouTube*阿阳AYANG*科技大师 40
+      - 🇺🇸 _US_美国 8
+      - YouTube*阿阳AYANG*科技大师 41
+      - 🇯🇵 日本(yudou66.com 玉豆分享) 6
+      - 科技网络 74
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 2
+      - YouTube*阿阳AYANG*科技大师 42
+      - 🇺🇸 _US_美国 9
+      - YouTube*阿阳AYANG*科技大师 43
+      - YouTube*阿阳AYANG*科技大师 44
+      - YouTube*阿阳AYANG*科技大师 45
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - CYL-科技（2022.02.24）
-      - CYL-科技（2022.02.08）
-      - CYL-科技（2022.02.24） 2
-      - CYL-科技（2022.02.08） 2
-      - CYL-科技（2022.02.08） 3
-      - CYL-科技（2022.02.08） 4
-      - CYL-科技（2022.02.08） 5
-      - CYL-科技（2021.01.02）
-      - CYL-科技（2022.02.24） 3
-      - CYL-科技（2022.02.24） 4
-      - CYL-科技（2022.02.08） 6
-      - CYL-科技（2022.02.08） 7
-      - CYL-科技（2022.02.08） 8
-      - CYL-科技（2022.02.24） 5
-      - CYL-科技（2022.02.24） 6
-      - CYL-科技（2022.02.24） 7
-      - CYL-科技（2022.02.23）
-      - CYL-科技（2022.02.24） 8
-      - CYL-科技（2022.02.24） 9
-      - CYL-科技（2022.02.08） 9
-      - CYL-科技（2022.02.23） 2
-      - CYL-科技（2022.02.24） 10
-      - CYL-科技（2022.02.23） 3
-      - CYL-科技（2022.02.24） 11
-      - CYL-科技（2022.02.23） 4
-      - CYL-科技（2022.02.08） 10
-      - CYL-科技（2022.02.24） 12
-      - CYL-科技（2022.02.24） 13
-      - CYL-科技（2022.02.23） 5
-      - CYL-科技（2022.02.24） 14
-      - CYL-科技（2022.02.24） 15
-      - CA-134.195.196.193-460
-      - CYL-科技（2022.02.08） 11
-      - CYL-科技（2022.02.23） 6
-      - CYL-科技（2022.02.24） 16
+      - 🇯🇵 日本(yudou66.com 玉豆分享)
+      - 🇯🇵 日本(yudou66.com 玉豆分享) 2
+      - 🇺🇸 _US_美国
       - 科技网络
-      - CYL-科技（2022.02.23） 7
-      - CYL-科技（2022.02.08） 12
-      - CYL-科技（2022.02.24） 17
-      - CYL-科技（2022.02.23） 8
-      - CYL-科技（2022.02.23） 9
-      - CYL-科技（2022.02.23） 10
-      - CYL-科技（2022.02.24） 18
-      - CYL-科技（2022.02.23） 11
-      - CYL-科技（2022.02.24） 19
-      - CYL-科技（2022.02.23） 12
-      - CYL-科技（2022.02.23） 13
-      - CYL-科技（2022.02.23） 14
-      - CYL-科技（2022.02.23） 15
-      - CYL-科技（2022.02.24） 20
-      - CYL-科技（2022.02.24） 21
-      - CYL-科技（2022.02.24） 22
-      - CYL-科技（2022.02.24） 23
-      - CYL-科技（2022.02.23） 16
-      - CYL-科技（2021.01.02） 2
-      - CYL-科技（2022.02.24） 24
-      - CYL-科技（2022.02.08） 13
-      - CYL-科技（2022.01.15）
-      - CYL-科技（2022.02.24） 25
-      - CYL-科技（2021.01.02） 3
-      - CYL-科技（2022.02.24） 26
-      - CYL-科技（2022.02.08） 14
-      - CYL-科技（2021.01.02） 4
       - 科技网络 2
-      - CYL-科技（2021.01.02） 5
-      - CYL-科技（2021.01.02） 6
-      - CYL-科技（2022.02.24） 27
-      - CYL-科技（2022.02.23） 17
-      - CYL-科技（2021.01.02） 7
-      - CYL-科技（2022.02.08） 15
-      - CYL-科技（2022.02.23） 18
-      - CYL-科技（2021.01.02） 8
-      - CYL-科技（2022.02.08） 16
-      - CYL-科技（2022.02.24） 28
-      - CYL-科技（2022.02.08） 17
-      - CYL-科技（2022.02.24） 29
-      - CYL-科技（2022.01.15） 2
-      - CYL-科技（2022.02.08） 18
-      - 🇫🇷 法国阿伟科技@TG/油管
-      - CYL-科技（2022.02.08） 19
-      - CYL-科技（2022.02.24） 30
+      - 🇫🇷 法国(yudou66.com 玉豆分享)
+      - YouTube*阿阳AYANG*科技大师
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
+      - YouTube*阿阳AYANG*科技大师 2
+      - YouTube*阿阳AYANG*科技大师 3
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君)
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2
+      - 🇺🇸 _US_美国 2
+      - YouTube*阿阳AYANG*科技大师 4
+      - CYL-科技（2022.02.23）
+      - 🇺🇸 _US_美国 3
+      - YouTube*阿阳AYANG*科技大师 5
+      - 🇺🇸 _US_美国 4
+      - YouTube*阿阳AYANG*科技大师 6
+      - 🇯🇵 日本(yudou66.com 玉豆分享) 3
+      - YouTube*阿阳AYANG*科技大师 7
       - 科技网络 3
-      - CYL-科技（2022.02.24） 31
-      - CYL-科技（2022.02.08） 20
+      - YouTube*阿阳AYANG*科技大师 8
+      - YouTube*阿阳AYANG*科技大师 9
+      - 🇪🇺 欧洲(yudou66.com 玉豆分享)
+      - CYL-科技（2022.02.23） 2
+      - YouTube*阿阳AYANG*科技大师 10
+      - 🇺🇸 _US_美国 5
+      - 科技网络 4
+      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)
+      - 科技网络 5
+      - 科技网络 6
+      - CYL-科技（2022.02.23） 3
+      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 科技网络 7
+      - 🇯🇵 日本(yudou66.com 玉豆分享) 4
+      - 科技网络 8
+      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 3
+      - 科技网络 9
+      - YouTube*阿阳AYANG*科技大师 11
+      - YouTube*阿阳AYANG*科技大师 12
+      - 科技网络 10
+      - 科技网络 11
+      - CYL-科技（2022.02.23） 4
+      - 科技网络 12
+      - 🇨🇦 _CA_加拿大
+      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 4
+      - YouTube*阿阳AYANG*科技大师 13
+      - 科技网络 13
+      - 科技网络 14
+      - 科技网络 15
+      - 科技网络 16
+      - 科技网络 17
+      - 科技网络 18
+      - 科技网络 19
+      - 科技网络 20
+      - 科技网络 21
+      - 🇯🇵 日本(yudou66.com 玉豆分享) 5
+      - 科技网络 22
+      - 科技网络 23
+      - 科技网络 24
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 3
+      - CYL-科技（2022.02.23） 5
+      - 科技网络 25
+      - 科技网络 26
+      - 科技网络 27
+      - 科技网络 28
+      - YouTube*阿阳AYANG*科技大师 14
+      - 科技网络 29
+      - 科技网络 30
+      - YouTube*阿阳AYANG*科技大师 15
+      - 科技网络 31
+      - 科技网络 32
+      - 科技网络 33
+      - 科技网络 34
+      - 科技网络 35
+      - 科技网络 36
+      - 科技网络 37
+      - 🇪🇺 欧洲(yudou66.com 玉豆分享) 2
+      - 科技网络 38
+      - 科技网络 39
+      - 科技网络 40
+      - 科技网络 41
+      - 科技网络 42
+      - 科技网络 43
+      - 🇺🇸 _US_美国 6
+      - 科技网络 44
+      - 科技网络 45
+      - 科技网络 46
+      - 科技网络 47
+      - 科技网络 48
+      - 🇺🇸 美国(yudou66.com 玉豆分享)
+      - 🇪🇺 欧洲(yudou66.com 玉豆分享) 3
+      - 科技网络 49
+      - YouTube*阿阳AYANG*科技大师 16
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 4
+      - 科技网络 50
+      - CYL-科技（2022.02.24）
+      - YouTube*阿阳AYANG*科技大师 17
+      - YouTube*阿阳AYANG*科技大师 18
+      - YouTube*阿阳AYANG*科技大师 19
+      - 🇺🇸 _US_美国(yudou66.com 玉豆分享)
+      - YouTube*阿阳AYANG*科技大师 20
+      - 🇺🇸 _US_美国(yudou66.com 玉豆分享) 2
+      - YouTube*阿阳AYANG*科技大师 21
+      - 科技网络 51
+      - 🇬🇧 _GB_英国(yudou66.com 玉豆分享)
+      - 科技网络 52
+      - 科技网络 53
+      - YouTube*阿阳AYANG*科技大师 22
+      - 科技网络 54
+      - YouTube*阿阳AYANG*科技大师 23
+      - YouTube*阿阳AYANG*科技大师 24
+      - YouTube*阿阳AYANG*科技大师 25
+      - 🇺🇸 _US_美国(yudou66.com 玉豆分享) 3
+      - YouTube*阿阳AYANG*科技大师 26
+      - YouTube*阿阳AYANG*科技大师 27
+      - 科技网络 55
+      - 科技网络 56
+      - 科技网络 57
+      - 科技网络 58
+      - 科技网络 59
+      - 科技网络 60
+      - 🇺🇸 _US_美国(yudou66.com 玉豆分享) 4
+      - YouTube*阿阳AYANG*科技大师 28
+      - 🇺🇸 _US_美国 7
+      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 5
+      - 科技网络 61
+      - YouTube*阿阳AYANG*科技大师 29
+      - 科技网络 62
+      - 科技网络 63
+      - YouTube*阿阳AYANG*科技大师 30
+      - YouTube*阿阳AYANG*科技大师 31
+      - YouTube*阿阳AYANG*科技大师 32
+      - 科技网络 64
+      - YouTube*阿阳AYANG*科技大师 33
+      - YouTube*阿阳AYANG*科技大师 34
+      - 科技网络 65
+      - YouTube*阿阳AYANG*科技大师 35
+      - YouTube*阿阳AYANG*科技大师 36
+      - 科技网络 66
+      - 科技网络 67
+      - 科技网络 68
+      - 科技网络 69
+      - YouTube*阿阳AYANG*科技大师 37
+      - 🇨🇦 _CA_加拿大 2
+      - YouTube*阿阳AYANG*科技大师 38
+      - 科技网络 70
+      - YouTube*阿阳AYANG*科技大师 39
+      - 科技网络 71
+      - 科技网络 72
+      - 科技网络 73
+      - YouTube*阿阳AYANG*科技大师 40
+      - 🇺🇸 _US_美国 8
+      - YouTube*阿阳AYANG*科技大师 41
+      - 🇯🇵 日本(yudou66.com 玉豆分享) 6
+      - 科技网络 74
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 2
+      - YouTube*阿阳AYANG*科技大师 42
+      - 🇺🇸 _US_美国 9
+      - YouTube*阿阳AYANG*科技大师 43
+      - YouTube*阿阳AYANG*科技大师 44
+      - YouTube*阿阳AYANG*科技大师 45
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - CYL-科技（2022.02.24）
-      - CYL-科技（2022.02.08）
-      - CYL-科技（2022.02.24） 2
-      - CYL-科技（2022.02.08） 2
-      - CYL-科技（2022.02.08） 3
-      - CYL-科技（2022.02.08） 4
-      - CYL-科技（2022.02.08） 5
-      - CYL-科技（2021.01.02）
-      - CYL-科技（2022.02.24） 3
-      - CYL-科技（2022.02.24） 4
-      - CYL-科技（2022.02.08） 6
-      - CYL-科技（2022.02.08） 7
-      - CYL-科技（2022.02.08） 8
-      - CYL-科技（2022.02.24） 5
-      - CYL-科技（2022.02.24） 6
-      - CYL-科技（2022.02.24） 7
-      - CYL-科技（2022.02.23）
-      - CYL-科技（2022.02.24） 8
-      - CYL-科技（2022.02.24） 9
-      - CYL-科技（2022.02.08） 9
-      - CYL-科技（2022.02.23） 2
-      - CYL-科技（2022.02.24） 10
-      - CYL-科技（2022.02.23） 3
-      - CYL-科技（2022.02.24） 11
-      - CYL-科技（2022.02.23） 4
-      - CYL-科技（2022.02.08） 10
-      - CYL-科技（2022.02.24） 12
-      - CYL-科技（2022.02.24） 13
-      - CYL-科技（2022.02.23） 5
-      - CYL-科技（2022.02.24） 14
-      - CYL-科技（2022.02.24） 15
-      - CA-134.195.196.193-460
-      - CYL-科技（2022.02.08） 11
-      - CYL-科技（2022.02.23） 6
-      - CYL-科技（2022.02.24） 16
+      - 🇯🇵 日本(yudou66.com 玉豆分享)
+      - 🇯🇵 日本(yudou66.com 玉豆分享) 2
+      - 🇺🇸 _US_美国
       - 科技网络
-      - CYL-科技（2022.02.23） 7
-      - CYL-科技（2022.02.08） 12
-      - CYL-科技（2022.02.24） 17
-      - CYL-科技（2022.02.23） 8
-      - CYL-科技（2022.02.23） 9
-      - CYL-科技（2022.02.23） 10
-      - CYL-科技（2022.02.24） 18
-      - CYL-科技（2022.02.23） 11
-      - CYL-科技（2022.02.24） 19
-      - CYL-科技（2022.02.23） 12
-      - CYL-科技（2022.02.23） 13
-      - CYL-科技（2022.02.23） 14
-      - CYL-科技（2022.02.23） 15
-      - CYL-科技（2022.02.24） 20
-      - CYL-科技（2022.02.24） 21
-      - CYL-科技（2022.02.24） 22
-      - CYL-科技（2022.02.24） 23
-      - CYL-科技（2022.02.23） 16
-      - CYL-科技（2021.01.02） 2
-      - CYL-科技（2022.02.24） 24
-      - CYL-科技（2022.02.08） 13
-      - CYL-科技（2022.01.15）
-      - CYL-科技（2022.02.24） 25
-      - CYL-科技（2021.01.02） 3
-      - CYL-科技（2022.02.24） 26
-      - CYL-科技（2022.02.08） 14
-      - CYL-科技（2021.01.02） 4
       - 科技网络 2
-      - CYL-科技（2021.01.02） 5
-      - CYL-科技（2021.01.02） 6
-      - CYL-科技（2022.02.24） 27
-      - CYL-科技（2022.02.23） 17
-      - CYL-科技（2021.01.02） 7
-      - CYL-科技（2022.02.08） 15
-      - CYL-科技（2022.02.23） 18
-      - CYL-科技（2021.01.02） 8
-      - CYL-科技（2022.02.08） 16
-      - CYL-科技（2022.02.24） 28
-      - CYL-科技（2022.02.08） 17
-      - CYL-科技（2022.02.24） 29
-      - CYL-科技（2022.01.15） 2
-      - CYL-科技（2022.02.08） 18
-      - 🇫🇷 法国阿伟科技@TG/油管
-      - CYL-科技（2022.02.08） 19
-      - CYL-科技（2022.02.24） 30
+      - 🇫🇷 法国(yudou66.com 玉豆分享)
+      - YouTube*阿阳AYANG*科技大师
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
+      - YouTube*阿阳AYANG*科技大师 2
+      - YouTube*阿阳AYANG*科技大师 3
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君)
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2
+      - 🇺🇸 _US_美国 2
+      - YouTube*阿阳AYANG*科技大师 4
+      - CYL-科技（2022.02.23）
+      - 🇺🇸 _US_美国 3
+      - YouTube*阿阳AYANG*科技大师 5
+      - 🇺🇸 _US_美国 4
+      - YouTube*阿阳AYANG*科技大师 6
+      - 🇯🇵 日本(yudou66.com 玉豆分享) 3
+      - YouTube*阿阳AYANG*科技大师 7
       - 科技网络 3
-      - CYL-科技（2022.02.24） 31
-      - CYL-科技（2022.02.08） 20
+      - YouTube*阿阳AYANG*科技大师 8
+      - YouTube*阿阳AYANG*科技大师 9
+      - 🇪🇺 欧洲(yudou66.com 玉豆分享)
+      - CYL-科技（2022.02.23） 2
+      - YouTube*阿阳AYANG*科技大师 10
+      - 🇺🇸 _US_美国 5
+      - 科技网络 4
+      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)
+      - 科技网络 5
+      - 科技网络 6
+      - CYL-科技（2022.02.23） 3
+      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 科技网络 7
+      - 🇯🇵 日本(yudou66.com 玉豆分享) 4
+      - 科技网络 8
+      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 3
+      - 科技网络 9
+      - YouTube*阿阳AYANG*科技大师 11
+      - YouTube*阿阳AYANG*科技大师 12
+      - 科技网络 10
+      - 科技网络 11
+      - CYL-科技（2022.02.23） 4
+      - 科技网络 12
+      - 🇨🇦 _CA_加拿大
+      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 4
+      - YouTube*阿阳AYANG*科技大师 13
+      - 科技网络 13
+      - 科技网络 14
+      - 科技网络 15
+      - 科技网络 16
+      - 科技网络 17
+      - 科技网络 18
+      - 科技网络 19
+      - 科技网络 20
+      - 科技网络 21
+      - 🇯🇵 日本(yudou66.com 玉豆分享) 5
+      - 科技网络 22
+      - 科技网络 23
+      - 科技网络 24
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 3
+      - CYL-科技（2022.02.23） 5
+      - 科技网络 25
+      - 科技网络 26
+      - 科技网络 27
+      - 科技网络 28
+      - YouTube*阿阳AYANG*科技大师 14
+      - 科技网络 29
+      - 科技网络 30
+      - YouTube*阿阳AYANG*科技大师 15
+      - 科技网络 31
+      - 科技网络 32
+      - 科技网络 33
+      - 科技网络 34
+      - 科技网络 35
+      - 科技网络 36
+      - 科技网络 37
+      - 🇪🇺 欧洲(yudou66.com 玉豆分享) 2
+      - 科技网络 38
+      - 科技网络 39
+      - 科技网络 40
+      - 科技网络 41
+      - 科技网络 42
+      - 科技网络 43
+      - 🇺🇸 _US_美国 6
+      - 科技网络 44
+      - 科技网络 45
+      - 科技网络 46
+      - 科技网络 47
+      - 科技网络 48
+      - 🇺🇸 美国(yudou66.com 玉豆分享)
+      - 🇪🇺 欧洲(yudou66.com 玉豆分享) 3
+      - 科技网络 49
+      - YouTube*阿阳AYANG*科技大师 16
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 4
+      - 科技网络 50
+      - CYL-科技（2022.02.24）
+      - YouTube*阿阳AYANG*科技大师 17
+      - YouTube*阿阳AYANG*科技大师 18
+      - YouTube*阿阳AYANG*科技大师 19
+      - 🇺🇸 _US_美国(yudou66.com 玉豆分享)
+      - YouTube*阿阳AYANG*科技大师 20
+      - 🇺🇸 _US_美国(yudou66.com 玉豆分享) 2
+      - YouTube*阿阳AYANG*科技大师 21
+      - 科技网络 51
+      - 🇬🇧 _GB_英国(yudou66.com 玉豆分享)
+      - 科技网络 52
+      - 科技网络 53
+      - YouTube*阿阳AYANG*科技大师 22
+      - 科技网络 54
+      - YouTube*阿阳AYANG*科技大师 23
+      - YouTube*阿阳AYANG*科技大师 24
+      - YouTube*阿阳AYANG*科技大师 25
+      - 🇺🇸 _US_美国(yudou66.com 玉豆分享) 3
+      - YouTube*阿阳AYANG*科技大师 26
+      - YouTube*阿阳AYANG*科技大师 27
+      - 科技网络 55
+      - 科技网络 56
+      - 科技网络 57
+      - 科技网络 58
+      - 科技网络 59
+      - 科技网络 60
+      - 🇺🇸 _US_美国(yudou66.com 玉豆分享) 4
+      - YouTube*阿阳AYANG*科技大师 28
+      - 🇺🇸 _US_美国 7
+      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 5
+      - 科技网络 61
+      - YouTube*阿阳AYANG*科技大师 29
+      - 科技网络 62
+      - 科技网络 63
+      - YouTube*阿阳AYANG*科技大师 30
+      - YouTube*阿阳AYANG*科技大师 31
+      - YouTube*阿阳AYANG*科技大师 32
+      - 科技网络 64
+      - YouTube*阿阳AYANG*科技大师 33
+      - YouTube*阿阳AYANG*科技大师 34
+      - 科技网络 65
+      - YouTube*阿阳AYANG*科技大师 35
+      - YouTube*阿阳AYANG*科技大师 36
+      - 科技网络 66
+      - 科技网络 67
+      - 科技网络 68
+      - 科技网络 69
+      - YouTube*阿阳AYANG*科技大师 37
+      - 🇨🇦 _CA_加拿大 2
+      - YouTube*阿阳AYANG*科技大师 38
+      - 科技网络 70
+      - YouTube*阿阳AYANG*科技大师 39
+      - 科技网络 71
+      - 科技网络 72
+      - 科技网络 73
+      - YouTube*阿阳AYANG*科技大师 40
+      - 🇺🇸 _US_美国 8
+      - YouTube*阿阳AYANG*科技大师 41
+      - 🇯🇵 日本(yudou66.com 玉豆分享) 6
+      - 科技网络 74
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 2
+      - YouTube*阿阳AYANG*科技大师 42
+      - 🇺🇸 _US_美国 9
+      - YouTube*阿阳AYANG*科技大师 43
+      - YouTube*阿阳AYANG*科技大师 44
+      - YouTube*阿阳AYANG*科技大师 45
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - CYL-科技（2022.02.24）
-      - CYL-科技（2022.02.08）
-      - CYL-科技（2022.02.24） 2
-      - CYL-科技（2022.02.08） 2
-      - CYL-科技（2022.02.08） 3
-      - CYL-科技（2022.02.08） 4
-      - CYL-科技（2022.02.08） 5
-      - CYL-科技（2021.01.02）
-      - CYL-科技（2022.02.24） 3
-      - CYL-科技（2022.02.24） 4
-      - CYL-科技（2022.02.08） 6
-      - CYL-科技（2022.02.08） 7
-      - CYL-科技（2022.02.08） 8
-      - CYL-科技（2022.02.24） 5
-      - CYL-科技（2022.02.24） 6
-      - CYL-科技（2022.02.24） 7
-      - CYL-科技（2022.02.23）
-      - CYL-科技（2022.02.24） 8
-      - CYL-科技（2022.02.24） 9
-      - CYL-科技（2022.02.08） 9
-      - CYL-科技（2022.02.23） 2
-      - CYL-科技（2022.02.24） 10
-      - CYL-科技（2022.02.23） 3
-      - CYL-科技（2022.02.24） 11
-      - CYL-科技（2022.02.23） 4
-      - CYL-科技（2022.02.08） 10
-      - CYL-科技（2022.02.24） 12
-      - CYL-科技（2022.02.24） 13
-      - CYL-科技（2022.02.23） 5
-      - CYL-科技（2022.02.24） 14
-      - CYL-科技（2022.02.24） 15
-      - CA-134.195.196.193-460
-      - CYL-科技（2022.02.08） 11
-      - CYL-科技（2022.02.23） 6
-      - CYL-科技（2022.02.24） 16
+      - 🇯🇵 日本(yudou66.com 玉豆分享)
+      - 🇯🇵 日本(yudou66.com 玉豆分享) 2
+      - 🇺🇸 _US_美国
       - 科技网络
-      - CYL-科技（2022.02.23） 7
-      - CYL-科技（2022.02.08） 12
-      - CYL-科技（2022.02.24） 17
-      - CYL-科技（2022.02.23） 8
-      - CYL-科技（2022.02.23） 9
-      - CYL-科技（2022.02.23） 10
-      - CYL-科技（2022.02.24） 18
-      - CYL-科技（2022.02.23） 11
-      - CYL-科技（2022.02.24） 19
-      - CYL-科技（2022.02.23） 12
-      - CYL-科技（2022.02.23） 13
-      - CYL-科技（2022.02.23） 14
-      - CYL-科技（2022.02.23） 15
-      - CYL-科技（2022.02.24） 20
-      - CYL-科技（2022.02.24） 21
-      - CYL-科技（2022.02.24） 22
-      - CYL-科技（2022.02.24） 23
-      - CYL-科技（2022.02.23） 16
-      - CYL-科技（2021.01.02） 2
-      - CYL-科技（2022.02.24） 24
-      - CYL-科技（2022.02.08） 13
-      - CYL-科技（2022.01.15）
-      - CYL-科技（2022.02.24） 25
-      - CYL-科技（2021.01.02） 3
-      - CYL-科技（2022.02.24） 26
-      - CYL-科技（2022.02.08） 14
-      - CYL-科技（2021.01.02） 4
       - 科技网络 2
-      - CYL-科技（2021.01.02） 5
-      - CYL-科技（2021.01.02） 6
-      - CYL-科技（2022.02.24） 27
-      - CYL-科技（2022.02.23） 17
-      - CYL-科技（2021.01.02） 7
-      - CYL-科技（2022.02.08） 15
-      - CYL-科技（2022.02.23） 18
-      - CYL-科技（2021.01.02） 8
-      - CYL-科技（2022.02.08） 16
-      - CYL-科技（2022.02.24） 28
-      - CYL-科技（2022.02.08） 17
-      - CYL-科技（2022.02.24） 29
-      - CYL-科技（2022.01.15） 2
-      - CYL-科技（2022.02.08） 18
-      - 🇫🇷 法国阿伟科技@TG/油管
-      - CYL-科技（2022.02.08） 19
-      - CYL-科技（2022.02.24） 30
+      - 🇫🇷 法国(yudou66.com 玉豆分享)
+      - YouTube*阿阳AYANG*科技大师
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
+      - YouTube*阿阳AYANG*科技大师 2
+      - YouTube*阿阳AYANG*科技大师 3
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君)
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2
+      - 🇺🇸 _US_美国 2
+      - YouTube*阿阳AYANG*科技大师 4
+      - CYL-科技（2022.02.23）
+      - 🇺🇸 _US_美国 3
+      - YouTube*阿阳AYANG*科技大师 5
+      - 🇺🇸 _US_美国 4
+      - YouTube*阿阳AYANG*科技大师 6
+      - 🇯🇵 日本(yudou66.com 玉豆分享) 3
+      - YouTube*阿阳AYANG*科技大师 7
       - 科技网络 3
-      - CYL-科技（2022.02.24） 31
-      - CYL-科技（2022.02.08） 20
+      - YouTube*阿阳AYANG*科技大师 8
+      - YouTube*阿阳AYANG*科技大师 9
+      - 🇪🇺 欧洲(yudou66.com 玉豆分享)
+      - CYL-科技（2022.02.23） 2
+      - YouTube*阿阳AYANG*科技大师 10
+      - 🇺🇸 _US_美国 5
+      - 科技网络 4
+      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)
+      - 科技网络 5
+      - 科技网络 6
+      - CYL-科技（2022.02.23） 3
+      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 科技网络 7
+      - 🇯🇵 日本(yudou66.com 玉豆分享) 4
+      - 科技网络 8
+      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 3
+      - 科技网络 9
+      - YouTube*阿阳AYANG*科技大师 11
+      - YouTube*阿阳AYANG*科技大师 12
+      - 科技网络 10
+      - 科技网络 11
+      - CYL-科技（2022.02.23） 4
+      - 科技网络 12
+      - 🇨🇦 _CA_加拿大
+      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 4
+      - YouTube*阿阳AYANG*科技大师 13
+      - 科技网络 13
+      - 科技网络 14
+      - 科技网络 15
+      - 科技网络 16
+      - 科技网络 17
+      - 科技网络 18
+      - 科技网络 19
+      - 科技网络 20
+      - 科技网络 21
+      - 🇯🇵 日本(yudou66.com 玉豆分享) 5
+      - 科技网络 22
+      - 科技网络 23
+      - 科技网络 24
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 3
+      - CYL-科技（2022.02.23） 5
+      - 科技网络 25
+      - 科技网络 26
+      - 科技网络 27
+      - 科技网络 28
+      - YouTube*阿阳AYANG*科技大师 14
+      - 科技网络 29
+      - 科技网络 30
+      - YouTube*阿阳AYANG*科技大师 15
+      - 科技网络 31
+      - 科技网络 32
+      - 科技网络 33
+      - 科技网络 34
+      - 科技网络 35
+      - 科技网络 36
+      - 科技网络 37
+      - 🇪🇺 欧洲(yudou66.com 玉豆分享) 2
+      - 科技网络 38
+      - 科技网络 39
+      - 科技网络 40
+      - 科技网络 41
+      - 科技网络 42
+      - 科技网络 43
+      - 🇺🇸 _US_美国 6
+      - 科技网络 44
+      - 科技网络 45
+      - 科技网络 46
+      - 科技网络 47
+      - 科技网络 48
+      - 🇺🇸 美国(yudou66.com 玉豆分享)
+      - 🇪🇺 欧洲(yudou66.com 玉豆分享) 3
+      - 科技网络 49
+      - YouTube*阿阳AYANG*科技大师 16
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 4
+      - 科技网络 50
+      - CYL-科技（2022.02.24）
+      - YouTube*阿阳AYANG*科技大师 17
+      - YouTube*阿阳AYANG*科技大师 18
+      - YouTube*阿阳AYANG*科技大师 19
+      - 🇺🇸 _US_美国(yudou66.com 玉豆分享)
+      - YouTube*阿阳AYANG*科技大师 20
+      - 🇺🇸 _US_美国(yudou66.com 玉豆分享) 2
+      - YouTube*阿阳AYANG*科技大师 21
+      - 科技网络 51
+      - 🇬🇧 _GB_英国(yudou66.com 玉豆分享)
+      - 科技网络 52
+      - 科技网络 53
+      - YouTube*阿阳AYANG*科技大师 22
+      - 科技网络 54
+      - YouTube*阿阳AYANG*科技大师 23
+      - YouTube*阿阳AYANG*科技大师 24
+      - YouTube*阿阳AYANG*科技大师 25
+      - 🇺🇸 _US_美国(yudou66.com 玉豆分享) 3
+      - YouTube*阿阳AYANG*科技大师 26
+      - YouTube*阿阳AYANG*科技大师 27
+      - 科技网络 55
+      - 科技网络 56
+      - 科技网络 57
+      - 科技网络 58
+      - 科技网络 59
+      - 科技网络 60
+      - 🇺🇸 _US_美国(yudou66.com 玉豆分享) 4
+      - YouTube*阿阳AYANG*科技大师 28
+      - 🇺🇸 _US_美国 7
+      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 5
+      - 科技网络 61
+      - YouTube*阿阳AYANG*科技大师 29
+      - 科技网络 62
+      - 科技网络 63
+      - YouTube*阿阳AYANG*科技大师 30
+      - YouTube*阿阳AYANG*科技大师 31
+      - YouTube*阿阳AYANG*科技大师 32
+      - 科技网络 64
+      - YouTube*阿阳AYANG*科技大师 33
+      - YouTube*阿阳AYANG*科技大师 34
+      - 科技网络 65
+      - YouTube*阿阳AYANG*科技大师 35
+      - YouTube*阿阳AYANG*科技大师 36
+      - 科技网络 66
+      - 科技网络 67
+      - 科技网络 68
+      - 科技网络 69
+      - YouTube*阿阳AYANG*科技大师 37
+      - 🇨🇦 _CA_加拿大 2
+      - YouTube*阿阳AYANG*科技大师 38
+      - 科技网络 70
+      - YouTube*阿阳AYANG*科技大师 39
+      - 科技网络 71
+      - 科技网络 72
+      - 科技网络 73
+      - YouTube*阿阳AYANG*科技大师 40
+      - 🇺🇸 _US_美国 8
+      - YouTube*阿阳AYANG*科技大师 41
+      - 🇯🇵 日本(yudou66.com 玉豆分享) 6
+      - 科技网络 74
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 2
+      - YouTube*阿阳AYANG*科技大师 42
+      - 🇺🇸 _US_美国 9
+      - YouTube*阿阳AYANG*科技大师 43
+      - YouTube*阿阳AYANG*科技大师 44
+      - YouTube*阿阳AYANG*科技大师 45
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -648,90 +1201,169 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - CYL-科技（2022.02.24）
-      - CYL-科技（2022.02.08）
-      - CYL-科技（2022.02.24） 2
-      - CYL-科技（2022.02.08） 2
-      - CYL-科技（2022.02.08） 3
-      - CYL-科技（2022.02.08） 4
-      - CYL-科技（2022.02.08） 5
-      - CYL-科技（2021.01.02）
-      - CYL-科技（2022.02.24） 3
-      - CYL-科技（2022.02.24） 4
-      - CYL-科技（2022.02.08） 6
-      - CYL-科技（2022.02.08） 7
-      - CYL-科技（2022.02.08） 8
-      - CYL-科技（2022.02.24） 5
-      - CYL-科技（2022.02.24） 6
-      - CYL-科技（2022.02.24） 7
-      - CYL-科技（2022.02.23）
-      - CYL-科技（2022.02.24） 8
-      - CYL-科技（2022.02.24） 9
-      - CYL-科技（2022.02.08） 9
-      - CYL-科技（2022.02.23） 2
-      - CYL-科技（2022.02.24） 10
-      - CYL-科技（2022.02.23） 3
-      - CYL-科技（2022.02.24） 11
-      - CYL-科技（2022.02.23） 4
-      - CYL-科技（2022.02.08） 10
-      - CYL-科技（2022.02.24） 12
-      - CYL-科技（2022.02.24） 13
-      - CYL-科技（2022.02.23） 5
-      - CYL-科技（2022.02.24） 14
-      - CYL-科技（2022.02.24） 15
-      - CA-134.195.196.193-460
-      - CYL-科技（2022.02.08） 11
-      - CYL-科技（2022.02.23） 6
-      - CYL-科技（2022.02.24） 16
+      - 🇯🇵 日本(yudou66.com 玉豆分享)
+      - 🇯🇵 日本(yudou66.com 玉豆分享) 2
+      - 🇺🇸 _US_美国
       - 科技网络
-      - CYL-科技（2022.02.23） 7
-      - CYL-科技（2022.02.08） 12
-      - CYL-科技（2022.02.24） 17
-      - CYL-科技（2022.02.23） 8
-      - CYL-科技（2022.02.23） 9
-      - CYL-科技（2022.02.23） 10
-      - CYL-科技（2022.02.24） 18
-      - CYL-科技（2022.02.23） 11
-      - CYL-科技（2022.02.24） 19
-      - CYL-科技（2022.02.23） 12
-      - CYL-科技（2022.02.23） 13
-      - CYL-科技（2022.02.23） 14
-      - CYL-科技（2022.02.23） 15
-      - CYL-科技（2022.02.24） 20
-      - CYL-科技（2022.02.24） 21
-      - CYL-科技（2022.02.24） 22
-      - CYL-科技（2022.02.24） 23
-      - CYL-科技（2022.02.23） 16
-      - CYL-科技（2021.01.02） 2
-      - CYL-科技（2022.02.24） 24
-      - CYL-科技（2022.02.08） 13
-      - CYL-科技（2022.01.15）
-      - CYL-科技（2022.02.24） 25
-      - CYL-科技（2021.01.02） 3
-      - CYL-科技（2022.02.24） 26
-      - CYL-科技（2022.02.08） 14
-      - CYL-科技（2021.01.02） 4
       - 科技网络 2
-      - CYL-科技（2021.01.02） 5
-      - CYL-科技（2021.01.02） 6
-      - CYL-科技（2022.02.24） 27
-      - CYL-科技（2022.02.23） 17
-      - CYL-科技（2021.01.02） 7
-      - CYL-科技（2022.02.08） 15
-      - CYL-科技（2022.02.23） 18
-      - CYL-科技（2021.01.02） 8
-      - CYL-科技（2022.02.08） 16
-      - CYL-科技（2022.02.24） 28
-      - CYL-科技（2022.02.08） 17
-      - CYL-科技（2022.02.24） 29
-      - CYL-科技（2022.01.15） 2
-      - CYL-科技（2022.02.08） 18
-      - 🇫🇷 法国阿伟科技@TG/油管
-      - CYL-科技（2022.02.08） 19
-      - CYL-科技（2022.02.24） 30
+      - 🇫🇷 法国(yudou66.com 玉豆分享)
+      - YouTube*阿阳AYANG*科技大师
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
+      - YouTube*阿阳AYANG*科技大师 2
+      - YouTube*阿阳AYANG*科技大师 3
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君)
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2
+      - 🇺🇸 _US_美国 2
+      - YouTube*阿阳AYANG*科技大师 4
+      - CYL-科技（2022.02.23）
+      - 🇺🇸 _US_美国 3
+      - YouTube*阿阳AYANG*科技大师 5
+      - 🇺🇸 _US_美国 4
+      - YouTube*阿阳AYANG*科技大师 6
+      - 🇯🇵 日本(yudou66.com 玉豆分享) 3
+      - YouTube*阿阳AYANG*科技大师 7
       - 科技网络 3
-      - CYL-科技（2022.02.24） 31
-      - CYL-科技（2022.02.08） 20
+      - YouTube*阿阳AYANG*科技大师 8
+      - YouTube*阿阳AYANG*科技大师 9
+      - 🇪🇺 欧洲(yudou66.com 玉豆分享)
+      - CYL-科技（2022.02.23） 2
+      - YouTube*阿阳AYANG*科技大师 10
+      - 🇺🇸 _US_美国 5
+      - 科技网络 4
+      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)
+      - 科技网络 5
+      - 科技网络 6
+      - CYL-科技（2022.02.23） 3
+      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 科技网络 7
+      - 🇯🇵 日本(yudou66.com 玉豆分享) 4
+      - 科技网络 8
+      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 3
+      - 科技网络 9
+      - YouTube*阿阳AYANG*科技大师 11
+      - YouTube*阿阳AYANG*科技大师 12
+      - 科技网络 10
+      - 科技网络 11
+      - CYL-科技（2022.02.23） 4
+      - 科技网络 12
+      - 🇨🇦 _CA_加拿大
+      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 4
+      - YouTube*阿阳AYANG*科技大师 13
+      - 科技网络 13
+      - 科技网络 14
+      - 科技网络 15
+      - 科技网络 16
+      - 科技网络 17
+      - 科技网络 18
+      - 科技网络 19
+      - 科技网络 20
+      - 科技网络 21
+      - 🇯🇵 日本(yudou66.com 玉豆分享) 5
+      - 科技网络 22
+      - 科技网络 23
+      - 科技网络 24
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 3
+      - CYL-科技（2022.02.23） 5
+      - 科技网络 25
+      - 科技网络 26
+      - 科技网络 27
+      - 科技网络 28
+      - YouTube*阿阳AYANG*科技大师 14
+      - 科技网络 29
+      - 科技网络 30
+      - YouTube*阿阳AYANG*科技大师 15
+      - 科技网络 31
+      - 科技网络 32
+      - 科技网络 33
+      - 科技网络 34
+      - 科技网络 35
+      - 科技网络 36
+      - 科技网络 37
+      - 🇪🇺 欧洲(yudou66.com 玉豆分享) 2
+      - 科技网络 38
+      - 科技网络 39
+      - 科技网络 40
+      - 科技网络 41
+      - 科技网络 42
+      - 科技网络 43
+      - 🇺🇸 _US_美国 6
+      - 科技网络 44
+      - 科技网络 45
+      - 科技网络 46
+      - 科技网络 47
+      - 科技网络 48
+      - 🇺🇸 美国(yudou66.com 玉豆分享)
+      - 🇪🇺 欧洲(yudou66.com 玉豆分享) 3
+      - 科技网络 49
+      - YouTube*阿阳AYANG*科技大师 16
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 4
+      - 科技网络 50
+      - CYL-科技（2022.02.24）
+      - YouTube*阿阳AYANG*科技大师 17
+      - YouTube*阿阳AYANG*科技大师 18
+      - YouTube*阿阳AYANG*科技大师 19
+      - 🇺🇸 _US_美国(yudou66.com 玉豆分享)
+      - YouTube*阿阳AYANG*科技大师 20
+      - 🇺🇸 _US_美国(yudou66.com 玉豆分享) 2
+      - YouTube*阿阳AYANG*科技大师 21
+      - 科技网络 51
+      - 🇬🇧 _GB_英国(yudou66.com 玉豆分享)
+      - 科技网络 52
+      - 科技网络 53
+      - YouTube*阿阳AYANG*科技大师 22
+      - 科技网络 54
+      - YouTube*阿阳AYANG*科技大师 23
+      - YouTube*阿阳AYANG*科技大师 24
+      - YouTube*阿阳AYANG*科技大师 25
+      - 🇺🇸 _US_美国(yudou66.com 玉豆分享) 3
+      - YouTube*阿阳AYANG*科技大师 26
+      - YouTube*阿阳AYANG*科技大师 27
+      - 科技网络 55
+      - 科技网络 56
+      - 科技网络 57
+      - 科技网络 58
+      - 科技网络 59
+      - 科技网络 60
+      - 🇺🇸 _US_美国(yudou66.com 玉豆分享) 4
+      - YouTube*阿阳AYANG*科技大师 28
+      - 🇺🇸 _US_美国 7
+      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 5
+      - 科技网络 61
+      - YouTube*阿阳AYANG*科技大师 29
+      - 科技网络 62
+      - 科技网络 63
+      - YouTube*阿阳AYANG*科技大师 30
+      - YouTube*阿阳AYANG*科技大师 31
+      - YouTube*阿阳AYANG*科技大师 32
+      - 科技网络 64
+      - YouTube*阿阳AYANG*科技大师 33
+      - YouTube*阿阳AYANG*科技大师 34
+      - 科技网络 65
+      - YouTube*阿阳AYANG*科技大师 35
+      - YouTube*阿阳AYANG*科技大师 36
+      - 科技网络 66
+      - 科技网络 67
+      - 科技网络 68
+      - 科技网络 69
+      - YouTube*阿阳AYANG*科技大师 37
+      - 🇨🇦 _CA_加拿大 2
+      - YouTube*阿阳AYANG*科技大师 38
+      - 科技网络 70
+      - YouTube*阿阳AYANG*科技大师 39
+      - 科技网络 71
+      - 科技网络 72
+      - 科技网络 73
+      - YouTube*阿阳AYANG*科技大师 40
+      - 🇺🇸 _US_美国 8
+      - YouTube*阿阳AYANG*科技大师 41
+      - 🇯🇵 日本(yudou66.com 玉豆分享) 6
+      - 科技网络 74
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 2
+      - YouTube*阿阳AYANG*科技大师 42
+      - 🇺🇸 _US_美国 9
+      - YouTube*阿阳AYANG*科技大师 43
+      - YouTube*阿阳AYANG*科技大师 44
+      - YouTube*阿阳AYANG*科技大师 45
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
