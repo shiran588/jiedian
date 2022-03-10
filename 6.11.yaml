@@ -5,774 +5,1040 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: ZZ_3403 |33.11Mb, server: 134.195.196.68, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: ZZ_3635 |28.72Mb, server: 134.195.196.68, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 🇭🇰 香港(欢迎订阅Youtube破解资源君), server: china-f4s-az-hk.898868.xyz, port: 51645, type: vmess, uuid: 3b07447e-94cf-4d72-96c6-d0a539098049, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: china-f4s-az-hk.898868.xyz}}
-  - {name: 🇭🇰 香港(欢迎订阅Youtube破解资源君) 2, server: china-f4s-az-hk.898868.xyz, port: 37817, type: vmess, uuid: 3b07447e-94cf-4d72-96c6-d0a539098049, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: china-f4s-az-hk.898868.xyz}}
-  - {name: 🇨🇦 加拿大【YouTube由零開始】, server: 134.195.196.12, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君), server: 134.195.196.3, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 2, server: 134.195.196.187, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 3, server: 134.195.196.12, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 4, server: 134.195.196.68, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 5, server: 134.195.196.12, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 6, server: 134.195.196.68, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 7, server: 145.239.7.164, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 8, server: 172.99.190.92, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: ZZ_2923 |46.56Mb, server: 134.195.196.12, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: ZZ_2932 | 2.68Mb, server: 169.197.142.187, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 9, server: 134.195.196.68, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 10, server: 134.195.196.227, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: ZZ_3675 |39.62Mb, server: 134.195.196.187, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 11, server: 134.195.196.187, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇨🇦 加拿大【YouTube由零開始】 2, server: 134.195.196.12, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: ZZ_3677 |27.27Mb, server: 134.195.196.187, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 12, server: 43.131.51.120, port: 44970, type: vmess, uuid: 334181ca-0c75-4fd2-fd56-51a510c7be65, alterId: 0, cipher: auto, tls: false}
-  - {name: ZZ_2921 |39.49Mb, server: 134.195.196.12, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 🇭🇰 香港【YouTube由零開始】, server: china-f4s-az-hk.898868.xyz, port: 51645, type: vmess, uuid: 3b07447e-94cf-4d72-96c6-d0a539098049, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: china-f4s-az-hk.898868.xyz}}
-  - {name: 🇭🇰 香港【YouTube由零開始】 2, server: china-f4s-az-hk.898868.xyz, port: 37817, type: vmess, uuid: 3b07447e-94cf-4d72-96c6-d0a539098049, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: china-f4s-az-hk.898868.xyz}}
-  - {name: ZZ_3631 |24.86Mb, server: 134.195.196.187, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 13, server: 134.195.196.227, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 14, server: 134.195.196.12, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 🇺🇸 美国(欢迎订阅Youtube破解资源君), server: 38.143.66.71, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: ZZ_3415 |36.93Mb, server: 134.195.196.68, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇨🇳 台湾(欢迎订阅Youtube破解资源君), server: 0222tw.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 0222tw.fans8.xyz}}
-  - {name: 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2, server: 38.143.66.71, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: ZZ_3418 | 2.97Mb, server: 169.197.142.187, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 🇺🇸 美国(欢迎订阅Youtube破解资源君) 3, server: 104.166.135.10, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: ahdaeph8.com}}
-  - {name: FR_588 |30.50Mb, server: 51.255.66.185, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 15, server: 134.195.196.68, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: CA_138 |19.52Mb, server: 198.57.27.218, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 🇭🇰 香港(欢迎订阅Youtube破解资源君) 3, server: china-f4s-az-hk.898868.xyz, port: 62315, type: vmess, uuid: 3b07447e-94cf-4d72-96c6-d0a539098049, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: china-f4s-az-hk.898868.xyz}}
-  - {name: YouTube*阿阳AYANG*科技大师, server: cloudflare.xrenblog.com, port: 443, type: vmess, uuid: 6c175d1a-a57f-4881-a471-173eb139694b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /xrenblog/, ws-headers: {Host: ipv6.xrenblog.com}}
-  - {name: 🇯🇵 日本(欢迎订阅Youtube破解资源君), server: 172.105.222.98, port: 80, type: vmess, uuid: 4e1d0b12-25f0-363f-8659-9c6a3ca1fcda, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 172.105.222.98}}
-  - {name: ZZ_2935 | 1.61Mb, server: 169.197.142.187, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 🇺🇸 美国【YouTube由零開始】, server: 39.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, sni: 39.earths.team}
-  - {name: 🇨🇦 加拿大【YouTube由零開始】 3, server: 198.57.27.218, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 🇭🇰 香港(欢迎订阅Youtube破解资源君) 4, server: 39.earths.team, port: 443, type: trojan, password: 6593b778-e45e-4f94-b5ae-641d4b7b02ae, sni: 39.earths.team}
-  - {name: ZZ_3379 |29.94Mb, server: 134.195.196.12, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: 🇨🇦 加拿大(欢迎订阅Youtube破解资源君), server: 198.57.27.172, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇨🇦 加拿大【YouTube由零開始】 4, server: 134.195.196.12, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇺🇸 美国【YouTube由零開始】 2, server: 169.197.142.187, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: ZZ_3407 |18.58Mb, server: 134.195.196.68, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 16, server: 104.16.162.16, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /eisasqa, ws-headers: {Host: foxus.fovi.tk}}
-  - {name: ZZ_3627 |32.62Mb, server: 134.195.196.187, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: 🇭🇰 香港|爆破, server: 43.155.81.71, port: 80, type: vmess, uuid: f4df8c57-f547-4df0-eb3f-2267ceaee528, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: vod3.nty.tv189.cn}}
-  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 17, server: 169.197.142.187, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: ZZ_3626 |29.35Mb, server: 134.195.196.12, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇨🇦 加拿大(欢迎订阅Youtube破解资源君) 2, server: 198.57.27.172, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: 🇨🇦 加拿大【YouTube由零開始】 5, server: 134.195.196.3, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 🇺🇸 US_2557 | 8.97Mb, server: 172.99.190.92, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: ZZ_3052 |37.87Mb, server: 134.195.196.3, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇸 喵哥甲骨文美国🇺🇸(ss), server: 158.101.23.126, port: 2222, type: ss, cipher: chacha20-ietf-poly1305, password: miaoge110}
-  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 18, server: 169.197.142.187, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: ZZ_2942 | 1.16Mb, server: 169.197.142.187, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 19, server: 134.195.196.68, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 20, server: 134.195.196.12, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 21, server: 134.195.196.187, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: ZZ_3639 |35.82Mb, server: 134.195.196.187, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: ZZ_2922 |25.84Mb, server: 134.195.196.12, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: ZZ_3647 |33.24Mb, server: 134.195.196.187, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: ZZ_3641 |42.65Mb, server: 134.195.196.187, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 🇺🇸 美国(欢迎订阅Youtube破解资源君) 4, server: 167.88.63.79, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 🇺🇸 美国(欢迎订阅Youtube破解资源君) 5, server: 38.143.66.71, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇨🇦 加拿大【YouTube由零開始】 6, server: 134.195.196.12, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: ZZ_3099 |36.47Mb, server: 134.195.196.12, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 22, server: 134.195.196.3, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 23, server: 134.195.196.3, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 🇫🇷 法国【YouTube由零開始】, server: 51.255.66.185, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 24, server: 198.57.27.218, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: ZZ_3680 |47.21Mb, server: 134.195.196.12, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: CA_136 |51.17Mb, server: 198.57.27.218, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 25, server: 198.57.27.218, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 26, server: 198.57.27.218, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 27, server: 134.195.196.12, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: ZZ_3350 |38.16Mb, server: 134.195.196.68, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: ZZ_3637 |20.31Mb, server: 134.195.196.187, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 28, server: 134.195.196.187, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 29, server: 134.195.196.227, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 30, server: 134.195.196.3, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 31, server: 134.195.196.187, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 32, server: 198.57.27.218, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: ZZ_3414 |18.44Mb, server: 134.195.196.68, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 科技网络, server: 134.195.196.227, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: ZZ_3632 |30.27Mb, server: 134.195.196.187, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 🇺🇸 美国(欢迎订阅Youtube破解资源君) 6, server: 134.195.196.227, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: ZZ_3408 | 4.15Mb, server: 169.197.142.187, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇺🇸 美国【YouTube由零開始】 3, server: 169.197.142.187, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: YouTube*阿阳AYANG*科技大师 2, server: 134.195.196.227, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: ZZ_2941 | 0.87Mb, server: 169.197.142.187, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 33, server: 169.197.142.187, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 34, server: 193.108.117.75, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: ZZ_3446 |25.23Mb, server: 134.195.196.12, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: ZZ_3416 | 4.18Mb, server: 169.197.142.187, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: ZZ_2918 |24.39Mb, server: 134.195.196.3, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: 🇨🇦 加拿大【YouTube由零開始】 7, server: 134.195.196.12, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 35, server: 134.195.196.187, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇺🇸 美国(欢迎订阅Youtube破解资源君) 7, server: 38.91.102.86, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇸 美国(欢迎订阅Youtube破解资源君) 8, server: 38.143.66.71, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇺🇸 美国阿伟科技@TG/油管, server: iepl02.zerohost.live, port: 11006, type: vmess, uuid: c008a763-2123-312f-bae6-bf7630517e22, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: iepl02.zerohost.live}}
+  - {name: 🇨🇳 台湾(yudou66.com 玉豆分享), server: tw1.nodrop.bike, port: 80, type: vmess, uuid: 3efa3b6e-571e-492d-ba3a-66663d536e86, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: tw1.nodrop.bike}}
+  - {name: 🇫🇮 芬兰(yudou66.com 玉豆分享), server: azure.bp2022.top, port: 10081, type: vmess, uuid: 113d0898-0e65-4d4e-ac26-2849f39c599c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: oz.moonfree.top}}
+  - {name: 🇭🇰 香港(yudou66.com 玉豆分享), server: iepl04.zerohost.live, port: 11008, type: vmess, uuid: c008a763-2123-312f-bae6-bf7630517e22, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: iepl04.zerohost.live}}
+  - {name: 🇨🇦 加拿大【YouTube由零開始】, server: 134.195.196.187, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇨🇦 _CA_加拿大(yudou66.com 玉豆分享), server: 134.195.196.187, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 🇬🇧 _GB_英国, server: 145.239.7.164, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇫🇷 法国阿伟科技@TG/油管, server: oz.moonfree.top, port: 443, type: vmess, uuid: 113d0898-0e65-4d4e-ac26-2849f39c599c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: oz.moonfree.top}}
+  - {name: 🇭🇰 香港阿伟科技@TG/油管, server: gzyd1.noded.one, port: 19500, type: vmess, uuid: c008a763-2123-312f-bae6-bf7630517e22, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: gzyd1.noded.one}}
+  - {name: 🇨🇦 _CA_加拿大, server: 134.195.196.68, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 🇨🇦 加拿大【YouTube由零開始】 2, server: 134.195.196.81, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 🇨🇦 _CA_加拿大 2, server: 134.195.196.81, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇨🇦 加拿大【YouTube由零開始】 3, server: 134.195.196.187, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇨🇦 加拿大【YouTube由零開始】 4, server: 134.195.196.187, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇨🇦 _CA_加拿大 3, server: 134.195.196.187, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇨🇦 _CA_加拿大 4, server: 134.195.196.187, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 🇺🇸 美国(yudou66.com 玉豆分享), server: 169.197.142.99, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇺🇸 美国【YouTube由零開始】, server: 39.earths.team, port: 443, type: trojan, password: 6593b778-e45e-4f94-b5ae-641d4b7b02ae, sni: 39.earths.team}
+  - {name: 🇨🇦 加拿大【YouTube由零開始】 5, server: 134.195.196.81, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 🇺🇸 美国【YouTube由零開始】 2, server: 39.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, sni: 39.earths.team}
+  - {name: 🇺🇸 美国(yudou66.com 玉豆分享) 2, server: iepl02.zerohost.live, port: 11015, type: vmess, uuid: c008a763-2123-312f-bae6-bf7630517e22, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: iepl02.zerohost.live}}
+  - {name: 🇭🇰 香港阿伟科技@TG/油管 2, server: 103.164.81.13, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 103.164.81.13}}
+  - {name: 🇳🇱 荷兰阿伟科技@TG/油管, server: nl.oracleusa.ml, port: 2053, type: vmess, uuid: d176bc78-9bf9-4ab3-9af9-a1e412d95c53, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: nl.oracleusa.ml}}
+  - {name: 🇺🇸 美国阿伟科技@TG/油管 2, server: us28.holiganfan.com, port: 10088, type: trojan, password: 17882ef6-b07d-401c-8cee-636e512c77ba, sni: us28.holiganfan.com}
+  - {name: 🇨🇦 _CA_加拿大 5, server: 134.195.196.81, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 欧(yudou66.com 玉豆分享), server: 134.195.196.187, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇨🇦 加拿大【YouTube由零開始】 6, server: 134.195.196.81, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 🇬🇧 英国【YouTube由零開始】, server: 172.99.190.92, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 🇨🇦 加拿大(yudou66.com 玉豆分享), server: 134.195.196.81, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇬🇧 英国【YouTube由零開始】 2, server: 145.239.7.164, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇨🇦 加拿大【YouTube由零開始】 7, server: 134.195.196.68, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇨🇦 _CA_加拿大 6, server: 134.195.196.81, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇨🇦 加拿大(yudou66.com 玉豆分享) 2, server: 134.195.196.81, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇨🇦 加拿大【YouTube由零開始】 8, server: 134.195.196.187, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 🇨🇦 _CA_加拿大 7, server: 134.195.196.187, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 🇨🇦 加拿大【YouTube由零開始】 9, server: 134.195.196.187, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 🇨🇭 瑞士(yudou66.com 玉豆分享), server: sw.oracleusa.ml, port: 2053, type: vmess, uuid: 0b97a9b1-a671-4b32-a02e-17850a466fdc, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: sw.oracleusa.ml}}
+  - {name: 🇫🇷 法国【YouTube由零開始】, server: 51.255.66.185, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇨🇦 加拿大【YouTube由零開始】 10, server: 134.195.196.187, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 🇭🇰 香港阿伟科技@TG/油管 3, server: gzyd1.noded.one, port: 10801, type: vmess, uuid: c008a763-2123-312f-bae6-bf7630517e22, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: aweikeji-YouTube-TG}}
+  - {name: 🇺🇸 美国(yudou66.com 玉豆分享) 3, server: linodemx0303.moonfree.top, port: 443, type: vmess, uuid: 113d0898-0e65-4d4e-ac26-2849f39c599c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: linodemx0303.moonfree.top}}
+  - {name: 🇭🇰 香港阿伟科技@TG/油管 4, server: iepl02.zerohost.live, port: 11006, type: vmess, uuid: c008a763-2123-312f-bae6-bf7630517e22, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: iepl02.zerohost.live}}
+  - {name: 🇨🇳 台湾(yudou66.com 玉豆分享) 2, server: tw1.nodrop.bike, port: 80, type: vmess, uuid: 30e46917-9383-4248-be0a-65b68de6eb6d, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: tw1.nodrop.bike}}
+  - {name: 🇨🇦 _CA_加拿大 8, server: 134.195.196.68, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 油管 TG 8度科技, server: cm.db-link.in, port: 443, type: vmess, uuid: 9b6dd8ea-fe2e-3508-b099-8e25bdf6b5fe, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /db, ws-headers: {Host: us01.db-link.in}}
+  - {name: 🇭🇰 香港(yudou66.com 玉豆分享) 2, server: iepl04.zerohost.live, port: 11003, type: vmess, uuid: c008a763-2123-312f-bae6-bf7630517e22, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: iepl04.zerohost.live}}
+  - {name: 🇨🇦 加拿大【YouTube由零開始】 11, server: 134.195.196.187, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 油管 TG 8度科技 2, server: gongyisg1.yigeweizhuang.com, port: 2096, type: vmess, uuid: a94446e3-be9c-4240-9bdf-9b88155a7eb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: gongyisg1.yigeweizhuang.com}}
+  - {name: 🇺🇸 US_油管 TG 8度科技, server: gongyijp1.yigeweizhuang.com, port: 2096, type: vmess, uuid: a94446e3-be9c-4240-9bdf-9b88155a7eb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: gongyijp1.yigeweizhuang.com}}
+  - {name: 🇺🇸 美国(yudou66.com 玉豆分享) 4, server: www.gomacau.gq, port: 443, type: trojan, password: b5fc9fa9-796d-4185-a316-395ecac04a85, sni: www.gomacau.gq}
+  - {name: 🇭🇰 香港阿伟科技@TG/油管 5, server: gzyd1.noded.one, port: 19501, type: vmess, uuid: c008a763-2123-312f-bae6-bf7630517e22, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: gzyd1.noded.one}}
+  - {name: ZZ_3537+|13.93Mb, server: 134.195.196.81, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 美国(yudou66.com 玉豆分享) 5, server: azure.bp2022.top, port: 10080, type: vmess, uuid: 113d0898-0e65-4d4e-ac26-2849f39c599c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: linodemx0303.moonfree.top}}
+  - {name: 🇸🇬 新加坡(yudou66.com 玉豆分享), server: iepl01.zerohost.live, port: 11014, type: vmess, uuid: c008a763-2123-312f-bae6-bf7630517e22, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: iepl01.zerohost.live}}
+  - {name: 🇨🇦 加拿大(yudou66.com 玉豆分享) 3, server: 134.195.196.3, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇨🇦 _CA_加拿大 9, server: 134.195.196.81, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇺🇸 美国(yudou66.com 玉豆分享) 6, server: vir2.oracleusa.ml, port: 2053, type: vmess, uuid: 0b97a9b1-a671-4b32-a02e-17850a466fdc, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: vir2.oracleusa.ml}}
+  - {name: 🇷🇺 俄罗斯(yudou66.com 玉豆分享), server: ru.oracleusa.ml, port: 2053, type: vmess, uuid: d176bc78-9bf9-4ab3-9af9-a1e412d95c53, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: ru.oracleusa.ml}}
+  - {name: 🇨🇦 加拿大(yudou66.com 玉豆分享) 4, server: 134.195.196.3, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇨🇦 _CA_加拿大 10, server: 134.195.196.3, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 🇭🇰 香港(yudou66.com 玉豆分享) 3, server: iepl04.zerohost.live, port: 11017, type: vmess, uuid: c008a763-2123-312f-bae6-bf7630517e22, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: iepl04.zerohost.live}}
+  - {name: 🇨🇦 加拿大(yudou66.com 玉豆分享) 5, server: 134.195.196.3, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 🇨🇦 加拿大【YouTube由零開始】 12, server: 134.195.196.3, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 🇨🇦 加拿大【YouTube由零開始】 13, server: 134.195.196.81, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 🇩🇪 德国阿伟科技@TG/油管, server: v6d1.moonfree.top, port: 443, type: vmess, uuid: 113d0898-0e65-4d4e-ac26-2849f39c599c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: v6d.moonfree.top}}
+  - {name: 🇨🇦 加拿大【YouTube由零開始】 14, server: 134.195.196.187, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 🇨🇦 加拿大(yudou66.com 玉豆分享) 6, server: 134.195.196.81, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 🇨🇦 _CA_加拿大 11, server: 134.195.196.187, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇭🇰 香港(欢迎订阅Youtube破解资源君), server: iepl02.zerohost.live, port: 11001, type: vmess, uuid: c008a763-2123-312f-bae6-bf7630517e22, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: iepl02.zerohost.live}}
+  - {name: 🇨🇦 加拿大【YouTube由零開始】 15, server: 134.195.196.187, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇸 美国(yudou66.com 玉豆分享) 7, server: 169.197.142.99, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 🇨🇦 加拿大【YouTube由零開始】 16, server: 134.195.196.187, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇺🇸 美国(yudou66.com 玉豆分享) 8, server: 169.197.142.99, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇺🇸 美国(yudou66.com 玉豆分享) 9, server: vir2.oracleusa.ml, port: 2053, type: vmess, uuid: d176bc78-9bf9-4ab3-9af9-a1e412d95c53, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: vir2.oracleusa.ml}}
+  - {name: 🇬🇧 英国【YouTube由零開始】 3, server: 145.239.7.164, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇨🇦 加拿大(yudou66.com 玉豆分享) 7, server: 134.195.196.68, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 🇨🇳 中国(yudou66.com 玉豆分享), server: www.tokyo2021.ga, port: 443, type: trojan, password: 7a990132-cf76-4ac2-8a3c-681743fa8627, sni: www.tokyo2021.ga}
+  - {name: CA_(yudou66.com 玉豆分享), server: 134.195.196.81, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇨🇦 加拿大【YouTube由零開始】 17, server: 134.195.196.81, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 美国【YouTube由零開始】 3, server: cloudflare.a-yu.xyz, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /sakura/, ws-headers: {Host: zero2.a-yu.xyz}}
+  - {name: 🇬🇧 _GB_英国 2, server: 172.99.190.92, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇨🇦 加拿大(yudou66.com 玉豆分享) 8, server: 134.195.196.187, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇫🇷 法国【YouTube由零開始】 2, server: 51.255.66.185, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇺🇸 美国阿伟科技@TG/油管 3, server: gcusfree.galaxycloud.buzz, port: 443, type: vmess, uuid: 8b75896d-b8e7-47ec-81b8-213ecfb02bf3, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /0DGCTPQ, ws-headers: {Host: gcusfree.galaxycloud.buzz}}
+  - {name: 🇺🇸 美国阿伟科技@TG/油管 4, server: gcusfree.galaxycloud.buzz, port: 443, type: vmess, uuid: f132274c-2704-4f7e-89d4-7d4f06eab292, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /0DGCTPQ, ws-headers: {Host: gcusfree.galaxycloud.buzz}}
+  - {name: 🇺🇸 美国(yudou66.com 玉豆分享) 10, server: 169.197.142.99, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇺🇸 美国(yudou66.com 玉豆分享) 11, server: 169.197.142.99, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 🇺🇸 _US_美国, server: gongyius1.yigeweizhuang.com, port: 2096, type: vmess, uuid: a94446e3-be9c-4240-9bdf-9b88155a7eb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: gongyius1.yigeweizhuang.com}}
+  - {name: 🇭🇰 香港阿伟科技@TG/油管 6, server: ppy-cn1.ddnsnode.com, port: 26010, type: vmess, uuid: 6d4e5eb4-3e33-369c-8791-30ea8d08e298, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇦 _CA_加拿大 12, server: 134.195.196.81, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇮🇳 印度【YouTube由零開始】, server: 172.105.59.32, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 🇨🇦 _CA_加拿大 13, server: 134.195.196.81, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 🇺🇸 US_(yudou66.com 玉豆分享), server: gongyijp2.yigeweizhuang.com, port: 2096, type: vmess, uuid: a94446e3-be9c-4240-9bdf-9b88155a7eb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: gongyijp2.yigeweizhuang.com}}
+  - {name: 🇨🇦 _CA_加拿大 14, server: 134.195.196.187, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇨🇳 台湾阿伟科技@TG/油管, server: iepl02.zerohost.live, port: 11018, type: vmess, uuid: c008a763-2123-312f-bae6-bf7630517e22, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: iepl02.zerohost.live}}
+  - {name: 🇨🇦 _CA_加拿大(yudou66.com 玉豆分享) 2, server: 134.195.196.187, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇨🇦 加拿大【YouTube由零開始】 18, server: 134.195.196.81, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇫🇷 法国阿伟科技@TG/油管 2, server: rbzf.moonfree.top, port: 10080, type: vmess, uuid: 113d0898-0e65-4d4e-ac26-2849f39c599c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: v6fr1.moonfree.top}}
+  - {name: 🇭🇰 香港阿伟科技@TG/油管 7, server: 165.154.224.8, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 165.154.224.8}}
+  - {name: 🇨🇳 中国【YouTube由零開始】, server: iepl02.zerohost.live, port: 11018, type: vmess, uuid: c008a763-2123-312f-bae6-bf7630517e22, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: iepl02.zerohost.live}}
+  - {name: 🇺🇸 美国(yudou66.com 玉豆分享) 12, server: usaarm1.oracleusa.ml, port: 980, type: vmess, uuid: 0b97a9b1-a671-4b32-a02e-17850a466fdc, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: usaarm1.oracleusa.ml}}
+  - {name: 🇫🇷 法国【YouTube由零開始】 3, server: 51.255.66.185, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇺🇸 美国(yudou66.com 玉豆分享) 13, server: 169.197.142.99, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 🇯🇵 日本【YouTube由零開始】, server: 172.105.222.98, port: 80, type: vmess, uuid: 4e1d0b12-25f0-363f-8659-9c6a3ca1fcda, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 172.105.222.98}}
+  - {name: 🇫🇷 法国【YouTube由零開始】 4, server: 51.255.66.185, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 🇺🇸 美国(yudou66.com 玉豆分享) 14, server: gcusfree.galaxycloud.buzz, port: 443, type: vmess, uuid: 78b69b4b-aa09-4d29-8f98-5cd8b40397bf, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /0DGCTPQ, ws-headers: {Host: gcusfree.galaxycloud.buzz}}
+  - {name: 🇺🇸 美国阿伟科技@TG/油管 5, server: gcusfree.galaxycloud.buzz, port: 443, type: vmess, uuid: c2efe740-1bcc-4322-b68b-8e7dc234fccb, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /0DGCTPQ, ws-headers: {Host: gcusfree.galaxycloud.buzz}}
+  - {name: 🇨🇦 加拿大(yudou66.com 玉豆分享) 9, server: 134.195.196.81, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 🇬🇧 英国【YouTube由零開始】 4, server: 172.99.190.92, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇨🇦 _CA_加拿大 15, server: 134.195.196.81, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 🇬🇧 英国(yudou66.com 玉豆分享), server: 172.99.190.92, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 🇬🇧 英国(yudou66.com 玉豆分享) 2, server: 172.99.190.92, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇸 美国【YouTube由零開始】 4, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
+  - {name: 🇸🇬 新加坡阿伟科技@TG/油管, server: sg27.holiganfan.com, port: 10088, type: trojan, password: 17882ef6-b07d-401c-8cee-636e512c77ba, sni: sg27.holiganfan.com}
+  - {name: 🇨🇦 _CA_加拿大 16, server: 134.195.196.68, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 🇨🇦 _CA_加拿大 17, server: 134.195.196.81, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 【YouTube由零開始】, server: 198.41.221.169, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /sakura/, ws-headers: {Host: zero1.a-yu.xyz}}
+  - {name: 🇨🇦 _CA_加拿大 18, server: 134.195.196.68, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 🇨🇦 加拿大【YouTube由零開始】 19, server: 134.195.196.68, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇳🇱 _US_美国->🇳🇱_NL_荷兰, server: cloudflare.xrenblog.com, port: 443, type: vmess, uuid: 6c175d1a-a57f-4881-a471-173eb139694b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /xrenblog/, ws-headers: {Host: ipv6.xrenblog.com}}
+  - {name: CA_(yudou66.com 玉豆分享) 2, server: 134.195.196.3, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 🇨🇦 加拿大【YouTube由零開始】 20, server: 134.195.196.68, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇨🇦 加拿大(yudou66.com 玉豆分享) 10, server: 134.195.196.68, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 🇨🇦 加拿大【YouTube由零開始】 21, server: 134.195.196.81, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇨🇦 _CA_加拿大(yudou66.com 玉豆分享) 3, server: 134.195.196.187, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇨🇦 _CA_加拿大(yudou66.com 玉豆分享) 4, server: 134.195.196.187, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇨🇦 加拿大【YouTube由零開始】 22, server: 134.195.196.187, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 🇨🇦 _CA_加拿大 19, server: 134.195.196.68, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇨🇦 加拿大【YouTube由零開始】 23, server: 134.195.196.187, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇨🇦 加拿大【YouTube由零開始】 24, server: 134.195.196.187, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君), server: ahdaeph8.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: ahdaeph8.com}}
+  - {name: 🇨🇦 _CA_加拿大 20, server: 134.195.196.3, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: CA_(yudou66.com 玉豆分享) 3, server: 134.195.196.81, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇨🇦 加拿大(yudou66.com 玉豆分享) 11, server: 134.195.196.81, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇨🇦 _CA_加拿大 21, server: 134.195.196.68, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇨🇦 _CA_加拿大 22, server: 134.195.196.187, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 🇨🇦 加拿大(yudou66.com 玉豆分享) 12, server: 134.195.196.81, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 🇫🇷 法国【YouTube由零開始】 5, server: 51.255.66.185, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇨🇦 加拿大【YouTube由零開始】 25, server: 134.195.196.3, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇨🇦 _CA_加拿大 23, server: 134.195.196.68, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 🇺🇸 美国(yudou66.com 玉豆分享) 15, server: usaadm.oracleusa.ml, port: 2053, type: vmess, uuid: 0b97a9b1-a671-4b32-a02e-17850a466fdc, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: usaadm.oracleusa.ml}}
+  - {name: 🇨🇦 _CA_加拿大(yudou66.com 玉豆分享) 5, server: 134.195.196.187, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 🇨🇦 加拿大【YouTube由零開始】 26, server: 134.195.196.3, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - ZZ_3403 |33.11Mb
-      - ZZ_3635 |28.72Mb
-      - 🇭🇰 香港(欢迎订阅Youtube破解资源君)
-      - 🇭🇰 香港(欢迎订阅Youtube破解资源君) 2
+      - 🇺🇸 美国阿伟科技@TG/油管
+      - 🇨🇳 台湾(yudou66.com 玉豆分享)
+      - 🇫🇮 芬兰(yudou66.com 玉豆分享)
+      - 🇭🇰 香港(yudou66.com 玉豆分享)
       - 🇨🇦 加拿大【YouTube由零開始】
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 3
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 4
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 5
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 6
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 7
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 8
-      - ZZ_2923 |46.56Mb
-      - ZZ_2932 | 2.68Mb
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 9
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 10
-      - ZZ_3675 |39.62Mb
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 11
+      - 🇨🇦 _CA_加拿大(yudou66.com 玉豆分享)
+      - 🇬🇧 _GB_英国
+      - 🇫🇷 法国阿伟科技@TG/油管
+      - 🇭🇰 香港阿伟科技@TG/油管
+      - 🇨🇦 _CA_加拿大
       - 🇨🇦 加拿大【YouTube由零開始】 2
-      - ZZ_3677 |27.27Mb
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 12
-      - ZZ_2921 |39.49Mb
-      - 🇭🇰 香港【YouTube由零開始】
-      - 🇭🇰 香港【YouTube由零開始】 2
-      - ZZ_3631 |24.86Mb
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 13
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 14
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
-      - ZZ_3415 |36.93Mb
-      - 🇨🇳 台湾(欢迎订阅Youtube破解资源君)
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2
-      - ZZ_3418 | 2.97Mb
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 3
-      - FR_588 |30.50Mb
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 15
-      - CA_138 |19.52Mb
-      - 🇭🇰 香港(欢迎订阅Youtube破解资源君) 3
-      - YouTube*阿阳AYANG*科技大师
-      - 🇯🇵 日本(欢迎订阅Youtube破解资源君)
-      - ZZ_2935 | 1.61Mb
-      - 🇺🇸 美国【YouTube由零開始】
+      - 🇨🇦 _CA_加拿大 2
       - 🇨🇦 加拿大【YouTube由零開始】 3
-      - 🇭🇰 香港(欢迎订阅Youtube破解资源君) 4
-      - ZZ_3379 |29.94Mb
-      - 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)
       - 🇨🇦 加拿大【YouTube由零開始】 4
-      - 🇺🇸 美国【YouTube由零開始】 2
-      - ZZ_3407 |18.58Mb
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 16
-      - ZZ_3627 |32.62Mb
-      - 🇭🇰 香港|爆破
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 17
-      - ZZ_3626 |29.35Mb
-      - 🇨🇦 加拿大(欢迎订阅Youtube破解资源君) 2
+      - 🇨🇦 _CA_加拿大 3
+      - 🇨🇦 _CA_加拿大 4
+      - 🇺🇸 美国(yudou66.com 玉豆分享)
+      - 🇺🇸 美国【YouTube由零開始】
       - 🇨🇦 加拿大【YouTube由零開始】 5
-      - 🇺🇸 US_2557 | 8.97Mb
-      - ZZ_3052 |37.87Mb
-      - 🇺🇸 喵哥甲骨文美国🇺🇸(ss)
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 18
-      - ZZ_2942 | 1.16Mb
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 19
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 20
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 21
-      - ZZ_3639 |35.82Mb
-      - ZZ_2922 |25.84Mb
-      - ZZ_3647 |33.24Mb
-      - ZZ_3641 |42.65Mb
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 4
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 5
+      - 🇺🇸 美国【YouTube由零開始】 2
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 2
+      - 🇭🇰 香港阿伟科技@TG/油管 2
+      - 🇳🇱 荷兰阿伟科技@TG/油管
+      - 🇺🇸 美国阿伟科技@TG/油管 2
+      - 🇨🇦 _CA_加拿大 5
+      - 欧(yudou66.com 玉豆分享)
       - 🇨🇦 加拿大【YouTube由零開始】 6
-      - ZZ_3099 |36.47Mb
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 22
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 23
-      - 🇫🇷 法国【YouTube由零開始】
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 24
-      - ZZ_3680 |47.21Mb
-      - CA_136 |51.17Mb
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 25
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 26
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 27
-      - ZZ_3350 |38.16Mb
-      - ZZ_3637 |20.31Mb
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 28
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 29
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 30
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 31
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 32
-      - ZZ_3414 |18.44Mb
-      - 科技网络
-      - ZZ_3632 |30.27Mb
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 6
-      - ZZ_3408 | 4.15Mb
-      - 🇺🇸 美国【YouTube由零開始】 3
-      - YouTube*阿阳AYANG*科技大师 2
-      - ZZ_2941 | 0.87Mb
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 33
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 34
-      - ZZ_3446 |25.23Mb
-      - ZZ_3416 | 4.18Mb
-      - ZZ_2918 |24.39Mb
+      - 🇬🇧 英国【YouTube由零開始】
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享)
+      - 🇬🇧 英国【YouTube由零開始】 2
       - 🇨🇦 加拿大【YouTube由零開始】 7
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 35
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 7
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 8
+      - 🇨🇦 _CA_加拿大 6
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 2
+      - 🇨🇦 加拿大【YouTube由零開始】 8
+      - 🇨🇦 _CA_加拿大 7
+      - 🇨🇦 加拿大【YouTube由零開始】 9
+      - 🇨🇭 瑞士(yudou66.com 玉豆分享)
+      - 🇫🇷 法国【YouTube由零開始】
+      - 🇨🇦 加拿大【YouTube由零開始】 10
+      - 🇭🇰 香港阿伟科技@TG/油管 3
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 3
+      - 🇭🇰 香港阿伟科技@TG/油管 4
+      - 🇨🇳 台湾(yudou66.com 玉豆分享) 2
+      - 🇨🇦 _CA_加拿大 8
+      - 油管 TG 8度科技
+      - 🇭🇰 香港(yudou66.com 玉豆分享) 2
+      - 🇨🇦 加拿大【YouTube由零開始】 11
+      - 油管 TG 8度科技 2
+      - 🇺🇸 US_油管 TG 8度科技
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 4
+      - 🇭🇰 香港阿伟科技@TG/油管 5
+      - ZZ_3537+|13.93Mb
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 5
+      - 🇸🇬 新加坡(yudou66.com 玉豆分享)
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 3
+      - 🇨🇦 _CA_加拿大 9
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 6
+      - 🇷🇺 俄罗斯(yudou66.com 玉豆分享)
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 4
+      - 🇨🇦 _CA_加拿大 10
+      - 🇭🇰 香港(yudou66.com 玉豆分享) 3
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 5
+      - 🇨🇦 加拿大【YouTube由零開始】 12
+      - 🇨🇦 加拿大【YouTube由零開始】 13
+      - 🇩🇪 德国阿伟科技@TG/油管
+      - 🇨🇦 加拿大【YouTube由零開始】 14
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 6
+      - 🇨🇦 _CA_加拿大 11
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君)
+      - 🇨🇦 加拿大【YouTube由零開始】 15
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 7
+      - 🇨🇦 加拿大【YouTube由零開始】 16
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 8
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 9
+      - 🇬🇧 英国【YouTube由零開始】 3
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 7
+      - 🇨🇳 中国(yudou66.com 玉豆分享)
+      - CA_(yudou66.com 玉豆分享)
+      - 🇨🇦 加拿大【YouTube由零開始】 17
+      - 🇺🇸 美国【YouTube由零開始】 3
+      - 🇬🇧 _GB_英国 2
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 8
+      - 🇫🇷 法国【YouTube由零開始】 2
+      - 🇺🇸 美国阿伟科技@TG/油管 3
+      - 🇺🇸 美国阿伟科技@TG/油管 4
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 10
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 11
+      - 🇺🇸 _US_美国
+      - 🇭🇰 香港阿伟科技@TG/油管 6
+      - 🇨🇦 _CA_加拿大 12
+      - 🇮🇳 印度【YouTube由零開始】
+      - 🇨🇦 _CA_加拿大 13
+      - 🇺🇸 US_(yudou66.com 玉豆分享)
+      - 🇨🇦 _CA_加拿大 14
+      - 🇨🇳 台湾阿伟科技@TG/油管
+      - 🇨🇦 _CA_加拿大(yudou66.com 玉豆分享) 2
+      - 🇨🇦 加拿大【YouTube由零開始】 18
+      - 🇫🇷 法国阿伟科技@TG/油管 2
+      - 🇭🇰 香港阿伟科技@TG/油管 7
+      - 🇨🇳 中国【YouTube由零開始】
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 12
+      - 🇫🇷 法国【YouTube由零開始】 3
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 13
+      - 🇯🇵 日本【YouTube由零開始】
+      - 🇫🇷 法国【YouTube由零開始】 4
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 14
+      - 🇺🇸 美国阿伟科技@TG/油管 5
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 9
+      - 🇬🇧 英国【YouTube由零開始】 4
+      - 🇨🇦 _CA_加拿大 15
+      - 🇬🇧 英国(yudou66.com 玉豆分享)
+      - 🇬🇧 英国(yudou66.com 玉豆分享) 2
+      - 🇺🇸 美国【YouTube由零開始】 4
+      - 🇸🇬 新加坡阿伟科技@TG/油管
+      - 🇨🇦 _CA_加拿大 16
+      - 🇨🇦 _CA_加拿大 17
+      - 【YouTube由零開始】
+      - 🇨🇦 _CA_加拿大 18
+      - 🇨🇦 加拿大【YouTube由零開始】 19
+      - 🇳🇱 _US_美国->🇳🇱_NL_荷兰
+      - CA_(yudou66.com 玉豆分享) 2
+      - 🇨🇦 加拿大【YouTube由零開始】 20
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 10
+      - 🇨🇦 加拿大【YouTube由零開始】 21
+      - 🇨🇦 _CA_加拿大(yudou66.com 玉豆分享) 3
+      - 🇨🇦 _CA_加拿大(yudou66.com 玉豆分享) 4
+      - 🇨🇦 加拿大【YouTube由零開始】 22
+      - 🇨🇦 _CA_加拿大 19
+      - 🇨🇦 加拿大【YouTube由零開始】 23
+      - 🇨🇦 加拿大【YouTube由零開始】 24
+      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)
+      - 🇨🇦 _CA_加拿大 20
+      - CA_(yudou66.com 玉豆分享) 3
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 11
+      - 🇨🇦 _CA_加拿大 21
+      - 🇨🇦 _CA_加拿大 22
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 12
+      - 🇫🇷 法国【YouTube由零開始】 5
+      - 🇨🇦 加拿大【YouTube由零開始】 25
+      - 🇨🇦 _CA_加拿大 23
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 15
+      - 🇨🇦 _CA_加拿大(yudou66.com 玉豆分享) 5
+      - 🇨🇦 加拿大【YouTube由零開始】 26
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - ZZ_3403 |33.11Mb
-      - ZZ_3635 |28.72Mb
-      - 🇭🇰 香港(欢迎订阅Youtube破解资源君)
-      - 🇭🇰 香港(欢迎订阅Youtube破解资源君) 2
+      - 🇺🇸 美国阿伟科技@TG/油管
+      - 🇨🇳 台湾(yudou66.com 玉豆分享)
+      - 🇫🇮 芬兰(yudou66.com 玉豆分享)
+      - 🇭🇰 香港(yudou66.com 玉豆分享)
       - 🇨🇦 加拿大【YouTube由零開始】
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 3
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 4
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 5
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 6
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 7
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 8
-      - ZZ_2923 |46.56Mb
-      - ZZ_2932 | 2.68Mb
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 9
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 10
-      - ZZ_3675 |39.62Mb
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 11
+      - 🇨🇦 _CA_加拿大(yudou66.com 玉豆分享)
+      - 🇬🇧 _GB_英国
+      - 🇫🇷 法国阿伟科技@TG/油管
+      - 🇭🇰 香港阿伟科技@TG/油管
+      - 🇨🇦 _CA_加拿大
       - 🇨🇦 加拿大【YouTube由零開始】 2
-      - ZZ_3677 |27.27Mb
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 12
-      - ZZ_2921 |39.49Mb
-      - 🇭🇰 香港【YouTube由零開始】
-      - 🇭🇰 香港【YouTube由零開始】 2
-      - ZZ_3631 |24.86Mb
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 13
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 14
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
-      - ZZ_3415 |36.93Mb
-      - 🇨🇳 台湾(欢迎订阅Youtube破解资源君)
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2
-      - ZZ_3418 | 2.97Mb
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 3
-      - FR_588 |30.50Mb
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 15
-      - CA_138 |19.52Mb
-      - 🇭🇰 香港(欢迎订阅Youtube破解资源君) 3
-      - YouTube*阿阳AYANG*科技大师
-      - 🇯🇵 日本(欢迎订阅Youtube破解资源君)
-      - ZZ_2935 | 1.61Mb
-      - 🇺🇸 美国【YouTube由零開始】
+      - 🇨🇦 _CA_加拿大 2
       - 🇨🇦 加拿大【YouTube由零開始】 3
-      - 🇭🇰 香港(欢迎订阅Youtube破解资源君) 4
-      - ZZ_3379 |29.94Mb
-      - 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)
       - 🇨🇦 加拿大【YouTube由零開始】 4
-      - 🇺🇸 美国【YouTube由零開始】 2
-      - ZZ_3407 |18.58Mb
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 16
-      - ZZ_3627 |32.62Mb
-      - 🇭🇰 香港|爆破
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 17
-      - ZZ_3626 |29.35Mb
-      - 🇨🇦 加拿大(欢迎订阅Youtube破解资源君) 2
+      - 🇨🇦 _CA_加拿大 3
+      - 🇨🇦 _CA_加拿大 4
+      - 🇺🇸 美国(yudou66.com 玉豆分享)
+      - 🇺🇸 美国【YouTube由零開始】
       - 🇨🇦 加拿大【YouTube由零開始】 5
-      - 🇺🇸 US_2557 | 8.97Mb
-      - ZZ_3052 |37.87Mb
-      - 🇺🇸 喵哥甲骨文美国🇺🇸(ss)
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 18
-      - ZZ_2942 | 1.16Mb
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 19
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 20
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 21
-      - ZZ_3639 |35.82Mb
-      - ZZ_2922 |25.84Mb
-      - ZZ_3647 |33.24Mb
-      - ZZ_3641 |42.65Mb
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 4
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 5
+      - 🇺🇸 美国【YouTube由零開始】 2
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 2
+      - 🇭🇰 香港阿伟科技@TG/油管 2
+      - 🇳🇱 荷兰阿伟科技@TG/油管
+      - 🇺🇸 美国阿伟科技@TG/油管 2
+      - 🇨🇦 _CA_加拿大 5
+      - 欧(yudou66.com 玉豆分享)
       - 🇨🇦 加拿大【YouTube由零開始】 6
-      - ZZ_3099 |36.47Mb
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 22
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 23
-      - 🇫🇷 法国【YouTube由零開始】
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 24
-      - ZZ_3680 |47.21Mb
-      - CA_136 |51.17Mb
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 25
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 26
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 27
-      - ZZ_3350 |38.16Mb
-      - ZZ_3637 |20.31Mb
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 28
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 29
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 30
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 31
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 32
-      - ZZ_3414 |18.44Mb
-      - 科技网络
-      - ZZ_3632 |30.27Mb
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 6
-      - ZZ_3408 | 4.15Mb
-      - 🇺🇸 美国【YouTube由零開始】 3
-      - YouTube*阿阳AYANG*科技大师 2
-      - ZZ_2941 | 0.87Mb
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 33
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 34
-      - ZZ_3446 |25.23Mb
-      - ZZ_3416 | 4.18Mb
-      - ZZ_2918 |24.39Mb
+      - 🇬🇧 英国【YouTube由零開始】
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享)
+      - 🇬🇧 英国【YouTube由零開始】 2
       - 🇨🇦 加拿大【YouTube由零開始】 7
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 35
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 7
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 8
+      - 🇨🇦 _CA_加拿大 6
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 2
+      - 🇨🇦 加拿大【YouTube由零開始】 8
+      - 🇨🇦 _CA_加拿大 7
+      - 🇨🇦 加拿大【YouTube由零開始】 9
+      - 🇨🇭 瑞士(yudou66.com 玉豆分享)
+      - 🇫🇷 法国【YouTube由零開始】
+      - 🇨🇦 加拿大【YouTube由零開始】 10
+      - 🇭🇰 香港阿伟科技@TG/油管 3
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 3
+      - 🇭🇰 香港阿伟科技@TG/油管 4
+      - 🇨🇳 台湾(yudou66.com 玉豆分享) 2
+      - 🇨🇦 _CA_加拿大 8
+      - 油管 TG 8度科技
+      - 🇭🇰 香港(yudou66.com 玉豆分享) 2
+      - 🇨🇦 加拿大【YouTube由零開始】 11
+      - 油管 TG 8度科技 2
+      - 🇺🇸 US_油管 TG 8度科技
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 4
+      - 🇭🇰 香港阿伟科技@TG/油管 5
+      - ZZ_3537+|13.93Mb
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 5
+      - 🇸🇬 新加坡(yudou66.com 玉豆分享)
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 3
+      - 🇨🇦 _CA_加拿大 9
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 6
+      - 🇷🇺 俄罗斯(yudou66.com 玉豆分享)
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 4
+      - 🇨🇦 _CA_加拿大 10
+      - 🇭🇰 香港(yudou66.com 玉豆分享) 3
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 5
+      - 🇨🇦 加拿大【YouTube由零開始】 12
+      - 🇨🇦 加拿大【YouTube由零開始】 13
+      - 🇩🇪 德国阿伟科技@TG/油管
+      - 🇨🇦 加拿大【YouTube由零開始】 14
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 6
+      - 🇨🇦 _CA_加拿大 11
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君)
+      - 🇨🇦 加拿大【YouTube由零開始】 15
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 7
+      - 🇨🇦 加拿大【YouTube由零開始】 16
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 8
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 9
+      - 🇬🇧 英国【YouTube由零開始】 3
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 7
+      - 🇨🇳 中国(yudou66.com 玉豆分享)
+      - CA_(yudou66.com 玉豆分享)
+      - 🇨🇦 加拿大【YouTube由零開始】 17
+      - 🇺🇸 美国【YouTube由零開始】 3
+      - 🇬🇧 _GB_英国 2
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 8
+      - 🇫🇷 法国【YouTube由零開始】 2
+      - 🇺🇸 美国阿伟科技@TG/油管 3
+      - 🇺🇸 美国阿伟科技@TG/油管 4
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 10
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 11
+      - 🇺🇸 _US_美国
+      - 🇭🇰 香港阿伟科技@TG/油管 6
+      - 🇨🇦 _CA_加拿大 12
+      - 🇮🇳 印度【YouTube由零開始】
+      - 🇨🇦 _CA_加拿大 13
+      - 🇺🇸 US_(yudou66.com 玉豆分享)
+      - 🇨🇦 _CA_加拿大 14
+      - 🇨🇳 台湾阿伟科技@TG/油管
+      - 🇨🇦 _CA_加拿大(yudou66.com 玉豆分享) 2
+      - 🇨🇦 加拿大【YouTube由零開始】 18
+      - 🇫🇷 法国阿伟科技@TG/油管 2
+      - 🇭🇰 香港阿伟科技@TG/油管 7
+      - 🇨🇳 中国【YouTube由零開始】
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 12
+      - 🇫🇷 法国【YouTube由零開始】 3
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 13
+      - 🇯🇵 日本【YouTube由零開始】
+      - 🇫🇷 法国【YouTube由零開始】 4
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 14
+      - 🇺🇸 美国阿伟科技@TG/油管 5
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 9
+      - 🇬🇧 英国【YouTube由零開始】 4
+      - 🇨🇦 _CA_加拿大 15
+      - 🇬🇧 英国(yudou66.com 玉豆分享)
+      - 🇬🇧 英国(yudou66.com 玉豆分享) 2
+      - 🇺🇸 美国【YouTube由零開始】 4
+      - 🇸🇬 新加坡阿伟科技@TG/油管
+      - 🇨🇦 _CA_加拿大 16
+      - 🇨🇦 _CA_加拿大 17
+      - 【YouTube由零開始】
+      - 🇨🇦 _CA_加拿大 18
+      - 🇨🇦 加拿大【YouTube由零開始】 19
+      - 🇳🇱 _US_美国->🇳🇱_NL_荷兰
+      - CA_(yudou66.com 玉豆分享) 2
+      - 🇨🇦 加拿大【YouTube由零開始】 20
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 10
+      - 🇨🇦 加拿大【YouTube由零開始】 21
+      - 🇨🇦 _CA_加拿大(yudou66.com 玉豆分享) 3
+      - 🇨🇦 _CA_加拿大(yudou66.com 玉豆分享) 4
+      - 🇨🇦 加拿大【YouTube由零開始】 22
+      - 🇨🇦 _CA_加拿大 19
+      - 🇨🇦 加拿大【YouTube由零開始】 23
+      - 🇨🇦 加拿大【YouTube由零開始】 24
+      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)
+      - 🇨🇦 _CA_加拿大 20
+      - CA_(yudou66.com 玉豆分享) 3
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 11
+      - 🇨🇦 _CA_加拿大 21
+      - 🇨🇦 _CA_加拿大 22
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 12
+      - 🇫🇷 法国【YouTube由零開始】 5
+      - 🇨🇦 加拿大【YouTube由零開始】 25
+      - 🇨🇦 _CA_加拿大 23
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 15
+      - 🇨🇦 _CA_加拿大(yudou66.com 玉豆分享) 5
+      - 🇨🇦 加拿大【YouTube由零開始】 26
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - ZZ_3403 |33.11Mb
-      - ZZ_3635 |28.72Mb
-      - 🇭🇰 香港(欢迎订阅Youtube破解资源君)
-      - 🇭🇰 香港(欢迎订阅Youtube破解资源君) 2
+      - 🇺🇸 美国阿伟科技@TG/油管
+      - 🇨🇳 台湾(yudou66.com 玉豆分享)
+      - 🇫🇮 芬兰(yudou66.com 玉豆分享)
+      - 🇭🇰 香港(yudou66.com 玉豆分享)
       - 🇨🇦 加拿大【YouTube由零開始】
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 3
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 4
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 5
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 6
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 7
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 8
-      - ZZ_2923 |46.56Mb
-      - ZZ_2932 | 2.68Mb
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 9
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 10
-      - ZZ_3675 |39.62Mb
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 11
+      - 🇨🇦 _CA_加拿大(yudou66.com 玉豆分享)
+      - 🇬🇧 _GB_英国
+      - 🇫🇷 法国阿伟科技@TG/油管
+      - 🇭🇰 香港阿伟科技@TG/油管
+      - 🇨🇦 _CA_加拿大
       - 🇨🇦 加拿大【YouTube由零開始】 2
-      - ZZ_3677 |27.27Mb
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 12
-      - ZZ_2921 |39.49Mb
-      - 🇭🇰 香港【YouTube由零開始】
-      - 🇭🇰 香港【YouTube由零開始】 2
-      - ZZ_3631 |24.86Mb
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 13
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 14
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
-      - ZZ_3415 |36.93Mb
-      - 🇨🇳 台湾(欢迎订阅Youtube破解资源君)
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2
-      - ZZ_3418 | 2.97Mb
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 3
-      - FR_588 |30.50Mb
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 15
-      - CA_138 |19.52Mb
-      - 🇭🇰 香港(欢迎订阅Youtube破解资源君) 3
-      - YouTube*阿阳AYANG*科技大师
-      - 🇯🇵 日本(欢迎订阅Youtube破解资源君)
-      - ZZ_2935 | 1.61Mb
-      - 🇺🇸 美国【YouTube由零開始】
+      - 🇨🇦 _CA_加拿大 2
       - 🇨🇦 加拿大【YouTube由零開始】 3
-      - 🇭🇰 香港(欢迎订阅Youtube破解资源君) 4
-      - ZZ_3379 |29.94Mb
-      - 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)
       - 🇨🇦 加拿大【YouTube由零開始】 4
-      - 🇺🇸 美国【YouTube由零開始】 2
-      - ZZ_3407 |18.58Mb
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 16
-      - ZZ_3627 |32.62Mb
-      - 🇭🇰 香港|爆破
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 17
-      - ZZ_3626 |29.35Mb
-      - 🇨🇦 加拿大(欢迎订阅Youtube破解资源君) 2
+      - 🇨🇦 _CA_加拿大 3
+      - 🇨🇦 _CA_加拿大 4
+      - 🇺🇸 美国(yudou66.com 玉豆分享)
+      - 🇺🇸 美国【YouTube由零開始】
       - 🇨🇦 加拿大【YouTube由零開始】 5
-      - 🇺🇸 US_2557 | 8.97Mb
-      - ZZ_3052 |37.87Mb
-      - 🇺🇸 喵哥甲骨文美国🇺🇸(ss)
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 18
-      - ZZ_2942 | 1.16Mb
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 19
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 20
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 21
-      - ZZ_3639 |35.82Mb
-      - ZZ_2922 |25.84Mb
-      - ZZ_3647 |33.24Mb
-      - ZZ_3641 |42.65Mb
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 4
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 5
+      - 🇺🇸 美国【YouTube由零開始】 2
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 2
+      - 🇭🇰 香港阿伟科技@TG/油管 2
+      - 🇳🇱 荷兰阿伟科技@TG/油管
+      - 🇺🇸 美国阿伟科技@TG/油管 2
+      - 🇨🇦 _CA_加拿大 5
+      - 欧(yudou66.com 玉豆分享)
       - 🇨🇦 加拿大【YouTube由零開始】 6
-      - ZZ_3099 |36.47Mb
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 22
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 23
-      - 🇫🇷 法国【YouTube由零開始】
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 24
-      - ZZ_3680 |47.21Mb
-      - CA_136 |51.17Mb
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 25
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 26
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 27
-      - ZZ_3350 |38.16Mb
-      - ZZ_3637 |20.31Mb
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 28
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 29
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 30
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 31
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 32
-      - ZZ_3414 |18.44Mb
-      - 科技网络
-      - ZZ_3632 |30.27Mb
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 6
-      - ZZ_3408 | 4.15Mb
-      - 🇺🇸 美国【YouTube由零開始】 3
-      - YouTube*阿阳AYANG*科技大师 2
-      - ZZ_2941 | 0.87Mb
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 33
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 34
-      - ZZ_3446 |25.23Mb
-      - ZZ_3416 | 4.18Mb
-      - ZZ_2918 |24.39Mb
+      - 🇬🇧 英国【YouTube由零開始】
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享)
+      - 🇬🇧 英国【YouTube由零開始】 2
       - 🇨🇦 加拿大【YouTube由零開始】 7
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 35
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 7
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 8
+      - 🇨🇦 _CA_加拿大 6
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 2
+      - 🇨🇦 加拿大【YouTube由零開始】 8
+      - 🇨🇦 _CA_加拿大 7
+      - 🇨🇦 加拿大【YouTube由零開始】 9
+      - 🇨🇭 瑞士(yudou66.com 玉豆分享)
+      - 🇫🇷 法国【YouTube由零開始】
+      - 🇨🇦 加拿大【YouTube由零開始】 10
+      - 🇭🇰 香港阿伟科技@TG/油管 3
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 3
+      - 🇭🇰 香港阿伟科技@TG/油管 4
+      - 🇨🇳 台湾(yudou66.com 玉豆分享) 2
+      - 🇨🇦 _CA_加拿大 8
+      - 油管 TG 8度科技
+      - 🇭🇰 香港(yudou66.com 玉豆分享) 2
+      - 🇨🇦 加拿大【YouTube由零開始】 11
+      - 油管 TG 8度科技 2
+      - 🇺🇸 US_油管 TG 8度科技
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 4
+      - 🇭🇰 香港阿伟科技@TG/油管 5
+      - ZZ_3537+|13.93Mb
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 5
+      - 🇸🇬 新加坡(yudou66.com 玉豆分享)
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 3
+      - 🇨🇦 _CA_加拿大 9
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 6
+      - 🇷🇺 俄罗斯(yudou66.com 玉豆分享)
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 4
+      - 🇨🇦 _CA_加拿大 10
+      - 🇭🇰 香港(yudou66.com 玉豆分享) 3
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 5
+      - 🇨🇦 加拿大【YouTube由零開始】 12
+      - 🇨🇦 加拿大【YouTube由零開始】 13
+      - 🇩🇪 德国阿伟科技@TG/油管
+      - 🇨🇦 加拿大【YouTube由零開始】 14
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 6
+      - 🇨🇦 _CA_加拿大 11
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君)
+      - 🇨🇦 加拿大【YouTube由零開始】 15
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 7
+      - 🇨🇦 加拿大【YouTube由零開始】 16
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 8
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 9
+      - 🇬🇧 英国【YouTube由零開始】 3
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 7
+      - 🇨🇳 中国(yudou66.com 玉豆分享)
+      - CA_(yudou66.com 玉豆分享)
+      - 🇨🇦 加拿大【YouTube由零開始】 17
+      - 🇺🇸 美国【YouTube由零開始】 3
+      - 🇬🇧 _GB_英国 2
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 8
+      - 🇫🇷 法国【YouTube由零開始】 2
+      - 🇺🇸 美国阿伟科技@TG/油管 3
+      - 🇺🇸 美国阿伟科技@TG/油管 4
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 10
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 11
+      - 🇺🇸 _US_美国
+      - 🇭🇰 香港阿伟科技@TG/油管 6
+      - 🇨🇦 _CA_加拿大 12
+      - 🇮🇳 印度【YouTube由零開始】
+      - 🇨🇦 _CA_加拿大 13
+      - 🇺🇸 US_(yudou66.com 玉豆分享)
+      - 🇨🇦 _CA_加拿大 14
+      - 🇨🇳 台湾阿伟科技@TG/油管
+      - 🇨🇦 _CA_加拿大(yudou66.com 玉豆分享) 2
+      - 🇨🇦 加拿大【YouTube由零開始】 18
+      - 🇫🇷 法国阿伟科技@TG/油管 2
+      - 🇭🇰 香港阿伟科技@TG/油管 7
+      - 🇨🇳 中国【YouTube由零開始】
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 12
+      - 🇫🇷 法国【YouTube由零開始】 3
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 13
+      - 🇯🇵 日本【YouTube由零開始】
+      - 🇫🇷 法国【YouTube由零開始】 4
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 14
+      - 🇺🇸 美国阿伟科技@TG/油管 5
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 9
+      - 🇬🇧 英国【YouTube由零開始】 4
+      - 🇨🇦 _CA_加拿大 15
+      - 🇬🇧 英国(yudou66.com 玉豆分享)
+      - 🇬🇧 英国(yudou66.com 玉豆分享) 2
+      - 🇺🇸 美国【YouTube由零開始】 4
+      - 🇸🇬 新加坡阿伟科技@TG/油管
+      - 🇨🇦 _CA_加拿大 16
+      - 🇨🇦 _CA_加拿大 17
+      - 【YouTube由零開始】
+      - 🇨🇦 _CA_加拿大 18
+      - 🇨🇦 加拿大【YouTube由零開始】 19
+      - 🇳🇱 _US_美国->🇳🇱_NL_荷兰
+      - CA_(yudou66.com 玉豆分享) 2
+      - 🇨🇦 加拿大【YouTube由零開始】 20
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 10
+      - 🇨🇦 加拿大【YouTube由零開始】 21
+      - 🇨🇦 _CA_加拿大(yudou66.com 玉豆分享) 3
+      - 🇨🇦 _CA_加拿大(yudou66.com 玉豆分享) 4
+      - 🇨🇦 加拿大【YouTube由零開始】 22
+      - 🇨🇦 _CA_加拿大 19
+      - 🇨🇦 加拿大【YouTube由零開始】 23
+      - 🇨🇦 加拿大【YouTube由零開始】 24
+      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)
+      - 🇨🇦 _CA_加拿大 20
+      - CA_(yudou66.com 玉豆分享) 3
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 11
+      - 🇨🇦 _CA_加拿大 21
+      - 🇨🇦 _CA_加拿大 22
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 12
+      - 🇫🇷 法国【YouTube由零開始】 5
+      - 🇨🇦 加拿大【YouTube由零開始】 25
+      - 🇨🇦 _CA_加拿大 23
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 15
+      - 🇨🇦 _CA_加拿大(yudou66.com 玉豆分享) 5
+      - 🇨🇦 加拿大【YouTube由零開始】 26
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - ZZ_3403 |33.11Mb
-      - ZZ_3635 |28.72Mb
-      - 🇭🇰 香港(欢迎订阅Youtube破解资源君)
-      - 🇭🇰 香港(欢迎订阅Youtube破解资源君) 2
+      - 🇺🇸 美国阿伟科技@TG/油管
+      - 🇨🇳 台湾(yudou66.com 玉豆分享)
+      - 🇫🇮 芬兰(yudou66.com 玉豆分享)
+      - 🇭🇰 香港(yudou66.com 玉豆分享)
       - 🇨🇦 加拿大【YouTube由零開始】
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 3
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 4
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 5
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 6
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 7
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 8
-      - ZZ_2923 |46.56Mb
-      - ZZ_2932 | 2.68Mb
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 9
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 10
-      - ZZ_3675 |39.62Mb
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 11
+      - 🇨🇦 _CA_加拿大(yudou66.com 玉豆分享)
+      - 🇬🇧 _GB_英国
+      - 🇫🇷 法国阿伟科技@TG/油管
+      - 🇭🇰 香港阿伟科技@TG/油管
+      - 🇨🇦 _CA_加拿大
       - 🇨🇦 加拿大【YouTube由零開始】 2
-      - ZZ_3677 |27.27Mb
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 12
-      - ZZ_2921 |39.49Mb
-      - 🇭🇰 香港【YouTube由零開始】
-      - 🇭🇰 香港【YouTube由零開始】 2
-      - ZZ_3631 |24.86Mb
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 13
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 14
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
-      - ZZ_3415 |36.93Mb
-      - 🇨🇳 台湾(欢迎订阅Youtube破解资源君)
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2
-      - ZZ_3418 | 2.97Mb
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 3
-      - FR_588 |30.50Mb
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 15
-      - CA_138 |19.52Mb
-      - 🇭🇰 香港(欢迎订阅Youtube破解资源君) 3
-      - YouTube*阿阳AYANG*科技大师
-      - 🇯🇵 日本(欢迎订阅Youtube破解资源君)
-      - ZZ_2935 | 1.61Mb
-      - 🇺🇸 美国【YouTube由零開始】
+      - 🇨🇦 _CA_加拿大 2
       - 🇨🇦 加拿大【YouTube由零開始】 3
-      - 🇭🇰 香港(欢迎订阅Youtube破解资源君) 4
-      - ZZ_3379 |29.94Mb
-      - 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)
       - 🇨🇦 加拿大【YouTube由零開始】 4
-      - 🇺🇸 美国【YouTube由零開始】 2
-      - ZZ_3407 |18.58Mb
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 16
-      - ZZ_3627 |32.62Mb
-      - 🇭🇰 香港|爆破
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 17
-      - ZZ_3626 |29.35Mb
-      - 🇨🇦 加拿大(欢迎订阅Youtube破解资源君) 2
+      - 🇨🇦 _CA_加拿大 3
+      - 🇨🇦 _CA_加拿大 4
+      - 🇺🇸 美国(yudou66.com 玉豆分享)
+      - 🇺🇸 美国【YouTube由零開始】
       - 🇨🇦 加拿大【YouTube由零開始】 5
-      - 🇺🇸 US_2557 | 8.97Mb
-      - ZZ_3052 |37.87Mb
-      - 🇺🇸 喵哥甲骨文美国🇺🇸(ss)
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 18
-      - ZZ_2942 | 1.16Mb
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 19
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 20
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 21
-      - ZZ_3639 |35.82Mb
-      - ZZ_2922 |25.84Mb
-      - ZZ_3647 |33.24Mb
-      - ZZ_3641 |42.65Mb
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 4
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 5
+      - 🇺🇸 美国【YouTube由零開始】 2
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 2
+      - 🇭🇰 香港阿伟科技@TG/油管 2
+      - 🇳🇱 荷兰阿伟科技@TG/油管
+      - 🇺🇸 美国阿伟科技@TG/油管 2
+      - 🇨🇦 _CA_加拿大 5
+      - 欧(yudou66.com 玉豆分享)
       - 🇨🇦 加拿大【YouTube由零開始】 6
-      - ZZ_3099 |36.47Mb
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 22
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 23
-      - 🇫🇷 法国【YouTube由零開始】
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 24
-      - ZZ_3680 |47.21Mb
-      - CA_136 |51.17Mb
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 25
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 26
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 27
-      - ZZ_3350 |38.16Mb
-      - ZZ_3637 |20.31Mb
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 28
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 29
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 30
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 31
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 32
-      - ZZ_3414 |18.44Mb
-      - 科技网络
-      - ZZ_3632 |30.27Mb
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 6
-      - ZZ_3408 | 4.15Mb
-      - 🇺🇸 美国【YouTube由零開始】 3
-      - YouTube*阿阳AYANG*科技大师 2
-      - ZZ_2941 | 0.87Mb
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 33
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 34
-      - ZZ_3446 |25.23Mb
-      - ZZ_3416 | 4.18Mb
-      - ZZ_2918 |24.39Mb
+      - 🇬🇧 英国【YouTube由零開始】
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享)
+      - 🇬🇧 英国【YouTube由零開始】 2
       - 🇨🇦 加拿大【YouTube由零開始】 7
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 35
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 7
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 8
+      - 🇨🇦 _CA_加拿大 6
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 2
+      - 🇨🇦 加拿大【YouTube由零開始】 8
+      - 🇨🇦 _CA_加拿大 7
+      - 🇨🇦 加拿大【YouTube由零開始】 9
+      - 🇨🇭 瑞士(yudou66.com 玉豆分享)
+      - 🇫🇷 法国【YouTube由零開始】
+      - 🇨🇦 加拿大【YouTube由零開始】 10
+      - 🇭🇰 香港阿伟科技@TG/油管 3
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 3
+      - 🇭🇰 香港阿伟科技@TG/油管 4
+      - 🇨🇳 台湾(yudou66.com 玉豆分享) 2
+      - 🇨🇦 _CA_加拿大 8
+      - 油管 TG 8度科技
+      - 🇭🇰 香港(yudou66.com 玉豆分享) 2
+      - 🇨🇦 加拿大【YouTube由零開始】 11
+      - 油管 TG 8度科技 2
+      - 🇺🇸 US_油管 TG 8度科技
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 4
+      - 🇭🇰 香港阿伟科技@TG/油管 5
+      - ZZ_3537+|13.93Mb
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 5
+      - 🇸🇬 新加坡(yudou66.com 玉豆分享)
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 3
+      - 🇨🇦 _CA_加拿大 9
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 6
+      - 🇷🇺 俄罗斯(yudou66.com 玉豆分享)
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 4
+      - 🇨🇦 _CA_加拿大 10
+      - 🇭🇰 香港(yudou66.com 玉豆分享) 3
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 5
+      - 🇨🇦 加拿大【YouTube由零開始】 12
+      - 🇨🇦 加拿大【YouTube由零開始】 13
+      - 🇩🇪 德国阿伟科技@TG/油管
+      - 🇨🇦 加拿大【YouTube由零開始】 14
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 6
+      - 🇨🇦 _CA_加拿大 11
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君)
+      - 🇨🇦 加拿大【YouTube由零開始】 15
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 7
+      - 🇨🇦 加拿大【YouTube由零開始】 16
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 8
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 9
+      - 🇬🇧 英国【YouTube由零開始】 3
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 7
+      - 🇨🇳 中国(yudou66.com 玉豆分享)
+      - CA_(yudou66.com 玉豆分享)
+      - 🇨🇦 加拿大【YouTube由零開始】 17
+      - 🇺🇸 美国【YouTube由零開始】 3
+      - 🇬🇧 _GB_英国 2
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 8
+      - 🇫🇷 法国【YouTube由零開始】 2
+      - 🇺🇸 美国阿伟科技@TG/油管 3
+      - 🇺🇸 美国阿伟科技@TG/油管 4
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 10
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 11
+      - 🇺🇸 _US_美国
+      - 🇭🇰 香港阿伟科技@TG/油管 6
+      - 🇨🇦 _CA_加拿大 12
+      - 🇮🇳 印度【YouTube由零開始】
+      - 🇨🇦 _CA_加拿大 13
+      - 🇺🇸 US_(yudou66.com 玉豆分享)
+      - 🇨🇦 _CA_加拿大 14
+      - 🇨🇳 台湾阿伟科技@TG/油管
+      - 🇨🇦 _CA_加拿大(yudou66.com 玉豆分享) 2
+      - 🇨🇦 加拿大【YouTube由零開始】 18
+      - 🇫🇷 法国阿伟科技@TG/油管 2
+      - 🇭🇰 香港阿伟科技@TG/油管 7
+      - 🇨🇳 中国【YouTube由零開始】
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 12
+      - 🇫🇷 法国【YouTube由零開始】 3
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 13
+      - 🇯🇵 日本【YouTube由零開始】
+      - 🇫🇷 法国【YouTube由零開始】 4
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 14
+      - 🇺🇸 美国阿伟科技@TG/油管 5
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 9
+      - 🇬🇧 英国【YouTube由零開始】 4
+      - 🇨🇦 _CA_加拿大 15
+      - 🇬🇧 英国(yudou66.com 玉豆分享)
+      - 🇬🇧 英国(yudou66.com 玉豆分享) 2
+      - 🇺🇸 美国【YouTube由零開始】 4
+      - 🇸🇬 新加坡阿伟科技@TG/油管
+      - 🇨🇦 _CA_加拿大 16
+      - 🇨🇦 _CA_加拿大 17
+      - 【YouTube由零開始】
+      - 🇨🇦 _CA_加拿大 18
+      - 🇨🇦 加拿大【YouTube由零開始】 19
+      - 🇳🇱 _US_美国->🇳🇱_NL_荷兰
+      - CA_(yudou66.com 玉豆分享) 2
+      - 🇨🇦 加拿大【YouTube由零開始】 20
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 10
+      - 🇨🇦 加拿大【YouTube由零開始】 21
+      - 🇨🇦 _CA_加拿大(yudou66.com 玉豆分享) 3
+      - 🇨🇦 _CA_加拿大(yudou66.com 玉豆分享) 4
+      - 🇨🇦 加拿大【YouTube由零開始】 22
+      - 🇨🇦 _CA_加拿大 19
+      - 🇨🇦 加拿大【YouTube由零開始】 23
+      - 🇨🇦 加拿大【YouTube由零開始】 24
+      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)
+      - 🇨🇦 _CA_加拿大 20
+      - CA_(yudou66.com 玉豆分享) 3
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 11
+      - 🇨🇦 _CA_加拿大 21
+      - 🇨🇦 _CA_加拿大 22
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 12
+      - 🇫🇷 法国【YouTube由零開始】 5
+      - 🇨🇦 加拿大【YouTube由零開始】 25
+      - 🇨🇦 _CA_加拿大 23
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 15
+      - 🇨🇦 _CA_加拿大(yudou66.com 玉豆分享) 5
+      - 🇨🇦 加拿大【YouTube由零開始】 26
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - ZZ_3403 |33.11Mb
-      - ZZ_3635 |28.72Mb
-      - 🇭🇰 香港(欢迎订阅Youtube破解资源君)
-      - 🇭🇰 香港(欢迎订阅Youtube破解资源君) 2
+      - 🇺🇸 美国阿伟科技@TG/油管
+      - 🇨🇳 台湾(yudou66.com 玉豆分享)
+      - 🇫🇮 芬兰(yudou66.com 玉豆分享)
+      - 🇭🇰 香港(yudou66.com 玉豆分享)
       - 🇨🇦 加拿大【YouTube由零開始】
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 3
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 4
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 5
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 6
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 7
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 8
-      - ZZ_2923 |46.56Mb
-      - ZZ_2932 | 2.68Mb
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 9
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 10
-      - ZZ_3675 |39.62Mb
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 11
+      - 🇨🇦 _CA_加拿大(yudou66.com 玉豆分享)
+      - 🇬🇧 _GB_英国
+      - 🇫🇷 法国阿伟科技@TG/油管
+      - 🇭🇰 香港阿伟科技@TG/油管
+      - 🇨🇦 _CA_加拿大
       - 🇨🇦 加拿大【YouTube由零開始】 2
-      - ZZ_3677 |27.27Mb
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 12
-      - ZZ_2921 |39.49Mb
-      - 🇭🇰 香港【YouTube由零開始】
-      - 🇭🇰 香港【YouTube由零開始】 2
-      - ZZ_3631 |24.86Mb
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 13
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 14
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
-      - ZZ_3415 |36.93Mb
-      - 🇨🇳 台湾(欢迎订阅Youtube破解资源君)
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2
-      - ZZ_3418 | 2.97Mb
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 3
-      - FR_588 |30.50Mb
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 15
-      - CA_138 |19.52Mb
-      - 🇭🇰 香港(欢迎订阅Youtube破解资源君) 3
-      - YouTube*阿阳AYANG*科技大师
-      - 🇯🇵 日本(欢迎订阅Youtube破解资源君)
-      - ZZ_2935 | 1.61Mb
-      - 🇺🇸 美国【YouTube由零開始】
+      - 🇨🇦 _CA_加拿大 2
       - 🇨🇦 加拿大【YouTube由零開始】 3
-      - 🇭🇰 香港(欢迎订阅Youtube破解资源君) 4
-      - ZZ_3379 |29.94Mb
-      - 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)
       - 🇨🇦 加拿大【YouTube由零開始】 4
-      - 🇺🇸 美国【YouTube由零開始】 2
-      - ZZ_3407 |18.58Mb
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 16
-      - ZZ_3627 |32.62Mb
-      - 🇭🇰 香港|爆破
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 17
-      - ZZ_3626 |29.35Mb
-      - 🇨🇦 加拿大(欢迎订阅Youtube破解资源君) 2
+      - 🇨🇦 _CA_加拿大 3
+      - 🇨🇦 _CA_加拿大 4
+      - 🇺🇸 美国(yudou66.com 玉豆分享)
+      - 🇺🇸 美国【YouTube由零開始】
       - 🇨🇦 加拿大【YouTube由零開始】 5
-      - 🇺🇸 US_2557 | 8.97Mb
-      - ZZ_3052 |37.87Mb
-      - 🇺🇸 喵哥甲骨文美国🇺🇸(ss)
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 18
-      - ZZ_2942 | 1.16Mb
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 19
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 20
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 21
-      - ZZ_3639 |35.82Mb
-      - ZZ_2922 |25.84Mb
-      - ZZ_3647 |33.24Mb
-      - ZZ_3641 |42.65Mb
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 4
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 5
+      - 🇺🇸 美国【YouTube由零開始】 2
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 2
+      - 🇭🇰 香港阿伟科技@TG/油管 2
+      - 🇳🇱 荷兰阿伟科技@TG/油管
+      - 🇺🇸 美国阿伟科技@TG/油管 2
+      - 🇨🇦 _CA_加拿大 5
+      - 欧(yudou66.com 玉豆分享)
       - 🇨🇦 加拿大【YouTube由零開始】 6
-      - ZZ_3099 |36.47Mb
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 22
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 23
-      - 🇫🇷 法国【YouTube由零開始】
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 24
-      - ZZ_3680 |47.21Mb
-      - CA_136 |51.17Mb
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 25
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 26
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 27
-      - ZZ_3350 |38.16Mb
-      - ZZ_3637 |20.31Mb
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 28
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 29
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 30
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 31
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 32
-      - ZZ_3414 |18.44Mb
-      - 科技网络
-      - ZZ_3632 |30.27Mb
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 6
-      - ZZ_3408 | 4.15Mb
-      - 🇺🇸 美国【YouTube由零開始】 3
-      - YouTube*阿阳AYANG*科技大师 2
-      - ZZ_2941 | 0.87Mb
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 33
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 34
-      - ZZ_3446 |25.23Mb
-      - ZZ_3416 | 4.18Mb
-      - ZZ_2918 |24.39Mb
+      - 🇬🇧 英国【YouTube由零開始】
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享)
+      - 🇬🇧 英国【YouTube由零開始】 2
       - 🇨🇦 加拿大【YouTube由零開始】 7
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 35
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 7
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 8
+      - 🇨🇦 _CA_加拿大 6
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 2
+      - 🇨🇦 加拿大【YouTube由零開始】 8
+      - 🇨🇦 _CA_加拿大 7
+      - 🇨🇦 加拿大【YouTube由零開始】 9
+      - 🇨🇭 瑞士(yudou66.com 玉豆分享)
+      - 🇫🇷 法国【YouTube由零開始】
+      - 🇨🇦 加拿大【YouTube由零開始】 10
+      - 🇭🇰 香港阿伟科技@TG/油管 3
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 3
+      - 🇭🇰 香港阿伟科技@TG/油管 4
+      - 🇨🇳 台湾(yudou66.com 玉豆分享) 2
+      - 🇨🇦 _CA_加拿大 8
+      - 油管 TG 8度科技
+      - 🇭🇰 香港(yudou66.com 玉豆分享) 2
+      - 🇨🇦 加拿大【YouTube由零開始】 11
+      - 油管 TG 8度科技 2
+      - 🇺🇸 US_油管 TG 8度科技
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 4
+      - 🇭🇰 香港阿伟科技@TG/油管 5
+      - ZZ_3537+|13.93Mb
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 5
+      - 🇸🇬 新加坡(yudou66.com 玉豆分享)
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 3
+      - 🇨🇦 _CA_加拿大 9
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 6
+      - 🇷🇺 俄罗斯(yudou66.com 玉豆分享)
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 4
+      - 🇨🇦 _CA_加拿大 10
+      - 🇭🇰 香港(yudou66.com 玉豆分享) 3
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 5
+      - 🇨🇦 加拿大【YouTube由零開始】 12
+      - 🇨🇦 加拿大【YouTube由零開始】 13
+      - 🇩🇪 德国阿伟科技@TG/油管
+      - 🇨🇦 加拿大【YouTube由零開始】 14
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 6
+      - 🇨🇦 _CA_加拿大 11
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君)
+      - 🇨🇦 加拿大【YouTube由零開始】 15
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 7
+      - 🇨🇦 加拿大【YouTube由零開始】 16
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 8
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 9
+      - 🇬🇧 英国【YouTube由零開始】 3
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 7
+      - 🇨🇳 中国(yudou66.com 玉豆分享)
+      - CA_(yudou66.com 玉豆分享)
+      - 🇨🇦 加拿大【YouTube由零開始】 17
+      - 🇺🇸 美国【YouTube由零開始】 3
+      - 🇬🇧 _GB_英国 2
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 8
+      - 🇫🇷 法国【YouTube由零開始】 2
+      - 🇺🇸 美国阿伟科技@TG/油管 3
+      - 🇺🇸 美国阿伟科技@TG/油管 4
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 10
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 11
+      - 🇺🇸 _US_美国
+      - 🇭🇰 香港阿伟科技@TG/油管 6
+      - 🇨🇦 _CA_加拿大 12
+      - 🇮🇳 印度【YouTube由零開始】
+      - 🇨🇦 _CA_加拿大 13
+      - 🇺🇸 US_(yudou66.com 玉豆分享)
+      - 🇨🇦 _CA_加拿大 14
+      - 🇨🇳 台湾阿伟科技@TG/油管
+      - 🇨🇦 _CA_加拿大(yudou66.com 玉豆分享) 2
+      - 🇨🇦 加拿大【YouTube由零開始】 18
+      - 🇫🇷 法国阿伟科技@TG/油管 2
+      - 🇭🇰 香港阿伟科技@TG/油管 7
+      - 🇨🇳 中国【YouTube由零開始】
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 12
+      - 🇫🇷 法国【YouTube由零開始】 3
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 13
+      - 🇯🇵 日本【YouTube由零開始】
+      - 🇫🇷 法国【YouTube由零開始】 4
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 14
+      - 🇺🇸 美国阿伟科技@TG/油管 5
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 9
+      - 🇬🇧 英国【YouTube由零開始】 4
+      - 🇨🇦 _CA_加拿大 15
+      - 🇬🇧 英国(yudou66.com 玉豆分享)
+      - 🇬🇧 英国(yudou66.com 玉豆分享) 2
+      - 🇺🇸 美国【YouTube由零開始】 4
+      - 🇸🇬 新加坡阿伟科技@TG/油管
+      - 🇨🇦 _CA_加拿大 16
+      - 🇨🇦 _CA_加拿大 17
+      - 【YouTube由零開始】
+      - 🇨🇦 _CA_加拿大 18
+      - 🇨🇦 加拿大【YouTube由零開始】 19
+      - 🇳🇱 _US_美国->🇳🇱_NL_荷兰
+      - CA_(yudou66.com 玉豆分享) 2
+      - 🇨🇦 加拿大【YouTube由零開始】 20
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 10
+      - 🇨🇦 加拿大【YouTube由零開始】 21
+      - 🇨🇦 _CA_加拿大(yudou66.com 玉豆分享) 3
+      - 🇨🇦 _CA_加拿大(yudou66.com 玉豆分享) 4
+      - 🇨🇦 加拿大【YouTube由零開始】 22
+      - 🇨🇦 _CA_加拿大 19
+      - 🇨🇦 加拿大【YouTube由零開始】 23
+      - 🇨🇦 加拿大【YouTube由零開始】 24
+      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)
+      - 🇨🇦 _CA_加拿大 20
+      - CA_(yudou66.com 玉豆分享) 3
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 11
+      - 🇨🇦 _CA_加拿大 21
+      - 🇨🇦 _CA_加拿大 22
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 12
+      - 🇫🇷 法国【YouTube由零開始】 5
+      - 🇨🇦 加拿大【YouTube由零開始】 25
+      - 🇨🇦 _CA_加拿大 23
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 15
+      - 🇨🇦 _CA_加拿大(yudou66.com 玉豆分享) 5
+      - 🇨🇦 加拿大【YouTube由零開始】 26
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - ZZ_3403 |33.11Mb
-      - ZZ_3635 |28.72Mb
-      - 🇭🇰 香港(欢迎订阅Youtube破解资源君)
-      - 🇭🇰 香港(欢迎订阅Youtube破解资源君) 2
+      - 🇺🇸 美国阿伟科技@TG/油管
+      - 🇨🇳 台湾(yudou66.com 玉豆分享)
+      - 🇫🇮 芬兰(yudou66.com 玉豆分享)
+      - 🇭🇰 香港(yudou66.com 玉豆分享)
       - 🇨🇦 加拿大【YouTube由零開始】
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 3
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 4
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 5
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 6
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 7
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 8
-      - ZZ_2923 |46.56Mb
-      - ZZ_2932 | 2.68Mb
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 9
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 10
-      - ZZ_3675 |39.62Mb
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 11
+      - 🇨🇦 _CA_加拿大(yudou66.com 玉豆分享)
+      - 🇬🇧 _GB_英国
+      - 🇫🇷 法国阿伟科技@TG/油管
+      - 🇭🇰 香港阿伟科技@TG/油管
+      - 🇨🇦 _CA_加拿大
       - 🇨🇦 加拿大【YouTube由零開始】 2
-      - ZZ_3677 |27.27Mb
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 12
-      - ZZ_2921 |39.49Mb
-      - 🇭🇰 香港【YouTube由零開始】
-      - 🇭🇰 香港【YouTube由零開始】 2
-      - ZZ_3631 |24.86Mb
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 13
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 14
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
-      - ZZ_3415 |36.93Mb
-      - 🇨🇳 台湾(欢迎订阅Youtube破解资源君)
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2
-      - ZZ_3418 | 2.97Mb
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 3
-      - FR_588 |30.50Mb
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 15
-      - CA_138 |19.52Mb
-      - 🇭🇰 香港(欢迎订阅Youtube破解资源君) 3
-      - YouTube*阿阳AYANG*科技大师
-      - 🇯🇵 日本(欢迎订阅Youtube破解资源君)
-      - ZZ_2935 | 1.61Mb
-      - 🇺🇸 美国【YouTube由零開始】
+      - 🇨🇦 _CA_加拿大 2
       - 🇨🇦 加拿大【YouTube由零開始】 3
-      - 🇭🇰 香港(欢迎订阅Youtube破解资源君) 4
-      - ZZ_3379 |29.94Mb
-      - 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)
       - 🇨🇦 加拿大【YouTube由零開始】 4
-      - 🇺🇸 美国【YouTube由零開始】 2
-      - ZZ_3407 |18.58Mb
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 16
-      - ZZ_3627 |32.62Mb
-      - 🇭🇰 香港|爆破
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 17
-      - ZZ_3626 |29.35Mb
-      - 🇨🇦 加拿大(欢迎订阅Youtube破解资源君) 2
+      - 🇨🇦 _CA_加拿大 3
+      - 🇨🇦 _CA_加拿大 4
+      - 🇺🇸 美国(yudou66.com 玉豆分享)
+      - 🇺🇸 美国【YouTube由零開始】
       - 🇨🇦 加拿大【YouTube由零開始】 5
-      - 🇺🇸 US_2557 | 8.97Mb
-      - ZZ_3052 |37.87Mb
-      - 🇺🇸 喵哥甲骨文美国🇺🇸(ss)
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 18
-      - ZZ_2942 | 1.16Mb
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 19
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 20
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 21
-      - ZZ_3639 |35.82Mb
-      - ZZ_2922 |25.84Mb
-      - ZZ_3647 |33.24Mb
-      - ZZ_3641 |42.65Mb
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 4
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 5
+      - 🇺🇸 美国【YouTube由零開始】 2
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 2
+      - 🇭🇰 香港阿伟科技@TG/油管 2
+      - 🇳🇱 荷兰阿伟科技@TG/油管
+      - 🇺🇸 美国阿伟科技@TG/油管 2
+      - 🇨🇦 _CA_加拿大 5
+      - 欧(yudou66.com 玉豆分享)
       - 🇨🇦 加拿大【YouTube由零開始】 6
-      - ZZ_3099 |36.47Mb
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 22
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 23
-      - 🇫🇷 法国【YouTube由零開始】
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 24
-      - ZZ_3680 |47.21Mb
-      - CA_136 |51.17Mb
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 25
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 26
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 27
-      - ZZ_3350 |38.16Mb
-      - ZZ_3637 |20.31Mb
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 28
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 29
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 30
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 31
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 32
-      - ZZ_3414 |18.44Mb
-      - 科技网络
-      - ZZ_3632 |30.27Mb
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 6
-      - ZZ_3408 | 4.15Mb
-      - 🇺🇸 美国【YouTube由零開始】 3
-      - YouTube*阿阳AYANG*科技大师 2
-      - ZZ_2941 | 0.87Mb
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 33
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 34
-      - ZZ_3446 |25.23Mb
-      - ZZ_3416 | 4.18Mb
-      - ZZ_2918 |24.39Mb
+      - 🇬🇧 英国【YouTube由零開始】
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享)
+      - 🇬🇧 英国【YouTube由零開始】 2
       - 🇨🇦 加拿大【YouTube由零開始】 7
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 35
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 7
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 8
+      - 🇨🇦 _CA_加拿大 6
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 2
+      - 🇨🇦 加拿大【YouTube由零開始】 8
+      - 🇨🇦 _CA_加拿大 7
+      - 🇨🇦 加拿大【YouTube由零開始】 9
+      - 🇨🇭 瑞士(yudou66.com 玉豆分享)
+      - 🇫🇷 法国【YouTube由零開始】
+      - 🇨🇦 加拿大【YouTube由零開始】 10
+      - 🇭🇰 香港阿伟科技@TG/油管 3
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 3
+      - 🇭🇰 香港阿伟科技@TG/油管 4
+      - 🇨🇳 台湾(yudou66.com 玉豆分享) 2
+      - 🇨🇦 _CA_加拿大 8
+      - 油管 TG 8度科技
+      - 🇭🇰 香港(yudou66.com 玉豆分享) 2
+      - 🇨🇦 加拿大【YouTube由零開始】 11
+      - 油管 TG 8度科技 2
+      - 🇺🇸 US_油管 TG 8度科技
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 4
+      - 🇭🇰 香港阿伟科技@TG/油管 5
+      - ZZ_3537+|13.93Mb
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 5
+      - 🇸🇬 新加坡(yudou66.com 玉豆分享)
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 3
+      - 🇨🇦 _CA_加拿大 9
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 6
+      - 🇷🇺 俄罗斯(yudou66.com 玉豆分享)
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 4
+      - 🇨🇦 _CA_加拿大 10
+      - 🇭🇰 香港(yudou66.com 玉豆分享) 3
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 5
+      - 🇨🇦 加拿大【YouTube由零開始】 12
+      - 🇨🇦 加拿大【YouTube由零開始】 13
+      - 🇩🇪 德国阿伟科技@TG/油管
+      - 🇨🇦 加拿大【YouTube由零開始】 14
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 6
+      - 🇨🇦 _CA_加拿大 11
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君)
+      - 🇨🇦 加拿大【YouTube由零開始】 15
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 7
+      - 🇨🇦 加拿大【YouTube由零開始】 16
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 8
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 9
+      - 🇬🇧 英国【YouTube由零開始】 3
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 7
+      - 🇨🇳 中国(yudou66.com 玉豆分享)
+      - CA_(yudou66.com 玉豆分享)
+      - 🇨🇦 加拿大【YouTube由零開始】 17
+      - 🇺🇸 美国【YouTube由零開始】 3
+      - 🇬🇧 _GB_英国 2
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 8
+      - 🇫🇷 法国【YouTube由零開始】 2
+      - 🇺🇸 美国阿伟科技@TG/油管 3
+      - 🇺🇸 美国阿伟科技@TG/油管 4
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 10
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 11
+      - 🇺🇸 _US_美国
+      - 🇭🇰 香港阿伟科技@TG/油管 6
+      - 🇨🇦 _CA_加拿大 12
+      - 🇮🇳 印度【YouTube由零開始】
+      - 🇨🇦 _CA_加拿大 13
+      - 🇺🇸 US_(yudou66.com 玉豆分享)
+      - 🇨🇦 _CA_加拿大 14
+      - 🇨🇳 台湾阿伟科技@TG/油管
+      - 🇨🇦 _CA_加拿大(yudou66.com 玉豆分享) 2
+      - 🇨🇦 加拿大【YouTube由零開始】 18
+      - 🇫🇷 法国阿伟科技@TG/油管 2
+      - 🇭🇰 香港阿伟科技@TG/油管 7
+      - 🇨🇳 中国【YouTube由零開始】
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 12
+      - 🇫🇷 法国【YouTube由零開始】 3
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 13
+      - 🇯🇵 日本【YouTube由零開始】
+      - 🇫🇷 法国【YouTube由零開始】 4
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 14
+      - 🇺🇸 美国阿伟科技@TG/油管 5
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 9
+      - 🇬🇧 英国【YouTube由零開始】 4
+      - 🇨🇦 _CA_加拿大 15
+      - 🇬🇧 英国(yudou66.com 玉豆分享)
+      - 🇬🇧 英国(yudou66.com 玉豆分享) 2
+      - 🇺🇸 美国【YouTube由零開始】 4
+      - 🇸🇬 新加坡阿伟科技@TG/油管
+      - 🇨🇦 _CA_加拿大 16
+      - 🇨🇦 _CA_加拿大 17
+      - 【YouTube由零開始】
+      - 🇨🇦 _CA_加拿大 18
+      - 🇨🇦 加拿大【YouTube由零開始】 19
+      - 🇳🇱 _US_美国->🇳🇱_NL_荷兰
+      - CA_(yudou66.com 玉豆分享) 2
+      - 🇨🇦 加拿大【YouTube由零開始】 20
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 10
+      - 🇨🇦 加拿大【YouTube由零開始】 21
+      - 🇨🇦 _CA_加拿大(yudou66.com 玉豆分享) 3
+      - 🇨🇦 _CA_加拿大(yudou66.com 玉豆分享) 4
+      - 🇨🇦 加拿大【YouTube由零開始】 22
+      - 🇨🇦 _CA_加拿大 19
+      - 🇨🇦 加拿大【YouTube由零開始】 23
+      - 🇨🇦 加拿大【YouTube由零開始】 24
+      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)
+      - 🇨🇦 _CA_加拿大 20
+      - CA_(yudou66.com 玉豆分享) 3
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 11
+      - 🇨🇦 _CA_加拿大 21
+      - 🇨🇦 _CA_加拿大 22
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 12
+      - 🇫🇷 法国【YouTube由零開始】 5
+      - 🇨🇦 加拿大【YouTube由零開始】 25
+      - 🇨🇦 _CA_加拿大 23
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 15
+      - 🇨🇦 _CA_加拿大(yudou66.com 玉豆分享) 5
+      - 🇨🇦 加拿大【YouTube由零開始】 26
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -795,111 +1061,149 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - ZZ_3403 |33.11Mb
-      - ZZ_3635 |28.72Mb
-      - 🇭🇰 香港(欢迎订阅Youtube破解资源君)
-      - 🇭🇰 香港(欢迎订阅Youtube破解资源君) 2
+      - 🇺🇸 美国阿伟科技@TG/油管
+      - 🇨🇳 台湾(yudou66.com 玉豆分享)
+      - 🇫🇮 芬兰(yudou66.com 玉豆分享)
+      - 🇭🇰 香港(yudou66.com 玉豆分享)
       - 🇨🇦 加拿大【YouTube由零開始】
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 3
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 4
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 5
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 6
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 7
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 8
-      - ZZ_2923 |46.56Mb
-      - ZZ_2932 | 2.68Mb
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 9
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 10
-      - ZZ_3675 |39.62Mb
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 11
+      - 🇨🇦 _CA_加拿大(yudou66.com 玉豆分享)
+      - 🇬🇧 _GB_英国
+      - 🇫🇷 法国阿伟科技@TG/油管
+      - 🇭🇰 香港阿伟科技@TG/油管
+      - 🇨🇦 _CA_加拿大
       - 🇨🇦 加拿大【YouTube由零開始】 2
-      - ZZ_3677 |27.27Mb
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 12
-      - ZZ_2921 |39.49Mb
-      - 🇭🇰 香港【YouTube由零開始】
-      - 🇭🇰 香港【YouTube由零開始】 2
-      - ZZ_3631 |24.86Mb
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 13
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 14
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
-      - ZZ_3415 |36.93Mb
-      - 🇨🇳 台湾(欢迎订阅Youtube破解资源君)
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2
-      - ZZ_3418 | 2.97Mb
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 3
-      - FR_588 |30.50Mb
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 15
-      - CA_138 |19.52Mb
-      - 🇭🇰 香港(欢迎订阅Youtube破解资源君) 3
-      - YouTube*阿阳AYANG*科技大师
-      - 🇯🇵 日本(欢迎订阅Youtube破解资源君)
-      - ZZ_2935 | 1.61Mb
-      - 🇺🇸 美国【YouTube由零開始】
+      - 🇨🇦 _CA_加拿大 2
       - 🇨🇦 加拿大【YouTube由零開始】 3
-      - 🇭🇰 香港(欢迎订阅Youtube破解资源君) 4
-      - ZZ_3379 |29.94Mb
-      - 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)
       - 🇨🇦 加拿大【YouTube由零開始】 4
-      - 🇺🇸 美国【YouTube由零開始】 2
-      - ZZ_3407 |18.58Mb
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 16
-      - ZZ_3627 |32.62Mb
-      - 🇭🇰 香港|爆破
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 17
-      - ZZ_3626 |29.35Mb
-      - 🇨🇦 加拿大(欢迎订阅Youtube破解资源君) 2
+      - 🇨🇦 _CA_加拿大 3
+      - 🇨🇦 _CA_加拿大 4
+      - 🇺🇸 美国(yudou66.com 玉豆分享)
+      - 🇺🇸 美国【YouTube由零開始】
       - 🇨🇦 加拿大【YouTube由零開始】 5
-      - 🇺🇸 US_2557 | 8.97Mb
-      - ZZ_3052 |37.87Mb
-      - 🇺🇸 喵哥甲骨文美国🇺🇸(ss)
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 18
-      - ZZ_2942 | 1.16Mb
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 19
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 20
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 21
-      - ZZ_3639 |35.82Mb
-      - ZZ_2922 |25.84Mb
-      - ZZ_3647 |33.24Mb
-      - ZZ_3641 |42.65Mb
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 4
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 5
+      - 🇺🇸 美国【YouTube由零開始】 2
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 2
+      - 🇭🇰 香港阿伟科技@TG/油管 2
+      - 🇳🇱 荷兰阿伟科技@TG/油管
+      - 🇺🇸 美国阿伟科技@TG/油管 2
+      - 🇨🇦 _CA_加拿大 5
+      - 欧(yudou66.com 玉豆分享)
       - 🇨🇦 加拿大【YouTube由零開始】 6
-      - ZZ_3099 |36.47Mb
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 22
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 23
-      - 🇫🇷 法国【YouTube由零開始】
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 24
-      - ZZ_3680 |47.21Mb
-      - CA_136 |51.17Mb
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 25
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 26
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 27
-      - ZZ_3350 |38.16Mb
-      - ZZ_3637 |20.31Mb
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 28
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 29
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 30
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 31
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 32
-      - ZZ_3414 |18.44Mb
-      - 科技网络
-      - ZZ_3632 |30.27Mb
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 6
-      - ZZ_3408 | 4.15Mb
-      - 🇺🇸 美国【YouTube由零開始】 3
-      - YouTube*阿阳AYANG*科技大师 2
-      - ZZ_2941 | 0.87Mb
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 33
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 34
-      - ZZ_3446 |25.23Mb
-      - ZZ_3416 | 4.18Mb
-      - ZZ_2918 |24.39Mb
+      - 🇬🇧 英国【YouTube由零開始】
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享)
+      - 🇬🇧 英国【YouTube由零開始】 2
       - 🇨🇦 加拿大【YouTube由零開始】 7
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 35
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 7
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 8
+      - 🇨🇦 _CA_加拿大 6
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 2
+      - 🇨🇦 加拿大【YouTube由零開始】 8
+      - 🇨🇦 _CA_加拿大 7
+      - 🇨🇦 加拿大【YouTube由零開始】 9
+      - 🇨🇭 瑞士(yudou66.com 玉豆分享)
+      - 🇫🇷 法国【YouTube由零開始】
+      - 🇨🇦 加拿大【YouTube由零開始】 10
+      - 🇭🇰 香港阿伟科技@TG/油管 3
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 3
+      - 🇭🇰 香港阿伟科技@TG/油管 4
+      - 🇨🇳 台湾(yudou66.com 玉豆分享) 2
+      - 🇨🇦 _CA_加拿大 8
+      - 油管 TG 8度科技
+      - 🇭🇰 香港(yudou66.com 玉豆分享) 2
+      - 🇨🇦 加拿大【YouTube由零開始】 11
+      - 油管 TG 8度科技 2
+      - 🇺🇸 US_油管 TG 8度科技
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 4
+      - 🇭🇰 香港阿伟科技@TG/油管 5
+      - ZZ_3537+|13.93Mb
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 5
+      - 🇸🇬 新加坡(yudou66.com 玉豆分享)
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 3
+      - 🇨🇦 _CA_加拿大 9
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 6
+      - 🇷🇺 俄罗斯(yudou66.com 玉豆分享)
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 4
+      - 🇨🇦 _CA_加拿大 10
+      - 🇭🇰 香港(yudou66.com 玉豆分享) 3
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 5
+      - 🇨🇦 加拿大【YouTube由零開始】 12
+      - 🇨🇦 加拿大【YouTube由零開始】 13
+      - 🇩🇪 德国阿伟科技@TG/油管
+      - 🇨🇦 加拿大【YouTube由零開始】 14
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 6
+      - 🇨🇦 _CA_加拿大 11
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君)
+      - 🇨🇦 加拿大【YouTube由零開始】 15
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 7
+      - 🇨🇦 加拿大【YouTube由零開始】 16
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 8
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 9
+      - 🇬🇧 英国【YouTube由零開始】 3
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 7
+      - 🇨🇳 中国(yudou66.com 玉豆分享)
+      - CA_(yudou66.com 玉豆分享)
+      - 🇨🇦 加拿大【YouTube由零開始】 17
+      - 🇺🇸 美国【YouTube由零開始】 3
+      - 🇬🇧 _GB_英国 2
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 8
+      - 🇫🇷 法国【YouTube由零開始】 2
+      - 🇺🇸 美国阿伟科技@TG/油管 3
+      - 🇺🇸 美国阿伟科技@TG/油管 4
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 10
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 11
+      - 🇺🇸 _US_美国
+      - 🇭🇰 香港阿伟科技@TG/油管 6
+      - 🇨🇦 _CA_加拿大 12
+      - 🇮🇳 印度【YouTube由零開始】
+      - 🇨🇦 _CA_加拿大 13
+      - 🇺🇸 US_(yudou66.com 玉豆分享)
+      - 🇨🇦 _CA_加拿大 14
+      - 🇨🇳 台湾阿伟科技@TG/油管
+      - 🇨🇦 _CA_加拿大(yudou66.com 玉豆分享) 2
+      - 🇨🇦 加拿大【YouTube由零開始】 18
+      - 🇫🇷 法国阿伟科技@TG/油管 2
+      - 🇭🇰 香港阿伟科技@TG/油管 7
+      - 🇨🇳 中国【YouTube由零開始】
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 12
+      - 🇫🇷 法国【YouTube由零開始】 3
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 13
+      - 🇯🇵 日本【YouTube由零開始】
+      - 🇫🇷 法国【YouTube由零開始】 4
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 14
+      - 🇺🇸 美国阿伟科技@TG/油管 5
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 9
+      - 🇬🇧 英国【YouTube由零開始】 4
+      - 🇨🇦 _CA_加拿大 15
+      - 🇬🇧 英国(yudou66.com 玉豆分享)
+      - 🇬🇧 英国(yudou66.com 玉豆分享) 2
+      - 🇺🇸 美国【YouTube由零開始】 4
+      - 🇸🇬 新加坡阿伟科技@TG/油管
+      - 🇨🇦 _CA_加拿大 16
+      - 🇨🇦 _CA_加拿大 17
+      - 【YouTube由零開始】
+      - 🇨🇦 _CA_加拿大 18
+      - 🇨🇦 加拿大【YouTube由零開始】 19
+      - 🇳🇱 _US_美国->🇳🇱_NL_荷兰
+      - CA_(yudou66.com 玉豆分享) 2
+      - 🇨🇦 加拿大【YouTube由零開始】 20
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 10
+      - 🇨🇦 加拿大【YouTube由零開始】 21
+      - 🇨🇦 _CA_加拿大(yudou66.com 玉豆分享) 3
+      - 🇨🇦 _CA_加拿大(yudou66.com 玉豆分享) 4
+      - 🇨🇦 加拿大【YouTube由零開始】 22
+      - 🇨🇦 _CA_加拿大 19
+      - 🇨🇦 加拿大【YouTube由零開始】 23
+      - 🇨🇦 加拿大【YouTube由零開始】 24
+      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)
+      - 🇨🇦 _CA_加拿大 20
+      - CA_(yudou66.com 玉豆分享) 3
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 11
+      - 🇨🇦 _CA_加拿大 21
+      - 🇨🇦 _CA_加拿大 22
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 12
+      - 🇫🇷 法国【YouTube由零開始】 5
+      - 🇨🇦 加拿大【YouTube由零開始】 25
+      - 🇨🇦 _CA_加拿大 23
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 15
+      - 🇨🇦 _CA_加拿大(yudou66.com 玉豆分享) 5
+      - 🇨🇦 加拿大【YouTube由零開始】 26
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
