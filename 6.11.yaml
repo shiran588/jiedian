@@ -5,1040 +5,1201 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇺🇸 美国阿伟科技@TG/油管, server: iepl02.zerohost.live, port: 11006, type: vmess, uuid: c008a763-2123-312f-bae6-bf7630517e22, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: iepl02.zerohost.live}}
-  - {name: 🇨🇳 台湾(yudou66.com 玉豆分享), server: tw1.nodrop.bike, port: 80, type: vmess, uuid: 3efa3b6e-571e-492d-ba3a-66663d536e86, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: tw1.nodrop.bike}}
-  - {name: 🇫🇮 芬兰(yudou66.com 玉豆分享), server: azure.bp2022.top, port: 10081, type: vmess, uuid: 113d0898-0e65-4d4e-ac26-2849f39c599c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: oz.moonfree.top}}
-  - {name: 🇭🇰 香港(yudou66.com 玉豆分享), server: iepl04.zerohost.live, port: 11008, type: vmess, uuid: c008a763-2123-312f-bae6-bf7630517e22, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: iepl04.zerohost.live}}
-  - {name: 🇨🇦 加拿大【YouTube由零開始】, server: 134.195.196.187, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇺🇸 US美国(Youtube技术分享室), server: 169.197.142.99, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞）, server: 134.195.196.81, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
   - {name: 🇨🇦 _CA_加拿大(yudou66.com 玉豆分享), server: 134.195.196.187, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 🇬🇧 _GB_英国, server: 145.239.7.164, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇫🇷 法国阿伟科技@TG/油管, server: oz.moonfree.top, port: 443, type: vmess, uuid: 113d0898-0e65-4d4e-ac26-2849f39c599c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: oz.moonfree.top}}
-  - {name: 🇭🇰 香港阿伟科技@TG/油管, server: gzyd1.noded.one, port: 19500, type: vmess, uuid: c008a763-2123-312f-bae6-bf7630517e22, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: gzyd1.noded.one}}
-  - {name: 🇨🇦 _CA_加拿大, server: 134.195.196.68, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 🇨🇦 加拿大【YouTube由零開始】 2, server: 134.195.196.81, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 🇨🇦 _CA_加拿大 2, server: 134.195.196.81, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇨🇦 加拿大【YouTube由零開始】 3, server: 134.195.196.187, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇨🇦 加拿大【YouTube由零開始】 4, server: 134.195.196.187, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇨🇦 _CA_加拿大 3, server: 134.195.196.187, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇨🇦 _CA_加拿大 4, server: 134.195.196.187, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: 🇺🇸 美国(yudou66.com 玉豆分享), server: 169.197.142.99, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇸 美国【YouTube由零開始】, server: 39.earths.team, port: 443, type: trojan, password: 6593b778-e45e-4f94-b5ae-641d4b7b02ae, sni: 39.earths.team}
-  - {name: 🇨🇦 加拿大【YouTube由零開始】 5, server: 134.195.196.81, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: 🇺🇸 美国【YouTube由零開始】 2, server: 39.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, sni: 39.earths.team}
-  - {name: 🇺🇸 美国(yudou66.com 玉豆分享) 2, server: iepl02.zerohost.live, port: 11015, type: vmess, uuid: c008a763-2123-312f-bae6-bf7630517e22, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: iepl02.zerohost.live}}
-  - {name: 🇭🇰 香港阿伟科技@TG/油管 2, server: 103.164.81.13, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 103.164.81.13}}
-  - {name: 🇳🇱 荷兰阿伟科技@TG/油管, server: nl.oracleusa.ml, port: 2053, type: vmess, uuid: d176bc78-9bf9-4ab3-9af9-a1e412d95c53, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: nl.oracleusa.ml}}
-  - {name: 🇺🇸 美国阿伟科技@TG/油管 2, server: us28.holiganfan.com, port: 10088, type: trojan, password: 17882ef6-b07d-401c-8cee-636e512c77ba, sni: us28.holiganfan.com}
-  - {name: 🇨🇦 _CA_加拿大 5, server: 134.195.196.81, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 欧(yudou66.com 玉豆分享), server: 134.195.196.187, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇨🇦 加拿大【YouTube由零開始】 6, server: 134.195.196.81, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 🇨🇦 加拿大【YouTube由零開始】, server: 134.195.196.81, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 2, server: 134.195.196.81, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇨🇦 加拿大【YouTube由零開始】 2, server: 134.195.196.187, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇨🇦 _CA_加拿大, server: 134.195.196.187, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
   - {name: 🇬🇧 英国【YouTube由零開始】, server: 172.99.190.92, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 🇨🇦 加拿大(yudou66.com 玉豆分享), server: 134.195.196.81, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇬🇧 英国【YouTube由零開始】 2, server: 145.239.7.164, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 🇨🇦 加拿大【YouTube由零開始】 7, server: 134.195.196.68, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇨🇦 _CA_加拿大 6, server: 134.195.196.81, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇨🇦 加拿大(yudou66.com 玉豆分享) 2, server: 134.195.196.81, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇨🇦 加拿大【YouTube由零開始】 8, server: 134.195.196.187, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: 🇨🇦 _CA_加拿大 7, server: 134.195.196.187, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: 🇨🇦 加拿大【YouTube由零開始】 9, server: 134.195.196.187, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 🇨🇭 瑞士(yudou66.com 玉豆分享), server: sw.oracleusa.ml, port: 2053, type: vmess, uuid: 0b97a9b1-a671-4b32-a02e-17850a466fdc, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: sw.oracleusa.ml}}
+  - {name: 🇨🇦 Ytb:鹏哥分享_加拿大_1, server: 134.195.196.3, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇨🇦 Ytb:鹏哥分享_加拿大_19, server: 134.195.196.68, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 3, server: 134.195.196.187, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇨🇳 中国（欢迎订阅Youtube元亨利贞）, server: qzyd.zerohost.live, port: 26001, type: vmess, uuid: c008a763-2123-312f-bae6-bf7630517e22, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: aweikeji-YouTube-TG}}
+  - {name: 🇨🇦 加拿大【YouTube由零開始】 3, server: 134.195.196.81, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 4, server: 134.195.196.187, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇨🇦 Ytb:鹏哥分享_加拿大_3, server: 134.195.196.81, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇨🇦 加拿大【YouTube由零開始】 4, server: 134.195.196.3, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 🇨🇦 加拿大【YouTube由零開始】 5, server: 134.195.196.68, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 🇨🇦 加拿大【YouTube由零開始】 6, server: 134.195.196.187, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 5, server: 134.195.196.3, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇬🇧 英国（欢迎订阅Youtube元亨利贞）, server: 172.99.190.92, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇨🇦 加拿大【YouTube由零開始】 7, server: 134.195.196.68, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 🇬🇧 英国【YouTube由零開始】 2, server: 172.99.190.92, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇭🇰 HK_油管 TG 8度科技, server: 23.100.91.86, port: 19106, type: vmess, uuid: 302f9a97-1367-377c-889a-c57862c2971e, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇨🇦 加拿大【YouTube由零開始】 8, server: 134.195.196.81, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 🇺🇸 Ytb:鹏哥分享_美国_56, server: 169.197.142.99, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 🇨🇦 _CA_加拿大 2, server: 134.195.196.187, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 🇨🇦 Ytb:鹏哥分享_加拿大_9, server: 134.195.196.3, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 6, server: 134.195.196.187, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
   - {name: 🇫🇷 法国【YouTube由零開始】, server: 51.255.66.185, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇨🇦 加拿大【YouTube由零開始】 10, server: 134.195.196.187, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 🇭🇰 香港阿伟科技@TG/油管 3, server: gzyd1.noded.one, port: 10801, type: vmess, uuid: c008a763-2123-312f-bae6-bf7630517e22, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: aweikeji-YouTube-TG}}
-  - {name: 🇺🇸 美国(yudou66.com 玉豆分享) 3, server: linodemx0303.moonfree.top, port: 443, type: vmess, uuid: 113d0898-0e65-4d4e-ac26-2849f39c599c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: linodemx0303.moonfree.top}}
-  - {name: 🇭🇰 香港阿伟科技@TG/油管 4, server: iepl02.zerohost.live, port: 11006, type: vmess, uuid: c008a763-2123-312f-bae6-bf7630517e22, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: iepl02.zerohost.live}}
-  - {name: 🇨🇳 台湾(yudou66.com 玉豆分享) 2, server: tw1.nodrop.bike, port: 80, type: vmess, uuid: 30e46917-9383-4248-be0a-65b68de6eb6d, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: tw1.nodrop.bike}}
-  - {name: 🇨🇦 _CA_加拿大 8, server: 134.195.196.68, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: 油管 TG 8度科技, server: cm.db-link.in, port: 443, type: vmess, uuid: 9b6dd8ea-fe2e-3508-b099-8e25bdf6b5fe, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /db, ws-headers: {Host: us01.db-link.in}}
-  - {name: 🇭🇰 香港(yudou66.com 玉豆分享) 2, server: iepl04.zerohost.live, port: 11003, type: vmess, uuid: c008a763-2123-312f-bae6-bf7630517e22, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: iepl04.zerohost.live}}
-  - {name: 🇨🇦 加拿大【YouTube由零開始】 11, server: 134.195.196.187, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 油管 TG 8度科技 2, server: gongyisg1.yigeweizhuang.com, port: 2096, type: vmess, uuid: a94446e3-be9c-4240-9bdf-9b88155a7eb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: gongyisg1.yigeweizhuang.com}}
-  - {name: 🇺🇸 US_油管 TG 8度科技, server: gongyijp1.yigeweizhuang.com, port: 2096, type: vmess, uuid: a94446e3-be9c-4240-9bdf-9b88155a7eb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: gongyijp1.yigeweizhuang.com}}
-  - {name: 🇺🇸 美国(yudou66.com 玉豆分享) 4, server: www.gomacau.gq, port: 443, type: trojan, password: b5fc9fa9-796d-4185-a316-395ecac04a85, sni: www.gomacau.gq}
-  - {name: 🇭🇰 香港阿伟科技@TG/油管 5, server: gzyd1.noded.one, port: 19501, type: vmess, uuid: c008a763-2123-312f-bae6-bf7630517e22, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: gzyd1.noded.one}}
-  - {name: ZZ_3537+|13.93Mb, server: 134.195.196.81, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇺🇸 美国(yudou66.com 玉豆分享) 5, server: azure.bp2022.top, port: 10080, type: vmess, uuid: 113d0898-0e65-4d4e-ac26-2849f39c599c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: linodemx0303.moonfree.top}}
-  - {name: 🇸🇬 新加坡(yudou66.com 玉豆分享), server: iepl01.zerohost.live, port: 11014, type: vmess, uuid: c008a763-2123-312f-bae6-bf7630517e22, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: iepl01.zerohost.live}}
-  - {name: 🇨🇦 加拿大(yudou66.com 玉豆分享) 3, server: 134.195.196.3, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇨🇦 _CA_加拿大 9, server: 134.195.196.81, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 🇺🇸 美国(yudou66.com 玉豆分享) 6, server: vir2.oracleusa.ml, port: 2053, type: vmess, uuid: 0b97a9b1-a671-4b32-a02e-17850a466fdc, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: vir2.oracleusa.ml}}
-  - {name: 🇷🇺 俄罗斯(yudou66.com 玉豆分享), server: ru.oracleusa.ml, port: 2053, type: vmess, uuid: d176bc78-9bf9-4ab3-9af9-a1e412d95c53, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: ru.oracleusa.ml}}
-  - {name: 🇨🇦 加拿大(yudou66.com 玉豆分享) 4, server: 134.195.196.3, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇨🇦 _CA_加拿大 10, server: 134.195.196.3, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 🇭🇰 香港(yudou66.com 玉豆分享) 3, server: iepl04.zerohost.live, port: 11017, type: vmess, uuid: c008a763-2123-312f-bae6-bf7630517e22, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: iepl04.zerohost.live}}
-  - {name: 🇨🇦 加拿大(yudou66.com 玉豆分享) 5, server: 134.195.196.3, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 🇨🇦 加拿大【YouTube由零開始】 12, server: 134.195.196.3, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: 🇨🇦 加拿大【YouTube由零開始】 13, server: 134.195.196.81, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 🇩🇪 德国阿伟科技@TG/油管, server: v6d1.moonfree.top, port: 443, type: vmess, uuid: 113d0898-0e65-4d4e-ac26-2849f39c599c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: v6d.moonfree.top}}
-  - {name: 🇨🇦 加拿大【YouTube由零開始】 14, server: 134.195.196.187, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 🇨🇦 加拿大(yudou66.com 玉豆分享) 6, server: 134.195.196.81, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 🇨🇦 _CA_加拿大 11, server: 134.195.196.187, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇭🇰 香港(欢迎订阅Youtube破解资源君), server: iepl02.zerohost.live, port: 11001, type: vmess, uuid: c008a763-2123-312f-bae6-bf7630517e22, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: iepl02.zerohost.live}}
-  - {name: 🇨🇦 加拿大【YouTube由零開始】 15, server: 134.195.196.187, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇸 美国(yudou66.com 玉豆分享) 7, server: 169.197.142.99, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: 🇨🇦 加拿大【YouTube由零開始】 16, server: 134.195.196.187, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇺🇸 美国(yudou66.com 玉豆分享) 8, server: 169.197.142.99, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 🇺🇸 美国(yudou66.com 玉豆分享) 9, server: vir2.oracleusa.ml, port: 2053, type: vmess, uuid: d176bc78-9bf9-4ab3-9af9-a1e412d95c53, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: vir2.oracleusa.ml}}
-  - {name: 🇬🇧 英国【YouTube由零開始】 3, server: 145.239.7.164, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇨🇦 加拿大(yudou66.com 玉豆分享) 7, server: 134.195.196.68, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 🇨🇳 中国(yudou66.com 玉豆分享), server: www.tokyo2021.ga, port: 443, type: trojan, password: 7a990132-cf76-4ac2-8a3c-681743fa8627, sni: www.tokyo2021.ga}
-  - {name: CA_(yudou66.com 玉豆分享), server: 134.195.196.81, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇨🇦 加拿大【YouTube由零開始】 17, server: 134.195.196.81, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇺🇸 美国【YouTube由零開始】 3, server: cloudflare.a-yu.xyz, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /sakura/, ws-headers: {Host: zero2.a-yu.xyz}}
-  - {name: 🇬🇧 _GB_英国 2, server: 172.99.190.92, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 🇨🇦 加拿大(yudou66.com 玉豆分享) 8, server: 134.195.196.187, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 🇫🇷 法国【YouTube由零開始】 2, server: 51.255.66.185, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 🇺🇸 美国阿伟科技@TG/油管 3, server: gcusfree.galaxycloud.buzz, port: 443, type: vmess, uuid: 8b75896d-b8e7-47ec-81b8-213ecfb02bf3, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /0DGCTPQ, ws-headers: {Host: gcusfree.galaxycloud.buzz}}
-  - {name: 🇺🇸 美国阿伟科技@TG/油管 4, server: gcusfree.galaxycloud.buzz, port: 443, type: vmess, uuid: f132274c-2704-4f7e-89d4-7d4f06eab292, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /0DGCTPQ, ws-headers: {Host: gcusfree.galaxycloud.buzz}}
-  - {name: 🇺🇸 美国(yudou66.com 玉豆分享) 10, server: 169.197.142.99, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇸 美国(yudou66.com 玉豆分享) 11, server: 169.197.142.99, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 🇺🇸 _US_美国, server: gongyius1.yigeweizhuang.com, port: 2096, type: vmess, uuid: a94446e3-be9c-4240-9bdf-9b88155a7eb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: gongyius1.yigeweizhuang.com}}
-  - {name: 🇭🇰 香港阿伟科技@TG/油管 6, server: ppy-cn1.ddnsnode.com, port: 26010, type: vmess, uuid: 6d4e5eb4-3e33-369c-8791-30ea8d08e298, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇦 _CA_加拿大 12, server: 134.195.196.81, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇮🇳 印度【YouTube由零開始】, server: 172.105.59.32, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 🇨🇦 _CA_加拿大 13, server: 134.195.196.81, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 🇺🇸 US_(yudou66.com 玉豆分享), server: gongyijp2.yigeweizhuang.com, port: 2096, type: vmess, uuid: a94446e3-be9c-4240-9bdf-9b88155a7eb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: gongyijp2.yigeweizhuang.com}}
-  - {name: 🇨🇦 _CA_加拿大 14, server: 134.195.196.187, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 🇨🇳 台湾阿伟科技@TG/油管, server: iepl02.zerohost.live, port: 11018, type: vmess, uuid: c008a763-2123-312f-bae6-bf7630517e22, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: iepl02.zerohost.live}}
+  - {name: 🇺🇸 Ytb:鹏哥分享_美国_21, server: sg.az66.ml, port: 61001, type: vmess, uuid: cb8ab285-fafc-45f6-87bc-97a7a2f27f9f, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: aweikeji-YouTube-TG}}
+  - {name: 🇨🇦 Ytb:鹏哥分享_加拿大_39, server: 134.195.196.81, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇨🇦 _CA_加拿大 3, server: 134.195.196.68, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: 🇨🇦 _CA_加拿大(yudou66.com 玉豆分享) 2, server: 134.195.196.187, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇨🇦 加拿大【YouTube由零開始】 18, server: 134.195.196.81, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇫🇷 法国阿伟科技@TG/油管 2, server: rbzf.moonfree.top, port: 10080, type: vmess, uuid: 113d0898-0e65-4d4e-ac26-2849f39c599c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: v6fr1.moonfree.top}}
-  - {name: 🇭🇰 香港阿伟科技@TG/油管 7, server: 165.154.224.8, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 165.154.224.8}}
-  - {name: 🇨🇳 中国【YouTube由零開始】, server: iepl02.zerohost.live, port: 11018, type: vmess, uuid: c008a763-2123-312f-bae6-bf7630517e22, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: iepl02.zerohost.live}}
-  - {name: 🇺🇸 美国(yudou66.com 玉豆分享) 12, server: usaarm1.oracleusa.ml, port: 980, type: vmess, uuid: 0b97a9b1-a671-4b32-a02e-17850a466fdc, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: usaarm1.oracleusa.ml}}
+  - {name: 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 7, server: 134.195.196.187, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇨🇦 加拿大【YouTube由零開始】 9, server: 134.195.196.68, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 🇨🇦 加拿大(yudou66.com 玉豆分享), server: 134.195.196.3, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇨🇦 加拿大【YouTube由零開始】 10, server: 134.195.196.68, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 🇩🇪 (Youtube技术分享室)🇩🇪德国, server: 193.108.117.75, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇨🇦 _CA_加拿大 4, server: 134.195.196.81, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇸 美国【YouTube由零開始】, server: 167.88.63.89, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇨🇦 CA加拿大(Youtube技术分享室), server: 134.195.196.81, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 🇺🇸 美国（欢迎订阅Youtube元亨利贞）, server: 154.31.41.10, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: chuch3go.com}}
+  - {name: 🇬🇧 英国【YouTube由零開始】 3, server: 145.239.7.164, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 美国(yudou66.com 玉豆分享), server: iepl02.zerohost.live, port: 11015, type: vmess, uuid: c008a763-2123-312f-bae6-bf7630517e22, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: iepl02.zerohost.live}}
+  - {name: (Youtube技术分享室), server: 104.16.162.16, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /eisasqa, ws-headers: {Host: foxus.fovi.tk}}
+  - {name: 🇺🇸 US美国(Youtube技术分享室) 2, server: 169.197.142.99, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 🇨🇦 加拿大【YouTube由零開始】 11, server: 134.195.196.81, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇨🇦 加拿大【YouTube由零開始】 12, server: 134.195.196.3, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 🇺🇸 美国（欢迎订阅Youtube元亨利贞） 2, server: 169.197.142.99, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇨🇦 加拿大【YouTube由零開始】 13, server: 134.195.196.3, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 🇨🇦 加拿大【YouTube由零開始】 14, server: 134.195.196.68, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: CA_(yudou66.com 玉豆分享), server: 134.195.196.81, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇨🇦 加拿大(yudou66.com 玉豆分享) 2, server: 134.195.196.81, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 🇨🇦 加拿大(yudou66.com 玉豆分享) 3, server: 134.195.196.81, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 🇨🇦 _CA_加拿大(yudou66.com 玉豆分享) 3, server: 134.195.196.187, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇫🇷 法国【YouTube由零開始】 2, server: 51.255.66.185, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇨🇦 CA加拿大(Youtube技术分享室) 2, server: 134.195.196.81, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 8, server: 134.195.196.81, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇨🇦 Ytb:鹏哥分享_加拿大_50, server: 134.195.196.187, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 欧(yudou66.com 玉豆分享), server: 134.195.196.187, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 9, server: 134.195.196.68, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 美国（欢迎订阅Youtube元亨利贞） 3, server: 169.197.142.99, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 🇩🇪 (Youtube技术分享室)🇩🇪德国 2, server: 193.108.117.75, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇨🇦 加拿大【YouTube由零開始】 15, server: 134.195.196.187, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 10, server: 134.195.196.3, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 🇺🇸 US美国(Youtube技术分享室) 3, server: 169.197.142.99, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 🇺🇸 美国（欢迎订阅Youtube元亨利贞） 4, server: 169.197.142.99, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇩🇪 (Youtube技术分享室)🇩🇪德国 3, server: 193.108.117.75, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 🇨🇦 加拿大【YouTube由零開始】 16, server: 134.195.196.187, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇨🇦 _CA_加拿大 5, server: 134.195.196.68, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 🇭🇰 香港阿伟科技@TG/油管, server: gzyd1.noded.one, port: 19501, type: vmess, uuid: c008a763-2123-312f-bae6-bf7630517e22, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: gzyd1.noded.one}}
+  - {name: 🇨🇦 加拿大【YouTube由零開始】 17, server: 134.195.196.3, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇭🇰 HK_油管 TG 8度科技 2, server: 13.75.80.253, port: 19104, type: vmess, uuid: 302f9a97-1367-377c-889a-c57862c2971e, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇬🇧 _GB_英国, server: 145.239.7.164, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇨🇦 加拿大【YouTube由零開始】 18, server: 134.195.196.3, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇨🇦 加拿大【YouTube由零開始】 19, server: 134.195.196.187, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇭🇰 HK_油管 TG 8度科技 3, server: 20.205.1.109, port: 19107, type: vmess, uuid: 302f9a97-1367-377c-889a-c57862c2971e, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇭🇰 HK_油管 TG 8度科技 4, server: 20.205.56.105, port: 19103, type: vmess, uuid: 302f9a97-1367-377c-889a-c57862c2971e, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇺🇸 Ytb:鹏哥分享_美国_16, server: chuch3go.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: chuch3go.com}}
+  - {name: 🇺🇸 美国【YouTube由零開始】 2, server: 169.197.142.99, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
   - {name: 🇫🇷 法国【YouTube由零開始】 3, server: 51.255.66.185, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇺🇸 美国(yudou66.com 玉豆分享) 13, server: 169.197.142.99, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 🇨🇦 加拿大【YouTube由零開始】 20, server: 134.195.196.68, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇨🇦 加拿大【YouTube由零開始】 21, server: 134.195.196.81, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇨🇦 加拿大【YouTube由零開始】 22, server: 134.195.196.3, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 🇬🇧 英国【YouTube由零開始】 4, server: 145.239.7.164, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇨🇦 加拿大【YouTube由零開始】 23, server: 134.195.196.187, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 🇨🇦 加拿大【YouTube由零開始】 24, server: 134.195.196.68, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 🇨🇦 加拿大【YouTube由零開始】 25, server: 134.195.196.187, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇨🇳 Ytb:鹏哥分享_中国_2, server: nyyd.zerohost.live, port: 53004, type: vmess, uuid: c008a763-2123-312f-bae6-bf7630517e22, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: aweikeji-YouTube-TG}}
+  - {name: 🇭🇰 HK_油管 TG 8度科技 5, server: 20.187.78.93, port: 19116, type: vmess, uuid: 302f9a97-1367-377c-889a-c57862c2971e, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国【YouTube由零開始】 3, server: 172.67.68.58, port: 443, type: vmess, uuid: f2f578e4-692d-40b5-af99-9f1dd712eb32, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /shuier, ws-headers: {Host: xc1.v2rie.pp.ua}}
+  - {name: 🇭🇰 HK_油管 TG 8度科技 6, server: 104.208.106.202, port: 19114, type: vmess, uuid: 302f9a97-1367-377c-889a-c57862c2971e, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 11, server: 134.195.196.68, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: （欢迎订阅Youtube元亨利贞）, server: cloudflare.xrenblog.com, port: 443, type: vmess, uuid: 6c175d1a-a57f-4881-a471-173eb139694b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /xrenblog/, ws-headers: {Host: ipv6.xrenblog.com}}
+  - {name: 🇭🇰 HK_油管 TG 8度科技 7, server: 20.205.40.177, port: 19117, type: vmess, uuid: 302f9a97-1367-377c-889a-c57862c2971e, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇭🇰 HK_油管 TG 8度科技 8, server: 20.187.121.230, port: 19118, type: vmess, uuid: 302f9a97-1367-377c-889a-c57862c2971e, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇨🇦 加拿大【YouTube由零開始】 26, server: 134.195.196.187, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 🇭🇰 HK_油管 TG 8度科技 9, server: 40.83.99.84, port: 19112, type: vmess, uuid: 302f9a97-1367-377c-889a-c57862c2971e, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇭🇰 HK_油管 TG 8度科技 10, server: 52.175.123.24, port: 19123, type: vmess, uuid: 302f9a97-1367-377c-889a-c57862c2971e, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇭🇰 HK_油管 TG 8度科技 11, server: 104.208.112.11, port: 19113, type: vmess, uuid: 302f9a97-1367-377c-889a-c57862c2971e, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇭🇰 HK_油管 TG 8度科技 12, server: 23.101.2.198, port: 19111, type: vmess, uuid: 302f9a97-1367-377c-889a-c57862c2971e, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇨🇦 加拿大【YouTube由零開始】 27, server: 134.195.196.81, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇭🇰 HK_油管 TG 8度科技 13, server: 104.208.66.186, port: 19108, type: vmess, uuid: 302f9a97-1367-377c-889a-c57862c2971e, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国🇺🇸(Youtube技术分享室), server: 104.18.85.215, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /eisasqa, ws-headers: {Host: foxsg.fovi.tk}}
+  - {name: 🇭🇰 HK_油管 TG 8度科技 14, server: 52.175.122.89, port: 19119, type: vmess, uuid: 302f9a97-1367-377c-889a-c57862c2971e, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇭🇰 HK_油管 TG 8度科技 15, server: 104.208.103.134, port: 19105, type: vmess, uuid: 302f9a97-1367-377c-889a-c57862c2971e, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇭🇰 HK_油管 TG 8度科技 16, server: 20.205.104.115, port: 19115, type: vmess, uuid: 302f9a97-1367-377c-889a-c57862c2971e, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇨🇳 台湾阿伟科技@TG/油管, server: iepl02.zerohost.live, port: 11018, type: vmess, uuid: c008a763-2123-312f-bae6-bf7630517e22, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: iepl02.zerohost.live}}
+  - {name: 🇨🇦 加拿大【YouTube由零開始】 28, server: 134.195.196.68, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇭🇰 HK_油管 TG 8度科技 17, server: 20.205.43.80, port: 19121, type: vmess, uuid: 302f9a97-1367-377c-889a-c57862c2971e, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇨🇦 加拿大(yudou66.com 玉豆分享) 4, server: 134.195.196.81, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: "(技术分享室整理,欢迎订阅)", server: 172.99.190.92, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇨🇳 中国【YouTube由零開始】, server: iepl02.zerohost.live, port: 11018, type: vmess, uuid: c008a763-2123-312f-bae6-bf7630517e22, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: iepl02.zerohost.live}}
+  - {name: 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 12, server: 134.195.196.81, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇭🇰 香港(yudou66.com 玉豆分享), server: iepl04.zerohost.live, port: 11008, type: vmess, uuid: c008a763-2123-312f-bae6-bf7630517e22, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: iepl04.zerohost.live}}
+  - {name: 🇨🇦 加拿大【YouTube由零開始】 29, server: 134.195.196.81, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: (Youtube技术分享室) 2, server: 104.16.42.170, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /eisasqa, ws-headers: {Host: foxus.fovi.tk}}
+  - {name: 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 13, server: 134.195.196.3, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: CA_(yudou66.com 玉豆分享) 2, server: 134.195.196.81, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇨🇦 加拿大【YouTube由零開始】 30, server: 134.195.196.81, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇸🇬 Ytb:鹏哥分享_新加坡_4, server: 34.87.58.136, port: 56435, type: vmess, uuid: 4e1a3c53-ddb1-48b4-ceb9-b3db0f134ec6, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 US美国(Youtube技术分享室) 4, server: 169.197.142.99, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇩🇪 (Youtube技术分享室)🇩🇪德国 4, server: 193.108.117.75, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇨🇦 Ytb:鹏哥分享_加拿大_32, server: 134.195.196.3, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 🇨🇦 加拿大【YouTube由零開始】 31, server: 134.195.196.81, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: （欢迎订阅Youtube元亨利贞） 2, server: 198.41.221.169, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /sakura/, ws-headers: {Host: zero1.a-yu.xyz}}
   - {name: 🇯🇵 日本【YouTube由零開始】, server: 172.105.222.98, port: 80, type: vmess, uuid: 4e1d0b12-25f0-363f-8659-9c6a3ca1fcda, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 172.105.222.98}}
-  - {name: 🇫🇷 法国【YouTube由零開始】 4, server: 51.255.66.185, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 🇺🇸 美国(yudou66.com 玉豆分享) 14, server: gcusfree.galaxycloud.buzz, port: 443, type: vmess, uuid: 78b69b4b-aa09-4d29-8f98-5cd8b40397bf, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /0DGCTPQ, ws-headers: {Host: gcusfree.galaxycloud.buzz}}
-  - {name: 🇺🇸 美国阿伟科技@TG/油管 5, server: gcusfree.galaxycloud.buzz, port: 443, type: vmess, uuid: c2efe740-1bcc-4322-b68b-8e7dc234fccb, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /0DGCTPQ, ws-headers: {Host: gcusfree.galaxycloud.buzz}}
-  - {name: 🇨🇦 加拿大(yudou66.com 玉豆分享) 9, server: 134.195.196.81, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: 🇬🇧 英国【YouTube由零開始】 4, server: 172.99.190.92, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇨🇦 _CA_加拿大 15, server: 134.195.196.81, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: 🇬🇧 英国(yudou66.com 玉豆分享), server: 172.99.190.92, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 🇬🇧 英国(yudou66.com 玉豆分享) 2, server: 172.99.190.92, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇭🇰 Ytb:鹏哥分享_香港_46, server: zf.hk01.xfss.cc, port: 24814, type: vmess, uuid: 7b4c6617-4c37-4c23-ab94-f1090b64e361, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: zf.hk01.xfss.cc}}
+  - {name: 🇨🇦 加拿大【YouTube由零開始】 32, server: 134.195.196.81, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇬🇧 英国（欢迎订阅Youtube元亨利贞） 2, server: 172.99.190.92, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 🇭🇰 香港阿伟科技@TG/油管 2, server: 103.164.81.13, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 103.164.81.13}}
   - {name: 🇺🇸 美国【YouTube由零開始】 4, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
+  - {name: 🇨🇳 Ytb:鹏哥分享_中国_38, server: gzyd1.noded.one, port: 10801, type: vmess, uuid: c008a763-2123-312f-bae6-bf7630517e22, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: aweikeji-YouTube-TG}}
+  - {name: 🇺🇸 美国(yudou66.com 玉豆分享) 2, server: www.gomacau.gq, port: 443, type: trojan, password: b5fc9fa9-796d-4185-a316-395ecac04a85, sni: www.gomacau.gq}
+  - {name: 🇺🇸 美国【YouTube由零開始】 5, server: 169.197.142.99, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 14, server: 134.195.196.187, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇫🇷 法国【YouTube由零開始】 4, server: 51.255.66.185, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 🇨🇦 加拿大【YouTube由零開始】 33, server: 134.195.196.187, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 15, server: 134.195.196.187, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
   - {name: 🇸🇬 新加坡阿伟科技@TG/油管, server: sg27.holiganfan.com, port: 10088, type: trojan, password: 17882ef6-b07d-401c-8cee-636e512c77ba, sni: sg27.holiganfan.com}
-  - {name: 🇨🇦 _CA_加拿大 16, server: 134.195.196.68, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 🇨🇦 _CA_加拿大 17, server: 134.195.196.81, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 【YouTube由零開始】, server: 198.41.221.169, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /sakura/, ws-headers: {Host: zero1.a-yu.xyz}}
-  - {name: 🇨🇦 _CA_加拿大 18, server: 134.195.196.68, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 🇨🇦 加拿大【YouTube由零開始】 19, server: 134.195.196.68, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 🇳🇱 _US_美国->🇳🇱_NL_荷兰, server: cloudflare.xrenblog.com, port: 443, type: vmess, uuid: 6c175d1a-a57f-4881-a471-173eb139694b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /xrenblog/, ws-headers: {Host: ipv6.xrenblog.com}}
-  - {name: CA_(yudou66.com 玉豆分享) 2, server: 134.195.196.3, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 🇨🇦 加拿大【YouTube由零開始】 20, server: 134.195.196.68, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇨🇦 加拿大(yudou66.com 玉豆分享) 10, server: 134.195.196.68, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 🇨🇦 加拿大【YouTube由零開始】 21, server: 134.195.196.81, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 🇨🇦 _CA_加拿大(yudou66.com 玉豆分享) 3, server: 134.195.196.187, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇨🇦 _CA_加拿大(yudou66.com 玉豆分享) 4, server: 134.195.196.187, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇨🇦 加拿大【YouTube由零開始】 22, server: 134.195.196.187, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 🇨🇦 _CA_加拿大 19, server: 134.195.196.68, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇨🇦 加拿大【YouTube由零開始】 23, server: 134.195.196.187, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇨🇦 加拿大【YouTube由零開始】 24, server: 134.195.196.187, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君), server: ahdaeph8.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: ahdaeph8.com}}
-  - {name: 🇨🇦 _CA_加拿大 20, server: 134.195.196.3, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: CA_(yudou66.com 玉豆分享) 3, server: 134.195.196.81, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇨🇦 加拿大(yudou66.com 玉豆分享) 11, server: 134.195.196.81, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇨🇦 _CA_加拿大 21, server: 134.195.196.68, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇨🇦 _CA_加拿大 22, server: 134.195.196.187, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: 🇨🇦 加拿大(yudou66.com 玉豆分享) 12, server: 134.195.196.81, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: 🇫🇷 法国【YouTube由零開始】 5, server: 51.255.66.185, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇨🇦 加拿大【YouTube由零開始】 25, server: 134.195.196.3, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇨🇦 _CA_加拿大 23, server: 134.195.196.68, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: 🇺🇸 美国(yudou66.com 玉豆分享) 15, server: usaadm.oracleusa.ml, port: 2053, type: vmess, uuid: 0b97a9b1-a671-4b32-a02e-17850a466fdc, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: usaadm.oracleusa.ml}}
-  - {name: 🇨🇦 _CA_加拿大(yudou66.com 玉豆分享) 5, server: 134.195.196.187, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: 🇨🇦 加拿大【YouTube由零開始】 26, server: 134.195.196.3, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 🇺🇸 US_油管 TG 8度科技, server: my.aoyyds.ga, port: 8443, type: vmess, uuid: e230dabd-7152-3c22-c9e5-79c84fb76236, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /xsqfvws, ws-headers: {Host: my.aoyyds.ga}}
+  - {name: 🇺🇸 美国【YouTube由零開始】 6, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
+  - {name: 🇻🇳 Ytb:鹏哥分享_越南_28, server: vn.doubledou.win, port: 4588, type: vmess, uuid: c031e096-2d02-39da-8d81-c651e09ed0d1, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /doufen, ws-headers: {Host: vn.doubledou.win}}
+  - {name: 🇨🇦 加拿大【YouTube由零開始】 34, server: 134.195.196.187, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 🇸🇬 新加坡(yudou66.com 玉豆分享), server: iepl01.zerohost.live, port: 11014, type: vmess, uuid: c008a763-2123-312f-bae6-bf7630517e22, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: iepl01.zerohost.live}}
+  - {name: 🇭🇰 香港(yudou66.com 玉豆分享) 2, server: iepl04.zerohost.live, port: 11017, type: vmess, uuid: c008a763-2123-312f-bae6-bf7630517e22, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: iepl04.zerohost.live}}
+  - {name: 🇭🇰 香港阿伟科技@TG/油管 3, server: iepl02.zerohost.live, port: 11006, type: vmess, uuid: c008a763-2123-312f-bae6-bf7630517e22, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: iepl02.zerohost.live}}
+  - {name: 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 16, server: 134.195.196.81, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 🇨🇦 加拿大【YouTube由零開始】 35, server: 134.195.196.81, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇨🇦 加拿大【YouTube由零開始】 36, server: 134.195.196.187, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇨🇳 Ytb:鹏哥分享_中国_7, server: nyyd.zerohost.live, port: 53007, type: vmess, uuid: c008a763-2123-312f-bae6-bf7630517e22, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: aweikeji-YouTube-TG}}
+  - {name: 🇫🇷 法国（欢迎订阅Youtube元亨利贞）, server: 51.255.66.185, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇭🇰 香港(yudou66.com 玉豆分享) 3, server: iepl04.zerohost.live, port: 11003, type: vmess, uuid: c008a763-2123-312f-bae6-bf7630517e22, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: iepl04.zerohost.live}}
+  - {name: 🇨🇦 加拿大【YouTube由零開始】 37, server: 134.195.196.3, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 🇩🇪 (Youtube技术分享室)🇩🇪德国 5, server: 193.108.117.75, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇩🇪 (Youtube技术分享室)🇩🇪德国 6, server: 193.108.117.75, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 🇨🇦 加拿大(yudou66.com 玉豆分享) 5, server: 134.195.196.81, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 🇨🇦 加拿大【YouTube由零開始】 38, server: 134.195.196.187, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 🇨🇦 加拿大【YouTube由零開始】 39, server: 134.195.196.187, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇨🇦 加拿大【YouTube由零開始】 40, server: 134.195.196.81, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 🇺🇸 US美国(Youtube技术分享室) 5, server: 169.197.142.99, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇨🇦 加拿大【YouTube由零開始】 41, server: 134.195.196.187, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 17, server: 134.195.196.81, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇨🇳 中国（欢迎订阅Youtube元亨利贞） 2, server: nyyd.zerohost.live, port: 53009, type: vmess, uuid: c008a763-2123-312f-bae6-bf7630517e22, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: aweikeji-YouTube-TG}}
+  - {name: Ytb:鹏哥分享_40, server: 162.159.204.77, port: 443, type: vmess, uuid: 204a334a-d58e-40ce-e954-1605d0d6993f, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /freebaipiao, ws-headers: {Host: euserv1.aifx.eu.org}}
+  - {name: 🇫🇷 法国【YouTube由零開始】 5, server: 51.255.66.185, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇺🇸 美国阿伟科技@TG/油管
-      - 🇨🇳 台湾(yudou66.com 玉豆分享)
-      - 🇫🇮 芬兰(yudou66.com 玉豆分享)
-      - 🇭🇰 香港(yudou66.com 玉豆分享)
-      - 🇨🇦 加拿大【YouTube由零開始】
+      - 🇺🇸 US美国(Youtube技术分享室)
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞）
       - 🇨🇦 _CA_加拿大(yudou66.com 玉豆分享)
-      - 🇬🇧 _GB_英国
-      - 🇫🇷 法国阿伟科技@TG/油管
-      - 🇭🇰 香港阿伟科技@TG/油管
-      - 🇨🇦 _CA_加拿大
+      - 🇨🇦 加拿大【YouTube由零開始】
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 2
       - 🇨🇦 加拿大【YouTube由零開始】 2
-      - 🇨🇦 _CA_加拿大 2
-      - 🇨🇦 加拿大【YouTube由零開始】 3
-      - 🇨🇦 加拿大【YouTube由零開始】 4
-      - 🇨🇦 _CA_加拿大 3
-      - 🇨🇦 _CA_加拿大 4
-      - 🇺🇸 美国(yudou66.com 玉豆分享)
-      - 🇺🇸 美国【YouTube由零開始】
-      - 🇨🇦 加拿大【YouTube由零開始】 5
-      - 🇺🇸 美国【YouTube由零開始】 2
-      - 🇺🇸 美国(yudou66.com 玉豆分享) 2
-      - 🇭🇰 香港阿伟科技@TG/油管 2
-      - 🇳🇱 荷兰阿伟科技@TG/油管
-      - 🇺🇸 美国阿伟科技@TG/油管 2
-      - 🇨🇦 _CA_加拿大 5
-      - 欧(yudou66.com 玉豆分享)
-      - 🇨🇦 加拿大【YouTube由零開始】 6
+      - 🇨🇦 _CA_加拿大
       - 🇬🇧 英国【YouTube由零開始】
-      - 🇨🇦 加拿大(yudou66.com 玉豆分享)
-      - 🇬🇧 英国【YouTube由零開始】 2
+      - 🇨🇦 Ytb:鹏哥分享_加拿大_1
+      - 🇨🇦 Ytb:鹏哥分享_加拿大_19
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 3
+      - 🇨🇳 中国（欢迎订阅Youtube元亨利贞）
+      - 🇨🇦 加拿大【YouTube由零開始】 3
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 4
+      - 🇨🇦 Ytb:鹏哥分享_加拿大_3
+      - 🇨🇦 加拿大【YouTube由零開始】 4
+      - 🇨🇦 加拿大【YouTube由零開始】 5
+      - 🇨🇦 加拿大【YouTube由零開始】 6
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 5
+      - 🇬🇧 英国（欢迎订阅Youtube元亨利贞）
       - 🇨🇦 加拿大【YouTube由零開始】 7
-      - 🇨🇦 _CA_加拿大 6
-      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 2
+      - 🇬🇧 英国【YouTube由零開始】 2
+      - 🇭🇰 HK_油管 TG 8度科技
       - 🇨🇦 加拿大【YouTube由零開始】 8
-      - 🇨🇦 _CA_加拿大 7
-      - 🇨🇦 加拿大【YouTube由零開始】 9
-      - 🇨🇭 瑞士(yudou66.com 玉豆分享)
+      - 🇺🇸 Ytb:鹏哥分享_美国_56
+      - 🇨🇦 _CA_加拿大 2
+      - 🇨🇦 Ytb:鹏哥分享_加拿大_9
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 6
       - 🇫🇷 法国【YouTube由零開始】
-      - 🇨🇦 加拿大【YouTube由零開始】 10
-      - 🇭🇰 香港阿伟科技@TG/油管 3
-      - 🇺🇸 美国(yudou66.com 玉豆分享) 3
-      - 🇭🇰 香港阿伟科技@TG/油管 4
-      - 🇨🇳 台湾(yudou66.com 玉豆分享) 2
-      - 🇨🇦 _CA_加拿大 8
-      - 油管 TG 8度科技
-      - 🇭🇰 香港(yudou66.com 玉豆分享) 2
-      - 🇨🇦 加拿大【YouTube由零開始】 11
-      - 油管 TG 8度科技 2
-      - 🇺🇸 US_油管 TG 8度科技
-      - 🇺🇸 美国(yudou66.com 玉豆分享) 4
-      - 🇭🇰 香港阿伟科技@TG/油管 5
-      - ZZ_3537+|13.93Mb
-      - 🇺🇸 美国(yudou66.com 玉豆分享) 5
-      - 🇸🇬 新加坡(yudou66.com 玉豆分享)
-      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 3
-      - 🇨🇦 _CA_加拿大 9
-      - 🇺🇸 美国(yudou66.com 玉豆分享) 6
-      - 🇷🇺 俄罗斯(yudou66.com 玉豆分享)
-      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 4
-      - 🇨🇦 _CA_加拿大 10
-      - 🇭🇰 香港(yudou66.com 玉豆分享) 3
-      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 5
-      - 🇨🇦 加拿大【YouTube由零開始】 12
-      - 🇨🇦 加拿大【YouTube由零開始】 13
-      - 🇩🇪 德国阿伟科技@TG/油管
-      - 🇨🇦 加拿大【YouTube由零開始】 14
-      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 6
-      - 🇨🇦 _CA_加拿大 11
-      - 🇭🇰 香港(欢迎订阅Youtube破解资源君)
-      - 🇨🇦 加拿大【YouTube由零開始】 15
-      - 🇺🇸 美国(yudou66.com 玉豆分享) 7
-      - 🇨🇦 加拿大【YouTube由零開始】 16
-      - 🇺🇸 美国(yudou66.com 玉豆分享) 8
-      - 🇺🇸 美国(yudou66.com 玉豆分享) 9
-      - 🇬🇧 英国【YouTube由零開始】 3
-      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 7
-      - 🇨🇳 中国(yudou66.com 玉豆分享)
-      - CA_(yudou66.com 玉豆分享)
-      - 🇨🇦 加拿大【YouTube由零開始】 17
-      - 🇺🇸 美国【YouTube由零開始】 3
-      - 🇬🇧 _GB_英国 2
-      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 8
-      - 🇫🇷 法国【YouTube由零開始】 2
-      - 🇺🇸 美国阿伟科技@TG/油管 3
-      - 🇺🇸 美国阿伟科技@TG/油管 4
-      - 🇺🇸 美国(yudou66.com 玉豆分享) 10
-      - 🇺🇸 美国(yudou66.com 玉豆分享) 11
-      - 🇺🇸 _US_美国
-      - 🇭🇰 香港阿伟科技@TG/油管 6
-      - 🇨🇦 _CA_加拿大 12
-      - 🇮🇳 印度【YouTube由零開始】
-      - 🇨🇦 _CA_加拿大 13
-      - 🇺🇸 US_(yudou66.com 玉豆分享)
-      - 🇨🇦 _CA_加拿大 14
-      - 🇨🇳 台湾阿伟科技@TG/油管
+      - 🇺🇸 Ytb:鹏哥分享_美国_21
+      - 🇨🇦 Ytb:鹏哥分享_加拿大_39
+      - 🇨🇦 _CA_加拿大 3
       - 🇨🇦 _CA_加拿大(yudou66.com 玉豆分享) 2
-      - 🇨🇦 加拿大【YouTube由零開始】 18
-      - 🇫🇷 法国阿伟科技@TG/油管 2
-      - 🇭🇰 香港阿伟科技@TG/油管 7
-      - 🇨🇳 中国【YouTube由零開始】
-      - 🇺🇸 美国(yudou66.com 玉豆分享) 12
-      - 🇫🇷 法国【YouTube由零開始】 3
-      - 🇺🇸 美国(yudou66.com 玉豆分享) 13
-      - 🇯🇵 日本【YouTube由零開始】
-      - 🇫🇷 法国【YouTube由零開始】 4
-      - 🇺🇸 美国(yudou66.com 玉豆分享) 14
-      - 🇺🇸 美国阿伟科技@TG/油管 5
-      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 9
-      - 🇬🇧 英国【YouTube由零開始】 4
-      - 🇨🇦 _CA_加拿大 15
-      - 🇬🇧 英国(yudou66.com 玉豆分享)
-      - 🇬🇧 英国(yudou66.com 玉豆分享) 2
-      - 🇺🇸 美国【YouTube由零開始】 4
-      - 🇸🇬 新加坡阿伟科技@TG/油管
-      - 🇨🇦 _CA_加拿大 16
-      - 🇨🇦 _CA_加拿大 17
-      - 【YouTube由零開始】
-      - 🇨🇦 _CA_加拿大 18
-      - 🇨🇦 加拿大【YouTube由零開始】 19
-      - 🇳🇱 _US_美国->🇳🇱_NL_荷兰
-      - CA_(yudou66.com 玉豆分享) 2
-      - 🇨🇦 加拿大【YouTube由零開始】 20
-      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 10
-      - 🇨🇦 加拿大【YouTube由零開始】 21
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 7
+      - 🇨🇦 加拿大【YouTube由零開始】 9
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享)
+      - 🇨🇦 加拿大【YouTube由零開始】 10
+      - 🇩🇪 (Youtube技术分享室)🇩🇪德国
+      - 🇨🇦 _CA_加拿大 4
+      - 🇺🇸 美国【YouTube由零開始】
+      - 🇨🇦 CA加拿大(Youtube技术分享室)
+      - 🇺🇸 美国（欢迎订阅Youtube元亨利贞）
+      - 🇬🇧 英国【YouTube由零開始】 3
+      - 🇺🇸 美国(yudou66.com 玉豆分享)
+      - (Youtube技术分享室)
+      - 🇺🇸 US美国(Youtube技术分享室) 2
+      - 🇨🇦 加拿大【YouTube由零開始】 11
+      - 🇨🇦 加拿大【YouTube由零開始】 12
+      - 🇺🇸 美国（欢迎订阅Youtube元亨利贞） 2
+      - 🇨🇦 加拿大【YouTube由零開始】 13
+      - 🇨🇦 加拿大【YouTube由零開始】 14
+      - CA_(yudou66.com 玉豆分享)
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 2
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 3
       - 🇨🇦 _CA_加拿大(yudou66.com 玉豆分享) 3
-      - 🇨🇦 _CA_加拿大(yudou66.com 玉豆分享) 4
+      - 🇫🇷 法国【YouTube由零開始】 2
+      - 🇨🇦 CA加拿大(Youtube技术分享室) 2
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 8
+      - 🇨🇦 Ytb:鹏哥分享_加拿大_50
+      - 欧(yudou66.com 玉豆分享)
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 9
+      - 🇺🇸 美国（欢迎订阅Youtube元亨利贞） 3
+      - 🇩🇪 (Youtube技术分享室)🇩🇪德国 2
+      - 🇨🇦 加拿大【YouTube由零開始】 15
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 10
+      - 🇺🇸 US美国(Youtube技术分享室) 3
+      - 🇺🇸 美国（欢迎订阅Youtube元亨利贞） 4
+      - 🇩🇪 (Youtube技术分享室)🇩🇪德国 3
+      - 🇨🇦 加拿大【YouTube由零開始】 16
+      - 🇨🇦 _CA_加拿大 5
+      - 🇭🇰 香港阿伟科技@TG/油管
+      - 🇨🇦 加拿大【YouTube由零開始】 17
+      - 🇭🇰 HK_油管 TG 8度科技 2
+      - 🇬🇧 _GB_英国
+      - 🇨🇦 加拿大【YouTube由零開始】 18
+      - 🇨🇦 加拿大【YouTube由零開始】 19
+      - 🇭🇰 HK_油管 TG 8度科技 3
+      - 🇭🇰 HK_油管 TG 8度科技 4
+      - 🇺🇸 Ytb:鹏哥分享_美国_16
+      - 🇺🇸 美国【YouTube由零開始】 2
+      - 🇫🇷 法国【YouTube由零開始】 3
+      - 🇨🇦 加拿大【YouTube由零開始】 20
+      - 🇨🇦 加拿大【YouTube由零開始】 21
       - 🇨🇦 加拿大【YouTube由零開始】 22
-      - 🇨🇦 _CA_加拿大 19
+      - 🇬🇧 英国【YouTube由零開始】 4
       - 🇨🇦 加拿大【YouTube由零開始】 23
       - 🇨🇦 加拿大【YouTube由零開始】 24
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)
-      - 🇨🇦 _CA_加拿大 20
-      - CA_(yudou66.com 玉豆分享) 3
-      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 11
-      - 🇨🇦 _CA_加拿大 21
-      - 🇨🇦 _CA_加拿大 22
-      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 12
-      - 🇫🇷 法国【YouTube由零開始】 5
       - 🇨🇦 加拿大【YouTube由零開始】 25
-      - 🇨🇦 _CA_加拿大 23
-      - 🇺🇸 美国(yudou66.com 玉豆分享) 15
-      - 🇨🇦 _CA_加拿大(yudou66.com 玉豆分享) 5
+      - 🇨🇳 Ytb:鹏哥分享_中国_2
+      - 🇭🇰 HK_油管 TG 8度科技 5
+      - 🇺🇸 美国【YouTube由零開始】 3
+      - 🇭🇰 HK_油管 TG 8度科技 6
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 11
+      - （欢迎订阅Youtube元亨利贞）
+      - 🇭🇰 HK_油管 TG 8度科技 7
+      - 🇭🇰 HK_油管 TG 8度科技 8
       - 🇨🇦 加拿大【YouTube由零開始】 26
+      - 🇭🇰 HK_油管 TG 8度科技 9
+      - 🇭🇰 HK_油管 TG 8度科技 10
+      - 🇭🇰 HK_油管 TG 8度科技 11
+      - 🇭🇰 HK_油管 TG 8度科技 12
+      - 🇨🇦 加拿大【YouTube由零開始】 27
+      - 🇭🇰 HK_油管 TG 8度科技 13
+      - 🇺🇸 美国🇺🇸(Youtube技术分享室)
+      - 🇭🇰 HK_油管 TG 8度科技 14
+      - 🇭🇰 HK_油管 TG 8度科技 15
+      - 🇭🇰 HK_油管 TG 8度科技 16
+      - 🇨🇳 台湾阿伟科技@TG/油管
+      - 🇨🇦 加拿大【YouTube由零開始】 28
+      - 🇭🇰 HK_油管 TG 8度科技 17
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 4
+      - (技术分享室整理,欢迎订阅)
+      - 🇨🇳 中国【YouTube由零開始】
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 12
+      - 🇭🇰 香港(yudou66.com 玉豆分享)
+      - 🇨🇦 加拿大【YouTube由零開始】 29
+      - (Youtube技术分享室) 2
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 13
+      - CA_(yudou66.com 玉豆分享) 2
+      - 🇨🇦 加拿大【YouTube由零開始】 30
+      - 🇸🇬 Ytb:鹏哥分享_新加坡_4
+      - 🇺🇸 US美国(Youtube技术分享室) 4
+      - 🇩🇪 (Youtube技术分享室)🇩🇪德国 4
+      - 🇨🇦 Ytb:鹏哥分享_加拿大_32
+      - 🇨🇦 加拿大【YouTube由零開始】 31
+      - （欢迎订阅Youtube元亨利贞） 2
+      - 🇯🇵 日本【YouTube由零開始】
+      - 🇭🇰 Ytb:鹏哥分享_香港_46
+      - 🇨🇦 加拿大【YouTube由零開始】 32
+      - 🇬🇧 英国（欢迎订阅Youtube元亨利贞） 2
+      - 🇭🇰 香港阿伟科技@TG/油管 2
+      - 🇺🇸 美国【YouTube由零開始】 4
+      - 🇨🇳 Ytb:鹏哥分享_中国_38
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 2
+      - 🇺🇸 美国【YouTube由零開始】 5
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 14
+      - 🇫🇷 法国【YouTube由零開始】 4
+      - 🇨🇦 加拿大【YouTube由零開始】 33
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 15
+      - 🇸🇬 新加坡阿伟科技@TG/油管
+      - 🇺🇸 US_油管 TG 8度科技
+      - 🇺🇸 美国【YouTube由零開始】 6
+      - 🇻🇳 Ytb:鹏哥分享_越南_28
+      - 🇨🇦 加拿大【YouTube由零開始】 34
+      - 🇸🇬 新加坡(yudou66.com 玉豆分享)
+      - 🇭🇰 香港(yudou66.com 玉豆分享) 2
+      - 🇭🇰 香港阿伟科技@TG/油管 3
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 16
+      - 🇨🇦 加拿大【YouTube由零開始】 35
+      - 🇨🇦 加拿大【YouTube由零開始】 36
+      - 🇨🇳 Ytb:鹏哥分享_中国_7
+      - 🇫🇷 法国（欢迎订阅Youtube元亨利贞）
+      - 🇭🇰 香港(yudou66.com 玉豆分享) 3
+      - 🇨🇦 加拿大【YouTube由零開始】 37
+      - 🇩🇪 (Youtube技术分享室)🇩🇪德国 5
+      - 🇩🇪 (Youtube技术分享室)🇩🇪德国 6
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 5
+      - 🇨🇦 加拿大【YouTube由零開始】 38
+      - 🇨🇦 加拿大【YouTube由零開始】 39
+      - 🇨🇦 加拿大【YouTube由零開始】 40
+      - 🇺🇸 US美国(Youtube技术分享室) 5
+      - 🇨🇦 加拿大【YouTube由零開始】 41
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 17
+      - 🇨🇳 中国（欢迎订阅Youtube元亨利贞） 2
+      - Ytb:鹏哥分享_40
+      - 🇫🇷 法国【YouTube由零開始】 5
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇸 美国阿伟科技@TG/油管
-      - 🇨🇳 台湾(yudou66.com 玉豆分享)
-      - 🇫🇮 芬兰(yudou66.com 玉豆分享)
-      - 🇭🇰 香港(yudou66.com 玉豆分享)
-      - 🇨🇦 加拿大【YouTube由零開始】
+      - 🇺🇸 US美国(Youtube技术分享室)
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞）
       - 🇨🇦 _CA_加拿大(yudou66.com 玉豆分享)
-      - 🇬🇧 _GB_英国
-      - 🇫🇷 法国阿伟科技@TG/油管
-      - 🇭🇰 香港阿伟科技@TG/油管
-      - 🇨🇦 _CA_加拿大
+      - 🇨🇦 加拿大【YouTube由零開始】
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 2
       - 🇨🇦 加拿大【YouTube由零開始】 2
-      - 🇨🇦 _CA_加拿大 2
-      - 🇨🇦 加拿大【YouTube由零開始】 3
-      - 🇨🇦 加拿大【YouTube由零開始】 4
-      - 🇨🇦 _CA_加拿大 3
-      - 🇨🇦 _CA_加拿大 4
-      - 🇺🇸 美国(yudou66.com 玉豆分享)
-      - 🇺🇸 美国【YouTube由零開始】
-      - 🇨🇦 加拿大【YouTube由零開始】 5
-      - 🇺🇸 美国【YouTube由零開始】 2
-      - 🇺🇸 美国(yudou66.com 玉豆分享) 2
-      - 🇭🇰 香港阿伟科技@TG/油管 2
-      - 🇳🇱 荷兰阿伟科技@TG/油管
-      - 🇺🇸 美国阿伟科技@TG/油管 2
-      - 🇨🇦 _CA_加拿大 5
-      - 欧(yudou66.com 玉豆分享)
-      - 🇨🇦 加拿大【YouTube由零開始】 6
+      - 🇨🇦 _CA_加拿大
       - 🇬🇧 英国【YouTube由零開始】
-      - 🇨🇦 加拿大(yudou66.com 玉豆分享)
-      - 🇬🇧 英国【YouTube由零開始】 2
+      - 🇨🇦 Ytb:鹏哥分享_加拿大_1
+      - 🇨🇦 Ytb:鹏哥分享_加拿大_19
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 3
+      - 🇨🇳 中国（欢迎订阅Youtube元亨利贞）
+      - 🇨🇦 加拿大【YouTube由零開始】 3
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 4
+      - 🇨🇦 Ytb:鹏哥分享_加拿大_3
+      - 🇨🇦 加拿大【YouTube由零開始】 4
+      - 🇨🇦 加拿大【YouTube由零開始】 5
+      - 🇨🇦 加拿大【YouTube由零開始】 6
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 5
+      - 🇬🇧 英国（欢迎订阅Youtube元亨利贞）
       - 🇨🇦 加拿大【YouTube由零開始】 7
-      - 🇨🇦 _CA_加拿大 6
-      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 2
+      - 🇬🇧 英国【YouTube由零開始】 2
+      - 🇭🇰 HK_油管 TG 8度科技
       - 🇨🇦 加拿大【YouTube由零開始】 8
-      - 🇨🇦 _CA_加拿大 7
-      - 🇨🇦 加拿大【YouTube由零開始】 9
-      - 🇨🇭 瑞士(yudou66.com 玉豆分享)
+      - 🇺🇸 Ytb:鹏哥分享_美国_56
+      - 🇨🇦 _CA_加拿大 2
+      - 🇨🇦 Ytb:鹏哥分享_加拿大_9
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 6
       - 🇫🇷 法国【YouTube由零開始】
-      - 🇨🇦 加拿大【YouTube由零開始】 10
-      - 🇭🇰 香港阿伟科技@TG/油管 3
-      - 🇺🇸 美国(yudou66.com 玉豆分享) 3
-      - 🇭🇰 香港阿伟科技@TG/油管 4
-      - 🇨🇳 台湾(yudou66.com 玉豆分享) 2
-      - 🇨🇦 _CA_加拿大 8
-      - 油管 TG 8度科技
-      - 🇭🇰 香港(yudou66.com 玉豆分享) 2
-      - 🇨🇦 加拿大【YouTube由零開始】 11
-      - 油管 TG 8度科技 2
-      - 🇺🇸 US_油管 TG 8度科技
-      - 🇺🇸 美国(yudou66.com 玉豆分享) 4
-      - 🇭🇰 香港阿伟科技@TG/油管 5
-      - ZZ_3537+|13.93Mb
-      - 🇺🇸 美国(yudou66.com 玉豆分享) 5
-      - 🇸🇬 新加坡(yudou66.com 玉豆分享)
-      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 3
-      - 🇨🇦 _CA_加拿大 9
-      - 🇺🇸 美国(yudou66.com 玉豆分享) 6
-      - 🇷🇺 俄罗斯(yudou66.com 玉豆分享)
-      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 4
-      - 🇨🇦 _CA_加拿大 10
-      - 🇭🇰 香港(yudou66.com 玉豆分享) 3
-      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 5
-      - 🇨🇦 加拿大【YouTube由零開始】 12
-      - 🇨🇦 加拿大【YouTube由零開始】 13
-      - 🇩🇪 德国阿伟科技@TG/油管
-      - 🇨🇦 加拿大【YouTube由零開始】 14
-      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 6
-      - 🇨🇦 _CA_加拿大 11
-      - 🇭🇰 香港(欢迎订阅Youtube破解资源君)
-      - 🇨🇦 加拿大【YouTube由零開始】 15
-      - 🇺🇸 美国(yudou66.com 玉豆分享) 7
-      - 🇨🇦 加拿大【YouTube由零開始】 16
-      - 🇺🇸 美国(yudou66.com 玉豆分享) 8
-      - 🇺🇸 美国(yudou66.com 玉豆分享) 9
-      - 🇬🇧 英国【YouTube由零開始】 3
-      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 7
-      - 🇨🇳 中国(yudou66.com 玉豆分享)
-      - CA_(yudou66.com 玉豆分享)
-      - 🇨🇦 加拿大【YouTube由零開始】 17
-      - 🇺🇸 美国【YouTube由零開始】 3
-      - 🇬🇧 _GB_英国 2
-      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 8
-      - 🇫🇷 法国【YouTube由零開始】 2
-      - 🇺🇸 美国阿伟科技@TG/油管 3
-      - 🇺🇸 美国阿伟科技@TG/油管 4
-      - 🇺🇸 美国(yudou66.com 玉豆分享) 10
-      - 🇺🇸 美国(yudou66.com 玉豆分享) 11
-      - 🇺🇸 _US_美国
-      - 🇭🇰 香港阿伟科技@TG/油管 6
-      - 🇨🇦 _CA_加拿大 12
-      - 🇮🇳 印度【YouTube由零開始】
-      - 🇨🇦 _CA_加拿大 13
-      - 🇺🇸 US_(yudou66.com 玉豆分享)
-      - 🇨🇦 _CA_加拿大 14
-      - 🇨🇳 台湾阿伟科技@TG/油管
+      - 🇺🇸 Ytb:鹏哥分享_美国_21
+      - 🇨🇦 Ytb:鹏哥分享_加拿大_39
+      - 🇨🇦 _CA_加拿大 3
       - 🇨🇦 _CA_加拿大(yudou66.com 玉豆分享) 2
-      - 🇨🇦 加拿大【YouTube由零開始】 18
-      - 🇫🇷 法国阿伟科技@TG/油管 2
-      - 🇭🇰 香港阿伟科技@TG/油管 7
-      - 🇨🇳 中国【YouTube由零開始】
-      - 🇺🇸 美国(yudou66.com 玉豆分享) 12
-      - 🇫🇷 法国【YouTube由零開始】 3
-      - 🇺🇸 美国(yudou66.com 玉豆分享) 13
-      - 🇯🇵 日本【YouTube由零開始】
-      - 🇫🇷 法国【YouTube由零開始】 4
-      - 🇺🇸 美国(yudou66.com 玉豆分享) 14
-      - 🇺🇸 美国阿伟科技@TG/油管 5
-      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 9
-      - 🇬🇧 英国【YouTube由零開始】 4
-      - 🇨🇦 _CA_加拿大 15
-      - 🇬🇧 英国(yudou66.com 玉豆分享)
-      - 🇬🇧 英国(yudou66.com 玉豆分享) 2
-      - 🇺🇸 美国【YouTube由零開始】 4
-      - 🇸🇬 新加坡阿伟科技@TG/油管
-      - 🇨🇦 _CA_加拿大 16
-      - 🇨🇦 _CA_加拿大 17
-      - 【YouTube由零開始】
-      - 🇨🇦 _CA_加拿大 18
-      - 🇨🇦 加拿大【YouTube由零開始】 19
-      - 🇳🇱 _US_美国->🇳🇱_NL_荷兰
-      - CA_(yudou66.com 玉豆分享) 2
-      - 🇨🇦 加拿大【YouTube由零開始】 20
-      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 10
-      - 🇨🇦 加拿大【YouTube由零開始】 21
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 7
+      - 🇨🇦 加拿大【YouTube由零開始】 9
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享)
+      - 🇨🇦 加拿大【YouTube由零開始】 10
+      - 🇩🇪 (Youtube技术分享室)🇩🇪德国
+      - 🇨🇦 _CA_加拿大 4
+      - 🇺🇸 美国【YouTube由零開始】
+      - 🇨🇦 CA加拿大(Youtube技术分享室)
+      - 🇺🇸 美国（欢迎订阅Youtube元亨利贞）
+      - 🇬🇧 英国【YouTube由零開始】 3
+      - 🇺🇸 美国(yudou66.com 玉豆分享)
+      - (Youtube技术分享室)
+      - 🇺🇸 US美国(Youtube技术分享室) 2
+      - 🇨🇦 加拿大【YouTube由零開始】 11
+      - 🇨🇦 加拿大【YouTube由零開始】 12
+      - 🇺🇸 美国（欢迎订阅Youtube元亨利贞） 2
+      - 🇨🇦 加拿大【YouTube由零開始】 13
+      - 🇨🇦 加拿大【YouTube由零開始】 14
+      - CA_(yudou66.com 玉豆分享)
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 2
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 3
       - 🇨🇦 _CA_加拿大(yudou66.com 玉豆分享) 3
-      - 🇨🇦 _CA_加拿大(yudou66.com 玉豆分享) 4
+      - 🇫🇷 法国【YouTube由零開始】 2
+      - 🇨🇦 CA加拿大(Youtube技术分享室) 2
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 8
+      - 🇨🇦 Ytb:鹏哥分享_加拿大_50
+      - 欧(yudou66.com 玉豆分享)
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 9
+      - 🇺🇸 美国（欢迎订阅Youtube元亨利贞） 3
+      - 🇩🇪 (Youtube技术分享室)🇩🇪德国 2
+      - 🇨🇦 加拿大【YouTube由零開始】 15
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 10
+      - 🇺🇸 US美国(Youtube技术分享室) 3
+      - 🇺🇸 美国（欢迎订阅Youtube元亨利贞） 4
+      - 🇩🇪 (Youtube技术分享室)🇩🇪德国 3
+      - 🇨🇦 加拿大【YouTube由零開始】 16
+      - 🇨🇦 _CA_加拿大 5
+      - 🇭🇰 香港阿伟科技@TG/油管
+      - 🇨🇦 加拿大【YouTube由零開始】 17
+      - 🇭🇰 HK_油管 TG 8度科技 2
+      - 🇬🇧 _GB_英国
+      - 🇨🇦 加拿大【YouTube由零開始】 18
+      - 🇨🇦 加拿大【YouTube由零開始】 19
+      - 🇭🇰 HK_油管 TG 8度科技 3
+      - 🇭🇰 HK_油管 TG 8度科技 4
+      - 🇺🇸 Ytb:鹏哥分享_美国_16
+      - 🇺🇸 美国【YouTube由零開始】 2
+      - 🇫🇷 法国【YouTube由零開始】 3
+      - 🇨🇦 加拿大【YouTube由零開始】 20
+      - 🇨🇦 加拿大【YouTube由零開始】 21
       - 🇨🇦 加拿大【YouTube由零開始】 22
-      - 🇨🇦 _CA_加拿大 19
+      - 🇬🇧 英国【YouTube由零開始】 4
       - 🇨🇦 加拿大【YouTube由零開始】 23
       - 🇨🇦 加拿大【YouTube由零開始】 24
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)
-      - 🇨🇦 _CA_加拿大 20
-      - CA_(yudou66.com 玉豆分享) 3
-      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 11
-      - 🇨🇦 _CA_加拿大 21
-      - 🇨🇦 _CA_加拿大 22
-      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 12
-      - 🇫🇷 法国【YouTube由零開始】 5
       - 🇨🇦 加拿大【YouTube由零開始】 25
-      - 🇨🇦 _CA_加拿大 23
-      - 🇺🇸 美国(yudou66.com 玉豆分享) 15
-      - 🇨🇦 _CA_加拿大(yudou66.com 玉豆分享) 5
+      - 🇨🇳 Ytb:鹏哥分享_中国_2
+      - 🇭🇰 HK_油管 TG 8度科技 5
+      - 🇺🇸 美国【YouTube由零開始】 3
+      - 🇭🇰 HK_油管 TG 8度科技 6
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 11
+      - （欢迎订阅Youtube元亨利贞）
+      - 🇭🇰 HK_油管 TG 8度科技 7
+      - 🇭🇰 HK_油管 TG 8度科技 8
       - 🇨🇦 加拿大【YouTube由零開始】 26
+      - 🇭🇰 HK_油管 TG 8度科技 9
+      - 🇭🇰 HK_油管 TG 8度科技 10
+      - 🇭🇰 HK_油管 TG 8度科技 11
+      - 🇭🇰 HK_油管 TG 8度科技 12
+      - 🇨🇦 加拿大【YouTube由零開始】 27
+      - 🇭🇰 HK_油管 TG 8度科技 13
+      - 🇺🇸 美国🇺🇸(Youtube技术分享室)
+      - 🇭🇰 HK_油管 TG 8度科技 14
+      - 🇭🇰 HK_油管 TG 8度科技 15
+      - 🇭🇰 HK_油管 TG 8度科技 16
+      - 🇨🇳 台湾阿伟科技@TG/油管
+      - 🇨🇦 加拿大【YouTube由零開始】 28
+      - 🇭🇰 HK_油管 TG 8度科技 17
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 4
+      - (技术分享室整理,欢迎订阅)
+      - 🇨🇳 中国【YouTube由零開始】
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 12
+      - 🇭🇰 香港(yudou66.com 玉豆分享)
+      - 🇨🇦 加拿大【YouTube由零開始】 29
+      - (Youtube技术分享室) 2
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 13
+      - CA_(yudou66.com 玉豆分享) 2
+      - 🇨🇦 加拿大【YouTube由零開始】 30
+      - 🇸🇬 Ytb:鹏哥分享_新加坡_4
+      - 🇺🇸 US美国(Youtube技术分享室) 4
+      - 🇩🇪 (Youtube技术分享室)🇩🇪德国 4
+      - 🇨🇦 Ytb:鹏哥分享_加拿大_32
+      - 🇨🇦 加拿大【YouTube由零開始】 31
+      - （欢迎订阅Youtube元亨利贞） 2
+      - 🇯🇵 日本【YouTube由零開始】
+      - 🇭🇰 Ytb:鹏哥分享_香港_46
+      - 🇨🇦 加拿大【YouTube由零開始】 32
+      - 🇬🇧 英国（欢迎订阅Youtube元亨利贞） 2
+      - 🇭🇰 香港阿伟科技@TG/油管 2
+      - 🇺🇸 美国【YouTube由零開始】 4
+      - 🇨🇳 Ytb:鹏哥分享_中国_38
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 2
+      - 🇺🇸 美国【YouTube由零開始】 5
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 14
+      - 🇫🇷 法国【YouTube由零開始】 4
+      - 🇨🇦 加拿大【YouTube由零開始】 33
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 15
+      - 🇸🇬 新加坡阿伟科技@TG/油管
+      - 🇺🇸 US_油管 TG 8度科技
+      - 🇺🇸 美国【YouTube由零開始】 6
+      - 🇻🇳 Ytb:鹏哥分享_越南_28
+      - 🇨🇦 加拿大【YouTube由零開始】 34
+      - 🇸🇬 新加坡(yudou66.com 玉豆分享)
+      - 🇭🇰 香港(yudou66.com 玉豆分享) 2
+      - 🇭🇰 香港阿伟科技@TG/油管 3
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 16
+      - 🇨🇦 加拿大【YouTube由零開始】 35
+      - 🇨🇦 加拿大【YouTube由零開始】 36
+      - 🇨🇳 Ytb:鹏哥分享_中国_7
+      - 🇫🇷 法国（欢迎订阅Youtube元亨利贞）
+      - 🇭🇰 香港(yudou66.com 玉豆分享) 3
+      - 🇨🇦 加拿大【YouTube由零開始】 37
+      - 🇩🇪 (Youtube技术分享室)🇩🇪德国 5
+      - 🇩🇪 (Youtube技术分享室)🇩🇪德国 6
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 5
+      - 🇨🇦 加拿大【YouTube由零開始】 38
+      - 🇨🇦 加拿大【YouTube由零開始】 39
+      - 🇨🇦 加拿大【YouTube由零開始】 40
+      - 🇺🇸 US美国(Youtube技术分享室) 5
+      - 🇨🇦 加拿大【YouTube由零開始】 41
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 17
+      - 🇨🇳 中国（欢迎订阅Youtube元亨利贞） 2
+      - Ytb:鹏哥分享_40
+      - 🇫🇷 法国【YouTube由零開始】 5
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 美国阿伟科技@TG/油管
-      - 🇨🇳 台湾(yudou66.com 玉豆分享)
-      - 🇫🇮 芬兰(yudou66.com 玉豆分享)
-      - 🇭🇰 香港(yudou66.com 玉豆分享)
-      - 🇨🇦 加拿大【YouTube由零開始】
+      - 🇺🇸 US美国(Youtube技术分享室)
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞）
       - 🇨🇦 _CA_加拿大(yudou66.com 玉豆分享)
-      - 🇬🇧 _GB_英国
-      - 🇫🇷 法国阿伟科技@TG/油管
-      - 🇭🇰 香港阿伟科技@TG/油管
-      - 🇨🇦 _CA_加拿大
+      - 🇨🇦 加拿大【YouTube由零開始】
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 2
       - 🇨🇦 加拿大【YouTube由零開始】 2
-      - 🇨🇦 _CA_加拿大 2
-      - 🇨🇦 加拿大【YouTube由零開始】 3
-      - 🇨🇦 加拿大【YouTube由零開始】 4
-      - 🇨🇦 _CA_加拿大 3
-      - 🇨🇦 _CA_加拿大 4
-      - 🇺🇸 美国(yudou66.com 玉豆分享)
-      - 🇺🇸 美国【YouTube由零開始】
-      - 🇨🇦 加拿大【YouTube由零開始】 5
-      - 🇺🇸 美国【YouTube由零開始】 2
-      - 🇺🇸 美国(yudou66.com 玉豆分享) 2
-      - 🇭🇰 香港阿伟科技@TG/油管 2
-      - 🇳🇱 荷兰阿伟科技@TG/油管
-      - 🇺🇸 美国阿伟科技@TG/油管 2
-      - 🇨🇦 _CA_加拿大 5
-      - 欧(yudou66.com 玉豆分享)
-      - 🇨🇦 加拿大【YouTube由零開始】 6
+      - 🇨🇦 _CA_加拿大
       - 🇬🇧 英国【YouTube由零開始】
-      - 🇨🇦 加拿大(yudou66.com 玉豆分享)
-      - 🇬🇧 英国【YouTube由零開始】 2
+      - 🇨🇦 Ytb:鹏哥分享_加拿大_1
+      - 🇨🇦 Ytb:鹏哥分享_加拿大_19
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 3
+      - 🇨🇳 中国（欢迎订阅Youtube元亨利贞）
+      - 🇨🇦 加拿大【YouTube由零開始】 3
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 4
+      - 🇨🇦 Ytb:鹏哥分享_加拿大_3
+      - 🇨🇦 加拿大【YouTube由零開始】 4
+      - 🇨🇦 加拿大【YouTube由零開始】 5
+      - 🇨🇦 加拿大【YouTube由零開始】 6
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 5
+      - 🇬🇧 英国（欢迎订阅Youtube元亨利贞）
       - 🇨🇦 加拿大【YouTube由零開始】 7
-      - 🇨🇦 _CA_加拿大 6
-      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 2
+      - 🇬🇧 英国【YouTube由零開始】 2
+      - 🇭🇰 HK_油管 TG 8度科技
       - 🇨🇦 加拿大【YouTube由零開始】 8
-      - 🇨🇦 _CA_加拿大 7
-      - 🇨🇦 加拿大【YouTube由零開始】 9
-      - 🇨🇭 瑞士(yudou66.com 玉豆分享)
+      - 🇺🇸 Ytb:鹏哥分享_美国_56
+      - 🇨🇦 _CA_加拿大 2
+      - 🇨🇦 Ytb:鹏哥分享_加拿大_9
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 6
       - 🇫🇷 法国【YouTube由零開始】
-      - 🇨🇦 加拿大【YouTube由零開始】 10
-      - 🇭🇰 香港阿伟科技@TG/油管 3
-      - 🇺🇸 美国(yudou66.com 玉豆分享) 3
-      - 🇭🇰 香港阿伟科技@TG/油管 4
-      - 🇨🇳 台湾(yudou66.com 玉豆分享) 2
-      - 🇨🇦 _CA_加拿大 8
-      - 油管 TG 8度科技
-      - 🇭🇰 香港(yudou66.com 玉豆分享) 2
-      - 🇨🇦 加拿大【YouTube由零開始】 11
-      - 油管 TG 8度科技 2
-      - 🇺🇸 US_油管 TG 8度科技
-      - 🇺🇸 美国(yudou66.com 玉豆分享) 4
-      - 🇭🇰 香港阿伟科技@TG/油管 5
-      - ZZ_3537+|13.93Mb
-      - 🇺🇸 美国(yudou66.com 玉豆分享) 5
-      - 🇸🇬 新加坡(yudou66.com 玉豆分享)
-      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 3
-      - 🇨🇦 _CA_加拿大 9
-      - 🇺🇸 美国(yudou66.com 玉豆分享) 6
-      - 🇷🇺 俄罗斯(yudou66.com 玉豆分享)
-      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 4
-      - 🇨🇦 _CA_加拿大 10
-      - 🇭🇰 香港(yudou66.com 玉豆分享) 3
-      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 5
-      - 🇨🇦 加拿大【YouTube由零開始】 12
-      - 🇨🇦 加拿大【YouTube由零開始】 13
-      - 🇩🇪 德国阿伟科技@TG/油管
-      - 🇨🇦 加拿大【YouTube由零開始】 14
-      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 6
-      - 🇨🇦 _CA_加拿大 11
-      - 🇭🇰 香港(欢迎订阅Youtube破解资源君)
-      - 🇨🇦 加拿大【YouTube由零開始】 15
-      - 🇺🇸 美国(yudou66.com 玉豆分享) 7
-      - 🇨🇦 加拿大【YouTube由零開始】 16
-      - 🇺🇸 美国(yudou66.com 玉豆分享) 8
-      - 🇺🇸 美国(yudou66.com 玉豆分享) 9
-      - 🇬🇧 英国【YouTube由零開始】 3
-      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 7
-      - 🇨🇳 中国(yudou66.com 玉豆分享)
-      - CA_(yudou66.com 玉豆分享)
-      - 🇨🇦 加拿大【YouTube由零開始】 17
-      - 🇺🇸 美国【YouTube由零開始】 3
-      - 🇬🇧 _GB_英国 2
-      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 8
-      - 🇫🇷 法国【YouTube由零開始】 2
-      - 🇺🇸 美国阿伟科技@TG/油管 3
-      - 🇺🇸 美国阿伟科技@TG/油管 4
-      - 🇺🇸 美国(yudou66.com 玉豆分享) 10
-      - 🇺🇸 美国(yudou66.com 玉豆分享) 11
-      - 🇺🇸 _US_美国
-      - 🇭🇰 香港阿伟科技@TG/油管 6
-      - 🇨🇦 _CA_加拿大 12
-      - 🇮🇳 印度【YouTube由零開始】
-      - 🇨🇦 _CA_加拿大 13
-      - 🇺🇸 US_(yudou66.com 玉豆分享)
-      - 🇨🇦 _CA_加拿大 14
-      - 🇨🇳 台湾阿伟科技@TG/油管
+      - 🇺🇸 Ytb:鹏哥分享_美国_21
+      - 🇨🇦 Ytb:鹏哥分享_加拿大_39
+      - 🇨🇦 _CA_加拿大 3
       - 🇨🇦 _CA_加拿大(yudou66.com 玉豆分享) 2
-      - 🇨🇦 加拿大【YouTube由零開始】 18
-      - 🇫🇷 法国阿伟科技@TG/油管 2
-      - 🇭🇰 香港阿伟科技@TG/油管 7
-      - 🇨🇳 中国【YouTube由零開始】
-      - 🇺🇸 美国(yudou66.com 玉豆分享) 12
-      - 🇫🇷 法国【YouTube由零開始】 3
-      - 🇺🇸 美国(yudou66.com 玉豆分享) 13
-      - 🇯🇵 日本【YouTube由零開始】
-      - 🇫🇷 法国【YouTube由零開始】 4
-      - 🇺🇸 美国(yudou66.com 玉豆分享) 14
-      - 🇺🇸 美国阿伟科技@TG/油管 5
-      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 9
-      - 🇬🇧 英国【YouTube由零開始】 4
-      - 🇨🇦 _CA_加拿大 15
-      - 🇬🇧 英国(yudou66.com 玉豆分享)
-      - 🇬🇧 英国(yudou66.com 玉豆分享) 2
-      - 🇺🇸 美国【YouTube由零開始】 4
-      - 🇸🇬 新加坡阿伟科技@TG/油管
-      - 🇨🇦 _CA_加拿大 16
-      - 🇨🇦 _CA_加拿大 17
-      - 【YouTube由零開始】
-      - 🇨🇦 _CA_加拿大 18
-      - 🇨🇦 加拿大【YouTube由零開始】 19
-      - 🇳🇱 _US_美国->🇳🇱_NL_荷兰
-      - CA_(yudou66.com 玉豆分享) 2
-      - 🇨🇦 加拿大【YouTube由零開始】 20
-      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 10
-      - 🇨🇦 加拿大【YouTube由零開始】 21
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 7
+      - 🇨🇦 加拿大【YouTube由零開始】 9
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享)
+      - 🇨🇦 加拿大【YouTube由零開始】 10
+      - 🇩🇪 (Youtube技术分享室)🇩🇪德国
+      - 🇨🇦 _CA_加拿大 4
+      - 🇺🇸 美国【YouTube由零開始】
+      - 🇨🇦 CA加拿大(Youtube技术分享室)
+      - 🇺🇸 美国（欢迎订阅Youtube元亨利贞）
+      - 🇬🇧 英国【YouTube由零開始】 3
+      - 🇺🇸 美国(yudou66.com 玉豆分享)
+      - (Youtube技术分享室)
+      - 🇺🇸 US美国(Youtube技术分享室) 2
+      - 🇨🇦 加拿大【YouTube由零開始】 11
+      - 🇨🇦 加拿大【YouTube由零開始】 12
+      - 🇺🇸 美国（欢迎订阅Youtube元亨利贞） 2
+      - 🇨🇦 加拿大【YouTube由零開始】 13
+      - 🇨🇦 加拿大【YouTube由零開始】 14
+      - CA_(yudou66.com 玉豆分享)
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 2
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 3
       - 🇨🇦 _CA_加拿大(yudou66.com 玉豆分享) 3
-      - 🇨🇦 _CA_加拿大(yudou66.com 玉豆分享) 4
+      - 🇫🇷 法国【YouTube由零開始】 2
+      - 🇨🇦 CA加拿大(Youtube技术分享室) 2
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 8
+      - 🇨🇦 Ytb:鹏哥分享_加拿大_50
+      - 欧(yudou66.com 玉豆分享)
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 9
+      - 🇺🇸 美国（欢迎订阅Youtube元亨利贞） 3
+      - 🇩🇪 (Youtube技术分享室)🇩🇪德国 2
+      - 🇨🇦 加拿大【YouTube由零開始】 15
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 10
+      - 🇺🇸 US美国(Youtube技术分享室) 3
+      - 🇺🇸 美国（欢迎订阅Youtube元亨利贞） 4
+      - 🇩🇪 (Youtube技术分享室)🇩🇪德国 3
+      - 🇨🇦 加拿大【YouTube由零開始】 16
+      - 🇨🇦 _CA_加拿大 5
+      - 🇭🇰 香港阿伟科技@TG/油管
+      - 🇨🇦 加拿大【YouTube由零開始】 17
+      - 🇭🇰 HK_油管 TG 8度科技 2
+      - 🇬🇧 _GB_英国
+      - 🇨🇦 加拿大【YouTube由零開始】 18
+      - 🇨🇦 加拿大【YouTube由零開始】 19
+      - 🇭🇰 HK_油管 TG 8度科技 3
+      - 🇭🇰 HK_油管 TG 8度科技 4
+      - 🇺🇸 Ytb:鹏哥分享_美国_16
+      - 🇺🇸 美国【YouTube由零開始】 2
+      - 🇫🇷 法国【YouTube由零開始】 3
+      - 🇨🇦 加拿大【YouTube由零開始】 20
+      - 🇨🇦 加拿大【YouTube由零開始】 21
       - 🇨🇦 加拿大【YouTube由零開始】 22
-      - 🇨🇦 _CA_加拿大 19
+      - 🇬🇧 英国【YouTube由零開始】 4
       - 🇨🇦 加拿大【YouTube由零開始】 23
       - 🇨🇦 加拿大【YouTube由零開始】 24
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)
-      - 🇨🇦 _CA_加拿大 20
-      - CA_(yudou66.com 玉豆分享) 3
-      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 11
-      - 🇨🇦 _CA_加拿大 21
-      - 🇨🇦 _CA_加拿大 22
-      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 12
-      - 🇫🇷 法国【YouTube由零開始】 5
       - 🇨🇦 加拿大【YouTube由零開始】 25
-      - 🇨🇦 _CA_加拿大 23
-      - 🇺🇸 美国(yudou66.com 玉豆分享) 15
-      - 🇨🇦 _CA_加拿大(yudou66.com 玉豆分享) 5
+      - 🇨🇳 Ytb:鹏哥分享_中国_2
+      - 🇭🇰 HK_油管 TG 8度科技 5
+      - 🇺🇸 美国【YouTube由零開始】 3
+      - 🇭🇰 HK_油管 TG 8度科技 6
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 11
+      - （欢迎订阅Youtube元亨利贞）
+      - 🇭🇰 HK_油管 TG 8度科技 7
+      - 🇭🇰 HK_油管 TG 8度科技 8
       - 🇨🇦 加拿大【YouTube由零開始】 26
+      - 🇭🇰 HK_油管 TG 8度科技 9
+      - 🇭🇰 HK_油管 TG 8度科技 10
+      - 🇭🇰 HK_油管 TG 8度科技 11
+      - 🇭🇰 HK_油管 TG 8度科技 12
+      - 🇨🇦 加拿大【YouTube由零開始】 27
+      - 🇭🇰 HK_油管 TG 8度科技 13
+      - 🇺🇸 美国🇺🇸(Youtube技术分享室)
+      - 🇭🇰 HK_油管 TG 8度科技 14
+      - 🇭🇰 HK_油管 TG 8度科技 15
+      - 🇭🇰 HK_油管 TG 8度科技 16
+      - 🇨🇳 台湾阿伟科技@TG/油管
+      - 🇨🇦 加拿大【YouTube由零開始】 28
+      - 🇭🇰 HK_油管 TG 8度科技 17
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 4
+      - (技术分享室整理,欢迎订阅)
+      - 🇨🇳 中国【YouTube由零開始】
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 12
+      - 🇭🇰 香港(yudou66.com 玉豆分享)
+      - 🇨🇦 加拿大【YouTube由零開始】 29
+      - (Youtube技术分享室) 2
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 13
+      - CA_(yudou66.com 玉豆分享) 2
+      - 🇨🇦 加拿大【YouTube由零開始】 30
+      - 🇸🇬 Ytb:鹏哥分享_新加坡_4
+      - 🇺🇸 US美国(Youtube技术分享室) 4
+      - 🇩🇪 (Youtube技术分享室)🇩🇪德国 4
+      - 🇨🇦 Ytb:鹏哥分享_加拿大_32
+      - 🇨🇦 加拿大【YouTube由零開始】 31
+      - （欢迎订阅Youtube元亨利贞） 2
+      - 🇯🇵 日本【YouTube由零開始】
+      - 🇭🇰 Ytb:鹏哥分享_香港_46
+      - 🇨🇦 加拿大【YouTube由零開始】 32
+      - 🇬🇧 英国（欢迎订阅Youtube元亨利贞） 2
+      - 🇭🇰 香港阿伟科技@TG/油管 2
+      - 🇺🇸 美国【YouTube由零開始】 4
+      - 🇨🇳 Ytb:鹏哥分享_中国_38
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 2
+      - 🇺🇸 美国【YouTube由零開始】 5
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 14
+      - 🇫🇷 法国【YouTube由零開始】 4
+      - 🇨🇦 加拿大【YouTube由零開始】 33
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 15
+      - 🇸🇬 新加坡阿伟科技@TG/油管
+      - 🇺🇸 US_油管 TG 8度科技
+      - 🇺🇸 美国【YouTube由零開始】 6
+      - 🇻🇳 Ytb:鹏哥分享_越南_28
+      - 🇨🇦 加拿大【YouTube由零開始】 34
+      - 🇸🇬 新加坡(yudou66.com 玉豆分享)
+      - 🇭🇰 香港(yudou66.com 玉豆分享) 2
+      - 🇭🇰 香港阿伟科技@TG/油管 3
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 16
+      - 🇨🇦 加拿大【YouTube由零開始】 35
+      - 🇨🇦 加拿大【YouTube由零開始】 36
+      - 🇨🇳 Ytb:鹏哥分享_中国_7
+      - 🇫🇷 法国（欢迎订阅Youtube元亨利贞）
+      - 🇭🇰 香港(yudou66.com 玉豆分享) 3
+      - 🇨🇦 加拿大【YouTube由零開始】 37
+      - 🇩🇪 (Youtube技术分享室)🇩🇪德国 5
+      - 🇩🇪 (Youtube技术分享室)🇩🇪德国 6
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 5
+      - 🇨🇦 加拿大【YouTube由零開始】 38
+      - 🇨🇦 加拿大【YouTube由零開始】 39
+      - 🇨🇦 加拿大【YouTube由零開始】 40
+      - 🇺🇸 US美国(Youtube技术分享室) 5
+      - 🇨🇦 加拿大【YouTube由零開始】 41
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 17
+      - 🇨🇳 中国（欢迎订阅Youtube元亨利贞） 2
+      - Ytb:鹏哥分享_40
+      - 🇫🇷 法国【YouTube由零開始】 5
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸 美国阿伟科技@TG/油管
-      - 🇨🇳 台湾(yudou66.com 玉豆分享)
-      - 🇫🇮 芬兰(yudou66.com 玉豆分享)
-      - 🇭🇰 香港(yudou66.com 玉豆分享)
-      - 🇨🇦 加拿大【YouTube由零開始】
+      - 🇺🇸 US美国(Youtube技术分享室)
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞）
       - 🇨🇦 _CA_加拿大(yudou66.com 玉豆分享)
-      - 🇬🇧 _GB_英国
-      - 🇫🇷 法国阿伟科技@TG/油管
-      - 🇭🇰 香港阿伟科技@TG/油管
-      - 🇨🇦 _CA_加拿大
+      - 🇨🇦 加拿大【YouTube由零開始】
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 2
       - 🇨🇦 加拿大【YouTube由零開始】 2
-      - 🇨🇦 _CA_加拿大 2
-      - 🇨🇦 加拿大【YouTube由零開始】 3
-      - 🇨🇦 加拿大【YouTube由零開始】 4
-      - 🇨🇦 _CA_加拿大 3
-      - 🇨🇦 _CA_加拿大 4
-      - 🇺🇸 美国(yudou66.com 玉豆分享)
-      - 🇺🇸 美国【YouTube由零開始】
-      - 🇨🇦 加拿大【YouTube由零開始】 5
-      - 🇺🇸 美国【YouTube由零開始】 2
-      - 🇺🇸 美国(yudou66.com 玉豆分享) 2
-      - 🇭🇰 香港阿伟科技@TG/油管 2
-      - 🇳🇱 荷兰阿伟科技@TG/油管
-      - 🇺🇸 美国阿伟科技@TG/油管 2
-      - 🇨🇦 _CA_加拿大 5
-      - 欧(yudou66.com 玉豆分享)
-      - 🇨🇦 加拿大【YouTube由零開始】 6
+      - 🇨🇦 _CA_加拿大
       - 🇬🇧 英国【YouTube由零開始】
-      - 🇨🇦 加拿大(yudou66.com 玉豆分享)
-      - 🇬🇧 英国【YouTube由零開始】 2
+      - 🇨🇦 Ytb:鹏哥分享_加拿大_1
+      - 🇨🇦 Ytb:鹏哥分享_加拿大_19
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 3
+      - 🇨🇳 中国（欢迎订阅Youtube元亨利贞）
+      - 🇨🇦 加拿大【YouTube由零開始】 3
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 4
+      - 🇨🇦 Ytb:鹏哥分享_加拿大_3
+      - 🇨🇦 加拿大【YouTube由零開始】 4
+      - 🇨🇦 加拿大【YouTube由零開始】 5
+      - 🇨🇦 加拿大【YouTube由零開始】 6
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 5
+      - 🇬🇧 英国（欢迎订阅Youtube元亨利贞）
       - 🇨🇦 加拿大【YouTube由零開始】 7
-      - 🇨🇦 _CA_加拿大 6
-      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 2
+      - 🇬🇧 英国【YouTube由零開始】 2
+      - 🇭🇰 HK_油管 TG 8度科技
       - 🇨🇦 加拿大【YouTube由零開始】 8
-      - 🇨🇦 _CA_加拿大 7
-      - 🇨🇦 加拿大【YouTube由零開始】 9
-      - 🇨🇭 瑞士(yudou66.com 玉豆分享)
+      - 🇺🇸 Ytb:鹏哥分享_美国_56
+      - 🇨🇦 _CA_加拿大 2
+      - 🇨🇦 Ytb:鹏哥分享_加拿大_9
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 6
       - 🇫🇷 法国【YouTube由零開始】
-      - 🇨🇦 加拿大【YouTube由零開始】 10
-      - 🇭🇰 香港阿伟科技@TG/油管 3
-      - 🇺🇸 美国(yudou66.com 玉豆分享) 3
-      - 🇭🇰 香港阿伟科技@TG/油管 4
-      - 🇨🇳 台湾(yudou66.com 玉豆分享) 2
-      - 🇨🇦 _CA_加拿大 8
-      - 油管 TG 8度科技
-      - 🇭🇰 香港(yudou66.com 玉豆分享) 2
-      - 🇨🇦 加拿大【YouTube由零開始】 11
-      - 油管 TG 8度科技 2
-      - 🇺🇸 US_油管 TG 8度科技
-      - 🇺🇸 美国(yudou66.com 玉豆分享) 4
-      - 🇭🇰 香港阿伟科技@TG/油管 5
-      - ZZ_3537+|13.93Mb
-      - 🇺🇸 美国(yudou66.com 玉豆分享) 5
-      - 🇸🇬 新加坡(yudou66.com 玉豆分享)
-      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 3
-      - 🇨🇦 _CA_加拿大 9
-      - 🇺🇸 美国(yudou66.com 玉豆分享) 6
-      - 🇷🇺 俄罗斯(yudou66.com 玉豆分享)
-      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 4
-      - 🇨🇦 _CA_加拿大 10
-      - 🇭🇰 香港(yudou66.com 玉豆分享) 3
-      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 5
-      - 🇨🇦 加拿大【YouTube由零開始】 12
-      - 🇨🇦 加拿大【YouTube由零開始】 13
-      - 🇩🇪 德国阿伟科技@TG/油管
-      - 🇨🇦 加拿大【YouTube由零開始】 14
-      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 6
-      - 🇨🇦 _CA_加拿大 11
-      - 🇭🇰 香港(欢迎订阅Youtube破解资源君)
-      - 🇨🇦 加拿大【YouTube由零開始】 15
-      - 🇺🇸 美国(yudou66.com 玉豆分享) 7
-      - 🇨🇦 加拿大【YouTube由零開始】 16
-      - 🇺🇸 美国(yudou66.com 玉豆分享) 8
-      - 🇺🇸 美国(yudou66.com 玉豆分享) 9
-      - 🇬🇧 英国【YouTube由零開始】 3
-      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 7
-      - 🇨🇳 中国(yudou66.com 玉豆分享)
-      - CA_(yudou66.com 玉豆分享)
-      - 🇨🇦 加拿大【YouTube由零開始】 17
-      - 🇺🇸 美国【YouTube由零開始】 3
-      - 🇬🇧 _GB_英国 2
-      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 8
-      - 🇫🇷 法国【YouTube由零開始】 2
-      - 🇺🇸 美国阿伟科技@TG/油管 3
-      - 🇺🇸 美国阿伟科技@TG/油管 4
-      - 🇺🇸 美国(yudou66.com 玉豆分享) 10
-      - 🇺🇸 美国(yudou66.com 玉豆分享) 11
-      - 🇺🇸 _US_美国
-      - 🇭🇰 香港阿伟科技@TG/油管 6
-      - 🇨🇦 _CA_加拿大 12
-      - 🇮🇳 印度【YouTube由零開始】
-      - 🇨🇦 _CA_加拿大 13
-      - 🇺🇸 US_(yudou66.com 玉豆分享)
-      - 🇨🇦 _CA_加拿大 14
-      - 🇨🇳 台湾阿伟科技@TG/油管
+      - 🇺🇸 Ytb:鹏哥分享_美国_21
+      - 🇨🇦 Ytb:鹏哥分享_加拿大_39
+      - 🇨🇦 _CA_加拿大 3
       - 🇨🇦 _CA_加拿大(yudou66.com 玉豆分享) 2
-      - 🇨🇦 加拿大【YouTube由零開始】 18
-      - 🇫🇷 法国阿伟科技@TG/油管 2
-      - 🇭🇰 香港阿伟科技@TG/油管 7
-      - 🇨🇳 中国【YouTube由零開始】
-      - 🇺🇸 美国(yudou66.com 玉豆分享) 12
-      - 🇫🇷 法国【YouTube由零開始】 3
-      - 🇺🇸 美国(yudou66.com 玉豆分享) 13
-      - 🇯🇵 日本【YouTube由零開始】
-      - 🇫🇷 法国【YouTube由零開始】 4
-      - 🇺🇸 美国(yudou66.com 玉豆分享) 14
-      - 🇺🇸 美国阿伟科技@TG/油管 5
-      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 9
-      - 🇬🇧 英国【YouTube由零開始】 4
-      - 🇨🇦 _CA_加拿大 15
-      - 🇬🇧 英国(yudou66.com 玉豆分享)
-      - 🇬🇧 英国(yudou66.com 玉豆分享) 2
-      - 🇺🇸 美国【YouTube由零開始】 4
-      - 🇸🇬 新加坡阿伟科技@TG/油管
-      - 🇨🇦 _CA_加拿大 16
-      - 🇨🇦 _CA_加拿大 17
-      - 【YouTube由零開始】
-      - 🇨🇦 _CA_加拿大 18
-      - 🇨🇦 加拿大【YouTube由零開始】 19
-      - 🇳🇱 _US_美国->🇳🇱_NL_荷兰
-      - CA_(yudou66.com 玉豆分享) 2
-      - 🇨🇦 加拿大【YouTube由零開始】 20
-      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 10
-      - 🇨🇦 加拿大【YouTube由零開始】 21
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 7
+      - 🇨🇦 加拿大【YouTube由零開始】 9
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享)
+      - 🇨🇦 加拿大【YouTube由零開始】 10
+      - 🇩🇪 (Youtube技术分享室)🇩🇪德国
+      - 🇨🇦 _CA_加拿大 4
+      - 🇺🇸 美国【YouTube由零開始】
+      - 🇨🇦 CA加拿大(Youtube技术分享室)
+      - 🇺🇸 美国（欢迎订阅Youtube元亨利贞）
+      - 🇬🇧 英国【YouTube由零開始】 3
+      - 🇺🇸 美国(yudou66.com 玉豆分享)
+      - (Youtube技术分享室)
+      - 🇺🇸 US美国(Youtube技术分享室) 2
+      - 🇨🇦 加拿大【YouTube由零開始】 11
+      - 🇨🇦 加拿大【YouTube由零開始】 12
+      - 🇺🇸 美国（欢迎订阅Youtube元亨利贞） 2
+      - 🇨🇦 加拿大【YouTube由零開始】 13
+      - 🇨🇦 加拿大【YouTube由零開始】 14
+      - CA_(yudou66.com 玉豆分享)
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 2
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 3
       - 🇨🇦 _CA_加拿大(yudou66.com 玉豆分享) 3
-      - 🇨🇦 _CA_加拿大(yudou66.com 玉豆分享) 4
+      - 🇫🇷 法国【YouTube由零開始】 2
+      - 🇨🇦 CA加拿大(Youtube技术分享室) 2
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 8
+      - 🇨🇦 Ytb:鹏哥分享_加拿大_50
+      - 欧(yudou66.com 玉豆分享)
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 9
+      - 🇺🇸 美国（欢迎订阅Youtube元亨利贞） 3
+      - 🇩🇪 (Youtube技术分享室)🇩🇪德国 2
+      - 🇨🇦 加拿大【YouTube由零開始】 15
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 10
+      - 🇺🇸 US美国(Youtube技术分享室) 3
+      - 🇺🇸 美国（欢迎订阅Youtube元亨利贞） 4
+      - 🇩🇪 (Youtube技术分享室)🇩🇪德国 3
+      - 🇨🇦 加拿大【YouTube由零開始】 16
+      - 🇨🇦 _CA_加拿大 5
+      - 🇭🇰 香港阿伟科技@TG/油管
+      - 🇨🇦 加拿大【YouTube由零開始】 17
+      - 🇭🇰 HK_油管 TG 8度科技 2
+      - 🇬🇧 _GB_英国
+      - 🇨🇦 加拿大【YouTube由零開始】 18
+      - 🇨🇦 加拿大【YouTube由零開始】 19
+      - 🇭🇰 HK_油管 TG 8度科技 3
+      - 🇭🇰 HK_油管 TG 8度科技 4
+      - 🇺🇸 Ytb:鹏哥分享_美国_16
+      - 🇺🇸 美国【YouTube由零開始】 2
+      - 🇫🇷 法国【YouTube由零開始】 3
+      - 🇨🇦 加拿大【YouTube由零開始】 20
+      - 🇨🇦 加拿大【YouTube由零開始】 21
       - 🇨🇦 加拿大【YouTube由零開始】 22
-      - 🇨🇦 _CA_加拿大 19
+      - 🇬🇧 英国【YouTube由零開始】 4
       - 🇨🇦 加拿大【YouTube由零開始】 23
       - 🇨🇦 加拿大【YouTube由零開始】 24
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)
-      - 🇨🇦 _CA_加拿大 20
-      - CA_(yudou66.com 玉豆分享) 3
-      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 11
-      - 🇨🇦 _CA_加拿大 21
-      - 🇨🇦 _CA_加拿大 22
-      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 12
-      - 🇫🇷 法国【YouTube由零開始】 5
       - 🇨🇦 加拿大【YouTube由零開始】 25
-      - 🇨🇦 _CA_加拿大 23
-      - 🇺🇸 美国(yudou66.com 玉豆分享) 15
-      - 🇨🇦 _CA_加拿大(yudou66.com 玉豆分享) 5
+      - 🇨🇳 Ytb:鹏哥分享_中国_2
+      - 🇭🇰 HK_油管 TG 8度科技 5
+      - 🇺🇸 美国【YouTube由零開始】 3
+      - 🇭🇰 HK_油管 TG 8度科技 6
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 11
+      - （欢迎订阅Youtube元亨利贞）
+      - 🇭🇰 HK_油管 TG 8度科技 7
+      - 🇭🇰 HK_油管 TG 8度科技 8
       - 🇨🇦 加拿大【YouTube由零開始】 26
+      - 🇭🇰 HK_油管 TG 8度科技 9
+      - 🇭🇰 HK_油管 TG 8度科技 10
+      - 🇭🇰 HK_油管 TG 8度科技 11
+      - 🇭🇰 HK_油管 TG 8度科技 12
+      - 🇨🇦 加拿大【YouTube由零開始】 27
+      - 🇭🇰 HK_油管 TG 8度科技 13
+      - 🇺🇸 美国🇺🇸(Youtube技术分享室)
+      - 🇭🇰 HK_油管 TG 8度科技 14
+      - 🇭🇰 HK_油管 TG 8度科技 15
+      - 🇭🇰 HK_油管 TG 8度科技 16
+      - 🇨🇳 台湾阿伟科技@TG/油管
+      - 🇨🇦 加拿大【YouTube由零開始】 28
+      - 🇭🇰 HK_油管 TG 8度科技 17
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 4
+      - (技术分享室整理,欢迎订阅)
+      - 🇨🇳 中国【YouTube由零開始】
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 12
+      - 🇭🇰 香港(yudou66.com 玉豆分享)
+      - 🇨🇦 加拿大【YouTube由零開始】 29
+      - (Youtube技术分享室) 2
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 13
+      - CA_(yudou66.com 玉豆分享) 2
+      - 🇨🇦 加拿大【YouTube由零開始】 30
+      - 🇸🇬 Ytb:鹏哥分享_新加坡_4
+      - 🇺🇸 US美国(Youtube技术分享室) 4
+      - 🇩🇪 (Youtube技术分享室)🇩🇪德国 4
+      - 🇨🇦 Ytb:鹏哥分享_加拿大_32
+      - 🇨🇦 加拿大【YouTube由零開始】 31
+      - （欢迎订阅Youtube元亨利贞） 2
+      - 🇯🇵 日本【YouTube由零開始】
+      - 🇭🇰 Ytb:鹏哥分享_香港_46
+      - 🇨🇦 加拿大【YouTube由零開始】 32
+      - 🇬🇧 英国（欢迎订阅Youtube元亨利贞） 2
+      - 🇭🇰 香港阿伟科技@TG/油管 2
+      - 🇺🇸 美国【YouTube由零開始】 4
+      - 🇨🇳 Ytb:鹏哥分享_中国_38
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 2
+      - 🇺🇸 美国【YouTube由零開始】 5
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 14
+      - 🇫🇷 法国【YouTube由零開始】 4
+      - 🇨🇦 加拿大【YouTube由零開始】 33
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 15
+      - 🇸🇬 新加坡阿伟科技@TG/油管
+      - 🇺🇸 US_油管 TG 8度科技
+      - 🇺🇸 美国【YouTube由零開始】 6
+      - 🇻🇳 Ytb:鹏哥分享_越南_28
+      - 🇨🇦 加拿大【YouTube由零開始】 34
+      - 🇸🇬 新加坡(yudou66.com 玉豆分享)
+      - 🇭🇰 香港(yudou66.com 玉豆分享) 2
+      - 🇭🇰 香港阿伟科技@TG/油管 3
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 16
+      - 🇨🇦 加拿大【YouTube由零開始】 35
+      - 🇨🇦 加拿大【YouTube由零開始】 36
+      - 🇨🇳 Ytb:鹏哥分享_中国_7
+      - 🇫🇷 法国（欢迎订阅Youtube元亨利贞）
+      - 🇭🇰 香港(yudou66.com 玉豆分享) 3
+      - 🇨🇦 加拿大【YouTube由零開始】 37
+      - 🇩🇪 (Youtube技术分享室)🇩🇪德国 5
+      - 🇩🇪 (Youtube技术分享室)🇩🇪德国 6
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 5
+      - 🇨🇦 加拿大【YouTube由零開始】 38
+      - 🇨🇦 加拿大【YouTube由零開始】 39
+      - 🇨🇦 加拿大【YouTube由零開始】 40
+      - 🇺🇸 US美国(Youtube技术分享室) 5
+      - 🇨🇦 加拿大【YouTube由零開始】 41
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 17
+      - 🇨🇳 中国（欢迎订阅Youtube元亨利贞） 2
+      - Ytb:鹏哥分享_40
+      - 🇫🇷 法国【YouTube由零開始】 5
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇺🇸 美国阿伟科技@TG/油管
-      - 🇨🇳 台湾(yudou66.com 玉豆分享)
-      - 🇫🇮 芬兰(yudou66.com 玉豆分享)
-      - 🇭🇰 香港(yudou66.com 玉豆分享)
-      - 🇨🇦 加拿大【YouTube由零開始】
+      - 🇺🇸 US美国(Youtube技术分享室)
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞）
       - 🇨🇦 _CA_加拿大(yudou66.com 玉豆分享)
-      - 🇬🇧 _GB_英国
-      - 🇫🇷 法国阿伟科技@TG/油管
-      - 🇭🇰 香港阿伟科技@TG/油管
-      - 🇨🇦 _CA_加拿大
+      - 🇨🇦 加拿大【YouTube由零開始】
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 2
       - 🇨🇦 加拿大【YouTube由零開始】 2
-      - 🇨🇦 _CA_加拿大 2
-      - 🇨🇦 加拿大【YouTube由零開始】 3
-      - 🇨🇦 加拿大【YouTube由零開始】 4
-      - 🇨🇦 _CA_加拿大 3
-      - 🇨🇦 _CA_加拿大 4
-      - 🇺🇸 美国(yudou66.com 玉豆分享)
-      - 🇺🇸 美国【YouTube由零開始】
-      - 🇨🇦 加拿大【YouTube由零開始】 5
-      - 🇺🇸 美国【YouTube由零開始】 2
-      - 🇺🇸 美国(yudou66.com 玉豆分享) 2
-      - 🇭🇰 香港阿伟科技@TG/油管 2
-      - 🇳🇱 荷兰阿伟科技@TG/油管
-      - 🇺🇸 美国阿伟科技@TG/油管 2
-      - 🇨🇦 _CA_加拿大 5
-      - 欧(yudou66.com 玉豆分享)
-      - 🇨🇦 加拿大【YouTube由零開始】 6
+      - 🇨🇦 _CA_加拿大
       - 🇬🇧 英国【YouTube由零開始】
-      - 🇨🇦 加拿大(yudou66.com 玉豆分享)
-      - 🇬🇧 英国【YouTube由零開始】 2
+      - 🇨🇦 Ytb:鹏哥分享_加拿大_1
+      - 🇨🇦 Ytb:鹏哥分享_加拿大_19
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 3
+      - 🇨🇳 中国（欢迎订阅Youtube元亨利贞）
+      - 🇨🇦 加拿大【YouTube由零開始】 3
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 4
+      - 🇨🇦 Ytb:鹏哥分享_加拿大_3
+      - 🇨🇦 加拿大【YouTube由零開始】 4
+      - 🇨🇦 加拿大【YouTube由零開始】 5
+      - 🇨🇦 加拿大【YouTube由零開始】 6
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 5
+      - 🇬🇧 英国（欢迎订阅Youtube元亨利贞）
       - 🇨🇦 加拿大【YouTube由零開始】 7
-      - 🇨🇦 _CA_加拿大 6
-      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 2
+      - 🇬🇧 英国【YouTube由零開始】 2
+      - 🇭🇰 HK_油管 TG 8度科技
       - 🇨🇦 加拿大【YouTube由零開始】 8
-      - 🇨🇦 _CA_加拿大 7
-      - 🇨🇦 加拿大【YouTube由零開始】 9
-      - 🇨🇭 瑞士(yudou66.com 玉豆分享)
+      - 🇺🇸 Ytb:鹏哥分享_美国_56
+      - 🇨🇦 _CA_加拿大 2
+      - 🇨🇦 Ytb:鹏哥分享_加拿大_9
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 6
       - 🇫🇷 法国【YouTube由零開始】
-      - 🇨🇦 加拿大【YouTube由零開始】 10
-      - 🇭🇰 香港阿伟科技@TG/油管 3
-      - 🇺🇸 美国(yudou66.com 玉豆分享) 3
-      - 🇭🇰 香港阿伟科技@TG/油管 4
-      - 🇨🇳 台湾(yudou66.com 玉豆分享) 2
-      - 🇨🇦 _CA_加拿大 8
-      - 油管 TG 8度科技
-      - 🇭🇰 香港(yudou66.com 玉豆分享) 2
-      - 🇨🇦 加拿大【YouTube由零開始】 11
-      - 油管 TG 8度科技 2
-      - 🇺🇸 US_油管 TG 8度科技
-      - 🇺🇸 美国(yudou66.com 玉豆分享) 4
-      - 🇭🇰 香港阿伟科技@TG/油管 5
-      - ZZ_3537+|13.93Mb
-      - 🇺🇸 美国(yudou66.com 玉豆分享) 5
-      - 🇸🇬 新加坡(yudou66.com 玉豆分享)
-      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 3
-      - 🇨🇦 _CA_加拿大 9
-      - 🇺🇸 美国(yudou66.com 玉豆分享) 6
-      - 🇷🇺 俄罗斯(yudou66.com 玉豆分享)
-      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 4
-      - 🇨🇦 _CA_加拿大 10
-      - 🇭🇰 香港(yudou66.com 玉豆分享) 3
-      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 5
-      - 🇨🇦 加拿大【YouTube由零開始】 12
-      - 🇨🇦 加拿大【YouTube由零開始】 13
-      - 🇩🇪 德国阿伟科技@TG/油管
-      - 🇨🇦 加拿大【YouTube由零開始】 14
-      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 6
-      - 🇨🇦 _CA_加拿大 11
-      - 🇭🇰 香港(欢迎订阅Youtube破解资源君)
-      - 🇨🇦 加拿大【YouTube由零開始】 15
-      - 🇺🇸 美国(yudou66.com 玉豆分享) 7
-      - 🇨🇦 加拿大【YouTube由零開始】 16
-      - 🇺🇸 美国(yudou66.com 玉豆分享) 8
-      - 🇺🇸 美国(yudou66.com 玉豆分享) 9
-      - 🇬🇧 英国【YouTube由零開始】 3
-      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 7
-      - 🇨🇳 中国(yudou66.com 玉豆分享)
-      - CA_(yudou66.com 玉豆分享)
-      - 🇨🇦 加拿大【YouTube由零開始】 17
-      - 🇺🇸 美国【YouTube由零開始】 3
-      - 🇬🇧 _GB_英国 2
-      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 8
-      - 🇫🇷 法国【YouTube由零開始】 2
-      - 🇺🇸 美国阿伟科技@TG/油管 3
-      - 🇺🇸 美国阿伟科技@TG/油管 4
-      - 🇺🇸 美国(yudou66.com 玉豆分享) 10
-      - 🇺🇸 美国(yudou66.com 玉豆分享) 11
-      - 🇺🇸 _US_美国
-      - 🇭🇰 香港阿伟科技@TG/油管 6
-      - 🇨🇦 _CA_加拿大 12
-      - 🇮🇳 印度【YouTube由零開始】
-      - 🇨🇦 _CA_加拿大 13
-      - 🇺🇸 US_(yudou66.com 玉豆分享)
-      - 🇨🇦 _CA_加拿大 14
-      - 🇨🇳 台湾阿伟科技@TG/油管
+      - 🇺🇸 Ytb:鹏哥分享_美国_21
+      - 🇨🇦 Ytb:鹏哥分享_加拿大_39
+      - 🇨🇦 _CA_加拿大 3
       - 🇨🇦 _CA_加拿大(yudou66.com 玉豆分享) 2
-      - 🇨🇦 加拿大【YouTube由零開始】 18
-      - 🇫🇷 法国阿伟科技@TG/油管 2
-      - 🇭🇰 香港阿伟科技@TG/油管 7
-      - 🇨🇳 中国【YouTube由零開始】
-      - 🇺🇸 美国(yudou66.com 玉豆分享) 12
-      - 🇫🇷 法国【YouTube由零開始】 3
-      - 🇺🇸 美国(yudou66.com 玉豆分享) 13
-      - 🇯🇵 日本【YouTube由零開始】
-      - 🇫🇷 法国【YouTube由零開始】 4
-      - 🇺🇸 美国(yudou66.com 玉豆分享) 14
-      - 🇺🇸 美国阿伟科技@TG/油管 5
-      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 9
-      - 🇬🇧 英国【YouTube由零開始】 4
-      - 🇨🇦 _CA_加拿大 15
-      - 🇬🇧 英国(yudou66.com 玉豆分享)
-      - 🇬🇧 英国(yudou66.com 玉豆分享) 2
-      - 🇺🇸 美国【YouTube由零開始】 4
-      - 🇸🇬 新加坡阿伟科技@TG/油管
-      - 🇨🇦 _CA_加拿大 16
-      - 🇨🇦 _CA_加拿大 17
-      - 【YouTube由零開始】
-      - 🇨🇦 _CA_加拿大 18
-      - 🇨🇦 加拿大【YouTube由零開始】 19
-      - 🇳🇱 _US_美国->🇳🇱_NL_荷兰
-      - CA_(yudou66.com 玉豆分享) 2
-      - 🇨🇦 加拿大【YouTube由零開始】 20
-      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 10
-      - 🇨🇦 加拿大【YouTube由零開始】 21
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 7
+      - 🇨🇦 加拿大【YouTube由零開始】 9
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享)
+      - 🇨🇦 加拿大【YouTube由零開始】 10
+      - 🇩🇪 (Youtube技术分享室)🇩🇪德国
+      - 🇨🇦 _CA_加拿大 4
+      - 🇺🇸 美国【YouTube由零開始】
+      - 🇨🇦 CA加拿大(Youtube技术分享室)
+      - 🇺🇸 美国（欢迎订阅Youtube元亨利贞）
+      - 🇬🇧 英国【YouTube由零開始】 3
+      - 🇺🇸 美国(yudou66.com 玉豆分享)
+      - (Youtube技术分享室)
+      - 🇺🇸 US美国(Youtube技术分享室) 2
+      - 🇨🇦 加拿大【YouTube由零開始】 11
+      - 🇨🇦 加拿大【YouTube由零開始】 12
+      - 🇺🇸 美国（欢迎订阅Youtube元亨利贞） 2
+      - 🇨🇦 加拿大【YouTube由零開始】 13
+      - 🇨🇦 加拿大【YouTube由零開始】 14
+      - CA_(yudou66.com 玉豆分享)
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 2
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 3
       - 🇨🇦 _CA_加拿大(yudou66.com 玉豆分享) 3
-      - 🇨🇦 _CA_加拿大(yudou66.com 玉豆分享) 4
+      - 🇫🇷 法国【YouTube由零開始】 2
+      - 🇨🇦 CA加拿大(Youtube技术分享室) 2
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 8
+      - 🇨🇦 Ytb:鹏哥分享_加拿大_50
+      - 欧(yudou66.com 玉豆分享)
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 9
+      - 🇺🇸 美国（欢迎订阅Youtube元亨利贞） 3
+      - 🇩🇪 (Youtube技术分享室)🇩🇪德国 2
+      - 🇨🇦 加拿大【YouTube由零開始】 15
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 10
+      - 🇺🇸 US美国(Youtube技术分享室) 3
+      - 🇺🇸 美国（欢迎订阅Youtube元亨利贞） 4
+      - 🇩🇪 (Youtube技术分享室)🇩🇪德国 3
+      - 🇨🇦 加拿大【YouTube由零開始】 16
+      - 🇨🇦 _CA_加拿大 5
+      - 🇭🇰 香港阿伟科技@TG/油管
+      - 🇨🇦 加拿大【YouTube由零開始】 17
+      - 🇭🇰 HK_油管 TG 8度科技 2
+      - 🇬🇧 _GB_英国
+      - 🇨🇦 加拿大【YouTube由零開始】 18
+      - 🇨🇦 加拿大【YouTube由零開始】 19
+      - 🇭🇰 HK_油管 TG 8度科技 3
+      - 🇭🇰 HK_油管 TG 8度科技 4
+      - 🇺🇸 Ytb:鹏哥分享_美国_16
+      - 🇺🇸 美国【YouTube由零開始】 2
+      - 🇫🇷 法国【YouTube由零開始】 3
+      - 🇨🇦 加拿大【YouTube由零開始】 20
+      - 🇨🇦 加拿大【YouTube由零開始】 21
       - 🇨🇦 加拿大【YouTube由零開始】 22
-      - 🇨🇦 _CA_加拿大 19
+      - 🇬🇧 英国【YouTube由零開始】 4
       - 🇨🇦 加拿大【YouTube由零開始】 23
       - 🇨🇦 加拿大【YouTube由零開始】 24
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)
-      - 🇨🇦 _CA_加拿大 20
-      - CA_(yudou66.com 玉豆分享) 3
-      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 11
-      - 🇨🇦 _CA_加拿大 21
-      - 🇨🇦 _CA_加拿大 22
-      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 12
-      - 🇫🇷 法国【YouTube由零開始】 5
       - 🇨🇦 加拿大【YouTube由零開始】 25
-      - 🇨🇦 _CA_加拿大 23
-      - 🇺🇸 美国(yudou66.com 玉豆分享) 15
-      - 🇨🇦 _CA_加拿大(yudou66.com 玉豆分享) 5
+      - 🇨🇳 Ytb:鹏哥分享_中国_2
+      - 🇭🇰 HK_油管 TG 8度科技 5
+      - 🇺🇸 美国【YouTube由零開始】 3
+      - 🇭🇰 HK_油管 TG 8度科技 6
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 11
+      - （欢迎订阅Youtube元亨利贞）
+      - 🇭🇰 HK_油管 TG 8度科技 7
+      - 🇭🇰 HK_油管 TG 8度科技 8
       - 🇨🇦 加拿大【YouTube由零開始】 26
+      - 🇭🇰 HK_油管 TG 8度科技 9
+      - 🇭🇰 HK_油管 TG 8度科技 10
+      - 🇭🇰 HK_油管 TG 8度科技 11
+      - 🇭🇰 HK_油管 TG 8度科技 12
+      - 🇨🇦 加拿大【YouTube由零開始】 27
+      - 🇭🇰 HK_油管 TG 8度科技 13
+      - 🇺🇸 美国🇺🇸(Youtube技术分享室)
+      - 🇭🇰 HK_油管 TG 8度科技 14
+      - 🇭🇰 HK_油管 TG 8度科技 15
+      - 🇭🇰 HK_油管 TG 8度科技 16
+      - 🇨🇳 台湾阿伟科技@TG/油管
+      - 🇨🇦 加拿大【YouTube由零開始】 28
+      - 🇭🇰 HK_油管 TG 8度科技 17
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 4
+      - (技术分享室整理,欢迎订阅)
+      - 🇨🇳 中国【YouTube由零開始】
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 12
+      - 🇭🇰 香港(yudou66.com 玉豆分享)
+      - 🇨🇦 加拿大【YouTube由零開始】 29
+      - (Youtube技术分享室) 2
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 13
+      - CA_(yudou66.com 玉豆分享) 2
+      - 🇨🇦 加拿大【YouTube由零開始】 30
+      - 🇸🇬 Ytb:鹏哥分享_新加坡_4
+      - 🇺🇸 US美国(Youtube技术分享室) 4
+      - 🇩🇪 (Youtube技术分享室)🇩🇪德国 4
+      - 🇨🇦 Ytb:鹏哥分享_加拿大_32
+      - 🇨🇦 加拿大【YouTube由零開始】 31
+      - （欢迎订阅Youtube元亨利贞） 2
+      - 🇯🇵 日本【YouTube由零開始】
+      - 🇭🇰 Ytb:鹏哥分享_香港_46
+      - 🇨🇦 加拿大【YouTube由零開始】 32
+      - 🇬🇧 英国（欢迎订阅Youtube元亨利贞） 2
+      - 🇭🇰 香港阿伟科技@TG/油管 2
+      - 🇺🇸 美国【YouTube由零開始】 4
+      - 🇨🇳 Ytb:鹏哥分享_中国_38
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 2
+      - 🇺🇸 美国【YouTube由零開始】 5
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 14
+      - 🇫🇷 法国【YouTube由零開始】 4
+      - 🇨🇦 加拿大【YouTube由零開始】 33
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 15
+      - 🇸🇬 新加坡阿伟科技@TG/油管
+      - 🇺🇸 US_油管 TG 8度科技
+      - 🇺🇸 美国【YouTube由零開始】 6
+      - 🇻🇳 Ytb:鹏哥分享_越南_28
+      - 🇨🇦 加拿大【YouTube由零開始】 34
+      - 🇸🇬 新加坡(yudou66.com 玉豆分享)
+      - 🇭🇰 香港(yudou66.com 玉豆分享) 2
+      - 🇭🇰 香港阿伟科技@TG/油管 3
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 16
+      - 🇨🇦 加拿大【YouTube由零開始】 35
+      - 🇨🇦 加拿大【YouTube由零開始】 36
+      - 🇨🇳 Ytb:鹏哥分享_中国_7
+      - 🇫🇷 法国（欢迎订阅Youtube元亨利贞）
+      - 🇭🇰 香港(yudou66.com 玉豆分享) 3
+      - 🇨🇦 加拿大【YouTube由零開始】 37
+      - 🇩🇪 (Youtube技术分享室)🇩🇪德国 5
+      - 🇩🇪 (Youtube技术分享室)🇩🇪德国 6
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 5
+      - 🇨🇦 加拿大【YouTube由零開始】 38
+      - 🇨🇦 加拿大【YouTube由零開始】 39
+      - 🇨🇦 加拿大【YouTube由零開始】 40
+      - 🇺🇸 US美国(Youtube技术分享室) 5
+      - 🇨🇦 加拿大【YouTube由零開始】 41
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 17
+      - 🇨🇳 中国（欢迎订阅Youtube元亨利贞） 2
+      - Ytb:鹏哥分享_40
+      - 🇫🇷 法国【YouTube由零開始】 5
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸 美国阿伟科技@TG/油管
-      - 🇨🇳 台湾(yudou66.com 玉豆分享)
-      - 🇫🇮 芬兰(yudou66.com 玉豆分享)
-      - 🇭🇰 香港(yudou66.com 玉豆分享)
-      - 🇨🇦 加拿大【YouTube由零開始】
+      - 🇺🇸 US美国(Youtube技术分享室)
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞）
       - 🇨🇦 _CA_加拿大(yudou66.com 玉豆分享)
-      - 🇬🇧 _GB_英国
-      - 🇫🇷 法国阿伟科技@TG/油管
-      - 🇭🇰 香港阿伟科技@TG/油管
-      - 🇨🇦 _CA_加拿大
+      - 🇨🇦 加拿大【YouTube由零開始】
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 2
       - 🇨🇦 加拿大【YouTube由零開始】 2
-      - 🇨🇦 _CA_加拿大 2
-      - 🇨🇦 加拿大【YouTube由零開始】 3
-      - 🇨🇦 加拿大【YouTube由零開始】 4
-      - 🇨🇦 _CA_加拿大 3
-      - 🇨🇦 _CA_加拿大 4
-      - 🇺🇸 美国(yudou66.com 玉豆分享)
-      - 🇺🇸 美国【YouTube由零開始】
-      - 🇨🇦 加拿大【YouTube由零開始】 5
-      - 🇺🇸 美国【YouTube由零開始】 2
-      - 🇺🇸 美国(yudou66.com 玉豆分享) 2
-      - 🇭🇰 香港阿伟科技@TG/油管 2
-      - 🇳🇱 荷兰阿伟科技@TG/油管
-      - 🇺🇸 美国阿伟科技@TG/油管 2
-      - 🇨🇦 _CA_加拿大 5
-      - 欧(yudou66.com 玉豆分享)
-      - 🇨🇦 加拿大【YouTube由零開始】 6
+      - 🇨🇦 _CA_加拿大
       - 🇬🇧 英国【YouTube由零開始】
-      - 🇨🇦 加拿大(yudou66.com 玉豆分享)
-      - 🇬🇧 英国【YouTube由零開始】 2
+      - 🇨🇦 Ytb:鹏哥分享_加拿大_1
+      - 🇨🇦 Ytb:鹏哥分享_加拿大_19
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 3
+      - 🇨🇳 中国（欢迎订阅Youtube元亨利贞）
+      - 🇨🇦 加拿大【YouTube由零開始】 3
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 4
+      - 🇨🇦 Ytb:鹏哥分享_加拿大_3
+      - 🇨🇦 加拿大【YouTube由零開始】 4
+      - 🇨🇦 加拿大【YouTube由零開始】 5
+      - 🇨🇦 加拿大【YouTube由零開始】 6
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 5
+      - 🇬🇧 英国（欢迎订阅Youtube元亨利贞）
       - 🇨🇦 加拿大【YouTube由零開始】 7
-      - 🇨🇦 _CA_加拿大 6
-      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 2
+      - 🇬🇧 英国【YouTube由零開始】 2
+      - 🇭🇰 HK_油管 TG 8度科技
       - 🇨🇦 加拿大【YouTube由零開始】 8
-      - 🇨🇦 _CA_加拿大 7
-      - 🇨🇦 加拿大【YouTube由零開始】 9
-      - 🇨🇭 瑞士(yudou66.com 玉豆分享)
+      - 🇺🇸 Ytb:鹏哥分享_美国_56
+      - 🇨🇦 _CA_加拿大 2
+      - 🇨🇦 Ytb:鹏哥分享_加拿大_9
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 6
       - 🇫🇷 法国【YouTube由零開始】
-      - 🇨🇦 加拿大【YouTube由零開始】 10
-      - 🇭🇰 香港阿伟科技@TG/油管 3
-      - 🇺🇸 美国(yudou66.com 玉豆分享) 3
-      - 🇭🇰 香港阿伟科技@TG/油管 4
-      - 🇨🇳 台湾(yudou66.com 玉豆分享) 2
-      - 🇨🇦 _CA_加拿大 8
-      - 油管 TG 8度科技
-      - 🇭🇰 香港(yudou66.com 玉豆分享) 2
-      - 🇨🇦 加拿大【YouTube由零開始】 11
-      - 油管 TG 8度科技 2
-      - 🇺🇸 US_油管 TG 8度科技
-      - 🇺🇸 美国(yudou66.com 玉豆分享) 4
-      - 🇭🇰 香港阿伟科技@TG/油管 5
-      - ZZ_3537+|13.93Mb
-      - 🇺🇸 美国(yudou66.com 玉豆分享) 5
-      - 🇸🇬 新加坡(yudou66.com 玉豆分享)
-      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 3
-      - 🇨🇦 _CA_加拿大 9
-      - 🇺🇸 美国(yudou66.com 玉豆分享) 6
-      - 🇷🇺 俄罗斯(yudou66.com 玉豆分享)
-      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 4
-      - 🇨🇦 _CA_加拿大 10
-      - 🇭🇰 香港(yudou66.com 玉豆分享) 3
-      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 5
-      - 🇨🇦 加拿大【YouTube由零開始】 12
-      - 🇨🇦 加拿大【YouTube由零開始】 13
-      - 🇩🇪 德国阿伟科技@TG/油管
-      - 🇨🇦 加拿大【YouTube由零開始】 14
-      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 6
-      - 🇨🇦 _CA_加拿大 11
-      - 🇭🇰 香港(欢迎订阅Youtube破解资源君)
-      - 🇨🇦 加拿大【YouTube由零開始】 15
-      - 🇺🇸 美国(yudou66.com 玉豆分享) 7
-      - 🇨🇦 加拿大【YouTube由零開始】 16
-      - 🇺🇸 美国(yudou66.com 玉豆分享) 8
-      - 🇺🇸 美国(yudou66.com 玉豆分享) 9
-      - 🇬🇧 英国【YouTube由零開始】 3
-      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 7
-      - 🇨🇳 中国(yudou66.com 玉豆分享)
-      - CA_(yudou66.com 玉豆分享)
-      - 🇨🇦 加拿大【YouTube由零開始】 17
-      - 🇺🇸 美国【YouTube由零開始】 3
-      - 🇬🇧 _GB_英国 2
-      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 8
-      - 🇫🇷 法国【YouTube由零開始】 2
-      - 🇺🇸 美国阿伟科技@TG/油管 3
-      - 🇺🇸 美国阿伟科技@TG/油管 4
-      - 🇺🇸 美国(yudou66.com 玉豆分享) 10
-      - 🇺🇸 美国(yudou66.com 玉豆分享) 11
-      - 🇺🇸 _US_美国
-      - 🇭🇰 香港阿伟科技@TG/油管 6
-      - 🇨🇦 _CA_加拿大 12
-      - 🇮🇳 印度【YouTube由零開始】
-      - 🇨🇦 _CA_加拿大 13
-      - 🇺🇸 US_(yudou66.com 玉豆分享)
-      - 🇨🇦 _CA_加拿大 14
-      - 🇨🇳 台湾阿伟科技@TG/油管
+      - 🇺🇸 Ytb:鹏哥分享_美国_21
+      - 🇨🇦 Ytb:鹏哥分享_加拿大_39
+      - 🇨🇦 _CA_加拿大 3
       - 🇨🇦 _CA_加拿大(yudou66.com 玉豆分享) 2
-      - 🇨🇦 加拿大【YouTube由零開始】 18
-      - 🇫🇷 法国阿伟科技@TG/油管 2
-      - 🇭🇰 香港阿伟科技@TG/油管 7
-      - 🇨🇳 中国【YouTube由零開始】
-      - 🇺🇸 美国(yudou66.com 玉豆分享) 12
-      - 🇫🇷 法国【YouTube由零開始】 3
-      - 🇺🇸 美国(yudou66.com 玉豆分享) 13
-      - 🇯🇵 日本【YouTube由零開始】
-      - 🇫🇷 法国【YouTube由零開始】 4
-      - 🇺🇸 美国(yudou66.com 玉豆分享) 14
-      - 🇺🇸 美国阿伟科技@TG/油管 5
-      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 9
-      - 🇬🇧 英国【YouTube由零開始】 4
-      - 🇨🇦 _CA_加拿大 15
-      - 🇬🇧 英国(yudou66.com 玉豆分享)
-      - 🇬🇧 英国(yudou66.com 玉豆分享) 2
-      - 🇺🇸 美国【YouTube由零開始】 4
-      - 🇸🇬 新加坡阿伟科技@TG/油管
-      - 🇨🇦 _CA_加拿大 16
-      - 🇨🇦 _CA_加拿大 17
-      - 【YouTube由零開始】
-      - 🇨🇦 _CA_加拿大 18
-      - 🇨🇦 加拿大【YouTube由零開始】 19
-      - 🇳🇱 _US_美国->🇳🇱_NL_荷兰
-      - CA_(yudou66.com 玉豆分享) 2
-      - 🇨🇦 加拿大【YouTube由零開始】 20
-      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 10
-      - 🇨🇦 加拿大【YouTube由零開始】 21
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 7
+      - 🇨🇦 加拿大【YouTube由零開始】 9
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享)
+      - 🇨🇦 加拿大【YouTube由零開始】 10
+      - 🇩🇪 (Youtube技术分享室)🇩🇪德国
+      - 🇨🇦 _CA_加拿大 4
+      - 🇺🇸 美国【YouTube由零開始】
+      - 🇨🇦 CA加拿大(Youtube技术分享室)
+      - 🇺🇸 美国（欢迎订阅Youtube元亨利贞）
+      - 🇬🇧 英国【YouTube由零開始】 3
+      - 🇺🇸 美国(yudou66.com 玉豆分享)
+      - (Youtube技术分享室)
+      - 🇺🇸 US美国(Youtube技术分享室) 2
+      - 🇨🇦 加拿大【YouTube由零開始】 11
+      - 🇨🇦 加拿大【YouTube由零開始】 12
+      - 🇺🇸 美国（欢迎订阅Youtube元亨利贞） 2
+      - 🇨🇦 加拿大【YouTube由零開始】 13
+      - 🇨🇦 加拿大【YouTube由零開始】 14
+      - CA_(yudou66.com 玉豆分享)
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 2
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 3
       - 🇨🇦 _CA_加拿大(yudou66.com 玉豆分享) 3
-      - 🇨🇦 _CA_加拿大(yudou66.com 玉豆分享) 4
+      - 🇫🇷 法国【YouTube由零開始】 2
+      - 🇨🇦 CA加拿大(Youtube技术分享室) 2
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 8
+      - 🇨🇦 Ytb:鹏哥分享_加拿大_50
+      - 欧(yudou66.com 玉豆分享)
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 9
+      - 🇺🇸 美国（欢迎订阅Youtube元亨利贞） 3
+      - 🇩🇪 (Youtube技术分享室)🇩🇪德国 2
+      - 🇨🇦 加拿大【YouTube由零開始】 15
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 10
+      - 🇺🇸 US美国(Youtube技术分享室) 3
+      - 🇺🇸 美国（欢迎订阅Youtube元亨利贞） 4
+      - 🇩🇪 (Youtube技术分享室)🇩🇪德国 3
+      - 🇨🇦 加拿大【YouTube由零開始】 16
+      - 🇨🇦 _CA_加拿大 5
+      - 🇭🇰 香港阿伟科技@TG/油管
+      - 🇨🇦 加拿大【YouTube由零開始】 17
+      - 🇭🇰 HK_油管 TG 8度科技 2
+      - 🇬🇧 _GB_英国
+      - 🇨🇦 加拿大【YouTube由零開始】 18
+      - 🇨🇦 加拿大【YouTube由零開始】 19
+      - 🇭🇰 HK_油管 TG 8度科技 3
+      - 🇭🇰 HK_油管 TG 8度科技 4
+      - 🇺🇸 Ytb:鹏哥分享_美国_16
+      - 🇺🇸 美国【YouTube由零開始】 2
+      - 🇫🇷 法国【YouTube由零開始】 3
+      - 🇨🇦 加拿大【YouTube由零開始】 20
+      - 🇨🇦 加拿大【YouTube由零開始】 21
       - 🇨🇦 加拿大【YouTube由零開始】 22
-      - 🇨🇦 _CA_加拿大 19
+      - 🇬🇧 英国【YouTube由零開始】 4
       - 🇨🇦 加拿大【YouTube由零開始】 23
       - 🇨🇦 加拿大【YouTube由零開始】 24
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)
-      - 🇨🇦 _CA_加拿大 20
-      - CA_(yudou66.com 玉豆分享) 3
-      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 11
-      - 🇨🇦 _CA_加拿大 21
-      - 🇨🇦 _CA_加拿大 22
-      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 12
-      - 🇫🇷 法国【YouTube由零開始】 5
       - 🇨🇦 加拿大【YouTube由零開始】 25
-      - 🇨🇦 _CA_加拿大 23
-      - 🇺🇸 美国(yudou66.com 玉豆分享) 15
-      - 🇨🇦 _CA_加拿大(yudou66.com 玉豆分享) 5
+      - 🇨🇳 Ytb:鹏哥分享_中国_2
+      - 🇭🇰 HK_油管 TG 8度科技 5
+      - 🇺🇸 美国【YouTube由零開始】 3
+      - 🇭🇰 HK_油管 TG 8度科技 6
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 11
+      - （欢迎订阅Youtube元亨利贞）
+      - 🇭🇰 HK_油管 TG 8度科技 7
+      - 🇭🇰 HK_油管 TG 8度科技 8
       - 🇨🇦 加拿大【YouTube由零開始】 26
+      - 🇭🇰 HK_油管 TG 8度科技 9
+      - 🇭🇰 HK_油管 TG 8度科技 10
+      - 🇭🇰 HK_油管 TG 8度科技 11
+      - 🇭🇰 HK_油管 TG 8度科技 12
+      - 🇨🇦 加拿大【YouTube由零開始】 27
+      - 🇭🇰 HK_油管 TG 8度科技 13
+      - 🇺🇸 美国🇺🇸(Youtube技术分享室)
+      - 🇭🇰 HK_油管 TG 8度科技 14
+      - 🇭🇰 HK_油管 TG 8度科技 15
+      - 🇭🇰 HK_油管 TG 8度科技 16
+      - 🇨🇳 台湾阿伟科技@TG/油管
+      - 🇨🇦 加拿大【YouTube由零開始】 28
+      - 🇭🇰 HK_油管 TG 8度科技 17
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 4
+      - (技术分享室整理,欢迎订阅)
+      - 🇨🇳 中国【YouTube由零開始】
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 12
+      - 🇭🇰 香港(yudou66.com 玉豆分享)
+      - 🇨🇦 加拿大【YouTube由零開始】 29
+      - (Youtube技术分享室) 2
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 13
+      - CA_(yudou66.com 玉豆分享) 2
+      - 🇨🇦 加拿大【YouTube由零開始】 30
+      - 🇸🇬 Ytb:鹏哥分享_新加坡_4
+      - 🇺🇸 US美国(Youtube技术分享室) 4
+      - 🇩🇪 (Youtube技术分享室)🇩🇪德国 4
+      - 🇨🇦 Ytb:鹏哥分享_加拿大_32
+      - 🇨🇦 加拿大【YouTube由零開始】 31
+      - （欢迎订阅Youtube元亨利贞） 2
+      - 🇯🇵 日本【YouTube由零開始】
+      - 🇭🇰 Ytb:鹏哥分享_香港_46
+      - 🇨🇦 加拿大【YouTube由零開始】 32
+      - 🇬🇧 英国（欢迎订阅Youtube元亨利贞） 2
+      - 🇭🇰 香港阿伟科技@TG/油管 2
+      - 🇺🇸 美国【YouTube由零開始】 4
+      - 🇨🇳 Ytb:鹏哥分享_中国_38
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 2
+      - 🇺🇸 美国【YouTube由零開始】 5
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 14
+      - 🇫🇷 法国【YouTube由零開始】 4
+      - 🇨🇦 加拿大【YouTube由零開始】 33
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 15
+      - 🇸🇬 新加坡阿伟科技@TG/油管
+      - 🇺🇸 US_油管 TG 8度科技
+      - 🇺🇸 美国【YouTube由零開始】 6
+      - 🇻🇳 Ytb:鹏哥分享_越南_28
+      - 🇨🇦 加拿大【YouTube由零開始】 34
+      - 🇸🇬 新加坡(yudou66.com 玉豆分享)
+      - 🇭🇰 香港(yudou66.com 玉豆分享) 2
+      - 🇭🇰 香港阿伟科技@TG/油管 3
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 16
+      - 🇨🇦 加拿大【YouTube由零開始】 35
+      - 🇨🇦 加拿大【YouTube由零開始】 36
+      - 🇨🇳 Ytb:鹏哥分享_中国_7
+      - 🇫🇷 法国（欢迎订阅Youtube元亨利贞）
+      - 🇭🇰 香港(yudou66.com 玉豆分享) 3
+      - 🇨🇦 加拿大【YouTube由零開始】 37
+      - 🇩🇪 (Youtube技术分享室)🇩🇪德国 5
+      - 🇩🇪 (Youtube技术分享室)🇩🇪德国 6
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 5
+      - 🇨🇦 加拿大【YouTube由零開始】 38
+      - 🇨🇦 加拿大【YouTube由零開始】 39
+      - 🇨🇦 加拿大【YouTube由零開始】 40
+      - 🇺🇸 US美国(Youtube技术分享室) 5
+      - 🇨🇦 加拿大【YouTube由零開始】 41
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 17
+      - 🇨🇳 中国（欢迎订阅Youtube元亨利贞） 2
+      - Ytb:鹏哥分享_40
+      - 🇫🇷 法国【YouTube由零開始】 5
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1061,149 +1222,172 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 美国阿伟科技@TG/油管
-      - 🇨🇳 台湾(yudou66.com 玉豆分享)
-      - 🇫🇮 芬兰(yudou66.com 玉豆分享)
-      - 🇭🇰 香港(yudou66.com 玉豆分享)
-      - 🇨🇦 加拿大【YouTube由零開始】
+      - 🇺🇸 US美国(Youtube技术分享室)
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞）
       - 🇨🇦 _CA_加拿大(yudou66.com 玉豆分享)
-      - 🇬🇧 _GB_英国
-      - 🇫🇷 法国阿伟科技@TG/油管
-      - 🇭🇰 香港阿伟科技@TG/油管
-      - 🇨🇦 _CA_加拿大
+      - 🇨🇦 加拿大【YouTube由零開始】
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 2
       - 🇨🇦 加拿大【YouTube由零開始】 2
-      - 🇨🇦 _CA_加拿大 2
-      - 🇨🇦 加拿大【YouTube由零開始】 3
-      - 🇨🇦 加拿大【YouTube由零開始】 4
-      - 🇨🇦 _CA_加拿大 3
-      - 🇨🇦 _CA_加拿大 4
-      - 🇺🇸 美国(yudou66.com 玉豆分享)
-      - 🇺🇸 美国【YouTube由零開始】
-      - 🇨🇦 加拿大【YouTube由零開始】 5
-      - 🇺🇸 美国【YouTube由零開始】 2
-      - 🇺🇸 美国(yudou66.com 玉豆分享) 2
-      - 🇭🇰 香港阿伟科技@TG/油管 2
-      - 🇳🇱 荷兰阿伟科技@TG/油管
-      - 🇺🇸 美国阿伟科技@TG/油管 2
-      - 🇨🇦 _CA_加拿大 5
-      - 欧(yudou66.com 玉豆分享)
-      - 🇨🇦 加拿大【YouTube由零開始】 6
+      - 🇨🇦 _CA_加拿大
       - 🇬🇧 英国【YouTube由零開始】
-      - 🇨🇦 加拿大(yudou66.com 玉豆分享)
-      - 🇬🇧 英国【YouTube由零開始】 2
+      - 🇨🇦 Ytb:鹏哥分享_加拿大_1
+      - 🇨🇦 Ytb:鹏哥分享_加拿大_19
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 3
+      - 🇨🇳 中国（欢迎订阅Youtube元亨利贞）
+      - 🇨🇦 加拿大【YouTube由零開始】 3
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 4
+      - 🇨🇦 Ytb:鹏哥分享_加拿大_3
+      - 🇨🇦 加拿大【YouTube由零開始】 4
+      - 🇨🇦 加拿大【YouTube由零開始】 5
+      - 🇨🇦 加拿大【YouTube由零開始】 6
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 5
+      - 🇬🇧 英国（欢迎订阅Youtube元亨利贞）
       - 🇨🇦 加拿大【YouTube由零開始】 7
-      - 🇨🇦 _CA_加拿大 6
-      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 2
+      - 🇬🇧 英国【YouTube由零開始】 2
+      - 🇭🇰 HK_油管 TG 8度科技
       - 🇨🇦 加拿大【YouTube由零開始】 8
-      - 🇨🇦 _CA_加拿大 7
-      - 🇨🇦 加拿大【YouTube由零開始】 9
-      - 🇨🇭 瑞士(yudou66.com 玉豆分享)
+      - 🇺🇸 Ytb:鹏哥分享_美国_56
+      - 🇨🇦 _CA_加拿大 2
+      - 🇨🇦 Ytb:鹏哥分享_加拿大_9
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 6
       - 🇫🇷 法国【YouTube由零開始】
-      - 🇨🇦 加拿大【YouTube由零開始】 10
-      - 🇭🇰 香港阿伟科技@TG/油管 3
-      - 🇺🇸 美国(yudou66.com 玉豆分享) 3
-      - 🇭🇰 香港阿伟科技@TG/油管 4
-      - 🇨🇳 台湾(yudou66.com 玉豆分享) 2
-      - 🇨🇦 _CA_加拿大 8
-      - 油管 TG 8度科技
-      - 🇭🇰 香港(yudou66.com 玉豆分享) 2
-      - 🇨🇦 加拿大【YouTube由零開始】 11
-      - 油管 TG 8度科技 2
-      - 🇺🇸 US_油管 TG 8度科技
-      - 🇺🇸 美国(yudou66.com 玉豆分享) 4
-      - 🇭🇰 香港阿伟科技@TG/油管 5
-      - ZZ_3537+|13.93Mb
-      - 🇺🇸 美国(yudou66.com 玉豆分享) 5
-      - 🇸🇬 新加坡(yudou66.com 玉豆分享)
-      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 3
-      - 🇨🇦 _CA_加拿大 9
-      - 🇺🇸 美国(yudou66.com 玉豆分享) 6
-      - 🇷🇺 俄罗斯(yudou66.com 玉豆分享)
-      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 4
-      - 🇨🇦 _CA_加拿大 10
-      - 🇭🇰 香港(yudou66.com 玉豆分享) 3
-      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 5
-      - 🇨🇦 加拿大【YouTube由零開始】 12
-      - 🇨🇦 加拿大【YouTube由零開始】 13
-      - 🇩🇪 德国阿伟科技@TG/油管
-      - 🇨🇦 加拿大【YouTube由零開始】 14
-      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 6
-      - 🇨🇦 _CA_加拿大 11
-      - 🇭🇰 香港(欢迎订阅Youtube破解资源君)
-      - 🇨🇦 加拿大【YouTube由零開始】 15
-      - 🇺🇸 美国(yudou66.com 玉豆分享) 7
-      - 🇨🇦 加拿大【YouTube由零開始】 16
-      - 🇺🇸 美国(yudou66.com 玉豆分享) 8
-      - 🇺🇸 美国(yudou66.com 玉豆分享) 9
-      - 🇬🇧 英国【YouTube由零開始】 3
-      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 7
-      - 🇨🇳 中国(yudou66.com 玉豆分享)
-      - CA_(yudou66.com 玉豆分享)
-      - 🇨🇦 加拿大【YouTube由零開始】 17
-      - 🇺🇸 美国【YouTube由零開始】 3
-      - 🇬🇧 _GB_英国 2
-      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 8
-      - 🇫🇷 法国【YouTube由零開始】 2
-      - 🇺🇸 美国阿伟科技@TG/油管 3
-      - 🇺🇸 美国阿伟科技@TG/油管 4
-      - 🇺🇸 美国(yudou66.com 玉豆分享) 10
-      - 🇺🇸 美国(yudou66.com 玉豆分享) 11
-      - 🇺🇸 _US_美国
-      - 🇭🇰 香港阿伟科技@TG/油管 6
-      - 🇨🇦 _CA_加拿大 12
-      - 🇮🇳 印度【YouTube由零開始】
-      - 🇨🇦 _CA_加拿大 13
-      - 🇺🇸 US_(yudou66.com 玉豆分享)
-      - 🇨🇦 _CA_加拿大 14
-      - 🇨🇳 台湾阿伟科技@TG/油管
+      - 🇺🇸 Ytb:鹏哥分享_美国_21
+      - 🇨🇦 Ytb:鹏哥分享_加拿大_39
+      - 🇨🇦 _CA_加拿大 3
       - 🇨🇦 _CA_加拿大(yudou66.com 玉豆分享) 2
-      - 🇨🇦 加拿大【YouTube由零開始】 18
-      - 🇫🇷 法国阿伟科技@TG/油管 2
-      - 🇭🇰 香港阿伟科技@TG/油管 7
-      - 🇨🇳 中国【YouTube由零開始】
-      - 🇺🇸 美国(yudou66.com 玉豆分享) 12
-      - 🇫🇷 法国【YouTube由零開始】 3
-      - 🇺🇸 美国(yudou66.com 玉豆分享) 13
-      - 🇯🇵 日本【YouTube由零開始】
-      - 🇫🇷 法国【YouTube由零開始】 4
-      - 🇺🇸 美国(yudou66.com 玉豆分享) 14
-      - 🇺🇸 美国阿伟科技@TG/油管 5
-      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 9
-      - 🇬🇧 英国【YouTube由零開始】 4
-      - 🇨🇦 _CA_加拿大 15
-      - 🇬🇧 英国(yudou66.com 玉豆分享)
-      - 🇬🇧 英国(yudou66.com 玉豆分享) 2
-      - 🇺🇸 美国【YouTube由零開始】 4
-      - 🇸🇬 新加坡阿伟科技@TG/油管
-      - 🇨🇦 _CA_加拿大 16
-      - 🇨🇦 _CA_加拿大 17
-      - 【YouTube由零開始】
-      - 🇨🇦 _CA_加拿大 18
-      - 🇨🇦 加拿大【YouTube由零開始】 19
-      - 🇳🇱 _US_美国->🇳🇱_NL_荷兰
-      - CA_(yudou66.com 玉豆分享) 2
-      - 🇨🇦 加拿大【YouTube由零開始】 20
-      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 10
-      - 🇨🇦 加拿大【YouTube由零開始】 21
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 7
+      - 🇨🇦 加拿大【YouTube由零開始】 9
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享)
+      - 🇨🇦 加拿大【YouTube由零開始】 10
+      - 🇩🇪 (Youtube技术分享室)🇩🇪德国
+      - 🇨🇦 _CA_加拿大 4
+      - 🇺🇸 美国【YouTube由零開始】
+      - 🇨🇦 CA加拿大(Youtube技术分享室)
+      - 🇺🇸 美国（欢迎订阅Youtube元亨利贞）
+      - 🇬🇧 英国【YouTube由零開始】 3
+      - 🇺🇸 美国(yudou66.com 玉豆分享)
+      - (Youtube技术分享室)
+      - 🇺🇸 US美国(Youtube技术分享室) 2
+      - 🇨🇦 加拿大【YouTube由零開始】 11
+      - 🇨🇦 加拿大【YouTube由零開始】 12
+      - 🇺🇸 美国（欢迎订阅Youtube元亨利贞） 2
+      - 🇨🇦 加拿大【YouTube由零開始】 13
+      - 🇨🇦 加拿大【YouTube由零開始】 14
+      - CA_(yudou66.com 玉豆分享)
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 2
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 3
       - 🇨🇦 _CA_加拿大(yudou66.com 玉豆分享) 3
-      - 🇨🇦 _CA_加拿大(yudou66.com 玉豆分享) 4
+      - 🇫🇷 法国【YouTube由零開始】 2
+      - 🇨🇦 CA加拿大(Youtube技术分享室) 2
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 8
+      - 🇨🇦 Ytb:鹏哥分享_加拿大_50
+      - 欧(yudou66.com 玉豆分享)
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 9
+      - 🇺🇸 美国（欢迎订阅Youtube元亨利贞） 3
+      - 🇩🇪 (Youtube技术分享室)🇩🇪德国 2
+      - 🇨🇦 加拿大【YouTube由零開始】 15
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 10
+      - 🇺🇸 US美国(Youtube技术分享室) 3
+      - 🇺🇸 美国（欢迎订阅Youtube元亨利贞） 4
+      - 🇩🇪 (Youtube技术分享室)🇩🇪德国 3
+      - 🇨🇦 加拿大【YouTube由零開始】 16
+      - 🇨🇦 _CA_加拿大 5
+      - 🇭🇰 香港阿伟科技@TG/油管
+      - 🇨🇦 加拿大【YouTube由零開始】 17
+      - 🇭🇰 HK_油管 TG 8度科技 2
+      - 🇬🇧 _GB_英国
+      - 🇨🇦 加拿大【YouTube由零開始】 18
+      - 🇨🇦 加拿大【YouTube由零開始】 19
+      - 🇭🇰 HK_油管 TG 8度科技 3
+      - 🇭🇰 HK_油管 TG 8度科技 4
+      - 🇺🇸 Ytb:鹏哥分享_美国_16
+      - 🇺🇸 美国【YouTube由零開始】 2
+      - 🇫🇷 法国【YouTube由零開始】 3
+      - 🇨🇦 加拿大【YouTube由零開始】 20
+      - 🇨🇦 加拿大【YouTube由零開始】 21
       - 🇨🇦 加拿大【YouTube由零開始】 22
-      - 🇨🇦 _CA_加拿大 19
+      - 🇬🇧 英国【YouTube由零開始】 4
       - 🇨🇦 加拿大【YouTube由零開始】 23
       - 🇨🇦 加拿大【YouTube由零開始】 24
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)
-      - 🇨🇦 _CA_加拿大 20
-      - CA_(yudou66.com 玉豆分享) 3
-      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 11
-      - 🇨🇦 _CA_加拿大 21
-      - 🇨🇦 _CA_加拿大 22
-      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 12
-      - 🇫🇷 法国【YouTube由零開始】 5
       - 🇨🇦 加拿大【YouTube由零開始】 25
-      - 🇨🇦 _CA_加拿大 23
-      - 🇺🇸 美国(yudou66.com 玉豆分享) 15
-      - 🇨🇦 _CA_加拿大(yudou66.com 玉豆分享) 5
+      - 🇨🇳 Ytb:鹏哥分享_中国_2
+      - 🇭🇰 HK_油管 TG 8度科技 5
+      - 🇺🇸 美国【YouTube由零開始】 3
+      - 🇭🇰 HK_油管 TG 8度科技 6
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 11
+      - （欢迎订阅Youtube元亨利贞）
+      - 🇭🇰 HK_油管 TG 8度科技 7
+      - 🇭🇰 HK_油管 TG 8度科技 8
       - 🇨🇦 加拿大【YouTube由零開始】 26
+      - 🇭🇰 HK_油管 TG 8度科技 9
+      - 🇭🇰 HK_油管 TG 8度科技 10
+      - 🇭🇰 HK_油管 TG 8度科技 11
+      - 🇭🇰 HK_油管 TG 8度科技 12
+      - 🇨🇦 加拿大【YouTube由零開始】 27
+      - 🇭🇰 HK_油管 TG 8度科技 13
+      - 🇺🇸 美国🇺🇸(Youtube技术分享室)
+      - 🇭🇰 HK_油管 TG 8度科技 14
+      - 🇭🇰 HK_油管 TG 8度科技 15
+      - 🇭🇰 HK_油管 TG 8度科技 16
+      - 🇨🇳 台湾阿伟科技@TG/油管
+      - 🇨🇦 加拿大【YouTube由零開始】 28
+      - 🇭🇰 HK_油管 TG 8度科技 17
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 4
+      - (技术分享室整理,欢迎订阅)
+      - 🇨🇳 中国【YouTube由零開始】
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 12
+      - 🇭🇰 香港(yudou66.com 玉豆分享)
+      - 🇨🇦 加拿大【YouTube由零開始】 29
+      - (Youtube技术分享室) 2
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 13
+      - CA_(yudou66.com 玉豆分享) 2
+      - 🇨🇦 加拿大【YouTube由零開始】 30
+      - 🇸🇬 Ytb:鹏哥分享_新加坡_4
+      - 🇺🇸 US美国(Youtube技术分享室) 4
+      - 🇩🇪 (Youtube技术分享室)🇩🇪德国 4
+      - 🇨🇦 Ytb:鹏哥分享_加拿大_32
+      - 🇨🇦 加拿大【YouTube由零開始】 31
+      - （欢迎订阅Youtube元亨利贞） 2
+      - 🇯🇵 日本【YouTube由零開始】
+      - 🇭🇰 Ytb:鹏哥分享_香港_46
+      - 🇨🇦 加拿大【YouTube由零開始】 32
+      - 🇬🇧 英国（欢迎订阅Youtube元亨利贞） 2
+      - 🇭🇰 香港阿伟科技@TG/油管 2
+      - 🇺🇸 美国【YouTube由零開始】 4
+      - 🇨🇳 Ytb:鹏哥分享_中国_38
+      - 🇺🇸 美国(yudou66.com 玉豆分享) 2
+      - 🇺🇸 美国【YouTube由零開始】 5
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 14
+      - 🇫🇷 法国【YouTube由零開始】 4
+      - 🇨🇦 加拿大【YouTube由零開始】 33
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 15
+      - 🇸🇬 新加坡阿伟科技@TG/油管
+      - 🇺🇸 US_油管 TG 8度科技
+      - 🇺🇸 美国【YouTube由零開始】 6
+      - 🇻🇳 Ytb:鹏哥分享_越南_28
+      - 🇨🇦 加拿大【YouTube由零開始】 34
+      - 🇸🇬 新加坡(yudou66.com 玉豆分享)
+      - 🇭🇰 香港(yudou66.com 玉豆分享) 2
+      - 🇭🇰 香港阿伟科技@TG/油管 3
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 16
+      - 🇨🇦 加拿大【YouTube由零開始】 35
+      - 🇨🇦 加拿大【YouTube由零開始】 36
+      - 🇨🇳 Ytb:鹏哥分享_中国_7
+      - 🇫🇷 法国（欢迎订阅Youtube元亨利贞）
+      - 🇭🇰 香港(yudou66.com 玉豆分享) 3
+      - 🇨🇦 加拿大【YouTube由零開始】 37
+      - 🇩🇪 (Youtube技术分享室)🇩🇪德国 5
+      - 🇩🇪 (Youtube技术分享室)🇩🇪德国 6
+      - 🇨🇦 加拿大(yudou66.com 玉豆分享) 5
+      - 🇨🇦 加拿大【YouTube由零開始】 38
+      - 🇨🇦 加拿大【YouTube由零開始】 39
+      - 🇨🇦 加拿大【YouTube由零開始】 40
+      - 🇺🇸 US美国(Youtube技术分享室) 5
+      - 🇨🇦 加拿大【YouTube由零開始】 41
+      - 🇨🇦 加拿大（欢迎订阅Youtube元亨利贞） 17
+      - 🇨🇳 中国（欢迎订阅Youtube元亨利贞） 2
+      - Ytb:鹏哥分享_40
+      - 🇫🇷 法国【YouTube由零開始】 5
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
