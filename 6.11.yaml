@@ -5,529 +5,326 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇨🇳 CN_油管 TG 8度科技, server: 211.99.115.24, port: 11112, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
-  - {name: 🇨🇳 CN_油管 TG 8度科技 2, server: 211.99.115.24, port: 11851, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
-  - {name: 🇨🇳 CN_油管 TG 8度科技 3, server: 211.99.115.24, port: 11903, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
-  - {name: 🇨🇳 CN_油管 TG 8度科技 4, server: 211.99.115.24, port: 11404, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
-  - {name: 🇨🇳 CN_油管 TG 8度科技 5, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 21002, type: ss, cipher: chacha20-ietf-poly1305, password: a9c10d37-716c-4429-8ad8-fa2b019ec909}
-  - {name: 🇨🇳 CN_油管 TG 8度科技 6, server: 211.99.115.24, port: 11301, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
-  - {name: 🇺🇸 US_油管 TG 8度科技, server: 198.16.35.242, port: 39043, type: vmess, uuid: 1b2f44e4-a810-48a8-b620-a4567b46c9b7, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: v2ex.downk.cc}}
-  - {name: 🇨🇳 CN_油管 TG 8度科技 7, server: 211.99.115.24, port: 11854, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
-  - {name: 🇨🇳 CN_油管 TG 8度科技 8, server: 211.99.115.24, port: 11108, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
-  - {name: 🇨🇳 CN_油管 TG 8度科技 9, server: 211.99.115.24, port: 11051, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
-  - {name: 🇨🇳 CN_油管 TG 8度科技 10, server: 211.99.115.24, port: 11054, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
-  - {name: 🇨🇳 CN_油管 TG 8度科技 11, server: 211.99.115.24, port: 11007, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
-  - {name: 🇨🇳 CN_油管 TG 8度科技 12, server: 211.99.115.24, port: 11011, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
-  - {name: 🇨🇳 CN_油管 TG 8度科技 13, server: 211.99.115.24, port: 11052, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
-  - {name: 🇨🇳 CN_油管 TG 8度科技 14, server: 211.99.115.24, port: 11010, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
-  - {name: 🇨🇳 CN_油管 TG 8度科技 15, server: 211.99.115.24, port: 11551, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
-  - {name: 🇨🇳 CN_油管 TG 8度科技 16, server: 211.99.115.24, port: 11451, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
-  - {name: 🇨🇳 CN_油管 TG 8度科技 17, server: 211.99.115.24, port: 11852, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
-  - {name: 🇨🇳 CN_油管 TG 8度科技 18, server: 211.99.115.24, port: 11016, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
-  - {name: 🇺🇸 美国| tg频道:@ripaojiedian, server: yin1.qingyun123.xyz, port: 10000, type: trojan, password: 69f6d882-799e-4f08-a47a-2bfcbfb3271a, sni: yin1.qingyun123.xyz}
-  - {name: 🇨🇳 CN_油管 TG 8度科技 19, server: 211.99.115.24, port: 11001, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
-  - {name: 🇨🇳 CN_油管 TG 8度科技 20, server: 211.99.115.24, port: 11055, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
-  - {name: 🇨🇳 CN_油管 TG 8度科技 21, server: 211.99.115.24, port: 11116, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
-  - {name: 🇨🇳 CN_油管 TG 8度科技 22, server: 211.99.115.24, port: 11111, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
-  - {name: 🇨🇳 CN_油管 TG 8度科技 23, server: 211.99.115.24, port: 11118, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
-  - {name: 🇨🇳 CN_油管 TG 8度科技 24, server: 211.99.115.24, port: 11003, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
-  - {name: 🇨🇳 CN_油管 TG 8度科技 25, server: 211.99.115.24, port: 11005, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
-  - {name: 🇨🇳 CN_油管 TG 8度科技 26, server: 211.99.115.24, port: 11905, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
-  - {name: 🇨🇳 CN_油管 TG 8度科技 27, server: 211.99.115.24, port: 11006, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
-  - {name: 🇨🇳 CN_油管 TG 8度科技 28, server: 211.99.115.24, port: 11004, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
-  - {name: 🇨🇳 CN_油管 TG 8度科技 29, server: 211.99.115.24, port: 11014, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
-  - {name: 🇨🇳 CN_油管 TG 8度科技 30, server: 211.99.115.24, port: 11553, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
-  - {name: 🇨🇳 CN_油管 TG 8度科技 31, server: 211.99.115.24, port: 11902, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
-  - {name: 🇨🇳 CN_油管 TG 8度科技 32, server: 211.99.115.24, port: 11302, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
-  - {name: 🇨🇳 CN_油管 TG 8度科技 33, server: 211.99.115.24, port: 11107, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
-  - {name: 🇨🇳 CN_油管 TG 8度科技 34, server: cu3.sgdns.club, port: 31267, type: vmess, uuid: 2dc10784-c7fb-377d-a579-2b541eb16d7b, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /sgy, ws-headers: {Host: cu3.sgdns.club}}
-  - {name: 🇨🇳 CN_油管 TG 8度科技 35, server: 211.99.115.24, port: 11104, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
-  - {name: 🇨🇳 CN_油管 TG 8度科技 36, server: 211.99.115.24, port: 11103, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
-  - {name: 🇨🇳 CN_油管 TG 8度科技 37, server: 211.99.115.24, port: 11008, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
-  - {name: 🇨🇳 CN_油管 TG 8度科技 38, server: 211.99.115.24, port: 11901, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
-  - {name: 科技网络, server: 0320jp.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: 0320jp.fans8.xyz}}
-  - {name: 🇨🇳 CN_油管 TG 8度科技 39, server: 211.99.115.24, port: 11351, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
-  - {name: 🇨🇳 CN_油管 TG 8度科技 40, server: 211.99.115.24, port: 11401, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
-  - {name: 🇨🇳 CN_油管 TG 8度科技 41, server: 211.99.115.24, port: 11015, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
-  - {name: 🇨🇳 CN_油管 TG 8度科技 42, server: 211.99.115.24, port: 11019, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
-  - {name: 🇨🇳 CN_油管 TG 8度科技 43, server: 211.99.115.24, port: 11018, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
-  - {name: 🇨🇳 CN_油管 TG 8度科技 44, server: 211.99.115.24, port: 11501, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
-  - {name: 🇨🇳 CN_油管 TG 8度科技 45, server: 211.99.115.24, port: 11853, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
-  - {name: 🇨🇳 CN_油管 TG 8度科技 46, server: 211.99.115.24, port: 11017, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
-  - {name: 🇨🇳 CN_油管 TG 8度科技 47, server: 211.99.115.24, port: 11403, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
-  - {name: 🇨🇳 CN_油管 TG 8度科技 48, server: 211.99.115.24, port: 11552, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
-  - {name: 🇨🇳 CN_油管 TG 8度科技 49, server: 211.99.115.24, port: 11406, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
-  - {name: 🇨🇳 CN_油管 TG 8度科技 50, server: 211.99.115.24, port: 11002, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
-  - {name: 🇨🇳 CN_油管 TG 8度科技 51, server: 211.99.115.24, port: 11652, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
-  - {name: 🇨🇳 CN_油管 TG 8度科技 52, server: 211.99.115.24, port: 11102, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
-  - {name: 🇨🇳 CN_油管 TG 8度科技 53, server: 211.99.115.24, port: 11405, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
-  - {name: 🇨🇳 CN_油管 TG 8度科技 54, server: 211.99.115.24, port: 11402, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
-  - {name: 🇨🇳 CN_油管 TG 8度科技 55, server: 211.99.115.24, port: 11009, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
-  - {name: 🇨🇳 CN_油管 TG 8度科技 56, server: 211.99.115.24, port: 11110, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
-  - {name: 🇨🇳 CN_油管 TG 8度科技 57, server: 211.99.115.24, port: 11012, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
-  - {name: 🇨🇳 CN_油管 TG 8度科技 58, server: 211.99.115.24, port: 11904, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
-  - {name: 🇨🇳 CN_油管 TG 8度科技 59, server: 211.99.115.24, port: 11013, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
-  - {name: 🇯🇵 JP_油管 TG 8度科技, server: superjapan.dnsfree.top, port: 12354, type: vmess, uuid: ce4b7385-9b70-4baa-a839-14be858b83c2, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: tiebapic.baidu.com}}
-  - {name: 🇸🇬 新加坡| tg频道:@ripaojiedian, server: chinamobile.ga, port: 37344, type: vmess, uuid: 667bea8e-250e-4763-cb52-1e437356109e, alterId: 0, cipher: auto, tls: true}
-  - {name: 科技网络 2, server: 0320jp.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: 0320jp.fans8.xyz}}
-  - {name: 🇨🇳 CN_油管 TG 8度科技 60, server: 211.99.115.24, port: 11651, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
-  - {name: 🇨🇳 CN_油管 TG 8度科技 61, server: 211.99.115.24, port: 11115, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
-  - {name: 🇨🇳 CN_油管 TG 8度科技 62, server: 211.99.115.24, port: 11105, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
-  - {name: 🇨🇳 CN_油管 TG 8度科技 63, server: 211.99.115.24, port: 11117, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh}
-  - {name: 🇷🇺 RU俄罗斯(yudou66.com 玉豆分享), server: 0316ro.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /nl, ws-headers: {Host: 0316ro.fans8.xyz}}
+  - {name: 🇨🇳 (Youtube/TG：俊佳科技)_🇨🇳_中国_1, server: jpcu.dfnode.top, port: 30002, type: vmess, uuid: a6ef37c5-1a0f-3204-8ca6-fa7a18c062c1, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: jpcu.dfnode.top}}
+  - {name: 🇰🇷 韩国(yudou66.com 玉豆分享), server: 193.123.229.241, port: 59108, type: vmess, uuid: 0d1c4e55-e842-46ae-dde2-7eeb7b47a391, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇦 加拿大(yudou66.com+玉豆分享), server: 134.195.196.51, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇪🇺 欧洲(yudou66.com+玉豆分享), server: 169.197.142.99, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇨🇦 加拿大(yudou66.com+玉豆分享) 2, server: 134.195.196.51, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: CYL-科技（2022.04.02）, server: 134.195.196.51, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 卢森堡(yudou66.com+玉豆分享), server: s2.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: s2.upyun.online}
+  - {name: 🇰🇷 韩国(yudou66.com 玉豆分享) 2, server: 193.123.229.241, port: 43001, type: vmess, uuid: f78458a9-cd20-4353-fbc6-35055b8ddada, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 (Youtube/TG：俊佳科技)_🇺🇸_美国_70, server: 169.197.142.99, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇨🇦 加拿大(yudou66.com+玉豆分享) 3, server: 134.195.196.51, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: YouTube@阿阳AYANG, server: 134.195.196.51, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇰🇷 韩国(yudou66.com 玉豆分享) 3, server: 193.123.229.241, port: 18416, type: vmess, uuid: 36b33e50-bdd0-4bdd-da1b-e912b86f9593, alterId: 0, cipher: auto, tls: false}
+  - {name: Relay_🇨🇦CA-🇨🇦CA_549 | 7.63Mb, server: 0326kr.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: 0326kr.fans8.xyz}}
+  - {name: 🇺🇸 _US_美国(yudou66.com 玉豆分享), server: cloudflare.xrenblog.com, port: 443, type: vmess, uuid: 6c175d1a-a57f-4881-a471-173eb139694b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /xrenblog/, ws-headers: {Host: ipv6.xrenblog.com}}
+  - {name: 卢森堡(yudou66.com+玉豆分享) 2, server: s3.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: s3.upyun.online}
+  - {name: 科技网络, server: 169.197.142.99, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 🇺🇸 US美国(yudou66.com+玉豆分享), server: 169.197.142.99, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇨🇦 加拿大-684.6KB/s(Youtube:不良林), server: 134.195.198.252, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: CYL-科技（2022.04.02） 2, server: 134.195.196.51, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 🇨🇳 (Youtube/TG：俊佳科技)_🇨🇳_中国_26, server: 120.232.174.85, port: 45445, type: ss, cipher: aes-128-gcm, password: MxP1k1P1gdsDos5l}
+  - {name: YouTube@阿阳AYANG 2, server: niaop.tk, port: 443, type: vmess, uuid: a0b0df87-bda2-440e-830f-347da6cc7760, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /wsssdr1, ws-headers: {Host: niaop.tk}}
+  - {name: 卢森堡(yudou66.com+玉豆分享) 3, server: s1.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: s1.upyun.online}
+  - {name: 🇨🇳 台湾- tg频道:@ripaojiedian, server: bgpddns.rentidnf.com, port: 58008, type: ss, cipher: chacha20-ietf-poly1305, password: 5796acda-808e-4004-930a-c1bb1b92139a}
+  - {name: CYL-科技（2022.04.02） 3, server: 134.195.196.51, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇺🇸 US美国(yudou66.com+玉豆分享) 2, server: 169.197.142.99, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 🇯🇵 日本(yudou66.com+玉豆分享), server: jp1.qingyun123.xyz, port: 10100, type: trojan, password: d34b5501-7621-4779-8fba-f18fa5a73460, sni: jp1.qingyun123.xyz}
+  - {name: CYL-科技（2022.04.02） 4, server: 134.195.196.51, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 🇺🇸 美国(yudou66.com+玉豆分享), server: 169.197.142.99, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇨🇦 _CA_加拿大, server: 134.195.196.51, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇰🇷 韩国(yudou66.com+玉豆分享), server: 150.230.249.169, port: 8888, type: vmess, uuid: f836d00e-73e0-4eb5-a0ac-18a8e9ee61ef, alterId: 0, cipher: auto, tls: false}
+  - {name: 捷克(yudou66.com 玉豆分享), server: cf.rutracker-cn.com, port: 443, type: vmess, uuid: 55dc4077-3fed-4903-9c39-a3b12cb979db, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /cdwOCfZC, ws-headers: {Host: cf.rutracker-cn.com}}
+  - {name: CYL-科技（2022.04.02） 5, server: 134.195.196.51, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 🇸🇬 新加坡-tg频道:@ripaojiedian, server: bgpddns.rentidnf.com, port: 58012, type: ss, cipher: chacha20-ietf-poly1305, password: 5796acda-808e-4004-930a-c1bb1b92139a}
+  - {name: 🇨🇦 加拿大(yudou66.com+玉豆分享) 4, server: 134.195.196.51, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇺🇸 US美国(yudou66.com+玉豆分享) 3, server: 169.197.142.99, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 科技网络 2, server: 0326kr.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: 0326kr.fans8.xyz}}
+  - {name: 🇨🇦 加拿大(yudou66.com+玉豆分享) 5, server: 134.195.196.51, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: YouTube@阿阳AYANG 3, server: 134.195.196.51, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: YouTube@阿阳AYANG 4, server: 134.195.196.51, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 🇨🇦 _CA_加拿大 2, server: 134.195.196.51, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 🇨🇳 (Youtube/TG：俊佳科技)_🇨🇳_中国_227, server: hkcu.dfnode.top, port: 19251, type: vmess, uuid: a6ef37c5-1a0f-3204-8ca6-fa7a18c062c1, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: hkcu.dfnode.top}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇨🇳 CN_油管 TG 8度科技
-      - 🇨🇳 CN_油管 TG 8度科技 2
-      - 🇨🇳 CN_油管 TG 8度科技 3
-      - 🇨🇳 CN_油管 TG 8度科技 4
-      - 🇨🇳 CN_油管 TG 8度科技 5
-      - 🇨🇳 CN_油管 TG 8度科技 6
-      - 🇺🇸 US_油管 TG 8度科技
-      - 🇨🇳 CN_油管 TG 8度科技 7
-      - 🇨🇳 CN_油管 TG 8度科技 8
-      - 🇨🇳 CN_油管 TG 8度科技 9
-      - 🇨🇳 CN_油管 TG 8度科技 10
-      - 🇨🇳 CN_油管 TG 8度科技 11
-      - 🇨🇳 CN_油管 TG 8度科技 12
-      - 🇨🇳 CN_油管 TG 8度科技 13
-      - 🇨🇳 CN_油管 TG 8度科技 14
-      - 🇨🇳 CN_油管 TG 8度科技 15
-      - 🇨🇳 CN_油管 TG 8度科技 16
-      - 🇨🇳 CN_油管 TG 8度科技 17
-      - 🇨🇳 CN_油管 TG 8度科技 18
-      - 🇺🇸 美国| tg频道:@ripaojiedian
-      - 🇨🇳 CN_油管 TG 8度科技 19
-      - 🇨🇳 CN_油管 TG 8度科技 20
-      - 🇨🇳 CN_油管 TG 8度科技 21
-      - 🇨🇳 CN_油管 TG 8度科技 22
-      - 🇨🇳 CN_油管 TG 8度科技 23
-      - 🇨🇳 CN_油管 TG 8度科技 24
-      - 🇨🇳 CN_油管 TG 8度科技 25
-      - 🇨🇳 CN_油管 TG 8度科技 26
-      - 🇨🇳 CN_油管 TG 8度科技 27
-      - 🇨🇳 CN_油管 TG 8度科技 28
-      - 🇨🇳 CN_油管 TG 8度科技 29
-      - 🇨🇳 CN_油管 TG 8度科技 30
-      - 🇨🇳 CN_油管 TG 8度科技 31
-      - 🇨🇳 CN_油管 TG 8度科技 32
-      - 🇨🇳 CN_油管 TG 8度科技 33
-      - 🇨🇳 CN_油管 TG 8度科技 34
-      - 🇨🇳 CN_油管 TG 8度科技 35
-      - 🇨🇳 CN_油管 TG 8度科技 36
-      - 🇨🇳 CN_油管 TG 8度科技 37
-      - 🇨🇳 CN_油管 TG 8度科技 38
+      - 🇨🇳 (Youtube/TG：俊佳科技)_🇨🇳_中国_1
+      - 🇰🇷 韩国(yudou66.com 玉豆分享)
+      - 🇨🇦 加拿大(yudou66.com+玉豆分享)
+      - 🇪🇺 欧洲(yudou66.com+玉豆分享)
+      - 🇨🇦 加拿大(yudou66.com+玉豆分享) 2
+      - CYL-科技（2022.04.02）
+      - 卢森堡(yudou66.com+玉豆分享)
+      - 🇰🇷 韩国(yudou66.com 玉豆分享) 2
+      - 🇺🇸 (Youtube/TG：俊佳科技)_🇺🇸_美国_70
+      - 🇨🇦 加拿大(yudou66.com+玉豆分享) 3
+      - YouTube@阿阳AYANG
+      - 🇰🇷 韩国(yudou66.com 玉豆分享) 3
+      - Relay_🇨🇦CA-🇨🇦CA_549 | 7.63Mb
+      - 🇺🇸 _US_美国(yudou66.com 玉豆分享)
+      - 卢森堡(yudou66.com+玉豆分享) 2
       - 科技网络
-      - 🇨🇳 CN_油管 TG 8度科技 39
-      - 🇨🇳 CN_油管 TG 8度科技 40
-      - 🇨🇳 CN_油管 TG 8度科技 41
-      - 🇨🇳 CN_油管 TG 8度科技 42
-      - 🇨🇳 CN_油管 TG 8度科技 43
-      - 🇨🇳 CN_油管 TG 8度科技 44
-      - 🇨🇳 CN_油管 TG 8度科技 45
-      - 🇨🇳 CN_油管 TG 8度科技 46
-      - 🇨🇳 CN_油管 TG 8度科技 47
-      - 🇨🇳 CN_油管 TG 8度科技 48
-      - 🇨🇳 CN_油管 TG 8度科技 49
-      - 🇨🇳 CN_油管 TG 8度科技 50
-      - 🇨🇳 CN_油管 TG 8度科技 51
-      - 🇨🇳 CN_油管 TG 8度科技 52
-      - 🇨🇳 CN_油管 TG 8度科技 53
-      - 🇨🇳 CN_油管 TG 8度科技 54
-      - 🇨🇳 CN_油管 TG 8度科技 55
-      - 🇨🇳 CN_油管 TG 8度科技 56
-      - 🇨🇳 CN_油管 TG 8度科技 57
-      - 🇨🇳 CN_油管 TG 8度科技 58
-      - 🇨🇳 CN_油管 TG 8度科技 59
-      - 🇯🇵 JP_油管 TG 8度科技
-      - 🇸🇬 新加坡| tg频道:@ripaojiedian
+      - 🇺🇸 US美国(yudou66.com+玉豆分享)
+      - 🇨🇦 加拿大-684.6KB/s(Youtube:不良林)
+      - CYL-科技（2022.04.02） 2
+      - 🇨🇳 (Youtube/TG：俊佳科技)_🇨🇳_中国_26
+      - YouTube@阿阳AYANG 2
+      - 卢森堡(yudou66.com+玉豆分享) 3
+      - 🇨🇳 台湾- tg频道:@ripaojiedian
+      - CYL-科技（2022.04.02） 3
+      - 🇺🇸 US美国(yudou66.com+玉豆分享) 2
+      - 🇯🇵 日本(yudou66.com+玉豆分享)
+      - CYL-科技（2022.04.02） 4
+      - 🇺🇸 美国(yudou66.com+玉豆分享)
+      - 🇨🇦 _CA_加拿大
+      - 🇰🇷 韩国(yudou66.com+玉豆分享)
+      - 捷克(yudou66.com 玉豆分享)
+      - CYL-科技（2022.04.02） 5
+      - 🇸🇬 新加坡-tg频道:@ripaojiedian
+      - 🇨🇦 加拿大(yudou66.com+玉豆分享) 4
+      - 🇺🇸 US美国(yudou66.com+玉豆分享) 3
       - 科技网络 2
-      - 🇨🇳 CN_油管 TG 8度科技 60
-      - 🇨🇳 CN_油管 TG 8度科技 61
-      - 🇨🇳 CN_油管 TG 8度科技 62
-      - 🇨🇳 CN_油管 TG 8度科技 63
-      - 🇷🇺 RU俄罗斯(yudou66.com 玉豆分享)
+      - 🇨🇦 加拿大(yudou66.com+玉豆分享) 5
+      - YouTube@阿阳AYANG 3
+      - YouTube@阿阳AYANG 4
+      - 🇨🇦 _CA_加拿大 2
+      - 🇨🇳 (Youtube/TG：俊佳科技)_🇨🇳_中国_227
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳 CN_油管 TG 8度科技
-      - 🇨🇳 CN_油管 TG 8度科技 2
-      - 🇨🇳 CN_油管 TG 8度科技 3
-      - 🇨🇳 CN_油管 TG 8度科技 4
-      - 🇨🇳 CN_油管 TG 8度科技 5
-      - 🇨🇳 CN_油管 TG 8度科技 6
-      - 🇺🇸 US_油管 TG 8度科技
-      - 🇨🇳 CN_油管 TG 8度科技 7
-      - 🇨🇳 CN_油管 TG 8度科技 8
-      - 🇨🇳 CN_油管 TG 8度科技 9
-      - 🇨🇳 CN_油管 TG 8度科技 10
-      - 🇨🇳 CN_油管 TG 8度科技 11
-      - 🇨🇳 CN_油管 TG 8度科技 12
-      - 🇨🇳 CN_油管 TG 8度科技 13
-      - 🇨🇳 CN_油管 TG 8度科技 14
-      - 🇨🇳 CN_油管 TG 8度科技 15
-      - 🇨🇳 CN_油管 TG 8度科技 16
-      - 🇨🇳 CN_油管 TG 8度科技 17
-      - 🇨🇳 CN_油管 TG 8度科技 18
-      - 🇺🇸 美国| tg频道:@ripaojiedian
-      - 🇨🇳 CN_油管 TG 8度科技 19
-      - 🇨🇳 CN_油管 TG 8度科技 20
-      - 🇨🇳 CN_油管 TG 8度科技 21
-      - 🇨🇳 CN_油管 TG 8度科技 22
-      - 🇨🇳 CN_油管 TG 8度科技 23
-      - 🇨🇳 CN_油管 TG 8度科技 24
-      - 🇨🇳 CN_油管 TG 8度科技 25
-      - 🇨🇳 CN_油管 TG 8度科技 26
-      - 🇨🇳 CN_油管 TG 8度科技 27
-      - 🇨🇳 CN_油管 TG 8度科技 28
-      - 🇨🇳 CN_油管 TG 8度科技 29
-      - 🇨🇳 CN_油管 TG 8度科技 30
-      - 🇨🇳 CN_油管 TG 8度科技 31
-      - 🇨🇳 CN_油管 TG 8度科技 32
-      - 🇨🇳 CN_油管 TG 8度科技 33
-      - 🇨🇳 CN_油管 TG 8度科技 34
-      - 🇨🇳 CN_油管 TG 8度科技 35
-      - 🇨🇳 CN_油管 TG 8度科技 36
-      - 🇨🇳 CN_油管 TG 8度科技 37
-      - 🇨🇳 CN_油管 TG 8度科技 38
+      - 🇨🇳 (Youtube/TG：俊佳科技)_🇨🇳_中国_1
+      - 🇰🇷 韩国(yudou66.com 玉豆分享)
+      - 🇨🇦 加拿大(yudou66.com+玉豆分享)
+      - 🇪🇺 欧洲(yudou66.com+玉豆分享)
+      - 🇨🇦 加拿大(yudou66.com+玉豆分享) 2
+      - CYL-科技（2022.04.02）
+      - 卢森堡(yudou66.com+玉豆分享)
+      - 🇰🇷 韩国(yudou66.com 玉豆分享) 2
+      - 🇺🇸 (Youtube/TG：俊佳科技)_🇺🇸_美国_70
+      - 🇨🇦 加拿大(yudou66.com+玉豆分享) 3
+      - YouTube@阿阳AYANG
+      - 🇰🇷 韩国(yudou66.com 玉豆分享) 3
+      - Relay_🇨🇦CA-🇨🇦CA_549 | 7.63Mb
+      - 🇺🇸 _US_美国(yudou66.com 玉豆分享)
+      - 卢森堡(yudou66.com+玉豆分享) 2
       - 科技网络
-      - 🇨🇳 CN_油管 TG 8度科技 39
-      - 🇨🇳 CN_油管 TG 8度科技 40
-      - 🇨🇳 CN_油管 TG 8度科技 41
-      - 🇨🇳 CN_油管 TG 8度科技 42
-      - 🇨🇳 CN_油管 TG 8度科技 43
-      - 🇨🇳 CN_油管 TG 8度科技 44
-      - 🇨🇳 CN_油管 TG 8度科技 45
-      - 🇨🇳 CN_油管 TG 8度科技 46
-      - 🇨🇳 CN_油管 TG 8度科技 47
-      - 🇨🇳 CN_油管 TG 8度科技 48
-      - 🇨🇳 CN_油管 TG 8度科技 49
-      - 🇨🇳 CN_油管 TG 8度科技 50
-      - 🇨🇳 CN_油管 TG 8度科技 51
-      - 🇨🇳 CN_油管 TG 8度科技 52
-      - 🇨🇳 CN_油管 TG 8度科技 53
-      - 🇨🇳 CN_油管 TG 8度科技 54
-      - 🇨🇳 CN_油管 TG 8度科技 55
-      - 🇨🇳 CN_油管 TG 8度科技 56
-      - 🇨🇳 CN_油管 TG 8度科技 57
-      - 🇨🇳 CN_油管 TG 8度科技 58
-      - 🇨🇳 CN_油管 TG 8度科技 59
-      - 🇯🇵 JP_油管 TG 8度科技
-      - 🇸🇬 新加坡| tg频道:@ripaojiedian
+      - 🇺🇸 US美国(yudou66.com+玉豆分享)
+      - 🇨🇦 加拿大-684.6KB/s(Youtube:不良林)
+      - CYL-科技（2022.04.02） 2
+      - 🇨🇳 (Youtube/TG：俊佳科技)_🇨🇳_中国_26
+      - YouTube@阿阳AYANG 2
+      - 卢森堡(yudou66.com+玉豆分享) 3
+      - 🇨🇳 台湾- tg频道:@ripaojiedian
+      - CYL-科技（2022.04.02） 3
+      - 🇺🇸 US美国(yudou66.com+玉豆分享) 2
+      - 🇯🇵 日本(yudou66.com+玉豆分享)
+      - CYL-科技（2022.04.02） 4
+      - 🇺🇸 美国(yudou66.com+玉豆分享)
+      - 🇨🇦 _CA_加拿大
+      - 🇰🇷 韩国(yudou66.com+玉豆分享)
+      - 捷克(yudou66.com 玉豆分享)
+      - CYL-科技（2022.04.02） 5
+      - 🇸🇬 新加坡-tg频道:@ripaojiedian
+      - 🇨🇦 加拿大(yudou66.com+玉豆分享) 4
+      - 🇺🇸 US美国(yudou66.com+玉豆分享) 3
       - 科技网络 2
-      - 🇨🇳 CN_油管 TG 8度科技 60
-      - 🇨🇳 CN_油管 TG 8度科技 61
-      - 🇨🇳 CN_油管 TG 8度科技 62
-      - 🇨🇳 CN_油管 TG 8度科技 63
-      - 🇷🇺 RU俄罗斯(yudou66.com 玉豆分享)
+      - 🇨🇦 加拿大(yudou66.com+玉豆分享) 5
+      - YouTube@阿阳AYANG 3
+      - YouTube@阿阳AYANG 4
+      - 🇨🇦 _CA_加拿大 2
+      - 🇨🇳 (Youtube/TG：俊佳科技)_🇨🇳_中国_227
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳 CN_油管 TG 8度科技
-      - 🇨🇳 CN_油管 TG 8度科技 2
-      - 🇨🇳 CN_油管 TG 8度科技 3
-      - 🇨🇳 CN_油管 TG 8度科技 4
-      - 🇨🇳 CN_油管 TG 8度科技 5
-      - 🇨🇳 CN_油管 TG 8度科技 6
-      - 🇺🇸 US_油管 TG 8度科技
-      - 🇨🇳 CN_油管 TG 8度科技 7
-      - 🇨🇳 CN_油管 TG 8度科技 8
-      - 🇨🇳 CN_油管 TG 8度科技 9
-      - 🇨🇳 CN_油管 TG 8度科技 10
-      - 🇨🇳 CN_油管 TG 8度科技 11
-      - 🇨🇳 CN_油管 TG 8度科技 12
-      - 🇨🇳 CN_油管 TG 8度科技 13
-      - 🇨🇳 CN_油管 TG 8度科技 14
-      - 🇨🇳 CN_油管 TG 8度科技 15
-      - 🇨🇳 CN_油管 TG 8度科技 16
-      - 🇨🇳 CN_油管 TG 8度科技 17
-      - 🇨🇳 CN_油管 TG 8度科技 18
-      - 🇺🇸 美国| tg频道:@ripaojiedian
-      - 🇨🇳 CN_油管 TG 8度科技 19
-      - 🇨🇳 CN_油管 TG 8度科技 20
-      - 🇨🇳 CN_油管 TG 8度科技 21
-      - 🇨🇳 CN_油管 TG 8度科技 22
-      - 🇨🇳 CN_油管 TG 8度科技 23
-      - 🇨🇳 CN_油管 TG 8度科技 24
-      - 🇨🇳 CN_油管 TG 8度科技 25
-      - 🇨🇳 CN_油管 TG 8度科技 26
-      - 🇨🇳 CN_油管 TG 8度科技 27
-      - 🇨🇳 CN_油管 TG 8度科技 28
-      - 🇨🇳 CN_油管 TG 8度科技 29
-      - 🇨🇳 CN_油管 TG 8度科技 30
-      - 🇨🇳 CN_油管 TG 8度科技 31
-      - 🇨🇳 CN_油管 TG 8度科技 32
-      - 🇨🇳 CN_油管 TG 8度科技 33
-      - 🇨🇳 CN_油管 TG 8度科技 34
-      - 🇨🇳 CN_油管 TG 8度科技 35
-      - 🇨🇳 CN_油管 TG 8度科技 36
-      - 🇨🇳 CN_油管 TG 8度科技 37
-      - 🇨🇳 CN_油管 TG 8度科技 38
+      - 🇨🇳 (Youtube/TG：俊佳科技)_🇨🇳_中国_1
+      - 🇰🇷 韩国(yudou66.com 玉豆分享)
+      - 🇨🇦 加拿大(yudou66.com+玉豆分享)
+      - 🇪🇺 欧洲(yudou66.com+玉豆分享)
+      - 🇨🇦 加拿大(yudou66.com+玉豆分享) 2
+      - CYL-科技（2022.04.02）
+      - 卢森堡(yudou66.com+玉豆分享)
+      - 🇰🇷 韩国(yudou66.com 玉豆分享) 2
+      - 🇺🇸 (Youtube/TG：俊佳科技)_🇺🇸_美国_70
+      - 🇨🇦 加拿大(yudou66.com+玉豆分享) 3
+      - YouTube@阿阳AYANG
+      - 🇰🇷 韩国(yudou66.com 玉豆分享) 3
+      - Relay_🇨🇦CA-🇨🇦CA_549 | 7.63Mb
+      - 🇺🇸 _US_美国(yudou66.com 玉豆分享)
+      - 卢森堡(yudou66.com+玉豆分享) 2
       - 科技网络
-      - 🇨🇳 CN_油管 TG 8度科技 39
-      - 🇨🇳 CN_油管 TG 8度科技 40
-      - 🇨🇳 CN_油管 TG 8度科技 41
-      - 🇨🇳 CN_油管 TG 8度科技 42
-      - 🇨🇳 CN_油管 TG 8度科技 43
-      - 🇨🇳 CN_油管 TG 8度科技 44
-      - 🇨🇳 CN_油管 TG 8度科技 45
-      - 🇨🇳 CN_油管 TG 8度科技 46
-      - 🇨🇳 CN_油管 TG 8度科技 47
-      - 🇨🇳 CN_油管 TG 8度科技 48
-      - 🇨🇳 CN_油管 TG 8度科技 49
-      - 🇨🇳 CN_油管 TG 8度科技 50
-      - 🇨🇳 CN_油管 TG 8度科技 51
-      - 🇨🇳 CN_油管 TG 8度科技 52
-      - 🇨🇳 CN_油管 TG 8度科技 53
-      - 🇨🇳 CN_油管 TG 8度科技 54
-      - 🇨🇳 CN_油管 TG 8度科技 55
-      - 🇨🇳 CN_油管 TG 8度科技 56
-      - 🇨🇳 CN_油管 TG 8度科技 57
-      - 🇨🇳 CN_油管 TG 8度科技 58
-      - 🇨🇳 CN_油管 TG 8度科技 59
-      - 🇯🇵 JP_油管 TG 8度科技
-      - 🇸🇬 新加坡| tg频道:@ripaojiedian
+      - 🇺🇸 US美国(yudou66.com+玉豆分享)
+      - 🇨🇦 加拿大-684.6KB/s(Youtube:不良林)
+      - CYL-科技（2022.04.02） 2
+      - 🇨🇳 (Youtube/TG：俊佳科技)_🇨🇳_中国_26
+      - YouTube@阿阳AYANG 2
+      - 卢森堡(yudou66.com+玉豆分享) 3
+      - 🇨🇳 台湾- tg频道:@ripaojiedian
+      - CYL-科技（2022.04.02） 3
+      - 🇺🇸 US美国(yudou66.com+玉豆分享) 2
+      - 🇯🇵 日本(yudou66.com+玉豆分享)
+      - CYL-科技（2022.04.02） 4
+      - 🇺🇸 美国(yudou66.com+玉豆分享)
+      - 🇨🇦 _CA_加拿大
+      - 🇰🇷 韩国(yudou66.com+玉豆分享)
+      - 捷克(yudou66.com 玉豆分享)
+      - CYL-科技（2022.04.02） 5
+      - 🇸🇬 新加坡-tg频道:@ripaojiedian
+      - 🇨🇦 加拿大(yudou66.com+玉豆分享) 4
+      - 🇺🇸 US美国(yudou66.com+玉豆分享) 3
       - 科技网络 2
-      - 🇨🇳 CN_油管 TG 8度科技 60
-      - 🇨🇳 CN_油管 TG 8度科技 61
-      - 🇨🇳 CN_油管 TG 8度科技 62
-      - 🇨🇳 CN_油管 TG 8度科技 63
-      - 🇷🇺 RU俄罗斯(yudou66.com 玉豆分享)
+      - 🇨🇦 加拿大(yudou66.com+玉豆分享) 5
+      - YouTube@阿阳AYANG 3
+      - YouTube@阿阳AYANG 4
+      - 🇨🇦 _CA_加拿大 2
+      - 🇨🇳 (Youtube/TG：俊佳科技)_🇨🇳_中国_227
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳 CN_油管 TG 8度科技
-      - 🇨🇳 CN_油管 TG 8度科技 2
-      - 🇨🇳 CN_油管 TG 8度科技 3
-      - 🇨🇳 CN_油管 TG 8度科技 4
-      - 🇨🇳 CN_油管 TG 8度科技 5
-      - 🇨🇳 CN_油管 TG 8度科技 6
-      - 🇺🇸 US_油管 TG 8度科技
-      - 🇨🇳 CN_油管 TG 8度科技 7
-      - 🇨🇳 CN_油管 TG 8度科技 8
-      - 🇨🇳 CN_油管 TG 8度科技 9
-      - 🇨🇳 CN_油管 TG 8度科技 10
-      - 🇨🇳 CN_油管 TG 8度科技 11
-      - 🇨🇳 CN_油管 TG 8度科技 12
-      - 🇨🇳 CN_油管 TG 8度科技 13
-      - 🇨🇳 CN_油管 TG 8度科技 14
-      - 🇨🇳 CN_油管 TG 8度科技 15
-      - 🇨🇳 CN_油管 TG 8度科技 16
-      - 🇨🇳 CN_油管 TG 8度科技 17
-      - 🇨🇳 CN_油管 TG 8度科技 18
-      - 🇺🇸 美国| tg频道:@ripaojiedian
-      - 🇨🇳 CN_油管 TG 8度科技 19
-      - 🇨🇳 CN_油管 TG 8度科技 20
-      - 🇨🇳 CN_油管 TG 8度科技 21
-      - 🇨🇳 CN_油管 TG 8度科技 22
-      - 🇨🇳 CN_油管 TG 8度科技 23
-      - 🇨🇳 CN_油管 TG 8度科技 24
-      - 🇨🇳 CN_油管 TG 8度科技 25
-      - 🇨🇳 CN_油管 TG 8度科技 26
-      - 🇨🇳 CN_油管 TG 8度科技 27
-      - 🇨🇳 CN_油管 TG 8度科技 28
-      - 🇨🇳 CN_油管 TG 8度科技 29
-      - 🇨🇳 CN_油管 TG 8度科技 30
-      - 🇨🇳 CN_油管 TG 8度科技 31
-      - 🇨🇳 CN_油管 TG 8度科技 32
-      - 🇨🇳 CN_油管 TG 8度科技 33
-      - 🇨🇳 CN_油管 TG 8度科技 34
-      - 🇨🇳 CN_油管 TG 8度科技 35
-      - 🇨🇳 CN_油管 TG 8度科技 36
-      - 🇨🇳 CN_油管 TG 8度科技 37
-      - 🇨🇳 CN_油管 TG 8度科技 38
+      - 🇨🇳 (Youtube/TG：俊佳科技)_🇨🇳_中国_1
+      - 🇰🇷 韩国(yudou66.com 玉豆分享)
+      - 🇨🇦 加拿大(yudou66.com+玉豆分享)
+      - 🇪🇺 欧洲(yudou66.com+玉豆分享)
+      - 🇨🇦 加拿大(yudou66.com+玉豆分享) 2
+      - CYL-科技（2022.04.02）
+      - 卢森堡(yudou66.com+玉豆分享)
+      - 🇰🇷 韩国(yudou66.com 玉豆分享) 2
+      - 🇺🇸 (Youtube/TG：俊佳科技)_🇺🇸_美国_70
+      - 🇨🇦 加拿大(yudou66.com+玉豆分享) 3
+      - YouTube@阿阳AYANG
+      - 🇰🇷 韩国(yudou66.com 玉豆分享) 3
+      - Relay_🇨🇦CA-🇨🇦CA_549 | 7.63Mb
+      - 🇺🇸 _US_美国(yudou66.com 玉豆分享)
+      - 卢森堡(yudou66.com+玉豆分享) 2
       - 科技网络
-      - 🇨🇳 CN_油管 TG 8度科技 39
-      - 🇨🇳 CN_油管 TG 8度科技 40
-      - 🇨🇳 CN_油管 TG 8度科技 41
-      - 🇨🇳 CN_油管 TG 8度科技 42
-      - 🇨🇳 CN_油管 TG 8度科技 43
-      - 🇨🇳 CN_油管 TG 8度科技 44
-      - 🇨🇳 CN_油管 TG 8度科技 45
-      - 🇨🇳 CN_油管 TG 8度科技 46
-      - 🇨🇳 CN_油管 TG 8度科技 47
-      - 🇨🇳 CN_油管 TG 8度科技 48
-      - 🇨🇳 CN_油管 TG 8度科技 49
-      - 🇨🇳 CN_油管 TG 8度科技 50
-      - 🇨🇳 CN_油管 TG 8度科技 51
-      - 🇨🇳 CN_油管 TG 8度科技 52
-      - 🇨🇳 CN_油管 TG 8度科技 53
-      - 🇨🇳 CN_油管 TG 8度科技 54
-      - 🇨🇳 CN_油管 TG 8度科技 55
-      - 🇨🇳 CN_油管 TG 8度科技 56
-      - 🇨🇳 CN_油管 TG 8度科技 57
-      - 🇨🇳 CN_油管 TG 8度科技 58
-      - 🇨🇳 CN_油管 TG 8度科技 59
-      - 🇯🇵 JP_油管 TG 8度科技
-      - 🇸🇬 新加坡| tg频道:@ripaojiedian
+      - 🇺🇸 US美国(yudou66.com+玉豆分享)
+      - 🇨🇦 加拿大-684.6KB/s(Youtube:不良林)
+      - CYL-科技（2022.04.02） 2
+      - 🇨🇳 (Youtube/TG：俊佳科技)_🇨🇳_中国_26
+      - YouTube@阿阳AYANG 2
+      - 卢森堡(yudou66.com+玉豆分享) 3
+      - 🇨🇳 台湾- tg频道:@ripaojiedian
+      - CYL-科技（2022.04.02） 3
+      - 🇺🇸 US美国(yudou66.com+玉豆分享) 2
+      - 🇯🇵 日本(yudou66.com+玉豆分享)
+      - CYL-科技（2022.04.02） 4
+      - 🇺🇸 美国(yudou66.com+玉豆分享)
+      - 🇨🇦 _CA_加拿大
+      - 🇰🇷 韩国(yudou66.com+玉豆分享)
+      - 捷克(yudou66.com 玉豆分享)
+      - CYL-科技（2022.04.02） 5
+      - 🇸🇬 新加坡-tg频道:@ripaojiedian
+      - 🇨🇦 加拿大(yudou66.com+玉豆分享) 4
+      - 🇺🇸 US美国(yudou66.com+玉豆分享) 3
       - 科技网络 2
-      - 🇨🇳 CN_油管 TG 8度科技 60
-      - 🇨🇳 CN_油管 TG 8度科技 61
-      - 🇨🇳 CN_油管 TG 8度科技 62
-      - 🇨🇳 CN_油管 TG 8度科技 63
-      - 🇷🇺 RU俄罗斯(yudou66.com 玉豆分享)
+      - 🇨🇦 加拿大(yudou66.com+玉豆分享) 5
+      - YouTube@阿阳AYANG 3
+      - YouTube@阿阳AYANG 4
+      - 🇨🇦 _CA_加拿大 2
+      - 🇨🇳 (Youtube/TG：俊佳科技)_🇨🇳_中国_227
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇨🇳 CN_油管 TG 8度科技
-      - 🇨🇳 CN_油管 TG 8度科技 2
-      - 🇨🇳 CN_油管 TG 8度科技 3
-      - 🇨🇳 CN_油管 TG 8度科技 4
-      - 🇨🇳 CN_油管 TG 8度科技 5
-      - 🇨🇳 CN_油管 TG 8度科技 6
-      - 🇺🇸 US_油管 TG 8度科技
-      - 🇨🇳 CN_油管 TG 8度科技 7
-      - 🇨🇳 CN_油管 TG 8度科技 8
-      - 🇨🇳 CN_油管 TG 8度科技 9
-      - 🇨🇳 CN_油管 TG 8度科技 10
-      - 🇨🇳 CN_油管 TG 8度科技 11
-      - 🇨🇳 CN_油管 TG 8度科技 12
-      - 🇨🇳 CN_油管 TG 8度科技 13
-      - 🇨🇳 CN_油管 TG 8度科技 14
-      - 🇨🇳 CN_油管 TG 8度科技 15
-      - 🇨🇳 CN_油管 TG 8度科技 16
-      - 🇨🇳 CN_油管 TG 8度科技 17
-      - 🇨🇳 CN_油管 TG 8度科技 18
-      - 🇺🇸 美国| tg频道:@ripaojiedian
-      - 🇨🇳 CN_油管 TG 8度科技 19
-      - 🇨🇳 CN_油管 TG 8度科技 20
-      - 🇨🇳 CN_油管 TG 8度科技 21
-      - 🇨🇳 CN_油管 TG 8度科技 22
-      - 🇨🇳 CN_油管 TG 8度科技 23
-      - 🇨🇳 CN_油管 TG 8度科技 24
-      - 🇨🇳 CN_油管 TG 8度科技 25
-      - 🇨🇳 CN_油管 TG 8度科技 26
-      - 🇨🇳 CN_油管 TG 8度科技 27
-      - 🇨🇳 CN_油管 TG 8度科技 28
-      - 🇨🇳 CN_油管 TG 8度科技 29
-      - 🇨🇳 CN_油管 TG 8度科技 30
-      - 🇨🇳 CN_油管 TG 8度科技 31
-      - 🇨🇳 CN_油管 TG 8度科技 32
-      - 🇨🇳 CN_油管 TG 8度科技 33
-      - 🇨🇳 CN_油管 TG 8度科技 34
-      - 🇨🇳 CN_油管 TG 8度科技 35
-      - 🇨🇳 CN_油管 TG 8度科技 36
-      - 🇨🇳 CN_油管 TG 8度科技 37
-      - 🇨🇳 CN_油管 TG 8度科技 38
+      - 🇨🇳 (Youtube/TG：俊佳科技)_🇨🇳_中国_1
+      - 🇰🇷 韩国(yudou66.com 玉豆分享)
+      - 🇨🇦 加拿大(yudou66.com+玉豆分享)
+      - 🇪🇺 欧洲(yudou66.com+玉豆分享)
+      - 🇨🇦 加拿大(yudou66.com+玉豆分享) 2
+      - CYL-科技（2022.04.02）
+      - 卢森堡(yudou66.com+玉豆分享)
+      - 🇰🇷 韩国(yudou66.com 玉豆分享) 2
+      - 🇺🇸 (Youtube/TG：俊佳科技)_🇺🇸_美国_70
+      - 🇨🇦 加拿大(yudou66.com+玉豆分享) 3
+      - YouTube@阿阳AYANG
+      - 🇰🇷 韩国(yudou66.com 玉豆分享) 3
+      - Relay_🇨🇦CA-🇨🇦CA_549 | 7.63Mb
+      - 🇺🇸 _US_美国(yudou66.com 玉豆分享)
+      - 卢森堡(yudou66.com+玉豆分享) 2
       - 科技网络
-      - 🇨🇳 CN_油管 TG 8度科技 39
-      - 🇨🇳 CN_油管 TG 8度科技 40
-      - 🇨🇳 CN_油管 TG 8度科技 41
-      - 🇨🇳 CN_油管 TG 8度科技 42
-      - 🇨🇳 CN_油管 TG 8度科技 43
-      - 🇨🇳 CN_油管 TG 8度科技 44
-      - 🇨🇳 CN_油管 TG 8度科技 45
-      - 🇨🇳 CN_油管 TG 8度科技 46
-      - 🇨🇳 CN_油管 TG 8度科技 47
-      - 🇨🇳 CN_油管 TG 8度科技 48
-      - 🇨🇳 CN_油管 TG 8度科技 49
-      - 🇨🇳 CN_油管 TG 8度科技 50
-      - 🇨🇳 CN_油管 TG 8度科技 51
-      - 🇨🇳 CN_油管 TG 8度科技 52
-      - 🇨🇳 CN_油管 TG 8度科技 53
-      - 🇨🇳 CN_油管 TG 8度科技 54
-      - 🇨🇳 CN_油管 TG 8度科技 55
-      - 🇨🇳 CN_油管 TG 8度科技 56
-      - 🇨🇳 CN_油管 TG 8度科技 57
-      - 🇨🇳 CN_油管 TG 8度科技 58
-      - 🇨🇳 CN_油管 TG 8度科技 59
-      - 🇯🇵 JP_油管 TG 8度科技
-      - 🇸🇬 新加坡| tg频道:@ripaojiedian
+      - 🇺🇸 US美国(yudou66.com+玉豆分享)
+      - 🇨🇦 加拿大-684.6KB/s(Youtube:不良林)
+      - CYL-科技（2022.04.02） 2
+      - 🇨🇳 (Youtube/TG：俊佳科技)_🇨🇳_中国_26
+      - YouTube@阿阳AYANG 2
+      - 卢森堡(yudou66.com+玉豆分享) 3
+      - 🇨🇳 台湾- tg频道:@ripaojiedian
+      - CYL-科技（2022.04.02） 3
+      - 🇺🇸 US美国(yudou66.com+玉豆分享) 2
+      - 🇯🇵 日本(yudou66.com+玉豆分享)
+      - CYL-科技（2022.04.02） 4
+      - 🇺🇸 美国(yudou66.com+玉豆分享)
+      - 🇨🇦 _CA_加拿大
+      - 🇰🇷 韩国(yudou66.com+玉豆分享)
+      - 捷克(yudou66.com 玉豆分享)
+      - CYL-科技（2022.04.02） 5
+      - 🇸🇬 新加坡-tg频道:@ripaojiedian
+      - 🇨🇦 加拿大(yudou66.com+玉豆分享) 4
+      - 🇺🇸 US美国(yudou66.com+玉豆分享) 3
       - 科技网络 2
-      - 🇨🇳 CN_油管 TG 8度科技 60
-      - 🇨🇳 CN_油管 TG 8度科技 61
-      - 🇨🇳 CN_油管 TG 8度科技 62
-      - 🇨🇳 CN_油管 TG 8度科技 63
-      - 🇷🇺 RU俄罗斯(yudou66.com 玉豆分享)
+      - 🇨🇦 加拿大(yudou66.com+玉豆分享) 5
+      - YouTube@阿阳AYANG 3
+      - YouTube@阿阳AYANG 4
+      - 🇨🇦 _CA_加拿大 2
+      - 🇨🇳 (Youtube/TG：俊佳科技)_🇨🇳_中国_227
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳 CN_油管 TG 8度科技
-      - 🇨🇳 CN_油管 TG 8度科技 2
-      - 🇨🇳 CN_油管 TG 8度科技 3
-      - 🇨🇳 CN_油管 TG 8度科技 4
-      - 🇨🇳 CN_油管 TG 8度科技 5
-      - 🇨🇳 CN_油管 TG 8度科技 6
-      - 🇺🇸 US_油管 TG 8度科技
-      - 🇨🇳 CN_油管 TG 8度科技 7
-      - 🇨🇳 CN_油管 TG 8度科技 8
-      - 🇨🇳 CN_油管 TG 8度科技 9
-      - 🇨🇳 CN_油管 TG 8度科技 10
-      - 🇨🇳 CN_油管 TG 8度科技 11
-      - 🇨🇳 CN_油管 TG 8度科技 12
-      - 🇨🇳 CN_油管 TG 8度科技 13
-      - 🇨🇳 CN_油管 TG 8度科技 14
-      - 🇨🇳 CN_油管 TG 8度科技 15
-      - 🇨🇳 CN_油管 TG 8度科技 16
-      - 🇨🇳 CN_油管 TG 8度科技 17
-      - 🇨🇳 CN_油管 TG 8度科技 18
-      - 🇺🇸 美国| tg频道:@ripaojiedian
-      - 🇨🇳 CN_油管 TG 8度科技 19
-      - 🇨🇳 CN_油管 TG 8度科技 20
-      - 🇨🇳 CN_油管 TG 8度科技 21
-      - 🇨🇳 CN_油管 TG 8度科技 22
-      - 🇨🇳 CN_油管 TG 8度科技 23
-      - 🇨🇳 CN_油管 TG 8度科技 24
-      - 🇨🇳 CN_油管 TG 8度科技 25
-      - 🇨🇳 CN_油管 TG 8度科技 26
-      - 🇨🇳 CN_油管 TG 8度科技 27
-      - 🇨🇳 CN_油管 TG 8度科技 28
-      - 🇨🇳 CN_油管 TG 8度科技 29
-      - 🇨🇳 CN_油管 TG 8度科技 30
-      - 🇨🇳 CN_油管 TG 8度科技 31
-      - 🇨🇳 CN_油管 TG 8度科技 32
-      - 🇨🇳 CN_油管 TG 8度科技 33
-      - 🇨🇳 CN_油管 TG 8度科技 34
-      - 🇨🇳 CN_油管 TG 8度科技 35
-      - 🇨🇳 CN_油管 TG 8度科技 36
-      - 🇨🇳 CN_油管 TG 8度科技 37
-      - 🇨🇳 CN_油管 TG 8度科技 38
+      - 🇨🇳 (Youtube/TG：俊佳科技)_🇨🇳_中国_1
+      - 🇰🇷 韩国(yudou66.com 玉豆分享)
+      - 🇨🇦 加拿大(yudou66.com+玉豆分享)
+      - 🇪🇺 欧洲(yudou66.com+玉豆分享)
+      - 🇨🇦 加拿大(yudou66.com+玉豆分享) 2
+      - CYL-科技（2022.04.02）
+      - 卢森堡(yudou66.com+玉豆分享)
+      - 🇰🇷 韩国(yudou66.com 玉豆分享) 2
+      - 🇺🇸 (Youtube/TG：俊佳科技)_🇺🇸_美国_70
+      - 🇨🇦 加拿大(yudou66.com+玉豆分享) 3
+      - YouTube@阿阳AYANG
+      - 🇰🇷 韩国(yudou66.com 玉豆分享) 3
+      - Relay_🇨🇦CA-🇨🇦CA_549 | 7.63Mb
+      - 🇺🇸 _US_美国(yudou66.com 玉豆分享)
+      - 卢森堡(yudou66.com+玉豆分享) 2
       - 科技网络
-      - 🇨🇳 CN_油管 TG 8度科技 39
-      - 🇨🇳 CN_油管 TG 8度科技 40
-      - 🇨🇳 CN_油管 TG 8度科技 41
-      - 🇨🇳 CN_油管 TG 8度科技 42
-      - 🇨🇳 CN_油管 TG 8度科技 43
-      - 🇨🇳 CN_油管 TG 8度科技 44
-      - 🇨🇳 CN_油管 TG 8度科技 45
-      - 🇨🇳 CN_油管 TG 8度科技 46
-      - 🇨🇳 CN_油管 TG 8度科技 47
-      - 🇨🇳 CN_油管 TG 8度科技 48
-      - 🇨🇳 CN_油管 TG 8度科技 49
-      - 🇨🇳 CN_油管 TG 8度科技 50
-      - 🇨🇳 CN_油管 TG 8度科技 51
-      - 🇨🇳 CN_油管 TG 8度科技 52
-      - 🇨🇳 CN_油管 TG 8度科技 53
-      - 🇨🇳 CN_油管 TG 8度科技 54
-      - 🇨🇳 CN_油管 TG 8度科技 55
-      - 🇨🇳 CN_油管 TG 8度科技 56
-      - 🇨🇳 CN_油管 TG 8度科技 57
-      - 🇨🇳 CN_油管 TG 8度科技 58
-      - 🇨🇳 CN_油管 TG 8度科技 59
-      - 🇯🇵 JP_油管 TG 8度科技
-      - 🇸🇬 新加坡| tg频道:@ripaojiedian
+      - 🇺🇸 US美国(yudou66.com+玉豆分享)
+      - 🇨🇦 加拿大-684.6KB/s(Youtube:不良林)
+      - CYL-科技（2022.04.02） 2
+      - 🇨🇳 (Youtube/TG：俊佳科技)_🇨🇳_中国_26
+      - YouTube@阿阳AYANG 2
+      - 卢森堡(yudou66.com+玉豆分享) 3
+      - 🇨🇳 台湾- tg频道:@ripaojiedian
+      - CYL-科技（2022.04.02） 3
+      - 🇺🇸 US美国(yudou66.com+玉豆分享) 2
+      - 🇯🇵 日本(yudou66.com+玉豆分享)
+      - CYL-科技（2022.04.02） 4
+      - 🇺🇸 美国(yudou66.com+玉豆分享)
+      - 🇨🇦 _CA_加拿大
+      - 🇰🇷 韩国(yudou66.com+玉豆分享)
+      - 捷克(yudou66.com 玉豆分享)
+      - CYL-科技（2022.04.02） 5
+      - 🇸🇬 新加坡-tg频道:@ripaojiedian
+      - 🇨🇦 加拿大(yudou66.com+玉豆分享) 4
+      - 🇺🇸 US美国(yudou66.com+玉豆分享) 3
       - 科技网络 2
-      - 🇨🇳 CN_油管 TG 8度科技 60
-      - 🇨🇳 CN_油管 TG 8度科技 61
-      - 🇨🇳 CN_油管 TG 8度科技 62
-      - 🇨🇳 CN_油管 TG 8度科技 63
-      - 🇷🇺 RU俄罗斯(yudou66.com 玉豆分享)
+      - 🇨🇦 加拿大(yudou66.com+玉豆分享) 5
+      - YouTube@阿阳AYANG 3
+      - YouTube@阿阳AYANG 4
+      - 🇨🇦 _CA_加拿大 2
+      - 🇨🇳 (Youtube/TG：俊佳科技)_🇨🇳_中国_227
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -550,76 +347,47 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳 CN_油管 TG 8度科技
-      - 🇨🇳 CN_油管 TG 8度科技 2
-      - 🇨🇳 CN_油管 TG 8度科技 3
-      - 🇨🇳 CN_油管 TG 8度科技 4
-      - 🇨🇳 CN_油管 TG 8度科技 5
-      - 🇨🇳 CN_油管 TG 8度科技 6
-      - 🇺🇸 US_油管 TG 8度科技
-      - 🇨🇳 CN_油管 TG 8度科技 7
-      - 🇨🇳 CN_油管 TG 8度科技 8
-      - 🇨🇳 CN_油管 TG 8度科技 9
-      - 🇨🇳 CN_油管 TG 8度科技 10
-      - 🇨🇳 CN_油管 TG 8度科技 11
-      - 🇨🇳 CN_油管 TG 8度科技 12
-      - 🇨🇳 CN_油管 TG 8度科技 13
-      - 🇨🇳 CN_油管 TG 8度科技 14
-      - 🇨🇳 CN_油管 TG 8度科技 15
-      - 🇨🇳 CN_油管 TG 8度科技 16
-      - 🇨🇳 CN_油管 TG 8度科技 17
-      - 🇨🇳 CN_油管 TG 8度科技 18
-      - 🇺🇸 美国| tg频道:@ripaojiedian
-      - 🇨🇳 CN_油管 TG 8度科技 19
-      - 🇨🇳 CN_油管 TG 8度科技 20
-      - 🇨🇳 CN_油管 TG 8度科技 21
-      - 🇨🇳 CN_油管 TG 8度科技 22
-      - 🇨🇳 CN_油管 TG 8度科技 23
-      - 🇨🇳 CN_油管 TG 8度科技 24
-      - 🇨🇳 CN_油管 TG 8度科技 25
-      - 🇨🇳 CN_油管 TG 8度科技 26
-      - 🇨🇳 CN_油管 TG 8度科技 27
-      - 🇨🇳 CN_油管 TG 8度科技 28
-      - 🇨🇳 CN_油管 TG 8度科技 29
-      - 🇨🇳 CN_油管 TG 8度科技 30
-      - 🇨🇳 CN_油管 TG 8度科技 31
-      - 🇨🇳 CN_油管 TG 8度科技 32
-      - 🇨🇳 CN_油管 TG 8度科技 33
-      - 🇨🇳 CN_油管 TG 8度科技 34
-      - 🇨🇳 CN_油管 TG 8度科技 35
-      - 🇨🇳 CN_油管 TG 8度科技 36
-      - 🇨🇳 CN_油管 TG 8度科技 37
-      - 🇨🇳 CN_油管 TG 8度科技 38
+      - 🇨🇳 (Youtube/TG：俊佳科技)_🇨🇳_中国_1
+      - 🇰🇷 韩国(yudou66.com 玉豆分享)
+      - 🇨🇦 加拿大(yudou66.com+玉豆分享)
+      - 🇪🇺 欧洲(yudou66.com+玉豆分享)
+      - 🇨🇦 加拿大(yudou66.com+玉豆分享) 2
+      - CYL-科技（2022.04.02）
+      - 卢森堡(yudou66.com+玉豆分享)
+      - 🇰🇷 韩国(yudou66.com 玉豆分享) 2
+      - 🇺🇸 (Youtube/TG：俊佳科技)_🇺🇸_美国_70
+      - 🇨🇦 加拿大(yudou66.com+玉豆分享) 3
+      - YouTube@阿阳AYANG
+      - 🇰🇷 韩国(yudou66.com 玉豆分享) 3
+      - Relay_🇨🇦CA-🇨🇦CA_549 | 7.63Mb
+      - 🇺🇸 _US_美国(yudou66.com 玉豆分享)
+      - 卢森堡(yudou66.com+玉豆分享) 2
       - 科技网络
-      - 🇨🇳 CN_油管 TG 8度科技 39
-      - 🇨🇳 CN_油管 TG 8度科技 40
-      - 🇨🇳 CN_油管 TG 8度科技 41
-      - 🇨🇳 CN_油管 TG 8度科技 42
-      - 🇨🇳 CN_油管 TG 8度科技 43
-      - 🇨🇳 CN_油管 TG 8度科技 44
-      - 🇨🇳 CN_油管 TG 8度科技 45
-      - 🇨🇳 CN_油管 TG 8度科技 46
-      - 🇨🇳 CN_油管 TG 8度科技 47
-      - 🇨🇳 CN_油管 TG 8度科技 48
-      - 🇨🇳 CN_油管 TG 8度科技 49
-      - 🇨🇳 CN_油管 TG 8度科技 50
-      - 🇨🇳 CN_油管 TG 8度科技 51
-      - 🇨🇳 CN_油管 TG 8度科技 52
-      - 🇨🇳 CN_油管 TG 8度科技 53
-      - 🇨🇳 CN_油管 TG 8度科技 54
-      - 🇨🇳 CN_油管 TG 8度科技 55
-      - 🇨🇳 CN_油管 TG 8度科技 56
-      - 🇨🇳 CN_油管 TG 8度科技 57
-      - 🇨🇳 CN_油管 TG 8度科技 58
-      - 🇨🇳 CN_油管 TG 8度科技 59
-      - 🇯🇵 JP_油管 TG 8度科技
-      - 🇸🇬 新加坡| tg频道:@ripaojiedian
+      - 🇺🇸 US美国(yudou66.com+玉豆分享)
+      - 🇨🇦 加拿大-684.6KB/s(Youtube:不良林)
+      - CYL-科技（2022.04.02） 2
+      - 🇨🇳 (Youtube/TG：俊佳科技)_🇨🇳_中国_26
+      - YouTube@阿阳AYANG 2
+      - 卢森堡(yudou66.com+玉豆分享) 3
+      - 🇨🇳 台湾- tg频道:@ripaojiedian
+      - CYL-科技（2022.04.02） 3
+      - 🇺🇸 US美国(yudou66.com+玉豆分享) 2
+      - 🇯🇵 日本(yudou66.com+玉豆分享)
+      - CYL-科技（2022.04.02） 4
+      - 🇺🇸 美国(yudou66.com+玉豆分享)
+      - 🇨🇦 _CA_加拿大
+      - 🇰🇷 韩国(yudou66.com+玉豆分享)
+      - 捷克(yudou66.com 玉豆分享)
+      - CYL-科技（2022.04.02） 5
+      - 🇸🇬 新加坡-tg频道:@ripaojiedian
+      - 🇨🇦 加拿大(yudou66.com+玉豆分享) 4
+      - 🇺🇸 US美国(yudou66.com+玉豆分享) 3
       - 科技网络 2
-      - 🇨🇳 CN_油管 TG 8度科技 60
-      - 🇨🇳 CN_油管 TG 8度科技 61
-      - 🇨🇳 CN_油管 TG 8度科技 62
-      - 🇨🇳 CN_油管 TG 8度科技 63
-      - 🇷🇺 RU俄罗斯(yudou66.com 玉豆分享)
+      - 🇨🇦 加拿大(yudou66.com+玉豆分享) 5
+      - YouTube@阿阳AYANG 3
+      - YouTube@阿阳AYANG 4
+      - 🇨🇦 _CA_加拿大 2
+      - 🇨🇳 (Youtube/TG：俊佳科技)_🇨🇳_中国_227
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连

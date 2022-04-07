@@ -5,1089 +5,431 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: CYL-科技（2022.03.20）, server: 14.29.124.168, port: 22243, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 2, server: 14.29.124.168, port: 21852, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 3, server: 14.29.124.168, port: 21986, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 4, server: 14.29.124.168, port: 22114, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 5, server: 14.29.124.168, port: 21633, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 6, server: 14.29.124.168, port: 21707, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 7, server: 14.29.124.168, port: 21876, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 8, server: 14.29.124.168, port: 22058, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 9, server: 14.29.124.168, port: 21621, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 10, server: 14.29.124.168, port: 21650, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 11, server: 14.29.124.168, port: 21655, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 12, server: 14.29.124.168, port: 22251, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 13, server: 14.29.124.168, port: 21859, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 14, server: 14.29.124.168, port: 21954, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 15, server: 14.29.124.168, port: 22269, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 16, server: 14.29.124.168, port: 22171, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 17, server: 14.29.124.168, port: 21613, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 18, server: 14.29.124.168, port: 22074, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 19, server: 14.29.124.168, port: 21916, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 20, server: 14.29.124.168, port: 22157, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 21, server: 14.29.124.168, port: 22183, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 22, server: 14.29.124.168, port: 21511, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 23, server: 14.29.124.168, port: 20768, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 24, server: 14.29.124.168, port: 21504, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 25, server: 14.29.124.168, port: 21855, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 26, server: 14.29.124.168, port: 22088, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 27, server: 14.29.124.168, port: 21853, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 28, server: 14.29.124.168, port: 21971, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 29, server: 14.29.124.168, port: 21671, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 30, server: 14.29.124.168, port: 21943, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 31, server: 14.29.124.168, port: 21818, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 32, server: 14.29.124.168, port: 21578, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 33, server: 14.29.124.168, port: 22213, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 34, server: 14.29.124.168, port: 22090, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 35, server: 14.29.124.168, port: 22170, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 36, server: 14.29.124.168, port: 21536, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 37, server: 14.29.124.168, port: 22190, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 38, server: 14.29.124.168, port: 21525, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 39, server: 14.29.124.168, port: 21562, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 40, server: 14.29.124.168, port: 20797, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 41, server: 14.29.124.168, port: 22042, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 42, server: 14.29.124.168, port: 22227, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 43, server: 14.29.124.168, port: 21683, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 44, server: 14.29.124.168, port: 22089, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 45, server: 14.29.124.168, port: 22143, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 46, server: 14.29.124.168, port: 20789, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 47, server: 14.29.124.168, port: 21532, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 48, server: 14.29.124.168, port: 21710, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 49, server: 14.29.124.168, port: 21928, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 50, server: 14.29.124.168, port: 21847, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 51, server: 14.29.124.168, port: 21542, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 52, server: 14.29.124.168, port: 22104, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 53, server: 14.29.124.168, port: 21580, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 54, server: 14.29.124.168, port: 21589, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 55, server: 14.29.124.168, port: 20759, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 56, server: 14.29.124.168, port: 21804, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 57, server: 14.29.124.168, port: 21544, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 58, server: 14.29.124.168, port: 20795, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 59, server: 14.29.124.168, port: 21729, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 60, server: 14.29.124.168, port: 21808, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 61, server: 14.29.124.168, port: 21681, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 62, server: 14.29.124.168, port: 21571, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 63, server: 14.29.124.168, port: 21754, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 64, server: 14.29.124.168, port: 21552, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 65, server: 14.29.124.168, port: 21716, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 66, server: 14.29.124.168, port: 22050, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 67, server: 14.29.124.168, port: 21617, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 68, server: 14.29.124.168, port: 21825, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 69, server: 14.29.124.168, port: 22296, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 70, server: 14.29.124.168, port: 22113, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 71, server: 14.29.124.168, port: 22127, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 72, server: 14.29.124.168, port: 20752, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 73, server: 14.29.124.168, port: 21686, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 74, server: 14.29.124.168, port: 22184, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 75, server: 14.29.124.168, port: 21983, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 76, server: 14.29.124.168, port: 22293, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 77, server: 14.29.124.168, port: 21991, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 78, server: 14.29.124.168, port: 25106, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 79, server: 14.29.124.168, port: 25101, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 80, server: 14.29.124.168, port: 25108, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 81, server: 14.29.124.168, port: 25100, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 82, server: 14.29.124.168, port: 25105, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 83, server: 14.29.124.168, port: 25104, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 84, server: 14.29.124.168, port: 25103, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 85, server: 14.29.124.168, port: 21860, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 86, server: 14.29.124.168, port: 21724, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 87, server: 14.29.124.168, port: 21875, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 88, server: 14.29.124.168, port: 21996, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 89, server: 14.29.124.168, port: 22256, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 90, server: 14.29.124.168, port: 21838, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 91, server: 14.29.124.168, port: 21907, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 92, server: 14.29.124.168, port: 21841, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 93, server: 14.29.124.168, port: 22078, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 94, server: 14.29.124.168, port: 22140, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 95, server: 14.29.124.168, port: 22193, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 96, server: 14.29.124.168, port: 22270, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 97, server: 14.29.124.168, port: 21513, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 98, server: 14.29.124.168, port: 20794, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 99, server: 14.29.124.168, port: 22068, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 100, server: 14.29.124.168, port: 22073, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 101, server: 14.29.124.168, port: 20726, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 102, server: 14.29.124.168, port: 21739, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 103, server: 14.29.124.168, port: 21785, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 104, server: 14.29.124.168, port: 21809, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 105, server: 14.29.124.168, port: 21888, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 106, server: 14.29.124.168, port: 21988, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 107, server: 14.29.124.168, port: 22006, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 108, server: 14.29.124.168, port: 22072, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 109, server: 14.29.124.168, port: 22093, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 110, server: 14.29.124.168, port: 22099, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 111, server: 14.29.124.168, port: 22226, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 112, server: 14.29.124.168, port: 22250, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 113, server: 14.29.124.168, port: 22274, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 114, server: 14.29.124.168, port: 21629, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 115, server: 14.29.124.168, port: 21812, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 116, server: 14.29.124.168, port: 21828, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 117, server: 14.29.124.168, port: 21914, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 118, server: 14.29.124.168, port: 21957, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 119, server: 14.29.124.168, port: 21965, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 120, server: 14.29.124.168, port: 21979, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 121, server: 14.29.124.168, port: 22024, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 122, server: 14.29.124.168, port: 22271, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 123, server: 14.29.124.168, port: 21573, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 124, server: 14.29.124.168, port: 21665, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 125, server: 14.29.124.168, port: 21777, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 126, server: 14.29.124.168, port: 21834, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 127, server: 14.29.124.168, port: 21895, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 128, server: 14.29.124.168, port: 21896, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 129, server: 14.29.124.168, port: 21940, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 130, server: 14.29.124.168, port: 22009, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 131, server: 14.29.124.168, port: 22029, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 132, server: 14.29.124.168, port: 22041, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 133, server: 14.29.124.168, port: 22177, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 134, server: 14.29.124.168, port: 22261, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 135, server: 14.29.124.168, port: 20718, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 136, server: 14.29.124.168, port: 21704, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 137, server: 14.29.124.168, port: 21837, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 138, server: 14.29.124.168, port: 22013, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 139, server: 14.29.124.168, port: 22205, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 140, server: 14.29.124.168, port: 22235, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 141, server: 14.29.124.168, port: 20731, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 142, server: 14.29.124.168, port: 21676, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 143, server: 14.29.124.168, port: 21796, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 144, server: 14.29.124.168, port: 21867, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 145, server: 14.29.124.168, port: 21938, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 146, server: 14.29.124.168, port: 22023, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 147, server: 14.29.124.168, port: 22237, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 148, server: 14.29.124.168, port: 22241, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 149, server: 14.29.124.168, port: 22252, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: CYL-科技（2022.03.20） 150, server: 14.29.124.168, port: 22275, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: NL_油管 TG 8度科技, server: 213.183.51.172, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c}
+  - {name: NL_油管 TG 8度科技 2, server: 213.183.51.172, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH}
+  - {name: NL_油管 TG 8度科技 3, server: 213.183.51.172, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH}
+  - {name: BG_油管 TG 8度科技, server: 213.183.63.219, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN}
+  - {name: NL_油管 TG 8度科技 4, server: 213.183.51.172, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN}
+  - {name: NL_油管 TG 8度科技 5, server: 213.183.51.172, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU}
+  - {name: NL_油管 TG 8度科技 6, server: 213.183.51.172, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ}
+  - {name: GB_油管 TG 8度科技, server: 152.89.210.84, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c}
+  - {name: BG_油管 TG 8度科技 2, server: 213.183.63.219, port: 9053, type: ss, cipher: aes-256-cfb, password: SBM7R883jBmnqe6C}
+  - {name: NL_油管 TG 8度科技 7, server: 213.183.51.172, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga}
+  - {name: BG_油管 TG 8度科技 3, server: 213.183.63.219, port: 9024, type: ss, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ}
+  - {name: NL_油管 TG 8度科技 8, server: 213.183.51.172, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL}
+  - {name: BG_油管 TG 8度科技 4, server: 213.183.63.219, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga}
+  - {name: NL_油管 TG 8度科技 9, server: 213.183.51.172, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z}
+  - {name: BG_油管 TG 8度科技 5, server: 213.183.63.219, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z}
+  - {name: NL_油管 TG 8度科技 10, server: 213.183.51.172, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb}
+  - {name: BG_油管 TG 8度科技 6, server: 213.183.63.219, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq}
+  - {name: NL_油管 TG 8度科技 11, server: 213.183.51.172, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE}
+  - {name: NL_油管 TG 8度科技 12, server: 213.183.51.172, port: 9024, type: ss, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ}
+  - {name: NL_油管 TG 8度科技 13, server: 213.183.51.172, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB}
+  - {name: NL_油管 TG 8度科技 14, server: 213.183.51.172, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq}
+  - {name: BG_油管 TG 8度科技 7, server: 213.183.63.219, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj}
+  - {name: NL_油管 TG 8度科技 15, server: 213.183.51.172, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y}
+  - {name: NL_油管 TG 8度科技 16, server: 213.183.51.172, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn}
+  - {name: NL_油管 TG 8度科技 17, server: 213.183.51.172, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9}
+  - {name: NL_油管 TG 8度科技 18, server: 213.183.51.172, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu}
+  - {name: GB_油管 TG 8度科技 2, server: 152.89.210.84, port: 9026, type: ss, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA}
+  - {name: NL_油管 TG 8度科技 19, server: 213.183.51.172, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX}
+  - {name: 🇺🇸 US_油管 TG 8度科技, server: tj-us02.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, sni: tj-us02.yiyodns.xyz, skip-cert-verify: true}
+  - {name: NL_油管 TG 8度科技 20, server: 213.183.51.172, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP}
+  - {name: NL_油管 TG 8度科技 21, server: 213.183.51.172, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj}
+  - {name: NL_油管 TG 8度科技 22, server: 213.183.51.172, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7}
+  - {name: NL_油管 TG 8度科技 23, server: 213.183.51.172, port: 9073, type: ss, cipher: aes-256-cfb, password: daFYagqDdBdA6VTX}
+  - {name: 🇨🇳 CN_油管 TG 8度科技, server: 14.29.124.168, port: 25297, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: NL_油管 TG 8度科技 24, server: 213.183.51.172, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN}
+  - {name: NL_油管 TG 8度科技 25, server: 213.183.51.172, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8}
+  - {name: 🇨🇳 CN_油管 TG 8度科技 2, server: 14.29.124.168, port: 25271, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: 🇨🇳 CN_油管 TG 8度科技 3, server: 14.29.124.168, port: 25233, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: 🇨🇳 CN_油管 TG 8度科技 4, server: 14.29.124.168, port: 25222, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: 🇨🇳 CN_油管 TG 8度科技 5, server: 14.29.124.168, port: 25283, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: 🇨🇳 CN_油管 TG 8度科技 6, server: 14.29.124.168, port: 25293, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: 🇨🇳 CN_油管 TG 8度科技 7, server: 14.29.124.168, port: 25268, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: 🇨🇳 CN_油管 TG 8度科技 8, server: 14.29.124.168, port: 25247, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: 🇨🇳 CN_油管 TG 8度科技 9, server: 14.29.124.168, port: 25259, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: 🇨🇳 CN_油管 TG 8度科技 10, server: 14.29.124.168, port: 25238, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: 🇨🇳 CN_油管 TG 8度科技 11, server: 14.29.124.168, port: 25294, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: 🇨🇳 CN_油管 TG 8度科技 12, server: 14.29.124.168, port: 25235, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: 🇨🇳 CN_油管 TG 8度科技 13, server: 14.29.124.168, port: 25230, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: NL_油管 TG 8度科技 26, server: 213.183.51.172, port: 9008, type: ss, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ}
+  - {name: 🇨🇳 CN_油管 TG 8度科技 14, server: 14.29.124.168, port: 25219, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: 🇨🇳 CN_油管 TG 8度科技 15, server: 14.29.124.168, port: 25296, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: 🇨🇳 CN_油管 TG 8度科技 16, server: 14.29.124.168, port: 25252, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: BG_油管 TG 8度科技 8, server: 213.183.63.219, port: 9088, type: ss, cipher: aes-256-cfb, password: f8npKgNzdkss2ytn}
+  - {name: 🇨🇳 CN_油管 TG 8度科技 17, server: 14.29.124.168, port: 25210, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: NL_油管 TG 8度科技 27, server: 213.183.51.172, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM}
+  - {name: NL_油管 TG 8度科技 28, server: 213.183.51.172, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - CYL-科技（2022.03.20）
-      - CYL-科技（2022.03.20） 2
-      - CYL-科技（2022.03.20） 3
-      - CYL-科技（2022.03.20） 4
-      - CYL-科技（2022.03.20） 5
-      - CYL-科技（2022.03.20） 6
-      - CYL-科技（2022.03.20） 7
-      - CYL-科技（2022.03.20） 8
-      - CYL-科技（2022.03.20） 9
-      - CYL-科技（2022.03.20） 10
-      - CYL-科技（2022.03.20） 11
-      - CYL-科技（2022.03.20） 12
-      - CYL-科技（2022.03.20） 13
-      - CYL-科技（2022.03.20） 14
-      - CYL-科技（2022.03.20） 15
-      - CYL-科技（2022.03.20） 16
-      - CYL-科技（2022.03.20） 17
-      - CYL-科技（2022.03.20） 18
-      - CYL-科技（2022.03.20） 19
-      - CYL-科技（2022.03.20） 20
-      - CYL-科技（2022.03.20） 21
-      - CYL-科技（2022.03.20） 22
-      - CYL-科技（2022.03.20） 23
-      - CYL-科技（2022.03.20） 24
-      - CYL-科技（2022.03.20） 25
-      - CYL-科技（2022.03.20） 26
-      - CYL-科技（2022.03.20） 27
-      - CYL-科技（2022.03.20） 28
-      - CYL-科技（2022.03.20） 29
-      - CYL-科技（2022.03.20） 30
-      - CYL-科技（2022.03.20） 31
-      - CYL-科技（2022.03.20） 32
-      - CYL-科技（2022.03.20） 33
-      - CYL-科技（2022.03.20） 34
-      - CYL-科技（2022.03.20） 35
-      - CYL-科技（2022.03.20） 36
-      - CYL-科技（2022.03.20） 37
-      - CYL-科技（2022.03.20） 38
-      - CYL-科技（2022.03.20） 39
-      - CYL-科技（2022.03.20） 40
-      - CYL-科技（2022.03.20） 41
-      - CYL-科技（2022.03.20） 42
-      - CYL-科技（2022.03.20） 43
-      - CYL-科技（2022.03.20） 44
-      - CYL-科技（2022.03.20） 45
-      - CYL-科技（2022.03.20） 46
-      - CYL-科技（2022.03.20） 47
-      - CYL-科技（2022.03.20） 48
-      - CYL-科技（2022.03.20） 49
-      - CYL-科技（2022.03.20） 50
-      - CYL-科技（2022.03.20） 51
-      - CYL-科技（2022.03.20） 52
-      - CYL-科技（2022.03.20） 53
-      - CYL-科技（2022.03.20） 54
-      - CYL-科技（2022.03.20） 55
-      - CYL-科技（2022.03.20） 56
-      - CYL-科技（2022.03.20） 57
-      - CYL-科技（2022.03.20） 58
-      - CYL-科技（2022.03.20） 59
-      - CYL-科技（2022.03.20） 60
-      - CYL-科技（2022.03.20） 61
-      - CYL-科技（2022.03.20） 62
-      - CYL-科技（2022.03.20） 63
-      - CYL-科技（2022.03.20） 64
-      - CYL-科技（2022.03.20） 65
-      - CYL-科技（2022.03.20） 66
-      - CYL-科技（2022.03.20） 67
-      - CYL-科技（2022.03.20） 68
-      - CYL-科技（2022.03.20） 69
-      - CYL-科技（2022.03.20） 70
-      - CYL-科技（2022.03.20） 71
-      - CYL-科技（2022.03.20） 72
-      - CYL-科技（2022.03.20） 73
-      - CYL-科技（2022.03.20） 74
-      - CYL-科技（2022.03.20） 75
-      - CYL-科技（2022.03.20） 76
-      - CYL-科技（2022.03.20） 77
-      - CYL-科技（2022.03.20） 78
-      - CYL-科技（2022.03.20） 79
-      - CYL-科技（2022.03.20） 80
-      - CYL-科技（2022.03.20） 81
-      - CYL-科技（2022.03.20） 82
-      - CYL-科技（2022.03.20） 83
-      - CYL-科技（2022.03.20） 84
-      - CYL-科技（2022.03.20） 85
-      - CYL-科技（2022.03.20） 86
-      - CYL-科技（2022.03.20） 87
-      - CYL-科技（2022.03.20） 88
-      - CYL-科技（2022.03.20） 89
-      - CYL-科技（2022.03.20） 90
-      - CYL-科技（2022.03.20） 91
-      - CYL-科技（2022.03.20） 92
-      - CYL-科技（2022.03.20） 93
-      - CYL-科技（2022.03.20） 94
-      - CYL-科技（2022.03.20） 95
-      - CYL-科技（2022.03.20） 96
-      - CYL-科技（2022.03.20） 97
-      - CYL-科技（2022.03.20） 98
-      - CYL-科技（2022.03.20） 99
-      - CYL-科技（2022.03.20） 100
-      - CYL-科技（2022.03.20） 101
-      - CYL-科技（2022.03.20） 102
-      - CYL-科技（2022.03.20） 103
-      - CYL-科技（2022.03.20） 104
-      - CYL-科技（2022.03.20） 105
-      - CYL-科技（2022.03.20） 106
-      - CYL-科技（2022.03.20） 107
-      - CYL-科技（2022.03.20） 108
-      - CYL-科技（2022.03.20） 109
-      - CYL-科技（2022.03.20） 110
-      - CYL-科技（2022.03.20） 111
-      - CYL-科技（2022.03.20） 112
-      - CYL-科技（2022.03.20） 113
-      - CYL-科技（2022.03.20） 114
-      - CYL-科技（2022.03.20） 115
-      - CYL-科技（2022.03.20） 116
-      - CYL-科技（2022.03.20） 117
-      - CYL-科技（2022.03.20） 118
-      - CYL-科技（2022.03.20） 119
-      - CYL-科技（2022.03.20） 120
-      - CYL-科技（2022.03.20） 121
-      - CYL-科技（2022.03.20） 122
-      - CYL-科技（2022.03.20） 123
-      - CYL-科技（2022.03.20） 124
-      - CYL-科技（2022.03.20） 125
-      - CYL-科技（2022.03.20） 126
-      - CYL-科技（2022.03.20） 127
-      - CYL-科技（2022.03.20） 128
-      - CYL-科技（2022.03.20） 129
-      - CYL-科技（2022.03.20） 130
-      - CYL-科技（2022.03.20） 131
-      - CYL-科技（2022.03.20） 132
-      - CYL-科技（2022.03.20） 133
-      - CYL-科技（2022.03.20） 134
-      - CYL-科技（2022.03.20） 135
-      - CYL-科技（2022.03.20） 136
-      - CYL-科技（2022.03.20） 137
-      - CYL-科技（2022.03.20） 138
-      - CYL-科技（2022.03.20） 139
-      - CYL-科技（2022.03.20） 140
-      - CYL-科技（2022.03.20） 141
-      - CYL-科技（2022.03.20） 142
-      - CYL-科技（2022.03.20） 143
-      - CYL-科技（2022.03.20） 144
-      - CYL-科技（2022.03.20） 145
-      - CYL-科技（2022.03.20） 146
-      - CYL-科技（2022.03.20） 147
-      - CYL-科技（2022.03.20） 148
-      - CYL-科技（2022.03.20） 149
-      - CYL-科技（2022.03.20） 150
+      - NL_油管 TG 8度科技
+      - NL_油管 TG 8度科技 2
+      - NL_油管 TG 8度科技 3
+      - BG_油管 TG 8度科技
+      - NL_油管 TG 8度科技 4
+      - NL_油管 TG 8度科技 5
+      - NL_油管 TG 8度科技 6
+      - GB_油管 TG 8度科技
+      - BG_油管 TG 8度科技 2
+      - NL_油管 TG 8度科技 7
+      - BG_油管 TG 8度科技 3
+      - NL_油管 TG 8度科技 8
+      - BG_油管 TG 8度科技 4
+      - NL_油管 TG 8度科技 9
+      - BG_油管 TG 8度科技 5
+      - NL_油管 TG 8度科技 10
+      - BG_油管 TG 8度科技 6
+      - NL_油管 TG 8度科技 11
+      - NL_油管 TG 8度科技 12
+      - NL_油管 TG 8度科技 13
+      - NL_油管 TG 8度科技 14
+      - BG_油管 TG 8度科技 7
+      - NL_油管 TG 8度科技 15
+      - NL_油管 TG 8度科技 16
+      - NL_油管 TG 8度科技 17
+      - NL_油管 TG 8度科技 18
+      - GB_油管 TG 8度科技 2
+      - NL_油管 TG 8度科技 19
+      - 🇺🇸 US_油管 TG 8度科技
+      - NL_油管 TG 8度科技 20
+      - NL_油管 TG 8度科技 21
+      - NL_油管 TG 8度科技 22
+      - NL_油管 TG 8度科技 23
+      - 🇨🇳 CN_油管 TG 8度科技
+      - NL_油管 TG 8度科技 24
+      - NL_油管 TG 8度科技 25
+      - 🇨🇳 CN_油管 TG 8度科技 2
+      - 🇨🇳 CN_油管 TG 8度科技 3
+      - 🇨🇳 CN_油管 TG 8度科技 4
+      - 🇨🇳 CN_油管 TG 8度科技 5
+      - 🇨🇳 CN_油管 TG 8度科技 6
+      - 🇨🇳 CN_油管 TG 8度科技 7
+      - 🇨🇳 CN_油管 TG 8度科技 8
+      - 🇨🇳 CN_油管 TG 8度科技 9
+      - 🇨🇳 CN_油管 TG 8度科技 10
+      - 🇨🇳 CN_油管 TG 8度科技 11
+      - 🇨🇳 CN_油管 TG 8度科技 12
+      - 🇨🇳 CN_油管 TG 8度科技 13
+      - NL_油管 TG 8度科技 26
+      - 🇨🇳 CN_油管 TG 8度科技 14
+      - 🇨🇳 CN_油管 TG 8度科技 15
+      - 🇨🇳 CN_油管 TG 8度科技 16
+      - BG_油管 TG 8度科技 8
+      - 🇨🇳 CN_油管 TG 8度科技 17
+      - NL_油管 TG 8度科技 27
+      - NL_油管 TG 8度科技 28
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - CYL-科技（2022.03.20）
-      - CYL-科技（2022.03.20） 2
-      - CYL-科技（2022.03.20） 3
-      - CYL-科技（2022.03.20） 4
-      - CYL-科技（2022.03.20） 5
-      - CYL-科技（2022.03.20） 6
-      - CYL-科技（2022.03.20） 7
-      - CYL-科技（2022.03.20） 8
-      - CYL-科技（2022.03.20） 9
-      - CYL-科技（2022.03.20） 10
-      - CYL-科技（2022.03.20） 11
-      - CYL-科技（2022.03.20） 12
-      - CYL-科技（2022.03.20） 13
-      - CYL-科技（2022.03.20） 14
-      - CYL-科技（2022.03.20） 15
-      - CYL-科技（2022.03.20） 16
-      - CYL-科技（2022.03.20） 17
-      - CYL-科技（2022.03.20） 18
-      - CYL-科技（2022.03.20） 19
-      - CYL-科技（2022.03.20） 20
-      - CYL-科技（2022.03.20） 21
-      - CYL-科技（2022.03.20） 22
-      - CYL-科技（2022.03.20） 23
-      - CYL-科技（2022.03.20） 24
-      - CYL-科技（2022.03.20） 25
-      - CYL-科技（2022.03.20） 26
-      - CYL-科技（2022.03.20） 27
-      - CYL-科技（2022.03.20） 28
-      - CYL-科技（2022.03.20） 29
-      - CYL-科技（2022.03.20） 30
-      - CYL-科技（2022.03.20） 31
-      - CYL-科技（2022.03.20） 32
-      - CYL-科技（2022.03.20） 33
-      - CYL-科技（2022.03.20） 34
-      - CYL-科技（2022.03.20） 35
-      - CYL-科技（2022.03.20） 36
-      - CYL-科技（2022.03.20） 37
-      - CYL-科技（2022.03.20） 38
-      - CYL-科技（2022.03.20） 39
-      - CYL-科技（2022.03.20） 40
-      - CYL-科技（2022.03.20） 41
-      - CYL-科技（2022.03.20） 42
-      - CYL-科技（2022.03.20） 43
-      - CYL-科技（2022.03.20） 44
-      - CYL-科技（2022.03.20） 45
-      - CYL-科技（2022.03.20） 46
-      - CYL-科技（2022.03.20） 47
-      - CYL-科技（2022.03.20） 48
-      - CYL-科技（2022.03.20） 49
-      - CYL-科技（2022.03.20） 50
-      - CYL-科技（2022.03.20） 51
-      - CYL-科技（2022.03.20） 52
-      - CYL-科技（2022.03.20） 53
-      - CYL-科技（2022.03.20） 54
-      - CYL-科技（2022.03.20） 55
-      - CYL-科技（2022.03.20） 56
-      - CYL-科技（2022.03.20） 57
-      - CYL-科技（2022.03.20） 58
-      - CYL-科技（2022.03.20） 59
-      - CYL-科技（2022.03.20） 60
-      - CYL-科技（2022.03.20） 61
-      - CYL-科技（2022.03.20） 62
-      - CYL-科技（2022.03.20） 63
-      - CYL-科技（2022.03.20） 64
-      - CYL-科技（2022.03.20） 65
-      - CYL-科技（2022.03.20） 66
-      - CYL-科技（2022.03.20） 67
-      - CYL-科技（2022.03.20） 68
-      - CYL-科技（2022.03.20） 69
-      - CYL-科技（2022.03.20） 70
-      - CYL-科技（2022.03.20） 71
-      - CYL-科技（2022.03.20） 72
-      - CYL-科技（2022.03.20） 73
-      - CYL-科技（2022.03.20） 74
-      - CYL-科技（2022.03.20） 75
-      - CYL-科技（2022.03.20） 76
-      - CYL-科技（2022.03.20） 77
-      - CYL-科技（2022.03.20） 78
-      - CYL-科技（2022.03.20） 79
-      - CYL-科技（2022.03.20） 80
-      - CYL-科技（2022.03.20） 81
-      - CYL-科技（2022.03.20） 82
-      - CYL-科技（2022.03.20） 83
-      - CYL-科技（2022.03.20） 84
-      - CYL-科技（2022.03.20） 85
-      - CYL-科技（2022.03.20） 86
-      - CYL-科技（2022.03.20） 87
-      - CYL-科技（2022.03.20） 88
-      - CYL-科技（2022.03.20） 89
-      - CYL-科技（2022.03.20） 90
-      - CYL-科技（2022.03.20） 91
-      - CYL-科技（2022.03.20） 92
-      - CYL-科技（2022.03.20） 93
-      - CYL-科技（2022.03.20） 94
-      - CYL-科技（2022.03.20） 95
-      - CYL-科技（2022.03.20） 96
-      - CYL-科技（2022.03.20） 97
-      - CYL-科技（2022.03.20） 98
-      - CYL-科技（2022.03.20） 99
-      - CYL-科技（2022.03.20） 100
-      - CYL-科技（2022.03.20） 101
-      - CYL-科技（2022.03.20） 102
-      - CYL-科技（2022.03.20） 103
-      - CYL-科技（2022.03.20） 104
-      - CYL-科技（2022.03.20） 105
-      - CYL-科技（2022.03.20） 106
-      - CYL-科技（2022.03.20） 107
-      - CYL-科技（2022.03.20） 108
-      - CYL-科技（2022.03.20） 109
-      - CYL-科技（2022.03.20） 110
-      - CYL-科技（2022.03.20） 111
-      - CYL-科技（2022.03.20） 112
-      - CYL-科技（2022.03.20） 113
-      - CYL-科技（2022.03.20） 114
-      - CYL-科技（2022.03.20） 115
-      - CYL-科技（2022.03.20） 116
-      - CYL-科技（2022.03.20） 117
-      - CYL-科技（2022.03.20） 118
-      - CYL-科技（2022.03.20） 119
-      - CYL-科技（2022.03.20） 120
-      - CYL-科技（2022.03.20） 121
-      - CYL-科技（2022.03.20） 122
-      - CYL-科技（2022.03.20） 123
-      - CYL-科技（2022.03.20） 124
-      - CYL-科技（2022.03.20） 125
-      - CYL-科技（2022.03.20） 126
-      - CYL-科技（2022.03.20） 127
-      - CYL-科技（2022.03.20） 128
-      - CYL-科技（2022.03.20） 129
-      - CYL-科技（2022.03.20） 130
-      - CYL-科技（2022.03.20） 131
-      - CYL-科技（2022.03.20） 132
-      - CYL-科技（2022.03.20） 133
-      - CYL-科技（2022.03.20） 134
-      - CYL-科技（2022.03.20） 135
-      - CYL-科技（2022.03.20） 136
-      - CYL-科技（2022.03.20） 137
-      - CYL-科技（2022.03.20） 138
-      - CYL-科技（2022.03.20） 139
-      - CYL-科技（2022.03.20） 140
-      - CYL-科技（2022.03.20） 141
-      - CYL-科技（2022.03.20） 142
-      - CYL-科技（2022.03.20） 143
-      - CYL-科技（2022.03.20） 144
-      - CYL-科技（2022.03.20） 145
-      - CYL-科技（2022.03.20） 146
-      - CYL-科技（2022.03.20） 147
-      - CYL-科技（2022.03.20） 148
-      - CYL-科技（2022.03.20） 149
-      - CYL-科技（2022.03.20） 150
+      - NL_油管 TG 8度科技
+      - NL_油管 TG 8度科技 2
+      - NL_油管 TG 8度科技 3
+      - BG_油管 TG 8度科技
+      - NL_油管 TG 8度科技 4
+      - NL_油管 TG 8度科技 5
+      - NL_油管 TG 8度科技 6
+      - GB_油管 TG 8度科技
+      - BG_油管 TG 8度科技 2
+      - NL_油管 TG 8度科技 7
+      - BG_油管 TG 8度科技 3
+      - NL_油管 TG 8度科技 8
+      - BG_油管 TG 8度科技 4
+      - NL_油管 TG 8度科技 9
+      - BG_油管 TG 8度科技 5
+      - NL_油管 TG 8度科技 10
+      - BG_油管 TG 8度科技 6
+      - NL_油管 TG 8度科技 11
+      - NL_油管 TG 8度科技 12
+      - NL_油管 TG 8度科技 13
+      - NL_油管 TG 8度科技 14
+      - BG_油管 TG 8度科技 7
+      - NL_油管 TG 8度科技 15
+      - NL_油管 TG 8度科技 16
+      - NL_油管 TG 8度科技 17
+      - NL_油管 TG 8度科技 18
+      - GB_油管 TG 8度科技 2
+      - NL_油管 TG 8度科技 19
+      - 🇺🇸 US_油管 TG 8度科技
+      - NL_油管 TG 8度科技 20
+      - NL_油管 TG 8度科技 21
+      - NL_油管 TG 8度科技 22
+      - NL_油管 TG 8度科技 23
+      - 🇨🇳 CN_油管 TG 8度科技
+      - NL_油管 TG 8度科技 24
+      - NL_油管 TG 8度科技 25
+      - 🇨🇳 CN_油管 TG 8度科技 2
+      - 🇨🇳 CN_油管 TG 8度科技 3
+      - 🇨🇳 CN_油管 TG 8度科技 4
+      - 🇨🇳 CN_油管 TG 8度科技 5
+      - 🇨🇳 CN_油管 TG 8度科技 6
+      - 🇨🇳 CN_油管 TG 8度科技 7
+      - 🇨🇳 CN_油管 TG 8度科技 8
+      - 🇨🇳 CN_油管 TG 8度科技 9
+      - 🇨🇳 CN_油管 TG 8度科技 10
+      - 🇨🇳 CN_油管 TG 8度科技 11
+      - 🇨🇳 CN_油管 TG 8度科技 12
+      - 🇨🇳 CN_油管 TG 8度科技 13
+      - NL_油管 TG 8度科技 26
+      - 🇨🇳 CN_油管 TG 8度科技 14
+      - 🇨🇳 CN_油管 TG 8度科技 15
+      - 🇨🇳 CN_油管 TG 8度科技 16
+      - BG_油管 TG 8度科技 8
+      - 🇨🇳 CN_油管 TG 8度科技 17
+      - NL_油管 TG 8度科技 27
+      - NL_油管 TG 8度科技 28
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CYL-科技（2022.03.20）
-      - CYL-科技（2022.03.20） 2
-      - CYL-科技（2022.03.20） 3
-      - CYL-科技（2022.03.20） 4
-      - CYL-科技（2022.03.20） 5
-      - CYL-科技（2022.03.20） 6
-      - CYL-科技（2022.03.20） 7
-      - CYL-科技（2022.03.20） 8
-      - CYL-科技（2022.03.20） 9
-      - CYL-科技（2022.03.20） 10
-      - CYL-科技（2022.03.20） 11
-      - CYL-科技（2022.03.20） 12
-      - CYL-科技（2022.03.20） 13
-      - CYL-科技（2022.03.20） 14
-      - CYL-科技（2022.03.20） 15
-      - CYL-科技（2022.03.20） 16
-      - CYL-科技（2022.03.20） 17
-      - CYL-科技（2022.03.20） 18
-      - CYL-科技（2022.03.20） 19
-      - CYL-科技（2022.03.20） 20
-      - CYL-科技（2022.03.20） 21
-      - CYL-科技（2022.03.20） 22
-      - CYL-科技（2022.03.20） 23
-      - CYL-科技（2022.03.20） 24
-      - CYL-科技（2022.03.20） 25
-      - CYL-科技（2022.03.20） 26
-      - CYL-科技（2022.03.20） 27
-      - CYL-科技（2022.03.20） 28
-      - CYL-科技（2022.03.20） 29
-      - CYL-科技（2022.03.20） 30
-      - CYL-科技（2022.03.20） 31
-      - CYL-科技（2022.03.20） 32
-      - CYL-科技（2022.03.20） 33
-      - CYL-科技（2022.03.20） 34
-      - CYL-科技（2022.03.20） 35
-      - CYL-科技（2022.03.20） 36
-      - CYL-科技（2022.03.20） 37
-      - CYL-科技（2022.03.20） 38
-      - CYL-科技（2022.03.20） 39
-      - CYL-科技（2022.03.20） 40
-      - CYL-科技（2022.03.20） 41
-      - CYL-科技（2022.03.20） 42
-      - CYL-科技（2022.03.20） 43
-      - CYL-科技（2022.03.20） 44
-      - CYL-科技（2022.03.20） 45
-      - CYL-科技（2022.03.20） 46
-      - CYL-科技（2022.03.20） 47
-      - CYL-科技（2022.03.20） 48
-      - CYL-科技（2022.03.20） 49
-      - CYL-科技（2022.03.20） 50
-      - CYL-科技（2022.03.20） 51
-      - CYL-科技（2022.03.20） 52
-      - CYL-科技（2022.03.20） 53
-      - CYL-科技（2022.03.20） 54
-      - CYL-科技（2022.03.20） 55
-      - CYL-科技（2022.03.20） 56
-      - CYL-科技（2022.03.20） 57
-      - CYL-科技（2022.03.20） 58
-      - CYL-科技（2022.03.20） 59
-      - CYL-科技（2022.03.20） 60
-      - CYL-科技（2022.03.20） 61
-      - CYL-科技（2022.03.20） 62
-      - CYL-科技（2022.03.20） 63
-      - CYL-科技（2022.03.20） 64
-      - CYL-科技（2022.03.20） 65
-      - CYL-科技（2022.03.20） 66
-      - CYL-科技（2022.03.20） 67
-      - CYL-科技（2022.03.20） 68
-      - CYL-科技（2022.03.20） 69
-      - CYL-科技（2022.03.20） 70
-      - CYL-科技（2022.03.20） 71
-      - CYL-科技（2022.03.20） 72
-      - CYL-科技（2022.03.20） 73
-      - CYL-科技（2022.03.20） 74
-      - CYL-科技（2022.03.20） 75
-      - CYL-科技（2022.03.20） 76
-      - CYL-科技（2022.03.20） 77
-      - CYL-科技（2022.03.20） 78
-      - CYL-科技（2022.03.20） 79
-      - CYL-科技（2022.03.20） 80
-      - CYL-科技（2022.03.20） 81
-      - CYL-科技（2022.03.20） 82
-      - CYL-科技（2022.03.20） 83
-      - CYL-科技（2022.03.20） 84
-      - CYL-科技（2022.03.20） 85
-      - CYL-科技（2022.03.20） 86
-      - CYL-科技（2022.03.20） 87
-      - CYL-科技（2022.03.20） 88
-      - CYL-科技（2022.03.20） 89
-      - CYL-科技（2022.03.20） 90
-      - CYL-科技（2022.03.20） 91
-      - CYL-科技（2022.03.20） 92
-      - CYL-科技（2022.03.20） 93
-      - CYL-科技（2022.03.20） 94
-      - CYL-科技（2022.03.20） 95
-      - CYL-科技（2022.03.20） 96
-      - CYL-科技（2022.03.20） 97
-      - CYL-科技（2022.03.20） 98
-      - CYL-科技（2022.03.20） 99
-      - CYL-科技（2022.03.20） 100
-      - CYL-科技（2022.03.20） 101
-      - CYL-科技（2022.03.20） 102
-      - CYL-科技（2022.03.20） 103
-      - CYL-科技（2022.03.20） 104
-      - CYL-科技（2022.03.20） 105
-      - CYL-科技（2022.03.20） 106
-      - CYL-科技（2022.03.20） 107
-      - CYL-科技（2022.03.20） 108
-      - CYL-科技（2022.03.20） 109
-      - CYL-科技（2022.03.20） 110
-      - CYL-科技（2022.03.20） 111
-      - CYL-科技（2022.03.20） 112
-      - CYL-科技（2022.03.20） 113
-      - CYL-科技（2022.03.20） 114
-      - CYL-科技（2022.03.20） 115
-      - CYL-科技（2022.03.20） 116
-      - CYL-科技（2022.03.20） 117
-      - CYL-科技（2022.03.20） 118
-      - CYL-科技（2022.03.20） 119
-      - CYL-科技（2022.03.20） 120
-      - CYL-科技（2022.03.20） 121
-      - CYL-科技（2022.03.20） 122
-      - CYL-科技（2022.03.20） 123
-      - CYL-科技（2022.03.20） 124
-      - CYL-科技（2022.03.20） 125
-      - CYL-科技（2022.03.20） 126
-      - CYL-科技（2022.03.20） 127
-      - CYL-科技（2022.03.20） 128
-      - CYL-科技（2022.03.20） 129
-      - CYL-科技（2022.03.20） 130
-      - CYL-科技（2022.03.20） 131
-      - CYL-科技（2022.03.20） 132
-      - CYL-科技（2022.03.20） 133
-      - CYL-科技（2022.03.20） 134
-      - CYL-科技（2022.03.20） 135
-      - CYL-科技（2022.03.20） 136
-      - CYL-科技（2022.03.20） 137
-      - CYL-科技（2022.03.20） 138
-      - CYL-科技（2022.03.20） 139
-      - CYL-科技（2022.03.20） 140
-      - CYL-科技（2022.03.20） 141
-      - CYL-科技（2022.03.20） 142
-      - CYL-科技（2022.03.20） 143
-      - CYL-科技（2022.03.20） 144
-      - CYL-科技（2022.03.20） 145
-      - CYL-科技（2022.03.20） 146
-      - CYL-科技（2022.03.20） 147
-      - CYL-科技（2022.03.20） 148
-      - CYL-科技（2022.03.20） 149
-      - CYL-科技（2022.03.20） 150
+      - NL_油管 TG 8度科技
+      - NL_油管 TG 8度科技 2
+      - NL_油管 TG 8度科技 3
+      - BG_油管 TG 8度科技
+      - NL_油管 TG 8度科技 4
+      - NL_油管 TG 8度科技 5
+      - NL_油管 TG 8度科技 6
+      - GB_油管 TG 8度科技
+      - BG_油管 TG 8度科技 2
+      - NL_油管 TG 8度科技 7
+      - BG_油管 TG 8度科技 3
+      - NL_油管 TG 8度科技 8
+      - BG_油管 TG 8度科技 4
+      - NL_油管 TG 8度科技 9
+      - BG_油管 TG 8度科技 5
+      - NL_油管 TG 8度科技 10
+      - BG_油管 TG 8度科技 6
+      - NL_油管 TG 8度科技 11
+      - NL_油管 TG 8度科技 12
+      - NL_油管 TG 8度科技 13
+      - NL_油管 TG 8度科技 14
+      - BG_油管 TG 8度科技 7
+      - NL_油管 TG 8度科技 15
+      - NL_油管 TG 8度科技 16
+      - NL_油管 TG 8度科技 17
+      - NL_油管 TG 8度科技 18
+      - GB_油管 TG 8度科技 2
+      - NL_油管 TG 8度科技 19
+      - 🇺🇸 US_油管 TG 8度科技
+      - NL_油管 TG 8度科技 20
+      - NL_油管 TG 8度科技 21
+      - NL_油管 TG 8度科技 22
+      - NL_油管 TG 8度科技 23
+      - 🇨🇳 CN_油管 TG 8度科技
+      - NL_油管 TG 8度科技 24
+      - NL_油管 TG 8度科技 25
+      - 🇨🇳 CN_油管 TG 8度科技 2
+      - 🇨🇳 CN_油管 TG 8度科技 3
+      - 🇨🇳 CN_油管 TG 8度科技 4
+      - 🇨🇳 CN_油管 TG 8度科技 5
+      - 🇨🇳 CN_油管 TG 8度科技 6
+      - 🇨🇳 CN_油管 TG 8度科技 7
+      - 🇨🇳 CN_油管 TG 8度科技 8
+      - 🇨🇳 CN_油管 TG 8度科技 9
+      - 🇨🇳 CN_油管 TG 8度科技 10
+      - 🇨🇳 CN_油管 TG 8度科技 11
+      - 🇨🇳 CN_油管 TG 8度科技 12
+      - 🇨🇳 CN_油管 TG 8度科技 13
+      - NL_油管 TG 8度科技 26
+      - 🇨🇳 CN_油管 TG 8度科技 14
+      - 🇨🇳 CN_油管 TG 8度科技 15
+      - 🇨🇳 CN_油管 TG 8度科技 16
+      - BG_油管 TG 8度科技 8
+      - 🇨🇳 CN_油管 TG 8度科技 17
+      - NL_油管 TG 8度科技 27
+      - NL_油管 TG 8度科技 28
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - CYL-科技（2022.03.20）
-      - CYL-科技（2022.03.20） 2
-      - CYL-科技（2022.03.20） 3
-      - CYL-科技（2022.03.20） 4
-      - CYL-科技（2022.03.20） 5
-      - CYL-科技（2022.03.20） 6
-      - CYL-科技（2022.03.20） 7
-      - CYL-科技（2022.03.20） 8
-      - CYL-科技（2022.03.20） 9
-      - CYL-科技（2022.03.20） 10
-      - CYL-科技（2022.03.20） 11
-      - CYL-科技（2022.03.20） 12
-      - CYL-科技（2022.03.20） 13
-      - CYL-科技（2022.03.20） 14
-      - CYL-科技（2022.03.20） 15
-      - CYL-科技（2022.03.20） 16
-      - CYL-科技（2022.03.20） 17
-      - CYL-科技（2022.03.20） 18
-      - CYL-科技（2022.03.20） 19
-      - CYL-科技（2022.03.20） 20
-      - CYL-科技（2022.03.20） 21
-      - CYL-科技（2022.03.20） 22
-      - CYL-科技（2022.03.20） 23
-      - CYL-科技（2022.03.20） 24
-      - CYL-科技（2022.03.20） 25
-      - CYL-科技（2022.03.20） 26
-      - CYL-科技（2022.03.20） 27
-      - CYL-科技（2022.03.20） 28
-      - CYL-科技（2022.03.20） 29
-      - CYL-科技（2022.03.20） 30
-      - CYL-科技（2022.03.20） 31
-      - CYL-科技（2022.03.20） 32
-      - CYL-科技（2022.03.20） 33
-      - CYL-科技（2022.03.20） 34
-      - CYL-科技（2022.03.20） 35
-      - CYL-科技（2022.03.20） 36
-      - CYL-科技（2022.03.20） 37
-      - CYL-科技（2022.03.20） 38
-      - CYL-科技（2022.03.20） 39
-      - CYL-科技（2022.03.20） 40
-      - CYL-科技（2022.03.20） 41
-      - CYL-科技（2022.03.20） 42
-      - CYL-科技（2022.03.20） 43
-      - CYL-科技（2022.03.20） 44
-      - CYL-科技（2022.03.20） 45
-      - CYL-科技（2022.03.20） 46
-      - CYL-科技（2022.03.20） 47
-      - CYL-科技（2022.03.20） 48
-      - CYL-科技（2022.03.20） 49
-      - CYL-科技（2022.03.20） 50
-      - CYL-科技（2022.03.20） 51
-      - CYL-科技（2022.03.20） 52
-      - CYL-科技（2022.03.20） 53
-      - CYL-科技（2022.03.20） 54
-      - CYL-科技（2022.03.20） 55
-      - CYL-科技（2022.03.20） 56
-      - CYL-科技（2022.03.20） 57
-      - CYL-科技（2022.03.20） 58
-      - CYL-科技（2022.03.20） 59
-      - CYL-科技（2022.03.20） 60
-      - CYL-科技（2022.03.20） 61
-      - CYL-科技（2022.03.20） 62
-      - CYL-科技（2022.03.20） 63
-      - CYL-科技（2022.03.20） 64
-      - CYL-科技（2022.03.20） 65
-      - CYL-科技（2022.03.20） 66
-      - CYL-科技（2022.03.20） 67
-      - CYL-科技（2022.03.20） 68
-      - CYL-科技（2022.03.20） 69
-      - CYL-科技（2022.03.20） 70
-      - CYL-科技（2022.03.20） 71
-      - CYL-科技（2022.03.20） 72
-      - CYL-科技（2022.03.20） 73
-      - CYL-科技（2022.03.20） 74
-      - CYL-科技（2022.03.20） 75
-      - CYL-科技（2022.03.20） 76
-      - CYL-科技（2022.03.20） 77
-      - CYL-科技（2022.03.20） 78
-      - CYL-科技（2022.03.20） 79
-      - CYL-科技（2022.03.20） 80
-      - CYL-科技（2022.03.20） 81
-      - CYL-科技（2022.03.20） 82
-      - CYL-科技（2022.03.20） 83
-      - CYL-科技（2022.03.20） 84
-      - CYL-科技（2022.03.20） 85
-      - CYL-科技（2022.03.20） 86
-      - CYL-科技（2022.03.20） 87
-      - CYL-科技（2022.03.20） 88
-      - CYL-科技（2022.03.20） 89
-      - CYL-科技（2022.03.20） 90
-      - CYL-科技（2022.03.20） 91
-      - CYL-科技（2022.03.20） 92
-      - CYL-科技（2022.03.20） 93
-      - CYL-科技（2022.03.20） 94
-      - CYL-科技（2022.03.20） 95
-      - CYL-科技（2022.03.20） 96
-      - CYL-科技（2022.03.20） 97
-      - CYL-科技（2022.03.20） 98
-      - CYL-科技（2022.03.20） 99
-      - CYL-科技（2022.03.20） 100
-      - CYL-科技（2022.03.20） 101
-      - CYL-科技（2022.03.20） 102
-      - CYL-科技（2022.03.20） 103
-      - CYL-科技（2022.03.20） 104
-      - CYL-科技（2022.03.20） 105
-      - CYL-科技（2022.03.20） 106
-      - CYL-科技（2022.03.20） 107
-      - CYL-科技（2022.03.20） 108
-      - CYL-科技（2022.03.20） 109
-      - CYL-科技（2022.03.20） 110
-      - CYL-科技（2022.03.20） 111
-      - CYL-科技（2022.03.20） 112
-      - CYL-科技（2022.03.20） 113
-      - CYL-科技（2022.03.20） 114
-      - CYL-科技（2022.03.20） 115
-      - CYL-科技（2022.03.20） 116
-      - CYL-科技（2022.03.20） 117
-      - CYL-科技（2022.03.20） 118
-      - CYL-科技（2022.03.20） 119
-      - CYL-科技（2022.03.20） 120
-      - CYL-科技（2022.03.20） 121
-      - CYL-科技（2022.03.20） 122
-      - CYL-科技（2022.03.20） 123
-      - CYL-科技（2022.03.20） 124
-      - CYL-科技（2022.03.20） 125
-      - CYL-科技（2022.03.20） 126
-      - CYL-科技（2022.03.20） 127
-      - CYL-科技（2022.03.20） 128
-      - CYL-科技（2022.03.20） 129
-      - CYL-科技（2022.03.20） 130
-      - CYL-科技（2022.03.20） 131
-      - CYL-科技（2022.03.20） 132
-      - CYL-科技（2022.03.20） 133
-      - CYL-科技（2022.03.20） 134
-      - CYL-科技（2022.03.20） 135
-      - CYL-科技（2022.03.20） 136
-      - CYL-科技（2022.03.20） 137
-      - CYL-科技（2022.03.20） 138
-      - CYL-科技（2022.03.20） 139
-      - CYL-科技（2022.03.20） 140
-      - CYL-科技（2022.03.20） 141
-      - CYL-科技（2022.03.20） 142
-      - CYL-科技（2022.03.20） 143
-      - CYL-科技（2022.03.20） 144
-      - CYL-科技（2022.03.20） 145
-      - CYL-科技（2022.03.20） 146
-      - CYL-科技（2022.03.20） 147
-      - CYL-科技（2022.03.20） 148
-      - CYL-科技（2022.03.20） 149
-      - CYL-科技（2022.03.20） 150
+      - NL_油管 TG 8度科技
+      - NL_油管 TG 8度科技 2
+      - NL_油管 TG 8度科技 3
+      - BG_油管 TG 8度科技
+      - NL_油管 TG 8度科技 4
+      - NL_油管 TG 8度科技 5
+      - NL_油管 TG 8度科技 6
+      - GB_油管 TG 8度科技
+      - BG_油管 TG 8度科技 2
+      - NL_油管 TG 8度科技 7
+      - BG_油管 TG 8度科技 3
+      - NL_油管 TG 8度科技 8
+      - BG_油管 TG 8度科技 4
+      - NL_油管 TG 8度科技 9
+      - BG_油管 TG 8度科技 5
+      - NL_油管 TG 8度科技 10
+      - BG_油管 TG 8度科技 6
+      - NL_油管 TG 8度科技 11
+      - NL_油管 TG 8度科技 12
+      - NL_油管 TG 8度科技 13
+      - NL_油管 TG 8度科技 14
+      - BG_油管 TG 8度科技 7
+      - NL_油管 TG 8度科技 15
+      - NL_油管 TG 8度科技 16
+      - NL_油管 TG 8度科技 17
+      - NL_油管 TG 8度科技 18
+      - GB_油管 TG 8度科技 2
+      - NL_油管 TG 8度科技 19
+      - 🇺🇸 US_油管 TG 8度科技
+      - NL_油管 TG 8度科技 20
+      - NL_油管 TG 8度科技 21
+      - NL_油管 TG 8度科技 22
+      - NL_油管 TG 8度科技 23
+      - 🇨🇳 CN_油管 TG 8度科技
+      - NL_油管 TG 8度科技 24
+      - NL_油管 TG 8度科技 25
+      - 🇨🇳 CN_油管 TG 8度科技 2
+      - 🇨🇳 CN_油管 TG 8度科技 3
+      - 🇨🇳 CN_油管 TG 8度科技 4
+      - 🇨🇳 CN_油管 TG 8度科技 5
+      - 🇨🇳 CN_油管 TG 8度科技 6
+      - 🇨🇳 CN_油管 TG 8度科技 7
+      - 🇨🇳 CN_油管 TG 8度科技 8
+      - 🇨🇳 CN_油管 TG 8度科技 9
+      - 🇨🇳 CN_油管 TG 8度科技 10
+      - 🇨🇳 CN_油管 TG 8度科技 11
+      - 🇨🇳 CN_油管 TG 8度科技 12
+      - 🇨🇳 CN_油管 TG 8度科技 13
+      - NL_油管 TG 8度科技 26
+      - 🇨🇳 CN_油管 TG 8度科技 14
+      - 🇨🇳 CN_油管 TG 8度科技 15
+      - 🇨🇳 CN_油管 TG 8度科技 16
+      - BG_油管 TG 8度科技 8
+      - 🇨🇳 CN_油管 TG 8度科技 17
+      - NL_油管 TG 8度科技 27
+      - NL_油管 TG 8度科技 28
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - CYL-科技（2022.03.20）
-      - CYL-科技（2022.03.20） 2
-      - CYL-科技（2022.03.20） 3
-      - CYL-科技（2022.03.20） 4
-      - CYL-科技（2022.03.20） 5
-      - CYL-科技（2022.03.20） 6
-      - CYL-科技（2022.03.20） 7
-      - CYL-科技（2022.03.20） 8
-      - CYL-科技（2022.03.20） 9
-      - CYL-科技（2022.03.20） 10
-      - CYL-科技（2022.03.20） 11
-      - CYL-科技（2022.03.20） 12
-      - CYL-科技（2022.03.20） 13
-      - CYL-科技（2022.03.20） 14
-      - CYL-科技（2022.03.20） 15
-      - CYL-科技（2022.03.20） 16
-      - CYL-科技（2022.03.20） 17
-      - CYL-科技（2022.03.20） 18
-      - CYL-科技（2022.03.20） 19
-      - CYL-科技（2022.03.20） 20
-      - CYL-科技（2022.03.20） 21
-      - CYL-科技（2022.03.20） 22
-      - CYL-科技（2022.03.20） 23
-      - CYL-科技（2022.03.20） 24
-      - CYL-科技（2022.03.20） 25
-      - CYL-科技（2022.03.20） 26
-      - CYL-科技（2022.03.20） 27
-      - CYL-科技（2022.03.20） 28
-      - CYL-科技（2022.03.20） 29
-      - CYL-科技（2022.03.20） 30
-      - CYL-科技（2022.03.20） 31
-      - CYL-科技（2022.03.20） 32
-      - CYL-科技（2022.03.20） 33
-      - CYL-科技（2022.03.20） 34
-      - CYL-科技（2022.03.20） 35
-      - CYL-科技（2022.03.20） 36
-      - CYL-科技（2022.03.20） 37
-      - CYL-科技（2022.03.20） 38
-      - CYL-科技（2022.03.20） 39
-      - CYL-科技（2022.03.20） 40
-      - CYL-科技（2022.03.20） 41
-      - CYL-科技（2022.03.20） 42
-      - CYL-科技（2022.03.20） 43
-      - CYL-科技（2022.03.20） 44
-      - CYL-科技（2022.03.20） 45
-      - CYL-科技（2022.03.20） 46
-      - CYL-科技（2022.03.20） 47
-      - CYL-科技（2022.03.20） 48
-      - CYL-科技（2022.03.20） 49
-      - CYL-科技（2022.03.20） 50
-      - CYL-科技（2022.03.20） 51
-      - CYL-科技（2022.03.20） 52
-      - CYL-科技（2022.03.20） 53
-      - CYL-科技（2022.03.20） 54
-      - CYL-科技（2022.03.20） 55
-      - CYL-科技（2022.03.20） 56
-      - CYL-科技（2022.03.20） 57
-      - CYL-科技（2022.03.20） 58
-      - CYL-科技（2022.03.20） 59
-      - CYL-科技（2022.03.20） 60
-      - CYL-科技（2022.03.20） 61
-      - CYL-科技（2022.03.20） 62
-      - CYL-科技（2022.03.20） 63
-      - CYL-科技（2022.03.20） 64
-      - CYL-科技（2022.03.20） 65
-      - CYL-科技（2022.03.20） 66
-      - CYL-科技（2022.03.20） 67
-      - CYL-科技（2022.03.20） 68
-      - CYL-科技（2022.03.20） 69
-      - CYL-科技（2022.03.20） 70
-      - CYL-科技（2022.03.20） 71
-      - CYL-科技（2022.03.20） 72
-      - CYL-科技（2022.03.20） 73
-      - CYL-科技（2022.03.20） 74
-      - CYL-科技（2022.03.20） 75
-      - CYL-科技（2022.03.20） 76
-      - CYL-科技（2022.03.20） 77
-      - CYL-科技（2022.03.20） 78
-      - CYL-科技（2022.03.20） 79
-      - CYL-科技（2022.03.20） 80
-      - CYL-科技（2022.03.20） 81
-      - CYL-科技（2022.03.20） 82
-      - CYL-科技（2022.03.20） 83
-      - CYL-科技（2022.03.20） 84
-      - CYL-科技（2022.03.20） 85
-      - CYL-科技（2022.03.20） 86
-      - CYL-科技（2022.03.20） 87
-      - CYL-科技（2022.03.20） 88
-      - CYL-科技（2022.03.20） 89
-      - CYL-科技（2022.03.20） 90
-      - CYL-科技（2022.03.20） 91
-      - CYL-科技（2022.03.20） 92
-      - CYL-科技（2022.03.20） 93
-      - CYL-科技（2022.03.20） 94
-      - CYL-科技（2022.03.20） 95
-      - CYL-科技（2022.03.20） 96
-      - CYL-科技（2022.03.20） 97
-      - CYL-科技（2022.03.20） 98
-      - CYL-科技（2022.03.20） 99
-      - CYL-科技（2022.03.20） 100
-      - CYL-科技（2022.03.20） 101
-      - CYL-科技（2022.03.20） 102
-      - CYL-科技（2022.03.20） 103
-      - CYL-科技（2022.03.20） 104
-      - CYL-科技（2022.03.20） 105
-      - CYL-科技（2022.03.20） 106
-      - CYL-科技（2022.03.20） 107
-      - CYL-科技（2022.03.20） 108
-      - CYL-科技（2022.03.20） 109
-      - CYL-科技（2022.03.20） 110
-      - CYL-科技（2022.03.20） 111
-      - CYL-科技（2022.03.20） 112
-      - CYL-科技（2022.03.20） 113
-      - CYL-科技（2022.03.20） 114
-      - CYL-科技（2022.03.20） 115
-      - CYL-科技（2022.03.20） 116
-      - CYL-科技（2022.03.20） 117
-      - CYL-科技（2022.03.20） 118
-      - CYL-科技（2022.03.20） 119
-      - CYL-科技（2022.03.20） 120
-      - CYL-科技（2022.03.20） 121
-      - CYL-科技（2022.03.20） 122
-      - CYL-科技（2022.03.20） 123
-      - CYL-科技（2022.03.20） 124
-      - CYL-科技（2022.03.20） 125
-      - CYL-科技（2022.03.20） 126
-      - CYL-科技（2022.03.20） 127
-      - CYL-科技（2022.03.20） 128
-      - CYL-科技（2022.03.20） 129
-      - CYL-科技（2022.03.20） 130
-      - CYL-科技（2022.03.20） 131
-      - CYL-科技（2022.03.20） 132
-      - CYL-科技（2022.03.20） 133
-      - CYL-科技（2022.03.20） 134
-      - CYL-科技（2022.03.20） 135
-      - CYL-科技（2022.03.20） 136
-      - CYL-科技（2022.03.20） 137
-      - CYL-科技（2022.03.20） 138
-      - CYL-科技（2022.03.20） 139
-      - CYL-科技（2022.03.20） 140
-      - CYL-科技（2022.03.20） 141
-      - CYL-科技（2022.03.20） 142
-      - CYL-科技（2022.03.20） 143
-      - CYL-科技（2022.03.20） 144
-      - CYL-科技（2022.03.20） 145
-      - CYL-科技（2022.03.20） 146
-      - CYL-科技（2022.03.20） 147
-      - CYL-科技（2022.03.20） 148
-      - CYL-科技（2022.03.20） 149
-      - CYL-科技（2022.03.20） 150
+      - NL_油管 TG 8度科技
+      - NL_油管 TG 8度科技 2
+      - NL_油管 TG 8度科技 3
+      - BG_油管 TG 8度科技
+      - NL_油管 TG 8度科技 4
+      - NL_油管 TG 8度科技 5
+      - NL_油管 TG 8度科技 6
+      - GB_油管 TG 8度科技
+      - BG_油管 TG 8度科技 2
+      - NL_油管 TG 8度科技 7
+      - BG_油管 TG 8度科技 3
+      - NL_油管 TG 8度科技 8
+      - BG_油管 TG 8度科技 4
+      - NL_油管 TG 8度科技 9
+      - BG_油管 TG 8度科技 5
+      - NL_油管 TG 8度科技 10
+      - BG_油管 TG 8度科技 6
+      - NL_油管 TG 8度科技 11
+      - NL_油管 TG 8度科技 12
+      - NL_油管 TG 8度科技 13
+      - NL_油管 TG 8度科技 14
+      - BG_油管 TG 8度科技 7
+      - NL_油管 TG 8度科技 15
+      - NL_油管 TG 8度科技 16
+      - NL_油管 TG 8度科技 17
+      - NL_油管 TG 8度科技 18
+      - GB_油管 TG 8度科技 2
+      - NL_油管 TG 8度科技 19
+      - 🇺🇸 US_油管 TG 8度科技
+      - NL_油管 TG 8度科技 20
+      - NL_油管 TG 8度科技 21
+      - NL_油管 TG 8度科技 22
+      - NL_油管 TG 8度科技 23
+      - 🇨🇳 CN_油管 TG 8度科技
+      - NL_油管 TG 8度科技 24
+      - NL_油管 TG 8度科技 25
+      - 🇨🇳 CN_油管 TG 8度科技 2
+      - 🇨🇳 CN_油管 TG 8度科技 3
+      - 🇨🇳 CN_油管 TG 8度科技 4
+      - 🇨🇳 CN_油管 TG 8度科技 5
+      - 🇨🇳 CN_油管 TG 8度科技 6
+      - 🇨🇳 CN_油管 TG 8度科技 7
+      - 🇨🇳 CN_油管 TG 8度科技 8
+      - 🇨🇳 CN_油管 TG 8度科技 9
+      - 🇨🇳 CN_油管 TG 8度科技 10
+      - 🇨🇳 CN_油管 TG 8度科技 11
+      - 🇨🇳 CN_油管 TG 8度科技 12
+      - 🇨🇳 CN_油管 TG 8度科技 13
+      - NL_油管 TG 8度科技 26
+      - 🇨🇳 CN_油管 TG 8度科技 14
+      - 🇨🇳 CN_油管 TG 8度科技 15
+      - 🇨🇳 CN_油管 TG 8度科技 16
+      - BG_油管 TG 8度科技 8
+      - 🇨🇳 CN_油管 TG 8度科技 17
+      - NL_油管 TG 8度科技 27
+      - NL_油管 TG 8度科技 28
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - CYL-科技（2022.03.20）
-      - CYL-科技（2022.03.20） 2
-      - CYL-科技（2022.03.20） 3
-      - CYL-科技（2022.03.20） 4
-      - CYL-科技（2022.03.20） 5
-      - CYL-科技（2022.03.20） 6
-      - CYL-科技（2022.03.20） 7
-      - CYL-科技（2022.03.20） 8
-      - CYL-科技（2022.03.20） 9
-      - CYL-科技（2022.03.20） 10
-      - CYL-科技（2022.03.20） 11
-      - CYL-科技（2022.03.20） 12
-      - CYL-科技（2022.03.20） 13
-      - CYL-科技（2022.03.20） 14
-      - CYL-科技（2022.03.20） 15
-      - CYL-科技（2022.03.20） 16
-      - CYL-科技（2022.03.20） 17
-      - CYL-科技（2022.03.20） 18
-      - CYL-科技（2022.03.20） 19
-      - CYL-科技（2022.03.20） 20
-      - CYL-科技（2022.03.20） 21
-      - CYL-科技（2022.03.20） 22
-      - CYL-科技（2022.03.20） 23
-      - CYL-科技（2022.03.20） 24
-      - CYL-科技（2022.03.20） 25
-      - CYL-科技（2022.03.20） 26
-      - CYL-科技（2022.03.20） 27
-      - CYL-科技（2022.03.20） 28
-      - CYL-科技（2022.03.20） 29
-      - CYL-科技（2022.03.20） 30
-      - CYL-科技（2022.03.20） 31
-      - CYL-科技（2022.03.20） 32
-      - CYL-科技（2022.03.20） 33
-      - CYL-科技（2022.03.20） 34
-      - CYL-科技（2022.03.20） 35
-      - CYL-科技（2022.03.20） 36
-      - CYL-科技（2022.03.20） 37
-      - CYL-科技（2022.03.20） 38
-      - CYL-科技（2022.03.20） 39
-      - CYL-科技（2022.03.20） 40
-      - CYL-科技（2022.03.20） 41
-      - CYL-科技（2022.03.20） 42
-      - CYL-科技（2022.03.20） 43
-      - CYL-科技（2022.03.20） 44
-      - CYL-科技（2022.03.20） 45
-      - CYL-科技（2022.03.20） 46
-      - CYL-科技（2022.03.20） 47
-      - CYL-科技（2022.03.20） 48
-      - CYL-科技（2022.03.20） 49
-      - CYL-科技（2022.03.20） 50
-      - CYL-科技（2022.03.20） 51
-      - CYL-科技（2022.03.20） 52
-      - CYL-科技（2022.03.20） 53
-      - CYL-科技（2022.03.20） 54
-      - CYL-科技（2022.03.20） 55
-      - CYL-科技（2022.03.20） 56
-      - CYL-科技（2022.03.20） 57
-      - CYL-科技（2022.03.20） 58
-      - CYL-科技（2022.03.20） 59
-      - CYL-科技（2022.03.20） 60
-      - CYL-科技（2022.03.20） 61
-      - CYL-科技（2022.03.20） 62
-      - CYL-科技（2022.03.20） 63
-      - CYL-科技（2022.03.20） 64
-      - CYL-科技（2022.03.20） 65
-      - CYL-科技（2022.03.20） 66
-      - CYL-科技（2022.03.20） 67
-      - CYL-科技（2022.03.20） 68
-      - CYL-科技（2022.03.20） 69
-      - CYL-科技（2022.03.20） 70
-      - CYL-科技（2022.03.20） 71
-      - CYL-科技（2022.03.20） 72
-      - CYL-科技（2022.03.20） 73
-      - CYL-科技（2022.03.20） 74
-      - CYL-科技（2022.03.20） 75
-      - CYL-科技（2022.03.20） 76
-      - CYL-科技（2022.03.20） 77
-      - CYL-科技（2022.03.20） 78
-      - CYL-科技（2022.03.20） 79
-      - CYL-科技（2022.03.20） 80
-      - CYL-科技（2022.03.20） 81
-      - CYL-科技（2022.03.20） 82
-      - CYL-科技（2022.03.20） 83
-      - CYL-科技（2022.03.20） 84
-      - CYL-科技（2022.03.20） 85
-      - CYL-科技（2022.03.20） 86
-      - CYL-科技（2022.03.20） 87
-      - CYL-科技（2022.03.20） 88
-      - CYL-科技（2022.03.20） 89
-      - CYL-科技（2022.03.20） 90
-      - CYL-科技（2022.03.20） 91
-      - CYL-科技（2022.03.20） 92
-      - CYL-科技（2022.03.20） 93
-      - CYL-科技（2022.03.20） 94
-      - CYL-科技（2022.03.20） 95
-      - CYL-科技（2022.03.20） 96
-      - CYL-科技（2022.03.20） 97
-      - CYL-科技（2022.03.20） 98
-      - CYL-科技（2022.03.20） 99
-      - CYL-科技（2022.03.20） 100
-      - CYL-科技（2022.03.20） 101
-      - CYL-科技（2022.03.20） 102
-      - CYL-科技（2022.03.20） 103
-      - CYL-科技（2022.03.20） 104
-      - CYL-科技（2022.03.20） 105
-      - CYL-科技（2022.03.20） 106
-      - CYL-科技（2022.03.20） 107
-      - CYL-科技（2022.03.20） 108
-      - CYL-科技（2022.03.20） 109
-      - CYL-科技（2022.03.20） 110
-      - CYL-科技（2022.03.20） 111
-      - CYL-科技（2022.03.20） 112
-      - CYL-科技（2022.03.20） 113
-      - CYL-科技（2022.03.20） 114
-      - CYL-科技（2022.03.20） 115
-      - CYL-科技（2022.03.20） 116
-      - CYL-科技（2022.03.20） 117
-      - CYL-科技（2022.03.20） 118
-      - CYL-科技（2022.03.20） 119
-      - CYL-科技（2022.03.20） 120
-      - CYL-科技（2022.03.20） 121
-      - CYL-科技（2022.03.20） 122
-      - CYL-科技（2022.03.20） 123
-      - CYL-科技（2022.03.20） 124
-      - CYL-科技（2022.03.20） 125
-      - CYL-科技（2022.03.20） 126
-      - CYL-科技（2022.03.20） 127
-      - CYL-科技（2022.03.20） 128
-      - CYL-科技（2022.03.20） 129
-      - CYL-科技（2022.03.20） 130
-      - CYL-科技（2022.03.20） 131
-      - CYL-科技（2022.03.20） 132
-      - CYL-科技（2022.03.20） 133
-      - CYL-科技（2022.03.20） 134
-      - CYL-科技（2022.03.20） 135
-      - CYL-科技（2022.03.20） 136
-      - CYL-科技（2022.03.20） 137
-      - CYL-科技（2022.03.20） 138
-      - CYL-科技（2022.03.20） 139
-      - CYL-科技（2022.03.20） 140
-      - CYL-科技（2022.03.20） 141
-      - CYL-科技（2022.03.20） 142
-      - CYL-科技（2022.03.20） 143
-      - CYL-科技（2022.03.20） 144
-      - CYL-科技（2022.03.20） 145
-      - CYL-科技（2022.03.20） 146
-      - CYL-科技（2022.03.20） 147
-      - CYL-科技（2022.03.20） 148
-      - CYL-科技（2022.03.20） 149
-      - CYL-科技（2022.03.20） 150
+      - NL_油管 TG 8度科技
+      - NL_油管 TG 8度科技 2
+      - NL_油管 TG 8度科技 3
+      - BG_油管 TG 8度科技
+      - NL_油管 TG 8度科技 4
+      - NL_油管 TG 8度科技 5
+      - NL_油管 TG 8度科技 6
+      - GB_油管 TG 8度科技
+      - BG_油管 TG 8度科技 2
+      - NL_油管 TG 8度科技 7
+      - BG_油管 TG 8度科技 3
+      - NL_油管 TG 8度科技 8
+      - BG_油管 TG 8度科技 4
+      - NL_油管 TG 8度科技 9
+      - BG_油管 TG 8度科技 5
+      - NL_油管 TG 8度科技 10
+      - BG_油管 TG 8度科技 6
+      - NL_油管 TG 8度科技 11
+      - NL_油管 TG 8度科技 12
+      - NL_油管 TG 8度科技 13
+      - NL_油管 TG 8度科技 14
+      - BG_油管 TG 8度科技 7
+      - NL_油管 TG 8度科技 15
+      - NL_油管 TG 8度科技 16
+      - NL_油管 TG 8度科技 17
+      - NL_油管 TG 8度科技 18
+      - GB_油管 TG 8度科技 2
+      - NL_油管 TG 8度科技 19
+      - 🇺🇸 US_油管 TG 8度科技
+      - NL_油管 TG 8度科技 20
+      - NL_油管 TG 8度科技 21
+      - NL_油管 TG 8度科技 22
+      - NL_油管 TG 8度科技 23
+      - 🇨🇳 CN_油管 TG 8度科技
+      - NL_油管 TG 8度科技 24
+      - NL_油管 TG 8度科技 25
+      - 🇨🇳 CN_油管 TG 8度科技 2
+      - 🇨🇳 CN_油管 TG 8度科技 3
+      - 🇨🇳 CN_油管 TG 8度科技 4
+      - 🇨🇳 CN_油管 TG 8度科技 5
+      - 🇨🇳 CN_油管 TG 8度科技 6
+      - 🇨🇳 CN_油管 TG 8度科技 7
+      - 🇨🇳 CN_油管 TG 8度科技 8
+      - 🇨🇳 CN_油管 TG 8度科技 9
+      - 🇨🇳 CN_油管 TG 8度科技 10
+      - 🇨🇳 CN_油管 TG 8度科技 11
+      - 🇨🇳 CN_油管 TG 8度科技 12
+      - 🇨🇳 CN_油管 TG 8度科技 13
+      - NL_油管 TG 8度科技 26
+      - 🇨🇳 CN_油管 TG 8度科技 14
+      - 🇨🇳 CN_油管 TG 8度科技 15
+      - 🇨🇳 CN_油管 TG 8度科技 16
+      - BG_油管 TG 8度科技 8
+      - 🇨🇳 CN_油管 TG 8度科技 17
+      - NL_油管 TG 8度科技 27
+      - NL_油管 TG 8度科技 28
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1110,156 +452,62 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - CYL-科技（2022.03.20）
-      - CYL-科技（2022.03.20） 2
-      - CYL-科技（2022.03.20） 3
-      - CYL-科技（2022.03.20） 4
-      - CYL-科技（2022.03.20） 5
-      - CYL-科技（2022.03.20） 6
-      - CYL-科技（2022.03.20） 7
-      - CYL-科技（2022.03.20） 8
-      - CYL-科技（2022.03.20） 9
-      - CYL-科技（2022.03.20） 10
-      - CYL-科技（2022.03.20） 11
-      - CYL-科技（2022.03.20） 12
-      - CYL-科技（2022.03.20） 13
-      - CYL-科技（2022.03.20） 14
-      - CYL-科技（2022.03.20） 15
-      - CYL-科技（2022.03.20） 16
-      - CYL-科技（2022.03.20） 17
-      - CYL-科技（2022.03.20） 18
-      - CYL-科技（2022.03.20） 19
-      - CYL-科技（2022.03.20） 20
-      - CYL-科技（2022.03.20） 21
-      - CYL-科技（2022.03.20） 22
-      - CYL-科技（2022.03.20） 23
-      - CYL-科技（2022.03.20） 24
-      - CYL-科技（2022.03.20） 25
-      - CYL-科技（2022.03.20） 26
-      - CYL-科技（2022.03.20） 27
-      - CYL-科技（2022.03.20） 28
-      - CYL-科技（2022.03.20） 29
-      - CYL-科技（2022.03.20） 30
-      - CYL-科技（2022.03.20） 31
-      - CYL-科技（2022.03.20） 32
-      - CYL-科技（2022.03.20） 33
-      - CYL-科技（2022.03.20） 34
-      - CYL-科技（2022.03.20） 35
-      - CYL-科技（2022.03.20） 36
-      - CYL-科技（2022.03.20） 37
-      - CYL-科技（2022.03.20） 38
-      - CYL-科技（2022.03.20） 39
-      - CYL-科技（2022.03.20） 40
-      - CYL-科技（2022.03.20） 41
-      - CYL-科技（2022.03.20） 42
-      - CYL-科技（2022.03.20） 43
-      - CYL-科技（2022.03.20） 44
-      - CYL-科技（2022.03.20） 45
-      - CYL-科技（2022.03.20） 46
-      - CYL-科技（2022.03.20） 47
-      - CYL-科技（2022.03.20） 48
-      - CYL-科技（2022.03.20） 49
-      - CYL-科技（2022.03.20） 50
-      - CYL-科技（2022.03.20） 51
-      - CYL-科技（2022.03.20） 52
-      - CYL-科技（2022.03.20） 53
-      - CYL-科技（2022.03.20） 54
-      - CYL-科技（2022.03.20） 55
-      - CYL-科技（2022.03.20） 56
-      - CYL-科技（2022.03.20） 57
-      - CYL-科技（2022.03.20） 58
-      - CYL-科技（2022.03.20） 59
-      - CYL-科技（2022.03.20） 60
-      - CYL-科技（2022.03.20） 61
-      - CYL-科技（2022.03.20） 62
-      - CYL-科技（2022.03.20） 63
-      - CYL-科技（2022.03.20） 64
-      - CYL-科技（2022.03.20） 65
-      - CYL-科技（2022.03.20） 66
-      - CYL-科技（2022.03.20） 67
-      - CYL-科技（2022.03.20） 68
-      - CYL-科技（2022.03.20） 69
-      - CYL-科技（2022.03.20） 70
-      - CYL-科技（2022.03.20） 71
-      - CYL-科技（2022.03.20） 72
-      - CYL-科技（2022.03.20） 73
-      - CYL-科技（2022.03.20） 74
-      - CYL-科技（2022.03.20） 75
-      - CYL-科技（2022.03.20） 76
-      - CYL-科技（2022.03.20） 77
-      - CYL-科技（2022.03.20） 78
-      - CYL-科技（2022.03.20） 79
-      - CYL-科技（2022.03.20） 80
-      - CYL-科技（2022.03.20） 81
-      - CYL-科技（2022.03.20） 82
-      - CYL-科技（2022.03.20） 83
-      - CYL-科技（2022.03.20） 84
-      - CYL-科技（2022.03.20） 85
-      - CYL-科技（2022.03.20） 86
-      - CYL-科技（2022.03.20） 87
-      - CYL-科技（2022.03.20） 88
-      - CYL-科技（2022.03.20） 89
-      - CYL-科技（2022.03.20） 90
-      - CYL-科技（2022.03.20） 91
-      - CYL-科技（2022.03.20） 92
-      - CYL-科技（2022.03.20） 93
-      - CYL-科技（2022.03.20） 94
-      - CYL-科技（2022.03.20） 95
-      - CYL-科技（2022.03.20） 96
-      - CYL-科技（2022.03.20） 97
-      - CYL-科技（2022.03.20） 98
-      - CYL-科技（2022.03.20） 99
-      - CYL-科技（2022.03.20） 100
-      - CYL-科技（2022.03.20） 101
-      - CYL-科技（2022.03.20） 102
-      - CYL-科技（2022.03.20） 103
-      - CYL-科技（2022.03.20） 104
-      - CYL-科技（2022.03.20） 105
-      - CYL-科技（2022.03.20） 106
-      - CYL-科技（2022.03.20） 107
-      - CYL-科技（2022.03.20） 108
-      - CYL-科技（2022.03.20） 109
-      - CYL-科技（2022.03.20） 110
-      - CYL-科技（2022.03.20） 111
-      - CYL-科技（2022.03.20） 112
-      - CYL-科技（2022.03.20） 113
-      - CYL-科技（2022.03.20） 114
-      - CYL-科技（2022.03.20） 115
-      - CYL-科技（2022.03.20） 116
-      - CYL-科技（2022.03.20） 117
-      - CYL-科技（2022.03.20） 118
-      - CYL-科技（2022.03.20） 119
-      - CYL-科技（2022.03.20） 120
-      - CYL-科技（2022.03.20） 121
-      - CYL-科技（2022.03.20） 122
-      - CYL-科技（2022.03.20） 123
-      - CYL-科技（2022.03.20） 124
-      - CYL-科技（2022.03.20） 125
-      - CYL-科技（2022.03.20） 126
-      - CYL-科技（2022.03.20） 127
-      - CYL-科技（2022.03.20） 128
-      - CYL-科技（2022.03.20） 129
-      - CYL-科技（2022.03.20） 130
-      - CYL-科技（2022.03.20） 131
-      - CYL-科技（2022.03.20） 132
-      - CYL-科技（2022.03.20） 133
-      - CYL-科技（2022.03.20） 134
-      - CYL-科技（2022.03.20） 135
-      - CYL-科技（2022.03.20） 136
-      - CYL-科技（2022.03.20） 137
-      - CYL-科技（2022.03.20） 138
-      - CYL-科技（2022.03.20） 139
-      - CYL-科技（2022.03.20） 140
-      - CYL-科技（2022.03.20） 141
-      - CYL-科技（2022.03.20） 142
-      - CYL-科技（2022.03.20） 143
-      - CYL-科技（2022.03.20） 144
-      - CYL-科技（2022.03.20） 145
-      - CYL-科技（2022.03.20） 146
-      - CYL-科技（2022.03.20） 147
-      - CYL-科技（2022.03.20） 148
-      - CYL-科技（2022.03.20） 149
-      - CYL-科技（2022.03.20） 150
+      - NL_油管 TG 8度科技
+      - NL_油管 TG 8度科技 2
+      - NL_油管 TG 8度科技 3
+      - BG_油管 TG 8度科技
+      - NL_油管 TG 8度科技 4
+      - NL_油管 TG 8度科技 5
+      - NL_油管 TG 8度科技 6
+      - GB_油管 TG 8度科技
+      - BG_油管 TG 8度科技 2
+      - NL_油管 TG 8度科技 7
+      - BG_油管 TG 8度科技 3
+      - NL_油管 TG 8度科技 8
+      - BG_油管 TG 8度科技 4
+      - NL_油管 TG 8度科技 9
+      - BG_油管 TG 8度科技 5
+      - NL_油管 TG 8度科技 10
+      - BG_油管 TG 8度科技 6
+      - NL_油管 TG 8度科技 11
+      - NL_油管 TG 8度科技 12
+      - NL_油管 TG 8度科技 13
+      - NL_油管 TG 8度科技 14
+      - BG_油管 TG 8度科技 7
+      - NL_油管 TG 8度科技 15
+      - NL_油管 TG 8度科技 16
+      - NL_油管 TG 8度科技 17
+      - NL_油管 TG 8度科技 18
+      - GB_油管 TG 8度科技 2
+      - NL_油管 TG 8度科技 19
+      - 🇺🇸 US_油管 TG 8度科技
+      - NL_油管 TG 8度科技 20
+      - NL_油管 TG 8度科技 21
+      - NL_油管 TG 8度科技 22
+      - NL_油管 TG 8度科技 23
+      - 🇨🇳 CN_油管 TG 8度科技
+      - NL_油管 TG 8度科技 24
+      - NL_油管 TG 8度科技 25
+      - 🇨🇳 CN_油管 TG 8度科技 2
+      - 🇨🇳 CN_油管 TG 8度科技 3
+      - 🇨🇳 CN_油管 TG 8度科技 4
+      - 🇨🇳 CN_油管 TG 8度科技 5
+      - 🇨🇳 CN_油管 TG 8度科技 6
+      - 🇨🇳 CN_油管 TG 8度科技 7
+      - 🇨🇳 CN_油管 TG 8度科技 8
+      - 🇨🇳 CN_油管 TG 8度科技 9
+      - 🇨🇳 CN_油管 TG 8度科技 10
+      - 🇨🇳 CN_油管 TG 8度科技 11
+      - 🇨🇳 CN_油管 TG 8度科技 12
+      - 🇨🇳 CN_油管 TG 8度科技 13
+      - NL_油管 TG 8度科技 26
+      - 🇨🇳 CN_油管 TG 8度科技 14
+      - 🇨🇳 CN_油管 TG 8度科技 15
+      - 🇨🇳 CN_油管 TG 8度科技 16
+      - BG_油管 TG 8度科技 8
+      - 🇨🇳 CN_油管 TG 8度科技 17
+      - NL_油管 TG 8度科技 27
+      - NL_油管 TG 8度科技 28
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
