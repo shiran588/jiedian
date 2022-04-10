@@ -5,326 +5,676 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇨🇳 (Youtube/TG：俊佳科技)_🇨🇳_中国_1, server: jpcu.dfnode.top, port: 30002, type: vmess, uuid: a6ef37c5-1a0f-3204-8ca6-fa7a18c062c1, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: jpcu.dfnode.top}}
-  - {name: 🇰🇷 韩国(yudou66.com 玉豆分享), server: 193.123.229.241, port: 59108, type: vmess, uuid: 0d1c4e55-e842-46ae-dde2-7eeb7b47a391, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇦 加拿大(yudou66.com+玉豆分享), server: 134.195.196.51, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇪🇺 欧洲(yudou66.com+玉豆分享), server: 169.197.142.99, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇨🇦 加拿大(yudou66.com+玉豆分享) 2, server: 134.195.196.51, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: CYL-科技（2022.04.02）, server: 134.195.196.51, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 卢森堡(yudou66.com+玉豆分享), server: s2.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: s2.upyun.online}
-  - {name: 🇰🇷 韩国(yudou66.com 玉豆分享) 2, server: 193.123.229.241, port: 43001, type: vmess, uuid: f78458a9-cd20-4353-fbc6-35055b8ddada, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 (Youtube/TG：俊佳科技)_🇺🇸_美国_70, server: 169.197.142.99, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇨🇦 加拿大(yudou66.com+玉豆分享) 3, server: 134.195.196.51, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: YouTube@阿阳AYANG, server: 134.195.196.51, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇰🇷 韩国(yudou66.com 玉豆分享) 3, server: 193.123.229.241, port: 18416, type: vmess, uuid: 36b33e50-bdd0-4bdd-da1b-e912b86f9593, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 US+🇺🇸+Newark+@AzadNet, server: 142.202.48.14, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇸 _US_美国, server: 38.75.137.71, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 _US_美国 2, server: 38.68.134.190, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇸🇬 新加坡(欢迎订阅Youtube破解资源君), server: sg1.31vpn.com, port: 80, type: vmess, uuid: dce4c472-6f3f-4c45-80e5-cbfe5ecad7ee, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /fastssh/bddasdf/624e71635ed8e/, ws-headers: {Host: sg1.31vpn.com}}
+  - {name: 🇺🇸 _US_美国 3, server: 169.197.142.4, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 🇺🇸 _US_美国 4, server: 169.197.142.4, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇭🇰 V2-#263_广东-香港HKT_x1_5_V2ray_233, server: gdyd01.ddns-oink.xyz, port: 40263, type: vmess, uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /jz666666, ws-headers: {Host: gdyd01.ddns-oink.xyz}}
+  - {name: 🇺🇸 美国(欢迎订阅Youtube破解资源君), server: cloudflare.xrenblog.com, port: 443, type: vmess, uuid: 6c175d1a-a57f-4881-a471-173eb139694b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /xrenblog/, ws-headers: {Host: ipv6.xrenblog.com}}
+  - {name: 🇸🇬 新加坡(欢迎订阅Youtube破解资源君) 2, server: eu.licom.ga, port: 62011, type: vmess, uuid: f81e990e-1283-48f9-9eff-acacad6fb661, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: eu.licom.ga}}
+  - {name: 🇨🇦 加拿大(欢迎订阅Youtube破解资源君), server: 0319hzm01.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /nmsl, ws-headers: {Host: 0319hzm01.fans8.xyz}}
   - {name: Relay_🇨🇦CA-🇨🇦CA_549 | 7.63Mb, server: 0326kr.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: 0326kr.fans8.xyz}}
-  - {name: 🇺🇸 _US_美国(yudou66.com 玉豆分享), server: cloudflare.xrenblog.com, port: 443, type: vmess, uuid: 6c175d1a-a57f-4881-a471-173eb139694b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /xrenblog/, ws-headers: {Host: ipv6.xrenblog.com}}
-  - {name: 卢森堡(yudou66.com+玉豆分享) 2, server: s3.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: s3.upyun.online}
-  - {name: 科技网络, server: 169.197.142.99, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: 🇺🇸 US美国(yudou66.com+玉豆分享), server: 169.197.142.99, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 🇨🇦 加拿大-684.6KB/s(Youtube:不良林), server: 134.195.198.252, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: CYL-科技（2022.04.02） 2, server: 134.195.196.51, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: 🇨🇳 (Youtube/TG：俊佳科技)_🇨🇳_中国_26, server: 120.232.174.85, port: 45445, type: ss, cipher: aes-128-gcm, password: MxP1k1P1gdsDos5l}
-  - {name: YouTube@阿阳AYANG 2, server: niaop.tk, port: 443, type: vmess, uuid: a0b0df87-bda2-440e-830f-347da6cc7760, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /wsssdr1, ws-headers: {Host: niaop.tk}}
-  - {name: 卢森堡(yudou66.com+玉豆分享) 3, server: s1.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: s1.upyun.online}
-  - {name: 🇨🇳 台湾- tg频道:@ripaojiedian, server: bgpddns.rentidnf.com, port: 58008, type: ss, cipher: chacha20-ietf-poly1305, password: 5796acda-808e-4004-930a-c1bb1b92139a}
-  - {name: CYL-科技（2022.04.02） 3, server: 134.195.196.51, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇺🇸 US美国(yudou66.com+玉豆分享) 2, server: 169.197.142.99, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 🇯🇵 日本(yudou66.com+玉豆分享), server: jp1.qingyun123.xyz, port: 10100, type: trojan, password: d34b5501-7621-4779-8fba-f18fa5a73460, sni: jp1.qingyun123.xyz}
-  - {name: CYL-科技（2022.04.02） 4, server: 134.195.196.51, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: 🇺🇸 美国(yudou66.com+玉豆分享), server: 169.197.142.99, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 🇨🇦 _CA_加拿大, server: 134.195.196.51, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇰🇷 韩国(yudou66.com+玉豆分享), server: 150.230.249.169, port: 8888, type: vmess, uuid: f836d00e-73e0-4eb5-a0ac-18a8e9ee61ef, alterId: 0, cipher: auto, tls: false}
-  - {name: 捷克(yudou66.com 玉豆分享), server: cf.rutracker-cn.com, port: 443, type: vmess, uuid: 55dc4077-3fed-4903-9c39-a3b12cb979db, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /cdwOCfZC, ws-headers: {Host: cf.rutracker-cn.com}}
-  - {name: CYL-科技（2022.04.02） 5, server: 134.195.196.51, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: 🇸🇬 新加坡-tg频道:@ripaojiedian, server: bgpddns.rentidnf.com, port: 58012, type: ss, cipher: chacha20-ietf-poly1305, password: 5796acda-808e-4004-930a-c1bb1b92139a}
-  - {name: 🇨🇦 加拿大(yudou66.com+玉豆分享) 4, server: 134.195.196.51, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 🇺🇸 US美国(yudou66.com+玉豆分享) 3, server: 169.197.142.99, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 科技网络 2, server: 0326kr.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: 0326kr.fans8.xyz}}
-  - {name: 🇨🇦 加拿大(yudou66.com+玉豆分享) 5, server: 134.195.196.51, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: YouTube@阿阳AYANG 3, server: 134.195.196.51, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: YouTube@阿阳AYANG 4, server: 134.195.196.51, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: 🇨🇦 _CA_加拿大 2, server: 134.195.196.51, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: 🇨🇳 (Youtube/TG：俊佳科技)_🇨🇳_中国_227, server: hkcu.dfnode.top, port: 19251, type: vmess, uuid: a6ef37c5-1a0f-3204-8ca6-fa7a18c062c1, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: hkcu.dfnode.top}}
+  - {name: 🇷🇺 V2-#288_上海-俄罗斯_x0_3_V2ray_315, server: shanghai-01.ddns-oink.xyz, port: 40288, type: vmess, uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /jz666666, ws-headers: {Host: shanghai-01.ddns-oink.xyz}}
+  - {name: 🇺🇸 US美国(Youtube技术分享室), server: 169.197.142.99, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 _US_美国 5, server: 167.88.63.11, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇷🇺 V4-#35_上海-俄罗斯_NF_x1_0_V2ray_311, server: niuniu-shlt-01.ddns-oink.xyz, port: 40035, type: vmess, uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /jz666666, ws-headers: {Host: niuniu-shlt-01.ddns-oink.xyz}}
+  - {name: 🇯🇵 日本(欢迎订阅Youtube破解资源君), server: 139.162.122.205, port: 3845, type: vmess, uuid: 76d5c6e3-c74c-3406-b9e8-9859d0a71c56, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇷🇺 V4-#297_上海-俄罗斯_x1_0_V2ray_324, server: shanghai-01.ddns-oink.xyz, port: 40297, type: vmess, uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /jz666666, ws-headers: {Host: shanghai-01.ddns-oink.xyz}}
+  - {name: 🇺🇸 _US_美国 6, server: 38.91.100.134, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 🇨🇦 _CA_加拿大, server: 134.195.196.231, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇨🇦 _CA_加拿大 2, server: 134.195.196.199, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 科技网络, server: 0326kr.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: 0326kr.fans8.xyz}}
+  - {name: 🇭🇰 香港(欢迎订阅Youtube破解资源君), server: 0326hk01.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: 0326hk01.fans8.xyz}}
+  - {name: 🇭🇰 EXTM3U-香港-nf-iplc, server: 120.233.10.55, port: 40309, type: vmess, uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /jz666666, ws-headers: {Host: t.me/vpnhat}}
+  - {name: 🇯🇵 V3-#77_上海-日本_NF_x1_0_V2ray_335, server: yygd-rb-02.ddns-oink.xyz, port: 40077, type: vmess, uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /jz666666, ws-headers: {Host: yygd-rb-02.ddns-oink.xyz}}
+  - {name: 🇭🇰 EXTM3U-香港HKT-nf-iplc, server: 120.233.10.55, port: 40306, type: vmess, uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /jz666666, ws-headers: {Host: t.me/vpnhat}}
+  - {name: 🇭🇰 香港(欢迎订阅Youtube破解资源君) 2, server: ingress-i1.onebox6.org, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: www.ivpnpro.net}}
+  - {name: 🇺🇸 vpnpool-US-nf, server: 120.232.215.142, port: 40214, type: vmess, uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /jz666666, ws-headers: {Host: t.me/vpnhat}}
+  - {name: 🇨🇳 台湾(欢迎订阅Youtube破解资源君), server: 330tw.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: 330tw.fans8.xyz}}
+  - {name: 🇭🇰 EXTM3U-香港-nf-iplc 2, server: 120.233.10.55, port: 40310, type: vmess, uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /jz666666, ws-headers: {Host: t.me/vpnhat}}
+  - {name: YouTube@阿阳AYANG, server: 0320hk567.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: 0320hk567.fans8.xyz}}
+  - {name: 🇷🇺 V3-#292_上海-俄罗斯_x0_5_V2ray_319, server: shanghai-01.ddns-oink.xyz, port: 40292, type: vmess, uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /jz666666, ws-headers: {Host: shanghai-01.ddns-oink.xyz}}
+  - {name: 🇭🇰 EXTM3U-香港-nf-iplc 3, server: 120.233.10.55, port: 40123, type: vmess, uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /jz666666, ws-headers: {Host: t.me/vpnhat}}
+  - {name: 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2, server: 104.166.135.10, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: ahdaeph8.com}}
+  - {name: 🇭🇰 V1-#306_IPLC-深圳-香港HKT_NF_x4_0_V2ray_255, server: juzi-iplc001.ddns-oink.xyz, port: 40306, type: vmess, uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /jz666666, ws-headers: {Host: juzi-iplc001.ddns-oink.xyz}}
+  - {name: 🇷🇺 V3-#291_上海-俄罗斯_x0_5_V2ray_318, server: shanghai-01.ddns-oink.xyz, port: 40291, type: vmess, uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /jz666666, ws-headers: {Host: shanghai-01.ddns-oink.xyz}}
+  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君), server: 103.164.81.46, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: 0320hk567.fans8.xyz}}
+  - {name: 🇭🇰 V1-#307_IPLC-深圳-香港HKT_NF_x4_0_V2ray_256, server: juzi-iplc001.ddns-oink.xyz, port: 40307, type: vmess, uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /jz666666, ws-headers: {Host: juzi-iplc001.ddns-oink.xyz}}
+  - {name: 🇭🇰 V1-#309_IPLC-深圳-香港BGP_NF_x4_0_V2ray_258, server: juzi-iplc001.ddns-oink.xyz, port: 40309, type: vmess, uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /jz666666, ws-headers: {Host: juzi-iplc001.ddns-oink.xyz}}
+  - {name: 🇺🇸 美国(欢迎订阅Youtube破解资源君) 3, server: us1.31vpn.com, port: 80, type: vmess, uuid: bb4b9e95-c9ff-411c-9a47-483570e169aa, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /fastssh/remaoqi/624ca41d72e6d/, ws-headers: {Host: us1.31vpn.com}}
+  - {name: 🇭🇰 V4-#240_广东-香港HKBN_NF_x2_0_V2ray_295, server: jzdjd-01.ddns-oink.xyz, port: 40240, type: vmess, uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /jz666666, ws-headers: {Host: jzdjd-01.ddns-oink.xyz}}
+  - {name: 🇨🇳 V3-#322_广东-台湾_NF_x2_0_V2ray_268, server: juzixjp-001.ddns-oink.xyz, port: 40322, type: vmess, uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /jz666666, ws-headers: {Host: juzixjp-001.ddns-oink.xyz}}
+  - {name: 🇭🇰 vpnpool-香港HKBN-nf, server: 120.232.82.157, port: 40240, type: vmess, uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /jz666666, ws-headers: {Host: t.me/vpnhat}}
+  - {name: 🇭🇰 V1-#310_IPLC-深圳-香港BGP_NF_x4_0_V2ray_259, server: juzi-iplc001.ddns-oink.xyz, port: 40310, type: vmess, uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /jz666666, ws-headers: {Host: juzi-iplc001.ddns-oink.xyz}}
+  - {name: 🇺🇸 _US_美国 7, server: 169.197.142.216, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇺🇸 v2-#215_江港-美国M_NF_x1_5_V2ray_231, server: gdyd01.ddns-oink.xyz, port: 40215, type: vmess, uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /jz666666, ws-headers: {Host: gdyd01.ddns-oink.xyz}}
+  - {name: YouTube@阿阳AYANG 2, server: 165.154.225.231, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: 330hk02.fans8.xyz}}
+  - {name: 🇭🇰 vpnpool-香港-nf, server: 120.232.82.157, port: 40196, type: vmess, uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /jz666666, ws-headers: {Host: t.me/vpnhat}}
+  - {name: YouTube@阿阳AYANG 3, server: 134.195.198.252, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇭🇰 vpnpool-香港HKT-nf, server: 120.232.82.157, port: 40238, type: vmess, uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /jz666666, ws-headers: {Host: t.me/vpnhat}}
+  - {name: 🇺🇸 _US_美国 8, server: node.zxcairport.xyz, port: 443, type: vmess, uuid: 7b198651-f526-44b5-a156-6badfe346dbf, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: us2.zxcairport.xyz}}
+  - {name: 🇭🇰 V3-#198_广东-香港HKT_NF_x1_5_V2ray_282, server: jzdjd-01.ddns-oink.xyz, port: 40198, type: vmess, uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /jz666666, ws-headers: {Host: jzdjd-01.ddns-oink.xyz}}
+  - {name: 🇭🇰 V2-#238_广东-香港HKT_NF_x1_5_V2ray_277, server: jzdjd-01.ddns-oink.xyz, port: 40238, type: vmess, uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /jz666666, ws-headers: {Host: jzdjd-01.ddns-oink.xyz}}
+  - {name: 🇺🇸 _US_美国 9, server: 38.75.137.71, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇭🇰 V4-#169_广东-香港HKT_NF_x2_0_V2ray_292, server: jzdjd-01.ddns-oink.xyz, port: 40169, type: vmess, uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /jz666666, ws-headers: {Host: jzdjd-01.ddns-oink.xyz}}
+  - {name: 🇺🇸 _US_美国 10, server: 38.68.134.190, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 2, server: in-v1.sdgdn.com, port: 50206, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: telegram.channel.p2psharing}}
+  - {name: 🇸🇬 新加坡(欢迎订阅Youtube破解资源君) 3, server: sg1.31vpn.com, port: 443, type: vmess, uuid: dce4c472-6f3f-4c45-80e5-cbfe5ecad7ee, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /fastssh/bddasdf/624e71635ed8e/, ws-headers: {Host: sg1.31vpn.com}}
+  - {name: 🇨🇳 V3-#320_广东-台湾_NF_x2_0_V2ray_266, server: juzixjp-001.ddns-oink.xyz, port: 40320, type: vmess, uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /jz666666, ws-headers: {Host: juzixjp-001.ddns-oink.xyz}}
+  - {name: THE WORLD, server: cloudflare.xrenblog.com, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /sakura/, ws-headers: {Host: v4.xrenblog.com}}
+  - {name: 🇺🇸 美国(欢迎订阅Youtube破解资源君) 4, server: 67.207.92.252, port: 55239, type: vmess, uuid: 1a923713-6220-4246-fd24-7192619740d0, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 US美国(Youtube技术分享室) 2, server: 169.197.142.99, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 🇺🇸 _US_美国 11, server: 142.202.48.17, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇨🇦 _CA_加拿大 3, server: 134.195.196.110, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 🇸🇬 V1-#175_IPLC-深圳-新加坡_NF_x4_0_V2ray_252, server: juzi-iplc001.ddns-oink.xyz, port: 40175, type: vmess, uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /jz666666, ws-headers: {Host: juzi-iplc001.ddns-oink.xyz}}
+  - {name: 🇷🇺 V3-#293_上海-俄罗斯_x0_5_V2ray_320, server: shanghai-01.ddns-oink.xyz, port: 40293, type: vmess, uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /jz666666, ws-headers: {Host: shanghai-01.ddns-oink.xyz}}
+  - {name: 🇺🇸 _US_美国 12, server: 38.107.226.159, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇨🇦 _CA_加拿大 4, server: 134.195.196.230, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 🇨🇦 _CA_加拿大 5, server: 134.195.196.230, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 3, server: in-v1.sdgdn.com, port: 50301, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: in-v1.sdgdn.com}}
+  - {name: YouTube@阿阳AYANG 4, server: 104.16.162.16, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /eisasqa, ws-headers: {Host: foxus.fovi.tk}}
+  - {name: 🇭🇰 vpnpool-香港HKT, server: 120.232.82.157, port: 40261, type: vmess, uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /jz666666, ws-headers: {Host: t.me/vpnhat}}
+  - {name: 🇺🇸 _US_美国 13, server: 169.197.142.216, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 🇺🇸 _US_美国 14, server: 169.197.142.4, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 🇨🇦 _CA_加拿大 6, server: 198.57.27.218, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇭🇰 V4-#249_广东-香港HKTx2_0_V2ray_298, server: jzdjd-01.ddns-oink.xyz, port: 40249, type: vmess, uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /jz666666, ws-headers: {Host: jzdjd-01.ddns-oink.xyz}}
+  - {name: 🇨🇦 _CA_加拿大 7, server: 198.57.27.218, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇨🇦 _CA_加拿大 8, server: 198.57.27.218, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇭🇰 vpnpool-香港HKT-nf 2, server: 120.232.82.157, port: 40239, type: vmess, uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /jz666666, ws-headers: {Host: t.me/vpnhat}}
+  - {name: 🇺🇸 _US_美国 15, server: 169.197.143.157, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇸🇬 EXTM3U-SG-nf-iplc, server: 120.233.10.55, port: 40175, type: vmess, uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /jz666666, ws-headers: {Host: t.me/vpnhat}}
+  - {name: YouTube@阿阳AYANG 5, server: s2.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: s2.upyun.online}
+  - {name: 🇺🇸 美国(欢迎订阅Youtube破解资源君) 5, server: 48us.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: 48us.fans8.xyz}}
+  - {name: 🇭🇰 香港(欢迎订阅Youtube破解资源君) 3, server: 330hk02.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: 330hk02.fans8.xyz}}
+  - {name: 🇭🇰 vpnpool-香港HKT 2, server: 120.232.82.157, port: 40249, type: vmess, uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /jz666666, ws-headers: {Host: t.me/vpnhat}}
+  - {name: 🇺🇸 _US_美国 16, server: 169.197.142.4, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: YouTube@阿阳AYANG 6, server: s3.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: s3.upyun.online}
+  - {name: 🇭🇰 V2-#261_广东-香港HKT_x1_2_V2ray_279, server: jzdjd-01.ddns-oink.xyz, port: 40261, type: vmess, uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /jz666666, ws-headers: {Host: jzdjd-01.ddns-oink.xyz}}
+  - {name: YouTube@阿阳AYANG 7, server: 165.154.225.176, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: 0326hk01.fans8.xyz}}
+  - {name: YouTube@阿阳AYANG 8, server: s1.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: s1.upyun.online}
+  - {name: 🇭🇰 vpnpool-香港HKT 3, server: 120.232.82.157, port: 40262, type: vmess, uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /jz666666, ws-headers: {Host: t.me/vpnhat}}
+  - {name: 🇺🇸 vpnpool-US-nf 2, server: 120.232.215.142, port: 40215, type: vmess, uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /jz666666, ws-headers: {Host: t.me/vpnhat}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇨🇳 (Youtube/TG：俊佳科技)_🇨🇳_中国_1
-      - 🇰🇷 韩国(yudou66.com 玉豆分享)
-      - 🇨🇦 加拿大(yudou66.com+玉豆分享)
-      - 🇪🇺 欧洲(yudou66.com+玉豆分享)
-      - 🇨🇦 加拿大(yudou66.com+玉豆分享) 2
-      - CYL-科技（2022.04.02）
-      - 卢森堡(yudou66.com+玉豆分享)
-      - 🇰🇷 韩国(yudou66.com 玉豆分享) 2
-      - 🇺🇸 (Youtube/TG：俊佳科技)_🇺🇸_美国_70
-      - 🇨🇦 加拿大(yudou66.com+玉豆分享) 3
-      - YouTube@阿阳AYANG
-      - 🇰🇷 韩国(yudou66.com 玉豆分享) 3
+      - 🇺🇸 US+🇺🇸+Newark+@AzadNet
+      - 🇺🇸 _US_美国
+      - 🇺🇸 _US_美国 2
+      - 🇸🇬 新加坡(欢迎订阅Youtube破解资源君)
+      - 🇺🇸 _US_美国 3
+      - 🇺🇸 _US_美国 4
+      - 🇭🇰 V2-#263_广东-香港HKT_x1_5_V2ray_233
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
+      - 🇸🇬 新加坡(欢迎订阅Youtube破解资源君) 2
+      - 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)
       - Relay_🇨🇦CA-🇨🇦CA_549 | 7.63Mb
-      - 🇺🇸 _US_美国(yudou66.com 玉豆分享)
-      - 卢森堡(yudou66.com+玉豆分享) 2
-      - 科技网络
-      - 🇺🇸 US美国(yudou66.com+玉豆分享)
-      - 🇨🇦 加拿大-684.6KB/s(Youtube:不良林)
-      - CYL-科技（2022.04.02） 2
-      - 🇨🇳 (Youtube/TG：俊佳科技)_🇨🇳_中国_26
-      - YouTube@阿阳AYANG 2
-      - 卢森堡(yudou66.com+玉豆分享) 3
-      - 🇨🇳 台湾- tg频道:@ripaojiedian
-      - CYL-科技（2022.04.02） 3
-      - 🇺🇸 US美国(yudou66.com+玉豆分享) 2
-      - 🇯🇵 日本(yudou66.com+玉豆分享)
-      - CYL-科技（2022.04.02） 4
-      - 🇺🇸 美国(yudou66.com+玉豆分享)
+      - 🇷🇺 V2-#288_上海-俄罗斯_x0_3_V2ray_315
+      - 🇺🇸 US美国(Youtube技术分享室)
+      - 🇺🇸 _US_美国 5
+      - 🇷🇺 V4-#35_上海-俄罗斯_NF_x1_0_V2ray_311
+      - 🇯🇵 日本(欢迎订阅Youtube破解资源君)
+      - 🇷🇺 V4-#297_上海-俄罗斯_x1_0_V2ray_324
+      - 🇺🇸 _US_美国 6
       - 🇨🇦 _CA_加拿大
-      - 🇰🇷 韩国(yudou66.com+玉豆分享)
-      - 捷克(yudou66.com 玉豆分享)
-      - CYL-科技（2022.04.02） 5
-      - 🇸🇬 新加坡-tg频道:@ripaojiedian
-      - 🇨🇦 加拿大(yudou66.com+玉豆分享) 4
-      - 🇺🇸 US美国(yudou66.com+玉豆分享) 3
-      - 科技网络 2
-      - 🇨🇦 加拿大(yudou66.com+玉豆分享) 5
-      - YouTube@阿阳AYANG 3
-      - YouTube@阿阳AYANG 4
       - 🇨🇦 _CA_加拿大 2
-      - 🇨🇳 (Youtube/TG：俊佳科技)_🇨🇳_中国_227
+      - 科技网络
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君)
+      - 🇭🇰 EXTM3U-香港-nf-iplc
+      - 🇯🇵 V3-#77_上海-日本_NF_x1_0_V2ray_335
+      - 🇭🇰 EXTM3U-香港HKT-nf-iplc
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君) 2
+      - 🇺🇸 vpnpool-US-nf
+      - 🇨🇳 台湾(欢迎订阅Youtube破解资源君)
+      - 🇭🇰 EXTM3U-香港-nf-iplc 2
+      - YouTube@阿阳AYANG
+      - 🇷🇺 V3-#292_上海-俄罗斯_x0_5_V2ray_319
+      - 🇭🇰 EXTM3U-香港-nf-iplc 3
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2
+      - 🇭🇰 V1-#306_IPLC-深圳-香港HKT_NF_x4_0_V2ray_255
+      - 🇷🇺 V3-#291_上海-俄罗斯_x0_5_V2ray_318
+      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)
+      - 🇭🇰 V1-#307_IPLC-深圳-香港HKT_NF_x4_0_V2ray_256
+      - 🇭🇰 V1-#309_IPLC-深圳-香港BGP_NF_x4_0_V2ray_258
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 3
+      - 🇭🇰 V4-#240_广东-香港HKBN_NF_x2_0_V2ray_295
+      - 🇨🇳 V3-#322_广东-台湾_NF_x2_0_V2ray_268
+      - 🇭🇰 vpnpool-香港HKBN-nf
+      - 🇭🇰 V1-#310_IPLC-深圳-香港BGP_NF_x4_0_V2ray_259
+      - 🇺🇸 _US_美国 7
+      - 🇺🇸 v2-#215_江港-美国M_NF_x1_5_V2ray_231
+      - YouTube@阿阳AYANG 2
+      - 🇭🇰 vpnpool-香港-nf
+      - YouTube@阿阳AYANG 3
+      - 🇭🇰 vpnpool-香港HKT-nf
+      - 🇺🇸 _US_美国 8
+      - 🇭🇰 V3-#198_广东-香港HKT_NF_x1_5_V2ray_282
+      - 🇭🇰 V2-#238_广东-香港HKT_NF_x1_5_V2ray_277
+      - 🇺🇸 _US_美国 9
+      - 🇭🇰 V4-#169_广东-香港HKT_NF_x2_0_V2ray_292
+      - 🇺🇸 _US_美国 10
+      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 🇸🇬 新加坡(欢迎订阅Youtube破解资源君) 3
+      - 🇨🇳 V3-#320_广东-台湾_NF_x2_0_V2ray_266
+      - THE WORLD
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 4
+      - 🇺🇸 US美国(Youtube技术分享室) 2
+      - 🇺🇸 _US_美国 11
+      - 🇨🇦 _CA_加拿大 3
+      - 🇸🇬 V1-#175_IPLC-深圳-新加坡_NF_x4_0_V2ray_252
+      - 🇷🇺 V3-#293_上海-俄罗斯_x0_5_V2ray_320
+      - 🇺🇸 _US_美国 12
+      - 🇨🇦 _CA_加拿大 4
+      - 🇨🇦 _CA_加拿大 5
+      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 3
+      - YouTube@阿阳AYANG 4
+      - 🇭🇰 vpnpool-香港HKT
+      - 🇺🇸 _US_美国 13
+      - 🇺🇸 _US_美国 14
+      - 🇨🇦 _CA_加拿大 6
+      - 🇭🇰 V4-#249_广东-香港HKTx2_0_V2ray_298
+      - 🇨🇦 _CA_加拿大 7
+      - 🇨🇦 _CA_加拿大 8
+      - 🇭🇰 vpnpool-香港HKT-nf 2
+      - 🇺🇸 _US_美国 15
+      - 🇸🇬 EXTM3U-SG-nf-iplc
+      - YouTube@阿阳AYANG 5
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 5
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君) 3
+      - 🇭🇰 vpnpool-香港HKT 2
+      - 🇺🇸 _US_美国 16
+      - YouTube@阿阳AYANG 6
+      - 🇭🇰 V2-#261_广东-香港HKT_x1_2_V2ray_279
+      - YouTube@阿阳AYANG 7
+      - YouTube@阿阳AYANG 8
+      - 🇭🇰 vpnpool-香港HKT 3
+      - 🇺🇸 vpnpool-US-nf 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳 (Youtube/TG：俊佳科技)_🇨🇳_中国_1
-      - 🇰🇷 韩国(yudou66.com 玉豆分享)
-      - 🇨🇦 加拿大(yudou66.com+玉豆分享)
-      - 🇪🇺 欧洲(yudou66.com+玉豆分享)
-      - 🇨🇦 加拿大(yudou66.com+玉豆分享) 2
-      - CYL-科技（2022.04.02）
-      - 卢森堡(yudou66.com+玉豆分享)
-      - 🇰🇷 韩国(yudou66.com 玉豆分享) 2
-      - 🇺🇸 (Youtube/TG：俊佳科技)_🇺🇸_美国_70
-      - 🇨🇦 加拿大(yudou66.com+玉豆分享) 3
-      - YouTube@阿阳AYANG
-      - 🇰🇷 韩国(yudou66.com 玉豆分享) 3
+      - 🇺🇸 US+🇺🇸+Newark+@AzadNet
+      - 🇺🇸 _US_美国
+      - 🇺🇸 _US_美国 2
+      - 🇸🇬 新加坡(欢迎订阅Youtube破解资源君)
+      - 🇺🇸 _US_美国 3
+      - 🇺🇸 _US_美国 4
+      - 🇭🇰 V2-#263_广东-香港HKT_x1_5_V2ray_233
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
+      - 🇸🇬 新加坡(欢迎订阅Youtube破解资源君) 2
+      - 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)
       - Relay_🇨🇦CA-🇨🇦CA_549 | 7.63Mb
-      - 🇺🇸 _US_美国(yudou66.com 玉豆分享)
-      - 卢森堡(yudou66.com+玉豆分享) 2
-      - 科技网络
-      - 🇺🇸 US美国(yudou66.com+玉豆分享)
-      - 🇨🇦 加拿大-684.6KB/s(Youtube:不良林)
-      - CYL-科技（2022.04.02） 2
-      - 🇨🇳 (Youtube/TG：俊佳科技)_🇨🇳_中国_26
-      - YouTube@阿阳AYANG 2
-      - 卢森堡(yudou66.com+玉豆分享) 3
-      - 🇨🇳 台湾- tg频道:@ripaojiedian
-      - CYL-科技（2022.04.02） 3
-      - 🇺🇸 US美国(yudou66.com+玉豆分享) 2
-      - 🇯🇵 日本(yudou66.com+玉豆分享)
-      - CYL-科技（2022.04.02） 4
-      - 🇺🇸 美国(yudou66.com+玉豆分享)
+      - 🇷🇺 V2-#288_上海-俄罗斯_x0_3_V2ray_315
+      - 🇺🇸 US美国(Youtube技术分享室)
+      - 🇺🇸 _US_美国 5
+      - 🇷🇺 V4-#35_上海-俄罗斯_NF_x1_0_V2ray_311
+      - 🇯🇵 日本(欢迎订阅Youtube破解资源君)
+      - 🇷🇺 V4-#297_上海-俄罗斯_x1_0_V2ray_324
+      - 🇺🇸 _US_美国 6
       - 🇨🇦 _CA_加拿大
-      - 🇰🇷 韩国(yudou66.com+玉豆分享)
-      - 捷克(yudou66.com 玉豆分享)
-      - CYL-科技（2022.04.02） 5
-      - 🇸🇬 新加坡-tg频道:@ripaojiedian
-      - 🇨🇦 加拿大(yudou66.com+玉豆分享) 4
-      - 🇺🇸 US美国(yudou66.com+玉豆分享) 3
-      - 科技网络 2
-      - 🇨🇦 加拿大(yudou66.com+玉豆分享) 5
-      - YouTube@阿阳AYANG 3
-      - YouTube@阿阳AYANG 4
       - 🇨🇦 _CA_加拿大 2
-      - 🇨🇳 (Youtube/TG：俊佳科技)_🇨🇳_中国_227
+      - 科技网络
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君)
+      - 🇭🇰 EXTM3U-香港-nf-iplc
+      - 🇯🇵 V3-#77_上海-日本_NF_x1_0_V2ray_335
+      - 🇭🇰 EXTM3U-香港HKT-nf-iplc
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君) 2
+      - 🇺🇸 vpnpool-US-nf
+      - 🇨🇳 台湾(欢迎订阅Youtube破解资源君)
+      - 🇭🇰 EXTM3U-香港-nf-iplc 2
+      - YouTube@阿阳AYANG
+      - 🇷🇺 V3-#292_上海-俄罗斯_x0_5_V2ray_319
+      - 🇭🇰 EXTM3U-香港-nf-iplc 3
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2
+      - 🇭🇰 V1-#306_IPLC-深圳-香港HKT_NF_x4_0_V2ray_255
+      - 🇷🇺 V3-#291_上海-俄罗斯_x0_5_V2ray_318
+      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)
+      - 🇭🇰 V1-#307_IPLC-深圳-香港HKT_NF_x4_0_V2ray_256
+      - 🇭🇰 V1-#309_IPLC-深圳-香港BGP_NF_x4_0_V2ray_258
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 3
+      - 🇭🇰 V4-#240_广东-香港HKBN_NF_x2_0_V2ray_295
+      - 🇨🇳 V3-#322_广东-台湾_NF_x2_0_V2ray_268
+      - 🇭🇰 vpnpool-香港HKBN-nf
+      - 🇭🇰 V1-#310_IPLC-深圳-香港BGP_NF_x4_0_V2ray_259
+      - 🇺🇸 _US_美国 7
+      - 🇺🇸 v2-#215_江港-美国M_NF_x1_5_V2ray_231
+      - YouTube@阿阳AYANG 2
+      - 🇭🇰 vpnpool-香港-nf
+      - YouTube@阿阳AYANG 3
+      - 🇭🇰 vpnpool-香港HKT-nf
+      - 🇺🇸 _US_美国 8
+      - 🇭🇰 V3-#198_广东-香港HKT_NF_x1_5_V2ray_282
+      - 🇭🇰 V2-#238_广东-香港HKT_NF_x1_5_V2ray_277
+      - 🇺🇸 _US_美国 9
+      - 🇭🇰 V4-#169_广东-香港HKT_NF_x2_0_V2ray_292
+      - 🇺🇸 _US_美国 10
+      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 🇸🇬 新加坡(欢迎订阅Youtube破解资源君) 3
+      - 🇨🇳 V3-#320_广东-台湾_NF_x2_0_V2ray_266
+      - THE WORLD
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 4
+      - 🇺🇸 US美国(Youtube技术分享室) 2
+      - 🇺🇸 _US_美国 11
+      - 🇨🇦 _CA_加拿大 3
+      - 🇸🇬 V1-#175_IPLC-深圳-新加坡_NF_x4_0_V2ray_252
+      - 🇷🇺 V3-#293_上海-俄罗斯_x0_5_V2ray_320
+      - 🇺🇸 _US_美国 12
+      - 🇨🇦 _CA_加拿大 4
+      - 🇨🇦 _CA_加拿大 5
+      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 3
+      - YouTube@阿阳AYANG 4
+      - 🇭🇰 vpnpool-香港HKT
+      - 🇺🇸 _US_美国 13
+      - 🇺🇸 _US_美国 14
+      - 🇨🇦 _CA_加拿大 6
+      - 🇭🇰 V4-#249_广东-香港HKTx2_0_V2ray_298
+      - 🇨🇦 _CA_加拿大 7
+      - 🇨🇦 _CA_加拿大 8
+      - 🇭🇰 vpnpool-香港HKT-nf 2
+      - 🇺🇸 _US_美国 15
+      - 🇸🇬 EXTM3U-SG-nf-iplc
+      - YouTube@阿阳AYANG 5
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 5
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君) 3
+      - 🇭🇰 vpnpool-香港HKT 2
+      - 🇺🇸 _US_美国 16
+      - YouTube@阿阳AYANG 6
+      - 🇭🇰 V2-#261_广东-香港HKT_x1_2_V2ray_279
+      - YouTube@阿阳AYANG 7
+      - YouTube@阿阳AYANG 8
+      - 🇭🇰 vpnpool-香港HKT 3
+      - 🇺🇸 vpnpool-US-nf 2
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳 (Youtube/TG：俊佳科技)_🇨🇳_中国_1
-      - 🇰🇷 韩国(yudou66.com 玉豆分享)
-      - 🇨🇦 加拿大(yudou66.com+玉豆分享)
-      - 🇪🇺 欧洲(yudou66.com+玉豆分享)
-      - 🇨🇦 加拿大(yudou66.com+玉豆分享) 2
-      - CYL-科技（2022.04.02）
-      - 卢森堡(yudou66.com+玉豆分享)
-      - 🇰🇷 韩国(yudou66.com 玉豆分享) 2
-      - 🇺🇸 (Youtube/TG：俊佳科技)_🇺🇸_美国_70
-      - 🇨🇦 加拿大(yudou66.com+玉豆分享) 3
-      - YouTube@阿阳AYANG
-      - 🇰🇷 韩国(yudou66.com 玉豆分享) 3
+      - 🇺🇸 US+🇺🇸+Newark+@AzadNet
+      - 🇺🇸 _US_美国
+      - 🇺🇸 _US_美国 2
+      - 🇸🇬 新加坡(欢迎订阅Youtube破解资源君)
+      - 🇺🇸 _US_美国 3
+      - 🇺🇸 _US_美国 4
+      - 🇭🇰 V2-#263_广东-香港HKT_x1_5_V2ray_233
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
+      - 🇸🇬 新加坡(欢迎订阅Youtube破解资源君) 2
+      - 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)
       - Relay_🇨🇦CA-🇨🇦CA_549 | 7.63Mb
-      - 🇺🇸 _US_美国(yudou66.com 玉豆分享)
-      - 卢森堡(yudou66.com+玉豆分享) 2
-      - 科技网络
-      - 🇺🇸 US美国(yudou66.com+玉豆分享)
-      - 🇨🇦 加拿大-684.6KB/s(Youtube:不良林)
-      - CYL-科技（2022.04.02） 2
-      - 🇨🇳 (Youtube/TG：俊佳科技)_🇨🇳_中国_26
-      - YouTube@阿阳AYANG 2
-      - 卢森堡(yudou66.com+玉豆分享) 3
-      - 🇨🇳 台湾- tg频道:@ripaojiedian
-      - CYL-科技（2022.04.02） 3
-      - 🇺🇸 US美国(yudou66.com+玉豆分享) 2
-      - 🇯🇵 日本(yudou66.com+玉豆分享)
-      - CYL-科技（2022.04.02） 4
-      - 🇺🇸 美国(yudou66.com+玉豆分享)
+      - 🇷🇺 V2-#288_上海-俄罗斯_x0_3_V2ray_315
+      - 🇺🇸 US美国(Youtube技术分享室)
+      - 🇺🇸 _US_美国 5
+      - 🇷🇺 V4-#35_上海-俄罗斯_NF_x1_0_V2ray_311
+      - 🇯🇵 日本(欢迎订阅Youtube破解资源君)
+      - 🇷🇺 V4-#297_上海-俄罗斯_x1_0_V2ray_324
+      - 🇺🇸 _US_美国 6
       - 🇨🇦 _CA_加拿大
-      - 🇰🇷 韩国(yudou66.com+玉豆分享)
-      - 捷克(yudou66.com 玉豆分享)
-      - CYL-科技（2022.04.02） 5
-      - 🇸🇬 新加坡-tg频道:@ripaojiedian
-      - 🇨🇦 加拿大(yudou66.com+玉豆分享) 4
-      - 🇺🇸 US美国(yudou66.com+玉豆分享) 3
-      - 科技网络 2
-      - 🇨🇦 加拿大(yudou66.com+玉豆分享) 5
-      - YouTube@阿阳AYANG 3
-      - YouTube@阿阳AYANG 4
       - 🇨🇦 _CA_加拿大 2
-      - 🇨🇳 (Youtube/TG：俊佳科技)_🇨🇳_中国_227
+      - 科技网络
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君)
+      - 🇭🇰 EXTM3U-香港-nf-iplc
+      - 🇯🇵 V3-#77_上海-日本_NF_x1_0_V2ray_335
+      - 🇭🇰 EXTM3U-香港HKT-nf-iplc
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君) 2
+      - 🇺🇸 vpnpool-US-nf
+      - 🇨🇳 台湾(欢迎订阅Youtube破解资源君)
+      - 🇭🇰 EXTM3U-香港-nf-iplc 2
+      - YouTube@阿阳AYANG
+      - 🇷🇺 V3-#292_上海-俄罗斯_x0_5_V2ray_319
+      - 🇭🇰 EXTM3U-香港-nf-iplc 3
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2
+      - 🇭🇰 V1-#306_IPLC-深圳-香港HKT_NF_x4_0_V2ray_255
+      - 🇷🇺 V3-#291_上海-俄罗斯_x0_5_V2ray_318
+      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)
+      - 🇭🇰 V1-#307_IPLC-深圳-香港HKT_NF_x4_0_V2ray_256
+      - 🇭🇰 V1-#309_IPLC-深圳-香港BGP_NF_x4_0_V2ray_258
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 3
+      - 🇭🇰 V4-#240_广东-香港HKBN_NF_x2_0_V2ray_295
+      - 🇨🇳 V3-#322_广东-台湾_NF_x2_0_V2ray_268
+      - 🇭🇰 vpnpool-香港HKBN-nf
+      - 🇭🇰 V1-#310_IPLC-深圳-香港BGP_NF_x4_0_V2ray_259
+      - 🇺🇸 _US_美国 7
+      - 🇺🇸 v2-#215_江港-美国M_NF_x1_5_V2ray_231
+      - YouTube@阿阳AYANG 2
+      - 🇭🇰 vpnpool-香港-nf
+      - YouTube@阿阳AYANG 3
+      - 🇭🇰 vpnpool-香港HKT-nf
+      - 🇺🇸 _US_美国 8
+      - 🇭🇰 V3-#198_广东-香港HKT_NF_x1_5_V2ray_282
+      - 🇭🇰 V2-#238_广东-香港HKT_NF_x1_5_V2ray_277
+      - 🇺🇸 _US_美国 9
+      - 🇭🇰 V4-#169_广东-香港HKT_NF_x2_0_V2ray_292
+      - 🇺🇸 _US_美国 10
+      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 🇸🇬 新加坡(欢迎订阅Youtube破解资源君) 3
+      - 🇨🇳 V3-#320_广东-台湾_NF_x2_0_V2ray_266
+      - THE WORLD
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 4
+      - 🇺🇸 US美国(Youtube技术分享室) 2
+      - 🇺🇸 _US_美国 11
+      - 🇨🇦 _CA_加拿大 3
+      - 🇸🇬 V1-#175_IPLC-深圳-新加坡_NF_x4_0_V2ray_252
+      - 🇷🇺 V3-#293_上海-俄罗斯_x0_5_V2ray_320
+      - 🇺🇸 _US_美国 12
+      - 🇨🇦 _CA_加拿大 4
+      - 🇨🇦 _CA_加拿大 5
+      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 3
+      - YouTube@阿阳AYANG 4
+      - 🇭🇰 vpnpool-香港HKT
+      - 🇺🇸 _US_美国 13
+      - 🇺🇸 _US_美国 14
+      - 🇨🇦 _CA_加拿大 6
+      - 🇭🇰 V4-#249_广东-香港HKTx2_0_V2ray_298
+      - 🇨🇦 _CA_加拿大 7
+      - 🇨🇦 _CA_加拿大 8
+      - 🇭🇰 vpnpool-香港HKT-nf 2
+      - 🇺🇸 _US_美国 15
+      - 🇸🇬 EXTM3U-SG-nf-iplc
+      - YouTube@阿阳AYANG 5
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 5
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君) 3
+      - 🇭🇰 vpnpool-香港HKT 2
+      - 🇺🇸 _US_美国 16
+      - YouTube@阿阳AYANG 6
+      - 🇭🇰 V2-#261_广东-香港HKT_x1_2_V2ray_279
+      - YouTube@阿阳AYANG 7
+      - YouTube@阿阳AYANG 8
+      - 🇭🇰 vpnpool-香港HKT 3
+      - 🇺🇸 vpnpool-US-nf 2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳 (Youtube/TG：俊佳科技)_🇨🇳_中国_1
-      - 🇰🇷 韩国(yudou66.com 玉豆分享)
-      - 🇨🇦 加拿大(yudou66.com+玉豆分享)
-      - 🇪🇺 欧洲(yudou66.com+玉豆分享)
-      - 🇨🇦 加拿大(yudou66.com+玉豆分享) 2
-      - CYL-科技（2022.04.02）
-      - 卢森堡(yudou66.com+玉豆分享)
-      - 🇰🇷 韩国(yudou66.com 玉豆分享) 2
-      - 🇺🇸 (Youtube/TG：俊佳科技)_🇺🇸_美国_70
-      - 🇨🇦 加拿大(yudou66.com+玉豆分享) 3
-      - YouTube@阿阳AYANG
-      - 🇰🇷 韩国(yudou66.com 玉豆分享) 3
+      - 🇺🇸 US+🇺🇸+Newark+@AzadNet
+      - 🇺🇸 _US_美国
+      - 🇺🇸 _US_美国 2
+      - 🇸🇬 新加坡(欢迎订阅Youtube破解资源君)
+      - 🇺🇸 _US_美国 3
+      - 🇺🇸 _US_美国 4
+      - 🇭🇰 V2-#263_广东-香港HKT_x1_5_V2ray_233
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
+      - 🇸🇬 新加坡(欢迎订阅Youtube破解资源君) 2
+      - 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)
       - Relay_🇨🇦CA-🇨🇦CA_549 | 7.63Mb
-      - 🇺🇸 _US_美国(yudou66.com 玉豆分享)
-      - 卢森堡(yudou66.com+玉豆分享) 2
-      - 科技网络
-      - 🇺🇸 US美国(yudou66.com+玉豆分享)
-      - 🇨🇦 加拿大-684.6KB/s(Youtube:不良林)
-      - CYL-科技（2022.04.02） 2
-      - 🇨🇳 (Youtube/TG：俊佳科技)_🇨🇳_中国_26
-      - YouTube@阿阳AYANG 2
-      - 卢森堡(yudou66.com+玉豆分享) 3
-      - 🇨🇳 台湾- tg频道:@ripaojiedian
-      - CYL-科技（2022.04.02） 3
-      - 🇺🇸 US美国(yudou66.com+玉豆分享) 2
-      - 🇯🇵 日本(yudou66.com+玉豆分享)
-      - CYL-科技（2022.04.02） 4
-      - 🇺🇸 美国(yudou66.com+玉豆分享)
+      - 🇷🇺 V2-#288_上海-俄罗斯_x0_3_V2ray_315
+      - 🇺🇸 US美国(Youtube技术分享室)
+      - 🇺🇸 _US_美国 5
+      - 🇷🇺 V4-#35_上海-俄罗斯_NF_x1_0_V2ray_311
+      - 🇯🇵 日本(欢迎订阅Youtube破解资源君)
+      - 🇷🇺 V4-#297_上海-俄罗斯_x1_0_V2ray_324
+      - 🇺🇸 _US_美国 6
       - 🇨🇦 _CA_加拿大
-      - 🇰🇷 韩国(yudou66.com+玉豆分享)
-      - 捷克(yudou66.com 玉豆分享)
-      - CYL-科技（2022.04.02） 5
-      - 🇸🇬 新加坡-tg频道:@ripaojiedian
-      - 🇨🇦 加拿大(yudou66.com+玉豆分享) 4
-      - 🇺🇸 US美国(yudou66.com+玉豆分享) 3
-      - 科技网络 2
-      - 🇨🇦 加拿大(yudou66.com+玉豆分享) 5
-      - YouTube@阿阳AYANG 3
-      - YouTube@阿阳AYANG 4
       - 🇨🇦 _CA_加拿大 2
-      - 🇨🇳 (Youtube/TG：俊佳科技)_🇨🇳_中国_227
+      - 科技网络
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君)
+      - 🇭🇰 EXTM3U-香港-nf-iplc
+      - 🇯🇵 V3-#77_上海-日本_NF_x1_0_V2ray_335
+      - 🇭🇰 EXTM3U-香港HKT-nf-iplc
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君) 2
+      - 🇺🇸 vpnpool-US-nf
+      - 🇨🇳 台湾(欢迎订阅Youtube破解资源君)
+      - 🇭🇰 EXTM3U-香港-nf-iplc 2
+      - YouTube@阿阳AYANG
+      - 🇷🇺 V3-#292_上海-俄罗斯_x0_5_V2ray_319
+      - 🇭🇰 EXTM3U-香港-nf-iplc 3
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2
+      - 🇭🇰 V1-#306_IPLC-深圳-香港HKT_NF_x4_0_V2ray_255
+      - 🇷🇺 V3-#291_上海-俄罗斯_x0_5_V2ray_318
+      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)
+      - 🇭🇰 V1-#307_IPLC-深圳-香港HKT_NF_x4_0_V2ray_256
+      - 🇭🇰 V1-#309_IPLC-深圳-香港BGP_NF_x4_0_V2ray_258
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 3
+      - 🇭🇰 V4-#240_广东-香港HKBN_NF_x2_0_V2ray_295
+      - 🇨🇳 V3-#322_广东-台湾_NF_x2_0_V2ray_268
+      - 🇭🇰 vpnpool-香港HKBN-nf
+      - 🇭🇰 V1-#310_IPLC-深圳-香港BGP_NF_x4_0_V2ray_259
+      - 🇺🇸 _US_美国 7
+      - 🇺🇸 v2-#215_江港-美国M_NF_x1_5_V2ray_231
+      - YouTube@阿阳AYANG 2
+      - 🇭🇰 vpnpool-香港-nf
+      - YouTube@阿阳AYANG 3
+      - 🇭🇰 vpnpool-香港HKT-nf
+      - 🇺🇸 _US_美国 8
+      - 🇭🇰 V3-#198_广东-香港HKT_NF_x1_5_V2ray_282
+      - 🇭🇰 V2-#238_广东-香港HKT_NF_x1_5_V2ray_277
+      - 🇺🇸 _US_美国 9
+      - 🇭🇰 V4-#169_广东-香港HKT_NF_x2_0_V2ray_292
+      - 🇺🇸 _US_美国 10
+      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 🇸🇬 新加坡(欢迎订阅Youtube破解资源君) 3
+      - 🇨🇳 V3-#320_广东-台湾_NF_x2_0_V2ray_266
+      - THE WORLD
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 4
+      - 🇺🇸 US美国(Youtube技术分享室) 2
+      - 🇺🇸 _US_美国 11
+      - 🇨🇦 _CA_加拿大 3
+      - 🇸🇬 V1-#175_IPLC-深圳-新加坡_NF_x4_0_V2ray_252
+      - 🇷🇺 V3-#293_上海-俄罗斯_x0_5_V2ray_320
+      - 🇺🇸 _US_美国 12
+      - 🇨🇦 _CA_加拿大 4
+      - 🇨🇦 _CA_加拿大 5
+      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 3
+      - YouTube@阿阳AYANG 4
+      - 🇭🇰 vpnpool-香港HKT
+      - 🇺🇸 _US_美国 13
+      - 🇺🇸 _US_美国 14
+      - 🇨🇦 _CA_加拿大 6
+      - 🇭🇰 V4-#249_广东-香港HKTx2_0_V2ray_298
+      - 🇨🇦 _CA_加拿大 7
+      - 🇨🇦 _CA_加拿大 8
+      - 🇭🇰 vpnpool-香港HKT-nf 2
+      - 🇺🇸 _US_美国 15
+      - 🇸🇬 EXTM3U-SG-nf-iplc
+      - YouTube@阿阳AYANG 5
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 5
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君) 3
+      - 🇭🇰 vpnpool-香港HKT 2
+      - 🇺🇸 _US_美国 16
+      - YouTube@阿阳AYANG 6
+      - 🇭🇰 V2-#261_广东-香港HKT_x1_2_V2ray_279
+      - YouTube@阿阳AYANG 7
+      - YouTube@阿阳AYANG 8
+      - 🇭🇰 vpnpool-香港HKT 3
+      - 🇺🇸 vpnpool-US-nf 2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇨🇳 (Youtube/TG：俊佳科技)_🇨🇳_中国_1
-      - 🇰🇷 韩国(yudou66.com 玉豆分享)
-      - 🇨🇦 加拿大(yudou66.com+玉豆分享)
-      - 🇪🇺 欧洲(yudou66.com+玉豆分享)
-      - 🇨🇦 加拿大(yudou66.com+玉豆分享) 2
-      - CYL-科技（2022.04.02）
-      - 卢森堡(yudou66.com+玉豆分享)
-      - 🇰🇷 韩国(yudou66.com 玉豆分享) 2
-      - 🇺🇸 (Youtube/TG：俊佳科技)_🇺🇸_美国_70
-      - 🇨🇦 加拿大(yudou66.com+玉豆分享) 3
-      - YouTube@阿阳AYANG
-      - 🇰🇷 韩国(yudou66.com 玉豆分享) 3
+      - 🇺🇸 US+🇺🇸+Newark+@AzadNet
+      - 🇺🇸 _US_美国
+      - 🇺🇸 _US_美国 2
+      - 🇸🇬 新加坡(欢迎订阅Youtube破解资源君)
+      - 🇺🇸 _US_美国 3
+      - 🇺🇸 _US_美国 4
+      - 🇭🇰 V2-#263_广东-香港HKT_x1_5_V2ray_233
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
+      - 🇸🇬 新加坡(欢迎订阅Youtube破解资源君) 2
+      - 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)
       - Relay_🇨🇦CA-🇨🇦CA_549 | 7.63Mb
-      - 🇺🇸 _US_美国(yudou66.com 玉豆分享)
-      - 卢森堡(yudou66.com+玉豆分享) 2
-      - 科技网络
-      - 🇺🇸 US美国(yudou66.com+玉豆分享)
-      - 🇨🇦 加拿大-684.6KB/s(Youtube:不良林)
-      - CYL-科技（2022.04.02） 2
-      - 🇨🇳 (Youtube/TG：俊佳科技)_🇨🇳_中国_26
-      - YouTube@阿阳AYANG 2
-      - 卢森堡(yudou66.com+玉豆分享) 3
-      - 🇨🇳 台湾- tg频道:@ripaojiedian
-      - CYL-科技（2022.04.02） 3
-      - 🇺🇸 US美国(yudou66.com+玉豆分享) 2
-      - 🇯🇵 日本(yudou66.com+玉豆分享)
-      - CYL-科技（2022.04.02） 4
-      - 🇺🇸 美国(yudou66.com+玉豆分享)
+      - 🇷🇺 V2-#288_上海-俄罗斯_x0_3_V2ray_315
+      - 🇺🇸 US美国(Youtube技术分享室)
+      - 🇺🇸 _US_美国 5
+      - 🇷🇺 V4-#35_上海-俄罗斯_NF_x1_0_V2ray_311
+      - 🇯🇵 日本(欢迎订阅Youtube破解资源君)
+      - 🇷🇺 V4-#297_上海-俄罗斯_x1_0_V2ray_324
+      - 🇺🇸 _US_美国 6
       - 🇨🇦 _CA_加拿大
-      - 🇰🇷 韩国(yudou66.com+玉豆分享)
-      - 捷克(yudou66.com 玉豆分享)
-      - CYL-科技（2022.04.02） 5
-      - 🇸🇬 新加坡-tg频道:@ripaojiedian
-      - 🇨🇦 加拿大(yudou66.com+玉豆分享) 4
-      - 🇺🇸 US美国(yudou66.com+玉豆分享) 3
-      - 科技网络 2
-      - 🇨🇦 加拿大(yudou66.com+玉豆分享) 5
-      - YouTube@阿阳AYANG 3
-      - YouTube@阿阳AYANG 4
       - 🇨🇦 _CA_加拿大 2
-      - 🇨🇳 (Youtube/TG：俊佳科技)_🇨🇳_中国_227
+      - 科技网络
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君)
+      - 🇭🇰 EXTM3U-香港-nf-iplc
+      - 🇯🇵 V3-#77_上海-日本_NF_x1_0_V2ray_335
+      - 🇭🇰 EXTM3U-香港HKT-nf-iplc
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君) 2
+      - 🇺🇸 vpnpool-US-nf
+      - 🇨🇳 台湾(欢迎订阅Youtube破解资源君)
+      - 🇭🇰 EXTM3U-香港-nf-iplc 2
+      - YouTube@阿阳AYANG
+      - 🇷🇺 V3-#292_上海-俄罗斯_x0_5_V2ray_319
+      - 🇭🇰 EXTM3U-香港-nf-iplc 3
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2
+      - 🇭🇰 V1-#306_IPLC-深圳-香港HKT_NF_x4_0_V2ray_255
+      - 🇷🇺 V3-#291_上海-俄罗斯_x0_5_V2ray_318
+      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)
+      - 🇭🇰 V1-#307_IPLC-深圳-香港HKT_NF_x4_0_V2ray_256
+      - 🇭🇰 V1-#309_IPLC-深圳-香港BGP_NF_x4_0_V2ray_258
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 3
+      - 🇭🇰 V4-#240_广东-香港HKBN_NF_x2_0_V2ray_295
+      - 🇨🇳 V3-#322_广东-台湾_NF_x2_0_V2ray_268
+      - 🇭🇰 vpnpool-香港HKBN-nf
+      - 🇭🇰 V1-#310_IPLC-深圳-香港BGP_NF_x4_0_V2ray_259
+      - 🇺🇸 _US_美国 7
+      - 🇺🇸 v2-#215_江港-美国M_NF_x1_5_V2ray_231
+      - YouTube@阿阳AYANG 2
+      - 🇭🇰 vpnpool-香港-nf
+      - YouTube@阿阳AYANG 3
+      - 🇭🇰 vpnpool-香港HKT-nf
+      - 🇺🇸 _US_美国 8
+      - 🇭🇰 V3-#198_广东-香港HKT_NF_x1_5_V2ray_282
+      - 🇭🇰 V2-#238_广东-香港HKT_NF_x1_5_V2ray_277
+      - 🇺🇸 _US_美国 9
+      - 🇭🇰 V4-#169_广东-香港HKT_NF_x2_0_V2ray_292
+      - 🇺🇸 _US_美国 10
+      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 🇸🇬 新加坡(欢迎订阅Youtube破解资源君) 3
+      - 🇨🇳 V3-#320_广东-台湾_NF_x2_0_V2ray_266
+      - THE WORLD
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 4
+      - 🇺🇸 US美国(Youtube技术分享室) 2
+      - 🇺🇸 _US_美国 11
+      - 🇨🇦 _CA_加拿大 3
+      - 🇸🇬 V1-#175_IPLC-深圳-新加坡_NF_x4_0_V2ray_252
+      - 🇷🇺 V3-#293_上海-俄罗斯_x0_5_V2ray_320
+      - 🇺🇸 _US_美国 12
+      - 🇨🇦 _CA_加拿大 4
+      - 🇨🇦 _CA_加拿大 5
+      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 3
+      - YouTube@阿阳AYANG 4
+      - 🇭🇰 vpnpool-香港HKT
+      - 🇺🇸 _US_美国 13
+      - 🇺🇸 _US_美国 14
+      - 🇨🇦 _CA_加拿大 6
+      - 🇭🇰 V4-#249_广东-香港HKTx2_0_V2ray_298
+      - 🇨🇦 _CA_加拿大 7
+      - 🇨🇦 _CA_加拿大 8
+      - 🇭🇰 vpnpool-香港HKT-nf 2
+      - 🇺🇸 _US_美国 15
+      - 🇸🇬 EXTM3U-SG-nf-iplc
+      - YouTube@阿阳AYANG 5
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 5
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君) 3
+      - 🇭🇰 vpnpool-香港HKT 2
+      - 🇺🇸 _US_美国 16
+      - YouTube@阿阳AYANG 6
+      - 🇭🇰 V2-#261_广东-香港HKT_x1_2_V2ray_279
+      - YouTube@阿阳AYANG 7
+      - YouTube@阿阳AYANG 8
+      - 🇭🇰 vpnpool-香港HKT 3
+      - 🇺🇸 vpnpool-US-nf 2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳 (Youtube/TG：俊佳科技)_🇨🇳_中国_1
-      - 🇰🇷 韩国(yudou66.com 玉豆分享)
-      - 🇨🇦 加拿大(yudou66.com+玉豆分享)
-      - 🇪🇺 欧洲(yudou66.com+玉豆分享)
-      - 🇨🇦 加拿大(yudou66.com+玉豆分享) 2
-      - CYL-科技（2022.04.02）
-      - 卢森堡(yudou66.com+玉豆分享)
-      - 🇰🇷 韩国(yudou66.com 玉豆分享) 2
-      - 🇺🇸 (Youtube/TG：俊佳科技)_🇺🇸_美国_70
-      - 🇨🇦 加拿大(yudou66.com+玉豆分享) 3
-      - YouTube@阿阳AYANG
-      - 🇰🇷 韩国(yudou66.com 玉豆分享) 3
+      - 🇺🇸 US+🇺🇸+Newark+@AzadNet
+      - 🇺🇸 _US_美国
+      - 🇺🇸 _US_美国 2
+      - 🇸🇬 新加坡(欢迎订阅Youtube破解资源君)
+      - 🇺🇸 _US_美国 3
+      - 🇺🇸 _US_美国 4
+      - 🇭🇰 V2-#263_广东-香港HKT_x1_5_V2ray_233
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
+      - 🇸🇬 新加坡(欢迎订阅Youtube破解资源君) 2
+      - 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)
       - Relay_🇨🇦CA-🇨🇦CA_549 | 7.63Mb
-      - 🇺🇸 _US_美国(yudou66.com 玉豆分享)
-      - 卢森堡(yudou66.com+玉豆分享) 2
-      - 科技网络
-      - 🇺🇸 US美国(yudou66.com+玉豆分享)
-      - 🇨🇦 加拿大-684.6KB/s(Youtube:不良林)
-      - CYL-科技（2022.04.02） 2
-      - 🇨🇳 (Youtube/TG：俊佳科技)_🇨🇳_中国_26
-      - YouTube@阿阳AYANG 2
-      - 卢森堡(yudou66.com+玉豆分享) 3
-      - 🇨🇳 台湾- tg频道:@ripaojiedian
-      - CYL-科技（2022.04.02） 3
-      - 🇺🇸 US美国(yudou66.com+玉豆分享) 2
-      - 🇯🇵 日本(yudou66.com+玉豆分享)
-      - CYL-科技（2022.04.02） 4
-      - 🇺🇸 美国(yudou66.com+玉豆分享)
+      - 🇷🇺 V2-#288_上海-俄罗斯_x0_3_V2ray_315
+      - 🇺🇸 US美国(Youtube技术分享室)
+      - 🇺🇸 _US_美国 5
+      - 🇷🇺 V4-#35_上海-俄罗斯_NF_x1_0_V2ray_311
+      - 🇯🇵 日本(欢迎订阅Youtube破解资源君)
+      - 🇷🇺 V4-#297_上海-俄罗斯_x1_0_V2ray_324
+      - 🇺🇸 _US_美国 6
       - 🇨🇦 _CA_加拿大
-      - 🇰🇷 韩国(yudou66.com+玉豆分享)
-      - 捷克(yudou66.com 玉豆分享)
-      - CYL-科技（2022.04.02） 5
-      - 🇸🇬 新加坡-tg频道:@ripaojiedian
-      - 🇨🇦 加拿大(yudou66.com+玉豆分享) 4
-      - 🇺🇸 US美国(yudou66.com+玉豆分享) 3
-      - 科技网络 2
-      - 🇨🇦 加拿大(yudou66.com+玉豆分享) 5
-      - YouTube@阿阳AYANG 3
-      - YouTube@阿阳AYANG 4
       - 🇨🇦 _CA_加拿大 2
-      - 🇨🇳 (Youtube/TG：俊佳科技)_🇨🇳_中国_227
+      - 科技网络
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君)
+      - 🇭🇰 EXTM3U-香港-nf-iplc
+      - 🇯🇵 V3-#77_上海-日本_NF_x1_0_V2ray_335
+      - 🇭🇰 EXTM3U-香港HKT-nf-iplc
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君) 2
+      - 🇺🇸 vpnpool-US-nf
+      - 🇨🇳 台湾(欢迎订阅Youtube破解资源君)
+      - 🇭🇰 EXTM3U-香港-nf-iplc 2
+      - YouTube@阿阳AYANG
+      - 🇷🇺 V3-#292_上海-俄罗斯_x0_5_V2ray_319
+      - 🇭🇰 EXTM3U-香港-nf-iplc 3
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2
+      - 🇭🇰 V1-#306_IPLC-深圳-香港HKT_NF_x4_0_V2ray_255
+      - 🇷🇺 V3-#291_上海-俄罗斯_x0_5_V2ray_318
+      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)
+      - 🇭🇰 V1-#307_IPLC-深圳-香港HKT_NF_x4_0_V2ray_256
+      - 🇭🇰 V1-#309_IPLC-深圳-香港BGP_NF_x4_0_V2ray_258
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 3
+      - 🇭🇰 V4-#240_广东-香港HKBN_NF_x2_0_V2ray_295
+      - 🇨🇳 V3-#322_广东-台湾_NF_x2_0_V2ray_268
+      - 🇭🇰 vpnpool-香港HKBN-nf
+      - 🇭🇰 V1-#310_IPLC-深圳-香港BGP_NF_x4_0_V2ray_259
+      - 🇺🇸 _US_美国 7
+      - 🇺🇸 v2-#215_江港-美国M_NF_x1_5_V2ray_231
+      - YouTube@阿阳AYANG 2
+      - 🇭🇰 vpnpool-香港-nf
+      - YouTube@阿阳AYANG 3
+      - 🇭🇰 vpnpool-香港HKT-nf
+      - 🇺🇸 _US_美国 8
+      - 🇭🇰 V3-#198_广东-香港HKT_NF_x1_5_V2ray_282
+      - 🇭🇰 V2-#238_广东-香港HKT_NF_x1_5_V2ray_277
+      - 🇺🇸 _US_美国 9
+      - 🇭🇰 V4-#169_广东-香港HKT_NF_x2_0_V2ray_292
+      - 🇺🇸 _US_美国 10
+      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 🇸🇬 新加坡(欢迎订阅Youtube破解资源君) 3
+      - 🇨🇳 V3-#320_广东-台湾_NF_x2_0_V2ray_266
+      - THE WORLD
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 4
+      - 🇺🇸 US美国(Youtube技术分享室) 2
+      - 🇺🇸 _US_美国 11
+      - 🇨🇦 _CA_加拿大 3
+      - 🇸🇬 V1-#175_IPLC-深圳-新加坡_NF_x4_0_V2ray_252
+      - 🇷🇺 V3-#293_上海-俄罗斯_x0_5_V2ray_320
+      - 🇺🇸 _US_美国 12
+      - 🇨🇦 _CA_加拿大 4
+      - 🇨🇦 _CA_加拿大 5
+      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 3
+      - YouTube@阿阳AYANG 4
+      - 🇭🇰 vpnpool-香港HKT
+      - 🇺🇸 _US_美国 13
+      - 🇺🇸 _US_美国 14
+      - 🇨🇦 _CA_加拿大 6
+      - 🇭🇰 V4-#249_广东-香港HKTx2_0_V2ray_298
+      - 🇨🇦 _CA_加拿大 7
+      - 🇨🇦 _CA_加拿大 8
+      - 🇭🇰 vpnpool-香港HKT-nf 2
+      - 🇺🇸 _US_美国 15
+      - 🇸🇬 EXTM3U-SG-nf-iplc
+      - YouTube@阿阳AYANG 5
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 5
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君) 3
+      - 🇭🇰 vpnpool-香港HKT 2
+      - 🇺🇸 _US_美国 16
+      - YouTube@阿阳AYANG 6
+      - 🇭🇰 V2-#261_广东-香港HKT_x1_2_V2ray_279
+      - YouTube@阿阳AYANG 7
+      - YouTube@阿阳AYANG 8
+      - 🇭🇰 vpnpool-香港HKT 3
+      - 🇺🇸 vpnpool-US-nf 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -347,47 +697,97 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳 (Youtube/TG：俊佳科技)_🇨🇳_中国_1
-      - 🇰🇷 韩国(yudou66.com 玉豆分享)
-      - 🇨🇦 加拿大(yudou66.com+玉豆分享)
-      - 🇪🇺 欧洲(yudou66.com+玉豆分享)
-      - 🇨🇦 加拿大(yudou66.com+玉豆分享) 2
-      - CYL-科技（2022.04.02）
-      - 卢森堡(yudou66.com+玉豆分享)
-      - 🇰🇷 韩国(yudou66.com 玉豆分享) 2
-      - 🇺🇸 (Youtube/TG：俊佳科技)_🇺🇸_美国_70
-      - 🇨🇦 加拿大(yudou66.com+玉豆分享) 3
-      - YouTube@阿阳AYANG
-      - 🇰🇷 韩国(yudou66.com 玉豆分享) 3
+      - 🇺🇸 US+🇺🇸+Newark+@AzadNet
+      - 🇺🇸 _US_美国
+      - 🇺🇸 _US_美国 2
+      - 🇸🇬 新加坡(欢迎订阅Youtube破解资源君)
+      - 🇺🇸 _US_美国 3
+      - 🇺🇸 _US_美国 4
+      - 🇭🇰 V2-#263_广东-香港HKT_x1_5_V2ray_233
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
+      - 🇸🇬 新加坡(欢迎订阅Youtube破解资源君) 2
+      - 🇨🇦 加拿大(欢迎订阅Youtube破解资源君)
       - Relay_🇨🇦CA-🇨🇦CA_549 | 7.63Mb
-      - 🇺🇸 _US_美国(yudou66.com 玉豆分享)
-      - 卢森堡(yudou66.com+玉豆分享) 2
-      - 科技网络
-      - 🇺🇸 US美国(yudou66.com+玉豆分享)
-      - 🇨🇦 加拿大-684.6KB/s(Youtube:不良林)
-      - CYL-科技（2022.04.02） 2
-      - 🇨🇳 (Youtube/TG：俊佳科技)_🇨🇳_中国_26
-      - YouTube@阿阳AYANG 2
-      - 卢森堡(yudou66.com+玉豆分享) 3
-      - 🇨🇳 台湾- tg频道:@ripaojiedian
-      - CYL-科技（2022.04.02） 3
-      - 🇺🇸 US美国(yudou66.com+玉豆分享) 2
-      - 🇯🇵 日本(yudou66.com+玉豆分享)
-      - CYL-科技（2022.04.02） 4
-      - 🇺🇸 美国(yudou66.com+玉豆分享)
+      - 🇷🇺 V2-#288_上海-俄罗斯_x0_3_V2ray_315
+      - 🇺🇸 US美国(Youtube技术分享室)
+      - 🇺🇸 _US_美国 5
+      - 🇷🇺 V4-#35_上海-俄罗斯_NF_x1_0_V2ray_311
+      - 🇯🇵 日本(欢迎订阅Youtube破解资源君)
+      - 🇷🇺 V4-#297_上海-俄罗斯_x1_0_V2ray_324
+      - 🇺🇸 _US_美国 6
       - 🇨🇦 _CA_加拿大
-      - 🇰🇷 韩国(yudou66.com+玉豆分享)
-      - 捷克(yudou66.com 玉豆分享)
-      - CYL-科技（2022.04.02） 5
-      - 🇸🇬 新加坡-tg频道:@ripaojiedian
-      - 🇨🇦 加拿大(yudou66.com+玉豆分享) 4
-      - 🇺🇸 US美国(yudou66.com+玉豆分享) 3
-      - 科技网络 2
-      - 🇨🇦 加拿大(yudou66.com+玉豆分享) 5
-      - YouTube@阿阳AYANG 3
-      - YouTube@阿阳AYANG 4
       - 🇨🇦 _CA_加拿大 2
-      - 🇨🇳 (Youtube/TG：俊佳科技)_🇨🇳_中国_227
+      - 科技网络
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君)
+      - 🇭🇰 EXTM3U-香港-nf-iplc
+      - 🇯🇵 V3-#77_上海-日本_NF_x1_0_V2ray_335
+      - 🇭🇰 EXTM3U-香港HKT-nf-iplc
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君) 2
+      - 🇺🇸 vpnpool-US-nf
+      - 🇨🇳 台湾(欢迎订阅Youtube破解资源君)
+      - 🇭🇰 EXTM3U-香港-nf-iplc 2
+      - YouTube@阿阳AYANG
+      - 🇷🇺 V3-#292_上海-俄罗斯_x0_5_V2ray_319
+      - 🇭🇰 EXTM3U-香港-nf-iplc 3
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2
+      - 🇭🇰 V1-#306_IPLC-深圳-香港HKT_NF_x4_0_V2ray_255
+      - 🇷🇺 V3-#291_上海-俄罗斯_x0_5_V2ray_318
+      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君)
+      - 🇭🇰 V1-#307_IPLC-深圳-香港HKT_NF_x4_0_V2ray_256
+      - 🇭🇰 V1-#309_IPLC-深圳-香港BGP_NF_x4_0_V2ray_258
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 3
+      - 🇭🇰 V4-#240_广东-香港HKBN_NF_x2_0_V2ray_295
+      - 🇨🇳 V3-#322_广东-台湾_NF_x2_0_V2ray_268
+      - 🇭🇰 vpnpool-香港HKBN-nf
+      - 🇭🇰 V1-#310_IPLC-深圳-香港BGP_NF_x4_0_V2ray_259
+      - 🇺🇸 _US_美国 7
+      - 🇺🇸 v2-#215_江港-美国M_NF_x1_5_V2ray_231
+      - YouTube@阿阳AYANG 2
+      - 🇭🇰 vpnpool-香港-nf
+      - YouTube@阿阳AYANG 3
+      - 🇭🇰 vpnpool-香港HKT-nf
+      - 🇺🇸 _US_美国 8
+      - 🇭🇰 V3-#198_广东-香港HKT_NF_x1_5_V2ray_282
+      - 🇭🇰 V2-#238_广东-香港HKT_NF_x1_5_V2ray_277
+      - 🇺🇸 _US_美国 9
+      - 🇭🇰 V4-#169_广东-香港HKT_NF_x2_0_V2ray_292
+      - 🇺🇸 _US_美国 10
+      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 🇸🇬 新加坡(欢迎订阅Youtube破解资源君) 3
+      - 🇨🇳 V3-#320_广东-台湾_NF_x2_0_V2ray_266
+      - THE WORLD
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 4
+      - 🇺🇸 US美国(Youtube技术分享室) 2
+      - 🇺🇸 _US_美国 11
+      - 🇨🇦 _CA_加拿大 3
+      - 🇸🇬 V1-#175_IPLC-深圳-新加坡_NF_x4_0_V2ray_252
+      - 🇷🇺 V3-#293_上海-俄罗斯_x0_5_V2ray_320
+      - 🇺🇸 _US_美国 12
+      - 🇨🇦 _CA_加拿大 4
+      - 🇨🇦 _CA_加拿大 5
+      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 3
+      - YouTube@阿阳AYANG 4
+      - 🇭🇰 vpnpool-香港HKT
+      - 🇺🇸 _US_美国 13
+      - 🇺🇸 _US_美国 14
+      - 🇨🇦 _CA_加拿大 6
+      - 🇭🇰 V4-#249_广东-香港HKTx2_0_V2ray_298
+      - 🇨🇦 _CA_加拿大 7
+      - 🇨🇦 _CA_加拿大 8
+      - 🇭🇰 vpnpool-香港HKT-nf 2
+      - 🇺🇸 _US_美国 15
+      - 🇸🇬 EXTM3U-SG-nf-iplc
+      - YouTube@阿阳AYANG 5
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 5
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君) 3
+      - 🇭🇰 vpnpool-香港HKT 2
+      - 🇺🇸 _US_美国 16
+      - YouTube@阿阳AYANG 6
+      - 🇭🇰 V2-#261_广东-香港HKT_x1_2_V2ray_279
+      - YouTube@阿阳AYANG 7
+      - YouTube@阿阳AYANG 8
+      - 🇭🇰 vpnpool-香港HKT 3
+      - 🇺🇸 vpnpool-US-nf 2
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
