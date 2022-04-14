@@ -5,494 +5,1180 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇺🇸 美国(欢迎订阅Youtube破解资源君) 16, server: scjp.scsevers.cf, port: 443, type: trojan, password: sharecentre, sni: scjp.scsevers.cf, skip-cert-verify: false}
-  - {name: 🇭🇰 香港(yudou66.com+玉豆分享), server: cn1.iepl.starlink.st, port: 50500, type: ss, cipher: aes-128-gcm, password: ced52354-bec2-4209-9121-b57d3dfb59e9}
-  - {name: 卢森堡(yudou66.com 玉豆分享), server: s1.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: s1.upyun.online, skip-cert-verify: true}
-  - {name: 🇨🇳 CN+13, server: 14.29.124.168, port: 25235, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: 🇨🇳 CN+28, server: 14.29.124.168, port: 25219, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: 🇨🇳 CN+29, server: 14.29.124.168, port: 25233, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: 🇨🇳 CN+30, server: 14.29.124.168, port: 25293, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: 🇨🇳 CN+31, server: 14.29.124.168, port: 25268, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: 🇨🇳 CN+34, server: 14.29.124.168, port: 25252, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: 🇨🇳 CN+36, server: 14.29.124.168, port: 25217, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: 🇨🇳 CN+37, server: 14.29.124.168, port: 25267, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: 🇨🇳 CN+38, server: 14.29.124.168, port: 25297, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: 🇨🇳 CN+40, server: 14.29.124.168, port: 25286, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: 🇨🇳 CN+41, server: 14.29.124.168, port: 25259, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: 🇨🇳 CN+42, server: 14.29.124.168, port: 25295, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: 🇨🇳 CN+45, server: 14.29.124.168, port: 25245, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: 🇨🇳 CN+46, server: 14.29.124.168, port: 25294, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: 🇨🇳 CN+47, server: 14.29.124.168, port: 25289, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: 🇨🇳 CN+51, server: 14.29.124.168, port: 25247, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: 🇨🇳 CN+55, server: 14.29.124.168, port: 25296, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: 🇨🇳 CN+56, server: cn1.iepl.starlink.st, port: 50300, type: ss, cipher: aes-128-gcm, password: ced52354-bec2-4209-9121-b57d3dfb59e9}
-  - {name: 🇨🇳 CN+58, server: 14.29.124.168, port: 25241, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: 🇨🇳 CN+65, server: 14.29.124.168, port: 25287, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: 🇨🇳 CN+67, server: 14.29.124.168, port: 25283, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: 50007, server: yy01.nfeng6.pp.ua, port: 4002, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 65199:xMcKnc, obfs-param: e167065199.microsoft.com}
-  - {name: 50015, server: yy01.nfeng6.pp.ua, port: 6707, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 67249:ojZU44, obfs-param: e167067249.microsoft.com}
-  - {name: 50016, server: yy01.nfeng6.pp.ua, port: 6708, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 65199:xMcKnc, obfs-param: e167065199.microsoft.com}
-  - {name: 50017, server: yy01.nfeng6.pp.ua, port: 4000, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 67249:ojZU44, obfs-param: e167067249.microsoft.com}
-  - {name: 50022, server: 120.233.10.182, port: 6704, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 63277:a4XecS, obfs-param: windows.c%�}
-  - {name: 50035, server: 120.233.10.182, port: 3703, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 63277:a4XecS, obfs-param: windows.c%�}
-  - {name: 50036, server: 120.233.10.182, port: 3707, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 63277:a4XecS, obfs-param: windows.c%�}
-  - {name: 50045, server: 120.233.10.182, port: 3704, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 63277:a4XecS, obfs-param: windows.c%�}
-  - {name: 50046, server: 120.233.10.182, port: 3709, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 63277:a4XecS, obfs-param: windows.c%�}
-  - {name: 50049, server: 120.233.10.182, port: 5702, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 63277:a4XecS, obfs-param: windows.c%�}
-  - {name: 50050, server: 120.233.10.182, port: 7703, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 63277:a4XecS, obfs-param: windows.c%�}
-  - {name: 50051, server: 120.233.10.182, port: 6705, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 63277:a4XecS, obfs-param: windows.c%�}
-  - {name: 50052, server: 120.233.10.182, port: 6707, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 63277:a4XecS, obfs-param: windows.c%�}
-  - {name: 50054, server: 120.233.10.182, port: 6706, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 63277:a4XecS, obfs-param: windows.c%�}
-  - {name: 50055, server: 120.233.10.182, port: 7705, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 63277:a4XecS, obfs-param: windows.c%�}
-  - {name: 50057, server: 120.233.10.182, port: 7702, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 63277:a4XecS, obfs-param: windows.c%�}
-  - {name: 50059, server: 120.233.10.182, port: 7709, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 63277:a4XecS, obfs-param: windows.c%�}
-  - {name: 50060, server: iepl-gz.yyuuii.cyou, port: 49853, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com}
-  - {name: 50061, server: in-am2.eqnode.net, port: 8080, type: ssr, cipher: aes-256-cfb, password: fD0KP8PWA, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
-  - {name: 50064, server: 204.44.75.137, port: 18256, type: ssr, cipher: dummy, password: teddysun.com, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
-  - {name: 50066, server: 103.172.116.7, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4}
-  - {name: 50073, server: b-mc.txwd.xyz, port: 50057, type: ss, cipher: chacha20-ietf-poly1305, password: 7DoRcGMfNdw0b1ge}
-  - {name: 50121, server: 62.216.91.229, port: 9092, type: ss, cipher: aes-256-cfb, password: TyNkGmp9hs6eGpDK}
-  - {name: 50667, server: 120.232.174.85, port: 45793, type: ss, cipher: aes-128-gcm, password: q4Ow3LRbb7oXPptJ}
-  - {name: 50668, server: 120.232.174.85, port: 45862, type: ss, cipher: aes-128-gcm, password: q4Ow3LRbb7oXPptJ}
-  - {name: 50710, server: cm2.newhua99.ga, port: 21697, type: ss, cipher: aes-128-gcm, password: 07d3c81b-6244-493d-a829-3b62e08d0b5f}
-  - {name: 50711, server: cm2.newhua99.ga, port: 21698, type: ss, cipher: aes-128-gcm, password: 07d3c81b-6244-493d-a829-3b62e08d0b5f}
-  - {name: 50712, server: cm.newhua99.ga, port: 21694, type: ss, cipher: aes-128-gcm, password: 07d3c81b-6244-493d-a829-3b62e08d0b5f}
-  - {name: 50713, server: cm2.newhua99.ga, port: 21683, type: ss, cipher: aes-128-gcm, password: 07d3c81b-6244-493d-a829-3b62e08d0b5f}
-  - {name: 50714, server: cm.newhua99.ga, port: 21690, type: ss, cipher: aes-128-gcm, password: 07d3c81b-6244-493d-a829-3b62e08d0b5f}
-  - {name: 🇨🇳 (Youtube技术分享室)🇨🇳中国+13, server: aaa-666.txwd.xyz, port: 60006, type: ss, cipher: chacha20-ietf-poly1305, password: 7DoRcGMfNdw0b1ge}
-  - {name: 🇨🇳 (Youtube技术分享室)🇨🇳中国+19, server: cmcm-a.txwd.xyz, port: 50222, type: ss, cipher: chacha20-ietf-poly1305, password: 7DoRcGMfNdw0b1ge}
-  - {name: 🇨🇳 (Youtube技术分享室)🇨🇳中国+31, server: cucu-aa.txwd.xyz, port: 50044, type: ss, cipher: chacha20-ietf-poly1305, password: 7DoRcGMfNdw0b1ge}
-  - {name: 🇨🇳 (Youtube技术分享室)🇨🇳中国+59, server: 117.28.242.137, port: 9359, type: ss, cipher: aes-256-cfb, password: !<str> 73117962}
-  - {name: 🇨🇳 (Youtube技术分享室)🇨🇳中国+73, server: b-mc.txwd.xyz, port: 50052, type: ss, cipher: chacha20-ietf-poly1305, password: 7DoRcGMfNdw0b1ge}
-  - {name: 🇨🇳 (Youtube技术分享室)🇨🇳中国+76, server: aaa-666.txwd.xyz, port: 60019, type: ss, cipher: chacha20-ietf-poly1305, password: 7DoRcGMfNdw0b1ge}
-  - {name: 🇨🇳 (Youtube技术分享室)🇨🇳中国+96, server: b-mc.txwd.xyz, port: 50058, type: ss, cipher: chacha20-ietf-poly1305, password: 7DoRcGMfNdw0b1ge}
-  - {name: 🇨🇳 (Youtube技术分享室)🇨🇳中国+98, server: hkchiansax2.msservicevip.pw, port: 9359, type: ss, cipher: aes-256-cfb, password: !<str> 73117962}
-  - {name: 🇨🇳 (Youtube技术分享室)🇨🇳中国 125, server: gz2.52168.xyz, port: 2110, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com}
-  - {name: 🇨🇳 (Youtube技术分享室)🇨🇳中国 126, server: gz2.52168.xyz, port: 2102, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com}
-  - {name: 🇨🇳 (Youtube技术分享室)🇨🇳中国 128, server: gz1.52168.xyz, port: 1111, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com}
+  - {name: 🇨🇳 CN, server: sg10.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 2, server: 211.99.100.24, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 3, server: fr02.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 4, server: fr04.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 5, server: fr01.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 6, server: sg04.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 7, server: 211.99.100.33, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 8, server: fr03.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 9, server: sg01.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 10, server: pvcc01.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 11, server: fr05.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 12, server: 211.99.100.25, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 13, server: 211.99.100.23, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 14, server: sg09.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 15, server: pccw06.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 16, server: pccw07.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 17, server: sg06.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 18, server: hkt05.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 19, server: pccw03.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 20, server: hr18.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 21, server: hkaia01.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 22, server: hkgame02.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 23, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 21009, type: ss, cipher: chacha20-ietf-poly1305, password: ee90ef42-2363-4d88-a434-afb9d8f679f8}
+  - {name: 🇨🇳 CN 24, server: hr09.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 25, server: 183.213.21.81, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 26, server: sg07.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 27, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 41003, type: ss, cipher: chacha20-ietf-poly1305, password: ee90ef42-2363-4d88-a434-afb9d8f679f8}
+  - {name: 🇨🇳 CN 28, server: pccw08.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 29, server: hkt06.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 30, server: sg08.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 31, server: pccw04.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 32, server: hkt07.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 33, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 61001, type: ss, cipher: chacha20-ietf-poly1305, password: ee90ef42-2363-4d88-a434-afb9d8f679f8}
+  - {name: 🇨🇳 CN 34, server: sg03.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 35, server: jp01.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 36, server: pccw09.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 37, server: pccw05.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 38, server: sg05.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 39, server: pccw01.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 40, server: pccw02.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 41, server: twct02.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 42, server: sg02.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 43, server: twct08.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 44, server: hkgame01.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 45, server: hkgame06.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 46, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 11003, type: ss, cipher: chacha20-ietf-poly1305, password: ee90ef42-2363-4d88-a434-afb9d8f679f8}
+  - {name: 🇨🇳 CN 47, server: hkt02.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 48, server: jp17.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 49, server: hkt01.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 50, server: twgame03.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 51, server: hkt04.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 52, server: 116.163.14.45, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 53, server: 116.163.14.71, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 54, server: hkt03.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 55, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 21009, type: ss, cipher: chacha20-ietf-poly1305, password: ee90ef42-2363-4d88-a434-afb9d8f679f8}
+  - {name: 🇨🇳 CN 56, server: tw05.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 57, server: twgame09.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 58, server: hkgame05.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 59, server: twct06.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 60, server: tw01.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 61, server: twgame07.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 62, server: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com, port: 21010, type: ss, cipher: chacha20-ietf-poly1305, password: ee90ef42-2363-4d88-a434-afb9d8f679f8}
+  - {name: 🇨🇳 CN 63, server: hr04.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 64, server: twgame05.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 65, server: 183.232.197.247, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 66, server: hr08.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 67, server: tw03.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 68, server: twgame01.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 69, server: jp14.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 70, server: hr11.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 71, server: sgp04.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 72, server: hr02.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 73, server: hr01.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 74, server: tw07.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 75, server: sgp02.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 76, server: hr17.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 77, server: jp06.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 78, server: in06.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 79, server: sgp06.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 80, server: in05.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 81, server: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com, port: 21003, type: ss, cipher: chacha20-ietf-poly1305, password: ee90ef42-2363-4d88-a434-afb9d8f679f8}
+  - {name: 🇨🇳 CN 82, server: in02.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 83, server: jp19.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 84, server: hr10.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 85, server: jp07.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 86, server: jp28.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 87, server: in03.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 88, server: jp29.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 89, server: jp02.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 90, server: jp08.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 91, server: jp04.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 92, server: jp23.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 93, server: jp09.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 94, server: jp24.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 95, server: hr14.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 96, server: in04.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 97, server: jp20.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 98, server: sgp10.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 99, server: hr12.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 100, server: jp27.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 101, server: hr16.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 102, server: in07.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 103, server: in01.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 104, server: jp10.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 105, server: hr13.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 106, server: hr19.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 107, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 61004, type: ss, cipher: chacha20-ietf-poly1305, password: ee90ef42-2363-4d88-a434-afb9d8f679f8}
+  - {name: 🇨🇳 CN 108, server: hkgame04.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 109, server: jp15.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 110, server: sgp05.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 111, server: jp30.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 112, server: hr07.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 113, server: hr06.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 114, server: jp31.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 115, server: sgp01.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 116, server: sgp08.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 117, server: jp25.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 118, server: us03.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 119, server: jp03.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 120, server: us05.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 121, server: us09.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 122, server: 116.163.14.124, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 123, server: sgp03.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 124, server: us06.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 125, server: uk04.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 126, server: ca05.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 127, server: sgp12.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 128, server: hg01.serenazuma.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 129, server: br01.serenazuma.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 130, server: sgp07.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 131, server: us01.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 132, server: hr15.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 133, server: 183.213.21.80, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 134, server: sgp11.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 135, server: us08.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 136, server: sgp09.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 137, server: trk01.serenazuma.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 138, server: ca04.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 139, server: ca03.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 140, server: hg04.serenazuma.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 141, server: 221.203.142.171, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 142, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 21005, type: ss, cipher: chacha20-ietf-poly1305, password: ee90ef42-2363-4d88-a434-afb9d8f679f8}
+  - {name: 🇨🇳 CN 143, server: agt01.serenazuma.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 144, server: us04.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 145, server: hr03.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 146, server: tw09.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 147, server: hg03.serenazuma.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 148, server: jp18.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 149, server: au04.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 150, server: ir05.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇯🇵 JP, server: 54.168.241.213, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇨🇳 CN 151, server: jp16.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 152, server: uk02.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 153, server: uk03.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 154, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 41003, type: ss, cipher: chacha20-ietf-poly1305, password: ee90ef42-2363-4d88-a434-afb9d8f679f8}
+  - {name: 🇨🇳 CN 155, server: 14.29.124.168, port: 25289, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: 🇨🇳 CN 156, server: hg05.serenazuma.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 157, server: jp26.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 158, server: 221.203.142.176, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 159, server: ir02.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 160, server: ir03.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 161, server: ir04.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
+  - {name: 🇨🇳 CN 162, server: jp22.asoulbest.com, port: 31648, type: ss, cipher: rc4-md5, password: zr2ik1d660e}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 16
-      - 🇭🇰 香港(yudou66.com+玉豆分享)
-      - 卢森堡(yudou66.com 玉豆分享)
-      - 🇨🇳 CN+13
-      - 🇨🇳 CN+28
-      - 🇨🇳 CN+29
-      - 🇨🇳 CN+30
-      - 🇨🇳 CN+31
-      - 🇨🇳 CN+34
-      - 🇨🇳 CN+36
-      - 🇨🇳 CN+37
-      - 🇨🇳 CN+38
-      - 🇨🇳 CN+40
-      - 🇨🇳 CN+41
-      - 🇨🇳 CN+42
-      - 🇨🇳 CN+45
-      - 🇨🇳 CN+46
-      - 🇨🇳 CN+47
-      - 🇨🇳 CN+51
-      - 🇨🇳 CN+55
-      - 🇨🇳 CN+56
-      - 🇨🇳 CN+58
-      - 🇨🇳 CN+65
-      - 🇨🇳 CN+67
-      - 50007
-      - 50015
-      - 50016
-      - 50017
-      - 50022
-      - 50035
-      - 50036
-      - 50045
-      - 50046
-      - 50049
-      - 50050
-      - 50051
-      - 50052
-      - 50054
-      - 50055
-      - 50057
-      - 50059
-      - 50060
-      - 50061
-      - 50064
-      - 50066
-      - 50073
-      - 50121
-      - 50667
-      - 50668
-      - 50710
-      - 50711
-      - 50712
-      - 50713
-      - 50714
-      - 🇨🇳 (Youtube技术分享室)🇨🇳中国+13
-      - 🇨🇳 (Youtube技术分享室)🇨🇳中国+19
-      - 🇨🇳 (Youtube技术分享室)🇨🇳中国+31
-      - 🇨🇳 (Youtube技术分享室)🇨🇳中国+59
-      - 🇨🇳 (Youtube技术分享室)🇨🇳中国+73
-      - 🇨🇳 (Youtube技术分享室)🇨🇳中国+76
-      - 🇨🇳 (Youtube技术分享室)🇨🇳中国+96
-      - 🇨🇳 (Youtube技术分享室)🇨🇳中国+98
-      - 🇨🇳 (Youtube技术分享室)🇨🇳中国 125
-      - 🇨🇳 (Youtube技术分享室)🇨🇳中国 126
-      - 🇨🇳 (Youtube技术分享室)🇨🇳中国 128
+      - 🇨🇳 CN
+      - 🇨🇳 CN 2
+      - 🇨🇳 CN 3
+      - 🇨🇳 CN 4
+      - 🇨🇳 CN 5
+      - 🇨🇳 CN 6
+      - 🇨🇳 CN 7
+      - 🇨🇳 CN 8
+      - 🇨🇳 CN 9
+      - 🇨🇳 CN 10
+      - 🇨🇳 CN 11
+      - 🇨🇳 CN 12
+      - 🇨🇳 CN 13
+      - 🇨🇳 CN 14
+      - 🇨🇳 CN 15
+      - 🇨🇳 CN 16
+      - 🇨🇳 CN 17
+      - 🇨🇳 CN 18
+      - 🇨🇳 CN 19
+      - 🇨🇳 CN 20
+      - 🇨🇳 CN 21
+      - 🇨🇳 CN 22
+      - 🇨🇳 CN 23
+      - 🇨🇳 CN 24
+      - 🇨🇳 CN 25
+      - 🇨🇳 CN 26
+      - 🇨🇳 CN 27
+      - 🇨🇳 CN 28
+      - 🇨🇳 CN 29
+      - 🇨🇳 CN 30
+      - 🇨🇳 CN 31
+      - 🇨🇳 CN 32
+      - 🇨🇳 CN 33
+      - 🇨🇳 CN 34
+      - 🇨🇳 CN 35
+      - 🇨🇳 CN 36
+      - 🇨🇳 CN 37
+      - 🇨🇳 CN 38
+      - 🇨🇳 CN 39
+      - 🇨🇳 CN 40
+      - 🇨🇳 CN 41
+      - 🇨🇳 CN 42
+      - 🇨🇳 CN 43
+      - 🇨🇳 CN 44
+      - 🇨🇳 CN 45
+      - 🇨🇳 CN 46
+      - 🇨🇳 CN 47
+      - 🇨🇳 CN 48
+      - 🇨🇳 CN 49
+      - 🇨🇳 CN 50
+      - 🇨🇳 CN 51
+      - 🇨🇳 CN 52
+      - 🇨🇳 CN 53
+      - 🇨🇳 CN 54
+      - 🇨🇳 CN 55
+      - 🇨🇳 CN 56
+      - 🇨🇳 CN 57
+      - 🇨🇳 CN 58
+      - 🇨🇳 CN 59
+      - 🇨🇳 CN 60
+      - 🇨🇳 CN 61
+      - 🇨🇳 CN 62
+      - 🇨🇳 CN 63
+      - 🇨🇳 CN 64
+      - 🇨🇳 CN 65
+      - 🇨🇳 CN 66
+      - 🇨🇳 CN 67
+      - 🇨🇳 CN 68
+      - 🇨🇳 CN 69
+      - 🇨🇳 CN 70
+      - 🇨🇳 CN 71
+      - 🇨🇳 CN 72
+      - 🇨🇳 CN 73
+      - 🇨🇳 CN 74
+      - 🇨🇳 CN 75
+      - 🇨🇳 CN 76
+      - 🇨🇳 CN 77
+      - 🇨🇳 CN 78
+      - 🇨🇳 CN 79
+      - 🇨🇳 CN 80
+      - 🇨🇳 CN 81
+      - 🇨🇳 CN 82
+      - 🇨🇳 CN 83
+      - 🇨🇳 CN 84
+      - 🇨🇳 CN 85
+      - 🇨🇳 CN 86
+      - 🇨🇳 CN 87
+      - 🇨🇳 CN 88
+      - 🇨🇳 CN 89
+      - 🇨🇳 CN 90
+      - 🇨🇳 CN 91
+      - 🇨🇳 CN 92
+      - 🇨🇳 CN 93
+      - 🇨🇳 CN 94
+      - 🇨🇳 CN 95
+      - 🇨🇳 CN 96
+      - 🇨🇳 CN 97
+      - 🇨🇳 CN 98
+      - 🇨🇳 CN 99
+      - 🇨🇳 CN 100
+      - 🇨🇳 CN 101
+      - 🇨🇳 CN 102
+      - 🇨🇳 CN 103
+      - 🇨🇳 CN 104
+      - 🇨🇳 CN 105
+      - 🇨🇳 CN 106
+      - 🇨🇳 CN 107
+      - 🇨🇳 CN 108
+      - 🇨🇳 CN 109
+      - 🇨🇳 CN 110
+      - 🇨🇳 CN 111
+      - 🇨🇳 CN 112
+      - 🇨🇳 CN 113
+      - 🇨🇳 CN 114
+      - 🇨🇳 CN 115
+      - 🇨🇳 CN 116
+      - 🇨🇳 CN 117
+      - 🇨🇳 CN 118
+      - 🇨🇳 CN 119
+      - 🇨🇳 CN 120
+      - 🇨🇳 CN 121
+      - 🇨🇳 CN 122
+      - 🇨🇳 CN 123
+      - 🇨🇳 CN 124
+      - 🇨🇳 CN 125
+      - 🇨🇳 CN 126
+      - 🇨🇳 CN 127
+      - 🇨🇳 CN 128
+      - 🇨🇳 CN 129
+      - 🇨🇳 CN 130
+      - 🇨🇳 CN 131
+      - 🇨🇳 CN 132
+      - 🇨🇳 CN 133
+      - 🇨🇳 CN 134
+      - 🇨🇳 CN 135
+      - 🇨🇳 CN 136
+      - 🇨🇳 CN 137
+      - 🇨🇳 CN 138
+      - 🇨🇳 CN 139
+      - 🇨🇳 CN 140
+      - 🇨🇳 CN 141
+      - 🇨🇳 CN 142
+      - 🇨🇳 CN 143
+      - 🇨🇳 CN 144
+      - 🇨🇳 CN 145
+      - 🇨🇳 CN 146
+      - 🇨🇳 CN 147
+      - 🇨🇳 CN 148
+      - 🇨🇳 CN 149
+      - 🇨🇳 CN 150
+      - 🇯🇵 JP
+      - 🇨🇳 CN 151
+      - 🇨🇳 CN 152
+      - 🇨🇳 CN 153
+      - 🇨🇳 CN 154
+      - 🇨🇳 CN 155
+      - 🇨🇳 CN 156
+      - 🇨🇳 CN 157
+      - 🇨🇳 CN 158
+      - 🇨🇳 CN 159
+      - 🇨🇳 CN 160
+      - 🇨🇳 CN 161
+      - 🇨🇳 CN 162
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 16
-      - 🇭🇰 香港(yudou66.com+玉豆分享)
-      - 卢森堡(yudou66.com 玉豆分享)
-      - 🇨🇳 CN+13
-      - 🇨🇳 CN+28
-      - 🇨🇳 CN+29
-      - 🇨🇳 CN+30
-      - 🇨🇳 CN+31
-      - 🇨🇳 CN+34
-      - 🇨🇳 CN+36
-      - 🇨🇳 CN+37
-      - 🇨🇳 CN+38
-      - 🇨🇳 CN+40
-      - 🇨🇳 CN+41
-      - 🇨🇳 CN+42
-      - 🇨🇳 CN+45
-      - 🇨🇳 CN+46
-      - 🇨🇳 CN+47
-      - 🇨🇳 CN+51
-      - 🇨🇳 CN+55
-      - 🇨🇳 CN+56
-      - 🇨🇳 CN+58
-      - 🇨🇳 CN+65
-      - 🇨🇳 CN+67
-      - 50007
-      - 50015
-      - 50016
-      - 50017
-      - 50022
-      - 50035
-      - 50036
-      - 50045
-      - 50046
-      - 50049
-      - 50050
-      - 50051
-      - 50052
-      - 50054
-      - 50055
-      - 50057
-      - 50059
-      - 50060
-      - 50061
-      - 50064
-      - 50066
-      - 50073
-      - 50121
-      - 50667
-      - 50668
-      - 50710
-      - 50711
-      - 50712
-      - 50713
-      - 50714
-      - 🇨🇳 (Youtube技术分享室)🇨🇳中国+13
-      - 🇨🇳 (Youtube技术分享室)🇨🇳中国+19
-      - 🇨🇳 (Youtube技术分享室)🇨🇳中国+31
-      - 🇨🇳 (Youtube技术分享室)🇨🇳中国+59
-      - 🇨🇳 (Youtube技术分享室)🇨🇳中国+73
-      - 🇨🇳 (Youtube技术分享室)🇨🇳中国+76
-      - 🇨🇳 (Youtube技术分享室)🇨🇳中国+96
-      - 🇨🇳 (Youtube技术分享室)🇨🇳中国+98
-      - 🇨🇳 (Youtube技术分享室)🇨🇳中国 125
-      - 🇨🇳 (Youtube技术分享室)🇨🇳中国 126
-      - 🇨🇳 (Youtube技术分享室)🇨🇳中国 128
+      - 🇨🇳 CN
+      - 🇨🇳 CN 2
+      - 🇨🇳 CN 3
+      - 🇨🇳 CN 4
+      - 🇨🇳 CN 5
+      - 🇨🇳 CN 6
+      - 🇨🇳 CN 7
+      - 🇨🇳 CN 8
+      - 🇨🇳 CN 9
+      - 🇨🇳 CN 10
+      - 🇨🇳 CN 11
+      - 🇨🇳 CN 12
+      - 🇨🇳 CN 13
+      - 🇨🇳 CN 14
+      - 🇨🇳 CN 15
+      - 🇨🇳 CN 16
+      - 🇨🇳 CN 17
+      - 🇨🇳 CN 18
+      - 🇨🇳 CN 19
+      - 🇨🇳 CN 20
+      - 🇨🇳 CN 21
+      - 🇨🇳 CN 22
+      - 🇨🇳 CN 23
+      - 🇨🇳 CN 24
+      - 🇨🇳 CN 25
+      - 🇨🇳 CN 26
+      - 🇨🇳 CN 27
+      - 🇨🇳 CN 28
+      - 🇨🇳 CN 29
+      - 🇨🇳 CN 30
+      - 🇨🇳 CN 31
+      - 🇨🇳 CN 32
+      - 🇨🇳 CN 33
+      - 🇨🇳 CN 34
+      - 🇨🇳 CN 35
+      - 🇨🇳 CN 36
+      - 🇨🇳 CN 37
+      - 🇨🇳 CN 38
+      - 🇨🇳 CN 39
+      - 🇨🇳 CN 40
+      - 🇨🇳 CN 41
+      - 🇨🇳 CN 42
+      - 🇨🇳 CN 43
+      - 🇨🇳 CN 44
+      - 🇨🇳 CN 45
+      - 🇨🇳 CN 46
+      - 🇨🇳 CN 47
+      - 🇨🇳 CN 48
+      - 🇨🇳 CN 49
+      - 🇨🇳 CN 50
+      - 🇨🇳 CN 51
+      - 🇨🇳 CN 52
+      - 🇨🇳 CN 53
+      - 🇨🇳 CN 54
+      - 🇨🇳 CN 55
+      - 🇨🇳 CN 56
+      - 🇨🇳 CN 57
+      - 🇨🇳 CN 58
+      - 🇨🇳 CN 59
+      - 🇨🇳 CN 60
+      - 🇨🇳 CN 61
+      - 🇨🇳 CN 62
+      - 🇨🇳 CN 63
+      - 🇨🇳 CN 64
+      - 🇨🇳 CN 65
+      - 🇨🇳 CN 66
+      - 🇨🇳 CN 67
+      - 🇨🇳 CN 68
+      - 🇨🇳 CN 69
+      - 🇨🇳 CN 70
+      - 🇨🇳 CN 71
+      - 🇨🇳 CN 72
+      - 🇨🇳 CN 73
+      - 🇨🇳 CN 74
+      - 🇨🇳 CN 75
+      - 🇨🇳 CN 76
+      - 🇨🇳 CN 77
+      - 🇨🇳 CN 78
+      - 🇨🇳 CN 79
+      - 🇨🇳 CN 80
+      - 🇨🇳 CN 81
+      - 🇨🇳 CN 82
+      - 🇨🇳 CN 83
+      - 🇨🇳 CN 84
+      - 🇨🇳 CN 85
+      - 🇨🇳 CN 86
+      - 🇨🇳 CN 87
+      - 🇨🇳 CN 88
+      - 🇨🇳 CN 89
+      - 🇨🇳 CN 90
+      - 🇨🇳 CN 91
+      - 🇨🇳 CN 92
+      - 🇨🇳 CN 93
+      - 🇨🇳 CN 94
+      - 🇨🇳 CN 95
+      - 🇨🇳 CN 96
+      - 🇨🇳 CN 97
+      - 🇨🇳 CN 98
+      - 🇨🇳 CN 99
+      - 🇨🇳 CN 100
+      - 🇨🇳 CN 101
+      - 🇨🇳 CN 102
+      - 🇨🇳 CN 103
+      - 🇨🇳 CN 104
+      - 🇨🇳 CN 105
+      - 🇨🇳 CN 106
+      - 🇨🇳 CN 107
+      - 🇨🇳 CN 108
+      - 🇨🇳 CN 109
+      - 🇨🇳 CN 110
+      - 🇨🇳 CN 111
+      - 🇨🇳 CN 112
+      - 🇨🇳 CN 113
+      - 🇨🇳 CN 114
+      - 🇨🇳 CN 115
+      - 🇨🇳 CN 116
+      - 🇨🇳 CN 117
+      - 🇨🇳 CN 118
+      - 🇨🇳 CN 119
+      - 🇨🇳 CN 120
+      - 🇨🇳 CN 121
+      - 🇨🇳 CN 122
+      - 🇨🇳 CN 123
+      - 🇨🇳 CN 124
+      - 🇨🇳 CN 125
+      - 🇨🇳 CN 126
+      - 🇨🇳 CN 127
+      - 🇨🇳 CN 128
+      - 🇨🇳 CN 129
+      - 🇨🇳 CN 130
+      - 🇨🇳 CN 131
+      - 🇨🇳 CN 132
+      - 🇨🇳 CN 133
+      - 🇨🇳 CN 134
+      - 🇨🇳 CN 135
+      - 🇨🇳 CN 136
+      - 🇨🇳 CN 137
+      - 🇨🇳 CN 138
+      - 🇨🇳 CN 139
+      - 🇨🇳 CN 140
+      - 🇨🇳 CN 141
+      - 🇨🇳 CN 142
+      - 🇨🇳 CN 143
+      - 🇨🇳 CN 144
+      - 🇨🇳 CN 145
+      - 🇨🇳 CN 146
+      - 🇨🇳 CN 147
+      - 🇨🇳 CN 148
+      - 🇨🇳 CN 149
+      - 🇨🇳 CN 150
+      - 🇯🇵 JP
+      - 🇨🇳 CN 151
+      - 🇨🇳 CN 152
+      - 🇨🇳 CN 153
+      - 🇨🇳 CN 154
+      - 🇨🇳 CN 155
+      - 🇨🇳 CN 156
+      - 🇨🇳 CN 157
+      - 🇨🇳 CN 158
+      - 🇨🇳 CN 159
+      - 🇨🇳 CN 160
+      - 🇨🇳 CN 161
+      - 🇨🇳 CN 162
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 16
-      - 🇭🇰 香港(yudou66.com+玉豆分享)
-      - 卢森堡(yudou66.com 玉豆分享)
-      - 🇨🇳 CN+13
-      - 🇨🇳 CN+28
-      - 🇨🇳 CN+29
-      - 🇨🇳 CN+30
-      - 🇨🇳 CN+31
-      - 🇨🇳 CN+34
-      - 🇨🇳 CN+36
-      - 🇨🇳 CN+37
-      - 🇨🇳 CN+38
-      - 🇨🇳 CN+40
-      - 🇨🇳 CN+41
-      - 🇨🇳 CN+42
-      - 🇨🇳 CN+45
-      - 🇨🇳 CN+46
-      - 🇨🇳 CN+47
-      - 🇨🇳 CN+51
-      - 🇨🇳 CN+55
-      - 🇨🇳 CN+56
-      - 🇨🇳 CN+58
-      - 🇨🇳 CN+65
-      - 🇨🇳 CN+67
-      - 50007
-      - 50015
-      - 50016
-      - 50017
-      - 50022
-      - 50035
-      - 50036
-      - 50045
-      - 50046
-      - 50049
-      - 50050
-      - 50051
-      - 50052
-      - 50054
-      - 50055
-      - 50057
-      - 50059
-      - 50060
-      - 50061
-      - 50064
-      - 50066
-      - 50073
-      - 50121
-      - 50667
-      - 50668
-      - 50710
-      - 50711
-      - 50712
-      - 50713
-      - 50714
-      - 🇨🇳 (Youtube技术分享室)🇨🇳中国+13
-      - 🇨🇳 (Youtube技术分享室)🇨🇳中国+19
-      - 🇨🇳 (Youtube技术分享室)🇨🇳中国+31
-      - 🇨🇳 (Youtube技术分享室)🇨🇳中国+59
-      - 🇨🇳 (Youtube技术分享室)🇨🇳中国+73
-      - 🇨🇳 (Youtube技术分享室)🇨🇳中国+76
-      - 🇨🇳 (Youtube技术分享室)🇨🇳中国+96
-      - 🇨🇳 (Youtube技术分享室)🇨🇳中国+98
-      - 🇨🇳 (Youtube技术分享室)🇨🇳中国 125
-      - 🇨🇳 (Youtube技术分享室)🇨🇳中国 126
-      - 🇨🇳 (Youtube技术分享室)🇨🇳中国 128
+      - 🇨🇳 CN
+      - 🇨🇳 CN 2
+      - 🇨🇳 CN 3
+      - 🇨🇳 CN 4
+      - 🇨🇳 CN 5
+      - 🇨🇳 CN 6
+      - 🇨🇳 CN 7
+      - 🇨🇳 CN 8
+      - 🇨🇳 CN 9
+      - 🇨🇳 CN 10
+      - 🇨🇳 CN 11
+      - 🇨🇳 CN 12
+      - 🇨🇳 CN 13
+      - 🇨🇳 CN 14
+      - 🇨🇳 CN 15
+      - 🇨🇳 CN 16
+      - 🇨🇳 CN 17
+      - 🇨🇳 CN 18
+      - 🇨🇳 CN 19
+      - 🇨🇳 CN 20
+      - 🇨🇳 CN 21
+      - 🇨🇳 CN 22
+      - 🇨🇳 CN 23
+      - 🇨🇳 CN 24
+      - 🇨🇳 CN 25
+      - 🇨🇳 CN 26
+      - 🇨🇳 CN 27
+      - 🇨🇳 CN 28
+      - 🇨🇳 CN 29
+      - 🇨🇳 CN 30
+      - 🇨🇳 CN 31
+      - 🇨🇳 CN 32
+      - 🇨🇳 CN 33
+      - 🇨🇳 CN 34
+      - 🇨🇳 CN 35
+      - 🇨🇳 CN 36
+      - 🇨🇳 CN 37
+      - 🇨🇳 CN 38
+      - 🇨🇳 CN 39
+      - 🇨🇳 CN 40
+      - 🇨🇳 CN 41
+      - 🇨🇳 CN 42
+      - 🇨🇳 CN 43
+      - 🇨🇳 CN 44
+      - 🇨🇳 CN 45
+      - 🇨🇳 CN 46
+      - 🇨🇳 CN 47
+      - 🇨🇳 CN 48
+      - 🇨🇳 CN 49
+      - 🇨🇳 CN 50
+      - 🇨🇳 CN 51
+      - 🇨🇳 CN 52
+      - 🇨🇳 CN 53
+      - 🇨🇳 CN 54
+      - 🇨🇳 CN 55
+      - 🇨🇳 CN 56
+      - 🇨🇳 CN 57
+      - 🇨🇳 CN 58
+      - 🇨🇳 CN 59
+      - 🇨🇳 CN 60
+      - 🇨🇳 CN 61
+      - 🇨🇳 CN 62
+      - 🇨🇳 CN 63
+      - 🇨🇳 CN 64
+      - 🇨🇳 CN 65
+      - 🇨🇳 CN 66
+      - 🇨🇳 CN 67
+      - 🇨🇳 CN 68
+      - 🇨🇳 CN 69
+      - 🇨🇳 CN 70
+      - 🇨🇳 CN 71
+      - 🇨🇳 CN 72
+      - 🇨🇳 CN 73
+      - 🇨🇳 CN 74
+      - 🇨🇳 CN 75
+      - 🇨🇳 CN 76
+      - 🇨🇳 CN 77
+      - 🇨🇳 CN 78
+      - 🇨🇳 CN 79
+      - 🇨🇳 CN 80
+      - 🇨🇳 CN 81
+      - 🇨🇳 CN 82
+      - 🇨🇳 CN 83
+      - 🇨🇳 CN 84
+      - 🇨🇳 CN 85
+      - 🇨🇳 CN 86
+      - 🇨🇳 CN 87
+      - 🇨🇳 CN 88
+      - 🇨🇳 CN 89
+      - 🇨🇳 CN 90
+      - 🇨🇳 CN 91
+      - 🇨🇳 CN 92
+      - 🇨🇳 CN 93
+      - 🇨🇳 CN 94
+      - 🇨🇳 CN 95
+      - 🇨🇳 CN 96
+      - 🇨🇳 CN 97
+      - 🇨🇳 CN 98
+      - 🇨🇳 CN 99
+      - 🇨🇳 CN 100
+      - 🇨🇳 CN 101
+      - 🇨🇳 CN 102
+      - 🇨🇳 CN 103
+      - 🇨🇳 CN 104
+      - 🇨🇳 CN 105
+      - 🇨🇳 CN 106
+      - 🇨🇳 CN 107
+      - 🇨🇳 CN 108
+      - 🇨🇳 CN 109
+      - 🇨🇳 CN 110
+      - 🇨🇳 CN 111
+      - 🇨🇳 CN 112
+      - 🇨🇳 CN 113
+      - 🇨🇳 CN 114
+      - 🇨🇳 CN 115
+      - 🇨🇳 CN 116
+      - 🇨🇳 CN 117
+      - 🇨🇳 CN 118
+      - 🇨🇳 CN 119
+      - 🇨🇳 CN 120
+      - 🇨🇳 CN 121
+      - 🇨🇳 CN 122
+      - 🇨🇳 CN 123
+      - 🇨🇳 CN 124
+      - 🇨🇳 CN 125
+      - 🇨🇳 CN 126
+      - 🇨🇳 CN 127
+      - 🇨🇳 CN 128
+      - 🇨🇳 CN 129
+      - 🇨🇳 CN 130
+      - 🇨🇳 CN 131
+      - 🇨🇳 CN 132
+      - 🇨🇳 CN 133
+      - 🇨🇳 CN 134
+      - 🇨🇳 CN 135
+      - 🇨🇳 CN 136
+      - 🇨🇳 CN 137
+      - 🇨🇳 CN 138
+      - 🇨🇳 CN 139
+      - 🇨🇳 CN 140
+      - 🇨🇳 CN 141
+      - 🇨🇳 CN 142
+      - 🇨🇳 CN 143
+      - 🇨🇳 CN 144
+      - 🇨🇳 CN 145
+      - 🇨🇳 CN 146
+      - 🇨🇳 CN 147
+      - 🇨🇳 CN 148
+      - 🇨🇳 CN 149
+      - 🇨🇳 CN 150
+      - 🇯🇵 JP
+      - 🇨🇳 CN 151
+      - 🇨🇳 CN 152
+      - 🇨🇳 CN 153
+      - 🇨🇳 CN 154
+      - 🇨🇳 CN 155
+      - 🇨🇳 CN 156
+      - 🇨🇳 CN 157
+      - 🇨🇳 CN 158
+      - 🇨🇳 CN 159
+      - 🇨🇳 CN 160
+      - 🇨🇳 CN 161
+      - 🇨🇳 CN 162
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 16
-      - 🇭🇰 香港(yudou66.com+玉豆分享)
-      - 卢森堡(yudou66.com 玉豆分享)
-      - 🇨🇳 CN+13
-      - 🇨🇳 CN+28
-      - 🇨🇳 CN+29
-      - 🇨🇳 CN+30
-      - 🇨🇳 CN+31
-      - 🇨🇳 CN+34
-      - 🇨🇳 CN+36
-      - 🇨🇳 CN+37
-      - 🇨🇳 CN+38
-      - 🇨🇳 CN+40
-      - 🇨🇳 CN+41
-      - 🇨🇳 CN+42
-      - 🇨🇳 CN+45
-      - 🇨🇳 CN+46
-      - 🇨🇳 CN+47
-      - 🇨🇳 CN+51
-      - 🇨🇳 CN+55
-      - 🇨🇳 CN+56
-      - 🇨🇳 CN+58
-      - 🇨🇳 CN+65
-      - 🇨🇳 CN+67
-      - 50007
-      - 50015
-      - 50016
-      - 50017
-      - 50022
-      - 50035
-      - 50036
-      - 50045
-      - 50046
-      - 50049
-      - 50050
-      - 50051
-      - 50052
-      - 50054
-      - 50055
-      - 50057
-      - 50059
-      - 50060
-      - 50061
-      - 50064
-      - 50066
-      - 50073
-      - 50121
-      - 50667
-      - 50668
-      - 50710
-      - 50711
-      - 50712
-      - 50713
-      - 50714
-      - 🇨🇳 (Youtube技术分享室)🇨🇳中国+13
-      - 🇨🇳 (Youtube技术分享室)🇨🇳中国+19
-      - 🇨🇳 (Youtube技术分享室)🇨🇳中国+31
-      - 🇨🇳 (Youtube技术分享室)🇨🇳中国+59
-      - 🇨🇳 (Youtube技术分享室)🇨🇳中国+73
-      - 🇨🇳 (Youtube技术分享室)🇨🇳中国+76
-      - 🇨🇳 (Youtube技术分享室)🇨🇳中国+96
-      - 🇨🇳 (Youtube技术分享室)🇨🇳中国+98
-      - 🇨🇳 (Youtube技术分享室)🇨🇳中国 125
-      - 🇨🇳 (Youtube技术分享室)🇨🇳中国 126
-      - 🇨🇳 (Youtube技术分享室)🇨🇳中国 128
+      - 🇨🇳 CN
+      - 🇨🇳 CN 2
+      - 🇨🇳 CN 3
+      - 🇨🇳 CN 4
+      - 🇨🇳 CN 5
+      - 🇨🇳 CN 6
+      - 🇨🇳 CN 7
+      - 🇨🇳 CN 8
+      - 🇨🇳 CN 9
+      - 🇨🇳 CN 10
+      - 🇨🇳 CN 11
+      - 🇨🇳 CN 12
+      - 🇨🇳 CN 13
+      - 🇨🇳 CN 14
+      - 🇨🇳 CN 15
+      - 🇨🇳 CN 16
+      - 🇨🇳 CN 17
+      - 🇨🇳 CN 18
+      - 🇨🇳 CN 19
+      - 🇨🇳 CN 20
+      - 🇨🇳 CN 21
+      - 🇨🇳 CN 22
+      - 🇨🇳 CN 23
+      - 🇨🇳 CN 24
+      - 🇨🇳 CN 25
+      - 🇨🇳 CN 26
+      - 🇨🇳 CN 27
+      - 🇨🇳 CN 28
+      - 🇨🇳 CN 29
+      - 🇨🇳 CN 30
+      - 🇨🇳 CN 31
+      - 🇨🇳 CN 32
+      - 🇨🇳 CN 33
+      - 🇨🇳 CN 34
+      - 🇨🇳 CN 35
+      - 🇨🇳 CN 36
+      - 🇨🇳 CN 37
+      - 🇨🇳 CN 38
+      - 🇨🇳 CN 39
+      - 🇨🇳 CN 40
+      - 🇨🇳 CN 41
+      - 🇨🇳 CN 42
+      - 🇨🇳 CN 43
+      - 🇨🇳 CN 44
+      - 🇨🇳 CN 45
+      - 🇨🇳 CN 46
+      - 🇨🇳 CN 47
+      - 🇨🇳 CN 48
+      - 🇨🇳 CN 49
+      - 🇨🇳 CN 50
+      - 🇨🇳 CN 51
+      - 🇨🇳 CN 52
+      - 🇨🇳 CN 53
+      - 🇨🇳 CN 54
+      - 🇨🇳 CN 55
+      - 🇨🇳 CN 56
+      - 🇨🇳 CN 57
+      - 🇨🇳 CN 58
+      - 🇨🇳 CN 59
+      - 🇨🇳 CN 60
+      - 🇨🇳 CN 61
+      - 🇨🇳 CN 62
+      - 🇨🇳 CN 63
+      - 🇨🇳 CN 64
+      - 🇨🇳 CN 65
+      - 🇨🇳 CN 66
+      - 🇨🇳 CN 67
+      - 🇨🇳 CN 68
+      - 🇨🇳 CN 69
+      - 🇨🇳 CN 70
+      - 🇨🇳 CN 71
+      - 🇨🇳 CN 72
+      - 🇨🇳 CN 73
+      - 🇨🇳 CN 74
+      - 🇨🇳 CN 75
+      - 🇨🇳 CN 76
+      - 🇨🇳 CN 77
+      - 🇨🇳 CN 78
+      - 🇨🇳 CN 79
+      - 🇨🇳 CN 80
+      - 🇨🇳 CN 81
+      - 🇨🇳 CN 82
+      - 🇨🇳 CN 83
+      - 🇨🇳 CN 84
+      - 🇨🇳 CN 85
+      - 🇨🇳 CN 86
+      - 🇨🇳 CN 87
+      - 🇨🇳 CN 88
+      - 🇨🇳 CN 89
+      - 🇨🇳 CN 90
+      - 🇨🇳 CN 91
+      - 🇨🇳 CN 92
+      - 🇨🇳 CN 93
+      - 🇨🇳 CN 94
+      - 🇨🇳 CN 95
+      - 🇨🇳 CN 96
+      - 🇨🇳 CN 97
+      - 🇨🇳 CN 98
+      - 🇨🇳 CN 99
+      - 🇨🇳 CN 100
+      - 🇨🇳 CN 101
+      - 🇨🇳 CN 102
+      - 🇨🇳 CN 103
+      - 🇨🇳 CN 104
+      - 🇨🇳 CN 105
+      - 🇨🇳 CN 106
+      - 🇨🇳 CN 107
+      - 🇨🇳 CN 108
+      - 🇨🇳 CN 109
+      - 🇨🇳 CN 110
+      - 🇨🇳 CN 111
+      - 🇨🇳 CN 112
+      - 🇨🇳 CN 113
+      - 🇨🇳 CN 114
+      - 🇨🇳 CN 115
+      - 🇨🇳 CN 116
+      - 🇨🇳 CN 117
+      - 🇨🇳 CN 118
+      - 🇨🇳 CN 119
+      - 🇨🇳 CN 120
+      - 🇨🇳 CN 121
+      - 🇨🇳 CN 122
+      - 🇨🇳 CN 123
+      - 🇨🇳 CN 124
+      - 🇨🇳 CN 125
+      - 🇨🇳 CN 126
+      - 🇨🇳 CN 127
+      - 🇨🇳 CN 128
+      - 🇨🇳 CN 129
+      - 🇨🇳 CN 130
+      - 🇨🇳 CN 131
+      - 🇨🇳 CN 132
+      - 🇨🇳 CN 133
+      - 🇨🇳 CN 134
+      - 🇨🇳 CN 135
+      - 🇨🇳 CN 136
+      - 🇨🇳 CN 137
+      - 🇨🇳 CN 138
+      - 🇨🇳 CN 139
+      - 🇨🇳 CN 140
+      - 🇨🇳 CN 141
+      - 🇨🇳 CN 142
+      - 🇨🇳 CN 143
+      - 🇨🇳 CN 144
+      - 🇨🇳 CN 145
+      - 🇨🇳 CN 146
+      - 🇨🇳 CN 147
+      - 🇨🇳 CN 148
+      - 🇨🇳 CN 149
+      - 🇨🇳 CN 150
+      - 🇯🇵 JP
+      - 🇨🇳 CN 151
+      - 🇨🇳 CN 152
+      - 🇨🇳 CN 153
+      - 🇨🇳 CN 154
+      - 🇨🇳 CN 155
+      - 🇨🇳 CN 156
+      - 🇨🇳 CN 157
+      - 🇨🇳 CN 158
+      - 🇨🇳 CN 159
+      - 🇨🇳 CN 160
+      - 🇨🇳 CN 161
+      - 🇨🇳 CN 162
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 16
-      - 🇭🇰 香港(yudou66.com+玉豆分享)
-      - 卢森堡(yudou66.com 玉豆分享)
-      - 🇨🇳 CN+13
-      - 🇨🇳 CN+28
-      - 🇨🇳 CN+29
-      - 🇨🇳 CN+30
-      - 🇨🇳 CN+31
-      - 🇨🇳 CN+34
-      - 🇨🇳 CN+36
-      - 🇨🇳 CN+37
-      - 🇨🇳 CN+38
-      - 🇨🇳 CN+40
-      - 🇨🇳 CN+41
-      - 🇨🇳 CN+42
-      - 🇨🇳 CN+45
-      - 🇨🇳 CN+46
-      - 🇨🇳 CN+47
-      - 🇨🇳 CN+51
-      - 🇨🇳 CN+55
-      - 🇨🇳 CN+56
-      - 🇨🇳 CN+58
-      - 🇨🇳 CN+65
-      - 🇨🇳 CN+67
-      - 50007
-      - 50015
-      - 50016
-      - 50017
-      - 50022
-      - 50035
-      - 50036
-      - 50045
-      - 50046
-      - 50049
-      - 50050
-      - 50051
-      - 50052
-      - 50054
-      - 50055
-      - 50057
-      - 50059
-      - 50060
-      - 50061
-      - 50064
-      - 50066
-      - 50073
-      - 50121
-      - 50667
-      - 50668
-      - 50710
-      - 50711
-      - 50712
-      - 50713
-      - 50714
-      - 🇨🇳 (Youtube技术分享室)🇨🇳中国+13
-      - 🇨🇳 (Youtube技术分享室)🇨🇳中国+19
-      - 🇨🇳 (Youtube技术分享室)🇨🇳中国+31
-      - 🇨🇳 (Youtube技术分享室)🇨🇳中国+59
-      - 🇨🇳 (Youtube技术分享室)🇨🇳中国+73
-      - 🇨🇳 (Youtube技术分享室)🇨🇳中国+76
-      - 🇨🇳 (Youtube技术分享室)🇨🇳中国+96
-      - 🇨🇳 (Youtube技术分享室)🇨🇳中国+98
-      - 🇨🇳 (Youtube技术分享室)🇨🇳中国 125
-      - 🇨🇳 (Youtube技术分享室)🇨🇳中国 126
-      - 🇨🇳 (Youtube技术分享室)🇨🇳中国 128
+      - 🇨🇳 CN
+      - 🇨🇳 CN 2
+      - 🇨🇳 CN 3
+      - 🇨🇳 CN 4
+      - 🇨🇳 CN 5
+      - 🇨🇳 CN 6
+      - 🇨🇳 CN 7
+      - 🇨🇳 CN 8
+      - 🇨🇳 CN 9
+      - 🇨🇳 CN 10
+      - 🇨🇳 CN 11
+      - 🇨🇳 CN 12
+      - 🇨🇳 CN 13
+      - 🇨🇳 CN 14
+      - 🇨🇳 CN 15
+      - 🇨🇳 CN 16
+      - 🇨🇳 CN 17
+      - 🇨🇳 CN 18
+      - 🇨🇳 CN 19
+      - 🇨🇳 CN 20
+      - 🇨🇳 CN 21
+      - 🇨🇳 CN 22
+      - 🇨🇳 CN 23
+      - 🇨🇳 CN 24
+      - 🇨🇳 CN 25
+      - 🇨🇳 CN 26
+      - 🇨🇳 CN 27
+      - 🇨🇳 CN 28
+      - 🇨🇳 CN 29
+      - 🇨🇳 CN 30
+      - 🇨🇳 CN 31
+      - 🇨🇳 CN 32
+      - 🇨🇳 CN 33
+      - 🇨🇳 CN 34
+      - 🇨🇳 CN 35
+      - 🇨🇳 CN 36
+      - 🇨🇳 CN 37
+      - 🇨🇳 CN 38
+      - 🇨🇳 CN 39
+      - 🇨🇳 CN 40
+      - 🇨🇳 CN 41
+      - 🇨🇳 CN 42
+      - 🇨🇳 CN 43
+      - 🇨🇳 CN 44
+      - 🇨🇳 CN 45
+      - 🇨🇳 CN 46
+      - 🇨🇳 CN 47
+      - 🇨🇳 CN 48
+      - 🇨🇳 CN 49
+      - 🇨🇳 CN 50
+      - 🇨🇳 CN 51
+      - 🇨🇳 CN 52
+      - 🇨🇳 CN 53
+      - 🇨🇳 CN 54
+      - 🇨🇳 CN 55
+      - 🇨🇳 CN 56
+      - 🇨🇳 CN 57
+      - 🇨🇳 CN 58
+      - 🇨🇳 CN 59
+      - 🇨🇳 CN 60
+      - 🇨🇳 CN 61
+      - 🇨🇳 CN 62
+      - 🇨🇳 CN 63
+      - 🇨🇳 CN 64
+      - 🇨🇳 CN 65
+      - 🇨🇳 CN 66
+      - 🇨🇳 CN 67
+      - 🇨🇳 CN 68
+      - 🇨🇳 CN 69
+      - 🇨🇳 CN 70
+      - 🇨🇳 CN 71
+      - 🇨🇳 CN 72
+      - 🇨🇳 CN 73
+      - 🇨🇳 CN 74
+      - 🇨🇳 CN 75
+      - 🇨🇳 CN 76
+      - 🇨🇳 CN 77
+      - 🇨🇳 CN 78
+      - 🇨🇳 CN 79
+      - 🇨🇳 CN 80
+      - 🇨🇳 CN 81
+      - 🇨🇳 CN 82
+      - 🇨🇳 CN 83
+      - 🇨🇳 CN 84
+      - 🇨🇳 CN 85
+      - 🇨🇳 CN 86
+      - 🇨🇳 CN 87
+      - 🇨🇳 CN 88
+      - 🇨🇳 CN 89
+      - 🇨🇳 CN 90
+      - 🇨🇳 CN 91
+      - 🇨🇳 CN 92
+      - 🇨🇳 CN 93
+      - 🇨🇳 CN 94
+      - 🇨🇳 CN 95
+      - 🇨🇳 CN 96
+      - 🇨🇳 CN 97
+      - 🇨🇳 CN 98
+      - 🇨🇳 CN 99
+      - 🇨🇳 CN 100
+      - 🇨🇳 CN 101
+      - 🇨🇳 CN 102
+      - 🇨🇳 CN 103
+      - 🇨🇳 CN 104
+      - 🇨🇳 CN 105
+      - 🇨🇳 CN 106
+      - 🇨🇳 CN 107
+      - 🇨🇳 CN 108
+      - 🇨🇳 CN 109
+      - 🇨🇳 CN 110
+      - 🇨🇳 CN 111
+      - 🇨🇳 CN 112
+      - 🇨🇳 CN 113
+      - 🇨🇳 CN 114
+      - 🇨🇳 CN 115
+      - 🇨🇳 CN 116
+      - 🇨🇳 CN 117
+      - 🇨🇳 CN 118
+      - 🇨🇳 CN 119
+      - 🇨🇳 CN 120
+      - 🇨🇳 CN 121
+      - 🇨🇳 CN 122
+      - 🇨🇳 CN 123
+      - 🇨🇳 CN 124
+      - 🇨🇳 CN 125
+      - 🇨🇳 CN 126
+      - 🇨🇳 CN 127
+      - 🇨🇳 CN 128
+      - 🇨🇳 CN 129
+      - 🇨🇳 CN 130
+      - 🇨🇳 CN 131
+      - 🇨🇳 CN 132
+      - 🇨🇳 CN 133
+      - 🇨🇳 CN 134
+      - 🇨🇳 CN 135
+      - 🇨🇳 CN 136
+      - 🇨🇳 CN 137
+      - 🇨🇳 CN 138
+      - 🇨🇳 CN 139
+      - 🇨🇳 CN 140
+      - 🇨🇳 CN 141
+      - 🇨🇳 CN 142
+      - 🇨🇳 CN 143
+      - 🇨🇳 CN 144
+      - 🇨🇳 CN 145
+      - 🇨🇳 CN 146
+      - 🇨🇳 CN 147
+      - 🇨🇳 CN 148
+      - 🇨🇳 CN 149
+      - 🇨🇳 CN 150
+      - 🇯🇵 JP
+      - 🇨🇳 CN 151
+      - 🇨🇳 CN 152
+      - 🇨🇳 CN 153
+      - 🇨🇳 CN 154
+      - 🇨🇳 CN 155
+      - 🇨🇳 CN 156
+      - 🇨🇳 CN 157
+      - 🇨🇳 CN 158
+      - 🇨🇳 CN 159
+      - 🇨🇳 CN 160
+      - 🇨🇳 CN 161
+      - 🇨🇳 CN 162
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 16
-      - 🇭🇰 香港(yudou66.com+玉豆分享)
-      - 卢森堡(yudou66.com 玉豆分享)
-      - 🇨🇳 CN+13
-      - 🇨🇳 CN+28
-      - 🇨🇳 CN+29
-      - 🇨🇳 CN+30
-      - 🇨🇳 CN+31
-      - 🇨🇳 CN+34
-      - 🇨🇳 CN+36
-      - 🇨🇳 CN+37
-      - 🇨🇳 CN+38
-      - 🇨🇳 CN+40
-      - 🇨🇳 CN+41
-      - 🇨🇳 CN+42
-      - 🇨🇳 CN+45
-      - 🇨🇳 CN+46
-      - 🇨🇳 CN+47
-      - 🇨🇳 CN+51
-      - 🇨🇳 CN+55
-      - 🇨🇳 CN+56
-      - 🇨🇳 CN+58
-      - 🇨🇳 CN+65
-      - 🇨🇳 CN+67
-      - 50007
-      - 50015
-      - 50016
-      - 50017
-      - 50022
-      - 50035
-      - 50036
-      - 50045
-      - 50046
-      - 50049
-      - 50050
-      - 50051
-      - 50052
-      - 50054
-      - 50055
-      - 50057
-      - 50059
-      - 50060
-      - 50061
-      - 50064
-      - 50066
-      - 50073
-      - 50121
-      - 50667
-      - 50668
-      - 50710
-      - 50711
-      - 50712
-      - 50713
-      - 50714
-      - 🇨🇳 (Youtube技术分享室)🇨🇳中国+13
-      - 🇨🇳 (Youtube技术分享室)🇨🇳中国+19
-      - 🇨🇳 (Youtube技术分享室)🇨🇳中国+31
-      - 🇨🇳 (Youtube技术分享室)🇨🇳中国+59
-      - 🇨🇳 (Youtube技术分享室)🇨🇳中国+73
-      - 🇨🇳 (Youtube技术分享室)🇨🇳中国+76
-      - 🇨🇳 (Youtube技术分享室)🇨🇳中国+96
-      - 🇨🇳 (Youtube技术分享室)🇨🇳中国+98
-      - 🇨🇳 (Youtube技术分享室)🇨🇳中国 125
-      - 🇨🇳 (Youtube技术分享室)🇨🇳中国 126
-      - 🇨🇳 (Youtube技术分享室)🇨🇳中国 128
+      - 🇨🇳 CN
+      - 🇨🇳 CN 2
+      - 🇨🇳 CN 3
+      - 🇨🇳 CN 4
+      - 🇨🇳 CN 5
+      - 🇨🇳 CN 6
+      - 🇨🇳 CN 7
+      - 🇨🇳 CN 8
+      - 🇨🇳 CN 9
+      - 🇨🇳 CN 10
+      - 🇨🇳 CN 11
+      - 🇨🇳 CN 12
+      - 🇨🇳 CN 13
+      - 🇨🇳 CN 14
+      - 🇨🇳 CN 15
+      - 🇨🇳 CN 16
+      - 🇨🇳 CN 17
+      - 🇨🇳 CN 18
+      - 🇨🇳 CN 19
+      - 🇨🇳 CN 20
+      - 🇨🇳 CN 21
+      - 🇨🇳 CN 22
+      - 🇨🇳 CN 23
+      - 🇨🇳 CN 24
+      - 🇨🇳 CN 25
+      - 🇨🇳 CN 26
+      - 🇨🇳 CN 27
+      - 🇨🇳 CN 28
+      - 🇨🇳 CN 29
+      - 🇨🇳 CN 30
+      - 🇨🇳 CN 31
+      - 🇨🇳 CN 32
+      - 🇨🇳 CN 33
+      - 🇨🇳 CN 34
+      - 🇨🇳 CN 35
+      - 🇨🇳 CN 36
+      - 🇨🇳 CN 37
+      - 🇨🇳 CN 38
+      - 🇨🇳 CN 39
+      - 🇨🇳 CN 40
+      - 🇨🇳 CN 41
+      - 🇨🇳 CN 42
+      - 🇨🇳 CN 43
+      - 🇨🇳 CN 44
+      - 🇨🇳 CN 45
+      - 🇨🇳 CN 46
+      - 🇨🇳 CN 47
+      - 🇨🇳 CN 48
+      - 🇨🇳 CN 49
+      - 🇨🇳 CN 50
+      - 🇨🇳 CN 51
+      - 🇨🇳 CN 52
+      - 🇨🇳 CN 53
+      - 🇨🇳 CN 54
+      - 🇨🇳 CN 55
+      - 🇨🇳 CN 56
+      - 🇨🇳 CN 57
+      - 🇨🇳 CN 58
+      - 🇨🇳 CN 59
+      - 🇨🇳 CN 60
+      - 🇨🇳 CN 61
+      - 🇨🇳 CN 62
+      - 🇨🇳 CN 63
+      - 🇨🇳 CN 64
+      - 🇨🇳 CN 65
+      - 🇨🇳 CN 66
+      - 🇨🇳 CN 67
+      - 🇨🇳 CN 68
+      - 🇨🇳 CN 69
+      - 🇨🇳 CN 70
+      - 🇨🇳 CN 71
+      - 🇨🇳 CN 72
+      - 🇨🇳 CN 73
+      - 🇨🇳 CN 74
+      - 🇨🇳 CN 75
+      - 🇨🇳 CN 76
+      - 🇨🇳 CN 77
+      - 🇨🇳 CN 78
+      - 🇨🇳 CN 79
+      - 🇨🇳 CN 80
+      - 🇨🇳 CN 81
+      - 🇨🇳 CN 82
+      - 🇨🇳 CN 83
+      - 🇨🇳 CN 84
+      - 🇨🇳 CN 85
+      - 🇨🇳 CN 86
+      - 🇨🇳 CN 87
+      - 🇨🇳 CN 88
+      - 🇨🇳 CN 89
+      - 🇨🇳 CN 90
+      - 🇨🇳 CN 91
+      - 🇨🇳 CN 92
+      - 🇨🇳 CN 93
+      - 🇨🇳 CN 94
+      - 🇨🇳 CN 95
+      - 🇨🇳 CN 96
+      - 🇨🇳 CN 97
+      - 🇨🇳 CN 98
+      - 🇨🇳 CN 99
+      - 🇨🇳 CN 100
+      - 🇨🇳 CN 101
+      - 🇨🇳 CN 102
+      - 🇨🇳 CN 103
+      - 🇨🇳 CN 104
+      - 🇨🇳 CN 105
+      - 🇨🇳 CN 106
+      - 🇨🇳 CN 107
+      - 🇨🇳 CN 108
+      - 🇨🇳 CN 109
+      - 🇨🇳 CN 110
+      - 🇨🇳 CN 111
+      - 🇨🇳 CN 112
+      - 🇨🇳 CN 113
+      - 🇨🇳 CN 114
+      - 🇨🇳 CN 115
+      - 🇨🇳 CN 116
+      - 🇨🇳 CN 117
+      - 🇨🇳 CN 118
+      - 🇨🇳 CN 119
+      - 🇨🇳 CN 120
+      - 🇨🇳 CN 121
+      - 🇨🇳 CN 122
+      - 🇨🇳 CN 123
+      - 🇨🇳 CN 124
+      - 🇨🇳 CN 125
+      - 🇨🇳 CN 126
+      - 🇨🇳 CN 127
+      - 🇨🇳 CN 128
+      - 🇨🇳 CN 129
+      - 🇨🇳 CN 130
+      - 🇨🇳 CN 131
+      - 🇨🇳 CN 132
+      - 🇨🇳 CN 133
+      - 🇨🇳 CN 134
+      - 🇨🇳 CN 135
+      - 🇨🇳 CN 136
+      - 🇨🇳 CN 137
+      - 🇨🇳 CN 138
+      - 🇨🇳 CN 139
+      - 🇨🇳 CN 140
+      - 🇨🇳 CN 141
+      - 🇨🇳 CN 142
+      - 🇨🇳 CN 143
+      - 🇨🇳 CN 144
+      - 🇨🇳 CN 145
+      - 🇨🇳 CN 146
+      - 🇨🇳 CN 147
+      - 🇨🇳 CN 148
+      - 🇨🇳 CN 149
+      - 🇨🇳 CN 150
+      - 🇯🇵 JP
+      - 🇨🇳 CN 151
+      - 🇨🇳 CN 152
+      - 🇨🇳 CN 153
+      - 🇨🇳 CN 154
+      - 🇨🇳 CN 155
+      - 🇨🇳 CN 156
+      - 🇨🇳 CN 157
+      - 🇨🇳 CN 158
+      - 🇨🇳 CN 159
+      - 🇨🇳 CN 160
+      - 🇨🇳 CN 161
+      - 🇨🇳 CN 162
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -515,71 +1201,169 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 16
-      - 🇭🇰 香港(yudou66.com+玉豆分享)
-      - 卢森堡(yudou66.com 玉豆分享)
-      - 🇨🇳 CN+13
-      - 🇨🇳 CN+28
-      - 🇨🇳 CN+29
-      - 🇨🇳 CN+30
-      - 🇨🇳 CN+31
-      - 🇨🇳 CN+34
-      - 🇨🇳 CN+36
-      - 🇨🇳 CN+37
-      - 🇨🇳 CN+38
-      - 🇨🇳 CN+40
-      - 🇨🇳 CN+41
-      - 🇨🇳 CN+42
-      - 🇨🇳 CN+45
-      - 🇨🇳 CN+46
-      - 🇨🇳 CN+47
-      - 🇨🇳 CN+51
-      - 🇨🇳 CN+55
-      - 🇨🇳 CN+56
-      - 🇨🇳 CN+58
-      - 🇨🇳 CN+65
-      - 🇨🇳 CN+67
-      - 50007
-      - 50015
-      - 50016
-      - 50017
-      - 50022
-      - 50035
-      - 50036
-      - 50045
-      - 50046
-      - 50049
-      - 50050
-      - 50051
-      - 50052
-      - 50054
-      - 50055
-      - 50057
-      - 50059
-      - 50060
-      - 50061
-      - 50064
-      - 50066
-      - 50073
-      - 50121
-      - 50667
-      - 50668
-      - 50710
-      - 50711
-      - 50712
-      - 50713
-      - 50714
-      - 🇨🇳 (Youtube技术分享室)🇨🇳中国+13
-      - 🇨🇳 (Youtube技术分享室)🇨🇳中国+19
-      - 🇨🇳 (Youtube技术分享室)🇨🇳中国+31
-      - 🇨🇳 (Youtube技术分享室)🇨🇳中国+59
-      - 🇨🇳 (Youtube技术分享室)🇨🇳中国+73
-      - 🇨🇳 (Youtube技术分享室)🇨🇳中国+76
-      - 🇨🇳 (Youtube技术分享室)🇨🇳中国+96
-      - 🇨🇳 (Youtube技术分享室)🇨🇳中国+98
-      - 🇨🇳 (Youtube技术分享室)🇨🇳中国 125
-      - 🇨🇳 (Youtube技术分享室)🇨🇳中国 126
-      - 🇨🇳 (Youtube技术分享室)🇨🇳中国 128
+      - 🇨🇳 CN
+      - 🇨🇳 CN 2
+      - 🇨🇳 CN 3
+      - 🇨🇳 CN 4
+      - 🇨🇳 CN 5
+      - 🇨🇳 CN 6
+      - 🇨🇳 CN 7
+      - 🇨🇳 CN 8
+      - 🇨🇳 CN 9
+      - 🇨🇳 CN 10
+      - 🇨🇳 CN 11
+      - 🇨🇳 CN 12
+      - 🇨🇳 CN 13
+      - 🇨🇳 CN 14
+      - 🇨🇳 CN 15
+      - 🇨🇳 CN 16
+      - 🇨🇳 CN 17
+      - 🇨🇳 CN 18
+      - 🇨🇳 CN 19
+      - 🇨🇳 CN 20
+      - 🇨🇳 CN 21
+      - 🇨🇳 CN 22
+      - 🇨🇳 CN 23
+      - 🇨🇳 CN 24
+      - 🇨🇳 CN 25
+      - 🇨🇳 CN 26
+      - 🇨🇳 CN 27
+      - 🇨🇳 CN 28
+      - 🇨🇳 CN 29
+      - 🇨🇳 CN 30
+      - 🇨🇳 CN 31
+      - 🇨🇳 CN 32
+      - 🇨🇳 CN 33
+      - 🇨🇳 CN 34
+      - 🇨🇳 CN 35
+      - 🇨🇳 CN 36
+      - 🇨🇳 CN 37
+      - 🇨🇳 CN 38
+      - 🇨🇳 CN 39
+      - 🇨🇳 CN 40
+      - 🇨🇳 CN 41
+      - 🇨🇳 CN 42
+      - 🇨🇳 CN 43
+      - 🇨🇳 CN 44
+      - 🇨🇳 CN 45
+      - 🇨🇳 CN 46
+      - 🇨🇳 CN 47
+      - 🇨🇳 CN 48
+      - 🇨🇳 CN 49
+      - 🇨🇳 CN 50
+      - 🇨🇳 CN 51
+      - 🇨🇳 CN 52
+      - 🇨🇳 CN 53
+      - 🇨🇳 CN 54
+      - 🇨🇳 CN 55
+      - 🇨🇳 CN 56
+      - 🇨🇳 CN 57
+      - 🇨🇳 CN 58
+      - 🇨🇳 CN 59
+      - 🇨🇳 CN 60
+      - 🇨🇳 CN 61
+      - 🇨🇳 CN 62
+      - 🇨🇳 CN 63
+      - 🇨🇳 CN 64
+      - 🇨🇳 CN 65
+      - 🇨🇳 CN 66
+      - 🇨🇳 CN 67
+      - 🇨🇳 CN 68
+      - 🇨🇳 CN 69
+      - 🇨🇳 CN 70
+      - 🇨🇳 CN 71
+      - 🇨🇳 CN 72
+      - 🇨🇳 CN 73
+      - 🇨🇳 CN 74
+      - 🇨🇳 CN 75
+      - 🇨🇳 CN 76
+      - 🇨🇳 CN 77
+      - 🇨🇳 CN 78
+      - 🇨🇳 CN 79
+      - 🇨🇳 CN 80
+      - 🇨🇳 CN 81
+      - 🇨🇳 CN 82
+      - 🇨🇳 CN 83
+      - 🇨🇳 CN 84
+      - 🇨🇳 CN 85
+      - 🇨🇳 CN 86
+      - 🇨🇳 CN 87
+      - 🇨🇳 CN 88
+      - 🇨🇳 CN 89
+      - 🇨🇳 CN 90
+      - 🇨🇳 CN 91
+      - 🇨🇳 CN 92
+      - 🇨🇳 CN 93
+      - 🇨🇳 CN 94
+      - 🇨🇳 CN 95
+      - 🇨🇳 CN 96
+      - 🇨🇳 CN 97
+      - 🇨🇳 CN 98
+      - 🇨🇳 CN 99
+      - 🇨🇳 CN 100
+      - 🇨🇳 CN 101
+      - 🇨🇳 CN 102
+      - 🇨🇳 CN 103
+      - 🇨🇳 CN 104
+      - 🇨🇳 CN 105
+      - 🇨🇳 CN 106
+      - 🇨🇳 CN 107
+      - 🇨🇳 CN 108
+      - 🇨🇳 CN 109
+      - 🇨🇳 CN 110
+      - 🇨🇳 CN 111
+      - 🇨🇳 CN 112
+      - 🇨🇳 CN 113
+      - 🇨🇳 CN 114
+      - 🇨🇳 CN 115
+      - 🇨🇳 CN 116
+      - 🇨🇳 CN 117
+      - 🇨🇳 CN 118
+      - 🇨🇳 CN 119
+      - 🇨🇳 CN 120
+      - 🇨🇳 CN 121
+      - 🇨🇳 CN 122
+      - 🇨🇳 CN 123
+      - 🇨🇳 CN 124
+      - 🇨🇳 CN 125
+      - 🇨🇳 CN 126
+      - 🇨🇳 CN 127
+      - 🇨🇳 CN 128
+      - 🇨🇳 CN 129
+      - 🇨🇳 CN 130
+      - 🇨🇳 CN 131
+      - 🇨🇳 CN 132
+      - 🇨🇳 CN 133
+      - 🇨🇳 CN 134
+      - 🇨🇳 CN 135
+      - 🇨🇳 CN 136
+      - 🇨🇳 CN 137
+      - 🇨🇳 CN 138
+      - 🇨🇳 CN 139
+      - 🇨🇳 CN 140
+      - 🇨🇳 CN 141
+      - 🇨🇳 CN 142
+      - 🇨🇳 CN 143
+      - 🇨🇳 CN 144
+      - 🇨🇳 CN 145
+      - 🇨🇳 CN 146
+      - 🇨🇳 CN 147
+      - 🇨🇳 CN 148
+      - 🇨🇳 CN 149
+      - 🇨🇳 CN 150
+      - 🇯🇵 JP
+      - 🇨🇳 CN 151
+      - 🇨🇳 CN 152
+      - 🇨🇳 CN 153
+      - 🇨🇳 CN 154
+      - 🇨🇳 CN 155
+      - 🇨🇳 CN 156
+      - 🇨🇳 CN 157
+      - 🇨🇳 CN 158
+      - 🇨🇳 CN 159
+      - 🇨🇳 CN 160
+      - 🇨🇳 CN 161
+      - 🇨🇳 CN 162
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
