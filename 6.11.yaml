@@ -5,143 +5,161 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _油管：全网最强白嫖, server: 85.208.108.19, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: _油管：全网最强白嫖 2, server: 85.208.108.19, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇪🇺 欧洲(油管:破解资源君2.0), server: kr04.wangxd.life, port: 3052, type: trojan, password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e, sni: kr04.wangxd.life}
-  - {name: _油管：全网最强白嫖 3, server: 120.233.7.221, port: 32004, type: vmess, uuid: 67c50f6a-816d-3555-89b4-19dd29608f8b, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 广州(油管:破解资源君2.0), server: gzyd2.52147.top, port: 30130, type: trojan, password: c35ff7bd-3596-48df-8cfc-41f8c576ab4e, sni: gzyd2.52147.top}
-  - {name: 🇪🇺 欧洲(油管:破解资源君2.0) 2, server: hnyd.52147.top, port: 30080, type: trojan, password: c35ff7bd-3596-48df-8cfc-41f8c576ab4e, sni: hnyd.52147.top}
-  - {name: 🇪🇺 欧洲(油管:破解资源君2.0) 3, server: 192.74.242.182, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/170419111021, ws-headers: {Host: www.32338075.xyz}}
-  - {name: _油管：全网最强白嫖 4, server: zx.wukongpay.xyz, port: 5221, type: vmess, uuid: ac97f8ad-141d-3949-a77e-736466aa2847, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: zx.wukongpay.xyz}}
-  - {name: 亚洲(油管:破解资源君2.0), server: gzyd1.52147.top, port: 30130, type: trojan, password: c35ff7bd-3596-48df-8cfc-41f8c576ab4e, sni: gzyd1.52147.top}
-  - {name: 亚洲(油管:破解资源君2.0) 2, server: hnyd.52147.top, port: 30130, type: trojan, password: c35ff7bd-3596-48df-8cfc-41f8c576ab4e, sni: hnyd.52147.top}
-  - {name: 🇺🇸 美国(油管:破解资源君2.0), server: usfree2.jiantian.xyz, port: 32462, type: trojan, password: cb5e2135-4d64-4454-be98-5bae4f2618d1, sni: usfree2.jiantian.xyz}
-  - {name: _油管：全网最强白嫖 5, server: 120.233.7.221, port: 18006, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: false}
-  - {name: _油管：全网最强白嫖 6, server: pp1.zhengzhongfeizhu.xyz, port: 32003, type: trojan, password: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, sni: pp1.zhengzhongfeizhu.xyz}
-  - {name: _油管：全网最强白嫖 7, server: 139.227.78.64, port: 17101, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇪🇺 欧洲(油管:破解资源君2.0) 4, server: gzyd1.52147.top, port: 30010, type: trojan, password: c35ff7bd-3596-48df-8cfc-41f8c576ab4e, sni: gzyd1.52147.top}
-  - {name: _油管：全网最强白嫖 8, server: api.qiscus.com, port: 443, type: vmess, uuid: 8f9b60e6-1db3-42e4-97b9-1e311f427649, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /vmess-ws-makae, ws-headers: {Host: bn-id01.ipv2ray.xyz}}
-  - {name: _油管：全网最强白嫖 9, server: trojan2.udpgw.com, port: 443, type: trojan, password: 973ef350-f6a5-11ec-9274-1239d0255272, sni: trojan2.udpgw.com}
-  - {name: _油管：全网最强白嫖 10, server: 120.233.7.221, port: 18001, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: false}
-  - {name: _油管：全网最强白嫖 11, server: 36.139.115.52, port: 11303, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇪🇺 欧洲(油管:破解资源君2.0) 5, server: 36.133.220.166, port: 35010, type: vmess, uuid: 92ae7550-f158-3725-b887-1666116c8db3, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇪🇺 欧洲(油管:破解资源君2.0) 6, server: gzyd1.52147.top, port: 30080, type: trojan, password: c35ff7bd-3596-48df-8cfc-41f8c576ab4e, sni: gzyd1.52147.top}
-  - {name: _油管：全网最强白嫖 12, server: 139.227.78.64, port: 17003, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: false}
-  - {name: _油管：全网最强白嫖 13, server: 38.75.136.102, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: _油管：全网最强白嫖 14, server: 51.81.223.13, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false}
-  - {name: _油管：全网最强白嫖 15, server: 36.139.115.52, port: 11207, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: false}
-  - {name: 亚洲(油管:破解资源君2.0) 3, server: pp1.zhengzhongfeizhu.xyz, port: 34003, type: trojan, password: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, sni: pp1.zhengzhongfeizhu.xyz}
-  - {name: 🇪🇺 欧洲(油管:破解资源君2.0) 7, server: zc.9900.sd20211007.xyz, port: 32001, type: vmess, uuid: 67c50f6a-816d-3555-89b4-19dd29608f8b, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 台湾(油管:破解资源君2.0), server: 625tw02.fx6688.top, port: 443, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: 625tw02.fx6688.top}}
-  - {name: _油管：全网最强白嫖 16, server: 103.90.220.27, port: 80, type: vmess, uuid: d97ee737-7bc0-4dca-acf1-85135ed4d97e, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: YouTube-aweikeji}}
-  - {name: 亚洲(油管:破解资源君2.0) 4, server: in02.my1188.org, port: 63087, type: vmess, uuid: c33c5af3-a848-3649-a5ec-e1e2a2491f6c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /mugua, ws-headers: {Host: sg-balancer.tencent.best}}
-  - {name: _油管：全网最强白嫖 17, server: 51.81.223.4, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国(油管:破解资源君2.0) 2, server: pp1.zhengzhongfeizhu.xyz, port: 33002, type: trojan, password: 7688df6f-bf65-3368-b55e-d78efea6a582, sni: pp1.zhengzhongfeizhu.xyz}
-  - {name: _油管：全网最强白嫖 18, server: 120.233.7.221, port: 18002, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: false}
-  - {name: _油管：全网最强白嫖 19, server: 120.233.7.221, port: 18005, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: false}
-  - {name: _油管：全网最强白嫖 20, server: 120.233.7.221, port: 32005, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: false}
-  - {name: _油管：全网最强白嫖 21, server: 194.156.231.254, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: _油管：全网最强白嫖 22, server: yd.gzyd.club, port: 3336, type: vmess, uuid: ac97f8ad-141d-3949-a77e-736466aa2847, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: yd.gzyd.club}}
-  - {name: _油管：全网最强白嫖 23, server: yd.gzyd.club, port: 3335, type: vmess, uuid: ac97f8ad-141d-3949-a77e-736466aa2847, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: yd.gzyd.club}}
-  - {name: 亚洲(油管:破解资源君2.0) 5, server: 51.89.18.25, port: 443, type: vmess, uuid: 9f58234c-355b-4065-ae21-d4a63099aba5, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/350432191028, ws-headers: {Host: www.98272029.xyz}}
-  - {name: _油管：全网最强白嫖 24, server: 194.156.231.254, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: _油管：全网最强白嫖 25, server: 150.230.43.106, port: 54829, type: vmess, uuid: f2b5c3ff-86c7-4efa-831f-ff0fcd7656a5, alterId: 0, cipher: auto, tls: false}
-  - {name: _油管：全网最强白嫖 26, server: 120.233.7.221, port: 32006, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: false}
-  - {name: _油管：全网最强白嫖 27, server: 139.227.78.64, port: 17001, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: false}
-  - {name: _油管：全网最强白嫖 28, server: 81.90.189.15, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 🇪🇺 欧洲(油管:破解资源君2.0) 8, server: 178.62.16.161, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: Ultr@r00t_2017}
-  - {name: _油管：全网最强白嫖 29, server: 120.233.7.221, port: 32004, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: false}
-  - {name: _油管：全网最强白嫖 30, server: yd.gzyd.club, port: 3334, type: vmess, uuid: ac97f8ad-141d-3949-a77e-736466aa2847, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: yd.gzyd.club}}
-  - {name: _油管：全网最强白嫖 31, server: 194.156.231.103, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: _油管：全网最强白嫖 32, server: 81.90.189.7, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: _油管：全网最强白嫖 33, server: 81.90.189.7, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: _油管：全网最强白嫖 34, server: 120.233.7.221, port: 18003, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: false}
-  - {name: _油管：全网最强白嫖 35, server: yd.gzyd.club, port: 1312, type: vmess, uuid: ac97f8ad-141d-3949-a77e-736466aa2847, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: yd.gzyd.club}}
-  - {name: _油管：全网最强白嫖 36, server: 194.156.231.223, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 🇪🇺 欧洲(油管:破解资源君2.0) 9, server: inap008.xmrth-node.xyz, port: 12265, type: vmess, uuid: 53ad95b1-8693-34e3-98d7-2010ad24aaf9, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: inap008.xmrth-node.xyz}}
-  - {name: _油管：全网最强白嫖 37, server: 194.156.231.103, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: _油管：全网最强白嫖 38, server: 194.156.231.223, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: _油管：全网最强白嫖 39, server: hongkong.xn--z4q48lcvp.com, port: 12346, type: vmess, uuid: 341dd977-ce83-42af-8f6d-1a1004ba8c5d, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /images, ws-headers: {Host: v.qq.com}}
-  - {name: _油管：全网最强白嫖 40, server: 81.90.189.7, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: _油管：全网最强白嫖 41, server: yd.gzyd.club, port: 2526, type: vmess, uuid: ac97f8ad-141d-3949-a77e-736466aa2847, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: yd.gzyd.club}}
-  - {name: 🇰🇷 韩国(油管:破解资源君2.0), server: chaogei6666.ducun.club, port: 80, type: vmess, uuid: 49ba5781-782a-4ef5-89ee-d86369b3949b, alterId: 10, cipher: auto, tls: false}
-  - {name: _油管：全网最强白嫖 42, server: 194.156.231.103, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: _油管：全网最强白嫖 43, server: yd.gzyd.club, port: 2425, type: vmess, uuid: ac97f8ad-141d-3949-a77e-736466aa2847, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: yd.gzyd.club}}
-  - {name: 🇭🇰 香港(油管:破解资源君2.0), server: gzyd2.52147.top, port: 30180, type: trojan, password: c35ff7bd-3596-48df-8cfc-41f8c576ab4e, sni: gzyd2.52147.top}
-  - {name: 🇺🇸 美国(油管:破解资源君2.0) 3, server: pp1.zhengzhongfeizhu.xyz, port: 33001, type: trojan, password: 7688df6f-bf65-3368-b55e-d78efea6a582, sni: pp1.zhengzhongfeizhu.xyz}
-  - {name: 🇭🇰 香港(油管:破解资源君2.0) 2, server: ingress-i1.onebox6.org, port: 38701, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: ingress-i1.onebox6.org}}
-  - {name: _油管：全网最强白嫖 44, server: zx.wukongpay.xyz, port: 5255, type: vmess, uuid: ac97f8ad-141d-3949-a77e-736466aa2847, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: zx.wukongpay.xyz}}
-  - {name: _油管：全网最强白嫖 45, server: 36.139.115.52, port: 11403, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: false}
-  - {name: _油管：全网最强白嫖 46, server: 139.227.78.64, port: 17010, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: false}
-  - {name: _油管：全网最强白嫖 47, server: zx.wukongpay.xyz, port: 5254, type: vmess, uuid: ac97f8ad-141d-3949-a77e-736466aa2847, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: zx.wukongpay.xyz}}
-  - {name: _油管：全网最强白嫖 48, server: 194.156.231.223, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 🇨🇳 台湾(油管:破解资源君2.0) 2, server: hnyd.52147.top, port: 30010, type: trojan, password: c35ff7bd-3596-48df-8cfc-41f8c576ab4e, sni: hnyd.52147.top}
-  - {name: _油管：全网最强白嫖 49, server: yd.gzyd.club, port: 4411, type: vmess, uuid: ac97f8ad-141d-3949-a77e-736466aa2847, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: yd.gzyd.club}}
-  - {name: _油管：全网最强白嫖 50, server: yd.gzyd.club, port: 5051, type: vmess, uuid: ac97f8ad-141d-3949-a77e-736466aa2847, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: yd.gzyd.club}}
-  - {name: _油管：全网最强白嫖 51, server: yd.gzyd.club, port: 2829, type: vmess, uuid: ac97f8ad-141d-3949-a77e-736466aa2847, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: yd.gzyd.club}}
-  - {name: 🇯🇵 日本(油管:破解资源君2.0), server: in-jp-1.iivvppnn.info, port: 38301, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: www.ivpnpro.net}}
-  - {name: _油管：全网最强白嫖 52, server: 120.233.7.221, port: 32002, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇪🇺 欧洲(油管:破解资源君2.0) 10, server: 51.38.118.42, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: Ultr@r00t_2017}
-  - {name: _油管：全网最强白嫖 53, server: zx.wukongpay.xyz, port: 2727, type: vmess, uuid: ac97f8ad-141d-3949-a77e-736466aa2847, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: zx.wukongpay.xyz}}
-  - {name: _油管：全网最强白嫖 54, server: yd.gzyd.club, port: 6765, type: vmess, uuid: ac97f8ad-141d-3949-a77e-736466aa2847, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: yd.gzyd.club}}
-  - {name: _油管：全网最强白嫖 55, server: 81.90.189.15, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: _油管：全网最强白嫖 56, server: yd.gzyd.club, port: 3344, type: vmess, uuid: ac97f8ad-141d-3949-a77e-736466aa2847, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: yd.gzyd.club}}
-  - {name: _油管：全网最强白嫖 57, server: 120.233.7.221, port: 32005, type: vmess, uuid: 67c50f6a-816d-3555-89b4-19dd29608f8b, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港(油管:破解资源君2.0) 3, server: pp1.zhengzhongfeizhu.xyz, port: 34000, type: trojan, password: 7688df6f-bf65-3368-b55e-d78efea6a582, sni: pp1.zhengzhongfeizhu.xyz}
-  - {name: _油管：全网最强白嫖 58, server: pp1.zhengzhongfeizhu.xyz, port: 32001, type: trojan, password: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, sni: pp1.zhengzhongfeizhu.xyz}
-  - {name: 🇺🇸 美国(油管:破解资源君2.0) 4, server: 150.230.99.46, port: 22222, type: vmess, uuid: e6c55d36-022c-4ebc-b9c2-e1220a7184f4, alterId: 0, cipher: auto, tls: false}
-  - {name: _油管：全网最强白嫖 59, server: 36.139.115.52, port: 11402, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: false}
-  - {name: 亚洲(油管:破解资源君2.0) 6, server: pp1.zhengzhongfeizhu.xyz, port: 32003, type: trojan, password: eb2f8154-ff58-3b99-b393-28c8eecdbe64, sni: pp1.zhengzhongfeizhu.xyz}
-  - {name: _油管：全网最强白嫖 60, server: pp1.zhengzhongfeizhu.xyz, port: 32001, type: trojan, password: eb2f8154-ff58-3b99-b393-28c8eecdbe64, sni: pp1.zhengzhongfeizhu.xyz}
-  - {name: 🇭🇰 香港(油管:破解资源君2.0) 4, server: pp1.zhengzhongfeizhu.xyz, port: 32001, type: trojan, password: 7688df6f-bf65-3368-b55e-d78efea6a582, sni: pp1.zhengzhongfeizhu.xyz}
-  - {name: 🇭🇰 香港(油管:破解资源君2.0) 5, server: pp1.zhengzhongfeizhu.xyz, port: 34001, type: trojan, password: 7688df6f-bf65-3368-b55e-d78efea6a582, sni: pp1.zhengzhongfeizhu.xyz}
-  - {name: 🇪🇺 欧洲(油管:破解资源君2.0) 11, server: g2.v2.gay, port: 443, type: vmess, uuid: a6458eee-549a-3d60-b559-0bf0a4fbf65b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: xxX5, ws-headers: {Host: link2.wweblog.pw}}
-  - {name: 🇭🇰 香港(油管:破解资源君2.0) 6, server: pp1.zhengzhongfeizhu.xyz, port: 32000, type: trojan, password: 7688df6f-bf65-3368-b55e-d78efea6a582, sni: pp1.zhengzhongfeizhu.xyz}
-  - {name: _油管：全网最强白嫖 61, server: 139.227.78.64, port: 17007, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: false}
-  - {name: _油管：全网最强白嫖 62, server: pp1.zhengzhongfeizhu.xyz, port: 34001, type: trojan, password: eb2f8154-ff58-3b99-b393-28c8eecdbe64, sni: pp1.zhengzhongfeizhu.xyz}
-  - {name: 🇭🇰 香港(油管:破解资源君2.0) 7, server: pp1.zhengzhongfeizhu.xyz, port: 32002, type: trojan, password: 7688df6f-bf65-3368-b55e-d78efea6a582, sni: pp1.zhengzhongfeizhu.xyz}
-  - {name: _油管：全网最强白嫖 63, server: 36.139.115.52, port: 11206, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: false}
-  - {name: _油管：全网最强白嫖 64, server: 81.90.189.15, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 🇭🇰 香港(油管:破解资源君2.0) 8, server: pp1.zhengzhongfeizhu.xyz, port: 32003, type: trojan, password: 7688df6f-bf65-3368-b55e-d78efea6a582, sni: pp1.zhengzhongfeizhu.xyz}
-  - {name: 🇸🇬 新加坡(油管:破解资源君2.0), server: 626sg05.ok365.cyou, port: 80, type: trojan, password: ab50a15b-d263-43ad-95b4-8ec176a598c8, sni: 626sg05.ok365.cyou}
-  - {name: _油管：全网最强白嫖 65, server: 120.233.7.221, port: 18007, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国(油管:破解资源君2.0) 5, server: fhcamd1.gaox.ml, port: 443, type: trojan, password: e23f408a-012e-4030-8b31-02022031cb50, sni: fhcamd1.gaox.ml}
-  - {name: _油管：全网最强白嫖 66, server: 194.124.35.23, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: _油管：全网最强白嫖 67, server: ingress-i1.onebox6.org, port: 38701, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: YouTube-aweikeji}}
-  - {name: _油管：全网最强白嫖 68, server: 139.227.78.64, port: 17102, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: false}
-  - {name: _油管：全网最强白嫖 69, server: 73hk03.fx6688.top, port: 443, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: 73hk03.fx6688.top}}
-  - {name: _油管：全网最强白嫖 70, server: 38.75.136.102, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: _油管：全网最强白嫖 71, server: 38.75.136.102, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇸🇬 新加坡(油管:破解资源君2.0) 2, server: 73hk02.ok365.cyou, port: 443, type: trojan, password: ab50a15b-d263-43ad-95b4-8ec176a598c8, sni: 73hk02.ok365.cyou}
-  - {name: 🇪🇺 欧洲(油管:破解资源君2.0) 12, server: 36.133.220.166, port: 35010, type: vmess, uuid: 92ae7550-f158-3725-b887-1666116c8db3, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国(油管:破解资源君2.0) 6, server: 20.239.176.94, port: 443, type: vmess, uuid: 4adf9138-5aca-4a26-b217-335e72bb680d, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 20.239.176.94}}
-  - {name: 亚洲(油管:破解资源君2.0) 7, server: hnyd.52147.top, port: 30120, type: trojan, password: c35ff7bd-3596-48df-8cfc-41f8c576ab4e, sni: hnyd.52147.top}
-  - {name: 🇺🇸 美国(油管:破解资源君2.0) 7, server: jgwdj3.gaox.ml, port: 443, type: trojan, password: da777aae-defb-41d0-a183-2c27da2b4677, sni: jgwdj3.gaox.ml}
-  - {name: 亚洲(油管:破解资源君2.0) 8, server: jgwxn4.gaox.ml, port: 443, type: trojan, password: e8c1ab3c-89b3-4933-92df-682e6dce7819, sni: jgwxn4.gaox.ml}
-  - {name: 亚洲(油管:破解资源君2.0) 9, server: gzyd2.52147.top, port: 30120, type: trojan, password: c35ff7bd-3596-48df-8cfc-41f8c576ab4e, sni: gzyd2.52147.top}
-  - {name: _油管：全网最强白嫖 72, server: yd.gzyd.club, port: 3435, type: vmess, uuid: ac97f8ad-141d-3949-a77e-736466aa2847, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: yd.gzyd.club}}
-  - {name: _油管：全网最强白嫖 73, server: yd.gzyd.club, port: 3434, type: vmess, uuid: ac97f8ad-141d-3949-a77e-736466aa2847, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: yd.gzyd.club}}
-  - {name: 亚洲(油管:破解资源君2.0) 10, server: in04.my1188.org, port: 63088, type: vmess, uuid: c33c5af3-a848-3649-a5ec-e1e2a2491f6c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /mugua, ws-headers: {Host: tw-load-balancer.myn1des.com}}
-  - {name: _油管：全网最强白嫖 74, server: 139.227.78.64, port: 17004, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港(油管:破解资源君2.0) 9, server: hnyd.52147.top, port: 30180, type: trojan, password: c35ff7bd-3596-48df-8cfc-41f8c576ab4e, sni: hnyd.52147.top}
-  - {name: _油管：全网最强白嫖 75, server: 120.233.7.221, port: 32001, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: false}
-  - {name: 亚洲(油管:破解资源君2.0) 11, server: gzyd1.52147.top, port: 30120, type: trojan, password: c35ff7bd-3596-48df-8cfc-41f8c576ab4e, sni: gzyd1.52147.top}
-  - {name: _油管：全网最强白嫖 76, server: 139.227.78.64, port: 17005, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: false}
-  - {name: _油管：全网最强白嫖 77, server: lms.uin-antasari.ac.id, port: 80, type: vmess, uuid: 46bfdb59-83c6-4710-877e-c809b5a90dff, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /vpnneo, ws-headers: {Host: exa.nextvpn.cc}}
-  - {name: 🇭🇰 香港(油管:破解资源君2.0) 10, server: pp1.zhengzhongfeizhu.xyz, port: 34003, type: trojan, password: 7688df6f-bf65-3368-b55e-d78efea6a582, sni: pp1.zhengzhongfeizhu.xyz}
-  - {name: _油管：全网最强白嫖 78, server: 194.156.231.254, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 🇨🇳 台湾(油管:破解资源君2.0) 3, server: gzyd2.52147.top, port: 30010, type: trojan, password: c35ff7bd-3596-48df-8cfc-41f8c576ab4e, sni: gzyd2.52147.top}
-  - {name: _油管：全网最强白嫖 79, server: 120.233.7.221, port: 18004, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国(油管:破解资源君2.0) 8, server: youtube-bai-piao-wang-zhe.nl.884899.cf, port: 41196, type: trojan, password: 94afcc56-cc1c-4cd4-8c82-1215cd052795, sni: youtube-bai-piao-wang-zhe.nl.884899.cf}
-  - {name: _油管：全网最强白嫖 80, server: yd.gzyd.club, port: 3337, type: vmess, uuid: ac97f8ad-141d-3949-a77e-736466aa2847, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: yd.gzyd.club}}
-  - {name: 🇪🇺 欧洲(油管:破解资源君2.0) 13, server: j1.v2.gay, port: 38301, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: j1.v2.gay}}
-  - {name: 🇭🇰 香港(油管:破解资源君2.0) 11, server: pp1.zhengzhongfeizhu.xyz, port: 34002, type: trojan, password: 7688df6f-bf65-3368-b55e-d78efea6a582, sni: pp1.zhengzhongfeizhu.xyz}
-  - {name: _油管：全网最强白嫖 81, server: 51.81.223.25, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false}
-  - {name: 🇨🇳 台湾(油管:破解资源君2.0) 4, server: 625tw.ok365.cyou, port: 443, type: trojan, password: ab50a15b-d263-43ad-95b4-8ec176a598c8, sni: 625tw.ok365.cyou}
-  - {name: 🇨🇳 台湾(油管:破解资源君2.0) 5, server: in-tw-1.iivvppnn.info, port: 38201, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: www.ivpnpro.net}}
-  - {name: _油管：全网最强白嫖 82, server: 38.75.136.102, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 🇺🇸 美国(油管:破解资源君2.0) 9, server: 161.35.69.20, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: Ultr@r00t_2017}
-  - {name: _油管：全网最强白嫖 83, server: 51.81.223.0, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false}
+  - {name: _油管：全网最强白嫖, server: 111.45.22.136, port: 65048, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 111.45.22.136}}
+  - {name: 亚洲(油管:破解资源君2.0), server: ingress-i1.onebox6.org, port: 38701, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: ingress-i1.onebox6.org}}
+  - {name: _油管：全网最强白嫖 2, server: 120.233.7.221, port: 32005, type: vmess, uuid: 67c50f6a-816d-3555-89b4-19dd29608f8b, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 新加坡(油管:破解资源君2.0), server: sg-01.licom.ml, port: 8443, type: trojan, password: ce433528-39fa-4711-bc0d-25a5b1579574, sni: sg-01.licom.ml}
+  - {name: _油管：全网最强白嫖 3, server: 120.233.150.146, port: 65083, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 120.233.150.146}}
+  - {name: 🇺🇸 美国(油管:破解资源君2.0), server: jgwcc3.gaox.ml, port: 443, type: trojan, password: b291d129-ee55-4801-a9b8-b5316e5c37b7, sni: jgwcc3.gaox.ml}
+  - {name: _油管：全网最强白嫖 4, server: 120.233.29.189, port: 65002, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 120.233.29.189}}
+  - {name: 🇪🇺 欧洲(油管:破解资源君2.0), server: 195.133.53.192, port: 43688, type: vmess, uuid: bd1c8b57-0a9e-4e9f-a261-48e90c871e41, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: YouTube-aweikeji}}
+  - {name: _油管：全网最强白嫖 5, server: 36.134.154.119, port: 65002, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 36.134.154.119}}
+  - {name: _油管：全网最强白嫖 6, server: 36.134.154.119, port: 65028, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 36.134.154.119}}
+  - {name: 🇯🇵 日本📔工具大师自用机场：https://kuaiyin.info/晚高峰8K流媒体, server: 5.183.176.92, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇯🇵 日本(油管:破解资源君2.0), server: in-01.licom.ml, port: 8443, type: trojan, password: ce433528-39fa-4711-bc0d-25a5b1579574, sni: in-01.licom.ml}
+  - {name: _油管：全网最强白嫖 7, server: 36.134.156.5, port: 65003, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 36.134.156.5}}
+  - {name: 🇪🇺 欧洲(油管:破解资源君2.0) 2, server: 129.150.61.170, port: 29493, type: vmess, uuid: ac0d0076-93d2-48ad-ba6e-ea5c8d7b0132, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 129.150.61.170}}
+  - {name: _油管：全网最强白嫖 8, server: 120.233.29.189, port: 65003, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 120.233.29.189}}
+  - {name: 🇸🇬 新加坡📔工具大师自用机场：https://kuaiyin.info/晚高峰8K流媒体, server: bai-piao-wang-zhe.us.567568.ml, port: 12337, type: trojan, password: df8ebf95-bd60-4f7e-a505-fe8db5ba3342, sni: bai-piao-wang-zhe.us.567568.ml}
+  - {name: _油管：全网最强白嫖 9, server: 120.233.7.221, port: 18006, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本(油管:破解资源君2.0) 2, server: vjp3.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /chat, ws-headers: {Host: vjp3.0bad.com}}
+  - {name: _油管：全网最强白嫖 10, server: 120.233.150.146, port: 65003, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 120.233.150.146}}
+  - {name: 🇪🇺 欧洲(油管:破解资源君2.0) 3, server: sg.guiqing.ml, port: 43956, type: vmess, uuid: 91df6837-896d-45bc-ec6f-0fe4b792b369, alterId: 0, cipher: auto, tls: false}
+  - {name: _油管：全网最强白嫖 11, server: pp1.zhengzhongfeizhu.xyz, port: 32001, type: trojan, password: 7688df6f-bf65-3368-b55e-d78efea6a582, sni: pp1.zhengzhongfeizhu.xyz}
+  - {name: _油管：全网最强白嫖 12, server: 120.233.29.189, port: 65038, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 120.233.29.189}}
+  - {name: _油管：全网最强白嫖 13, server: 120.233.150.146, port: 65038, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 120.233.150.146}}
+  - {name: _油管：全网最强白嫖 14, server: 111.45.22.136, port: 65043, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 111.45.22.136}}
+  - {name: _油管：全网最强白嫖 15, server: 36.134.154.119, port: 65083, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 36.134.154.119}}
+  - {name: _油管：全网最强白嫖 16, server: 36.134.154.119, port: 65003, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 36.134.154.119}}
+  - {name: _油管：全网最强白嫖 17, server: 36.134.154.119, port: 65038, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 36.134.154.119}}
+  - {name: 🇺🇸 美国(油管:破解资源君2.0) 2, server: bai-piao-wang-zhe.us.567568.ml, port: 12337, type: trojan, password: df8ebf95-bd60-4f7e-a505-fe8db5ba3342, sni: bai-piao-wang-zhe.us.567568.ml}
+  - {name: 🇪🇺 欧洲(油管:破解资源君2.0) 4, server: 144.24.88.101, port: 16833, type: vmess, uuid: f5425ccf-3946-4fb4-eb24-5393d78a392f, alterId: 0, cipher: auto, tls: false}
+  - {name: _油管：全网最强白嫖 18, server: 120.233.29.189, port: 65027, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 120.233.29.189}}
+  - {name: _油管：全网最强白嫖 19, server: 111.45.22.136, port: 65027, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 111.45.22.136}}
+  - {name: _油管：全网最强白嫖 20, server: 120.233.7.221, port: 32001, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 新加坡(油管:破解资源君2.0) 2, server: sg-04.licom.ml, port: 8443, type: trojan, password: ce433528-39fa-4711-bc0d-25a5b1579574, sni: sg-04.licom.ml}
+  - {name: _油管：全网最强白嫖 21, server: 111.45.22.136, port: 65028, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 111.45.22.136}}
+  - {name: _油管：全网最强白嫖 22, server: 120.233.29.189, port: 65028, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 120.233.29.189}}
+  - {name: 🇭🇰 香港(油管:破解资源君2.0), server: lc-hk03-direct01.lc-hk03.lc-node.com, port: 443, type: vmess, uuid: ec736482-173e-3eff-9114-b49df8056e7d, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: lc-hk03-direct01.lc-hk03.lc-node.com}}
+  - {name: 🇪🇺 欧洲(油管:破解资源君2.0) 5, server: v2ray.wefuckgfw.ga, port: 2096, type: vmess, uuid: 363a5f17-ff23-4550-b9d2-d106c3f457fd, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /H8VswtUJ/, ws-headers: {Host: v2ray.wefuckgfw.ga}}
+  - {name: _油管：全网最强白嫖 23, server: 111.45.22.136, port: 65083, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 111.45.22.136}}
+  - {name: 🇯🇵 日本📔工具大师自用机场：https://kuaiyin.info/晚高峰8K流媒体 2, server: 5.183.176.92, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇪🇺 欧洲(油管:破解资源君2.0) 6, server: fhcamd1.gaox.ml, port: 443, type: trojan, password: e23f408a-012e-4030-8b31-02022031cb50, sni: fhcamd1.gaox.ml}
+  - {name: _油管：全网最强白嫖 24, server: pp1.zhengzhongfeizhu.xyz, port: 34003, type: trojan, password: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, sni: pp1.zhengzhongfeizhu.xyz}
+  - {name: 🇪🇺 欧洲(油管:破解资源君2.0) 7, server: v2ray.wefuckgfw.ga, port: 2096, type: vmess, uuid: 5137dd43-d94e-4293-ae87-a42a3730742e, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /H8VswtUJ/, ws-headers: {Host: v2ray.wefuckgfw.ga}}
+  - {name: _油管：全网最强白嫖 25, server: 120.233.29.189, port: 65006, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 120.233.29.189}}
+  - {name: 🇪🇺 欧洲(油管:破解资源君2.0) 8, server: v2ray.wefuckgfw.ga, port: 2096, type: vmess, uuid: dd5f3ea6-e219-4934-826b-41b176c7a88e, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /H8VswtUJ/, ws-headers: {Host: v2ray.wefuckgfw.ga}}
+  - {name: 🇪🇺 欧洲(油管:破解资源君2.0) 9, server: v2ray.wefuckgfw.ga, port: 2096, type: vmess, uuid: 78edd6bd-4aaa-4f62-a515-40b7b46db98a, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /H8VswtUJ/, ws-headers: {Host: v2ray.wefuckgfw.ga}}
+  - {name: 🇺🇸 美国(油管:破解资源君2.0) 3, server: vus2.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /chat, ws-headers: {Host: vus2.0bad.com}}
+  - {name: _油管：全网最强白嫖 26, server: 194.156.231.248, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: _油管：全网最强白嫖 27, server: 36.134.156.5, port: 65002, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 36.134.156.5}}
+  - {name: 🇪🇺 欧洲(油管:破解资源君2.0) 10, server: cn04.downloadmovie.cn, port: 65036, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: "%7B%22Host%22:%22cn04.downloadmovie.cn%22%7D"}}
+  - {name: _油管：全网最强白嫖 28, server: 120.233.29.189, port: 65039, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 120.233.29.189}}
+  - {name: _油管：全网最强白嫖 29, server: 36.134.156.5, port: 65039, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 36.134.156.5}}
+  - {name: 🇺🇸 美国(油管:破解资源君2.0) 4, server: 161.35.69.20, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: Ultr@r00t_2017}
+  - {name: _油管：全网最强白嫖 30, server: 111.45.22.136, port: 65082, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 111.45.22.136}}
+  - {name: 🇪🇺 欧洲(油管:破解资源君2.0) 11, server: jgwxn3.gaox.ml, port: 443, type: trojan, password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf, sni: jgwxn3.gaox.ml}
+  - {name: _油管：全网最强白嫖 31, server: 36.134.156.5, port: 65028, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 36.134.156.5}}
+  - {name: 🇪🇺 欧洲(油管:破解资源君2.0) 12, server: 195.133.53.192, port: 14369, type: vmess, uuid: 2331affa-1194-45ae-9457-3746120c4751, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 195.133.53.192}}
+  - {name: _油管：全网最强白嫖 32, server: 5.188.0.151, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇸🇬 新加坡(油管:破解资源君2.0) 3, server: sg-02.licom.ml, port: 8443, type: trojan, password: ce433528-39fa-4711-bc0d-25a5b1579574, sni: sg-02.licom.ml}
+  - {name: _油管：全网最强白嫖 33, server: 120.233.150.146, port: 65069, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 120.233.150.146}}
+  - {name: _油管：全网最强白嫖 34, server: 36.134.156.5, port: 65027, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 36.134.156.5}}
+  - {name: _油管：全网最强白嫖 35, server: 120.233.7.221, port: 32006, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇪🇺 欧洲(油管:破解资源君2.0) 13, server: 146.56.110.129, port: 53702, type: vmess, uuid: d0ee8ec0-ef63-41aa-9087-11edf7a978b9, alterId: 0, cipher: auto, tls: false}
+  - {name: _油管：全网最强白嫖 36, server: 111.45.22.136, port: 65039, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 111.45.22.136}}
+  - {name: _油管：全网最强白嫖 37, server: 36.134.156.5, port: 65038, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 36.134.156.5}}
+  - {name: _油管：全网最强白嫖 38, server: 111.45.22.136, port: 65062, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 111.45.22.136}}
+  - {name: 亚洲(油管:破解资源君2.0) 2, server: cn04.downloadmovie.cn, port: 65025, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: "%7B%22Host%22:%22cn04.downloadmovie.cn%22%7D"}}
+  - {name: 亚洲(油管:破解资源君2.0) 3, server: cn03.downloadmovie.cn, port: 65041, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: "%7B%22Host%22:%22cn03.downloadmovie.cn%22%7D"}}
+  - {name: _油管：全网最强白嫖 39, server: 120.233.7.221, port: 32005, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: false}
+  - {name: _油管：全网最强白嫖 40, server: 120.233.7.221, port: 18001, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国(油管:破解资源君2.0) 5, server: gb.v2yyds.com, port: 32912, type: trojan, password: 0896373c-7cd9-4221-b50d-9634990d6751, sni: gb.v2yyds.com}
+  - {name: _油管：全网最强白嫖 41, server: 111.45.22.136, port: 65022, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 111.45.22.136}}
+  - {name: 🇺🇸 美国(油管:破解资源君2.0) 6, server: gb.v2yyds.com, port: 32913, type: trojan, password: 0896373c-7cd9-4221-b50d-9634990d6751, sni: gb.v2yyds.com}
+  - {name: 🇪🇺 欧洲(油管:破解资源君2.0) 14, server: us-05.licom.ml, port: 12501, type: trojan, password: ce433528-39fa-4711-bc0d-25a5b1579574, sni: us-05.licom.ml}
+  - {name: _油管：全网最强白嫖 42, server: 111.45.22.136, port: 65038, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 111.45.22.136}}
+  - {name: _油管：全网最强白嫖 43, server: auto-moble.downloadmovie.cn, port: 65000, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: YouTube-aweikeji}}
+  - {name: _油管：全网最强白嫖 44, server: 116.129.254.177, port: 65068, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 116.129.254.177}}
+  - {name: 🇪🇺 欧洲(油管:破解资源君2.0) 15, server: 178.62.16.161, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: Ultr@r00t_2017}
+  - {name: 🇸🇬 新加坡(油管:破解资源君2.0) 4, server: sg-03.licom.ml, port: 8443, type: trojan, password: ce433528-39fa-4711-bc0d-25a5b1579574, sni: sg-03.licom.ml}
+  - {name: 🇯🇵 日本📔工具大师自用机场：https://kuaiyin.info/晚高峰8K流媒体 3, server: 89.31.126.31, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: _油管：全网最强白嫖 45, server: 120.233.150.146, port: 65062, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 120.233.150.146}}
+  - {name: 🇪🇺 欧洲(油管:破解资源君2.0) 16, server: vau1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /chat, ws-headers: {Host: vau1.0bad.com}}
+  - {name: 🇪🇺 欧洲(油管:破解资源君2.0) 17, server: 144.24.88.101, port: 16833, type: vmess, uuid: f5425ccf-3946-4fb4-eb24-5393d78a392f, alterId: 0, cipher: auto, tls: false}
+  - {name: _油管：全网最强白嫖 46, server: 120.233.150.146, port: 65082, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 120.233.150.146}}
+  - {name: _油管：全网最强白嫖 47, server: 150.230.43.106, port: 54829, type: vmess, uuid: f2b5c3ff-86c7-4efa-831f-ff0fcd7656a5, alterId: 0, cipher: auto, tls: false}
+  - {name: _油管：全网最强白嫖 48, server: 36.134.156.5, port: 65068, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 36.134.156.5}}
+  - {name: _油管：全网最强白嫖 49, server: 111.45.22.136, port: 65002, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 111.45.22.136}}
+  - {name: _油管：全网最强白嫖 50, server: 111.45.22.136, port: 65003, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 111.45.22.136}}
+  - {name: _油管：全网最强白嫖 51, server: 120.233.7.221, port: 18003, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国(油管:破解资源君2.0) 7, server: 51.81.223.20, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false}
+  - {name: 🇪🇺 欧洲(油管:破解资源君2.0) 18, server: 51.81.223.32, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本(油管:破解资源君2.0) 3, server: 146.56.110.129, port: 26396, type: vmess, uuid: f4baed1c-ab86-4b70-caa3-df853467e1bd, alterId: 0, cipher: auto, tls: false}
+  - {name: _油管：全网最强白嫖 52, server: 89.31.126.31, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: _油管：全网最强白嫖 53, server: 120.233.150.146, port: 65035, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 120.233.150.146}}
+  - {name: 🇪🇺 欧洲(油管:破解资源君2.0) 19, server: 129.159.33.199, port: 45328, type: vmess, uuid: 842c33ff-31b5-410c-a96e-0cb52a99a6da, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 129.159.33.199}}
+  - {name: _油管：全网最强白嫖 54, server: 120.233.150.146, port: 65001, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 120.233.150.146}}
+  - {name: 🇺🇸 美国(油管:破解资源君2.0) 8, server: gb.v2yyds.com, port: 32911, type: trojan, password: 0896373c-7cd9-4221-b50d-9634990d6751, sni: gb.v2yyds.com}
+  - {name: _油管：全网最强白嫖 55, server: 89.31.126.31, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇪🇺 欧洲(油管:破解资源君2.0) 20, server: 51.81.223.32, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false}
+  - {name: 🇷🇺 俄罗斯(油管:破解资源君2.0), server: rn.v2yyds.com, port: 31911, type: trojan, password: 0896373c-7cd9-4221-b50d-9634990d6751, sni: rn.v2yyds.com}
+  - {name: 亚洲(油管:破解资源君2.0) 4, server: ingress-i1.onebox6.org, port: 38701, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: aweikeji-YouTube}}
+  - {name: _油管：全网最强白嫖 56, server: 120.233.7.221, port: 18005, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: false}
+  - {name: _油管：全网最强白嫖 57, server: pp1.zhengzhongfeizhu.xyz, port: 32002, type: trojan, password: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, sni: pp1.zhengzhongfeizhu.xyz}
+  - {name: _油管：全网最强白嫖 58, server: 111.45.22.136, port: 65034, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 111.45.22.136}}
+  - {name: 🇺🇸 美国(油管:破解资源君2.0) 9, server: vus4.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /chat, ws-headers: {Host: vus4.0bad.com}}
+  - {name: 🇯🇵 日本(油管:破解资源君2.0) 4, server: jp-03.licom.ml, port: 8443, type: trojan, password: ce433528-39fa-4711-bc0d-25a5b1579574, sni: jp-03.licom.ml}
+  - {name: 🇭🇰 香港(油管:破解资源君2.0) 2, server: cn05.downloadmovie.cn, port: 65083, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: cn05.downloadmovie.cn}}
+  - {name: _油管：全网最强白嫖 59, server: 120.233.150.146, port: 65048, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 120.233.150.146}}
+  - {name: _油管：全网最强白嫖 60, server: 120.233.150.146, port: 65002, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 120.233.150.146}}
+  - {name: _油管：全网最强白嫖 61, server: 120.233.7.221, port: 32002, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: false}
+  - {name: _油管：全网最强白嫖 62, server: 116.129.254.177, port: 65069, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 116.129.254.177}}
+  - {name: _油管：全网最强白嫖 63, server: 36.139.115.52, port: 11402, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: false}
+  - {name: _油管：全网最强白嫖 64, server: 120.233.7.221, port: 18007, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: false}
+  - {name: _油管：全网最强白嫖 65, server: 111.45.22.136, port: 65005, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 111.45.22.136}}
+  - {name: 亚洲(油管:破解资源君2.0) 5, server: cn03.downloadmovie.cn, port: 65027, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: "%7B%22Host%22:%22cn03.downloadmovie.cn%22%7D"}}
+  - {name: _油管：全网最强白嫖 66, server: 116.129.254.177, port: 65043, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 116.129.254.177}}
+  - {name: _油管：全网最强白嫖 67, server: 116.129.254.177, port: 65048, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 116.129.254.177}}
+  - {name: 🇺🇸 美国(油管:破解资源君2.0) 10, server: usa23.884899.cf, port: 443, type: trojan, password: 3df66137-a428-429c-a858-8b150721b354, sni: usa23.884899.cf}
+  - {name: _油管：全网最强白嫖 68, server: 120.233.29.189, port: 65063, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 120.233.29.189}}
+  - {name: _油管：全网最强白嫖 69, server: best04.downloadmovie.cn, port: 65048, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: YouTube-aweikeji}}
+  - {name: _油管：全网最强白嫖 70, server: 120.233.29.189, port: 65004, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 120.233.29.189}}
+  - {name: 🇭🇰 香港(油管:破解资源君2.0) 3, server: data-hk-v1.heisey.cn, port: 50205, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: tv.cctv.com}}
+  - {name: 🇪🇺 欧洲(油管:破解资源君2.0) 21, server: v2ray.wefuckgfw.ga, port: 2096, type: vmess, uuid: ca89295f-58be-4e4b-b4f6-7d8baf188ed3, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /H8VswtUJ/, ws-headers: {Host: v2ray.wefuckgfw.ga}}
+  - {name: 🇺🇸 美国(油管:破解资源君2.0) 11, server: v116.v2dns.bar, port: 80, type: vmess, uuid: c97cf46e-1554-36cb-8b36-c3556b883dc4, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v116-DtoEwAEX, ws-headers: {Host: v116.v2dns.bar}}
+  - {name: _油管：全网最强白嫖 71, server: 111.45.22.136, port: 65035, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 111.45.22.136}}
+  - {name: _油管：全网最强白嫖 72, server: 120.233.150.146, port: 65042, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 120.233.150.146}}
+  - {name: 🇺🇸 美国(油管:破解资源君2.0) 12, server: jgwdj4.gaox.ml, port: 443, type: trojan, password: c09eb137-bf68-4658-84e0-102d94b74168, sni: jgwdj4.gaox.ml}
+  - {name: _油管：全网最强白嫖 73, server: 120.233.29.189, port: 65048, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 120.233.29.189}}
+  - {name: 🇪🇺 欧洲(油管:破解资源君2.0) 22, server: vfly8.win, port: 443, type: vmess, uuid: 8fc94fe3-cfb1-4bc7-e43b-26d4d1e5f4cd, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /myblog, ws-headers: {Host: vfly8.win}}
+  - {name: 🇪🇺 欧洲(油管:破解资源君2.0) 23, server: 146.56.110.129, port: 15417, type: vmess, uuid: 81d30774-9e1b-4633-f8e1-90d5331dd68b, alterId: 0, cipher: auto, tls: false}
+  - {name: _油管：全网最强白嫖 74, server: 120.233.7.221, port: 18002, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: false}
+  - {name: _油管：全网最强白嫖 75, server: 116.129.254.177, port: 65035, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 116.129.254.177}}
+  - {name: 🇭🇰 香港(油管:破解资源君2.0) 4, server: cn02.downloadmovie.cn, port: 65040, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: cn02.downloadmovie.cn}}
+  - {name: 🇪🇺 欧洲(油管:破解资源君2.0) 24, server: 51.81.223.20, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false}
+  - {name: _油管：全网最强白嫖 76, server: pp1.zhengzhongfeizhu.xyz, port: 32003, type: trojan, password: eb2f8154-ff58-3b99-b393-28c8eecdbe64, sni: pp1.zhengzhongfeizhu.xyz}
+  - {name: 🇺🇸 美国(油管:破解资源君2.0) 13, server: sg.guiqing.ml, port: 43956, type: vmess, uuid: 91df6837-896d-45bc-ec6f-0fe4b792b369, alterId: 0, cipher: auto, tls: false}
+  - {name: _油管：全网最强白嫖 77, server: 36.139.115.52, port: 11207, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 新加坡(油管:破解资源君2.0) 5, server: sg1.xz88.ml, port: 12464, type: vmess, uuid: 09a62e54-0f74-4002-8d45-5fe63e4bf2a2, alterId: 0, cipher: auto, tls: true}
+  - {name: _油管：全网最强白嫖 78, server: 194.156.231.237, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: _油管：全网最强白嫖 79, server: 120.233.150.146, port: 65039, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 120.233.150.146}}
+  - {name: _油管：全网最强白嫖 80, server: 36.134.154.119, port: 65068, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 36.134.154.119}}
+  - {name: 🇪🇺 欧洲(油管:破解资源君2.0) 25, server: sg1.xz88.ml, port: 12464, type: vmess, uuid: 09a62e54-0f74-4002-8d45-5fe63e4bf2a2, alterId: 0, cipher: auto, tls: true}
+  - {name: _油管：全网最强白嫖 81, server: 36.134.154.119, port: 65006, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 36.134.154.119}}
+  - {name: 🇺🇸 美国(油管:破解资源君2.0) 14, server: 138.68.248.130, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: Ultr@r00t_2017}
+  - {name: 🇪🇺 欧洲(油管:破解资源君2.0) 26, server: zc.9900.sd20211007.xyz, port: 32001, type: vmess, uuid: 67c50f6a-816d-3555-89b4-19dd29608f8b, alterId: 0, cipher: auto, tls: false}
+  - {name: _油管：全网最强白嫖 82, server: 120.233.150.146, port: 65068, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 120.233.150.146}}
+  - {name: _油管：全网最强白嫖 83, server: 194.156.231.237, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇺🇸 美国(油管:破解资源君2.0) 15, server: bai-piao-wang-zhe.us.567568.ml, port: 19568, type: trojan, password: AglrNchEnS, sni: bai-piao-wang-zhe.us.567568.ml}
+  - {name: _油管：全网最强白嫖 84, server: 111.45.22.136, port: 65068, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /rocket, ws-headers: {Host: 111.45.22.136}}
+  - {name: 🇺🇸 美国(油管:破解资源君2.0) 16, server: 152.67.218.38, port: 443, type: vmess, uuid: b5e9480a-b7aa-40a4-f9a7-5299b5e363b4, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 152.67.218.38}}
+  - {name: 🇭🇰 香港(油管:破解资源君2.0) 5, server: 527hk1.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: 527hk1.fans8.xyz}}
+  - {name: _油管：全网最强白嫖 85, server: 120.233.7.221, port: 32004, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇪🇺 欧洲(油管:破解资源君2.0) 27, server: 144.24.88.101, port: 16833, type: vmess, uuid: f5425ccf-3946-4fb4-eb24-5393d78a392f, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国(油管:破解资源君2.0) 17, server: youtube-bai-piao-wang-zhe.nl.884899.cf, port: 41196, type: trojan, password: 94afcc56-cc1c-4cd4-8c82-1215cd052795, sni: youtube-bai-piao-wang-zhe.nl.884899.cf}
+  - {name: 🇪🇺 欧洲(油管:破解资源君2.0) 28, server: 129.150.61.170, port: 29493, type: vmess, uuid: ac0d0076-93d2-48ad-ba6e-ea5c8d7b0132, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 129.150.61.170}}
+  - {name: 🇺🇸 美国(油管:破解资源君2.0) 18, server: v5.tgfaka.com, port: 48443, type: trojan, password: ec3e47e9-8dd7-4302-aa1a-a5658d34e931, sni: v5.tgfaka.com}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -149,142 +167,160 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - _油管：全网最强白嫖
-      - _油管：全网最强白嫖 2
-      - 🇪🇺 欧洲(油管:破解资源君2.0)
-      - _油管：全网最强白嫖 3
-      - 🇨🇳 广州(油管:破解资源君2.0)
-      - 🇪🇺 欧洲(油管:破解资源君2.0) 2
-      - 🇪🇺 欧洲(油管:破解资源君2.0) 3
-      - _油管：全网最强白嫖 4
       - 亚洲(油管:破解资源君2.0)
-      - 亚洲(油管:破解资源君2.0) 2
+      - _油管：全网最强白嫖 2
+      - 🇸🇬 新加坡(油管:破解资源君2.0)
+      - _油管：全网最强白嫖 3
       - 🇺🇸 美国(油管:破解资源君2.0)
+      - _油管：全网最强白嫖 4
+      - 🇪🇺 欧洲(油管:破解资源君2.0)
       - _油管：全网最强白嫖 5
       - _油管：全网最强白嫖 6
+      - 🇯🇵 日本📔工具大师自用机场：https://kuaiyin.info/晚高峰8K流媒体
+      - 🇯🇵 日本(油管:破解资源君2.0)
       - _油管：全网最强白嫖 7
-      - 🇪🇺 欧洲(油管:破解资源君2.0) 4
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 2
       - _油管：全网最强白嫖 8
+      - 🇸🇬 新加坡📔工具大师自用机场：https://kuaiyin.info/晚高峰8K流媒体
       - _油管：全网最强白嫖 9
+      - 🇯🇵 日本(油管:破解资源君2.0) 2
       - _油管：全网最强白嫖 10
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 3
       - _油管：全网最强白嫖 11
-      - 🇪🇺 欧洲(油管:破解资源君2.0) 5
-      - 🇪🇺 欧洲(油管:破解资源君2.0) 6
       - _油管：全网最强白嫖 12
       - _油管：全网最强白嫖 13
       - _油管：全网最强白嫖 14
       - _油管：全网最强白嫖 15
-      - 亚洲(油管:破解资源君2.0) 3
-      - 🇪🇺 欧洲(油管:破解资源君2.0) 7
-      - 🇨🇳 台湾(油管:破解资源君2.0)
       - _油管：全网最强白嫖 16
-      - 亚洲(油管:破解资源君2.0) 4
       - _油管：全网最强白嫖 17
       - 🇺🇸 美国(油管:破解资源君2.0) 2
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 4
       - _油管：全网最强白嫖 18
       - _油管：全网最强白嫖 19
       - _油管：全网最强白嫖 20
+      - 🇸🇬 新加坡(油管:破解资源君2.0) 2
       - _油管：全网最强白嫖 21
       - _油管：全网最强白嫖 22
+      - 🇭🇰 香港(油管:破解资源君2.0)
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 5
       - _油管：全网最强白嫖 23
-      - 亚洲(油管:破解资源君2.0) 5
+      - 🇯🇵 日本📔工具大师自用机场：https://kuaiyin.info/晚高峰8K流媒体 2
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 6
       - _油管：全网最强白嫖 24
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 7
       - _油管：全网最强白嫖 25
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 8
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 9
+      - 🇺🇸 美国(油管:破解资源君2.0) 3
       - _油管：全网最强白嫖 26
       - _油管：全网最强白嫖 27
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 10
       - _油管：全网最强白嫖 28
-      - 🇪🇺 欧洲(油管:破解资源君2.0) 8
       - _油管：全网最强白嫖 29
+      - 🇺🇸 美国(油管:破解资源君2.0) 4
       - _油管：全网最强白嫖 30
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 11
       - _油管：全网最强白嫖 31
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 12
       - _油管：全网最强白嫖 32
+      - 🇸🇬 新加坡(油管:破解资源君2.0) 3
       - _油管：全网最强白嫖 33
       - _油管：全网最强白嫖 34
       - _油管：全网最强白嫖 35
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 13
       - _油管：全网最强白嫖 36
-      - 🇪🇺 欧洲(油管:破解资源君2.0) 9
       - _油管：全网最强白嫖 37
       - _油管：全网最强白嫖 38
+      - 亚洲(油管:破解资源君2.0) 2
+      - 亚洲(油管:破解资源君2.0) 3
       - _油管：全网最强白嫖 39
       - _油管：全网最强白嫖 40
+      - 🇺🇸 美国(油管:破解资源君2.0) 5
       - _油管：全网最强白嫖 41
-      - 🇰🇷 韩国(油管:破解资源君2.0)
+      - 🇺🇸 美国(油管:破解资源君2.0) 6
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 14
       - _油管：全网最强白嫖 42
       - _油管：全网最强白嫖 43
-      - 🇭🇰 香港(油管:破解资源君2.0)
-      - 🇺🇸 美国(油管:破解资源君2.0) 3
-      - 🇭🇰 香港(油管:破解资源君2.0) 2
       - _油管：全网最强白嫖 44
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 15
+      - 🇸🇬 新加坡(油管:破解资源君2.0) 4
+      - 🇯🇵 日本📔工具大师自用机场：https://kuaiyin.info/晚高峰8K流媒体 3
       - _油管：全网最强白嫖 45
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 16
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 17
       - _油管：全网最强白嫖 46
       - _油管：全网最强白嫖 47
       - _油管：全网最强白嫖 48
-      - 🇨🇳 台湾(油管:破解资源君2.0) 2
       - _油管：全网最强白嫖 49
       - _油管：全网最强白嫖 50
       - _油管：全网最强白嫖 51
-      - 🇯🇵 日本(油管:破解资源君2.0)
+      - 🇺🇸 美国(油管:破解资源君2.0) 7
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 18
+      - 🇯🇵 日本(油管:破解资源君2.0) 3
       - _油管：全网最强白嫖 52
-      - 🇪🇺 欧洲(油管:破解资源君2.0) 10
       - _油管：全网最强白嫖 53
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 19
       - _油管：全网最强白嫖 54
+      - 🇺🇸 美国(油管:破解资源君2.0) 8
       - _油管：全网最强白嫖 55
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 20
+      - 🇷🇺 俄罗斯(油管:破解资源君2.0)
+      - 亚洲(油管:破解资源君2.0) 4
       - _油管：全网最强白嫖 56
       - _油管：全网最强白嫖 57
-      - 🇭🇰 香港(油管:破解资源君2.0) 3
       - _油管：全网最强白嫖 58
-      - 🇺🇸 美国(油管:破解资源君2.0) 4
+      - 🇺🇸 美国(油管:破解资源君2.0) 9
+      - 🇯🇵 日本(油管:破解资源君2.0) 4
+      - 🇭🇰 香港(油管:破解资源君2.0) 2
       - _油管：全网最强白嫖 59
-      - 亚洲(油管:破解资源君2.0) 6
       - _油管：全网最强白嫖 60
-      - 🇭🇰 香港(油管:破解资源君2.0) 4
-      - 🇭🇰 香港(油管:破解资源君2.0) 5
-      - 🇪🇺 欧洲(油管:破解资源君2.0) 11
-      - 🇭🇰 香港(油管:破解资源君2.0) 6
       - _油管：全网最强白嫖 61
       - _油管：全网最强白嫖 62
-      - 🇭🇰 香港(油管:破解资源君2.0) 7
       - _油管：全网最强白嫖 63
       - _油管：全网最强白嫖 64
-      - 🇭🇰 香港(油管:破解资源君2.0) 8
-      - 🇸🇬 新加坡(油管:破解资源君2.0)
       - _油管：全网最强白嫖 65
-      - 🇺🇸 美国(油管:破解资源君2.0) 5
+      - 亚洲(油管:破解资源君2.0) 5
       - _油管：全网最强白嫖 66
       - _油管：全网最强白嫖 67
+      - 🇺🇸 美国(油管:破解资源君2.0) 10
       - _油管：全网最强白嫖 68
       - _油管：全网最强白嫖 69
       - _油管：全网最强白嫖 70
+      - 🇭🇰 香港(油管:破解资源君2.0) 3
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 21
+      - 🇺🇸 美国(油管:破解资源君2.0) 11
       - _油管：全网最强白嫖 71
-      - 🇸🇬 新加坡(油管:破解资源君2.0) 2
-      - 🇪🇺 欧洲(油管:破解资源君2.0) 12
-      - 🇺🇸 美国(油管:破解资源君2.0) 6
-      - 亚洲(油管:破解资源君2.0) 7
-      - 🇺🇸 美国(油管:破解资源君2.0) 7
-      - 亚洲(油管:破解资源君2.0) 8
-      - 亚洲(油管:破解资源君2.0) 9
       - _油管：全网最强白嫖 72
+      - 🇺🇸 美国(油管:破解资源君2.0) 12
       - _油管：全网最强白嫖 73
-      - 亚洲(油管:破解资源君2.0) 10
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 22
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 23
       - _油管：全网最强白嫖 74
-      - 🇭🇰 香港(油管:破解资源君2.0) 9
       - _油管：全网最强白嫖 75
-      - 亚洲(油管:破解资源君2.0) 11
+      - 🇭🇰 香港(油管:破解资源君2.0) 4
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 24
       - _油管：全网最强白嫖 76
+      - 🇺🇸 美国(油管:破解资源君2.0) 13
       - _油管：全网最强白嫖 77
-      - 🇭🇰 香港(油管:破解资源君2.0) 10
+      - 🇸🇬 新加坡(油管:破解资源君2.0) 5
       - _油管：全网最强白嫖 78
-      - 🇨🇳 台湾(油管:破解资源君2.0) 3
       - _油管：全网最强白嫖 79
-      - 🇺🇸 美国(油管:破解资源君2.0) 8
       - _油管：全网最强白嫖 80
-      - 🇪🇺 欧洲(油管:破解资源君2.0) 13
-      - 🇭🇰 香港(油管:破解资源君2.0) 11
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 25
       - _油管：全网最强白嫖 81
-      - 🇨🇳 台湾(油管:破解资源君2.0) 4
-      - 🇨🇳 台湾(油管:破解资源君2.0) 5
+      - 🇺🇸 美国(油管:破解资源君2.0) 14
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 26
       - _油管：全网最强白嫖 82
-      - 🇺🇸 美国(油管:破解资源君2.0) 9
       - _油管：全网最强白嫖 83
+      - 🇺🇸 美国(油管:破解资源君2.0) 15
+      - _油管：全网最强白嫖 84
+      - 🇺🇸 美国(油管:破解资源君2.0) 16
+      - 🇭🇰 香港(油管:破解资源君2.0) 5
+      - _油管：全网最强白嫖 85
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 27
+      - 🇺🇸 美国(油管:破解资源君2.0) 17
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 28
+      - 🇺🇸 美国(油管:破解资源君2.0) 18
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -292,142 +328,160 @@ proxy-groups:
     tolerance: 50
     proxies:
       - _油管：全网最强白嫖
-      - _油管：全网最强白嫖 2
-      - 🇪🇺 欧洲(油管:破解资源君2.0)
-      - _油管：全网最强白嫖 3
-      - 🇨🇳 广州(油管:破解资源君2.0)
-      - 🇪🇺 欧洲(油管:破解资源君2.0) 2
-      - 🇪🇺 欧洲(油管:破解资源君2.0) 3
-      - _油管：全网最强白嫖 4
       - 亚洲(油管:破解资源君2.0)
-      - 亚洲(油管:破解资源君2.0) 2
+      - _油管：全网最强白嫖 2
+      - 🇸🇬 新加坡(油管:破解资源君2.0)
+      - _油管：全网最强白嫖 3
       - 🇺🇸 美国(油管:破解资源君2.0)
+      - _油管：全网最强白嫖 4
+      - 🇪🇺 欧洲(油管:破解资源君2.0)
       - _油管：全网最强白嫖 5
       - _油管：全网最强白嫖 6
+      - 🇯🇵 日本📔工具大师自用机场：https://kuaiyin.info/晚高峰8K流媒体
+      - 🇯🇵 日本(油管:破解资源君2.0)
       - _油管：全网最强白嫖 7
-      - 🇪🇺 欧洲(油管:破解资源君2.0) 4
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 2
       - _油管：全网最强白嫖 8
+      - 🇸🇬 新加坡📔工具大师自用机场：https://kuaiyin.info/晚高峰8K流媒体
       - _油管：全网最强白嫖 9
+      - 🇯🇵 日本(油管:破解资源君2.0) 2
       - _油管：全网最强白嫖 10
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 3
       - _油管：全网最强白嫖 11
-      - 🇪🇺 欧洲(油管:破解资源君2.0) 5
-      - 🇪🇺 欧洲(油管:破解资源君2.0) 6
       - _油管：全网最强白嫖 12
       - _油管：全网最强白嫖 13
       - _油管：全网最强白嫖 14
       - _油管：全网最强白嫖 15
-      - 亚洲(油管:破解资源君2.0) 3
-      - 🇪🇺 欧洲(油管:破解资源君2.0) 7
-      - 🇨🇳 台湾(油管:破解资源君2.0)
       - _油管：全网最强白嫖 16
-      - 亚洲(油管:破解资源君2.0) 4
       - _油管：全网最强白嫖 17
       - 🇺🇸 美国(油管:破解资源君2.0) 2
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 4
       - _油管：全网最强白嫖 18
       - _油管：全网最强白嫖 19
       - _油管：全网最强白嫖 20
+      - 🇸🇬 新加坡(油管:破解资源君2.0) 2
       - _油管：全网最强白嫖 21
       - _油管：全网最强白嫖 22
+      - 🇭🇰 香港(油管:破解资源君2.0)
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 5
       - _油管：全网最强白嫖 23
-      - 亚洲(油管:破解资源君2.0) 5
+      - 🇯🇵 日本📔工具大师自用机场：https://kuaiyin.info/晚高峰8K流媒体 2
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 6
       - _油管：全网最强白嫖 24
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 7
       - _油管：全网最强白嫖 25
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 8
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 9
+      - 🇺🇸 美国(油管:破解资源君2.0) 3
       - _油管：全网最强白嫖 26
       - _油管：全网最强白嫖 27
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 10
       - _油管：全网最强白嫖 28
-      - 🇪🇺 欧洲(油管:破解资源君2.0) 8
       - _油管：全网最强白嫖 29
+      - 🇺🇸 美国(油管:破解资源君2.0) 4
       - _油管：全网最强白嫖 30
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 11
       - _油管：全网最强白嫖 31
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 12
       - _油管：全网最强白嫖 32
+      - 🇸🇬 新加坡(油管:破解资源君2.0) 3
       - _油管：全网最强白嫖 33
       - _油管：全网最强白嫖 34
       - _油管：全网最强白嫖 35
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 13
       - _油管：全网最强白嫖 36
-      - 🇪🇺 欧洲(油管:破解资源君2.0) 9
       - _油管：全网最强白嫖 37
       - _油管：全网最强白嫖 38
+      - 亚洲(油管:破解资源君2.0) 2
+      - 亚洲(油管:破解资源君2.0) 3
       - _油管：全网最强白嫖 39
       - _油管：全网最强白嫖 40
+      - 🇺🇸 美国(油管:破解资源君2.0) 5
       - _油管：全网最强白嫖 41
-      - 🇰🇷 韩国(油管:破解资源君2.0)
+      - 🇺🇸 美国(油管:破解资源君2.0) 6
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 14
       - _油管：全网最强白嫖 42
       - _油管：全网最强白嫖 43
-      - 🇭🇰 香港(油管:破解资源君2.0)
-      - 🇺🇸 美国(油管:破解资源君2.0) 3
-      - 🇭🇰 香港(油管:破解资源君2.0) 2
       - _油管：全网最强白嫖 44
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 15
+      - 🇸🇬 新加坡(油管:破解资源君2.0) 4
+      - 🇯🇵 日本📔工具大师自用机场：https://kuaiyin.info/晚高峰8K流媒体 3
       - _油管：全网最强白嫖 45
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 16
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 17
       - _油管：全网最强白嫖 46
       - _油管：全网最强白嫖 47
       - _油管：全网最强白嫖 48
-      - 🇨🇳 台湾(油管:破解资源君2.0) 2
       - _油管：全网最强白嫖 49
       - _油管：全网最强白嫖 50
       - _油管：全网最强白嫖 51
-      - 🇯🇵 日本(油管:破解资源君2.0)
+      - 🇺🇸 美国(油管:破解资源君2.0) 7
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 18
+      - 🇯🇵 日本(油管:破解资源君2.0) 3
       - _油管：全网最强白嫖 52
-      - 🇪🇺 欧洲(油管:破解资源君2.0) 10
       - _油管：全网最强白嫖 53
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 19
       - _油管：全网最强白嫖 54
+      - 🇺🇸 美国(油管:破解资源君2.0) 8
       - _油管：全网最强白嫖 55
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 20
+      - 🇷🇺 俄罗斯(油管:破解资源君2.0)
+      - 亚洲(油管:破解资源君2.0) 4
       - _油管：全网最强白嫖 56
       - _油管：全网最强白嫖 57
-      - 🇭🇰 香港(油管:破解资源君2.0) 3
       - _油管：全网最强白嫖 58
-      - 🇺🇸 美国(油管:破解资源君2.0) 4
+      - 🇺🇸 美国(油管:破解资源君2.0) 9
+      - 🇯🇵 日本(油管:破解资源君2.0) 4
+      - 🇭🇰 香港(油管:破解资源君2.0) 2
       - _油管：全网最强白嫖 59
-      - 亚洲(油管:破解资源君2.0) 6
       - _油管：全网最强白嫖 60
-      - 🇭🇰 香港(油管:破解资源君2.0) 4
-      - 🇭🇰 香港(油管:破解资源君2.0) 5
-      - 🇪🇺 欧洲(油管:破解资源君2.0) 11
-      - 🇭🇰 香港(油管:破解资源君2.0) 6
       - _油管：全网最强白嫖 61
       - _油管：全网最强白嫖 62
-      - 🇭🇰 香港(油管:破解资源君2.0) 7
       - _油管：全网最强白嫖 63
       - _油管：全网最强白嫖 64
-      - 🇭🇰 香港(油管:破解资源君2.0) 8
-      - 🇸🇬 新加坡(油管:破解资源君2.0)
       - _油管：全网最强白嫖 65
-      - 🇺🇸 美国(油管:破解资源君2.0) 5
+      - 亚洲(油管:破解资源君2.0) 5
       - _油管：全网最强白嫖 66
       - _油管：全网最强白嫖 67
+      - 🇺🇸 美国(油管:破解资源君2.0) 10
       - _油管：全网最强白嫖 68
       - _油管：全网最强白嫖 69
       - _油管：全网最强白嫖 70
+      - 🇭🇰 香港(油管:破解资源君2.0) 3
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 21
+      - 🇺🇸 美国(油管:破解资源君2.0) 11
       - _油管：全网最强白嫖 71
-      - 🇸🇬 新加坡(油管:破解资源君2.0) 2
-      - 🇪🇺 欧洲(油管:破解资源君2.0) 12
-      - 🇺🇸 美国(油管:破解资源君2.0) 6
-      - 亚洲(油管:破解资源君2.0) 7
-      - 🇺🇸 美国(油管:破解资源君2.0) 7
-      - 亚洲(油管:破解资源君2.0) 8
-      - 亚洲(油管:破解资源君2.0) 9
       - _油管：全网最强白嫖 72
+      - 🇺🇸 美国(油管:破解资源君2.0) 12
       - _油管：全网最强白嫖 73
-      - 亚洲(油管:破解资源君2.0) 10
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 22
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 23
       - _油管：全网最强白嫖 74
-      - 🇭🇰 香港(油管:破解资源君2.0) 9
       - _油管：全网最强白嫖 75
-      - 亚洲(油管:破解资源君2.0) 11
+      - 🇭🇰 香港(油管:破解资源君2.0) 4
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 24
       - _油管：全网最强白嫖 76
+      - 🇺🇸 美国(油管:破解资源君2.0) 13
       - _油管：全网最强白嫖 77
-      - 🇭🇰 香港(油管:破解资源君2.0) 10
+      - 🇸🇬 新加坡(油管:破解资源君2.0) 5
       - _油管：全网最强白嫖 78
-      - 🇨🇳 台湾(油管:破解资源君2.0) 3
       - _油管：全网最强白嫖 79
-      - 🇺🇸 美国(油管:破解资源君2.0) 8
       - _油管：全网最强白嫖 80
-      - 🇪🇺 欧洲(油管:破解资源君2.0) 13
-      - 🇭🇰 香港(油管:破解资源君2.0) 11
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 25
       - _油管：全网最强白嫖 81
-      - 🇨🇳 台湾(油管:破解资源君2.0) 4
-      - 🇨🇳 台湾(油管:破解资源君2.0) 5
+      - 🇺🇸 美国(油管:破解资源君2.0) 14
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 26
       - _油管：全网最强白嫖 82
-      - 🇺🇸 美国(油管:破解资源君2.0) 9
       - _油管：全网最强白嫖 83
+      - 🇺🇸 美国(油管:破解资源君2.0) 15
+      - _油管：全网最强白嫖 84
+      - 🇺🇸 美国(油管:破解资源君2.0) 16
+      - 🇭🇰 香港(油管:破解资源君2.0) 5
+      - _油管：全网最强白嫖 85
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 27
+      - 🇺🇸 美国(油管:破解资源君2.0) 17
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 28
+      - 🇺🇸 美国(油管:破解资源君2.0) 18
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -435,568 +489,640 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - _油管：全网最强白嫖
-      - _油管：全网最强白嫖 2
-      - 🇪🇺 欧洲(油管:破解资源君2.0)
-      - _油管：全网最强白嫖 3
-      - 🇨🇳 广州(油管:破解资源君2.0)
-      - 🇪🇺 欧洲(油管:破解资源君2.0) 2
-      - 🇪🇺 欧洲(油管:破解资源君2.0) 3
-      - _油管：全网最强白嫖 4
       - 亚洲(油管:破解资源君2.0)
-      - 亚洲(油管:破解资源君2.0) 2
+      - _油管：全网最强白嫖 2
+      - 🇸🇬 新加坡(油管:破解资源君2.0)
+      - _油管：全网最强白嫖 3
       - 🇺🇸 美国(油管:破解资源君2.0)
+      - _油管：全网最强白嫖 4
+      - 🇪🇺 欧洲(油管:破解资源君2.0)
       - _油管：全网最强白嫖 5
       - _油管：全网最强白嫖 6
+      - 🇯🇵 日本📔工具大师自用机场：https://kuaiyin.info/晚高峰8K流媒体
+      - 🇯🇵 日本(油管:破解资源君2.0)
       - _油管：全网最强白嫖 7
-      - 🇪🇺 欧洲(油管:破解资源君2.0) 4
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 2
       - _油管：全网最强白嫖 8
+      - 🇸🇬 新加坡📔工具大师自用机场：https://kuaiyin.info/晚高峰8K流媒体
       - _油管：全网最强白嫖 9
+      - 🇯🇵 日本(油管:破解资源君2.0) 2
       - _油管：全网最强白嫖 10
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 3
       - _油管：全网最强白嫖 11
-      - 🇪🇺 欧洲(油管:破解资源君2.0) 5
-      - 🇪🇺 欧洲(油管:破解资源君2.0) 6
       - _油管：全网最强白嫖 12
       - _油管：全网最强白嫖 13
       - _油管：全网最强白嫖 14
       - _油管：全网最强白嫖 15
-      - 亚洲(油管:破解资源君2.0) 3
-      - 🇪🇺 欧洲(油管:破解资源君2.0) 7
-      - 🇨🇳 台湾(油管:破解资源君2.0)
       - _油管：全网最强白嫖 16
-      - 亚洲(油管:破解资源君2.0) 4
       - _油管：全网最强白嫖 17
       - 🇺🇸 美国(油管:破解资源君2.0) 2
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 4
       - _油管：全网最强白嫖 18
       - _油管：全网最强白嫖 19
       - _油管：全网最强白嫖 20
+      - 🇸🇬 新加坡(油管:破解资源君2.0) 2
       - _油管：全网最强白嫖 21
       - _油管：全网最强白嫖 22
+      - 🇭🇰 香港(油管:破解资源君2.0)
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 5
       - _油管：全网最强白嫖 23
-      - 亚洲(油管:破解资源君2.0) 5
+      - 🇯🇵 日本📔工具大师自用机场：https://kuaiyin.info/晚高峰8K流媒体 2
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 6
       - _油管：全网最强白嫖 24
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 7
       - _油管：全网最强白嫖 25
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 8
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 9
+      - 🇺🇸 美国(油管:破解资源君2.0) 3
       - _油管：全网最强白嫖 26
       - _油管：全网最强白嫖 27
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 10
       - _油管：全网最强白嫖 28
-      - 🇪🇺 欧洲(油管:破解资源君2.0) 8
       - _油管：全网最强白嫖 29
+      - 🇺🇸 美国(油管:破解资源君2.0) 4
       - _油管：全网最强白嫖 30
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 11
       - _油管：全网最强白嫖 31
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 12
       - _油管：全网最强白嫖 32
+      - 🇸🇬 新加坡(油管:破解资源君2.0) 3
       - _油管：全网最强白嫖 33
       - _油管：全网最强白嫖 34
       - _油管：全网最强白嫖 35
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 13
       - _油管：全网最强白嫖 36
-      - 🇪🇺 欧洲(油管:破解资源君2.0) 9
       - _油管：全网最强白嫖 37
       - _油管：全网最强白嫖 38
+      - 亚洲(油管:破解资源君2.0) 2
+      - 亚洲(油管:破解资源君2.0) 3
       - _油管：全网最强白嫖 39
       - _油管：全网最强白嫖 40
+      - 🇺🇸 美国(油管:破解资源君2.0) 5
       - _油管：全网最强白嫖 41
-      - 🇰🇷 韩国(油管:破解资源君2.0)
+      - 🇺🇸 美国(油管:破解资源君2.0) 6
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 14
       - _油管：全网最强白嫖 42
       - _油管：全网最强白嫖 43
-      - 🇭🇰 香港(油管:破解资源君2.0)
-      - 🇺🇸 美国(油管:破解资源君2.0) 3
-      - 🇭🇰 香港(油管:破解资源君2.0) 2
       - _油管：全网最强白嫖 44
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 15
+      - 🇸🇬 新加坡(油管:破解资源君2.0) 4
+      - 🇯🇵 日本📔工具大师自用机场：https://kuaiyin.info/晚高峰8K流媒体 3
       - _油管：全网最强白嫖 45
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 16
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 17
       - _油管：全网最强白嫖 46
       - _油管：全网最强白嫖 47
       - _油管：全网最强白嫖 48
-      - 🇨🇳 台湾(油管:破解资源君2.0) 2
       - _油管：全网最强白嫖 49
       - _油管：全网最强白嫖 50
       - _油管：全网最强白嫖 51
-      - 🇯🇵 日本(油管:破解资源君2.0)
+      - 🇺🇸 美国(油管:破解资源君2.0) 7
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 18
+      - 🇯🇵 日本(油管:破解资源君2.0) 3
       - _油管：全网最强白嫖 52
-      - 🇪🇺 欧洲(油管:破解资源君2.0) 10
       - _油管：全网最强白嫖 53
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 19
       - _油管：全网最强白嫖 54
+      - 🇺🇸 美国(油管:破解资源君2.0) 8
       - _油管：全网最强白嫖 55
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 20
+      - 🇷🇺 俄罗斯(油管:破解资源君2.0)
+      - 亚洲(油管:破解资源君2.0) 4
       - _油管：全网最强白嫖 56
       - _油管：全网最强白嫖 57
-      - 🇭🇰 香港(油管:破解资源君2.0) 3
       - _油管：全网最强白嫖 58
-      - 🇺🇸 美国(油管:破解资源君2.0) 4
+      - 🇺🇸 美国(油管:破解资源君2.0) 9
+      - 🇯🇵 日本(油管:破解资源君2.0) 4
+      - 🇭🇰 香港(油管:破解资源君2.0) 2
       - _油管：全网最强白嫖 59
-      - 亚洲(油管:破解资源君2.0) 6
       - _油管：全网最强白嫖 60
-      - 🇭🇰 香港(油管:破解资源君2.0) 4
-      - 🇭🇰 香港(油管:破解资源君2.0) 5
-      - 🇪🇺 欧洲(油管:破解资源君2.0) 11
-      - 🇭🇰 香港(油管:破解资源君2.0) 6
       - _油管：全网最强白嫖 61
       - _油管：全网最强白嫖 62
-      - 🇭🇰 香港(油管:破解资源君2.0) 7
       - _油管：全网最强白嫖 63
       - _油管：全网最强白嫖 64
-      - 🇭🇰 香港(油管:破解资源君2.0) 8
-      - 🇸🇬 新加坡(油管:破解资源君2.0)
       - _油管：全网最强白嫖 65
-      - 🇺🇸 美国(油管:破解资源君2.0) 5
+      - 亚洲(油管:破解资源君2.0) 5
       - _油管：全网最强白嫖 66
       - _油管：全网最强白嫖 67
+      - 🇺🇸 美国(油管:破解资源君2.0) 10
       - _油管：全网最强白嫖 68
       - _油管：全网最强白嫖 69
       - _油管：全网最强白嫖 70
+      - 🇭🇰 香港(油管:破解资源君2.0) 3
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 21
+      - 🇺🇸 美国(油管:破解资源君2.0) 11
       - _油管：全网最强白嫖 71
-      - 🇸🇬 新加坡(油管:破解资源君2.0) 2
-      - 🇪🇺 欧洲(油管:破解资源君2.0) 12
-      - 🇺🇸 美国(油管:破解资源君2.0) 6
-      - 亚洲(油管:破解资源君2.0) 7
-      - 🇺🇸 美国(油管:破解资源君2.0) 7
-      - 亚洲(油管:破解资源君2.0) 8
-      - 亚洲(油管:破解资源君2.0) 9
       - _油管：全网最强白嫖 72
+      - 🇺🇸 美国(油管:破解资源君2.0) 12
       - _油管：全网最强白嫖 73
-      - 亚洲(油管:破解资源君2.0) 10
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 22
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 23
       - _油管：全网最强白嫖 74
-      - 🇭🇰 香港(油管:破解资源君2.0) 9
       - _油管：全网最强白嫖 75
-      - 亚洲(油管:破解资源君2.0) 11
+      - 🇭🇰 香港(油管:破解资源君2.0) 4
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 24
       - _油管：全网最强白嫖 76
+      - 🇺🇸 美国(油管:破解资源君2.0) 13
       - _油管：全网最强白嫖 77
-      - 🇭🇰 香港(油管:破解资源君2.0) 10
+      - 🇸🇬 新加坡(油管:破解资源君2.0) 5
       - _油管：全网最强白嫖 78
-      - 🇨🇳 台湾(油管:破解资源君2.0) 3
       - _油管：全网最强白嫖 79
-      - 🇺🇸 美国(油管:破解资源君2.0) 8
       - _油管：全网最强白嫖 80
-      - 🇪🇺 欧洲(油管:破解资源君2.0) 13
-      - 🇭🇰 香港(油管:破解资源君2.0) 11
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 25
       - _油管：全网最强白嫖 81
-      - 🇨🇳 台湾(油管:破解资源君2.0) 4
-      - 🇨🇳 台湾(油管:破解资源君2.0) 5
+      - 🇺🇸 美国(油管:破解资源君2.0) 14
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 26
       - _油管：全网最强白嫖 82
-      - 🇺🇸 美国(油管:破解资源君2.0) 9
       - _油管：全网最强白嫖 83
+      - 🇺🇸 美国(油管:破解资源君2.0) 15
+      - _油管：全网最强白嫖 84
+      - 🇺🇸 美国(油管:破解资源君2.0) 16
+      - 🇭🇰 香港(油管:破解资源君2.0) 5
+      - _油管：全网最强白嫖 85
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 27
+      - 🇺🇸 美国(油管:破解资源君2.0) 17
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 28
+      - 🇺🇸 美国(油管:破解资源君2.0) 18
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - _油管：全网最强白嫖
-      - _油管：全网最强白嫖 2
-      - 🇪🇺 欧洲(油管:破解资源君2.0)
-      - _油管：全网最强白嫖 3
-      - 🇨🇳 广州(油管:破解资源君2.0)
-      - 🇪🇺 欧洲(油管:破解资源君2.0) 2
-      - 🇪🇺 欧洲(油管:破解资源君2.0) 3
-      - _油管：全网最强白嫖 4
       - 亚洲(油管:破解资源君2.0)
-      - 亚洲(油管:破解资源君2.0) 2
+      - _油管：全网最强白嫖 2
+      - 🇸🇬 新加坡(油管:破解资源君2.0)
+      - _油管：全网最强白嫖 3
       - 🇺🇸 美国(油管:破解资源君2.0)
+      - _油管：全网最强白嫖 4
+      - 🇪🇺 欧洲(油管:破解资源君2.0)
       - _油管：全网最强白嫖 5
       - _油管：全网最强白嫖 6
+      - 🇯🇵 日本📔工具大师自用机场：https://kuaiyin.info/晚高峰8K流媒体
+      - 🇯🇵 日本(油管:破解资源君2.0)
       - _油管：全网最强白嫖 7
-      - 🇪🇺 欧洲(油管:破解资源君2.0) 4
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 2
       - _油管：全网最强白嫖 8
+      - 🇸🇬 新加坡📔工具大师自用机场：https://kuaiyin.info/晚高峰8K流媒体
       - _油管：全网最强白嫖 9
+      - 🇯🇵 日本(油管:破解资源君2.0) 2
       - _油管：全网最强白嫖 10
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 3
       - _油管：全网最强白嫖 11
-      - 🇪🇺 欧洲(油管:破解资源君2.0) 5
-      - 🇪🇺 欧洲(油管:破解资源君2.0) 6
       - _油管：全网最强白嫖 12
       - _油管：全网最强白嫖 13
       - _油管：全网最强白嫖 14
       - _油管：全网最强白嫖 15
-      - 亚洲(油管:破解资源君2.0) 3
-      - 🇪🇺 欧洲(油管:破解资源君2.0) 7
-      - 🇨🇳 台湾(油管:破解资源君2.0)
       - _油管：全网最强白嫖 16
-      - 亚洲(油管:破解资源君2.0) 4
       - _油管：全网最强白嫖 17
       - 🇺🇸 美国(油管:破解资源君2.0) 2
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 4
       - _油管：全网最强白嫖 18
       - _油管：全网最强白嫖 19
       - _油管：全网最强白嫖 20
+      - 🇸🇬 新加坡(油管:破解资源君2.0) 2
       - _油管：全网最强白嫖 21
       - _油管：全网最强白嫖 22
+      - 🇭🇰 香港(油管:破解资源君2.0)
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 5
       - _油管：全网最强白嫖 23
-      - 亚洲(油管:破解资源君2.0) 5
+      - 🇯🇵 日本📔工具大师自用机场：https://kuaiyin.info/晚高峰8K流媒体 2
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 6
       - _油管：全网最强白嫖 24
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 7
       - _油管：全网最强白嫖 25
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 8
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 9
+      - 🇺🇸 美国(油管:破解资源君2.0) 3
       - _油管：全网最强白嫖 26
       - _油管：全网最强白嫖 27
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 10
       - _油管：全网最强白嫖 28
-      - 🇪🇺 欧洲(油管:破解资源君2.0) 8
       - _油管：全网最强白嫖 29
+      - 🇺🇸 美国(油管:破解资源君2.0) 4
       - _油管：全网最强白嫖 30
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 11
       - _油管：全网最强白嫖 31
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 12
       - _油管：全网最强白嫖 32
+      - 🇸🇬 新加坡(油管:破解资源君2.0) 3
       - _油管：全网最强白嫖 33
       - _油管：全网最强白嫖 34
       - _油管：全网最强白嫖 35
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 13
       - _油管：全网最强白嫖 36
-      - 🇪🇺 欧洲(油管:破解资源君2.0) 9
       - _油管：全网最强白嫖 37
       - _油管：全网最强白嫖 38
+      - 亚洲(油管:破解资源君2.0) 2
+      - 亚洲(油管:破解资源君2.0) 3
       - _油管：全网最强白嫖 39
       - _油管：全网最强白嫖 40
+      - 🇺🇸 美国(油管:破解资源君2.0) 5
       - _油管：全网最强白嫖 41
-      - 🇰🇷 韩国(油管:破解资源君2.0)
+      - 🇺🇸 美国(油管:破解资源君2.0) 6
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 14
       - _油管：全网最强白嫖 42
       - _油管：全网最强白嫖 43
-      - 🇭🇰 香港(油管:破解资源君2.0)
-      - 🇺🇸 美国(油管:破解资源君2.0) 3
-      - 🇭🇰 香港(油管:破解资源君2.0) 2
       - _油管：全网最强白嫖 44
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 15
+      - 🇸🇬 新加坡(油管:破解资源君2.0) 4
+      - 🇯🇵 日本📔工具大师自用机场：https://kuaiyin.info/晚高峰8K流媒体 3
       - _油管：全网最强白嫖 45
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 16
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 17
       - _油管：全网最强白嫖 46
       - _油管：全网最强白嫖 47
       - _油管：全网最强白嫖 48
-      - 🇨🇳 台湾(油管:破解资源君2.0) 2
       - _油管：全网最强白嫖 49
       - _油管：全网最强白嫖 50
       - _油管：全网最强白嫖 51
-      - 🇯🇵 日本(油管:破解资源君2.0)
+      - 🇺🇸 美国(油管:破解资源君2.0) 7
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 18
+      - 🇯🇵 日本(油管:破解资源君2.0) 3
       - _油管：全网最强白嫖 52
-      - 🇪🇺 欧洲(油管:破解资源君2.0) 10
       - _油管：全网最强白嫖 53
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 19
       - _油管：全网最强白嫖 54
+      - 🇺🇸 美国(油管:破解资源君2.0) 8
       - _油管：全网最强白嫖 55
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 20
+      - 🇷🇺 俄罗斯(油管:破解资源君2.0)
+      - 亚洲(油管:破解资源君2.0) 4
       - _油管：全网最强白嫖 56
       - _油管：全网最强白嫖 57
-      - 🇭🇰 香港(油管:破解资源君2.0) 3
       - _油管：全网最强白嫖 58
-      - 🇺🇸 美国(油管:破解资源君2.0) 4
+      - 🇺🇸 美国(油管:破解资源君2.0) 9
+      - 🇯🇵 日本(油管:破解资源君2.0) 4
+      - 🇭🇰 香港(油管:破解资源君2.0) 2
       - _油管：全网最强白嫖 59
-      - 亚洲(油管:破解资源君2.0) 6
       - _油管：全网最强白嫖 60
-      - 🇭🇰 香港(油管:破解资源君2.0) 4
-      - 🇭🇰 香港(油管:破解资源君2.0) 5
-      - 🇪🇺 欧洲(油管:破解资源君2.0) 11
-      - 🇭🇰 香港(油管:破解资源君2.0) 6
       - _油管：全网最强白嫖 61
       - _油管：全网最强白嫖 62
-      - 🇭🇰 香港(油管:破解资源君2.0) 7
       - _油管：全网最强白嫖 63
       - _油管：全网最强白嫖 64
-      - 🇭🇰 香港(油管:破解资源君2.0) 8
-      - 🇸🇬 新加坡(油管:破解资源君2.0)
       - _油管：全网最强白嫖 65
-      - 🇺🇸 美国(油管:破解资源君2.0) 5
+      - 亚洲(油管:破解资源君2.0) 5
       - _油管：全网最强白嫖 66
       - _油管：全网最强白嫖 67
+      - 🇺🇸 美国(油管:破解资源君2.0) 10
       - _油管：全网最强白嫖 68
       - _油管：全网最强白嫖 69
       - _油管：全网最强白嫖 70
+      - 🇭🇰 香港(油管:破解资源君2.0) 3
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 21
+      - 🇺🇸 美国(油管:破解资源君2.0) 11
       - _油管：全网最强白嫖 71
-      - 🇸🇬 新加坡(油管:破解资源君2.0) 2
-      - 🇪🇺 欧洲(油管:破解资源君2.0) 12
-      - 🇺🇸 美国(油管:破解资源君2.0) 6
-      - 亚洲(油管:破解资源君2.0) 7
-      - 🇺🇸 美国(油管:破解资源君2.0) 7
-      - 亚洲(油管:破解资源君2.0) 8
-      - 亚洲(油管:破解资源君2.0) 9
       - _油管：全网最强白嫖 72
+      - 🇺🇸 美国(油管:破解资源君2.0) 12
       - _油管：全网最强白嫖 73
-      - 亚洲(油管:破解资源君2.0) 10
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 22
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 23
       - _油管：全网最强白嫖 74
-      - 🇭🇰 香港(油管:破解资源君2.0) 9
       - _油管：全网最强白嫖 75
-      - 亚洲(油管:破解资源君2.0) 11
+      - 🇭🇰 香港(油管:破解资源君2.0) 4
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 24
       - _油管：全网最强白嫖 76
+      - 🇺🇸 美国(油管:破解资源君2.0) 13
       - _油管：全网最强白嫖 77
-      - 🇭🇰 香港(油管:破解资源君2.0) 10
+      - 🇸🇬 新加坡(油管:破解资源君2.0) 5
       - _油管：全网最强白嫖 78
-      - 🇨🇳 台湾(油管:破解资源君2.0) 3
       - _油管：全网最强白嫖 79
-      - 🇺🇸 美国(油管:破解资源君2.0) 8
       - _油管：全网最强白嫖 80
-      - 🇪🇺 欧洲(油管:破解资源君2.0) 13
-      - 🇭🇰 香港(油管:破解资源君2.0) 11
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 25
       - _油管：全网最强白嫖 81
-      - 🇨🇳 台湾(油管:破解资源君2.0) 4
-      - 🇨🇳 台湾(油管:破解资源君2.0) 5
+      - 🇺🇸 美国(油管:破解资源君2.0) 14
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 26
       - _油管：全网最强白嫖 82
-      - 🇺🇸 美国(油管:破解资源君2.0) 9
       - _油管：全网最强白嫖 83
+      - 🇺🇸 美国(油管:破解资源君2.0) 15
+      - _油管：全网最强白嫖 84
+      - 🇺🇸 美国(油管:破解资源君2.0) 16
+      - 🇭🇰 香港(油管:破解资源君2.0) 5
+      - _油管：全网最强白嫖 85
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 27
+      - 🇺🇸 美国(油管:破解资源君2.0) 17
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 28
+      - 🇺🇸 美国(油管:破解资源君2.0) 18
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - _油管：全网最强白嫖
-      - _油管：全网最强白嫖 2
-      - 🇪🇺 欧洲(油管:破解资源君2.0)
-      - _油管：全网最强白嫖 3
-      - 🇨🇳 广州(油管:破解资源君2.0)
-      - 🇪🇺 欧洲(油管:破解资源君2.0) 2
-      - 🇪🇺 欧洲(油管:破解资源君2.0) 3
-      - _油管：全网最强白嫖 4
       - 亚洲(油管:破解资源君2.0)
-      - 亚洲(油管:破解资源君2.0) 2
+      - _油管：全网最强白嫖 2
+      - 🇸🇬 新加坡(油管:破解资源君2.0)
+      - _油管：全网最强白嫖 3
       - 🇺🇸 美国(油管:破解资源君2.0)
+      - _油管：全网最强白嫖 4
+      - 🇪🇺 欧洲(油管:破解资源君2.0)
       - _油管：全网最强白嫖 5
       - _油管：全网最强白嫖 6
+      - 🇯🇵 日本📔工具大师自用机场：https://kuaiyin.info/晚高峰8K流媒体
+      - 🇯🇵 日本(油管:破解资源君2.0)
       - _油管：全网最强白嫖 7
-      - 🇪🇺 欧洲(油管:破解资源君2.0) 4
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 2
       - _油管：全网最强白嫖 8
+      - 🇸🇬 新加坡📔工具大师自用机场：https://kuaiyin.info/晚高峰8K流媒体
       - _油管：全网最强白嫖 9
+      - 🇯🇵 日本(油管:破解资源君2.0) 2
       - _油管：全网最强白嫖 10
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 3
       - _油管：全网最强白嫖 11
-      - 🇪🇺 欧洲(油管:破解资源君2.0) 5
-      - 🇪🇺 欧洲(油管:破解资源君2.0) 6
       - _油管：全网最强白嫖 12
       - _油管：全网最强白嫖 13
       - _油管：全网最强白嫖 14
       - _油管：全网最强白嫖 15
-      - 亚洲(油管:破解资源君2.0) 3
-      - 🇪🇺 欧洲(油管:破解资源君2.0) 7
-      - 🇨🇳 台湾(油管:破解资源君2.0)
       - _油管：全网最强白嫖 16
-      - 亚洲(油管:破解资源君2.0) 4
       - _油管：全网最强白嫖 17
       - 🇺🇸 美国(油管:破解资源君2.0) 2
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 4
       - _油管：全网最强白嫖 18
       - _油管：全网最强白嫖 19
       - _油管：全网最强白嫖 20
+      - 🇸🇬 新加坡(油管:破解资源君2.0) 2
       - _油管：全网最强白嫖 21
       - _油管：全网最强白嫖 22
+      - 🇭🇰 香港(油管:破解资源君2.0)
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 5
       - _油管：全网最强白嫖 23
-      - 亚洲(油管:破解资源君2.0) 5
+      - 🇯🇵 日本📔工具大师自用机场：https://kuaiyin.info/晚高峰8K流媒体 2
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 6
       - _油管：全网最强白嫖 24
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 7
       - _油管：全网最强白嫖 25
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 8
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 9
+      - 🇺🇸 美国(油管:破解资源君2.0) 3
       - _油管：全网最强白嫖 26
       - _油管：全网最强白嫖 27
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 10
       - _油管：全网最强白嫖 28
-      - 🇪🇺 欧洲(油管:破解资源君2.0) 8
       - _油管：全网最强白嫖 29
+      - 🇺🇸 美国(油管:破解资源君2.0) 4
       - _油管：全网最强白嫖 30
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 11
       - _油管：全网最强白嫖 31
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 12
       - _油管：全网最强白嫖 32
+      - 🇸🇬 新加坡(油管:破解资源君2.0) 3
       - _油管：全网最强白嫖 33
       - _油管：全网最强白嫖 34
       - _油管：全网最强白嫖 35
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 13
       - _油管：全网最强白嫖 36
-      - 🇪🇺 欧洲(油管:破解资源君2.0) 9
       - _油管：全网最强白嫖 37
       - _油管：全网最强白嫖 38
+      - 亚洲(油管:破解资源君2.0) 2
+      - 亚洲(油管:破解资源君2.0) 3
       - _油管：全网最强白嫖 39
       - _油管：全网最强白嫖 40
+      - 🇺🇸 美国(油管:破解资源君2.0) 5
       - _油管：全网最强白嫖 41
-      - 🇰🇷 韩国(油管:破解资源君2.0)
+      - 🇺🇸 美国(油管:破解资源君2.0) 6
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 14
       - _油管：全网最强白嫖 42
       - _油管：全网最强白嫖 43
-      - 🇭🇰 香港(油管:破解资源君2.0)
-      - 🇺🇸 美国(油管:破解资源君2.0) 3
-      - 🇭🇰 香港(油管:破解资源君2.0) 2
       - _油管：全网最强白嫖 44
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 15
+      - 🇸🇬 新加坡(油管:破解资源君2.0) 4
+      - 🇯🇵 日本📔工具大师自用机场：https://kuaiyin.info/晚高峰8K流媒体 3
       - _油管：全网最强白嫖 45
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 16
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 17
       - _油管：全网最强白嫖 46
       - _油管：全网最强白嫖 47
       - _油管：全网最强白嫖 48
-      - 🇨🇳 台湾(油管:破解资源君2.0) 2
       - _油管：全网最强白嫖 49
       - _油管：全网最强白嫖 50
       - _油管：全网最强白嫖 51
-      - 🇯🇵 日本(油管:破解资源君2.0)
+      - 🇺🇸 美国(油管:破解资源君2.0) 7
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 18
+      - 🇯🇵 日本(油管:破解资源君2.0) 3
       - _油管：全网最强白嫖 52
-      - 🇪🇺 欧洲(油管:破解资源君2.0) 10
       - _油管：全网最强白嫖 53
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 19
       - _油管：全网最强白嫖 54
+      - 🇺🇸 美国(油管:破解资源君2.0) 8
       - _油管：全网最强白嫖 55
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 20
+      - 🇷🇺 俄罗斯(油管:破解资源君2.0)
+      - 亚洲(油管:破解资源君2.0) 4
       - _油管：全网最强白嫖 56
       - _油管：全网最强白嫖 57
-      - 🇭🇰 香港(油管:破解资源君2.0) 3
       - _油管：全网最强白嫖 58
-      - 🇺🇸 美国(油管:破解资源君2.0) 4
+      - 🇺🇸 美国(油管:破解资源君2.0) 9
+      - 🇯🇵 日本(油管:破解资源君2.0) 4
+      - 🇭🇰 香港(油管:破解资源君2.0) 2
       - _油管：全网最强白嫖 59
-      - 亚洲(油管:破解资源君2.0) 6
       - _油管：全网最强白嫖 60
-      - 🇭🇰 香港(油管:破解资源君2.0) 4
-      - 🇭🇰 香港(油管:破解资源君2.0) 5
-      - 🇪🇺 欧洲(油管:破解资源君2.0) 11
-      - 🇭🇰 香港(油管:破解资源君2.0) 6
       - _油管：全网最强白嫖 61
       - _油管：全网最强白嫖 62
-      - 🇭🇰 香港(油管:破解资源君2.0) 7
       - _油管：全网最强白嫖 63
       - _油管：全网最强白嫖 64
-      - 🇭🇰 香港(油管:破解资源君2.0) 8
-      - 🇸🇬 新加坡(油管:破解资源君2.0)
       - _油管：全网最强白嫖 65
-      - 🇺🇸 美国(油管:破解资源君2.0) 5
+      - 亚洲(油管:破解资源君2.0) 5
       - _油管：全网最强白嫖 66
       - _油管：全网最强白嫖 67
+      - 🇺🇸 美国(油管:破解资源君2.0) 10
       - _油管：全网最强白嫖 68
       - _油管：全网最强白嫖 69
       - _油管：全网最强白嫖 70
+      - 🇭🇰 香港(油管:破解资源君2.0) 3
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 21
+      - 🇺🇸 美国(油管:破解资源君2.0) 11
       - _油管：全网最强白嫖 71
-      - 🇸🇬 新加坡(油管:破解资源君2.0) 2
-      - 🇪🇺 欧洲(油管:破解资源君2.0) 12
-      - 🇺🇸 美国(油管:破解资源君2.0) 6
-      - 亚洲(油管:破解资源君2.0) 7
-      - 🇺🇸 美国(油管:破解资源君2.0) 7
-      - 亚洲(油管:破解资源君2.0) 8
-      - 亚洲(油管:破解资源君2.0) 9
       - _油管：全网最强白嫖 72
+      - 🇺🇸 美国(油管:破解资源君2.0) 12
       - _油管：全网最强白嫖 73
-      - 亚洲(油管:破解资源君2.0) 10
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 22
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 23
       - _油管：全网最强白嫖 74
-      - 🇭🇰 香港(油管:破解资源君2.0) 9
       - _油管：全网最强白嫖 75
-      - 亚洲(油管:破解资源君2.0) 11
+      - 🇭🇰 香港(油管:破解资源君2.0) 4
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 24
       - _油管：全网最强白嫖 76
+      - 🇺🇸 美国(油管:破解资源君2.0) 13
       - _油管：全网最强白嫖 77
-      - 🇭🇰 香港(油管:破解资源君2.0) 10
+      - 🇸🇬 新加坡(油管:破解资源君2.0) 5
       - _油管：全网最强白嫖 78
-      - 🇨🇳 台湾(油管:破解资源君2.0) 3
       - _油管：全网最强白嫖 79
-      - 🇺🇸 美国(油管:破解资源君2.0) 8
       - _油管：全网最强白嫖 80
-      - 🇪🇺 欧洲(油管:破解资源君2.0) 13
-      - 🇭🇰 香港(油管:破解资源君2.0) 11
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 25
       - _油管：全网最强白嫖 81
-      - 🇨🇳 台湾(油管:破解资源君2.0) 4
-      - 🇨🇳 台湾(油管:破解资源君2.0) 5
+      - 🇺🇸 美国(油管:破解资源君2.0) 14
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 26
       - _油管：全网最强白嫖 82
-      - 🇺🇸 美国(油管:破解资源君2.0) 9
       - _油管：全网最强白嫖 83
+      - 🇺🇸 美国(油管:破解资源君2.0) 15
+      - _油管：全网最强白嫖 84
+      - 🇺🇸 美国(油管:破解资源君2.0) 16
+      - 🇭🇰 香港(油管:破解资源君2.0) 5
+      - _油管：全网最强白嫖 85
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 27
+      - 🇺🇸 美国(油管:破解资源君2.0) 17
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 28
+      - 🇺🇸 美国(油管:破解资源君2.0) 18
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - _油管：全网最强白嫖
-      - _油管：全网最强白嫖 2
-      - 🇪🇺 欧洲(油管:破解资源君2.0)
-      - _油管：全网最强白嫖 3
-      - 🇨🇳 广州(油管:破解资源君2.0)
-      - 🇪🇺 欧洲(油管:破解资源君2.0) 2
-      - 🇪🇺 欧洲(油管:破解资源君2.0) 3
-      - _油管：全网最强白嫖 4
       - 亚洲(油管:破解资源君2.0)
-      - 亚洲(油管:破解资源君2.0) 2
+      - _油管：全网最强白嫖 2
+      - 🇸🇬 新加坡(油管:破解资源君2.0)
+      - _油管：全网最强白嫖 3
       - 🇺🇸 美国(油管:破解资源君2.0)
+      - _油管：全网最强白嫖 4
+      - 🇪🇺 欧洲(油管:破解资源君2.0)
       - _油管：全网最强白嫖 5
       - _油管：全网最强白嫖 6
+      - 🇯🇵 日本📔工具大师自用机场：https://kuaiyin.info/晚高峰8K流媒体
+      - 🇯🇵 日本(油管:破解资源君2.0)
       - _油管：全网最强白嫖 7
-      - 🇪🇺 欧洲(油管:破解资源君2.0) 4
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 2
       - _油管：全网最强白嫖 8
+      - 🇸🇬 新加坡📔工具大师自用机场：https://kuaiyin.info/晚高峰8K流媒体
       - _油管：全网最强白嫖 9
+      - 🇯🇵 日本(油管:破解资源君2.0) 2
       - _油管：全网最强白嫖 10
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 3
       - _油管：全网最强白嫖 11
-      - 🇪🇺 欧洲(油管:破解资源君2.0) 5
-      - 🇪🇺 欧洲(油管:破解资源君2.0) 6
       - _油管：全网最强白嫖 12
       - _油管：全网最强白嫖 13
       - _油管：全网最强白嫖 14
       - _油管：全网最强白嫖 15
-      - 亚洲(油管:破解资源君2.0) 3
-      - 🇪🇺 欧洲(油管:破解资源君2.0) 7
-      - 🇨🇳 台湾(油管:破解资源君2.0)
       - _油管：全网最强白嫖 16
-      - 亚洲(油管:破解资源君2.0) 4
       - _油管：全网最强白嫖 17
       - 🇺🇸 美国(油管:破解资源君2.0) 2
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 4
       - _油管：全网最强白嫖 18
       - _油管：全网最强白嫖 19
       - _油管：全网最强白嫖 20
+      - 🇸🇬 新加坡(油管:破解资源君2.0) 2
       - _油管：全网最强白嫖 21
       - _油管：全网最强白嫖 22
+      - 🇭🇰 香港(油管:破解资源君2.0)
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 5
       - _油管：全网最强白嫖 23
-      - 亚洲(油管:破解资源君2.0) 5
+      - 🇯🇵 日本📔工具大师自用机场：https://kuaiyin.info/晚高峰8K流媒体 2
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 6
       - _油管：全网最强白嫖 24
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 7
       - _油管：全网最强白嫖 25
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 8
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 9
+      - 🇺🇸 美国(油管:破解资源君2.0) 3
       - _油管：全网最强白嫖 26
       - _油管：全网最强白嫖 27
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 10
       - _油管：全网最强白嫖 28
-      - 🇪🇺 欧洲(油管:破解资源君2.0) 8
       - _油管：全网最强白嫖 29
+      - 🇺🇸 美国(油管:破解资源君2.0) 4
       - _油管：全网最强白嫖 30
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 11
       - _油管：全网最强白嫖 31
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 12
       - _油管：全网最强白嫖 32
+      - 🇸🇬 新加坡(油管:破解资源君2.0) 3
       - _油管：全网最强白嫖 33
       - _油管：全网最强白嫖 34
       - _油管：全网最强白嫖 35
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 13
       - _油管：全网最强白嫖 36
-      - 🇪🇺 欧洲(油管:破解资源君2.0) 9
       - _油管：全网最强白嫖 37
       - _油管：全网最强白嫖 38
+      - 亚洲(油管:破解资源君2.0) 2
+      - 亚洲(油管:破解资源君2.0) 3
       - _油管：全网最强白嫖 39
       - _油管：全网最强白嫖 40
+      - 🇺🇸 美国(油管:破解资源君2.0) 5
       - _油管：全网最强白嫖 41
-      - 🇰🇷 韩国(油管:破解资源君2.0)
+      - 🇺🇸 美国(油管:破解资源君2.0) 6
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 14
       - _油管：全网最强白嫖 42
       - _油管：全网最强白嫖 43
-      - 🇭🇰 香港(油管:破解资源君2.0)
-      - 🇺🇸 美国(油管:破解资源君2.0) 3
-      - 🇭🇰 香港(油管:破解资源君2.0) 2
       - _油管：全网最强白嫖 44
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 15
+      - 🇸🇬 新加坡(油管:破解资源君2.0) 4
+      - 🇯🇵 日本📔工具大师自用机场：https://kuaiyin.info/晚高峰8K流媒体 3
       - _油管：全网最强白嫖 45
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 16
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 17
       - _油管：全网最强白嫖 46
       - _油管：全网最强白嫖 47
       - _油管：全网最强白嫖 48
-      - 🇨🇳 台湾(油管:破解资源君2.0) 2
       - _油管：全网最强白嫖 49
       - _油管：全网最强白嫖 50
       - _油管：全网最强白嫖 51
-      - 🇯🇵 日本(油管:破解资源君2.0)
+      - 🇺🇸 美国(油管:破解资源君2.0) 7
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 18
+      - 🇯🇵 日本(油管:破解资源君2.0) 3
       - _油管：全网最强白嫖 52
-      - 🇪🇺 欧洲(油管:破解资源君2.0) 10
       - _油管：全网最强白嫖 53
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 19
       - _油管：全网最强白嫖 54
+      - 🇺🇸 美国(油管:破解资源君2.0) 8
       - _油管：全网最强白嫖 55
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 20
+      - 🇷🇺 俄罗斯(油管:破解资源君2.0)
+      - 亚洲(油管:破解资源君2.0) 4
       - _油管：全网最强白嫖 56
       - _油管：全网最强白嫖 57
-      - 🇭🇰 香港(油管:破解资源君2.0) 3
       - _油管：全网最强白嫖 58
-      - 🇺🇸 美国(油管:破解资源君2.0) 4
+      - 🇺🇸 美国(油管:破解资源君2.0) 9
+      - 🇯🇵 日本(油管:破解资源君2.0) 4
+      - 🇭🇰 香港(油管:破解资源君2.0) 2
       - _油管：全网最强白嫖 59
-      - 亚洲(油管:破解资源君2.0) 6
       - _油管：全网最强白嫖 60
-      - 🇭🇰 香港(油管:破解资源君2.0) 4
-      - 🇭🇰 香港(油管:破解资源君2.0) 5
-      - 🇪🇺 欧洲(油管:破解资源君2.0) 11
-      - 🇭🇰 香港(油管:破解资源君2.0) 6
       - _油管：全网最强白嫖 61
       - _油管：全网最强白嫖 62
-      - 🇭🇰 香港(油管:破解资源君2.0) 7
       - _油管：全网最强白嫖 63
       - _油管：全网最强白嫖 64
-      - 🇭🇰 香港(油管:破解资源君2.0) 8
-      - 🇸🇬 新加坡(油管:破解资源君2.0)
       - _油管：全网最强白嫖 65
-      - 🇺🇸 美国(油管:破解资源君2.0) 5
+      - 亚洲(油管:破解资源君2.0) 5
       - _油管：全网最强白嫖 66
       - _油管：全网最强白嫖 67
+      - 🇺🇸 美国(油管:破解资源君2.0) 10
       - _油管：全网最强白嫖 68
       - _油管：全网最强白嫖 69
       - _油管：全网最强白嫖 70
+      - 🇭🇰 香港(油管:破解资源君2.0) 3
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 21
+      - 🇺🇸 美国(油管:破解资源君2.0) 11
       - _油管：全网最强白嫖 71
-      - 🇸🇬 新加坡(油管:破解资源君2.0) 2
-      - 🇪🇺 欧洲(油管:破解资源君2.0) 12
-      - 🇺🇸 美国(油管:破解资源君2.0) 6
-      - 亚洲(油管:破解资源君2.0) 7
-      - 🇺🇸 美国(油管:破解资源君2.0) 7
-      - 亚洲(油管:破解资源君2.0) 8
-      - 亚洲(油管:破解资源君2.0) 9
       - _油管：全网最强白嫖 72
+      - 🇺🇸 美国(油管:破解资源君2.0) 12
       - _油管：全网最强白嫖 73
-      - 亚洲(油管:破解资源君2.0) 10
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 22
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 23
       - _油管：全网最强白嫖 74
-      - 🇭🇰 香港(油管:破解资源君2.0) 9
       - _油管：全网最强白嫖 75
-      - 亚洲(油管:破解资源君2.0) 11
+      - 🇭🇰 香港(油管:破解资源君2.0) 4
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 24
       - _油管：全网最强白嫖 76
+      - 🇺🇸 美国(油管:破解资源君2.0) 13
       - _油管：全网最强白嫖 77
-      - 🇭🇰 香港(油管:破解资源君2.0) 10
+      - 🇸🇬 新加坡(油管:破解资源君2.0) 5
       - _油管：全网最强白嫖 78
-      - 🇨🇳 台湾(油管:破解资源君2.0) 3
       - _油管：全网最强白嫖 79
-      - 🇺🇸 美国(油管:破解资源君2.0) 8
       - _油管：全网最强白嫖 80
-      - 🇪🇺 欧洲(油管:破解资源君2.0) 13
-      - 🇭🇰 香港(油管:破解资源君2.0) 11
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 25
       - _油管：全网最强白嫖 81
-      - 🇨🇳 台湾(油管:破解资源君2.0) 4
-      - 🇨🇳 台湾(油管:破解资源君2.0) 5
+      - 🇺🇸 美国(油管:破解资源君2.0) 14
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 26
       - _油管：全网最强白嫖 82
-      - 🇺🇸 美国(油管:破解资源君2.0) 9
       - _油管：全网最强白嫖 83
+      - 🇺🇸 美国(油管:破解资源君2.0) 15
+      - _油管：全网最强白嫖 84
+      - 🇺🇸 美国(油管:破解资源君2.0) 16
+      - 🇭🇰 香港(油管:破解资源君2.0) 5
+      - _油管：全网最强白嫖 85
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 27
+      - 🇺🇸 美国(油管:破解资源君2.0) 17
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 28
+      - 🇺🇸 美国(油管:破解资源君2.0) 18
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1020,142 +1146,160 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - _油管：全网最强白嫖
-      - _油管：全网最强白嫖 2
-      - 🇪🇺 欧洲(油管:破解资源君2.0)
-      - _油管：全网最强白嫖 3
-      - 🇨🇳 广州(油管:破解资源君2.0)
-      - 🇪🇺 欧洲(油管:破解资源君2.0) 2
-      - 🇪🇺 欧洲(油管:破解资源君2.0) 3
-      - _油管：全网最强白嫖 4
       - 亚洲(油管:破解资源君2.0)
-      - 亚洲(油管:破解资源君2.0) 2
+      - _油管：全网最强白嫖 2
+      - 🇸🇬 新加坡(油管:破解资源君2.0)
+      - _油管：全网最强白嫖 3
       - 🇺🇸 美国(油管:破解资源君2.0)
+      - _油管：全网最强白嫖 4
+      - 🇪🇺 欧洲(油管:破解资源君2.0)
       - _油管：全网最强白嫖 5
       - _油管：全网最强白嫖 6
+      - 🇯🇵 日本📔工具大师自用机场：https://kuaiyin.info/晚高峰8K流媒体
+      - 🇯🇵 日本(油管:破解资源君2.0)
       - _油管：全网最强白嫖 7
-      - 🇪🇺 欧洲(油管:破解资源君2.0) 4
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 2
       - _油管：全网最强白嫖 8
+      - 🇸🇬 新加坡📔工具大师自用机场：https://kuaiyin.info/晚高峰8K流媒体
       - _油管：全网最强白嫖 9
+      - 🇯🇵 日本(油管:破解资源君2.0) 2
       - _油管：全网最强白嫖 10
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 3
       - _油管：全网最强白嫖 11
-      - 🇪🇺 欧洲(油管:破解资源君2.0) 5
-      - 🇪🇺 欧洲(油管:破解资源君2.0) 6
       - _油管：全网最强白嫖 12
       - _油管：全网最强白嫖 13
       - _油管：全网最强白嫖 14
       - _油管：全网最强白嫖 15
-      - 亚洲(油管:破解资源君2.0) 3
-      - 🇪🇺 欧洲(油管:破解资源君2.0) 7
-      - 🇨🇳 台湾(油管:破解资源君2.0)
       - _油管：全网最强白嫖 16
-      - 亚洲(油管:破解资源君2.0) 4
       - _油管：全网最强白嫖 17
       - 🇺🇸 美国(油管:破解资源君2.0) 2
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 4
       - _油管：全网最强白嫖 18
       - _油管：全网最强白嫖 19
       - _油管：全网最强白嫖 20
+      - 🇸🇬 新加坡(油管:破解资源君2.0) 2
       - _油管：全网最强白嫖 21
       - _油管：全网最强白嫖 22
+      - 🇭🇰 香港(油管:破解资源君2.0)
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 5
       - _油管：全网最强白嫖 23
-      - 亚洲(油管:破解资源君2.0) 5
+      - 🇯🇵 日本📔工具大师自用机场：https://kuaiyin.info/晚高峰8K流媒体 2
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 6
       - _油管：全网最强白嫖 24
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 7
       - _油管：全网最强白嫖 25
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 8
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 9
+      - 🇺🇸 美国(油管:破解资源君2.0) 3
       - _油管：全网最强白嫖 26
       - _油管：全网最强白嫖 27
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 10
       - _油管：全网最强白嫖 28
-      - 🇪🇺 欧洲(油管:破解资源君2.0) 8
       - _油管：全网最强白嫖 29
+      - 🇺🇸 美国(油管:破解资源君2.0) 4
       - _油管：全网最强白嫖 30
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 11
       - _油管：全网最强白嫖 31
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 12
       - _油管：全网最强白嫖 32
+      - 🇸🇬 新加坡(油管:破解资源君2.0) 3
       - _油管：全网最强白嫖 33
       - _油管：全网最强白嫖 34
       - _油管：全网最强白嫖 35
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 13
       - _油管：全网最强白嫖 36
-      - 🇪🇺 欧洲(油管:破解资源君2.0) 9
       - _油管：全网最强白嫖 37
       - _油管：全网最强白嫖 38
+      - 亚洲(油管:破解资源君2.0) 2
+      - 亚洲(油管:破解资源君2.0) 3
       - _油管：全网最强白嫖 39
       - _油管：全网最强白嫖 40
+      - 🇺🇸 美国(油管:破解资源君2.0) 5
       - _油管：全网最强白嫖 41
-      - 🇰🇷 韩国(油管:破解资源君2.0)
+      - 🇺🇸 美国(油管:破解资源君2.0) 6
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 14
       - _油管：全网最强白嫖 42
       - _油管：全网最强白嫖 43
-      - 🇭🇰 香港(油管:破解资源君2.0)
-      - 🇺🇸 美国(油管:破解资源君2.0) 3
-      - 🇭🇰 香港(油管:破解资源君2.0) 2
       - _油管：全网最强白嫖 44
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 15
+      - 🇸🇬 新加坡(油管:破解资源君2.0) 4
+      - 🇯🇵 日本📔工具大师自用机场：https://kuaiyin.info/晚高峰8K流媒体 3
       - _油管：全网最强白嫖 45
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 16
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 17
       - _油管：全网最强白嫖 46
       - _油管：全网最强白嫖 47
       - _油管：全网最强白嫖 48
-      - 🇨🇳 台湾(油管:破解资源君2.0) 2
       - _油管：全网最强白嫖 49
       - _油管：全网最强白嫖 50
       - _油管：全网最强白嫖 51
-      - 🇯🇵 日本(油管:破解资源君2.0)
+      - 🇺🇸 美国(油管:破解资源君2.0) 7
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 18
+      - 🇯🇵 日本(油管:破解资源君2.0) 3
       - _油管：全网最强白嫖 52
-      - 🇪🇺 欧洲(油管:破解资源君2.0) 10
       - _油管：全网最强白嫖 53
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 19
       - _油管：全网最强白嫖 54
+      - 🇺🇸 美国(油管:破解资源君2.0) 8
       - _油管：全网最强白嫖 55
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 20
+      - 🇷🇺 俄罗斯(油管:破解资源君2.0)
+      - 亚洲(油管:破解资源君2.0) 4
       - _油管：全网最强白嫖 56
       - _油管：全网最强白嫖 57
-      - 🇭🇰 香港(油管:破解资源君2.0) 3
       - _油管：全网最强白嫖 58
-      - 🇺🇸 美国(油管:破解资源君2.0) 4
+      - 🇺🇸 美国(油管:破解资源君2.0) 9
+      - 🇯🇵 日本(油管:破解资源君2.0) 4
+      - 🇭🇰 香港(油管:破解资源君2.0) 2
       - _油管：全网最强白嫖 59
-      - 亚洲(油管:破解资源君2.0) 6
       - _油管：全网最强白嫖 60
-      - 🇭🇰 香港(油管:破解资源君2.0) 4
-      - 🇭🇰 香港(油管:破解资源君2.0) 5
-      - 🇪🇺 欧洲(油管:破解资源君2.0) 11
-      - 🇭🇰 香港(油管:破解资源君2.0) 6
       - _油管：全网最强白嫖 61
       - _油管：全网最强白嫖 62
-      - 🇭🇰 香港(油管:破解资源君2.0) 7
       - _油管：全网最强白嫖 63
       - _油管：全网最强白嫖 64
-      - 🇭🇰 香港(油管:破解资源君2.0) 8
-      - 🇸🇬 新加坡(油管:破解资源君2.0)
       - _油管：全网最强白嫖 65
-      - 🇺🇸 美国(油管:破解资源君2.0) 5
+      - 亚洲(油管:破解资源君2.0) 5
       - _油管：全网最强白嫖 66
       - _油管：全网最强白嫖 67
+      - 🇺🇸 美国(油管:破解资源君2.0) 10
       - _油管：全网最强白嫖 68
       - _油管：全网最强白嫖 69
       - _油管：全网最强白嫖 70
+      - 🇭🇰 香港(油管:破解资源君2.0) 3
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 21
+      - 🇺🇸 美国(油管:破解资源君2.0) 11
       - _油管：全网最强白嫖 71
-      - 🇸🇬 新加坡(油管:破解资源君2.0) 2
-      - 🇪🇺 欧洲(油管:破解资源君2.0) 12
-      - 🇺🇸 美国(油管:破解资源君2.0) 6
-      - 亚洲(油管:破解资源君2.0) 7
-      - 🇺🇸 美国(油管:破解资源君2.0) 7
-      - 亚洲(油管:破解资源君2.0) 8
-      - 亚洲(油管:破解资源君2.0) 9
       - _油管：全网最强白嫖 72
+      - 🇺🇸 美国(油管:破解资源君2.0) 12
       - _油管：全网最强白嫖 73
-      - 亚洲(油管:破解资源君2.0) 10
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 22
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 23
       - _油管：全网最强白嫖 74
-      - 🇭🇰 香港(油管:破解资源君2.0) 9
       - _油管：全网最强白嫖 75
-      - 亚洲(油管:破解资源君2.0) 11
+      - 🇭🇰 香港(油管:破解资源君2.0) 4
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 24
       - _油管：全网最强白嫖 76
+      - 🇺🇸 美国(油管:破解资源君2.0) 13
       - _油管：全网最强白嫖 77
-      - 🇭🇰 香港(油管:破解资源君2.0) 10
+      - 🇸🇬 新加坡(油管:破解资源君2.0) 5
       - _油管：全网最强白嫖 78
-      - 🇨🇳 台湾(油管:破解资源君2.0) 3
       - _油管：全网最强白嫖 79
-      - 🇺🇸 美国(油管:破解资源君2.0) 8
       - _油管：全网最强白嫖 80
-      - 🇪🇺 欧洲(油管:破解资源君2.0) 13
-      - 🇭🇰 香港(油管:破解资源君2.0) 11
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 25
       - _油管：全网最强白嫖 81
-      - 🇨🇳 台湾(油管:破解资源君2.0) 4
-      - 🇨🇳 台湾(油管:破解资源君2.0) 5
+      - 🇺🇸 美国(油管:破解资源君2.0) 14
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 26
       - _油管：全网最强白嫖 82
-      - 🇺🇸 美国(油管:破解资源君2.0) 9
       - _油管：全网最强白嫖 83
+      - 🇺🇸 美国(油管:破解资源君2.0) 15
+      - _油管：全网最强白嫖 84
+      - 🇺🇸 美国(油管:破解资源君2.0) 16
+      - 🇭🇰 香港(油管:破解资源君2.0) 5
+      - _油管：全网最强白嫖 85
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 27
+      - 🇺🇸 美国(油管:破解资源君2.0) 17
+      - 🇪🇺 欧洲(油管:破解资源君2.0) 28
+      - 🇺🇸 美国(油管:破解资源君2.0) 18
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
