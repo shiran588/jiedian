@@ -5,235 +5,361 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇰🇷 KR 韩国(yudou66.com 玉豆免费节点), server: 141.101.114.111, port: 443, type: vmess, uuid: 0c99bba8-7821-4bd4-b215-629ab2df977a, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: kr1.zhujicn2.org}}
-  - {name: 🇺🇸 美国(yudou66.com 玉豆免费节点), server: 198.41.212.150, port: 443, type: vmess, uuid: bf4619e4-01dc-48ca-be08-0976b54968ce, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: lg5.zhujicn2.com}}
-  - {name: 🇩🇪 _DE_德国, server: 172.64.144.100, port: 443, type: vmess, uuid: 6e9217de-ad7e-4a67-bd17-a6dca951733b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: lg3.zhujicn2.com}}
-  - {name: 🇫🇷 FR 法国(youtube阿伟科技), server: 141.101.114.20, port: 443, type: vmess, uuid: 07a63fe3-8a46-4f89-b548-9151c61b9dc8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: v2ray1.zhujicn2.com}}
-  - {name: 🇩🇪 _DE_德国 2, server: 172.64.155.200, port: 443, type: vmess, uuid: a8030afd-812a-4afe-a766-9c76ff3eddd4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: lg4.zhujicn2.com}}
-  - {name: 🇺🇸 US 美国(yudou66.com 玉豆免费节点), server: 141.101.115.150, port: 443, type: vmess, uuid: bf4619e4-01dc-48ca-be08-0976b54968ce, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: lg5.zhujicn2.com}}
-  - {name: 🇸🇬 新加坡(油管:破解资源君2.0), server: 139.99.91.95, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false}
-  - {name: 🇺🇸 US 美国(youtube阿伟科技), server: 141.101.115.2, port: 443, type: vmess, uuid: a5ba8b2b-8fc5-4521-a35e-9281be61c1c3, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: lg1.zhujicn2.com}}
-  - {name: 亚洲(油管:破解资源君2.0), server: 4.hk.zz.xxxxx.x-t-fuckword.network, port: 36676, type: vmess, uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 US 美国(yudou66.com 玉豆免费节点) 2, server: 172.64.153.150, port: 443, type: vmess, uuid: bf4619e4-01dc-48ca-be08-0976b54968ce, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: lg5.zhujicn2.com}}
-  - {name: 🇺🇸 US 美国(yudou66.com 玉豆免费节点) 3, server: 172.64.154.150, port: 443, type: vmess, uuid: bf4619e4-01dc-48ca-be08-0976b54968ce, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: lg5.zhujicn2.com}}
-  - {name: 爱沙尼亚(youtube阿伟科技)_2油管阿伟科技4, server: ee.oppo.quest, port: 80, type: vmess, uuid: f9247df4-02d5-4b31-acc5-4022652c5953, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /aries, ws-headers: {Host: ee.oppo.quest}}
-  - {name: 🇺🇸 US 美国(youtube阿伟科技) 2, server: 141.101.114.2, port: 443, type: vmess, uuid: 105c635f-918d-4b2a-8c9d-d5426e94eb4b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: lg2.zhujicn2.com}}
-  - {name: 巴基斯坦(youtube阿伟科技)油管阿伟科技6, server: 210.75.24.222, port: 443, type: vmess, uuid: a612b67f-a79b-4a71-a82b-a46906752023, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /408, ws-headers: {Host: amdkr.ptuu.ga}}
-  - {name: 🇺🇸 US 美国(yudou66.com 玉豆免费节点) 4, server: 172.64.155.100, port: 443, type: vmess, uuid: 6e9217de-ad7e-4a67-bd17-a6dca951733b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: lg3.zhujicn2.com}}
-  - {name: 🇺🇸 US 美国(yudou66.com 玉豆免费节点) 5, server: 172.64.154.200, port: 443, type: vmess, uuid: a8030afd-812a-4afe-a766-9c76ff3eddd4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: lg4.zhujicn2.com}}
-  - {name: 🇰🇷 韩国c(中转)_油管阿伟科技35, server: zhongzhuan.yongyevpn.com, port: 43632, type: vmess, uuid: 064f68c7-9245-4f27-9d2f-47a630aa3103, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国(yudou66.com 玉豆免费节点) 2, server: 104.16.85.20, port: 80, type: vmess, uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /sshkit/2136177093/631ed45675ad7/, ws-headers: {Host: sg4-v2ray.sshkit.org}}
-  - {name: 🇺🇸 美国(yudou66.com 玉豆免费节点) 3, server: 198.41.212.2, port: 443, type: vmess, uuid: 07a63fe3-8a46-4f89-b548-9151c61b9dc8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: v2ray1.zhujicn2.com}}
-  - {name: 🇺🇸 US 美国(yudou66.com 玉豆免费节点) 6, server: 172.64.153.100, port: 443, type: vmess, uuid: 6e9217de-ad7e-4a67-bd17-a6dca951733b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: lg3.zhujicn2.com}}
-  - {name: 🇺🇸 US 美国(yudou66.com 玉豆免费节点) 7, server: 172.64.153.200, port: 443, type: vmess, uuid: a8030afd-812a-4afe-a766-9c76ff3eddd4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: lg4.zhujicn2.com}}
-  - {name: 🇺🇸 美国(yudou66.com 玉豆免费节点) 4, server: 20.210.122.21, port: 443, type: ss, cipher: aes-256-gcm, password: 233blog.com}
-  - {name: 🇭🇰 香港(油管:破解资源君2.0), server: 3.sg.zz.xxxxx.x-t-fuckword.network, port: 36679, type: vmess, uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国(yudou66.com 玉豆免费节点) 5, server: shopify.com, port: 80, type: vmess, uuid: 4397d066-f753-4300-e7ed-44797ddfcd24, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /aries, ws-headers: {Host: linode.cloudflare.quest}}
-  - {name: 🇸🇬 新加坡(油管:破解资源君2.0) 2, server: 3.sg.zz.xxxxx.x-t-fuckword.network, port: 36679, type: vmess, uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国(油管:破解资源君2.0), server: 141.101.114.80, port: 443, type: vmess, uuid: 2b61c372-ba2a-4cec-b222-42a4da3aefb7, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: v2ray1.zhujicn2.org}}
-  - {name: 🇫🇷 _FR_法国, server: PL.nexitally.xyz, port: 443, type: vmess, uuid: 54c6c823-4957-4c6c-b10c-359bc51f7cc3, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /a54e284cb6/, ws-headers: {Host: PL.nexitally.xyz}}
-  - {name: 🇺🇸 US 美国(yudou66.com 玉豆免费节点) 8, server: 172.64.154.155, port: 443, type: vmess, uuid: bf4619e4-01dc-48ca-be08-0976b54968ce, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: lg5.zhujicn2.com}}
+  - {name: 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 9 2 2, server: 141.101.114.150, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: clash6.ssr-free.xyz}}
+  - {name: 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 12 3, server: 198.41.203.5, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: lg30.cfcdn3.xyz}}
+  - {name: Youtube顺丰资源, server: 141.101.114.20, port: 443, type: vmess, uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: clash1.trump2023.net}}
+  - {name: 🇺🇸 Youtube顺丰资源  - 美国PacificRack机房 12, server: cdn.chigua.tk, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /vmess, ws-headers: {Host: v2.chigua.tk}}
+  - {name: 🇫🇷 Youtube顺丰资源 法国, server: 152.228.191.232, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: lg30.cfcdn3.xyz}}
+  - {name: 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 14 2, server: 172.64.152.150, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: clash6.ssr-free.xyz}}
+  - {name: 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 8, server: 141.101.114.102, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: clash6.ssr-free.xyz}}
+  - {name: 🇺🇸 Youtube顺丰资源  - 美国加利福尼亚州圣克拉拉阿里云 13, server: 47.88.52.220, port: 80, type: vmess, uuid: c9fe8359-5878-4413-c80e-3ffeabc47b02, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: "/?ed=2048", ws-headers: {Host: w.800876.xyz}}
+  - {name: 🇲🇴 Youtube顺丰资源  - 澳门澳门电讯 28, server: 45.64.22.55, port: 443, type: vmess, uuid: c13be7b9-bb72-4424-bb2f-00c468f4f282, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: w.800876.xyz}}
+  - {name: 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 16, server: 141.101.115.136, port: 443, type: vmess, uuid: fcfaec91-6096-44d8-956c-7868d9e874b1, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: lg1.cfcdn1.xyz}}
+  - {name: 🇭🇰 Youtube顺丰资源  - 香港电讯盈科有限公司 11, server: 219.76.13.180, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: clash6.ssr-free.xyz}}
+  - {name: 🇭🇰 Youtube顺丰资源 香港 2 3, server: 167.179.32.53, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: lg30.cfcdn3.xyz}}
+  - {name: 🇺🇸 Youtube顺丰资源 美国 2 2 2 2, server: 128.14.140.254, port: 443, type: vmess, uuid: 0479eb9d-999d-4bff-ae3f-4f7cc440ce46, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: v2ray2.ssr-free2.xyz}}
+  - {name: 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 14, server: 141.101.115.20, port: 443, type: vmess, uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: clash1.trump2023.net}}
+  - {name: 🇲🇴 Youtube顺丰资源  - 澳门澳门电讯 6, server: 45.64.22.6, port: 443, type: vmess, uuid: 1f4322e1-0e7e-4af2-cc09-84666ac15616, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: w1.800876.xyz}}
+  - {name: Youtube顺丰资源 _🏁ZZ-🇩🇪DE_1276, server: 198.41.212.150, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: clash6.ssr-free.xyz}}
+  - {name: 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 20, server: 141.101.114.120, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: lg30.cfcdn3.xyz}}
+  - {name: 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 5 2, server: 141.101.115.120, port: 443, type: vmess, uuid: 33aa57df-1c93-4318-9fce-e850437ee781, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: lg1.cfcdn3.xyz}}
+  - {name: 🇺🇸 Youtube顺丰资源  - 美国PacificRack机房 10, server: 66.212.20.3, port: 443, type: vmess, uuid: 0479eb9d-999d-4bff-ae3f-4f7cc440ce46, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: v2ray2.ssr-free2.xyz}}
+  - {name: 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 12 2, server: 172.64.153.150, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: clash6.ssr-free.xyz}}
+  - {name: Youtube顺丰资源  3, server: 141.101.114.100, port: 443, type: vmess, uuid: 267a9f38-40d8-4ed6-ab58-cafc67e9c933, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /VHONOFZ3, ws-headers: {Host: lg1.cfcdn2.xyz}}
+  - {name: 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 8 2, server: 198.41.203.4, port: 443, type: vmess, uuid: fcfaec91-6096-44d8-956c-7868d9e874b1, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: lg1.cfcdn1.xyz}}
+  - {name: 🇺🇸 Youtube顺丰资源  - 美国加利福尼亚州圣克拉拉阿里云 34, server: 47.88.52.220, port: 80, type: vmess, uuid: c9fe8359-5878-4413-c80e-3ffeabc47b02, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: w.800876.xyz}}
+  - {name: 🇺🇸 Youtube顺丰资源 美国, server: 172.64.153.155, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: clash6.ssr-free.xyz}}
+  - {name: 🇺🇸 Youtube顺丰资源  - 美国加利福尼亚州洛杉矶Zenlayer数据中心 22, server: 128.14.162.48, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: clash6.ssr-free.xyz}}
+  - {name: 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 20 2, server: 141.101.114.100, port: 443, type: vmess, uuid: 4679f00e-90ce-430d-9714-6a19367ba112, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: v2ray1.zhujicn2.org}}
+  - {name: 🇭🇰 Youtube顺丰资源 香港, server: 159.100.206.88, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: lg30.cfcdn3.xyz}}
+  - {name: 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 24, server: 141.101.115.121, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: lg30.cfcdn3.xyz}}
+  - {name: 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 32, server: 198.41.212.145, port: 443, type: vmess, uuid: 33aa57df-1c93-4318-9fce-e850437ee781, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: lg1.cfcdn3.xyz}}
+  - {name: 🇸🇪 Youtube顺丰资源  - 瑞典Oracle Corporation 4, server: suzhihan.eu.org, port: 443, type: vmess, uuid: 0b873cff-11ab-4716-c41a-04f886135091, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /roewesu, ws-headers: {Host: suzhihan.eu.org}}
+  - {name: 🇺🇸 US 美国(youtube阿伟科技), server: 139.99.236.163, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: lg30.cfcdn3.xyz}}
+  - {name: Youtube顺丰资源 _🏁ZZ-🇩🇪DE_1411, server: 141.101.114.120, port: 443, type: vmess, uuid: 33aa57df-1c93-4318-9fce-e850437ee781, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: lg1.cfcdn3.xyz}}
+  - {name: 🇺🇸 Youtube顺丰资源  - 美国惠普公司 23, server: 15.235.147.186, port: 80, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /sshkit/Ertusg86/635014638c264/, ws-headers: {Host: 15.235.147.186}}
+  - {name: Youtube顺丰资源++-+海南省海口市电信+1, server: hnt.cndns.shop, port: 27766, type: ss, cipher: chacha20-ietf-poly1305, password: 31347057-7af5-4562-b912-f1c217c4c160}
+  - {name: 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 7, server: 198.41.203.3, port: 443, type: vmess, uuid: 33aa57df-1c93-4318-9fce-e850437ee781, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: lg1.cfcdn3.xyz}}
+  - {name: 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 19 2, server: 141.101.115.100, port: 443, type: vmess, uuid: 267a9f38-40d8-4ed6-ab58-cafc67e9c933, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /VHONOFZ3, ws-headers: {Host: lg1.cfcdn2.xyz}}
+  - {name: 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 17, server: 141.101.115.120, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: lg30.cfcdn3.xyz}}
+  - {name: 🇫🇷 Youtube顺丰资源 法国 2 2, server: 198.244.148.214, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: lg30.cfcdn3.xyz}}
+  - {name: 🇲🇴 Youtube顺丰资源  - 澳门澳门电讯 13, server: 45.64.22.55, port: 443, type: vmess, uuid: d217db0c-0faa-4270-ea38-e6093d9774e3, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: h2.800876.xyz}}
+  - {name: 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 9, server: 198.41.212.100, port: 443, type: vmess, uuid: 33aa57df-1c93-4318-9fce-e850437ee781, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: lg1.cfcdn3.xyz}}
+  - {name: 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 11 5, server: 198.41.212.155, port: 443, type: vmess, uuid: 267a9f38-40d8-4ed6-ab58-cafc67e9c933, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /VHONOFZ3, ws-headers: {Host: lg1.cfcdn2.xyz}}
+  - {name: 🇫🇷 Youtube顺丰资源 法国 3, server: 51.75.70.34, port: 443, type: vmess, uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: clash1.trump2023.net}}
+  - {name: 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 12 2 2, server: 198.41.203.1, port: 443, type: vmess, uuid: 267a9f38-40d8-4ed6-ab58-cafc67e9c933, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /VHONOFZ3, ws-headers: {Host: lg1.cfcdn2.xyz}}
+  - {name: 🇺🇸 Youtube顺丰资源  - 美国惠普公司 26, server: sg-lb.vhax.net, port: 80, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /sshkit/Ertusg86/635014638c264/, ws-headers: {Host: zoom.us}}
+  - {name: 🇦🇺 Youtube顺丰资源  - 澳大利亚悉尼OVH 21, server: 139.99.135.182, port: 80, type: vmess, uuid: e7df0582-d168-43af-bfff-90c25af7d085, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /vmess, ws-headers: {Host: 139.99.135.182}}
+  - {name: 🇺🇸 Youtube顺丰资源  - 美国CloudFlare公司CDN节点 2, server: techplanet.today, port: 2083, type: vmess, uuid: 8a21b84d-183e-450d-ec82-8d45855d8180, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: xui.mycf.ml}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇰🇷 KR 韩国(yudou66.com 玉豆免费节点)
-      - 🇺🇸 美国(yudou66.com 玉豆免费节点)
-      - 🇩🇪 _DE_德国
-      - 🇫🇷 FR 法国(youtube阿伟科技)
-      - 🇩🇪 _DE_德国 2
-      - 🇺🇸 US 美国(yudou66.com 玉豆免费节点)
-      - 🇸🇬 新加坡(油管:破解资源君2.0)
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 9 2 2
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 12 3
+      - Youtube顺丰资源
+      - 🇺🇸 Youtube顺丰资源  - 美国PacificRack机房 12
+      - 🇫🇷 Youtube顺丰资源 法国
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 14 2
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 8
+      - 🇺🇸 Youtube顺丰资源  - 美国加利福尼亚州圣克拉拉阿里云 13
+      - 🇲🇴 Youtube顺丰资源  - 澳门澳门电讯 28
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 16
+      - 🇭🇰 Youtube顺丰资源  - 香港电讯盈科有限公司 11
+      - 🇭🇰 Youtube顺丰资源 香港 2 3
+      - 🇺🇸 Youtube顺丰资源 美国 2 2 2 2
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 14
+      - 🇲🇴 Youtube顺丰资源  - 澳门澳门电讯 6
+      - Youtube顺丰资源 _🏁ZZ-🇩🇪DE_1276
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 20
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 5 2
+      - 🇺🇸 Youtube顺丰资源  - 美国PacificRack机房 10
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 12 2
+      - Youtube顺丰资源  3
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 8 2
+      - 🇺🇸 Youtube顺丰资源  - 美国加利福尼亚州圣克拉拉阿里云 34
+      - 🇺🇸 Youtube顺丰资源 美国
+      - 🇺🇸 Youtube顺丰资源  - 美国加利福尼亚州洛杉矶Zenlayer数据中心 22
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 20 2
+      - 🇭🇰 Youtube顺丰资源 香港
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 24
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 32
+      - 🇸🇪 Youtube顺丰资源  - 瑞典Oracle Corporation 4
       - 🇺🇸 US 美国(youtube阿伟科技)
-      - 亚洲(油管:破解资源君2.0)
-      - 🇺🇸 US 美国(yudou66.com 玉豆免费节点) 2
-      - 🇺🇸 US 美国(yudou66.com 玉豆免费节点) 3
-      - 爱沙尼亚(youtube阿伟科技)_2油管阿伟科技4
-      - 🇺🇸 US 美国(youtube阿伟科技) 2
-      - 巴基斯坦(youtube阿伟科技)油管阿伟科技6
-      - 🇺🇸 US 美国(yudou66.com 玉豆免费节点) 4
-      - 🇺🇸 US 美国(yudou66.com 玉豆免费节点) 5
-      - 🇰🇷 韩国c(中转)_油管阿伟科技35
-      - 🇺🇸 美国(yudou66.com 玉豆免费节点) 2
-      - 🇺🇸 美国(yudou66.com 玉豆免费节点) 3
-      - 🇺🇸 US 美国(yudou66.com 玉豆免费节点) 6
-      - 🇺🇸 US 美国(yudou66.com 玉豆免费节点) 7
-      - 🇺🇸 美国(yudou66.com 玉豆免费节点) 4
-      - 🇭🇰 香港(油管:破解资源君2.0)
-      - 🇺🇸 美国(yudou66.com 玉豆免费节点) 5
-      - 🇸🇬 新加坡(油管:破解资源君2.0) 2
-      - 🇺🇸 美国(油管:破解资源君2.0)
-      - 🇫🇷 _FR_法国
-      - 🇺🇸 US 美国(yudou66.com 玉豆免费节点) 8
+      - Youtube顺丰资源 _🏁ZZ-🇩🇪DE_1411
+      - 🇺🇸 Youtube顺丰资源  - 美国惠普公司 23
+      - Youtube顺丰资源++-+海南省海口市电信+1
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 7
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 19 2
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 17
+      - 🇫🇷 Youtube顺丰资源 法国 2 2
+      - 🇲🇴 Youtube顺丰资源  - 澳门澳门电讯 13
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 9
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 11 5
+      - 🇫🇷 Youtube顺丰资源 法国 3
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 12 2 2
+      - 🇺🇸 Youtube顺丰资源  - 美国惠普公司 26
+      - 🇦🇺 Youtube顺丰资源  - 澳大利亚悉尼OVH 21
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare公司CDN节点 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇰🇷 KR 韩国(yudou66.com 玉豆免费节点)
-      - 🇺🇸 美国(yudou66.com 玉豆免费节点)
-      - 🇩🇪 _DE_德国
-      - 🇫🇷 FR 法国(youtube阿伟科技)
-      - 🇩🇪 _DE_德国 2
-      - 🇺🇸 US 美国(yudou66.com 玉豆免费节点)
-      - 🇸🇬 新加坡(油管:破解资源君2.0)
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 9 2 2
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 12 3
+      - Youtube顺丰资源
+      - 🇺🇸 Youtube顺丰资源  - 美国PacificRack机房 12
+      - 🇫🇷 Youtube顺丰资源 法国
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 14 2
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 8
+      - 🇺🇸 Youtube顺丰资源  - 美国加利福尼亚州圣克拉拉阿里云 13
+      - 🇲🇴 Youtube顺丰资源  - 澳门澳门电讯 28
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 16
+      - 🇭🇰 Youtube顺丰资源  - 香港电讯盈科有限公司 11
+      - 🇭🇰 Youtube顺丰资源 香港 2 3
+      - 🇺🇸 Youtube顺丰资源 美国 2 2 2 2
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 14
+      - 🇲🇴 Youtube顺丰资源  - 澳门澳门电讯 6
+      - Youtube顺丰资源 _🏁ZZ-🇩🇪DE_1276
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 20
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 5 2
+      - 🇺🇸 Youtube顺丰资源  - 美国PacificRack机房 10
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 12 2
+      - Youtube顺丰资源  3
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 8 2
+      - 🇺🇸 Youtube顺丰资源  - 美国加利福尼亚州圣克拉拉阿里云 34
+      - 🇺🇸 Youtube顺丰资源 美国
+      - 🇺🇸 Youtube顺丰资源  - 美国加利福尼亚州洛杉矶Zenlayer数据中心 22
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 20 2
+      - 🇭🇰 Youtube顺丰资源 香港
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 24
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 32
+      - 🇸🇪 Youtube顺丰资源  - 瑞典Oracle Corporation 4
       - 🇺🇸 US 美国(youtube阿伟科技)
-      - 亚洲(油管:破解资源君2.0)
-      - 🇺🇸 US 美国(yudou66.com 玉豆免费节点) 2
-      - 🇺🇸 US 美国(yudou66.com 玉豆免费节点) 3
-      - 爱沙尼亚(youtube阿伟科技)_2油管阿伟科技4
-      - 🇺🇸 US 美国(youtube阿伟科技) 2
-      - 巴基斯坦(youtube阿伟科技)油管阿伟科技6
-      - 🇺🇸 US 美国(yudou66.com 玉豆免费节点) 4
-      - 🇺🇸 US 美国(yudou66.com 玉豆免费节点) 5
-      - 🇰🇷 韩国c(中转)_油管阿伟科技35
-      - 🇺🇸 美国(yudou66.com 玉豆免费节点) 2
-      - 🇺🇸 美国(yudou66.com 玉豆免费节点) 3
-      - 🇺🇸 US 美国(yudou66.com 玉豆免费节点) 6
-      - 🇺🇸 US 美国(yudou66.com 玉豆免费节点) 7
-      - 🇺🇸 美国(yudou66.com 玉豆免费节点) 4
-      - 🇭🇰 香港(油管:破解资源君2.0)
-      - 🇺🇸 美国(yudou66.com 玉豆免费节点) 5
-      - 🇸🇬 新加坡(油管:破解资源君2.0) 2
-      - 🇺🇸 美国(油管:破解资源君2.0)
-      - 🇫🇷 _FR_法国
-      - 🇺🇸 US 美国(yudou66.com 玉豆免费节点) 8
+      - Youtube顺丰资源 _🏁ZZ-🇩🇪DE_1411
+      - 🇺🇸 Youtube顺丰资源  - 美国惠普公司 23
+      - Youtube顺丰资源++-+海南省海口市电信+1
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 7
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 19 2
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 17
+      - 🇫🇷 Youtube顺丰资源 法国 2 2
+      - 🇲🇴 Youtube顺丰资源  - 澳门澳门电讯 13
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 9
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 11 5
+      - 🇫🇷 Youtube顺丰资源 法国 3
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 12 2 2
+      - 🇺🇸 Youtube顺丰资源  - 美国惠普公司 26
+      - 🇦🇺 Youtube顺丰资源  - 澳大利亚悉尼OVH 21
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare公司CDN节点 2
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇰🇷 KR 韩国(yudou66.com 玉豆免费节点)
-      - 🇺🇸 美国(yudou66.com 玉豆免费节点)
-      - 🇩🇪 _DE_德国
-      - 🇫🇷 FR 法国(youtube阿伟科技)
-      - 🇩🇪 _DE_德国 2
-      - 🇺🇸 US 美国(yudou66.com 玉豆免费节点)
-      - 🇸🇬 新加坡(油管:破解资源君2.0)
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 9 2 2
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 12 3
+      - Youtube顺丰资源
+      - 🇺🇸 Youtube顺丰资源  - 美国PacificRack机房 12
+      - 🇫🇷 Youtube顺丰资源 法国
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 14 2
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 8
+      - 🇺🇸 Youtube顺丰资源  - 美国加利福尼亚州圣克拉拉阿里云 13
+      - 🇲🇴 Youtube顺丰资源  - 澳门澳门电讯 28
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 16
+      - 🇭🇰 Youtube顺丰资源  - 香港电讯盈科有限公司 11
+      - 🇭🇰 Youtube顺丰资源 香港 2 3
+      - 🇺🇸 Youtube顺丰资源 美国 2 2 2 2
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 14
+      - 🇲🇴 Youtube顺丰资源  - 澳门澳门电讯 6
+      - Youtube顺丰资源 _🏁ZZ-🇩🇪DE_1276
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 20
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 5 2
+      - 🇺🇸 Youtube顺丰资源  - 美国PacificRack机房 10
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 12 2
+      - Youtube顺丰资源  3
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 8 2
+      - 🇺🇸 Youtube顺丰资源  - 美国加利福尼亚州圣克拉拉阿里云 34
+      - 🇺🇸 Youtube顺丰资源 美国
+      - 🇺🇸 Youtube顺丰资源  - 美国加利福尼亚州洛杉矶Zenlayer数据中心 22
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 20 2
+      - 🇭🇰 Youtube顺丰资源 香港
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 24
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 32
+      - 🇸🇪 Youtube顺丰资源  - 瑞典Oracle Corporation 4
       - 🇺🇸 US 美国(youtube阿伟科技)
-      - 亚洲(油管:破解资源君2.0)
-      - 🇺🇸 US 美国(yudou66.com 玉豆免费节点) 2
-      - 🇺🇸 US 美国(yudou66.com 玉豆免费节点) 3
-      - 爱沙尼亚(youtube阿伟科技)_2油管阿伟科技4
-      - 🇺🇸 US 美国(youtube阿伟科技) 2
-      - 巴基斯坦(youtube阿伟科技)油管阿伟科技6
-      - 🇺🇸 US 美国(yudou66.com 玉豆免费节点) 4
-      - 🇺🇸 US 美国(yudou66.com 玉豆免费节点) 5
-      - 🇰🇷 韩国c(中转)_油管阿伟科技35
-      - 🇺🇸 美国(yudou66.com 玉豆免费节点) 2
-      - 🇺🇸 美国(yudou66.com 玉豆免费节点) 3
-      - 🇺🇸 US 美国(yudou66.com 玉豆免费节点) 6
-      - 🇺🇸 US 美国(yudou66.com 玉豆免费节点) 7
-      - 🇺🇸 美国(yudou66.com 玉豆免费节点) 4
-      - 🇭🇰 香港(油管:破解资源君2.0)
-      - 🇺🇸 美国(yudou66.com 玉豆免费节点) 5
-      - 🇸🇬 新加坡(油管:破解资源君2.0) 2
-      - 🇺🇸 美国(油管:破解资源君2.0)
-      - 🇫🇷 _FR_法国
-      - 🇺🇸 US 美国(yudou66.com 玉豆免费节点) 8
+      - Youtube顺丰资源 _🏁ZZ-🇩🇪DE_1411
+      - 🇺🇸 Youtube顺丰资源  - 美国惠普公司 23
+      - Youtube顺丰资源++-+海南省海口市电信+1
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 7
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 19 2
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 17
+      - 🇫🇷 Youtube顺丰资源 法国 2 2
+      - 🇲🇴 Youtube顺丰资源  - 澳门澳门电讯 13
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 9
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 11 5
+      - 🇫🇷 Youtube顺丰资源 法国 3
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 12 2 2
+      - 🇺🇸 Youtube顺丰资源  - 美国惠普公司 26
+      - 🇦🇺 Youtube顺丰资源  - 澳大利亚悉尼OVH 21
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare公司CDN节点 2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇰🇷 KR 韩国(yudou66.com 玉豆免费节点)
-      - 🇺🇸 美国(yudou66.com 玉豆免费节点)
-      - 🇩🇪 _DE_德国
-      - 🇫🇷 FR 法国(youtube阿伟科技)
-      - 🇩🇪 _DE_德国 2
-      - 🇺🇸 US 美国(yudou66.com 玉豆免费节点)
-      - 🇸🇬 新加坡(油管:破解资源君2.0)
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 9 2 2
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 12 3
+      - Youtube顺丰资源
+      - 🇺🇸 Youtube顺丰资源  - 美国PacificRack机房 12
+      - 🇫🇷 Youtube顺丰资源 法国
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 14 2
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 8
+      - 🇺🇸 Youtube顺丰资源  - 美国加利福尼亚州圣克拉拉阿里云 13
+      - 🇲🇴 Youtube顺丰资源  - 澳门澳门电讯 28
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 16
+      - 🇭🇰 Youtube顺丰资源  - 香港电讯盈科有限公司 11
+      - 🇭🇰 Youtube顺丰资源 香港 2 3
+      - 🇺🇸 Youtube顺丰资源 美国 2 2 2 2
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 14
+      - 🇲🇴 Youtube顺丰资源  - 澳门澳门电讯 6
+      - Youtube顺丰资源 _🏁ZZ-🇩🇪DE_1276
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 20
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 5 2
+      - 🇺🇸 Youtube顺丰资源  - 美国PacificRack机房 10
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 12 2
+      - Youtube顺丰资源  3
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 8 2
+      - 🇺🇸 Youtube顺丰资源  - 美国加利福尼亚州圣克拉拉阿里云 34
+      - 🇺🇸 Youtube顺丰资源 美国
+      - 🇺🇸 Youtube顺丰资源  - 美国加利福尼亚州洛杉矶Zenlayer数据中心 22
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 20 2
+      - 🇭🇰 Youtube顺丰资源 香港
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 24
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 32
+      - 🇸🇪 Youtube顺丰资源  - 瑞典Oracle Corporation 4
       - 🇺🇸 US 美国(youtube阿伟科技)
-      - 亚洲(油管:破解资源君2.0)
-      - 🇺🇸 US 美国(yudou66.com 玉豆免费节点) 2
-      - 🇺🇸 US 美国(yudou66.com 玉豆免费节点) 3
-      - 爱沙尼亚(youtube阿伟科技)_2油管阿伟科技4
-      - 🇺🇸 US 美国(youtube阿伟科技) 2
-      - 巴基斯坦(youtube阿伟科技)油管阿伟科技6
-      - 🇺🇸 US 美国(yudou66.com 玉豆免费节点) 4
-      - 🇺🇸 US 美国(yudou66.com 玉豆免费节点) 5
-      - 🇰🇷 韩国c(中转)_油管阿伟科技35
-      - 🇺🇸 美国(yudou66.com 玉豆免费节点) 2
-      - 🇺🇸 美国(yudou66.com 玉豆免费节点) 3
-      - 🇺🇸 US 美国(yudou66.com 玉豆免费节点) 6
-      - 🇺🇸 US 美国(yudou66.com 玉豆免费节点) 7
-      - 🇺🇸 美国(yudou66.com 玉豆免费节点) 4
-      - 🇭🇰 香港(油管:破解资源君2.0)
-      - 🇺🇸 美国(yudou66.com 玉豆免费节点) 5
-      - 🇸🇬 新加坡(油管:破解资源君2.0) 2
-      - 🇺🇸 美国(油管:破解资源君2.0)
-      - 🇫🇷 _FR_法国
-      - 🇺🇸 US 美国(yudou66.com 玉豆免费节点) 8
+      - Youtube顺丰资源 _🏁ZZ-🇩🇪DE_1411
+      - 🇺🇸 Youtube顺丰资源  - 美国惠普公司 23
+      - Youtube顺丰资源++-+海南省海口市电信+1
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 7
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 19 2
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 17
+      - 🇫🇷 Youtube顺丰资源 法国 2 2
+      - 🇲🇴 Youtube顺丰资源  - 澳门澳门电讯 13
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 9
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 11 5
+      - 🇫🇷 Youtube顺丰资源 法国 3
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 12 2 2
+      - 🇺🇸 Youtube顺丰资源  - 美国惠普公司 26
+      - 🇦🇺 Youtube顺丰资源  - 澳大利亚悉尼OVH 21
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare公司CDN节点 2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇰🇷 KR 韩国(yudou66.com 玉豆免费节点)
-      - 🇺🇸 美国(yudou66.com 玉豆免费节点)
-      - 🇩🇪 _DE_德国
-      - 🇫🇷 FR 法国(youtube阿伟科技)
-      - 🇩🇪 _DE_德国 2
-      - 🇺🇸 US 美国(yudou66.com 玉豆免费节点)
-      - 🇸🇬 新加坡(油管:破解资源君2.0)
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 9 2 2
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 12 3
+      - Youtube顺丰资源
+      - 🇺🇸 Youtube顺丰资源  - 美国PacificRack机房 12
+      - 🇫🇷 Youtube顺丰资源 法国
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 14 2
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 8
+      - 🇺🇸 Youtube顺丰资源  - 美国加利福尼亚州圣克拉拉阿里云 13
+      - 🇲🇴 Youtube顺丰资源  - 澳门澳门电讯 28
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 16
+      - 🇭🇰 Youtube顺丰资源  - 香港电讯盈科有限公司 11
+      - 🇭🇰 Youtube顺丰资源 香港 2 3
+      - 🇺🇸 Youtube顺丰资源 美国 2 2 2 2
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 14
+      - 🇲🇴 Youtube顺丰资源  - 澳门澳门电讯 6
+      - Youtube顺丰资源 _🏁ZZ-🇩🇪DE_1276
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 20
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 5 2
+      - 🇺🇸 Youtube顺丰资源  - 美国PacificRack机房 10
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 12 2
+      - Youtube顺丰资源  3
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 8 2
+      - 🇺🇸 Youtube顺丰资源  - 美国加利福尼亚州圣克拉拉阿里云 34
+      - 🇺🇸 Youtube顺丰资源 美国
+      - 🇺🇸 Youtube顺丰资源  - 美国加利福尼亚州洛杉矶Zenlayer数据中心 22
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 20 2
+      - 🇭🇰 Youtube顺丰资源 香港
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 24
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 32
+      - 🇸🇪 Youtube顺丰资源  - 瑞典Oracle Corporation 4
       - 🇺🇸 US 美国(youtube阿伟科技)
-      - 亚洲(油管:破解资源君2.0)
-      - 🇺🇸 US 美国(yudou66.com 玉豆免费节点) 2
-      - 🇺🇸 US 美国(yudou66.com 玉豆免费节点) 3
-      - 爱沙尼亚(youtube阿伟科技)_2油管阿伟科技4
-      - 🇺🇸 US 美国(youtube阿伟科技) 2
-      - 巴基斯坦(youtube阿伟科技)油管阿伟科技6
-      - 🇺🇸 US 美国(yudou66.com 玉豆免费节点) 4
-      - 🇺🇸 US 美国(yudou66.com 玉豆免费节点) 5
-      - 🇰🇷 韩国c(中转)_油管阿伟科技35
-      - 🇺🇸 美国(yudou66.com 玉豆免费节点) 2
-      - 🇺🇸 美国(yudou66.com 玉豆免费节点) 3
-      - 🇺🇸 US 美国(yudou66.com 玉豆免费节点) 6
-      - 🇺🇸 US 美国(yudou66.com 玉豆免费节点) 7
-      - 🇺🇸 美国(yudou66.com 玉豆免费节点) 4
-      - 🇭🇰 香港(油管:破解资源君2.0)
-      - 🇺🇸 美国(yudou66.com 玉豆免费节点) 5
-      - 🇸🇬 新加坡(油管:破解资源君2.0) 2
-      - 🇺🇸 美国(油管:破解资源君2.0)
-      - 🇫🇷 _FR_法国
-      - 🇺🇸 US 美国(yudou66.com 玉豆免费节点) 8
+      - Youtube顺丰资源 _🏁ZZ-🇩🇪DE_1411
+      - 🇺🇸 Youtube顺丰资源  - 美国惠普公司 23
+      - Youtube顺丰资源++-+海南省海口市电信+1
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 7
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 19 2
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 17
+      - 🇫🇷 Youtube顺丰资源 法国 2 2
+      - 🇲🇴 Youtube顺丰资源  - 澳门澳门电讯 13
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 9
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 11 5
+      - 🇫🇷 Youtube顺丰资源 法国 3
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 12 2 2
+      - 🇺🇸 Youtube顺丰资源  - 美国惠普公司 26
+      - 🇦🇺 Youtube顺丰资源  - 澳大利亚悉尼OVH 21
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare公司CDN节点 2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇰🇷 KR 韩国(yudou66.com 玉豆免费节点)
-      - 🇺🇸 美国(yudou66.com 玉豆免费节点)
-      - 🇩🇪 _DE_德国
-      - 🇫🇷 FR 法国(youtube阿伟科技)
-      - 🇩🇪 _DE_德国 2
-      - 🇺🇸 US 美国(yudou66.com 玉豆免费节点)
-      - 🇸🇬 新加坡(油管:破解资源君2.0)
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 9 2 2
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 12 3
+      - Youtube顺丰资源
+      - 🇺🇸 Youtube顺丰资源  - 美国PacificRack机房 12
+      - 🇫🇷 Youtube顺丰资源 法国
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 14 2
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 8
+      - 🇺🇸 Youtube顺丰资源  - 美国加利福尼亚州圣克拉拉阿里云 13
+      - 🇲🇴 Youtube顺丰资源  - 澳门澳门电讯 28
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 16
+      - 🇭🇰 Youtube顺丰资源  - 香港电讯盈科有限公司 11
+      - 🇭🇰 Youtube顺丰资源 香港 2 3
+      - 🇺🇸 Youtube顺丰资源 美国 2 2 2 2
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 14
+      - 🇲🇴 Youtube顺丰资源  - 澳门澳门电讯 6
+      - Youtube顺丰资源 _🏁ZZ-🇩🇪DE_1276
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 20
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 5 2
+      - 🇺🇸 Youtube顺丰资源  - 美国PacificRack机房 10
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 12 2
+      - Youtube顺丰资源  3
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 8 2
+      - 🇺🇸 Youtube顺丰资源  - 美国加利福尼亚州圣克拉拉阿里云 34
+      - 🇺🇸 Youtube顺丰资源 美国
+      - 🇺🇸 Youtube顺丰资源  - 美国加利福尼亚州洛杉矶Zenlayer数据中心 22
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 20 2
+      - 🇭🇰 Youtube顺丰资源 香港
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 24
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 32
+      - 🇸🇪 Youtube顺丰资源  - 瑞典Oracle Corporation 4
       - 🇺🇸 US 美国(youtube阿伟科技)
-      - 亚洲(油管:破解资源君2.0)
-      - 🇺🇸 US 美国(yudou66.com 玉豆免费节点) 2
-      - 🇺🇸 US 美国(yudou66.com 玉豆免费节点) 3
-      - 爱沙尼亚(youtube阿伟科技)_2油管阿伟科技4
-      - 🇺🇸 US 美国(youtube阿伟科技) 2
-      - 巴基斯坦(youtube阿伟科技)油管阿伟科技6
-      - 🇺🇸 US 美国(yudou66.com 玉豆免费节点) 4
-      - 🇺🇸 US 美国(yudou66.com 玉豆免费节点) 5
-      - 🇰🇷 韩国c(中转)_油管阿伟科技35
-      - 🇺🇸 美国(yudou66.com 玉豆免费节点) 2
-      - 🇺🇸 美国(yudou66.com 玉豆免费节点) 3
-      - 🇺🇸 US 美国(yudou66.com 玉豆免费节点) 6
-      - 🇺🇸 US 美国(yudou66.com 玉豆免费节点) 7
-      - 🇺🇸 美国(yudou66.com 玉豆免费节点) 4
-      - 🇭🇰 香港(油管:破解资源君2.0)
-      - 🇺🇸 美国(yudou66.com 玉豆免费节点) 5
-      - 🇸🇬 新加坡(油管:破解资源君2.0) 2
-      - 🇺🇸 美国(油管:破解资源君2.0)
-      - 🇫🇷 _FR_法国
-      - 🇺🇸 US 美国(yudou66.com 玉豆免费节点) 8
+      - Youtube顺丰资源 _🏁ZZ-🇩🇪DE_1411
+      - 🇺🇸 Youtube顺丰资源  - 美国惠普公司 23
+      - Youtube顺丰资源++-+海南省海口市电信+1
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 7
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 19 2
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 17
+      - 🇫🇷 Youtube顺丰资源 法国 2 2
+      - 🇲🇴 Youtube顺丰资源  - 澳门澳门电讯 13
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 9
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 11 5
+      - 🇫🇷 Youtube顺丰资源 法国 3
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 12 2 2
+      - 🇺🇸 Youtube顺丰资源  - 美国惠普公司 26
+      - 🇦🇺 Youtube顺丰资源  - 澳大利亚悉尼OVH 21
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare公司CDN节点 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -256,34 +382,52 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇰🇷 KR 韩国(yudou66.com 玉豆免费节点)
-      - 🇺🇸 美国(yudou66.com 玉豆免费节点)
-      - 🇩🇪 _DE_德国
-      - 🇫🇷 FR 法国(youtube阿伟科技)
-      - 🇩🇪 _DE_德国 2
-      - 🇺🇸 US 美国(yudou66.com 玉豆免费节点)
-      - 🇸🇬 新加坡(油管:破解资源君2.0)
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 9 2 2
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 12 3
+      - Youtube顺丰资源
+      - 🇺🇸 Youtube顺丰资源  - 美国PacificRack机房 12
+      - 🇫🇷 Youtube顺丰资源 法国
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 14 2
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 8
+      - 🇺🇸 Youtube顺丰资源  - 美国加利福尼亚州圣克拉拉阿里云 13
+      - 🇲🇴 Youtube顺丰资源  - 澳门澳门电讯 28
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 16
+      - 🇭🇰 Youtube顺丰资源  - 香港电讯盈科有限公司 11
+      - 🇭🇰 Youtube顺丰资源 香港 2 3
+      - 🇺🇸 Youtube顺丰资源 美国 2 2 2 2
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 14
+      - 🇲🇴 Youtube顺丰资源  - 澳门澳门电讯 6
+      - Youtube顺丰资源 _🏁ZZ-🇩🇪DE_1276
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 20
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 5 2
+      - 🇺🇸 Youtube顺丰资源  - 美国PacificRack机房 10
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 12 2
+      - Youtube顺丰资源  3
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 8 2
+      - 🇺🇸 Youtube顺丰资源  - 美国加利福尼亚州圣克拉拉阿里云 34
+      - 🇺🇸 Youtube顺丰资源 美国
+      - 🇺🇸 Youtube顺丰资源  - 美国加利福尼亚州洛杉矶Zenlayer数据中心 22
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 20 2
+      - 🇭🇰 Youtube顺丰资源 香港
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 24
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 32
+      - 🇸🇪 Youtube顺丰资源  - 瑞典Oracle Corporation 4
       - 🇺🇸 US 美国(youtube阿伟科技)
-      - 亚洲(油管:破解资源君2.0)
-      - 🇺🇸 US 美国(yudou66.com 玉豆免费节点) 2
-      - 🇺🇸 US 美国(yudou66.com 玉豆免费节点) 3
-      - 爱沙尼亚(youtube阿伟科技)_2油管阿伟科技4
-      - 🇺🇸 US 美国(youtube阿伟科技) 2
-      - 巴基斯坦(youtube阿伟科技)油管阿伟科技6
-      - 🇺🇸 US 美国(yudou66.com 玉豆免费节点) 4
-      - 🇺🇸 US 美国(yudou66.com 玉豆免费节点) 5
-      - 🇰🇷 韩国c(中转)_油管阿伟科技35
-      - 🇺🇸 美国(yudou66.com 玉豆免费节点) 2
-      - 🇺🇸 美国(yudou66.com 玉豆免费节点) 3
-      - 🇺🇸 US 美国(yudou66.com 玉豆免费节点) 6
-      - 🇺🇸 US 美国(yudou66.com 玉豆免费节点) 7
-      - 🇺🇸 美国(yudou66.com 玉豆免费节点) 4
-      - 🇭🇰 香港(油管:破解资源君2.0)
-      - 🇺🇸 美国(yudou66.com 玉豆免费节点) 5
-      - 🇸🇬 新加坡(油管:破解资源君2.0) 2
-      - 🇺🇸 美国(油管:破解资源君2.0)
-      - 🇫🇷 _FR_法国
-      - 🇺🇸 US 美国(yudou66.com 玉豆免费节点) 8
+      - Youtube顺丰资源 _🏁ZZ-🇩🇪DE_1411
+      - 🇺🇸 Youtube顺丰资源  - 美国惠普公司 23
+      - Youtube顺丰资源++-+海南省海口市电信+1
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 7
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 19 2
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 17
+      - 🇫🇷 Youtube顺丰资源 法国 2 2
+      - 🇲🇴 Youtube顺丰资源  - 澳门澳门电讯 13
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 9
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 11 5
+      - 🇫🇷 Youtube顺丰资源 法国 3
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare节点 12 2 2
+      - 🇺🇸 Youtube顺丰资源  - 美国惠普公司 26
+      - 🇦🇺 Youtube顺丰资源  - 澳大利亚悉尼OVH 21
+      - 🇺🇸 Youtube顺丰资源  - 美国CloudFlare公司CDN节点 2
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
